@@ -179,6 +179,23 @@
     .ls-coll-title { font-size: 11px; font-weight: 600; color: var(--text); text-align: center; }
     .links-section-pb { padding-bottom: 40px; }
 
+    /* ── OG 링크 카드 ── */
+    .ls-og {
+      display: block; border-radius: 16px; overflow: hidden;
+      background: #fff; border: 1px solid var(--border); text-decoration: none;
+      margin-bottom: 10px;
+    }
+    .ls-og-placeholder {
+      width: 100%; height: 150px;
+      background: linear-gradient(135deg, #F0EDE8 0%, #E0DCD4 100%);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px;
+    }
+    .ls-og-img { width: 100%; height: 150px; object-fit: cover; display: block; }
+    .ls-og-body { padding: 11px 14px 13px; }
+    .ls-og-title { font-size: 13px; font-weight: 600; color: var(--text); line-height: 1.4; margin-bottom: 3px; }
+    .ls-og-domain { font-size: 11px; color: var(--light); }
+
     /* ── 쇼퍼블 사진 ── */
     .shoppable-wrap {
       position: relative; overflow: hidden;
@@ -690,6 +707,9 @@
       <div class="cs-arrow">›</div>
     </div>
 
+    <!-- 코스 탭 패널 -->
+    <div id="tab-course" class="tab-panel on">
+
     <!-- 코스 섹션 (메인 페이지) -->
     <div class="course-card">
       <div class="course-card-pad">
@@ -804,14 +824,17 @@
       </div>
     </div>
 
+    </div><!-- /tab-course -->
+
     <!-- TABS -->
     <div class="page-tabs">
-      <div class="page-tab on" onclick="switchTab('posts')">링크</div>
+      <div class="page-tab on" onclick="switchTab('course')">코스</div>
+      <div class="page-tab" onclick="switchTab('posts')">링크</div>
       <div class="page-tab" onclick="switchTab('products')">필수템</div>
     </div>
 
     <!-- ══ 게시물 탭 ══ -->
-    <div id="tab-posts" class="tab-panel on">
+    <div id="tab-posts" class="tab-panel">
       <div class="links-section">
         <div class="link-blocks">
           <div class="style-tag">썸네일</div>
@@ -858,6 +881,40 @@
               <span class="ls-coll-title">D3 교토</span>
             </a>
           </div>
+
+          <div class="style-tag">링크 미리보기</div>
+          <a class="ls-og" href="https://www.myrealtrip.com/community/posts/31410" target="_blank"
+             data-og-url="https://www.myrealtrip.com/community/posts/31410">
+            <div class="ls-og-placeholder">🌃</div>
+            <div class="ls-og-body">
+              <div class="ls-og-title">오사카 하루카스 300 야경 후기</div>
+              <div class="ls-og-domain">myrealtrip.com</div>
+            </div>
+          </a>
+          <a class="ls-og" href="https://www.myrealtrip.com/community/posts/30793" target="_blank"
+             data-og-url="https://www.myrealtrip.com/community/posts/30793">
+            <div class="ls-og-placeholder">🥩</div>
+            <div class="ls-og-body">
+              <div class="ls-og-title">난바 규카츠 맛집 토미타</div>
+              <div class="ls-og-domain">myrealtrip.com</div>
+            </div>
+          </a>
+          <a class="ls-og" href="https://www.myrealtrip.com/community/posts/31741" target="_blank"
+             data-og-url="https://www.myrealtrip.com/community/posts/31741">
+            <div class="ls-og-placeholder">🍵</div>
+            <div class="ls-og-body">
+              <div class="ls-og-title">교토 호지차 티라미수 맛집</div>
+              <div class="ls-og-domain">myrealtrip.com</div>
+            </div>
+          </a>
+          <a class="ls-og" href="https://www.myrealtrip.com/community/posts/31492" target="_blank"
+             data-og-url="https://www.myrealtrip.com/community/posts/31492">
+            <div class="ls-og-placeholder">🍡</div>
+            <div class="ls-og-body">
+              <div class="ls-og-title">교토 미소당고 맛집 오하기노 탄바야</div>
+              <div class="ls-og-domain">myrealtrip.com</div>
+            </div>
+          </a>
 
         </div>
       </div>
@@ -1031,14 +1088,44 @@ function toggleCourseMap() {
 }
 
 // ─── TABS ────────────────────────────────────────
+let ogCardsLoaded = false;
 function switchTab(name) {
   document.querySelectorAll('.page-tab').forEach((t,i) => {
-    const tabs = ['posts','products'];
+    const tabs = ['course','posts','products'];
     t.classList.toggle('on', tabs[i] === name);
   });
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('on'));
   document.getElementById(`tab-${name}`).classList.add('on');
   document.getElementById('main-page').scrollTop = 0;
+  if (name === 'posts' && !ogCardsLoaded) { ogCardsLoaded = true; loadOgCards(); }
+}
+
+// ─── OG 이미지 자동 로딩 (microlink.io) ──────────
+async function loadOgCards() {
+  const cards = document.querySelectorAll('[data-og-url]');
+  for (const card of cards) {
+    const url = card.dataset.ogUrl;
+    try {
+      const res = await fetch(`https://api.microlink.io/?url=${encodeURIComponent(url)}&screenshot=false`);
+      const json = await res.json();
+      if (json.status === 'success') {
+        const { title, image } = json.data;
+        const placeholder = card.querySelector('.ls-og-placeholder');
+        if (image?.url && placeholder) {
+          const img = document.createElement('img');
+          img.className = 'ls-og-img';
+          img.src = image.url;
+          img.alt = title || '';
+          img.onerror = () => img.remove(); // 이미지 로드 실패 시 placeholder 유지
+          placeholder.replaceWith(img);
+        }
+        if (title) {
+          const titleEl = card.querySelector('.ls-og-title');
+          if (titleEl) titleEl.textContent = title;
+        }
+      }
+    } catch(e) { /* 실패해도 placeholder 유지 */ }
+  }
 }
 
 // ─── MAP ─────────────────────────────────────────
