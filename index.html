@@ -33,6 +33,7 @@
       transition: transform 0.4s cubic-bezier(0.32,0.72,0,1);
       background: var(--cream);
       -webkit-overflow-scrolling: touch;
+      z-index: 0; /* stacking context 생성 → Leaflet z-index를 이 안에 격리 */
     }
 
     /* ── AFFILIATE NOTICE ── */
@@ -1093,6 +1094,17 @@ function switchTab(name) {
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('on'));
   document.getElementById(`tab-${name}`).classList.add('on');
   document.getElementById('main-page').scrollTop = 0;
+
+  // WebKit GPU 레이어 버그 대응: 코스 탭 이탈 시 Leaflet 인스턴스 파괴
+  if (name !== 'course' && mapPreview) {
+    mapPreview.remove();
+    mapPreview = null;
+  }
+  // 코스 탭 복귀 시 재초기화
+  if (name === 'course') {
+    setTimeout(initMapPreview, 50);
+  }
+
   if (name === 'posts' && !ogCardsLoaded) { ogCardsLoaded = true; loadOgCards(); }
 }
 
