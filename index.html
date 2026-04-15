@@ -297,22 +297,22 @@
 
     /* ── 여행 카드 캐러셀 ── */
     .trip-carousel-wrap { margin: 20px 0 0; position: relative; }
-    .trip-arrow {
-      position: absolute; top: 70px; z-index: 5;
-      width: 32px; height: 32px; border-radius: 50%;
-      background: rgba(255,255,255,0.95); backdrop-filter: blur(8px);
-      border: 1px solid var(--border);
-      display: flex; align-items: center; justify-content: center;
-      font-size: 16px; color: var(--text); font-weight: 800;
-      cursor: pointer; padding: 0;
-      box-shadow: 0 3px 10px rgba(0,0,0,0.12);
-      opacity: 0.9; transition: opacity 0.2s, transform 0.15s;
+    .trip-nav {
+      display: flex; justify-content: center; align-items: center;
+      gap: 10px; margin-top: 6px;
     }
-    .trip-arrow:hover { opacity: 1; transform: scale(1.08); }
-    .trip-arrow:disabled { opacity: 0; pointer-events: none; }
-    .trip-arrow.left { left: 8px; }
-    .trip-arrow.right { right: 8px; }
-    /* 모바일(터치)에서는 숨김 */
+    .trip-arrow {
+      width: 28px; height: 28px; border-radius: 50%;
+      background: #fff; border: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 14px; color: var(--text); font-weight: 800;
+      cursor: pointer; padding: 0; padding-bottom: 2px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+      transition: opacity 0.2s, transform 0.15s;
+    }
+    .trip-arrow:hover { transform: scale(1.08); background: #FFF3E8; color: var(--amber); }
+    .trip-arrow:disabled { opacity: 0.3; pointer-events: none; }
+    /* 모바일(터치)에서는 화살표 숨김, 도트만 표시 */
     @media (hover: none) { .trip-arrow { display: none; } }
     .trip-carousel {
       display: flex; gap: 12px;
@@ -406,8 +406,7 @@
     }
 
     .trip-dots {
-      display: flex; justify-content: center; gap: 6px;
-      margin-top: 4px;
+      display: flex; justify-content: center; align-items: center; gap: 6px;
     }
     .trip-dot {
       width: 6px; height: 6px; border-radius: 50%;
@@ -986,8 +985,6 @@
 
     <!-- 여행 카드 캐러셀 -->
     <div class="trip-carousel-wrap">
-      <button class="trip-arrow left" id="trip-prev" aria-label="이전" onclick="tripScroll(-1)">‹</button>
-      <button class="trip-arrow right" id="trip-next" aria-label="다음" onclick="tripScroll(1)">›</button>
       <div class="trip-carousel" id="trip-carousel">
 
         <div class="trip-card">
@@ -1119,8 +1116,12 @@
         </div>
 
       </div>
-      <div class="trip-dots" id="trip-dots">
-        <span class="trip-dot on"></span><span class="trip-dot"></span><span class="trip-dot"></span><span class="trip-dot"></span>
+      <div class="trip-nav">
+        <button class="trip-arrow" id="trip-prev" aria-label="이전" onclick="tripScroll(-1)">‹</button>
+        <div class="trip-dots" id="trip-dots">
+          <span class="trip-dot on"></span><span class="trip-dot"></span><span class="trip-dot"></span><span class="trip-dot"></span>
+        </div>
+        <button class="trip-arrow" id="trip-next" aria-label="다음" onclick="tripScroll(1)">›</button>
       </div>
     </div>
 
