@@ -296,7 +296,24 @@
     .links-section-pb { padding-bottom: 40px; }
 
     /* ── 여행 카드 캐러셀 ── */
-    .trip-carousel-wrap { margin: 20px 0 0; }
+    .trip-carousel-wrap { margin: 20px 0 0; position: relative; }
+    .trip-arrow {
+      position: absolute; top: 70px; z-index: 5;
+      width: 32px; height: 32px; border-radius: 50%;
+      background: rgba(255,255,255,0.95); backdrop-filter: blur(8px);
+      border: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 16px; color: var(--text); font-weight: 800;
+      cursor: pointer; padding: 0;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+      opacity: 0.9; transition: opacity 0.2s, transform 0.15s;
+    }
+    .trip-arrow:hover { opacity: 1; transform: scale(1.08); }
+    .trip-arrow:disabled { opacity: 0; pointer-events: none; }
+    .trip-arrow.left { left: 8px; }
+    .trip-arrow.right { right: 8px; }
+    /* 모바일(터치)에서는 숨김 */
+    @media (hover: none) { .trip-arrow { display: none; } }
     .trip-carousel {
       display: flex; gap: 12px;
       overflow-x: auto; scroll-snap-type: x mandatory;
@@ -969,6 +986,8 @@
 
     <!-- 여행 카드 캐러셀 -->
     <div class="trip-carousel-wrap">
+      <button class="trip-arrow left" id="trip-prev" aria-label="이전" onclick="tripScroll(-1)">‹</button>
+      <button class="trip-arrow right" id="trip-next" aria-label="다음" onclick="tripScroll(1)">›</button>
       <div class="trip-carousel" id="trip-carousel">
 
         <div class="trip-card">
@@ -1719,16 +1738,29 @@ async function loadBudget() {
   }
 }
 
-// ─── 여행 카드 캐러셀 도트 ────────────────────────
+// ─── 여행 카드 캐러셀 (도트 + 화살표) ─────────────
+function tripScroll(dir) {
+  const car = document.getElementById('trip-carousel');
+  if (!car) return;
+  const cardW = car.querySelector('.trip-card').offsetWidth + 12;
+  car.scrollBy({ left: dir * cardW, behavior: 'smooth' });
+}
 (function(){
   const car = document.getElementById('trip-carousel');
   if (!car) return;
   const dots = document.querySelectorAll('#trip-dots .trip-dot');
-  car.addEventListener('scroll', () => {
+  const prev = document.getElementById('trip-prev');
+  const next = document.getElementById('trip-next');
+  const update = () => {
     const cardW = car.querySelector('.trip-card').offsetWidth + 12;
     const idx = Math.round(car.scrollLeft / cardW);
     dots.forEach((d,i) => d.classList.toggle('on', i === idx));
-  });
+    if (prev) prev.disabled = car.scrollLeft <= 2;
+    if (next) next.disabled = car.scrollLeft + car.clientWidth >= car.scrollWidth - 2;
+  };
+  car.addEventListener('scroll', update);
+  window.addEventListener('load', update);
+  update();
 })();
 
 // ─── INIT ────────────────────────────────────────
