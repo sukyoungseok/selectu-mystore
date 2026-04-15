@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>카드 후보 3종</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=SUIT:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #ece4d8;
+      --paper: #fffdf9;
+      --text: #181512;
+      --muted: #786f68;
+      --line: rgba(24, 21, 18, 0.08);
+      --orange: #e67433;
+      --green: #5d8874;
+      --soft-orange: #fff1e5;
+      --soft-green: #eef7f1;
+      --soft-red: #fff3f1;
+      --shadow: 0 18px 40px rgba(56, 33, 12, 0.10);
+    }
+    body {
+      font-family: 'SUIT', sans-serif;
+      background: linear-gradient(180deg, #f0e8dc 0%, #e4d7c9 100%);
+      color: var(--text);
+      padding: 24px 14px 42px;
+    }
+    .wrap { max-width: 1080px; margin: 0 auto; }
+    .intro {
+      margin-bottom: 18px;
+      padding: 22px;
+      border-radius: 24px;
+      background: rgba(255,255,255,0.58);
+      border: 1px solid rgba(255,255,255,0.52);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+    .intro small {
+      display: inline-block;
+      padding: 7px 10px;
+      border-radius: 999px;
+      background: #fff;
+      color: var(--orange);
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      margin-bottom: 12px;
+    }
+    .intro h1 {
+      font-size: clamp(28px, 4vw, 42px);
+      line-height: 1.04;
+      letter-spacing: -0.05em;
+      margin-bottom: 8px;
+    }
+    .intro p {
+      font-size: 14px;
+      line-height: 1.55;
+      color: var(--muted);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 18px;
+    }
+    .item {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+    .item-head {
+      padding: 16px 16px 12px;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: flex-start;
+    }
+    .item-no {
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      color: var(--orange);
+      margin-bottom: 5px;
+    }
+    .item-head h2 {
+      font-size: 20px;
+      font-weight: 900;
+      letter-spacing: -0.04em;
+      margin-bottom: 4px;
+    }
+    .item-head p {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+    .badge {
+      flex-shrink: 0;
+      padding: 7px 10px;
+      border-radius: 999px;
+      background: #181512;
+      color: #fff;
+      font-size: 10px;
+      font-weight: 800;
+    }
+    .phone {
+      max-width: 390px;
+      margin: 0 auto;
+      padding: 14px;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0 10px 24px rgba(24, 21, 18, 0.07);
+    }
+    .hero {
+      position: relative;
+      height: 154px;
+      background: url('community_thumbnail.png') center/cover no-repeat;
+    }
+    .hero::after {
+      content: '';
+      position: absolute; inset: 0;
+      background: linear-gradient(180deg, rgba(16,14,12,0.05), rgba(16,14,12,0.62));
+    }
+    .overlay {
+      position: absolute;
+      inset: auto 14px 14px 14px;
+      z-index: 1;
+      color: #fff;
+    }
+    .title-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+    .flag-avatar {
+      width: 38px; height: 38px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.2);
+      border: 1px solid rgba(255,255,255,0.28);
+      backdrop-filter: blur(8px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+    .trip-title {
+      font-size: 24px;
+      font-weight: 900;
+      line-height: 1.02;
+      letter-spacing: -0.05em;
+    }
+    .trip-sub {
+      font-size: 12px;
+      color: rgba(255,255,255,0.88);
+      line-height: 1.4;
+    }
+    .body { padding: 14px; }
+    .ask {
+      font-size: 15px;
+      font-weight: 900;
+      letter-spacing: -0.03em;
+      margin-bottom: 10px;
+    }
+    .cta-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .cta {
+      border: none;
+      border-radius: 18px;
+      padding: 14px;
+      text-align: left;
+      font-family: inherit;
+      cursor: pointer;
+    }
+    .cta small {
+      display: block;
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      margin-bottom: 6px;
+    }
+    .cta strong {
+      display: block;
+      font-size: 16px;
+      line-height: 1.15;
+      letter-spacing: -0.04em;
+      margin-bottom: 6px;
+    }
+    .cta span {
+      display: block;
+      font-size: 11px;
+      line-height: 1.4;
+      opacity: 0.84;
+    }
+    .course { background: linear-gradient(135deg, #eef7f1, #deede2); color: var(--green); }
+    .budget { background: linear-gradient(135deg, #fff2e7, #ffe2cd); color: var(--orange); }
+    .budget-line {
+      margin-top: 10px;
+      border-radius: 16px;
+      padding: 12px 13px;
+      background: var(--soft-red);
+      border: 1px solid #f5dad4;
+      color: #a14c42;
+      font-size: 12px;
+      font-weight: 800;
+      line-height: 1.45;
+      letter-spacing: -0.02em;
+    }
+    .budget-line strong { color: #d94b3d; }
+    .budget-chip {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      border-radius: 16px;
+      padding: 12px 13px;
+      background: #181512;
+      color: #fff;
+    }
+    .budget-chip small {
+      display: block;
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      opacity: 0.7;
+      margin-bottom: 4px;
+    }
+    .budget-chip strong {
+      display: block;
+      font-size: 18px;
+      letter-spacing: -0.04em;
+    }
+    .budget-chip span {
+      font-size: 11px;
+      opacity: 0.75;
+    }
+    .budget-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #ff5a47;
+      box-shadow: 0 0 0 6px rgba(255,90,71,0.14);
+      flex-shrink: 0;
+    }
+    .budget-bar {
+      margin-top: 12px;
+      border-radius: 18px;
+      overflow: hidden;
+      border: 1px solid #f0d8c7;
+    }
+    .budget-bar-top {
+      background: #fff7f0;
+      padding: 10px 12px;
+      font-size: 11px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+    .budget-bar-main {
+      background: linear-gradient(90deg, #e9692f, #f3a35a);
+      color: #fff;
+      padding: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+    .budget-bar-main strong {
+      font-size: 18px;
+      letter-spacing: -0.04em;
+    }
+    .budget-bar-main span {
+      font-size: 12px;
+      font-weight: 800;
+      opacity: 0.95;
+      white-space: nowrap;
+    }
+    .foot {
+      padding: 12px 16px 16px;
+      border-top: 1px solid var(--line);
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.5;
+      background: rgba(255,255,255,0.55);
+    }
+    .foot strong { color: var(--text); }
+    @media (max-width: 760px) {
+      .intro { padding: 18px; }
+      .item-head { padding: 14px 14px 10px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="intro">
+      <small>REFINED CTA OPTIONS</small>
+      <h1>피드백 반영 후보 3종</h1>
+      <p>공통 기준은 같습니다. `일정표 보기 / 상세 경비 보기`로 액션을 분명하게 만들고, 총액은 클릭 전에 먼저 보여줍니다. 제목에는 국기 이모지를 프로필처럼 넣었습니다.</p>
+    </section>
+
+    <section class="grid">
+      <article class="item">
+        <div class="item-head">
+          <div>
+            <div class="item-no">OPTION A</div>
+            <h2>기본형 + 경고문구</h2>
+            <p>가장 바로 적용하기 쉬운 구조.</p>
+          </div>
+          <div class="badge">SAFE</div>
+        </div>
+        <div class="phone">
+          <div class="card">
+            <div class="hero">
+              <div class="overlay">
+                <div class="title-row">
+                  <div class="flag-avatar">🇯🇵</div>
+                  <div>
+                    <div class="trip-title">오사카&도쿄 3박4일</div>
+                    <div class="trip-sub">실제 다녀온 일정</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="body">
+              <div class="ask">어디부터 볼까요?</div>
+              <div class="cta-row">
+                <button class="cta course">
+                  <small>PLAN</small>
+                  <strong>일정표 보기</strong>
+                  <span>동선 먼저</span>
+                </button>
+                <button class="cta budget">
+                  <small>BUDGET</small>
+                  <strong>상세 경비 보기</strong>
+                  <span>예산 먼저</span>
+                </button>
+              </div>
+              <div class="budget-line">🔴 <strong>총 102만원</strong>으로 다녀온 3박4일 여행이에요</div>
+            </div>
+          </div>
+        </div>
+        <div class="foot"><strong>포인트:</strong> 가장 익숙한 구조라 실제 페이지에 붙이기 쉽습니다.</div>
+      </article>
+
+      <article class="item">
+        <div class="item-head">
+          <div>
+            <div class="item-no">OPTION B</div>
+            <h2>기본형 + 총액 칩</h2>
+            <p>총액을 숫자 중심으로 더 강하게 보여주는 방식.</p>
+          </div>
+          <div class="badge">CLICK</div>
+        </div>
+        <div class="phone">
+          <div class="card">
+            <div class="hero">
+              <div class="overlay">
+                <div class="title-row">
+                  <div class="flag-avatar">🇯🇵</div>
+                  <div>
+                    <div class="trip-title">오사카&도쿄 3박4일</div>
+                    <div class="trip-sub">100만원대 실제 여행</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="body">
+              <div class="ask">어디부터 볼까요?</div>
+              <div class="cta-row">
+                <button class="cta course">
+                  <small>PLAN</small>
+                  <strong>일정표 보기</strong>
+                  <span>동선 먼저</span>
+                </button>
+                <button class="cta budget">
+                  <small>BUDGET</small>
+                  <strong>상세 경비 보기</strong>
+                  <span>예산 먼저</span>
+                </button>
+              </div>
+              <div class="budget-chip">
+                <div>
+                  <small>TOTAL BUDGET</small>
+                  <strong>102만원</strong>
+                  <span>3박4일 실제 경비</span>
+                </div>
+                <div class="budget-dot"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="foot"><strong>포인트:</strong> 숫자가 먼저 보여서 `상세 경비 보기` 클릭 이유가 가장 분명합니다.</div>
+      </article>
+
+      <article class="item">
+        <div class="item-head">
+          <div>
+            <div class="item-no">OPTION C</div>
+            <h2>기본형 + 총액 바</h2>
+            <p>카드 하단을 정보 배너처럼 쓰는 방식.</p>
+          </div>
+          <div class="badge">BOLD</div>
+        </div>
+        <div class="phone">
+          <div class="card">
+            <div class="hero">
+              <div class="overlay">
+                <div class="title-row">
+                  <div class="flag-avatar">🇯🇵</div>
+                  <div>
+                    <div class="trip-title">오사카&도쿄 3박4일</div>
+                    <div class="trip-sub">실제 예산 포함 일정</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="body">
+              <div class="ask">어디부터 볼까요?</div>
+              <div class="cta-row">
+                <button class="cta course">
+                  <small>PLAN</small>
+                  <strong>일정표 보기</strong>
+                  <span>동선 먼저</span>
+                </button>
+                <button class="cta budget">
+                  <small>BUDGET</small>
+                  <strong>상세 경비 보기</strong>
+                  <span>예산 먼저</span>
+                </button>
+              </div>
+              <div class="budget-bar">
+                <div class="budget-bar-top">이 일정, 총 얼마 들었을까요?</div>
+                <div class="budget-bar-main">
+                  <strong>총 102만원</strong>
+                  <span>실제 다녀온 경비</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="foot"><strong>포인트:</strong> 카드 하단 정보가 한 번 더 시선을 잡아줍니다.</div>
+      </article>
+    </section>
+  </div>
+</body>
+</html>

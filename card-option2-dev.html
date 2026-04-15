@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Option 02 — Dev</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=SUIT:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #ece5da; --paper: #fffdf9; --text: #181512; --muted: #7a7068;
+      --line: rgba(24, 21, 18, 0.08);
+      --orange: #e77533; --green: #5b8772;
+      --cream: #f6efe7;
+      --shadow: 0 18px 40px rgba(67, 45, 22, 0.10);
+    }
+    body {
+      font-family: 'SUIT', sans-serif; color: var(--text);
+      background: linear-gradient(180deg, #efe7dc 0%, #e5d8c9 100%);
+      padding: 40px 20px; min-height: 100vh;
+    }
+    .hdr { max-width: 880px; margin: 0 auto 24px; }
+    .hdr small {
+      display: inline-block; padding: 7px 10px; border-radius: 999px;
+      background: #fff; color: var(--orange);
+      font-size: 11px; font-weight: 900; letter-spacing: 0.06em; margin-bottom: 10px;
+    }
+    .hdr h1 { font-size: 28px; letter-spacing: -0.04em; line-height: 1.1; margin-bottom: 6px; }
+    .hdr p { font-size: 13px; color: var(--muted); line-height: 1.6; }
+
+    .row { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; align-items: flex-start; }
+    .phone-wrap { width: 390px; }
+    .phone-label {
+      text-align: center; font-size: 11px; font-weight: 900;
+      color: var(--muted); letter-spacing: 0.1em; margin-bottom: 10px;
+    }
+    .phone {
+      padding: 16px; background: #f6efe7; border-radius: 30px;
+      box-shadow: 0 14px 40px rgba(67,45,22,0.14);
+    }
+
+    /* ══════ 원본 복기용 카드 (참고) ══════ */
+    .carousel {
+      display: flex; gap: 12px;
+      overflow-x: auto; scroll-snap-type: x mandatory;
+      padding: 4px 4px 12px;
+      scrollbar-width: none;
+      margin: 0 -4px;
+    }
+    .carousel::-webkit-scrollbar { display: none; }
+    .card {
+      flex-shrink: 0; width: 278px;
+      scroll-snap-align: center;
+      background: #fff; border: 1px solid var(--line);
+      border-radius: 22px; overflow: hidden;
+      box-shadow: 0 10px 24px rgba(24, 21, 18, 0.07);
+    }
+    .dots {
+      display: flex; justify-content: center; gap: 6px;
+      margin-top: 8px;
+    }
+    .dot {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: rgba(24,21,18,0.2);
+      transition: background 0.2s, width 0.2s;
+    }
+    .dot.on { background: var(--orange); width: 18px; border-radius: 4px; }
+    .swipe-hint {
+      text-align: center; font-size: 11px; color: var(--muted);
+      font-weight: 700; margin-top: 6px;
+      display: flex; align-items: center; justify-content: center; gap: 6px;
+    }
+    .hero {
+      position: relative; height: 150px;
+    }
+    .hero.osaka { background: url('community_thumbnail.png') center/cover no-repeat; }
+    .hero.tokyo { background: url('insta_feed_content-4.png') center/cover no-repeat; }
+    .hero.bangkok { background: url('insta_feed_content-6.png') center/cover no-repeat, linear-gradient(135deg,#FFB380,#E07A38); }
+    .hero.taipei { background: url('insta_feed_content-7.png') center/cover no-repeat, linear-gradient(135deg,#8FD6B5,#5B8772); }
+    .hero::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(180deg, rgba(17,14,10,0.05), rgba(17,14,10,0.68));
+    }
+    .hero-content {
+      position: absolute; left: 16px; right: 16px; bottom: 16px;
+      z-index: 1; color: #fff;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .flag-inline {
+      width: 34px; height: 34px; border-radius: 50%;
+      background: #fff; display: flex; align-items: center; justify-content: center;
+      font-size: 18px; flex-shrink: 0;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+    }
+    .trip-title {
+      font-size: 20px; font-weight: 700; line-height: 1.15; letter-spacing: -0.03em;
+    }
+
+    .body { padding: 16px; }
+    .ask {
+      font-size: 15px; font-weight: 900; letter-spacing: -0.03em;
+      margin-bottom: 12px; color: var(--text);
+    }
+    .choice { display: grid; gap: 8px; }
+    .choice button {
+      width: 100%; border: 1.5px solid transparent;
+      border-radius: 18px; padding: 16px 18px;
+      font-family: inherit; text-align: left; cursor: pointer;
+      transition: transform 0.15s;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .choice button:active { transform: scale(0.985); }
+    .choice button .c-body strong {
+      display: block; font-size: 15px; font-weight: 900; letter-spacing: -0.03em; margin-bottom: 3px; color: var(--text);
+    }
+    .choice button .c-body span {
+      display: block; font-size: 11px; font-weight: 700; color: var(--muted);
+    }
+    .choice button .c-arr { font-size: 18px; opacity: 0.4; flex-shrink: 0; margin-left: 10px; }
+    .choice .plan {
+      background: linear-gradient(135deg, #eef7f2 0%, #dcecdf 100%);
+      border-color: #c4ddce;
+    }
+    .choice .cost {
+      background: linear-gradient(135deg, #fff2e6 0%, #ffe0c8 100%);
+      border-color: #f3caa0;
+    }
+
+    .caption {
+      margin-top: 14px; padding: 12px 6px 2px;
+      border-top: 1px solid var(--line);
+      display: flex; justify-content: space-between; align-items: flex-end;
+    }
+    .cap-l { font-size: 11px; color: var(--muted); font-weight: 500; line-height: 1.45; }
+    .cap-l b { display: block; color: var(--text); font-weight: 700; margin-top: 1px; }
+    .cap-live {
+      font-size: 9px; font-weight: 900; color: var(--orange);
+      background: rgba(231,117,51,0.12); padding: 2px 6px; border-radius: 4px;
+      letter-spacing: 0.04em; margin-right: 6px;
+    }
+    .cap-r { font-size: 26px; color: var(--orange); font-weight: 900; letter-spacing: -0.05em; line-height: 1; white-space: nowrap; }
+  </style>
+</head>
+<body>
+  <div class="hdr">
+    <small>OPTION 02 — DEV</small>
+    <h1>선택 질문형 디벨롭</h1>
+    <p>① 실시간 가격 뱃지(TripSignal) · ② 2버튼 컬러 차등(민트/오렌지) · ③ 프리뷰 정보 · ④ 🇯🇵 국기 뱃지 반영</p>
+  </div>
+
+  <div class="row">
+    <div class="phone-wrap">
+      <div class="phone-label">DEVELOPED</div>
+      <div class="phone">
+        <div class="carousel" id="carousel">
+          <div class="card">
+            <div class="hero osaka">
+              <div class="hero-content">
+                <div class="flag-inline">🇯🇵</div>
+                <div class="trip-title">오사카 & 교토<br>3박 4일</div>
+              </div>
+            </div>
+            <div class="body">
+              <div class="ask">어디부터 볼까요?</div>
+              <div class="choice">
+                <button class="plan">
+                  <div class="c-body"><strong>일정표 보기</strong><span>동선 먼저</span></div>
+                  <div class="c-arr">›</div>
+                </button>
+                <button class="cost">
+                  <div class="c-body"><strong>상세 경비 보기</strong><span>예산 먼저</span></div>
+                  <div class="c-arr">›</div>
+                </button>
+              </div>
+              <div class="caption">
+                <span class="cap-l"><span class="cap-live">실시간</span>1인 기준<b>오사카 최저 총비용</b></span>
+                <span class="cap-r">102만 원</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="hero tokyo">
+              <div class="hero-content">
+                <div class="flag-inline">🇯🇵</div>
+                <div class="trip-title">도쿄 & 하코네<br>4박 5일</div>
+              </div>
+            </div>
+            <div class="body">
+              <div class="ask">어디부터 볼까요?</div>
+              <div class="choice">
+                <button class="plan">
+                  <div class="c-body"><strong>일정표 보기</strong><span>동선 먼저</span></div>
+                  <div class="c-arr">›</div>
+                </button>
+                <button class="cost">
+                  <div class="c-body"><strong>상세 경비 보기</strong><span>예산 먼저</span></div>
+                  <div class="c-arr">›</div>
+                </button>
+              </div>
+              <div class="caption">
+                <span class="cap-l"><span class="cap-live">실시간</span>1인 기준<b>도쿄 최저 총비용</b></span>
+                <span class="cap-r">148만 원</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="hero bangkok">
+              <div class="hero-content">
+                <div class="flag-inline">🇹🇭</div>
+                <div class="trip-title">방콕 & 아유타야<br>3박 5일</div>
+              </div>
+            </div>
+            <div class="body">
+              <div class="ask">어디부터 볼까요?</div>
+              <div class="choice">
+                <button class="plan">
+                  <div class="c-body"><strong>일정표 보기</strong><span>동선 먼저</span></div>
+                  <div class="c-arr">›</div>
+                </button>
+                <button class="cost">
+                  <div class="c-body"><strong>상세 경비 보기</strong><span>예산 먼저</span></div>
+                  <div class="c-arr">›</div>
+                </button>
+              </div>
+              <div class="caption">
+                <span class="cap-l"><span class="cap-live">실시간</span>1인 기준<b>방콕 최저 총비용</b></span>
+                <span class="cap-r">86만 원</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="hero taipei">
+              <div class="hero-content">
+                <div class="flag-inline">🇹🇼</div>
+                <div class="trip-title">타이베이<br>2박 3일</div>
+              </div>
+            </div>
+            <div class="body">
+              <div class="ask">어디부터 볼까요?</div>
+              <div class="choice">
+                <button class="plan">
+                  <div class="c-body"><strong>일정표 보기</strong><span>동선 먼저</span></div>
+                  <div class="c-arr">›</div>
+                </button>
+                <button class="cost">
+                  <div class="c-body"><strong>상세 경비 보기</strong><span>예산 먼저</span></div>
+                  <div class="c-arr">›</div>
+                </button>
+              </div>
+              <div class="caption">
+                <span class="cap-l"><span class="cap-live">실시간</span>1인 기준<b>타이베이 최저 총비용</b></span>
+                <span class="cap-r">62만 원</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dots" id="dots">
+          <span class="dot on"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+        <div class="swipe-hint">← 옆으로 넘겨서 다른 여행 카드 보기 →</div>
+      </div>
+
+      <script>
+        (function(){
+          const car = document.getElementById('carousel');
+          const dots = document.querySelectorAll('#dots .dot');
+          car.addEventListener('scroll', () => {
+            const cardW = car.querySelector('.card').offsetWidth + 12;
+            const idx = Math.round(car.scrollLeft / cardW);
+            dots.forEach((d,i) => d.classList.toggle('on', i === idx));
+          });
+        })();
+      </script>
+    </div>
+
+  </div>
+
+  <div class="hdr" style="margin-top:56px;">
+    <small>HERO PRICE BADGE</small>
+    <h1>이미지 우측 하단에 가격 박스 추가</h1>
+    <p>코스 카드 이미지 우하단에 총경비 박스를 올려놓는 버전. 캡션 하단은 유지/제거 둘 다 보여줌.</p>
+  </div>
+
+  <style>
+    .hp-price-box {
+      position: absolute; right: 12px; bottom: 12px; z-index: 2;
+      background: #fff; border-radius: 12px; padding: 7px 11px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+      display: flex; flex-direction: column; align-items: flex-end; gap: 1px;
+    }
+    .hp-price-lbl {
+      font-size: 9px; color: var(--muted); font-weight: 700; letter-spacing: -0.01em;
+    }
+    .hp-price-val {
+      font-size: 15px; color: var(--orange); font-weight: 900; letter-spacing: -0.04em; line-height: 1;
+    }
+  </style>
+
+  <div class="row">
+    <!-- 변형 A: 이미지에 가격 박스 + 하단 캡션 유지 -->
+    <div class="phone-wrap" style="width:310px;">
+      <div class="phone-label">A · 이미지 우하단 가격 + 하단 캡션</div>
+      <div class="phone" style="padding:12px;">
+        <div class="card" style="width:auto;">
+          <div class="hero osaka">
+            <div class="hero-content">
+              <div class="flag-inline">🇯🇵</div>
+              <div class="trip-title">오사카 & 교토<br>3박 4일</div>
+            </div>
+            <div class="hp-price-box">
+              <span class="hp-price-lbl">실시간 · 1인 기준</span>
+              <span class="hp-price-val">102만 원</span>
+            </div>
+          </div>
+          <div class="body">
+            <div class="choice">
+              <button class="plan"><div class="c-body"><strong>일정표 보기</strong><span>동선 먼저</span></div><div class="c-arr">›</div></button>
+              <button class="cost"><div class="c-body"><strong>상세 경비 보기</strong><span>예산 먼저</span></div><div class="c-arr">›</div></button>
+            </div>
+            <div class="mcap2">
+              <span class="mcap2-l"><span class="mc-cap-live">실시간</span>1인 기준<b>오사카 최저 총비용</b></span>
+              <span class="mcap2-r">102만 원</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 변형 B: 이미지에 가격 박스만 (하단 캡션 제거) -->
+    <div class="phone-wrap" style="width:310px;">
+      <div class="phone-label">B · 이미지 가격만 (하단 캡션 제거)</div>
+      <div class="phone" style="padding:12px;">
+        <div class="card" style="width:auto;">
+          <div class="hero osaka">
+            <div class="hero-content">
+              <div class="flag-inline">🇯🇵</div>
+              <div class="trip-title">오사카 & 교토<br>3박 4일</div>
+            </div>
+            <div class="hp-price-box">
+              <span class="hp-price-lbl">실시간 · 1인 기준</span>
+              <span class="hp-price-val">102만 원</span>
+            </div>
+          </div>
+          <div class="body">
+            <div class="choice">
+              <button class="plan"><div class="c-body"><strong>일정표 보기</strong><span>동선 먼저</span></div><div class="c-arr">›</div></button>
+              <button class="cost"><div class="c-body"><strong>상세 경비 보기</strong><span>예산 먼저</span></div><div class="c-arr">›</div></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 변형 C: 큰 가격 박스 (스탬프 느낌) -->
+    <div class="phone-wrap" style="width:310px;">
+      <div class="phone-label">C · 더 큰 가격 박스 (스탬프)</div>
+      <div class="phone" style="padding:12px;">
+        <div class="card" style="width:auto;">
+          <div class="hero osaka">
+            <div class="hero-content">
+              <div class="flag-inline">🇯🇵</div>
+              <div class="trip-title">오사카 & 교토<br>3박 4일</div>
+            </div>
+            <div class="hp-price-box" style="padding:9px 14px;right:14px;bottom:14px;">
+              <span class="hp-price-lbl">오사카 최저 총비용</span>
+              <span class="hp-price-val" style="font-size:18px;">102만 원~</span>
+            </div>
+          </div>
+          <div class="body">
+            <div class="choice">
+              <button class="plan"><div class="c-body"><strong>일정표 보기</strong><span>동선 먼저</span></div><div class="c-arr">›</div></button>
+              <button class="cost"><div class="c-body"><strong>상세 경비 보기</strong><span>예산 먼저</span></div><div class="c-arr">›</div></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hdr" style="margin-top:56px;">
+    <small>V1 + V5 MERGED</small>
+    <h1>V1 + V5 합친 후보 4가지</h1>
+    <p>V5 좌우 구조 유지 + V1 큰 숫자 임팩트. 섞는 비율을 다르게.</p>
+  </div>
+
+  <style>
+    /* 머지드 캡션 스타일 공통 */
+    .mc-cap-live {
+      font-size: 9px; font-weight: 900; color: var(--orange);
+      background: rgba(231,117,51,0.12); padding: 2px 6px; border-radius: 4px;
+      letter-spacing: 0.04em; margin-right: 6px;
+    }
+
+    /* M1 — V5 그대로 + 숫자만 살짝 키우기 */
+    .mcap1 {
+      margin-top: 14px; padding: 12px 6px 2px;
+      border-top: 1px solid var(--line);
+      display: flex; justify-content: space-between; align-items: baseline;
+    }
+    .mcap1-l { font-size: 11px; color: var(--muted); font-weight: 500; }
+    .mcap1-r { font-size: 22px; color: var(--text); font-weight: 900; letter-spacing: -0.05em; }
+    .mcap1-r b { color: var(--orange); }
+
+    /* M2 — 좌 작은 라벨 2줄 + 우 큰 숫자 */
+    .mcap2 {
+      margin-top: 14px; padding: 12px 6px 2px;
+      border-top: 1px solid var(--line);
+      display: flex; justify-content: space-between; align-items: flex-end;
+    }
+    .mcap2-l { font-size: 11px; color: var(--muted); font-weight: 500; line-height: 1.45; }
+    .mcap2-l b { display: block; color: var(--text); font-weight: 700; margin-top: 1px; }
+    .mcap2-r { font-size: 26px; color: var(--orange); font-weight: 900; letter-spacing: -0.05em; line-height: 1; }
+
+    /* M3 — 구분선 아래 중앙 정렬 (V1 스타일 강함) */
+    .mcap3 {
+      margin-top: 14px; padding: 14px 6px 4px;
+      border-top: 1px solid var(--line);
+      text-align: center;
+    }
+    .mcap3-lbl { font-size: 11px; color: var(--muted); font-weight: 500; }
+    .mcap3-val { font-size: 28px; color: var(--orange); font-weight: 900; letter-spacing: -0.05em; line-height: 1; margin-top: 6px; }
+    .mcap3-val b { color: var(--text); }
+    .mcap3-sub { font-size: 10px; color: var(--muted); font-weight: 500; margin-top: 5px; letter-spacing: -0.01em; }
+
+    /* M4 — 좌 라벨+실시간 · 우 숫자 세로 2줄 (큰 값 + 서브) */
+    .mcap4 {
+      margin-top: 14px; padding: 12px 6px 2px;
+      border-top: 1px solid var(--line);
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .mcap4-l { font-size: 11px; color: var(--muted); font-weight: 500; }
+    .mcap4-r { text-align: right; }
+    .mcap4-r .val { font-size: 24px; color: var(--orange); font-weight: 900; letter-spacing: -0.05em; line-height: 1; }
+    .mcap4-r .sub { font-size: 10px; color: var(--muted); font-weight: 500; margin-top: 3px; }
+  </style>
+
+  <div class="row">
+    <div class="phone-wrap" style="width:310px;">
+      <div class="phone-label">M1 · 좌우 유지, 숫자만 키움 (22px)</div>
+      <div class="phone" style="padding:12px;">
+        <div class="card" style="width:auto;">
+          <div class="hero osaka">
+            <div class="hero-content">
+              <div class="flag-inline">🇯🇵</div>
+              <div class="trip-title">오사카 & 교토<br>3박 4일</div>
+            </div>
+          </div>
+          <div class="body">
+            <div class="choice">
+              <button class="plan"><div class="c-body"><strong>일정표 보기</strong><span>동선 먼저</span></div><div class="c-arr">›</div></button>
+              <button class="cost"><div class="c-body"><strong>상세 경비 보기</strong><span>예산 먼저</span></div><div class="c-arr">›</div></button>
+            </div>
+            <div class="mcap1">
+              <span class="mcap1-l"><span class="mc-cap-live">실시간</span>이 일정의 총 비용</span>
+              <span class="mcap1-r">총 <b>102만 원</b></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="phone-wrap" style="width:310px;">
+      <div class="phone-label">M2 · 좌 라벨 2줄 + 우 큰 숫자</div>
+      <div class="phone" style="padding:12px;">
+        <div class="card" style="width:auto;">
+          <div class="hero osaka">
+            <div class="hero-content">
+              <div class="flag-inline">🇯🇵</div>
+              <div class="trip-title">오사카 & 교토<br>3박 4일</div>
+            </div>
+          </div>
+          <div class="body">
+            <div class="choice">
+              <button class="plan"><div class="c-body"><strong>일정표 보기</strong><span>동선 먼저</span></div><div class="c-arr">›</div></button>
+              <button class="cost"><div class="c-body"><strong>상세 경비 보기</strong><span>예산 먼저</span></div><div class="c-arr">›</div></button>
+            </div>
+            <div class="mcap2">
+              <span class="mcap2-l"><span class="mc-cap-live">실시간</span>오사카 최저 비용<b>3박 4일 · 1인 기준</b></span>
+              <span class="mcap2-r">102만 원</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="phone-wrap" style="width:310px;">
+      <div class="phone-label">M3 · 중앙 정렬 + 큰 숫자 (V1 스타일)</div>
+      <div class="phone" style="padding:12px;">
+        <div class="card" style="width:auto;">
+          <div class="hero osaka">
+            <div class="hero-content">
+              <div class="flag-inline">🇯🇵</div>
+              <div class="trip-title">오사카 & 교토<br>3박 4일</div>
+            </div>
+          </div>
+          <div class="body">
+            <div class="choice">
+              <button class="plan"><div class="c-body"><strong>일정표 보기</strong><span>동선 먼저</span></div><div class="c-arr">›</div></button>
+              <button class="cost"><div class="c-body"><strong>상세 경비 보기</strong><span>예산 먼저</span></div><div class="c-arr">›</div></button>
+            </div>
+            <div class="mcap3">
+              <div class="mcap3-lbl"><span class="mc-cap-live">실시간</span>이 일정의 총 비용</div>
+              <div class="mcap3-val">102만 원</div>
+              <div class="mcap3-sub">3박 4일 · 1인 기준</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="phone-wrap" style="width:310px;">
+      <div class="phone-label">M4 · 우측 숫자 2줄 (값 + 서브)</div>
+      <div class="phone" style="padding:12px;">
+        <div class="card" style="width:auto;">
+          <div class="hero osaka">
+            <div class="hero-content">
+              <div class="flag-inline">🇯🇵</div>
+              <div class="trip-title">오사카 & 교토<br>3박 4일</div>
+            </div>
+          </div>
+          <div class="body">
+            <div class="choice">
+              <button class="plan"><div class="c-body"><strong>일정표 보기</strong><span>동선 먼저</span></div><div class="c-arr">›</div></button>
+              <button class="cost"><div class="c-body"><strong>상세 경비 보기</strong><span>예산 먼저</span></div><div class="c-arr">›</div></button>
+            </div>
+            <div class="mcap4">
+              <span class="mcap4-l"><span class="mc-cap-live">실시간</span>이 일정의 총 비용</span>
+              <span class="mcap4-r">
+                <span class="val">102만 원</span>
+                <span class="sub">3박 4일 · 1인 기준</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hdr" style="margin-top:56px;">
+    <small>CAPTION VARIANTS</small>
+    <h1>가격 정보 보여주는 방식 6가지</h1>
+    <p>박스 대신 다양한 방법으로. 각각 느낌이 달라요.</p>
+  </div>
+
+  <style>
+    .cap-demo-row { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; }
+    .cap-demo {
+      width: 280px; background: #fff; border-radius: 16px;
+      padding: 14px; border: 1px solid var(--line);
+      box-shadow: 0 6px 16px rgba(24,21,18,0.06);
+    }
+    .cap-demo-label {
+      font-size: 10px; font-weight: 900; color: var(--orange);
+      letter-spacing: 0.08em; margin-bottom: 10px;
+    }
+    .cap-demo-note { font-size: 10px; color: var(--muted); margin-top: 8px; line-height: 1.4; font-weight: 500; }
+
+    /* V1 — 숫자만 크게 */
+    .capv1 { text-align: center; padding: 6px 0; }
+    .capv1-lbl { font-size: 11px; color: var(--muted); font-weight: 500; letter-spacing: -0.02em; }
+    .capv1-val { font-size: 28px; font-weight: 900; color: var(--orange); letter-spacing: -0.05em; line-height: 1; margin-top: 4px; }
+    .capv1-sub { font-size: 10px; color: var(--muted); margin-top: 4px; font-weight: 500; }
+
+    /* V2 — 인라인 한 줄 */
+    .capv2 { font-size: 13px; color: var(--muted); font-weight: 500; padding: 6px 0; }
+    .capv2 b { color: var(--orange); font-weight: 900; }
+    .capv2::before {
+      content: ''; display: inline-block; width: 5px; height: 5px;
+      background: var(--orange); border-radius: 50%; vertical-align: middle; margin-right: 6px;
+    }
+
+    /* V3 — 말풍선 */
+    .capv3 {
+      position: relative; background: #fdf8f0; padding: 10px 14px;
+      border-radius: 14px 14px 14px 4px; font-size: 12px; color: var(--text); font-weight: 500;
+      margin-top: 22px;
+    }
+    .capv3 b { color: var(--orange); font-weight: 900; }
+    .capv3::before {
+      content: '💬 셀렉트유'; position: absolute; top: -18px; left: 4px;
+      font-size: 10px; color: var(--muted); font-weight: 700;
+    }
+
+    /* V4 — 가격 스탬프 (오른쪽 도장 느낌) */
+    .capv4 { display: flex; justify-content: space-between; align-items: center; padding: 4px 0; }
+    .capv4-lbl { font-size: 11px; color: var(--muted); font-weight: 500; letter-spacing: -0.01em; line-height: 1.4; }
+    .capv4-stamp {
+      border: 2px solid var(--orange); color: var(--orange);
+      padding: 6px 10px; border-radius: 8px; transform: rotate(-3deg);
+      font-size: 14px; font-weight: 900; letter-spacing: -0.02em;
+    }
+
+    /* V5 — 구분선 + 우측정렬 */
+    .capv5 {
+      padding-top: 12px; border-top: 1px solid var(--line);
+      display: flex; justify-content: space-between; align-items: baseline;
+    }
+    .capv5-lbl { font-size: 11px; color: var(--muted); font-weight: 500; }
+    .capv5-val { font-size: 17px; color: var(--text); font-weight: 900; letter-spacing: -0.04em; }
+    .capv5-val b { color: var(--orange); }
+
+    /* V6 — 버튼 안에 녹이기 (경비 버튼 하단 힌트) */
+    .capv6 {
+      border: 1.5px solid #f3caa0; background: linear-gradient(135deg,#fff2e6,#ffe0c8);
+      border-radius: 18px; padding: 12px 16px; text-align: left;
+    }
+    .capv6-top { font-size: 15px; font-weight: 900; color: var(--text); letter-spacing: -0.03em; }
+    .capv6-bottom { font-size: 11px; color: var(--orange); font-weight: 700; margin-top: 3px; }
+    .capv6-bottom b { font-weight: 900; }
+  </style>
+
+  <div class="cap-demo-row">
+    <div class="cap-demo">
+      <div class="cap-demo-label">V1 · 숫자만 크게</div>
+      <div class="capv1">
+        <div class="capv1-lbl">이 여행의 총 경비</div>
+        <div class="capv1-val">102만원</div>
+        <div class="capv1-sub">3박 4일 · 1인 기준</div>
+      </div>
+      <div class="cap-demo-note">가장 시각적으로 강함. 숫자를 앞세워 임팩트.</div>
+    </div>
+
+    <div class="cap-demo">
+      <div class="cap-demo-label">V2 · 인라인 한 줄 (도트)</div>
+      <div class="capv2">총 <b>102만 원</b>에 다녀온 3박 4일 여행</div>
+      <div class="cap-demo-note">박스 없이 얇게. 조용하지만 정보는 준다.</div>
+    </div>
+
+    <div class="cap-demo">
+      <div class="cap-demo-label">V3 · 작가 말풍선</div>
+      <div class="capv3">저는 이 여행 <b>총 102만 원</b>에 다녀왔어요 ✈</div>
+      <div class="cap-demo-note">크리에이터 개성. 1인칭 멘트로 친근함.</div>
+    </div>
+
+    <div class="cap-demo">
+      <div class="cap-demo-label">V4 · 가격 스탬프</div>
+      <div class="capv4">
+        <div class="capv4-lbl">이 일정,<br>얼마 들었을까요?</div>
+        <div class="capv4-stamp">₩102만</div>
+      </div>
+      <div class="cap-demo-note">도장 느낌. 재치 있고 기억 남음.</div>
+    </div>
+
+    <div class="cap-demo">
+      <div class="cap-demo-label">V5 · 구분선 + 우측 정렬</div>
+      <div class="capv5">
+        <div class="capv5-lbl">이 일정의 총 비용</div>
+        <div class="capv5-val">총 <b>102만 원</b></div>
+      </div>
+      <div class="cap-demo-note">미니멀. 은행 영수증 느낌, 깔끔함.</div>
+    </div>
+
+    <div class="cap-demo">
+      <div class="cap-demo-label">V6 · 버튼에 녹이기</div>
+      <div class="capv6">
+        <div class="capv6-top">상세 경비 보기</div>
+        <div class="capv6-bottom">💰 총 <b>102만 원</b>에 다녀왔어요 ›</div>
+      </div>
+      <div class="cap-demo-note">별도 캡션 없이 버튼 안에 가격 노출.</div>
+    </div>
+  </div>
+
+  <div class="hdr" style="margin-top:56px;">
+    <small>FLAG VARIANTS</small>
+    <h1>국기 보여주는 방식 5가지</h1>
+    <p>각 옵션별로 히어로에 국기/국가 정보를 다르게 배치했어요. 마음에 드는 거 골라주세요.</p>
+  </div>
+
+  <div class="row">
+    <!-- Variant 1: 제목 옆 인라인 원형 (현재) -->
+    <div class="phone-wrap" style="width:300px;">
+      <div class="phone-label">V1 · 제목 옆 원형 (현재)</div>
+      <div class="phone" style="padding:12px;">
+        <div class="card" style="width:auto;">
+          <div class="hero osaka" style="height:150px;position:relative;">
+            <div class="hero-content">
+              <div class="flag-inline">🇯🇵</div>
+              <div class="trip-title">오사카 & 교토<br>3박 4일</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Variant 2: 우상단 작은 원형 -->
+    <div class="phone-wrap" style="width:300px;">
+      <div class="phone-label">V2 · 우상단 원형</div>
+      <div class="phone" style="padding:12px;">
+        <div class="card" style="width:auto;">
+          <div class="hero osaka" style="height:150px;position:relative;">
+            <div style="position:absolute;top:12px;right:12px;width:36px;height:36px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;font-size:20px;box-shadow:0 3px 10px rgba(0,0,0,0.2);z-index:2;">🇯🇵</div>
+            <div class="hero-content" style="gap:0;">
+              <div class="trip-title">오사카 & 교토<br>3박 4일</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Variant 3: 제목 위 이모지 -->
+    <div class="phone-wrap" style="width:300px;">
+      <div class="phone-label">V3 · 제목 위 큰 이모지</div>
+      <div class="phone" style="padding:12px;">
+        <div class="card" style="width:auto;">
+          <div class="hero osaka" style="height:150px;position:relative;">
+            <div class="hero-content" style="gap:0;flex-direction:column;align-items:flex-start;">
+              <div style="font-size:28px;line-height:1;margin-bottom:6px;filter:drop-shadow(0 2px 4px rgba(0,0,0,0.3));">🇯🇵</div>
+              <div class="trip-title">오사카 & 교토<br>3박 4일</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Variant 4: 텍스트 태그 "JAPAN" + 이모지 -->
+    <div class="phone-wrap" style="width:300px;">
+      <div class="phone-label">V4 · 국가명 태그 (JAPAN)</div>
+      <div class="phone" style="padding:12px;">
+        <div class="card" style="width:auto;">
+          <div class="hero osaka" style="height:150px;position:relative;">
+            <div class="hero-content" style="gap:0;flex-direction:column;align-items:flex-start;">
+              <div style="display:inline-flex;align-items:center;gap:5px;background:rgba(255,255,255,0.95);padding:4px 10px;border-radius:999px;margin-bottom:8px;font-size:11px;font-weight:900;color:var(--text);letter-spacing:0.04em;">
+                <span>🇯🇵</span> JAPAN
+              </div>
+              <div class="trip-title">오사카 & 교토<br>3박 4일</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Variant 5: 원형 세로 스택 (국기 + 국가 텍스트) -->
+    <div class="phone-wrap" style="width:300px;">
+      <div class="phone-label">V5 · 우상단 뱃지 + 국가명</div>
+      <div class="phone" style="padding:12px;">
+        <div class="card" style="width:auto;">
+          <div class="hero osaka" style="height:150px;position:relative;">
+            <div style="position:absolute;top:12px;right:12px;display:flex;flex-direction:column;align-items:center;gap:3px;z-index:2;">
+              <div style="width:38px;height:38px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;font-size:20px;box-shadow:0 3px 10px rgba(0,0,0,0.25);">🇯🇵</div>
+              <div style="font-size:9px;font-weight:900;color:#fff;letter-spacing:0.1em;text-shadow:0 1px 2px rgba(0,0,0,0.5);">JAPAN</div>
+            </div>
+            <div class="hero-content" style="gap:0;">
+              <div class="trip-title">오사카 & 교토<br>3박 4일</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="max-width:760px;margin:40px auto 0;padding:18px 20px;background:rgba(255,255,255,0.6);border-radius:18px;font-size:13px;color:var(--muted);line-height:1.8;backdrop-filter:blur(8px);">
+    <strong style="color:var(--text);">반영 내역</strong><br>
+    ① 히어로 우상단 <b style="color:var(--text);">LIVE 뱃지</b> — 실시간 가격 + 최저가 날짜 (맥박 애니메이션)<br>
+    ② <b style="color:var(--text);">일정표 = 민트 그라디언트</b> / <b style="color:var(--text);">총경비 = 오렌지 그라디언트</b> — 역할 시각 구분<br>
+    ③ 각 버튼 서브카피에 프리뷰 정보 추가 ("DAY별 12곳", "항공+숙소+기타")<br>
+    ④ 히어로 좌상단 <b style="color:var(--text);">🇯🇵 원형 국기 뱃지</b> — 여행지 즉시 인식
+  </div>
+
+</body>
+</html>

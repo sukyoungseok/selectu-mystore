@@ -45,7 +45,7 @@
     .affiliate-notice a { color: var(--light); text-decoration: underline; }
 
     /* ── HERO ── */
-    .hero { position: relative; height: 380px; overflow: hidden; }
+    .hero { position: relative; height: 380px; }
     .hero-cover {
       position: absolute; inset: 0;
       background: url('community_thumbnail.png') center/cover no-repeat;
@@ -64,47 +64,113 @@
       box-shadow: 0 8px 32px rgba(0,0,0,0.12);
     }
     .profile-avatar {
-      width: 52px; height: 52px;
+      width: 72px; height: 72px;
       border-radius: 50%; overflow: hidden;
       flex-shrink: 0; box-shadow: 0 4px 12px rgba(224,122,56,0.35);
     }
     .profile-avatar img { width: 100%; height: 100%; object-fit: cover; }
-    .profile-info h2 { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 3px; }
+    .profile-info h2 { font-size: 16px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
     .profile-info p { font-size: 12px; color: var(--mid); margin-bottom: 8px; }
-    .sns-pills { display: flex; gap: 6px; }
-    .sns-pill {
-      font-size: 11px; font-weight: 500;
-      background: var(--cream); color: var(--mid);
+    .profile-biz {
+      display: inline-flex; align-items: center; gap: 4px;
+      font-size: 11px; font-weight: 700;
+      color: var(--amber); text-decoration: none;
+      background: rgba(224,122,56,0.1);
       padding: 4px 10px; border-radius: 20px;
-      border: 1px solid #C4BAB0; text-decoration: none; white-space: nowrap;
+      margin-bottom: 8px;
+    }
+    .sns-pills { display: flex; gap: 6px; }
+    .sns-icon {
+      width: 28px; height: 28px; border-radius: 50%;
+      background: var(--cream); border: 1px solid #C4BAB0;
+      display: inline-flex; align-items: center; justify-content: center;
+      text-decoration: none; flex-shrink: 0;
+    }
+    .sns-icon img { width: 16px; height: 16px; object-fit: contain; }
+    .sns-icon.mail { color: var(--amber); }
+    .sns-icon.mail svg { width: 16px; height: 16px; }
+    .ls-simple-ico {
+      width: 22px; height: 22px; object-fit: contain; margin-right: 10px;
+      vertical-align: middle;
     }
 
-    /* ── 쿠폰 배너 (橱窗 위치) ── */
+    /* ── 쿠폰 배너 (B안 — 오렌지 블록 + 화이트 본문 티켓) ── */
     .coupon-showcase {
       margin: 36px 20px 0;
-      background: #fff;
-      border-radius: 16px;
-      border: 1px solid var(--border);
-      padding: 13px 16px;
-      display: flex; align-items: center; gap: 12px;
+      display: flex; align-items: stretch; overflow: hidden;
+      background: #fff; border-radius: 14px;
+      border: 1.5px solid var(--amber);
       cursor: pointer;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+      box-shadow: 0 2px 10px rgba(224,122,56,0.12);
+      text-decoration: none;
     }
-    .cs-icon {
-      width: 36px; height: 36px; flex-shrink: 0;
-      background: #FFF3E0; border-radius: 10px;
-      display: flex; align-items: center; justify-content: center; font-size: 18px;
+    .csc-left {
+      padding: 14px 14px; flex-shrink: 0; min-width: 92px;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      background: var(--amber); color: #fff;
     }
-    .cs-body { flex: 1; }
-    .cs-label { font-size: 10px; font-weight: 700; color: var(--amber); margin-bottom: 2px; letter-spacing: 0.5px; }
-    .cs-desc { font-size: 13px; font-weight: 700; color: var(--text); }
-    .cs-thumbs { display: flex; gap: 5px; flex-shrink: 0; }
-    .cs-thumb {
-      width: 36px; height: 36px; border-radius: 8px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 16px; border: 1.5px solid var(--border);
+    .csc-amount { font-size: 20px; font-weight: 900; line-height: 1; letter-spacing: -0.5px; }
+    .csc-amount span { font-size: 12px; font-weight: 700; }
+    .csc-small { font-size: 10px; font-weight: 600; margin-top: 4px; opacity: 0.95; }
+    .csc-right {
+      flex: 1; padding: 12px 16px;
+      display: flex; flex-direction: column; justify-content: center; gap: 2px;
+      border-left: 1.5px dashed #E8B886;
     }
-    .cs-arrow { font-size: 18px; color: var(--mid); flex-shrink: 0; }
+    .csc-title { font-size: 14px; font-weight: 700; color: var(--text); line-height: 1.35; letter-spacing: -0.3px; }
+    .csc-sub { font-size: 11px; color: var(--mid); margin-top: 2px; }
+    .csc-expire { font-size: 10px; color: var(--light); margin-top: 2px; }
+    .csc-download {
+      flex-shrink: 0; width: 40px; display: flex; align-items: center; justify-content: center;
+      color: var(--amber); border-left: 1px solid var(--border);
+    }
+    .csc-download svg { width: 22px; height: 22px; }
+
+    /* ── 비즈니스 제안 CTA (인포크링크 레퍼런스) ── */
+    .biz-cta {
+      margin: 12px 20px 0;
+      background: #fff; border: 1px solid var(--border); border-radius: 14px;
+      padding: 12px 14px; display: flex; align-items: center; gap: 10px;
+      cursor: pointer; text-decoration: none;
+    }
+    .biz-cta-icon {
+      width: 32px; height: 32px; flex-shrink: 0;
+      background: #F0F4F2; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center; font-size: 16px;
+      color: var(--sage);
+    }
+    .biz-cta-body { flex: 1; }
+    .biz-cta-label { font-size: 10px; font-weight: 700; color: var(--sage); margin-bottom: 1px; letter-spacing: 0.3px; }
+    .biz-cta-text { font-size: 13px; font-weight: 700; color: var(--text); }
+    .biz-cta-arrow { font-size: 18px; color: var(--mid); flex-shrink: 0; }
+
+    /* ── 링크 컬러 뱃지 (인포크링크 레퍼런스) ── */
+    .ls-badges { display: flex; gap: 5px; margin-bottom: 6px; flex-wrap: wrap; }
+    .ls-badge {
+      font-size: 10px; font-weight: 700;
+      padding: 3px 9px; border-radius: 20px;
+      letter-spacing: 0.2px; white-space: nowrap;
+    }
+    .ls-badge.hot { background: linear-gradient(135deg, #FF6B6B, #E07A38); color: #fff; }
+    .ls-badge.new { background: #E0F0FF; color: #2270D6; }
+    .ls-badge.free { background: #FFF6D6; color: #B8860B; }
+    .ls-badge.ad-x { background: #F0F0F0; color: #555; }
+    .ls-badge.recommend { background: #E8F5E9; color: #5A8A6B; }
+
+    /* ── 푸터 (인포크링크 레퍼런스) ── */
+    .bio-footer {
+      margin: 36px 0 0; padding: 24px 20px 28px;
+      border-top: 1px solid var(--border);
+      display: flex; flex-direction: column; align-items: center; gap: 4px;
+      background: #F4F0EA;
+    }
+    .bio-footer-label { font-size: 10px; font-weight: 700; color: var(--mid); letter-spacing: 0.5px; }
+    .bio-footer-mail {
+      font-size: 13px; font-weight: 700; color: var(--text);
+      text-decoration: none; display: flex; align-items: center; gap: 6px;
+    }
+    .bio-footer-mail::before { content: '✉'; font-size: 14px; color: var(--amber); }
+    .bio-footer-meta { font-size: 10px; color: var(--light); margin-top: 8px; }
 
     /* ── TABS ── */
     .page-tabs {
@@ -131,8 +197,58 @@
     .links-section h3 { font-size: 15px; font-weight: 800; color: var(--text); margin-bottom: 14px; }
     .link-blocks { display: flex; flex-direction: column; gap: 8px; }
     .style-tag {
-      font-size: 10px; font-weight: 700; color: var(--light);
-      letter-spacing: 1px; text-transform: uppercase; margin: 14px 0 6px;
+      font-size: 13px; font-weight: 800; color: var(--text);
+      margin: 22px 0 10px; display: flex; align-items: center; gap: 8px;
+      letter-spacing: -0.2px;
+    }
+    .style-tag::before {
+      content: ''; width: 4px; height: 16px;
+      background: var(--amber); border-radius: 2px;
+    }
+    .style-tag .edit-hint {
+      font-size: 10px; font-weight: 500; color: var(--light);
+      margin-left: auto; letter-spacing: 0;
+    }
+
+    /* 텍스트/설명 블록 — 말풍선 스타일 (크리에이터 한마디) */
+    .ls-textblock {
+      display: flex; gap: 14px; align-items: flex-start;
+      margin: 4px 0 12px; padding-top: 4px;
+    }
+    .ls-tb-avatar {
+      width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0;
+      background: url('IMG_7595.jpg') center/cover;
+      border: 2.5px solid #fff;
+      box-shadow: 0 3px 10px rgba(224,122,56,0.25), 0 0 0 2px var(--amber);
+    }
+    .ls-tb-bubble {
+      flex: 1; position: relative;
+      background: #FFF5E8; border: 1.5px solid #FFD9AE; border-radius: 18px;
+      padding: 14px 16px; box-shadow: 0 4px 14px rgba(224,122,56,0.08);
+      font-size: 13px; line-height: 1.7; color: var(--text);
+    }
+    .ls-tb-bubble::before {
+      content: ''; position: absolute;
+      left: -10px; top: 14px;
+      width: 0; height: 0;
+      border: 8px solid transparent;
+      border-right-color: #FFD9AE; border-left: 0;
+    }
+    .ls-tb-bubble::after {
+      content: ''; position: absolute;
+      left: -7px; top: 15px;
+      width: 0; height: 0;
+      border: 7px solid transparent;
+      border-right-color: #FFF5E8; border-left: 0;
+    }
+    .ls-tb-title {
+      font-size: 14px; font-weight: 900; color: var(--amber);
+      margin-bottom: 4px; letter-spacing: -0.02em;
+    }
+    .ls-tb-bubble em {
+      font-style: normal; font-weight: 700;
+      background: linear-gradient(transparent 60%, rgba(224,122,56,0.35) 60%);
+      padding: 0 3px;
     }
     .ls-thumb {
       display: flex; align-items: center; gap: 12px;
@@ -179,33 +295,109 @@
     .ls-coll-title { font-size: 11px; font-weight: 600; color: var(--text); text-align: center; }
     .links-section-pb { padding-bottom: 40px; }
 
-    /* ── 코스 테이저 카드 ── */
-    .course-teaser {
-      margin: 12px 20px 0;
-      background: #fff; border-radius: 16px;
-      border: 1px solid var(--border); overflow: hidden;
-      cursor: pointer;
+    /* ── 여행 카드 캐러셀 ── */
+    .trip-carousel-wrap { margin: 20px 0 0; }
+    .trip-carousel {
+      display: flex; gap: 12px;
+      overflow-x: auto; scroll-snap-type: x mandatory;
+      padding: 4px 20px 12px;
+      scrollbar-width: none;
     }
-    .course-teaser-imgs {
-      display: flex; gap: 2px; height: 90px;
+    .trip-carousel::-webkit-scrollbar { display: none; }
+    .trip-card {
+      flex-shrink: 0; width: 300px;
+      scroll-snap-align: center;
+      background: #fff; border: 1px solid var(--border);
+      border-radius: 20px; overflow: hidden;
+      box-shadow: 0 6px 18px rgba(24,21,18,0.07);
     }
-    .course-teaser-imgs img {
-      flex: 1; min-width: 0; height: 100%; object-fit: cover;
+    .tc-hero { position: relative; height: 150px; background-size: cover; background-position: center; }
+    .tc-hero.osaka { background-image: url('insta_thumbnail.png'); }
+    .tc-hero.tokyo { background-image: url('insta_feed_content-4.png'); }
+    .tc-hero.bangkok { background-image: url('insta_feed_content-6.png'); background-color: #DDB892; }
+    .tc-hero.taipei { background-image: url('insta_feed_content-7.png'); background-color: #8FD6B5; }
+    .tc-hero::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(180deg, rgba(17,14,10,0.05), rgba(17,14,10,0.68));
     }
-    .course-teaser-body {
-      padding: 11px 14px;
+    .tc-hero-content {
+      position: absolute; left: 16px; right: 16px; bottom: 14px;
+      z-index: 1; color: #fff;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .tc-flag {
+      width: 46px; height: 46px; border-radius: 50%;
+      background: #fff; display: flex; align-items: center; justify-content: center;
+      font-size: 24px; flex-shrink: 0;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+    }
+    .tc-title { font-size: 22px; font-weight: 700; line-height: 1.15; letter-spacing: -0.03em; color: #fff; }
+    .tc-badges { display: flex; gap: 5px; margin-bottom: 6px; flex-wrap: wrap; }
+    .tc-badge {
+      background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.28);
+      backdrop-filter: blur(8px);
+      padding: 3px 9px; border-radius: 999px;
+      font-size: 10px; font-weight: 700; color: #fff; letter-spacing: -0.01em;
+    }
+    .tc-title-col { min-width: 0; }
+
+    .tc-body { padding: 16px; }
+    .tc-ask {
+      font-size: 15px; font-weight: 900; letter-spacing: -0.03em;
+      margin-bottom: 12px; color: var(--text);
+    }
+    .tc-choice { display: grid; gap: 8px; }
+    .tc-choice button {
+      width: 100%; border: 1.5px solid transparent;
+      border-radius: 18px; padding: 16px 18px;
+      font-family: inherit; text-align: left; cursor: pointer;
+      transition: transform 0.15s;
       display: flex; align-items: center; justify-content: space-between;
     }
-    .course-teaser-badge {
-      font-size: 10px; font-weight: 700; color: var(--amber);
-      background: rgba(224,122,56,0.1); border-radius: 6px;
-      padding: 2px 7px; display: inline-block; margin-bottom: 4px;
+    .tc-choice button:active { transform: scale(0.985); }
+    .tc-choice strong {
+      display: block; font-size: 15px; font-weight: 900; letter-spacing: -0.03em;
+      margin-bottom: 3px; color: var(--text);
     }
-    .course-teaser-title {
-      font-size: 14px; font-weight: 800; color: var(--text); margin-bottom: 2px;
+    .tc-choice span {
+      display: block; font-size: 11px; font-weight: 700; color: var(--mid);
     }
-    .course-teaser-sub { font-size: 11px; color: var(--mid); }
-    .course-teaser-arrow { font-size: 22px; color: var(--mid); padding-left: 8px; flex-shrink: 0; }
+    .tc-choice .tc-arr { font-size: 18px; color: var(--light); opacity: 0.6; flex-shrink: 0; margin-left: 10px; }
+    .tc-choice .plan {
+      background: linear-gradient(135deg, #eef7f2 0%, #dcecdf 100%);
+      border-color: #c4ddce;
+    }
+    .tc-choice .cost {
+      background: linear-gradient(135deg, #fff2e6 0%, #ffe0c8 100%);
+      border-color: #f3caa0;
+    }
+    .tc-cap {
+      margin-top: 14px; padding: 12px 6px 2px;
+      border-top: 1px solid rgba(24,21,18,0.08);
+      display: flex; justify-content: space-between; align-items: flex-end;
+    }
+    .tc-cap-l { font-size: 11px; color: var(--mid); font-weight: 500; line-height: 1.45; }
+    .tc-cap-l b { display: block; color: var(--text); font-weight: 700; margin-top: 1px; }
+    .tc-cap-live {
+      font-size: 9px; font-weight: 900; color: var(--amber);
+      background: rgba(224,122,56,0.12); padding: 2px 6px; border-radius: 4px;
+      letter-spacing: 0.04em; margin-right: 6px;
+    }
+    .tc-cap-r {
+      font-size: 24px; color: var(--amber); font-weight: 900;
+      letter-spacing: -0.05em; line-height: 1; white-space: nowrap;
+    }
+
+    .trip-dots {
+      display: flex; justify-content: center; gap: 6px;
+      margin-top: 4px;
+    }
+    .trip-dot {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: rgba(24,21,18,0.18);
+      transition: all 0.2s;
+    }
+    .trip-dot.on { background: var(--amber); width: 18px; border-radius: 4px; }
 
     /* ── OG 링크 카드 ── */
     .ls-og {
@@ -289,6 +481,25 @@
 
     /* ════════ 상품 탭 ════════ */
     .products-section { padding: 14px 14px 40px; }
+    /* 검색 바 (인포크링크 레퍼런스) */
+    .product-search {
+      position: relative; margin-bottom: 14px;
+    }
+    .product-search input {
+      width: 100%; box-sizing: border-box;
+      padding: 11px 14px 11px 38px;
+      font-family: inherit; font-size: 13px;
+      border: 1px solid var(--border); border-radius: 24px;
+      background: #fff; color: var(--text);
+      outline: none;
+    }
+    .product-search input::placeholder { color: var(--light); }
+    .product-search input:focus { border-color: var(--amber); }
+    .product-search-icon {
+      position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
+      width: 16px; height: 16px; color: var(--light); pointer-events: none;
+    }
+
     .category-chips {
       display: flex; gap: 6px; overflow-x: auto;
       padding: 0 0 12px; margin-bottom: 4px;
@@ -571,9 +782,20 @@
       background: #fff; border-radius: 14px; padding: 14px;
       margin-bottom: 8px; border: 1px solid var(--border);
     }
+    .exp-group-header {
+      display: flex; align-items: baseline; justify-content: space-between;
+      margin: 18px 2px 8px; font-size: 13px; font-weight: 800; color: var(--text);
+    }
+    .exp-group-sub { font-size: 10px; color: var(--light); font-weight: 600; }
     .exp-emoji { font-size: 22px; flex-shrink: 0; }
     .exp-info { flex: 1; min-width: 0; }
     .exp-name { font-size: 14px; font-weight: 700; color: var(--text); margin-bottom: 2px; }
+    .exp-live-tag {
+      display: inline-block; margin-left: 6px;
+      font-size: 9px; font-weight: 700; color: var(--amber);
+      background: rgba(224,122,56,0.12); border-radius: 4px;
+      padding: 2px 5px; vertical-align: middle;
+    }
     .exp-note { font-size: 11px; color: var(--mid); }
     .exp-right { display: flex; flex-direction: column; align-items: flex-end; gap: 5px; flex-shrink: 0; }
     .exp-price-val { font-size: 15px; font-weight: 900; color: var(--text); }
@@ -714,81 +936,230 @@
           <h2>셀렉트유</h2>
           <p>여행 크리에이터 · @viento_de</p>
           <div class="sns-pills">
-            <a class="sns-pill" href="https://www.instagram.com/viento_de" target="_blank">📷 Instagram</a>
-            <a class="sns-pill" href="#">▶ YouTube</a>
+            <a class="sns-icon" href="https://www.instagram.com/viento_de" target="_blank" aria-label="Instagram"><img src="insta.png" alt=""></a>
+            <a class="sns-icon" href="#" aria-label="YouTube"><img src="youtube.png" alt=""></a>
+            <a class="sns-icon" href="#" aria-label="Blog"><img src="blog.png" alt=""></a>
+            <a class="sns-icon mail" href="mailto:viento_de@naver.com" aria-label="광고/협업 문의">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+            </a>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- 쿠폰 배너 -->
-    <a class="coupon-showcase" href="https://www.myrealtrip.com/coupons" target="_blank" style="text-decoration:none;">
-      <div class="cs-icon">🎫</div>
-      <div class="cs-body">
-        <div class="cs-label">마이리얼트립 3,000원 쿠폰 받기</div>
-        <div class="cs-desc">셀렉트유 추천 링크로 첫 예약 시 사용 가능</div>
+    <!-- 쿠폰 배너 (B안) -->
+    <a class="coupon-showcase" href="https://www.myrealtrip.com/coupons" target="_blank">
+      <div class="csc-left">
+        <div class="csc-amount">3,000<span>원</span></div>
+        <div class="csc-small">할인</div>
       </div>
-      <div class="cs-arrow">›</div>
+      <div class="csc-right">
+        <div class="csc-title">마이리얼트립 첫 예약 할인</div>
+        <div class="csc-sub">5만원 이상 · 셀렉트유 전용</div>
+        <div class="csc-expire">~2026.05.31</div>
+      </div>
+      <div class="csc-download" aria-label="쿠폰 받기">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 4v12"/>
+          <path d="M6 10l6 6 6-6"/>
+          <path d="M5 20h14"/>
+        </svg>
+      </div>
     </a>
 
-    <!-- 코스 미리보기 카드 (항상 표시, 탭 아님) -->
-    <div class="course-teaser" onclick="openCourse()">
-      <div class="course-teaser-imgs">
-        <img src="insta_thumbnail.png" loading="lazy">
-        <img src="insta_feed_content-1.png" loading="lazy">
-        <img src="insta_feed_content-2.png" loading="lazy">
-        <img src="insta_feed_content-4.png" loading="lazy">
-      </div>
-      <div class="course-teaser-body">
-        <div class="course-teaser-info">
-          <span class="course-teaser-badge">🗺 여행 코스</span>
-          <div class="course-teaser-title">오사카 & 교토 3박 4일</div>
-          <div class="course-teaser-sub">✈️ 총경비 약 102만원 · 1인 기준</div>
+    <!-- 여행 카드 캐러셀 -->
+    <div class="trip-carousel-wrap">
+      <div class="trip-carousel" id="trip-carousel">
+
+        <div class="trip-card">
+          <div class="tc-hero osaka">
+            <div class="tc-hero-content">
+              <div class="tc-flag">🇯🇵</div>
+              <div class="tc-title-col">
+                <div class="tc-badges">
+                  <span class="tc-badge">3박 4일</span>
+                  <span class="tc-badge">26년 5월 여행</span>
+                </div>
+                <div class="tc-title">오사카 & 교토</div>
+              </div>
+            </div>
+          </div>
+          <div class="tc-body">
+            <div class="tc-ask">어디부터 볼까요?</div>
+            <div class="tc-choice">
+              <button class="plan" onclick="openCourse()">
+                <div><strong>일정표 보기</strong><span>동선 먼저</span></div>
+                <div class="tc-arr">›</div>
+              </button>
+              <button class="cost" onclick="openExpensePanel()">
+                <div><strong>상세 경비 보기</strong><span>예산 먼저</span></div>
+                <div class="tc-arr">›</div>
+              </button>
+            </div>
+            <div class="tc-cap">
+              <span class="tc-cap-l"><span class="tc-cap-live">실시간</span>1인 기준<b>오사카 최저 총비용</b></span>
+              <span class="tc-cap-r"><span id="ct-budget-amount">102</span>만 원</span>
+            </div>
+          </div>
         </div>
-        <div class="course-teaser-arrow">›</div>
+
+        <div class="trip-card">
+          <div class="tc-hero tokyo">
+            <div class="tc-hero-content">
+              <div class="tc-flag">🇯🇵</div>
+              <div class="tc-title-col">
+                <div class="tc-badges">
+                  <span class="tc-badge">4박 5일</span>
+                  <span class="tc-badge">25년 11월 여행</span>
+                </div>
+                <div class="tc-title">도쿄 & 하코네</div>
+              </div>
+            </div>
+          </div>
+          <div class="tc-body">
+            <div class="tc-ask">어디부터 볼까요?</div>
+            <div class="tc-choice">
+              <button class="plan">
+                <div><strong>일정표 보기</strong><span>동선 먼저</span></div>
+                <div class="tc-arr">›</div>
+              </button>
+              <button class="cost">
+                <div><strong>상세 경비 보기</strong><span>예산 먼저</span></div>
+                <div class="tc-arr">›</div>
+              </button>
+            </div>
+            <div class="tc-cap">
+              <span class="tc-cap-l"><span class="tc-cap-live">실시간</span>1인 기준<b>도쿄 최저 총비용</b></span>
+              <span class="tc-cap-r">148만 원</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="trip-card">
+          <div class="tc-hero bangkok">
+            <div class="tc-hero-content">
+              <div class="tc-flag">🇹🇭</div>
+              <div class="tc-title-col">
+                <div class="tc-badges">
+                  <span class="tc-badge">3박 5일</span>
+                  <span class="tc-badge">26년 2월 여행</span>
+                </div>
+                <div class="tc-title">방콕 & 아유타야</div>
+              </div>
+            </div>
+          </div>
+          <div class="tc-body">
+            <div class="tc-ask">어디부터 볼까요?</div>
+            <div class="tc-choice">
+              <button class="plan">
+                <div><strong>일정표 보기</strong><span>동선 먼저</span></div>
+                <div class="tc-arr">›</div>
+              </button>
+              <button class="cost">
+                <div><strong>상세 경비 보기</strong><span>예산 먼저</span></div>
+                <div class="tc-arr">›</div>
+              </button>
+            </div>
+            <div class="tc-cap">
+              <span class="tc-cap-l"><span class="tc-cap-live">실시간</span>1인 기준<b>방콕 최저 총비용</b></span>
+              <span class="tc-cap-r">86만 원</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="trip-card">
+          <div class="tc-hero taipei">
+            <div class="tc-hero-content">
+              <div class="tc-flag">🇹🇼</div>
+              <div class="tc-title-col">
+                <div class="tc-badges">
+                  <span class="tc-badge">2박 3일</span>
+                  <span class="tc-badge">25년 10월 여행</span>
+                </div>
+                <div class="tc-title">타이베이</div>
+              </div>
+            </div>
+          </div>
+          <div class="tc-body">
+            <div class="tc-ask">어디부터 볼까요?</div>
+            <div class="tc-choice">
+              <button class="plan">
+                <div><strong>일정표 보기</strong><span>동선 먼저</span></div>
+                <div class="tc-arr">›</div>
+              </button>
+              <button class="cost">
+                <div><strong>상세 경비 보기</strong><span>예산 먼저</span></div>
+                <div class="tc-arr">›</div>
+              </button>
+            </div>
+            <div class="tc-cap">
+              <span class="tc-cap-l"><span class="tc-cap-live">실시간</span>1인 기준<b>타이베이 최저 총비용</b></span>
+              <span class="tc-cap-r">62만 원</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="trip-dots" id="trip-dots">
+        <span class="trip-dot on"></span><span class="trip-dot"></span><span class="trip-dot"></span><span class="trip-dot"></span>
       </div>
     </div>
 
     <!-- TABS -->
     <div class="page-tabs">
-      <div class="page-tab on" onclick="switchTab('posts')">링크</div>
-      <div class="page-tab" onclick="switchTab('products')">필수템</div>
+      <div class="page-tab on" data-tab="posts" onclick="switchTab('posts')">링크</div>
+      <div class="page-tab" data-tab="products" onclick="switchTab('products')">필수템</div>
     </div>
 
     <!-- ══ 게시물 탭 ══ -->
     <div id="tab-posts" class="tab-panel on">
       <div class="links-section">
         <div class="link-blocks">
-          <div class="style-tag">썸네일</div>
+          <div class="style-tag">오사카 여행 후기</div>
+          <div class="ls-textblock">
+            <div class="ls-tb-avatar"></div>
+            <div class="ls-tb-bubble">
+              <div class="ls-tb-title">오사카 여행 꿀팁!</div>
+              작년 봄 오사카·교토 3박 4일 다녀온 실제 후기와 추천 링크들을 모았어요.<br>
+              <em>100만원대</em>로 알차게 다녀오는 팁까지 — 아래 링크부터 쭉 훑어보세요!
+            </div>
+          </div>
           <a class="ls-thumb" href="https://www.myrealtrip.com/community/posts/27112" target="_blank">
             <div class="ls-thumb-img"><img src="insta_thumbnail.png" loading="lazy"></div>
             <div class="ls-thumb-body">
+              <div class="ls-badges">
+                <span class="ls-badge hot">🔥 인기</span>
+                <span class="ls-badge ad-x">광고X</span>
+              </div>
               <div class="ls-thumb-title">오사카&교토 3박 4일 여행 후기</div>
               <div class="ls-thumb-sub">100만원으로 알차게 다녀온 실제 후기</div>
             </div>
             <span class="ls-thumb-arr">→</span>
           </a>
 
-          <div class="style-tag">심플</div>
+          <div class="style-tag">나를 팔로우해주세요</div>
           <a class="ls-simple" href="#">
-            <span class="ls-simple-label">📷 인스타그램 팔로우</span>
+            <span class="ls-simple-label"><img class="ls-simple-ico" src="insta.png" alt="">인스타그램 팔로우</span>
             <span class="ls-simple-arr">→</span>
           </a>
           <a class="ls-simple" href="#">
-            <span class="ls-simple-label">▶ 유튜브 채널 구독</span>
+            <span class="ls-simple-label"><img class="ls-simple-ico" src="youtube.png" alt="">유튜브 채널 구독</span>
+            <span class="ls-simple-arr">→</span>
+          </a>
+          <a class="ls-simple" href="#">
+            <span class="ls-simple-label"><img class="ls-simple-ico" src="blog.png" alt="">블로그 방문하기</span>
             <span class="ls-simple-arr">→</span>
           </a>
 
-          <div class="style-tag">카드</div>
-          <a class="ls-card" href="#">🎧 여행 팟캐스트 듣기</a>
+          <div class="style-tag">오사카 여행 콘텐츠</div>
+          <a class="ls-card" href="#">🎧 여행 팟캐스트 · "오사카 4박의 기록"</a>
 
-          <div class="style-tag">사진 크게</div>
           <a class="ls-bgimg" href="https://www.myrealtrip.com/community/posts/27352" target="_blank"
             style="background-image:url('insta_feed_content-4.png')">
             <span class="ls-bgimg-title">⛩️ 교토 청수사 · 기온 포토 모음</span>
           </a>
 
-          <div class="style-tag">컬렉션 블록</div>
+          <div class="style-tag">DAY별 여행 코스</div>
           <div class="ls-collection">
             <a class="ls-coll-item" href="https://www.myrealtrip.com/community/posts/27112" target="_blank">
               <div class="ls-coll-img"><img src="insta_feed_content-2.png" loading="lazy"></div>
@@ -804,11 +1175,12 @@
             </a>
           </div>
 
-          <div class="style-tag">링크 미리보기</div>
+          <div class="style-tag">오사카 · 교토 맛집 후기</div>
           <a class="ls-og" href="https://www.myrealtrip.com/community/posts/31410" target="_blank"
              data-og-url="https://www.myrealtrip.com/community/posts/31410">
             <div class="ls-og-placeholder">🌃</div>
             <div class="ls-og-body">
+              <div class="ls-badges"><span class="ls-badge recommend">💡 추천</span></div>
               <div class="ls-og-title">오사카 하루카스 300 야경 후기</div>
               <div class="ls-og-domain">myrealtrip.com</div>
             </div>
@@ -846,16 +1218,19 @@
     <!-- ══ 필수템 탭 ══ -->
     <div id="tab-products" class="tab-panel">
       <div class="products-section">
-        <div class="category-chips">
-          <div class="cat-chip on">전체</div>
-          <div class="cat-chip">이심·통신</div>
-          <div class="cat-chip">입장권</div>
-          <div class="cat-chip">교통패스</div>
-          <div class="cat-chip">맛집</div>
-          <div class="cat-chip">액티비티</div>
+        <div class="product-search">
+          <svg class="product-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          <input id="product-search-input" type="text" placeholder="검색어를 입력해주세요" oninput="renderProducts()">
         </div>
         <div class="product-grid" id="product-grid"></div>
       </div>
+    </div>
+
+    <!-- 푸터 -->
+    <div class="bio-footer">
+      <div class="bio-footer-label">COLLABORATION</div>
+      <a class="bio-footer-mail" href="mailto:viento_de@naver.com">viento_de@naver.com</a>
+      <div class="bio-footer-meta">© 2026 셀렉트유 · viento_de</div>
     </div>
 
   </div><!-- /main-page -->
@@ -866,11 +1241,115 @@
     <div class="panel-topbar">
       <div class="panel-back" onclick="closeCourse()">←</div>
       <div><div class="panel-title">오사카&교토 여행 코스</div></div>
-      <div class="panel-subtitle">3박 4일 · 장소 6곳</div>
+      <div class="panel-subtitle">26년 5월 여행</div>
     </div>
     <div id="map-full"></div>
     <div class="day-tabs" id="day-tabs"></div>
     <div class="day-content" id="day-content"></div>
+  </div>
+
+  <!-- ────────── EXPENSE PANEL (Bottom Sheet) ────────── -->
+  <div id="expense-panel">
+    <div class="exp-overlay" onclick="closeExpensePanel()"></div>
+    <div class="exp-sheet">
+      <div style="width:36px;height:4px;background:var(--border);border-radius:2px;margin:6px auto 16px;"></div>
+      <div class="exp-title">✈️ 오사카&교토 3박 4일 실제 경비</div>
+      <div class="exp-subtitle">셀렉트유 직접 다녀온 여행 · 1인 기준</div>
+
+      <div class="exp-item">
+        <div class="exp-emoji">✈️</div>
+        <div class="exp-info">
+          <div class="exp-name">항공 <span class="exp-live-tag">실시간 최저가</span></div>
+          <div class="exp-note" id="exp-flight-note">진에어 왕복 · 이코노미</div>
+        </div>
+        <div class="exp-right">
+          <div class="exp-price-val" id="exp-flight">₩300,000</div>
+          <button class="exp-book-btn" onclick="window.open('https://www.myrealtrip.com/flights','_blank')">예약 바로가기</button>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-emoji">🏨</div>
+        <div class="exp-info">
+          <div class="exp-name">숙소 <span class="exp-live-tag">실시간 최저가</span></div>
+          <div class="exp-note" id="exp-hotel-note">에어비앤비 3박</div>
+        </div>
+        <div class="exp-right">
+          <div class="exp-price-val" id="exp-hotel">₩250,000</div>
+          <button class="exp-book-btn" onclick="window.open('https://www.myrealtrip.com/hotels','_blank')">예약 바로가기</button>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-emoji">🍜</div>
+        <div class="exp-info">
+          <div class="exp-name">식비 · 현지 경비</div>
+          <div class="exp-note">환전 기준 · 쇼핑/맛집/기타 포함</div>
+        </div>
+        <div class="exp-right">
+          <div class="exp-price-val">₩405,000</div>
+        </div>
+      </div>
+
+      <div class="exp-group-header">
+        <span>🎫 투어 티켓</span>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-emoji">📱</div>
+        <div class="exp-info">
+          <div class="exp-name">일본 이심 (4일, 2GB/일)</div>
+          <div class="exp-note">도착 즉시 사용 · 한국에서 미리 설치</div>
+        </div>
+        <div class="exp-right">
+          <div class="exp-price-val">₩12,000</div>
+          <button class="exp-book-btn" onclick="window.open('https://experiences.myrealtrip.com/products/3886994','_blank')">예약 바로가기</button>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-emoji">🌃</div>
+        <div class="exp-info">
+          <div class="exp-name">하루카스 300 전망대 입장권</div>
+          <div class="exp-note">오사카 야경 명소 · 60층 전망대</div>
+        </div>
+        <div class="exp-right">
+          <div class="exp-price-val">₩13,000</div>
+          <button class="exp-book-btn" onclick="window.open('https://www.myrealtrip.com/offers/25950','_blank')">예약 바로가기</button>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-emoji">🚄</div>
+        <div class="exp-info">
+          <div class="exp-name">난카이 라피트 편도 E-티켓</div>
+          <div class="exp-note">간사이공항 ↔ 난바 40분 · QR 탑승</div>
+        </div>
+        <div class="exp-right">
+          <div class="exp-price-val">₩9,800</div>
+          <button class="exp-book-btn" onclick="window.open('https://experiences.myrealtrip.com/products/5869248','_blank')">예약 바로가기</button>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-emoji">🎫</div>
+        <div class="exp-info">
+          <div class="exp-name">오사카 지하철 2일권</div>
+          <div class="exp-note">지하철 + 버스 무제한 · 주요 노선 탑승 가능</div>
+        </div>
+        <div class="exp-right">
+          <div class="exp-price-val">₩17,000</div>
+          <button class="exp-book-btn" onclick="window.open('https://experiences.myrealtrip.com/products/5869536','_blank')">예약 바로가기</button>
+        </div>
+      </div>
+
+      <div class="exp-total-row">
+        <div class="exp-total-label">총 예상 경비</div>
+        <div class="exp-total-val" id="exp-total">₩1,022,000</div>
+      </div>
+      <div class="exp-fine-print">✈️항공·🏨숙소는 <a href="https://tripsignal.vercel.app/?city=osaka&duration=3&adults=1" target="_blank" style="color:var(--amber);text-decoration:underline;">MyTripSignal</a> 실시간 최저가 기준 · 식비는 평균값</div>
+      <button class="exp-main-cta" onclick="window.open('https://tripsignal.vercel.app/?city=osaka&duration=4&adults=1','_blank')">더 많은 최저가 경비 찾기 →</button>
+    </div>
   </div>
 
   <!-- ────────── COUPON PANEL (Bottom Sheet) ────────── -->
@@ -970,7 +1449,16 @@ function photoUrl(seed){ return localPhotos[seed] || `https://picsum.photos/seed
 // ─── RENDER PRODUCTS ─────────────────────────────
 function renderProducts() {
   const el = document.getElementById('product-grid');
-  el.innerHTML = products.map(p => `
+  const input = document.getElementById('product-search-input');
+  const q = (input?.value || '').trim().toLowerCase();
+  const filtered = q
+    ? products.filter(p => (p.name + ' ' + (p.tag || '')).toLowerCase().includes(q))
+    : products;
+  if (filtered.length === 0) {
+    el.innerHTML = `<div style="grid-column:1/-1;padding:32px 12px;text-align:center;color:var(--light);font-size:13px;">"${q}"에 해당하는 상품이 없어요</div>`;
+    return;
+  }
+  el.innerHTML = filtered.map(p => `
     <div class="product-card-v3" onclick="window.open('${p.url}','_blank')">
       <div class="pc-img" style="background:${p.bg}">${p.icon}</div>
       <div class="pc-body">
@@ -1011,9 +1499,8 @@ function toggleCourseMap() {
 
 // ─── TABS ────────────────────────────────────────
 function switchTab(name) {
-  document.querySelectorAll('.page-tab').forEach((t,i) => {
-    const tabs = ['posts','products'];
-    t.classList.toggle('on', tabs[i] === name);
+  document.querySelectorAll('.page-tab').forEach(t => {
+    t.classList.toggle('on', t.dataset.tab === name);
   });
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('on'));
   document.getElementById(`tab-${name}`).classList.add('on');
@@ -1025,26 +1512,25 @@ async function loadOgCards() {
   const cards = document.querySelectorAll('[data-og-url]');
   for (const card of cards) {
     const url = card.dataset.ogUrl;
+    const placeholder = card.querySelector('.ls-og-placeholder');
+    // 이미지 먼저 붙이기 (microlink embed=image.url → JPEG 변환 자동)
+    if (placeholder) {
+      const img = document.createElement('img');
+      img.className = 'ls-og-img';
+      img.src = `https://api.microlink.io/?url=${encodeURIComponent(url)}&embed=image.url`;
+      img.alt = '';
+      img.onerror = () => { img.replaceWith(placeholder); };
+      placeholder.replaceWith(img);
+    }
+    // 제목은 별도 fetch로
     try {
       const res = await fetch(`https://api.microlink.io/?url=${encodeURIComponent(url)}&screenshot=false`);
       const json = await res.json();
-      if (json.status === 'success') {
-        const { title, image } = json.data;
-        const placeholder = card.querySelector('.ls-og-placeholder');
-        if (image?.url && placeholder) {
-          const img = document.createElement('img');
-          img.className = 'ls-og-img';
-          img.src = image.url;
-          img.alt = title || '';
-          img.onerror = () => img.remove(); // 이미지 로드 실패 시 placeholder 유지
-          placeholder.replaceWith(img);
-        }
-        if (title) {
-          const titleEl = card.querySelector('.ls-og-title');
-          if (titleEl) titleEl.textContent = title;
-        }
+      if (json.status === 'success' && json.data?.title) {
+        const titleEl = card.querySelector('.ls-og-title');
+        if (titleEl) titleEl.textContent = json.data.title;
       }
-    } catch(e) { /* 실패해도 placeholder 유지 */ }
+    } catch(e) { console.warn('OG title fetch failed:', url, e); }
   }
 }
 
@@ -1174,49 +1660,76 @@ function openExpensePanel()  { document.getElementById('expense-panel').classLis
 function closeExpensePanel() { document.getElementById('expense-panel').classList.remove('open'); }
 
 // ─── BUDGET (TripSignal API) ──────────────────────
+// 오사카 3박 4일 기준 최저가 항공(왕복) + 숙소(3박) 합산 → 메인 카드 + 경비 패널 업데이트
+const EXTRA_COSTS = { transit: 42000, mrt: 25000, food: 405000 }; // 교통/마리얼/식비 고정
 async function loadBudget() {
   try {
-    const res = await fetch('https://tripsignal.vercel.app/api/prices/shanghai');
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 8000);
+    const res = await fetch('https://tripsignal.vercel.app/api/prices/osaka?directOnly=false', { signal: ctrl.signal });
+    clearTimeout(timer);
+    if (!res.ok) throw new Error('HTTP ' + res.status);
     const json = await res.json();
+    if (!json?.data?.flights || !json?.data?.hotels) return;
     const { flights, hotels } = json.data;
+    const DUR = 3; // 3박
     const now = new Date();
-    const sixMonths = new Date(); sixMonths.setMonth(sixMonths.getMonth() + 6);
-    let minTotal = Infinity, minDate = null;
+    const cutoff = new Date(); cutoff.setMonth(cutoff.getMonth() + 6);
+    let bestFlight = null, bestHotel = null, bestDate = null, bestTotal = Infinity;
 
     for (const date of Object.keys(flights)) {
       const d = new Date(date);
-      if (d < now || d > sixMonths) continue;
-      const fPrice = flights[date]?.['1']?.price;
-      const hPrice = hotels[date]?.['3']?.price;
-      if (!fPrice || !hPrice) continue;
-      const total = fPrice + hPrice;
-      if (total < minTotal) { minTotal = total; minDate = date; }
-    }
-
-    if (minDate) {
-      const fmt = new Date(minDate).toLocaleDateString('ko-KR', { month: 'long', day: 'numeric' });
-      const wan = Math.round(minTotal / 10000);
-      document.getElementById('budget-price').textContent = wan + '만원';
-      document.getElementById('budget-sub').textContent = `${fmt} 출발 기준`;
-      // 경비 패널 항공/숙소 금액 업데이트
-      const dayObj = Object.keys(flights).find(d => d === minDate);
-      if (dayObj) {
-        const fPrice = flights[minDate]?.['1']?.price;
-        const hPrice = hotels[minDate]?.['3']?.price;
-        if (fPrice) document.getElementById('exp-flight').textContent = '₩' + fPrice.toLocaleString();
-        if (hPrice) document.getElementById('exp-hotel').textContent = '₩' + hPrice.toLocaleString();
-        if (fPrice && hPrice) {
-          document.getElementById('exp-total').textContent = '₩' + (fPrice + hPrice + 340000).toLocaleString();
-        }
+      if (d < now || d > cutoff) continue;
+      const f = flights[date]?.[DUR];
+      const h = hotels[date]?.[DUR];
+      if (!f?.price || !h?.price) continue;
+      const hotelTotal = h.price * DUR; // 숙소는 per-night
+      const total = f.price + hotelTotal;
+      if (total < bestTotal) {
+        bestTotal = total;
+        bestFlight = f;
+        bestHotel = { ...h, totalPrice: hotelTotal };
+        bestDate = date;
       }
-    } else {
-      document.getElementById('budget-price').textContent = '가격 정보 없음';
-      document.getElementById('budget-sub').textContent = '';
     }
+    if (!bestFlight) return;
+
+    const wan = Math.round((bestTotal + EXTRA_COSTS.transit + EXTRA_COSTS.mrt + EXTRA_COSTS.food) / 10000);
+    const fmt = new Date(bestDate).toLocaleDateString('ko-KR', { month: 'long', day: 'numeric' });
+
+    // 메인 코스 카드 총경비 업데이트
+    const amountEl = document.getElementById('ct-budget-amount');
+    const subEl = document.getElementById('ct-budget-sub');
+    if (amountEl) amountEl.textContent = wan;
+    if (subEl) subEl.textContent = `${fmt} 출발 최저가 · 1인 기준`;
+
+    // 경비 패널 업데이트
+    const elFlight = document.getElementById('exp-flight');
+    const elFlightNote = document.getElementById('exp-flight-note');
+    const elHotel = document.getElementById('exp-hotel');
+    const elHotelNote = document.getElementById('exp-hotel-note');
+    const elTotal = document.getElementById('exp-total');
+    if (elFlight) elFlight.textContent = '₩' + bestFlight.price.toLocaleString();
+    if (elFlightNote) elFlightNote.textContent = `${bestFlight.airlineName} · ${bestFlight.isDirect ? '직항' : '경유'} · ${fmt} 출발`;
+    if (elHotel) elHotel.textContent = '₩' + bestHotel.totalPrice.toLocaleString();
+    if (elHotelNote) elHotelNote.textContent = `${bestHotel.hotelName} · 3박`;
+    if (elTotal) elTotal.textContent = '₩' + (bestTotal + EXTRA_COSTS.transit + EXTRA_COSTS.mrt + EXTRA_COSTS.food).toLocaleString();
   } catch(e) {
-    // CORS 차단 시 하드코딩 기본값 유지 (실제 구현 시 서버사이드 처리 필요)
+    console.warn('TripSignal 데이터 로드 실패 (기본값 유지):', e);
   }
 }
+
+// ─── 여행 카드 캐러셀 도트 ────────────────────────
+(function(){
+  const car = document.getElementById('trip-carousel');
+  if (!car) return;
+  const dots = document.querySelectorAll('#trip-dots .trip-dot');
+  car.addEventListener('scroll', () => {
+    const cardW = car.querySelector('.trip-card').offsetWidth + 12;
+    const idx = Math.round(car.scrollLeft / cardW);
+    dots.forEach((d,i) => d.classList.toggle('on', i === idx));
+  });
+})();
 
 // ─── INIT ────────────────────────────────────────
 renderProducts();

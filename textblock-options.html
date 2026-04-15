@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>텍스트 박스 후보</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --cream: #F8F4EE; --amber: #E07A38; --sage: #6B9080;
+  --text: #1A1714; --mid: #6B6560; --light: #A09890; --border: #EDE8E0;
+}
+body { font-family: 'Noto Sans KR', sans-serif; background: #ECEAE4; padding: 40px 20px; }
+.hdr { max-width: 900px; margin: 0 auto 24px; text-align: center; }
+.hdr small {
+  display: inline-block; padding: 6px 10px; border-radius: 999px;
+  background: #fff; color: var(--amber);
+  font-size: 11px; font-weight: 900; letter-spacing: 0.06em; margin-bottom: 10px;
+}
+.hdr h1 { font-size: 24px; letter-spacing: -0.04em; margin-bottom: 6px; }
+.hdr p { font-size: 13px; color: var(--mid); line-height: 1.6; }
+
+.row { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
+.wrap { width: 360px; }
+.wrap-label {
+  font-size: 12px; font-weight: 900; color: var(--text); margin-bottom: 6px;
+  padding: 6px 10px; background: #fff; border-radius: 8px; display: inline-block;
+}
+.wrap-desc { font-size: 11px; color: var(--mid); margin-bottom: 12px; line-height: 1.5; }
+.phone {
+  background: var(--cream); border-radius: 20px;
+  padding: 16px 18px; box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.style-tag {
+  font-size: 13px; font-weight: 800; color: var(--text);
+  margin: 4px 0 10px; display: flex; align-items: center; gap: 8px;
+}
+.style-tag::before { content: ''; width: 4px; height: 16px; background: var(--amber); border-radius: 2px; }
+.body-txt { font-size: 13px; line-height: 1.7; color: var(--text); }
+.body-txt strong { display: block; font-weight: 800; color: var(--amber); margin-bottom: 4px; }
+.body-txt em { font-style: normal; font-weight: 700; background: linear-gradient(transparent 60%, rgba(224,122,56,0.35) 60%); padding: 0 3px; }
+
+/* ─── V1 · 인용 큰따옴표 (상단 여백 fix) ─── */
+.v1 {
+  position: relative; background: #FFFBF4; border: 1px dashed #E8D9BE;
+  border-radius: 14px; padding: 24px 18px 18px;
+  box-shadow: 2px 3px 0 rgba(224,122,56,0.08);
+}
+.v1::before {
+  content: '"'; position: absolute; top: 6px; left: 14px;
+  font-family: Georgia, serif; font-size: 38px; color: var(--amber); line-height: 1;
+}
+
+/* ─── V2 · 포스트잇 (살짝 회전 + 노란 테이프) ─── */
+.v2 {
+  position: relative; background: #FFF3B8;
+  padding: 20px 18px 18px;
+  transform: rotate(-0.7deg);
+  box-shadow: 2px 6px 14px rgba(0,0,0,0.12), 0 1px 0 rgba(0,0,0,0.04);
+  margin-top: 14px;
+}
+.v2::before {
+  content: ''; position: absolute; top: -10px; left: 50%; transform: translateX(-50%) rotate(-3deg);
+  width: 60px; height: 18px; background: rgba(255,220,100,0.6);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.12);
+}
+
+/* ─── V3 · 말풍선 (아바타 + 꼬리) ─── */
+.v3 {
+  display: flex; gap: 14px; align-items: flex-start; padding-top: 4px;
+}
+.v3-avatar {
+  width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0;
+  background: url('IMG_7595.jpg') center/cover;
+  border: 2.5px solid #fff;
+  box-shadow: 0 3px 10px rgba(224,122,56,0.25), 0 0 0 2px var(--amber);
+}
+.v3-bubble {
+  flex: 1; position: relative;
+  background: #fff; border: 1.5px solid #FFE0BE; border-radius: 18px;
+  padding: 14px 16px; box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+}
+/* 꼬리 외곽선 */
+.v3-bubble::before {
+  content: ''; position: absolute;
+  left: -10px; top: 14px;
+  width: 0; height: 0;
+  border: 8px solid transparent;
+  border-right-color: #FFE0BE;
+  border-left: 0;
+}
+/* 꼬리 내부 (흰색으로 덮음) */
+.v3-bubble::after {
+  content: ''; position: absolute;
+  left: -7px; top: 15px;
+  width: 0; height: 0;
+  border: 7px solid transparent;
+  border-right-color: #fff;
+  border-left: 0;
+}
+.v3-author {
+  font-size: 14px; font-weight: 900; color: var(--amber);
+  margin-bottom: 4px; letter-spacing: -0.02em;
+}
+
+/* ─── V4 · 편지지 (줄무늬) ─── */
+.v4 {
+  background: #FFFCF5;
+  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 27px, #F0E7D2 28px);
+  border: 1px solid #E5D9BE; border-radius: 4px;
+  padding: 20px 16px 14px;
+  position: relative;
+}
+.v4::before {
+  content: '✉'; position: absolute; top: -10px; right: 14px;
+  background: var(--amber); color: #fff;
+  width: 26px; height: 26px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center; font-size: 13px;
+  box-shadow: 0 2px 6px rgba(224,122,56,0.3);
+}
+
+/* ─── V5 · 하이라이트만 (배경 없이) ─── */
+.v5 {
+  padding: 4px 0 10px 14px;
+  border-left: 3px solid var(--amber);
+}
+.v5 .body-txt strong { font-size: 14px; }
+
+/* ─── V6 · 소프트 그라디언트 (배지 아이콘) ─── */
+.v6 {
+  background: linear-gradient(135deg, #FFF3E8 0%, #FFE6D0 100%);
+  border-radius: 16px; padding: 16px 18px;
+  position: relative;
+}
+.v6-badge {
+  position: absolute; top: -10px; left: 16px;
+  background: var(--amber); color: #fff;
+  padding: 4px 10px; border-radius: 20px;
+  font-size: 10px; font-weight: 900; letter-spacing: 0.04em;
+  box-shadow: 0 3px 8px rgba(224,122,56,0.35);
+}
+
+/* 공통 body 텍스트 */
+.msg strong { display: block; font-weight: 800; color: var(--amber); margin-bottom: 4px; }
+.msg em { font-style: normal; font-weight: 700; background: linear-gradient(transparent 60%, rgba(224,122,56,0.35) 60%); padding: 0 3px; }
+.msg { font-size: 13px; line-height: 1.7; color: var(--text); }
+</style>
+</head>
+<body>
+
+<div class="hdr">
+  <small>TEXT BLOCK VARIANTS</small>
+  <h1>크리에이터 한마디 텍스트 박스 6안</h1>
+  <p>섹션 제목 바랑 안 겹치면서 다른 카드와도 구분되게.</p>
+</div>
+
+<div class="row">
+
+  <div class="wrap">
+    <div class="wrap-label">V1 · 인용 큰따옴표 (여백 Fix)</div>
+    <div class="wrap-desc">점선 테두리 + 큰따옴표 기호. 상단 패딩 키워서 여백 수정.</div>
+    <div class="phone">
+      <div class="style-tag">오사카 여행 후기</div>
+      <div class="v1">
+        <div class="msg">
+          <strong>💌 셀렉트유의 한 마디</strong>
+          작년 봄 오사카·교토 3박 4일 다녀온 실제 후기와 추천 링크들을 모았어요.<br>
+          <em>100만원대</em>로 알차게 다녀오는 팁까지 — 아래 링크부터 쭉 훑어보세요!
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="wrap-label">V2 · 포스트잇 (노란 쪽지)</div>
+    <div class="wrap-desc">살짝 기울인 노란 포스트잇 + 상단 마스킹테이프. 아날로그 느낌.</div>
+    <div class="phone">
+      <div class="style-tag">오사카 여행 후기</div>
+      <div class="v2">
+        <div class="msg">
+          <strong>💌 셀렉트유의 한 마디</strong>
+          작년 봄 오사카·교토 3박 4일 다녀온 실제 후기와 추천 링크들을 모았어요.<br>
+          <em>100만원대</em>로 알차게 다녀오는 팁까지 — 아래 링크부터 쭉 훑어보세요!
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="wrap-label">V3 · 말풍선 (아바타 포함)</div>
+    <div class="wrap-desc">크리에이터 프사 + 채팅 말풍선. 1인칭 친근함.</div>
+    <div class="phone">
+      <div class="style-tag">오사카 여행 후기</div>
+      <div class="v3">
+        <div class="v3-avatar"></div>
+        <div class="v3-bubble">
+          <div class="v3-author">오사카 여행 꿀팁!</div>
+          <div class="msg">
+            작년 봄 오사카·교토 3박 4일 다녀온 실제 후기와 추천 링크들을 모았어요.<br>
+            <em>100만원대</em>로 알차게 다녀오는 팁까지 — 아래 링크부터 쭉 훑어보세요!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="wrap-label">V4 · 편지지 (줄무늬)</div>
+    <div class="wrap-desc">노트 줄 패턴 + 우상단 원형 ✉ 배지. 편지 같은 느낌.</div>
+    <div class="phone">
+      <div class="style-tag">오사카 여행 후기</div>
+      <div class="v4">
+        <div class="msg">
+          <strong>💌 셀렉트유의 한 마디</strong>
+          작년 봄 오사카·교토 3박 4일 다녀온 실제 후기와 추천 링크들을 모았어요.<br>
+          <em>100만원대</em>로 알차게 다녀오는 팁까지 — 아래 링크부터 쭉 훑어보세요!
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="wrap-label">V5 · 하이라이트만 (배경 X)</div>
+    <div class="wrap-desc">박스 없이 왼쪽 오렌지 라인만. 가장 미니멀, 콘텐츠 주도.</div>
+    <div class="phone">
+      <div class="style-tag">오사카 여행 후기</div>
+      <div class="v5">
+        <div class="msg">
+          <strong>💌 셀렉트유의 한 마디</strong>
+          작년 봄 오사카·교토 3박 4일 다녀온 실제 후기와 추천 링크들을 모았어요.<br>
+          <em>100만원대</em>로 알차게 다녀오는 팁까지 — 아래 링크부터 쭉 훑어보세요!
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="wrap-label">V6 · 오렌지 그라디언트 + 배지</div>
+    <div class="wrap-desc">따뜻한 그라디언트 배경 + 떠있는 오렌지 "MESSAGE" 배지.</div>
+    <div class="phone">
+      <div class="style-tag">오사카 여행 후기</div>
+      <div class="v6">
+        <div class="v6-badge">💌 MESSAGE</div>
+        <div class="msg" style="margin-top:6px;">
+          <strong>셀렉트유의 한 마디</strong>
+          작년 봄 오사카·교토 3박 4일 다녀온 실제 후기와 추천 링크들을 모았어요.<br>
+          <em>100만원대</em>로 알차게 다녀오는 팁까지 — 아래 링크부터 쭉 훑어보세요!
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+.vercel
+.playwright-mcp/
+.omc/
+*.b64
+*-sm.jpg
+inpock-ref.png
+screenshot-main.png

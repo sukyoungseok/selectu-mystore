@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>디자인 테마 3안</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&family=Gaegu:wght@400;700&family=Jua&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Sans KR', sans-serif; background: #21211E; padding: 40px 20px; min-height: 100vh; }
+.hdr { max-width: 1300px; margin: 0 auto 28px; color: #fff; text-align: center; }
+.hdr h1 { font-size: 22px; font-weight: 900; margin-bottom: 6px; }
+.hdr p { font-size: 13px; color: #A8A59E; line-height: 1.6; }
+
+.row { display: flex; gap: 30px; justify-content: center; flex-wrap: wrap; align-items: flex-start; }
+.col { display: flex; flex-direction: column; align-items: center; }
+.col-label {
+  color: #fff; font-size: 14px; font-weight: 900; margin-bottom: 6px;
+  background: rgba(255,255,255,0.08); padding: 6px 14px; border-radius: 20px;
+}
+.col-desc { color: #A8A59E; font-size: 11px; margin-bottom: 14px; text-align: center; max-width: 280px; line-height: 1.5; }
+
+.phone {
+  width: 360px; border-radius: 34px; overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5), 0 0 0 8px #111, 0 0 0 10px #2C2C2A;
+}
+
+/* ╔══════════════════════════════════════════╗ */
+/* ║  테마 A: RUMBO 마스코트 스타일            ║ */
+/* ╚══════════════════════════════════════════╝ */
+.a {
+  background: #F7D947; /* 노란 배경 */
+  font-family: 'Jua', 'Noto Sans KR', sans-serif;
+  color: #1A1714;
+}
+.a-hero {
+  background: #2E8B57; padding: 28px 20px 20px;
+  position: relative; border-bottom: 4px solid #1A1714;
+}
+.a-hero-title { font-size: 32px; font-weight: 900; color: #F7D947; letter-spacing: -1px; line-height: 1; text-shadow: 3px 3px 0 #1A1714; }
+.a-hero-sub { font-size: 12px; color: #fff; margin-top: 6px; font-weight: 700; }
+.a-mascot {
+  width: 90px; height: 90px; border-radius: 50%;
+  background: #FFF; border: 4px solid #1A1714;
+  position: absolute; right: 20px; top: 18px;
+  display: flex; align-items: center; justify-content: center; font-size: 48px;
+  box-shadow: 4px 4px 0 #1A1714;
+}
+.a-section { padding: 18px; }
+.a-card {
+  background: #fff; border: 3px solid #1A1714; border-radius: 18px;
+  padding: 14px; margin-bottom: 12px;
+  box-shadow: 4px 4px 0 #1A1714;
+}
+.a-coupon {
+  background: #FF7A59; color: #fff; border: 3px solid #1A1714; border-radius: 18px;
+  padding: 14px 16px; margin-bottom: 12px; box-shadow: 4px 4px 0 #1A1714;
+  display: flex; align-items: center; gap: 12px;
+}
+.a-coupon-big { font-size: 26px; font-weight: 900; }
+.a-coupon-body { flex: 1; font-size: 12px; line-height: 1.4; font-weight: 700; }
+.a-coupon-btn {
+  background: #F7D947; color: #1A1714; border: 2px solid #1A1714;
+  padding: 6px 10px; border-radius: 10px; font-size: 12px; font-weight: 900;
+  box-shadow: 2px 2px 0 #1A1714; font-family: inherit;
+}
+.a-course-card {
+  background: #fff; border: 3px solid #1A1714; border-radius: 18px;
+  overflow: hidden; box-shadow: 4px 4px 0 #1A1714; position: relative;
+}
+.a-course-photo { height: 140px; background: url('insta_thumbnail.png') center/cover; border-bottom: 3px solid #1A1714; position: relative; }
+.a-course-photo::before {
+  content: '🇯🇵'; position: absolute; top: 10px; left: 10px;
+  width: 36px; height: 36px; border-radius: 50%; background: #fff;
+  border: 2.5px solid #1A1714; display: flex; align-items: center; justify-content: center;
+  font-size: 18px; box-shadow: 2px 2px 0 #1A1714;
+}
+.a-course-body { padding: 12px 14px; }
+.a-course-title { font-size: 18px; font-weight: 900; color: #1A1714; margin-bottom: 10px; letter-spacing: -0.5px; }
+.a-tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.a-tile {
+  padding: 10px 12px; border: 2.5px solid #1A1714; border-radius: 12px;
+  box-shadow: 2px 2px 0 #1A1714;
+}
+.a-tile.t1 { background: #B8E4B3; }
+.a-tile.t2 { background: #FFD8A8; }
+.a-tile-lbl { font-size: 10px; font-weight: 700; color: #1A1714; margin-bottom: 2px; }
+.a-tile-val { font-size: 15px; font-weight: 900; color: #1A1714; }
+
+/* ╔══════════════════════════════════════════╗ */
+/* ║  테마 B: Catno 크림 파스텔 스타일         ║ */
+/* ╚══════════════════════════════════════════╝ */
+.b {
+  background: linear-gradient(180deg, #FFF6DD 0%, #FFEFC7 100%);
+  font-family: 'Noto Sans KR', sans-serif; color: #4A3F30;
+}
+.b-hero {
+  padding: 30px 20px 60px; position: relative; text-align: left;
+}
+.b-hello {
+  display: inline-block; background: #fff; border-radius: 20px 20px 20px 4px;
+  padding: 8px 14px; font-size: 12px; font-weight: 700; color: #4A3F30;
+  margin-bottom: 12px; box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+  position: relative;
+}
+.b-hello::after { content: '✨'; margin-left: 4px; }
+.b-hero-title { font-size: 26px; font-weight: 900; color: #4A3F30; line-height: 1.15; letter-spacing: -0.5px; }
+.b-hero-title span { color: #E98E44; }
+.b-mascot {
+  position: absolute; right: 12px; bottom: -26px;
+  width: 110px; height: 130px;
+  background: url('IMG_7595.jpg') center/cover;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  border: 4px solid #fff;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+.b-profile {
+  background: #fff; margin: 36px 16px 0; border-radius: 22px;
+  padding: 14px 16px; display: flex; align-items: center; gap: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+.b-avatar {
+  width: 44px; height: 44px; border-radius: 50%; overflow: hidden;
+  background: url('IMG_7595.jpg') center/cover;
+  border: 3px solid #FFD97A; flex-shrink: 0;
+}
+.b-profile-info { flex: 1; min-width: 0; }
+.b-profile-name { font-size: 14px; font-weight: 800; }
+.b-profile-handle { font-size: 11px; color: #8F8373; }
+.b-sns { display: flex; gap: 6px; }
+.b-sns-ico {
+  width: 28px; height: 28px; border-radius: 50%; background: #FFF6DD;
+  border: 1.5px solid #F0E0B0; display: flex; align-items: center; justify-content: center;
+  font-size: 12px;
+}
+.b-coupon {
+  margin: 14px 16px; background: #FF9966; border-radius: 20px;
+  padding: 14px 16px; color: #fff; display: flex; align-items: center; gap: 10px;
+  box-shadow: 0 6px 16px rgba(255,153,102,0.35);
+}
+.b-coupon-icon { font-size: 26px; }
+.b-coupon-body { flex: 1; }
+.b-coupon-label { font-size: 10px; font-weight: 700; opacity: 0.9; }
+.b-coupon-title { font-size: 14px; font-weight: 800; margin-top: 1px; }
+.b-coupon-btn {
+  background: #fff; color: #E98E44; border: none; font-family: inherit;
+  font-size: 11px; font-weight: 800; padding: 7px 12px; border-radius: 14px;
+}
+.b-course {
+  margin: 0 16px 18px; background: #fff; border-radius: 22px;
+  overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+.b-course-hero {
+  height: 140px; background: url('insta_thumbnail.png') center/cover; position: relative;
+}
+.b-course-flag {
+  position: absolute; top: 12px; left: 12px;
+  width: 34px; height: 34px; border-radius: 50%;
+  background: #fff; display: flex; align-items: center; justify-content: center; font-size: 18px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.b-course-body { padding: 14px 16px; }
+.b-course-title { font-size: 16px; font-weight: 900; margin-bottom: 12px; }
+.b-tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.b-tile {
+  padding: 12px 14px; border-radius: 16px;
+  display: flex; align-items: center; gap: 8px;
+}
+.b-tile.t1 { background: #E6F3DC; }
+.b-tile.t2 { background: #FFE9D1; }
+.b-tile-ico { font-size: 18px; width: 32px; height: 32px; border-radius: 50%; background: #fff; display: flex; align-items: center; justify-content: center; }
+.b-tile-body { flex: 1; min-width: 0; }
+.b-tile-lbl { font-size: 10px; color: #8F8373; }
+.b-tile-val { font-size: 13px; font-weight: 800; color: #4A3F30; }
+
+/* ╔══════════════════════════════════════════╗ */
+/* ║  테마 C: 핸드드로잉 스티커북 스타일        ║ */
+/* ╚══════════════════════════════════════════╝ */
+.c {
+  background: #FDF8F0;
+  background-image:
+    radial-gradient(circle at 20% 15%, #FFE5B0 0, transparent 40%),
+    radial-gradient(circle at 80% 85%, #FFD8D8 0, transparent 40%);
+  font-family: 'Gaegu', 'Noto Sans KR', sans-serif;
+  color: #3A3530;
+}
+.c-sticker {
+  position: absolute; font-size: 28px;
+  transform: rotate(-8deg);
+}
+.c-hero {
+  padding: 30px 20px 40px; position: relative;
+}
+.c-hero-tag {
+  display: inline-block; background: #FFD86B; padding: 4px 12px;
+  border-radius: 20px; font-size: 12px; font-weight: 700; color: #3A3530;
+  transform: rotate(-3deg); margin-bottom: 10px;
+  box-shadow: 0 2px 0 #C4A654;
+}
+.c-hero-title {
+  font-family: 'Jua', 'Gaegu', sans-serif;
+  font-size: 28px; color: #3A3530; line-height: 1.15; letter-spacing: -0.5px;
+  margin-bottom: 10px;
+}
+.c-hero-title b { color: #E07A38; font-weight: 900; }
+.c-profile {
+  margin: 10px 18px 16px;
+  background: #fff; border-radius: 20px; padding: 14px 16px;
+  display: flex; align-items: center; gap: 12px;
+  border: 2px dashed #E0D4BC; position: relative;
+}
+.c-profile::before {
+  content: '📌'; position: absolute; top: -14px; left: 20px; font-size: 22px;
+  transform: rotate(-15deg);
+}
+.c-avatar {
+  width: 48px; height: 48px; border-radius: 50%;
+  background: url('IMG_7595.jpg') center/cover;
+  border: 3px solid #FFD86B; flex-shrink: 0;
+  transform: rotate(-3deg);
+}
+.c-profile-name { font-size: 16px; font-weight: 900; font-family: 'Jua', sans-serif; color: #3A3530; }
+.c-profile-sub { font-size: 12px; color: #8B7D6A; margin-top: 2px; }
+.c-sns-row { display: flex; gap: 6px; margin-top: 6px; }
+.c-sns-chip { background: #FDF2E0; padding: 3px 8px; border-radius: 12px; font-size: 10px; font-weight: 700; color: #8B7D6A; border: 1px dashed #E0D4BC; }
+.c-coupon {
+  margin: 0 18px 14px; background: #FF9775; color: #fff;
+  border-radius: 18px; padding: 12px 14px; display: flex; align-items: center; gap: 10px;
+  transform: rotate(-1deg); box-shadow: 0 4px 0 #C46B4F;
+}
+.c-coupon-big { font-size: 22px; font-weight: 900; font-family: 'Jua', sans-serif; }
+.c-coupon-body { flex: 1; font-size: 12px; line-height: 1.4; }
+.c-coupon-take { font-size: 12px; font-weight: 800; background: #fff; color: #E07A38; padding: 5px 10px; border-radius: 12px; font-family: 'Jua', sans-serif; }
+.c-course {
+  margin: 0 18px 18px; background: #fff; border: 2px solid #3A3530;
+  border-radius: 20px; overflow: hidden; transform: rotate(0.5deg);
+  box-shadow: 4px 4px 0 #3A3530;
+}
+.c-course-hero {
+  height: 140px; background: url('insta_thumbnail.png') center/cover;
+  border-bottom: 2px solid #3A3530; position: relative;
+}
+.c-course-flag {
+  position: absolute; top: 10px; left: 10px;
+  width: 38px; height: 38px; border-radius: 50%;
+  background: #fff; border: 2.5px solid #3A3530; display: flex; align-items: center; justify-content: center; font-size: 20px;
+  box-shadow: 2px 2px 0 #3A3530; transform: rotate(-8deg);
+}
+.c-course-body { padding: 14px 16px; }
+.c-course-title { font-size: 18px; font-weight: 900; font-family: 'Jua', sans-serif; color: #3A3530; margin-bottom: 10px; }
+.c-tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.c-tile {
+  padding: 10px 12px; border: 2px solid #3A3530; border-radius: 14px;
+  box-shadow: 2px 2px 0 #3A3530; transform: rotate(-0.5deg);
+  font-family: 'Jua', sans-serif;
+}
+.c-tile:last-child { transform: rotate(0.5deg); }
+.c-tile.t1 { background: #C8E6CC; }
+.c-tile.t2 { background: #FFE0B8; }
+.c-tile-lbl { font-size: 11px; color: #5A5044; }
+.c-tile-val { font-size: 15px; font-weight: 900; color: #3A3530; }
+</style>
+</head>
+<body>
+
+<div class="hdr">
+  <h1>🎨 디자인 테마 3안 — 귀여운 방향</h1>
+  <p>RUMBO / Catno 레퍼런스 기반. 전체 톤&느낌 완전 다른 3가지 방향.<br>마음에 드는 거 말해주면 전체 페이지에 확장 적용!</p>
+</div>
+
+<div class="row">
+
+  <!-- ═══════════ 테마 A: RUMBO ═══════════ -->
+  <div class="col">
+    <div class="col-label">A — 마스코트 / 팝아트</div>
+    <div class="col-desc">굵은 검정 테두리 + 박스 섀도우 + 초록·노랑 팝한 컬러. 유쾌하고 포스터 느낌.</div>
+    <div class="phone a">
+      <div class="a-hero">
+        <div class="a-hero-title">셀렉트유<br>오사카 여행</div>
+        <div class="a-hero-sub">✈️ 마이리얼트립 X 크리에이터</div>
+        <div class="a-mascot">🧳</div>
+      </div>
+      <div class="a-section">
+        <div class="a-coupon">
+          <div class="a-coupon-big">3천원</div>
+          <div class="a-coupon-body">첫 예약<br>할인쿠폰</div>
+          <div class="a-coupon-btn">받기</div>
+        </div>
+        <div class="a-course-card">
+          <div class="a-course-photo"></div>
+          <div class="a-course-body">
+            <div class="a-course-title">오사카 & 교토 3박 4일</div>
+            <div class="a-tiles">
+              <div class="a-tile t1">
+                <div class="a-tile-lbl">🗺 일정</div>
+                <div class="a-tile-val">3박 4일</div>
+              </div>
+              <div class="a-tile t2">
+                <div class="a-tile-lbl">💰 총경비</div>
+                <div class="a-tile-val">102만원~</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════ 테마 B: Catno ═══════════ -->
+  <div class="col">
+    <div class="col-label">B — 파스텔 / 캐주얼</div>
+    <div class="col-desc">크림 배경 + 말풍선 인사 + 둥글둥글 카드 + 소프트 그림자. 따뜻하고 친근한 톤.</div>
+    <div class="phone b">
+      <div class="b-hero">
+        <span class="b-hello">안녕하세요</span>
+        <div class="b-hero-title">셀렉트유와<br>떠나는<br><span>오사카 ✈</span></div>
+        <div class="b-mascot"></div>
+      </div>
+      <div class="b-profile">
+        <div class="b-avatar"></div>
+        <div class="b-profile-info">
+          <div class="b-profile-name">셀렉트유</div>
+          <div class="b-profile-handle">@viento_de · 여행 크리에이터</div>
+        </div>
+        <div class="b-sns">
+          <div class="b-sns-ico">📷</div>
+          <div class="b-sns-ico">▶</div>
+          <div class="b-sns-ico">✉</div>
+        </div>
+      </div>
+      <div class="b-coupon">
+        <div class="b-coupon-icon">🎫</div>
+        <div class="b-coupon-body">
+          <div class="b-coupon-label">3,000원 할인쿠폰</div>
+          <div class="b-coupon-title">마이리얼트립 첫 예약</div>
+        </div>
+        <button class="b-coupon-btn">받기</button>
+      </div>
+      <div class="b-course">
+        <div class="b-course-hero"><div class="b-course-flag">🇯🇵</div></div>
+        <div class="b-course-body">
+          <div class="b-course-title">오사카 & 교토 3박 4일</div>
+          <div class="b-tiles">
+            <div class="b-tile t1">
+              <div class="b-tile-ico">🗺</div>
+              <div class="b-tile-body">
+                <div class="b-tile-lbl">일정 상세</div>
+                <div class="b-tile-val">3박 4일</div>
+              </div>
+            </div>
+            <div class="b-tile t2">
+              <div class="b-tile-ico">💰</div>
+              <div class="b-tile-body">
+                <div class="b-tile-lbl">총경비</div>
+                <div class="b-tile-val">102만원~</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════ 테마 C: 스티커북 ═══════════ -->
+  <div class="col">
+    <div class="col-label">C — 핸드드로잉 / 스티커북</div>
+    <div class="col-desc">손글씨 폰트 + 살짝 기울어진 요소 + 마스킹테이프/핀 스티커. 다이어리 느낌의 아날로그.</div>
+    <div class="phone c">
+      <div class="c-hero">
+        <div class="c-hero-tag">📝 SELECT U 여행 노트</div>
+        <div class="c-hero-title">셀렉트유의<br><b>오사카 3박 4일</b> 💭</div>
+      </div>
+      <div class="c-profile">
+        <div class="c-avatar"></div>
+        <div style="flex:1;">
+          <div class="c-profile-name">셀렉트유</div>
+          <div class="c-profile-sub">@viento_de · 여행 크리에이터</div>
+          <div class="c-sns-row">
+            <span class="c-sns-chip">📷 INSTA</span>
+            <span class="c-sns-chip">▶ YT</span>
+            <span class="c-sns-chip">✉ MAIL</span>
+          </div>
+        </div>
+      </div>
+      <div class="c-coupon">
+        <div class="c-coupon-big">3천원</div>
+        <div class="c-coupon-body">첫 예약 할인쿠폰<br>5만원↑ 사용 가능</div>
+        <span class="c-coupon-take">받기 →</span>
+      </div>
+      <div class="c-course">
+        <div class="c-course-hero"><div class="c-course-flag">🇯🇵</div></div>
+        <div class="c-course-body">
+          <div class="c-course-title">오사카 & 교토 3박 4일</div>
+          <div class="c-tiles">
+            <div class="c-tile t1">
+              <div class="c-tile-lbl">🗺 일정</div>
+              <div class="c-tile-val">3박 4일</div>
+            </div>
+            <div class="c-tile t2">
+              <div class="c-tile-lbl">💰 총경비</div>
+              <div class="c-tile-val">102만원~</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div style="max-width:900px;margin:40px auto 0;padding:20px;background:rgba(255,255,255,0.05);border-radius:16px;color:#A8A59E;font-size:13px;line-height:1.8;">
+  <strong style="color:#fff;">✨ 어떤 방향이 좋으세요?</strong><br>
+  <strong style="color:#fff;">A 팝아트</strong> — 유쾌 / 임팩트 최강 / 포스터 같은 느낌. 젊은 타겟에 어필<br>
+  <strong style="color:#fff;">B 파스텔</strong> — 친근 / 부드러움 / 인스타 스토리 느낌. 여행 감성과 어울림<br>
+  <strong style="color:#fff;">C 스티커북</strong> — 개성 / 크리에이터 색깔 / 진짜 "내가 쓴 여행 노트" 느낌<br><br>
+  한 테마 고르시면 index.html 전체(탭·필수템·푸터 포함)에 확장 적용!
+</div>
+
+</body>
+</html>

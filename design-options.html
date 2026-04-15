@@ -142,14 +142,25 @@ h1 { font-size: 18px; font-weight: 900; color: #1A1714; margin-bottom: 6px; }
 
 /* ── 경비 B: 가로 스크롤 스와이프 ── */
 .budget-b-section { padding: 0 0 14px; }
-.budget-b-divider { height: 1px; background: #EDE8E0; margin: 0 14px 12px; }
-.budget-b-total-row {
-  display: flex; align-items: baseline; justify-content: space-between;
-  margin: 0 14px 10px;
+.budget-b-total-box {
+  background: linear-gradient(135deg, #FFF3E8, #FFE6D0);
+  margin: 0 14px 12px; padding: 12px 14px; border-radius: 12px;
+  display: flex; align-items: center; justify-content: space-between;
 }
-.budget-b-total-label { font-size: 11px; font-weight: 700; color: #E07A38; }
-.budget-b-total-amount { font-size: 20px; font-weight: 900; color: #1A1714; }
-.budget-b-total-amount span { font-size: 11px; font-weight: 500; color: #6B6560; }
+.budget-b-total-box .label { font-size: 11px; font-weight: 700; color: #C85E20; margin-bottom: 3px; letter-spacing: 0.2px; }
+.budget-b-total-box .amount { font-size: 24px; font-weight: 900; color: #1A1714; line-height: 1; letter-spacing: -0.8px; }
+.budget-b-total-box .amount-sub { font-size: 11px; color: #6B6560; margin-top: 4px; }
+.budget-b-total-box .hint { font-size: 10px; color: #E07A38; font-weight: 700; text-align: right; }
+.budget-b-scroll-label { font-size: 11px; font-weight: 700; color: #6B6560; margin: 0 14px 8px; display: flex; align-items: center; gap: 6px; }
+.budget-b-scroll-label::before { content: ''; width: 3px; height: 11px; background: #E07A38; border-radius: 2px; }
+.budget-b-actions { display: flex; gap: 8px; margin: 12px 14px 0; }
+.budget-b-btn {
+  flex: 1; padding: 12px; border-radius: 12px;
+  font-size: 13px; font-weight: 800; font-family: inherit; cursor: pointer;
+  border: none; display: flex; align-items: center; justify-content: center; gap: 4px;
+}
+.budget-b-btn.primary { background: #E07A38; color: #fff; }
+.budget-b-btn.secondary { background: #FFF3E8; color: #C85E20; border: 1.5px solid #F5C9A0; }
 .budget-b-scroll {
   display: flex; gap: 8px; overflow-x: auto; padding: 0 14px 4px;
   scrollbar-width: none;
@@ -306,18 +317,25 @@ h1 { font-size: 18px; font-weight: 900; color: #1A1714; margin-bottom: 6px; }
           <div class="trip-meta">🗓 3박 4일 · 👤 1인 기준</div>
         </div>
         <div class="budget-b-section">
-          <div class="budget-b-divider"></div>
-          <div class="budget-b-total-row">
-            <div class="budget-b-total-label">💰 총 여행경비</div>
-            <div class="budget-b-total-amount">102만원<span> ~</span></div>
+          <div class="budget-b-total-box">
+            <div>
+              <div class="label">💰 예상 총 여행경비</div>
+              <div class="amount">102만원</div>
+              <div class="amount-sub">1인 기준 · 3박 4일</div>
+            </div>
+            <div class="hint">최저가 기준</div>
           </div>
           <div class="budget-b-scroll">
-            <div class="budget-b-item"><div class="budget-b-item-icon">✈️</div><div class="budget-b-item-name">항공</div><div class="budget-b-item-price">30만~</div></div>
-            <div class="budget-b-item"><div class="budget-b-item-icon">🏨</div><div class="budget-b-item-name">숙소</div><div class="budget-b-item-price">25만~</div></div>
-            <div class="budget-b-item"><div class="budget-b-item-icon">🚇</div><div class="budget-b-item-name">교통</div><div class="budget-b-item-price">4.2만</div></div>
-            <div class="budget-b-item"><div class="budget-b-item-icon">🎫</div><div class="budget-b-item-name">입장권</div><div class="budget-b-item-price">8만~</div></div>
-            <div class="budget-b-item"><div class="budget-b-item-icon">📱</div><div class="budget-b-item-name">이심</div><div class="budget-b-item-price">1.2만</div></div>
-            <div class="budget-b-item more">전체<br>보기<br>→</div>
+            <div class="budget-b-item"><div class="budget-b-item-icon">✈️</div><div class="budget-b-item-name">항공</div><div class="budget-b-item-price">30만원</div></div>
+            <div class="budget-b-item"><div class="budget-b-item-icon">🏨</div><div class="budget-b-item-name">숙소</div><div class="budget-b-item-price">25만원</div></div>
+            <div class="budget-b-item"><div class="budget-b-item-icon">🚇</div><div class="budget-b-item-name">교통</div><div class="budget-b-item-price">4.2만원</div></div>
+            <div class="budget-b-item"><div class="budget-b-item-icon">🎫</div><div class="budget-b-item-name">입장권</div><div class="budget-b-item-price">8만원</div></div>
+            <div class="budget-b-item"><div class="budget-b-item-icon">📱</div><div class="budget-b-item-name">이심</div><div class="budget-b-item-price">1.2만원</div></div>
+            <div class="budget-b-item"><div class="budget-b-item-icon">🍜</div><div class="budget-b-item-name">식비</div><div class="budget-b-item-price">30만원</div></div>
+          </div>
+          <div class="budget-b-actions">
+            <button class="budget-b-btn secondary">📍 여행 코스 보기</button>
+            <button class="budget-b-btn primary">💰 경비 전체 보기</button>
           </div>
         </div>
       </div>
