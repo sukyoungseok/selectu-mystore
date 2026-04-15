@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>디자인 옵션 비교 v2</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Sans KR', sans-serif; background: #F0EDE8; padding: 32px 20px; }
+h1 { font-size: 18px; font-weight: 900; color: #1A1714; margin-bottom: 6px; }
+.desc { font-size: 13px; color: #6B6560; margin-bottom: 28px; }
+.section-title { font-size: 15px; font-weight: 800; color: #1A1714; margin: 36px 0 16px; padding-bottom: 8px; border-bottom: 2px solid #E07A38; }
+.options-row { display: flex; gap: 16px; flex-wrap: wrap; }
+.option-wrap { flex: 1; min-width: 300px; max-width: 380px; }
+.option-label { font-size: 12px; font-weight: 700; color: #6B6560; margin-bottom: 8px; letter-spacing: 0.3px; }
+.phone-frame { background: #F8F4EE; border-radius: 20px; padding: 16px; box-shadow: 0 4px 24px rgba(0,0,0,0.10); }
+
+/* ============ 쿠폰 공통 ============ */
+.coupon { position: relative; cursor: pointer; border-radius: 14px; overflow: visible; }
+.coupon-notch { position: absolute; width: 10px; height: 10px; background: #F8F4EE; border-radius: 50%; z-index: 2; }
+
+/* ── 쿠폰 A: 소프트 오렌지 + 티켓 노치 ── */
+.coupon-a {
+  display: flex; align-items: stretch;
+  background: #FFF0E0; color: #1A1714;
+  border: 1px solid #F5C9A0;
+}
+.coupon-a-left {
+  padding: 14px 16px; flex-shrink: 0; min-width: 96px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  border-right: 1.5px dashed #E8B886;
+}
+.coupon-a-amount { font-size: 22px; font-weight: 900; color: #C85E20; line-height: 1; letter-spacing: -0.5px; }
+.coupon-a-amount span { font-size: 12px; font-weight: 700; }
+.coupon-a-small { font-size: 10px; font-weight: 600; color: #C85E20; margin-top: 4px; }
+.coupon-a .notch-l { left: 91px; }
+.coupon-a .notch-top { top: -5px; }
+.coupon-a .notch-bot { bottom: -5px; }
+.coupon-a-right {
+  flex: 1; padding: 12px 14px;
+  display: flex; flex-direction: column; justify-content: center; gap: 3px;
+}
+.coupon-a-title { font-size: 13px; font-weight: 800; color: #1A1714; }
+.coupon-a-sub { font-size: 11px; color: #6B6560; }
+.coupon-a-btn {
+  align-self: flex-start; margin-top: 6px;
+  background: #E07A38; color: #fff; border: none;
+  font-size: 11px; font-weight: 800; padding: 6px 14px; border-radius: 20px;
+  font-family: inherit; cursor: pointer;
+}
+
+/* ── 쿠폰 B: 화이트 + 오렌지 포인트 ── */
+.coupon-b {
+  display: flex; align-items: stretch;
+  background: #fff; border: 1.5px solid #E07A38;
+}
+.coupon-b-left {
+  padding: 14px 16px; flex-shrink: 0; min-width: 96px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  background: #E07A38; color: #fff;
+}
+.coupon-b-amount { font-size: 22px; font-weight: 900; line-height: 1; letter-spacing: -0.5px; }
+.coupon-b-amount span { font-size: 12px; font-weight: 700; }
+.coupon-b-small { font-size: 10px; font-weight: 600; margin-top: 4px; opacity: 0.95; }
+.coupon-b .notch-l { left: 123px; background: #F8F4EE; }
+.coupon-b .notch-top { top: -5px; }
+.coupon-b .notch-bot { bottom: -5px; }
+.coupon-b-right {
+  flex: 1; padding: 12px 14px;
+  display: flex; flex-direction: column; justify-content: center; gap: 3px;
+  border-left: 1.5px dashed #E8B886;
+}
+.coupon-b-title { font-size: 13px; font-weight: 800; color: #1A1714; }
+.coupon-b-sub { font-size: 11px; color: #6B6560; }
+.coupon-b-expire { font-size: 10px; color: #A09890; }
+.coupon-b-btn {
+  align-self: flex-start; margin-top: 6px;
+  background: #E07A38; color: #fff; border: none;
+  font-size: 11px; font-weight: 800; padding: 6px 14px; border-radius: 20px;
+  font-family: inherit; cursor: pointer;
+}
+
+/* ── 쿠폰 C: 뱃지 스타일 (세로 컴팩트) ── */
+.coupon-c {
+  display: flex; align-items: center; gap: 12px;
+  background: #fff; border: 1px solid #EDE8E0; border-radius: 14px;
+  padding: 12px 14px; cursor: pointer;
+}
+.coupon-c-badge {
+  background: linear-gradient(135deg, #FFB380, #E07A38);
+  color: #fff; border-radius: 10px; padding: 8px 12px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  flex-shrink: 0; min-width: 72px;
+}
+.coupon-c-badge .big { font-size: 18px; font-weight: 900; line-height: 1; }
+.coupon-c-badge .small { font-size: 9px; font-weight: 600; margin-top: 3px; opacity: 0.95; }
+.coupon-c-info { flex: 1; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.coupon-c-title { font-size: 13px; font-weight: 800; color: #1A1714; }
+.coupon-c-sub { font-size: 11px; color: #6B6560; }
+.coupon-c-expire { font-size: 10px; color: #A09890; }
+.coupon-c-btn {
+  background: #FFF3E8; color: #E07A38; border: none;
+  font-size: 11px; font-weight: 800; padding: 8px 12px; border-radius: 10px;
+  font-family: inherit; cursor: pointer; flex-shrink: 0;
+}
+
+/* ============ 경비/상품 공통 ============ */
+.trip-card { background: #fff; border-radius: 16px; border: 1px solid #EDE8E0; overflow: hidden; }
+.trip-photos { display: flex; gap: 2px; height: 100px; }
+.trip-photos div { flex: 1; background-size: cover; background-position: center; }
+.trip-photos div:nth-child(1) { background-image: url('insta_thumbnail.png'); background-color: #DDD; }
+.trip-photos div:nth-child(2) { background-image: url('insta_feed_content-1.png'); background-color: #CCC; }
+.trip-photos div:nth-child(3) { background-image: url('insta_feed_content-2.png'); background-color: #BBB; }
+.trip-photos div:nth-child(4) { background-image: url('insta_feed_content-4.png'); background-color: #AAA; }
+.trip-head { padding: 12px 14px 10px; }
+.trip-title { font-size: 15px; font-weight: 800; color: #1A1714; margin-bottom: 6px; }
+.trip-meta { font-size: 11px; color: #6B6560; }
+
+/* ── 경비 A: 정사각 타일 그리드 (3x2) ── */
+.budget-a-section { padding: 0 14px 14px; }
+.budget-a-divider { height: 1px; background: #EDE8E0; margin: 0 0 12px; }
+.budget-a-total-row {
+  display: flex; align-items: baseline; justify-content: space-between;
+  margin-bottom: 10px;
+}
+.budget-a-total-label { font-size: 11px; font-weight: 700; color: #E07A38; letter-spacing: 0.3px; }
+.budget-a-total-amount { font-size: 20px; font-weight: 900; color: #1A1714; letter-spacing: -0.5px; }
+.budget-a-total-amount span { font-size: 11px; font-weight: 500; color: #6B6560; }
+.budget-a-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.budget-a-tile {
+  aspect-ratio: 1 / 1;
+  background: #F8F4EE; border: 1px solid #EDE8E0; border-radius: 10px;
+  padding: 8px 6px; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 3px; position: relative; transition: all 0.15s;
+}
+.budget-a-tile:hover { border-color: #E07A38; background: #FFF3E8; }
+.budget-a-tile-icon { font-size: 22px; line-height: 1; }
+.budget-a-tile-name { font-size: 10px; font-weight: 600; color: #6B6560; }
+.budget-a-tile-price { font-size: 12px; font-weight: 800; color: #1A1714; letter-spacing: -0.3px; }
+
+/* ── 경비 B: 가로 스크롤 스와이프 ── */
+.budget-b-section { padding: 0 0 14px; }
+.budget-b-divider { height: 1px; background: #EDE8E0; margin: 0 14px 12px; }
+.budget-b-total-row {
+  display: flex; align-items: baseline; justify-content: space-between;
+  margin: 0 14px 10px;
+}
+.budget-b-total-label { font-size: 11px; font-weight: 700; color: #E07A38; }
+.budget-b-total-amount { font-size: 20px; font-weight: 900; color: #1A1714; }
+.budget-b-total-amount span { font-size: 11px; font-weight: 500; color: #6B6560; }
+.budget-b-scroll {
+  display: flex; gap: 8px; overflow-x: auto; padding: 0 14px 4px;
+  scrollbar-width: none;
+}
+.budget-b-scroll::-webkit-scrollbar { display: none; }
+.budget-b-item {
+  flex-shrink: 0; width: 84px; aspect-ratio: 1 / 1.15;
+  background: #fff; border: 1px solid #EDE8E0; border-radius: 12px;
+  padding: 10px 6px; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 4px;
+}
+.budget-b-item-icon { font-size: 26px; line-height: 1; }
+.budget-b-item-name { font-size: 10px; font-weight: 600; color: #6B6560; }
+.budget-b-item-price { font-size: 12px; font-weight: 800; color: #1A1714; }
+.budget-b-item.more {
+  background: #FFF3E8; border-color: #F5C9A0; color: #E07A38;
+  font-size: 11px; font-weight: 700; text-align: center;
+}
+
+/* ── 경비 C: 정사각 + 2x3 프로그레스 바 하이브리드 ── */
+.budget-c-section { padding: 0 14px 14px; }
+.budget-c-divider { height: 1px; background: #EDE8E0; margin: 0 0 12px; }
+.budget-c-total-box {
+  background: linear-gradient(135deg, #FFF3E8, #FFE6D0);
+  border-radius: 12px; padding: 12px 14px; margin-bottom: 10px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.budget-c-total-box .label { font-size: 11px; font-weight: 700; color: #C85E20; }
+.budget-c-total-box .amount { font-size: 22px; font-weight: 900; color: #1A1714; margin-top: 2px; }
+.budget-c-total-box .amount span { font-size: 11px; font-weight: 500; color: #6B6560; }
+.budget-c-total-box .cta { font-size: 11px; font-weight: 800; color: #E07A38; }
+.budget-c-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; }
+.budget-c-tile {
+  background: #fff; border: 1px solid #EDE8E0; border-radius: 10px;
+  padding: 10px 12px; cursor: pointer;
+  display: flex; align-items: center; gap: 10px;
+}
+.budget-c-tile-icon { font-size: 22px; line-height: 1; flex-shrink: 0; }
+.budget-c-tile-body { flex: 1; min-width: 0; }
+.budget-c-tile-name { font-size: 10px; font-weight: 600; color: #6B6560; }
+.budget-c-tile-price { font-size: 13px; font-weight: 800; color: #1A1714; letter-spacing: -0.3px; }
+.budget-c-tile-arrow { font-size: 14px; color: #C4BEB5; flex-shrink: 0; }
+</style>
+</head>
+<body>
+
+<h1>디자인 옵션 비교 v2</h1>
+<p class="desc">쿠폰 3안 · 경비&상품 3안 — 마음에 드는 조합 골라주세요.</p>
+
+<!-- ════════════ 쿠폰 섹션 ════════════ -->
+<div class="section-title">쿠폰 섹션 — 3안</div>
+<div class="options-row">
+
+  <!-- 쿠폰 A -->
+  <div class="option-wrap">
+    <div class="option-label">A안 — 소프트 오렌지 티켓</div>
+    <div class="phone-frame">
+      <div class="coupon coupon-a">
+        <div class="coupon-a-left">
+          <div class="coupon-a-amount">3,000<span>원</span></div>
+          <div class="coupon-a-small">할인쿠폰</div>
+        </div>
+        <div class="coupon-notch notch-l notch-top"></div>
+        <div class="coupon-notch notch-l notch-bot"></div>
+        <div class="coupon-a-right">
+          <div class="coupon-a-title">첫 예약 할인</div>
+          <div class="coupon-a-sub">5만원 이상 · ~5/31</div>
+          <button class="coupon-a-btn">쿠폰 받기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 쿠폰 B -->
+  <div class="option-wrap">
+    <div class="option-label">B안 — 컬러 블록 + 화이트 본문</div>
+    <div class="phone-frame">
+      <div class="coupon coupon-b">
+        <div class="coupon-b-left">
+          <div class="coupon-b-amount">3,000<span>원</span></div>
+          <div class="coupon-b-small">할인</div>
+        </div>
+        <div class="coupon-b-right">
+          <div class="coupon-b-title">마이리얼트립 첫 예약</div>
+          <div class="coupon-b-sub">5만원 이상 · 셀렉트유 전용</div>
+          <div class="coupon-b-expire">~2026.05.31</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 쿠폰 C -->
+  <div class="option-wrap">
+    <div class="option-label">C안 — 컴팩트 뱃지형</div>
+    <div class="phone-frame">
+      <div class="coupon-c">
+        <div class="coupon-c-badge">
+          <div class="big">3천원</div>
+          <div class="small">할인</div>
+        </div>
+        <div class="coupon-c-info">
+          <div class="coupon-c-title">첫 예약 할인쿠폰</div>
+          <div class="coupon-c-sub">5만원 이상 · ~5/31</div>
+        </div>
+        <button class="coupon-c-btn">받기</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ════════════ 경비 섹션 ════════════ -->
+<div class="section-title">경비 & 상품 — 하나의 카드 안에 통합 · 3안</div>
+<div class="options-row">
+
+  <!-- 경비 A -->
+  <div class="option-wrap">
+    <div class="option-label">A안 — 정사각 타일 3×2 그리드</div>
+    <div class="phone-frame">
+      <div class="trip-card">
+        <div class="trip-photos"><div></div><div></div><div></div><div></div></div>
+        <div class="trip-head">
+          <div class="trip-title">오사카 & 교토 3박 4일</div>
+          <div class="trip-meta">🗓 3박 4일 · 👤 1인 기준</div>
+        </div>
+        <div class="budget-a-section">
+          <div class="budget-a-divider"></div>
+          <div class="budget-a-total-row">
+            <div class="budget-a-total-label">💰 총 여행경비</div>
+            <div class="budget-a-total-amount">102만원<span> ~</span></div>
+          </div>
+          <div class="budget-a-grid">
+            <div class="budget-a-tile"><div class="budget-a-tile-icon">✈️</div><div class="budget-a-tile-name">항공</div><div class="budget-a-tile-price">30만~</div></div>
+            <div class="budget-a-tile"><div class="budget-a-tile-icon">🏨</div><div class="budget-a-tile-name">숙소</div><div class="budget-a-tile-price">25만~</div></div>
+            <div class="budget-a-tile"><div class="budget-a-tile-icon">🚇</div><div class="budget-a-tile-name">교통</div><div class="budget-a-tile-price">4.2만</div></div>
+            <div class="budget-a-tile"><div class="budget-a-tile-icon">🎫</div><div class="budget-a-tile-name">입장권</div><div class="budget-a-tile-price">8만~</div></div>
+            <div class="budget-a-tile"><div class="budget-a-tile-icon">📱</div><div class="budget-a-tile-name">이심</div><div class="budget-a-tile-price">1.2만</div></div>
+            <div class="budget-a-tile"><div class="budget-a-tile-icon">🍜</div><div class="budget-a-tile-name">식비</div><div class="budget-a-tile-price">30만~</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 경비 B -->
+  <div class="option-wrap">
+    <div class="option-label">B안 — 가로 스와이프 (더 큰 아이콘)</div>
+    <div class="phone-frame">
+      <div class="trip-card">
+        <div class="trip-photos"><div></div><div></div><div></div><div></div></div>
+        <div class="trip-head">
+          <div class="trip-title">오사카 & 교토 3박 4일</div>
+          <div class="trip-meta">🗓 3박 4일 · 👤 1인 기준</div>
+        </div>
+        <div class="budget-b-section">
+          <div class="budget-b-divider"></div>
+          <div class="budget-b-total-row">
+            <div class="budget-b-total-label">💰 총 여행경비</div>
+            <div class="budget-b-total-amount">102만원<span> ~</span></div>
+          </div>
+          <div class="budget-b-scroll">
+            <div class="budget-b-item"><div class="budget-b-item-icon">✈️</div><div class="budget-b-item-name">항공</div><div class="budget-b-item-price">30만~</div></div>
+            <div class="budget-b-item"><div class="budget-b-item-icon">🏨</div><div class="budget-b-item-name">숙소</div><div class="budget-b-item-price">25만~</div></div>
+            <div class="budget-b-item"><div class="budget-b-item-icon">🚇</div><div class="budget-b-item-name">교통</div><div class="budget-b-item-price">4.2만</div></div>
+            <div class="budget-b-item"><div class="budget-b-item-icon">🎫</div><div class="budget-b-item-name">입장권</div><div class="budget-b-item-price">8만~</div></div>
+            <div class="budget-b-item"><div class="budget-b-item-icon">📱</div><div class="budget-b-item-name">이심</div><div class="budget-b-item-price">1.2만</div></div>
+            <div class="budget-b-item more">전체<br>보기<br>→</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 경비 C -->
+  <div class="option-wrap">
+    <div class="option-label">C안 — 총경비 박스 강조 + 2열 타일</div>
+    <div class="phone-frame">
+      <div class="trip-card">
+        <div class="trip-photos"><div></div><div></div><div></div><div></div></div>
+        <div class="trip-head">
+          <div class="trip-title">오사카 & 교토 3박 4일</div>
+          <div class="trip-meta">🗓 3박 4일 · 👤 1인 기준</div>
+        </div>
+        <div class="budget-c-section">
+          <div class="budget-c-divider"></div>
+          <div class="budget-c-total-box">
+            <div>
+              <div class="label">💰 총 여행경비</div>
+              <div class="amount">102만원<span> ~ / 1인</span></div>
+            </div>
+            <div class="cta">상세 →</div>
+          </div>
+          <div class="budget-c-grid">
+            <div class="budget-c-tile"><div class="budget-c-tile-icon">✈️</div><div class="budget-c-tile-body"><div class="budget-c-tile-name">항공</div><div class="budget-c-tile-price">30만원~</div></div><div class="budget-c-tile-arrow">›</div></div>
+            <div class="budget-c-tile"><div class="budget-c-tile-icon">🏨</div><div class="budget-c-tile-body"><div class="budget-c-tile-name">숙소</div><div class="budget-c-tile-price">25만원~</div></div><div class="budget-c-tile-arrow">›</div></div>
+            <div class="budget-c-tile"><div class="budget-c-tile-icon">🎫</div><div class="budget-c-tile-body"><div class="budget-c-tile-name">입장권</div><div class="budget-c-tile-price">8만원~</div></div><div class="budget-c-tile-arrow">›</div></div>
+            <div class="budget-c-tile"><div class="budget-c-tile-icon">📱</div><div class="budget-c-tile-body"><div class="budget-c-tile-name">이심</div><div class="budget-c-tile-price">1.2만원</div></div><div class="budget-c-tile-arrow">›</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div style="margin-top:40px;padding:16px;background:#fff;border-radius:12px;font-size:13px;color:#6B6560;line-height:1.8;">
+  <strong style="color:#1A1714;">변경점:</strong><br>
+  · 쿠폰 A안 배경 톤다운 (FFF0E0) + 노치 크기 10px로 축소<br>
+  · 경비 3안 모두 <strong>하나의 카드 안에 사진+제목+총경비+항목별 경비</strong> 통합<br>
+  · A안 정사각 3×2 그리드 / B안 가로 스와이프 / C안 강조 박스+2열
+</div>
+
+</body>
+</html>
