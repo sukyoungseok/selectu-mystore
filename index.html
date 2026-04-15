@@ -48,7 +48,7 @@
     .hero { position: relative; height: 380px; overflow: hidden; }
     .hero-cover {
       position: absolute; inset: 0;
-      background: url('https://images.unsplash.com/photo-1547926033-7f6e7a37bf9c?w=800&q=80') center/cover no-repeat;
+      background: url('community_thumbnail.png') center/cover no-repeat;
     }
     .hero-cover::after {
       content: ''; position: absolute; inset: 0;
@@ -65,11 +65,10 @@
     }
     .profile-avatar {
       width: 52px; height: 52px;
-      background: linear-gradient(135deg, #F4C07A, #E07A38);
-      border-radius: 50%;
-      display: flex; align-items: center; justify-content: center; font-size: 22px;
+      border-radius: 50%; overflow: hidden;
       flex-shrink: 0; box-shadow: 0 4px 12px rgba(224,122,56,0.35);
     }
+    .profile-avatar img { width: 100%; height: 100%; object-fit: cover; }
     .profile-info h2 { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 3px; }
     .profile-info p { font-size: 12px; color: var(--mid); margin-bottom: 8px; }
     .sns-pills { display: flex; gap: 6px; }
@@ -179,6 +178,34 @@
     .ls-coll-img img { width: 100%; height: 100%; object-fit: cover; }
     .ls-coll-title { font-size: 11px; font-weight: 600; color: var(--text); text-align: center; }
     .links-section-pb { padding-bottom: 40px; }
+
+    /* ── 코스 테이저 카드 ── */
+    .course-teaser {
+      margin: 12px 20px 0;
+      background: #fff; border-radius: 16px;
+      border: 1px solid var(--border); overflow: hidden;
+      cursor: pointer;
+    }
+    .course-teaser-imgs {
+      display: flex; gap: 2px; height: 90px;
+    }
+    .course-teaser-imgs img {
+      flex: 1; min-width: 0; height: 100%; object-fit: cover;
+    }
+    .course-teaser-body {
+      padding: 11px 14px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .course-teaser-badge {
+      font-size: 10px; font-weight: 700; color: var(--amber);
+      background: rgba(224,122,56,0.1); border-radius: 6px;
+      padding: 2px 7px; display: inline-block; margin-bottom: 4px;
+    }
+    .course-teaser-title {
+      font-size: 14px; font-weight: 800; color: var(--text); margin-bottom: 2px;
+    }
+    .course-teaser-sub { font-size: 11px; color: var(--mid); }
+    .course-teaser-arrow { font-size: 22px; color: var(--mid); padding-left: 8px; flex-shrink: 0; }
 
     /* ── OG 링크 카드 ── */
     .ls-og {
@@ -682,7 +709,7 @@
     <div class="hero">
       <div class="hero-cover"></div>
       <div class="profile-card">
-        <div class="profile-avatar">✈️</div>
+        <div class="profile-avatar"><img src="IMG_7595.jpg" alt="셀렉트유"></div>
         <div class="profile-info">
           <h2>셀렉트유</h2>
           <p>여행 크리에이터 · @viento_de</p>
@@ -704,134 +731,32 @@
       <div class="cs-arrow">›</div>
     </a>
 
+    <!-- 코스 미리보기 카드 (항상 표시, 탭 아님) -->
+    <div class="course-teaser" onclick="openCourse()">
+      <div class="course-teaser-imgs">
+        <img src="insta_thumbnail.png" loading="lazy">
+        <img src="insta_feed_content-1.png" loading="lazy">
+        <img src="insta_feed_content-2.png" loading="lazy">
+        <img src="insta_feed_content-4.png" loading="lazy">
+      </div>
+      <div class="course-teaser-body">
+        <div class="course-teaser-info">
+          <span class="course-teaser-badge">🗺 여행 코스</span>
+          <div class="course-teaser-title">오사카 & 교토 3박 4일</div>
+          <div class="course-teaser-sub">✈️ 총경비 약 102만원 · 1인 기준</div>
+        </div>
+        <div class="course-teaser-arrow">›</div>
+      </div>
+    </div>
+
     <!-- TABS -->
     <div class="page-tabs">
-      <div class="page-tab on" onclick="switchTab('course')">코스</div>
-      <div class="page-tab" onclick="switchTab('posts')">링크</div>
+      <div class="page-tab on" onclick="switchTab('posts')">링크</div>
       <div class="page-tab" onclick="switchTab('products')">필수템</div>
     </div>
 
-    <!-- 코스 탭 패널 -->
-    <div id="tab-course" class="tab-panel on">
-
-    <!-- 코스 섹션 (메인 페이지) -->
-    <div class="course-card">
-      <div class="course-card-pad">
-        <div class="course-badge">🏷 여행 코스</div>
-        <div class="course-card-title">오사카 & 교토 3박 4일<br>100만원으로 알차게!</div>
-        <div class="course-card-meta">viento_de · ⭐ 4.8 · 52개 후기 · 🔥 38명 저장</div>
-      </div>
-
-      <!-- 사진 스트립 -->
-      <div class="course-photos-row">
-        <div class="course-photo-sq"><img src="insta_thumbnail.png" loading="lazy"></div>
-        <div class="course-photo-sq"><img src="insta_feed_content-1.png" loading="lazy"></div>
-        <div class="course-photo-sq"><img src="insta_feed_content-2.png" loading="lazy"></div>
-        <div class="course-photo-sq"><img src="insta_feed_content-4.png" loading="lazy"></div>
-        <div class="course-photo-sq"><img src="insta_feed_content-6.png" loading="lazy"></div>
-        <div class="course-photo-sq"><img src="insta_feed_content.png" loading="lazy"></div>
-      </div>
-
-      <!-- 지도 (항상 표시) -->
-      <div class="course-map-label">📍 여행 코스 지도</div>
-      <div id="map-preview"></div>
-      <div class="map-hint" style="padding:5px 18px 10px">버튼을 탭하면 해당 장소 상품 정보를 볼 수 있어요</div>
-
-      <!-- 경비 + CTA -->
-      <div class="course-cta-section">
-        <div class="course-budget-row">
-          <div>
-            <div style="font-size:11px;color:var(--mid);margin-bottom:2px;">✈️ 항공 + 숙박 합산 총경비</div>
-            <div class="course-budget-amount">약 <em id="budget-price">102만원</em></div>
-            <div style="font-size:11px;color:var(--mid)" id="budget-sub">진에어 왕복 항공 기준 · 1인</div>
-          </div>
-          <div class="course-budget-badge">6개월 내 최저가</div>
-        </div>
-        <button class="course-cta-btn" onclick="openExpensePanel()">코스&amp;경비 보러가기 →</button>
-        <button style="width:100%;margin-top:8px;padding:12px;background:transparent;border:1.5px solid var(--amber);color:var(--amber);font-size:14px;font-weight:700;border-radius:14px;font-family:inherit;cursor:pointer;" onclick="openCourse()">코스 자세히 보기</button>
-      </div>
-    </div>
-
-    <!-- 경비 상세 패널 -->
-    <div id="expense-panel">
-      <div class="exp-overlay" onclick="closeExpensePanel()"></div>
-      <div class="exp-sheet">
-        <div style="width:36px;height:4px;background:var(--border);border-radius:2px;margin:6px auto 16px;"></div>
-        <div class="exp-title">✈️ 오사카&교토 3박 4일 실제 경비</div>
-        <div class="exp-subtitle">셀렉트유 직접 다녀온 여행 · 1인 기준</div>
-
-        <div class="exp-item">
-          <div class="exp-emoji">✈️</div>
-          <div class="exp-info">
-            <div class="exp-name">항공</div>
-            <div class="exp-note">진에어 왕복 · 이코노미</div>
-          </div>
-          <div class="exp-right">
-            <div class="exp-price-val">₩300,000</div>
-            <button class="exp-book-btn" onclick="window.open('https://www.myrealtrip.com/flights','_blank')">예약 바로가기</button>
-          </div>
-        </div>
-
-        <div class="exp-item">
-          <div class="exp-emoji">🏨</div>
-          <div class="exp-info">
-            <div class="exp-name">숙소</div>
-            <div class="exp-note">에어비앤비 3박</div>
-          </div>
-          <div class="exp-right">
-            <div class="exp-price-val">₩250,000</div>
-            <button class="exp-book-btn" onclick="window.open('https://www.myrealtrip.com/hotels','_blank')">예약 바로가기</button>
-          </div>
-        </div>
-
-        <div class="exp-item">
-          <div class="exp-emoji">🚇</div>
-          <div class="exp-info">
-            <div class="exp-name">교통</div>
-            <div class="exp-note">지하철 2일권 · 라피트 왕복 · 한큐패스</div>
-          </div>
-          <div class="exp-right">
-            <div class="exp-price-val">₩42,000</div>
-            <button class="exp-book-btn" id="btn-transit" onclick="window.open('https://experiences.myrealtrip.com/products/5869536','_blank')">예약 바로가기</button>
-          </div>
-        </div>
-
-        <div class="exp-item">
-          <div class="exp-emoji">📱</div>
-          <div class="exp-info">
-            <div class="exp-name">마이리얼트립 구매</div>
-            <div class="exp-note">이심 4일 ₩12,000 + 하루카스 300 입장권 ₩13,000</div>
-          </div>
-          <div class="exp-right">
-            <div class="exp-price-val">₩25,000</div>
-            <button class="exp-book-btn" id="btn-mrt" onclick="window.open('https://www.myrealtrip.com/offers/25950','_blank')">예약 바로가기</button>
-          </div>
-        </div>
-
-        <div class="exp-item">
-          <div class="exp-emoji">🍜</div>
-          <div class="exp-info">
-            <div class="exp-name">식비 · 현지 경비</div>
-            <div class="exp-note">환전 기준 · 쇼핑/맛집/기타 포함</div>
-          </div>
-          <div class="exp-right">
-            <div class="exp-price-val">₩405,000</div>
-          </div>
-        </div>
-
-        <div class="exp-total-row">
-          <div class="exp-total-label">총 실제 경비</div>
-          <div class="exp-total-val">₩1,022,000</div>
-        </div>
-        <div class="exp-fine-print">셀렉트유가 직접 다녀온 실제 지출 기준 · 개인 소비에 따라 변동 가능</div>
-        <button class="exp-main-cta" onclick="window.open('https://tripsignal.vercel.app/?city=osaka&duration=4&adults=1','_blank')">더 많은 최저가 경비 찾기 →</button>
-      </div>
-    </div>
-
-    </div><!-- /tab-course -->
-
     <!-- ══ 게시물 탭 ══ -->
-    <div id="tab-posts" class="tab-panel">
+    <div id="tab-posts" class="tab-panel on">
       <div class="links-section">
         <div class="link-blocks">
           <div class="style-tag">썸네일</div>
@@ -1085,27 +1010,14 @@ function toggleCourseMap() {
 }
 
 // ─── TABS ────────────────────────────────────────
-let ogCardsLoaded = false;
 function switchTab(name) {
   document.querySelectorAll('.page-tab').forEach((t,i) => {
-    const tabs = ['course','posts','products'];
+    const tabs = ['posts','products'];
     t.classList.toggle('on', tabs[i] === name);
   });
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('on'));
   document.getElementById(`tab-${name}`).classList.add('on');
   document.getElementById('main-page').scrollTop = 0;
-
-  // WebKit GPU 레이어 버그 대응: 코스 탭 이탈 시 Leaflet 인스턴스 파괴
-  if (name !== 'course' && mapPreview) {
-    mapPreview.remove();
-    mapPreview = null;
-  }
-  // 코스 탭 복귀 시 재초기화
-  if (name === 'course') {
-    setTimeout(initMapPreview, 50);
-  }
-
-  if (name === 'posts' && !ogCardsLoaded) { ogCardsLoaded = true; loadOgCards(); }
 }
 
 // ─── OG 이미지 자동 로딩 (microlink.io) ──────────
@@ -1157,6 +1069,7 @@ function drawRoutes(map) {
 }
 function initMapPreview() {
   if (mapPreview) return;
+  if (!document.getElementById('map-preview')) return;
   mapPreview = L.map('map-preview', { center:[34.78,135.6], zoom:10, zoomControl:false, scrollWheelZoom:false, dragging:false, tap:true, attributionControl:false });
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', { maxZoom:19 }).addTo(mapPreview);
   drawRoutes(mapPreview);
@@ -1308,7 +1221,7 @@ async function loadBudget() {
 // ─── INIT ────────────────────────────────────────
 renderProducts();
 loadBudget();
-setTimeout(initMapPreview, 400);
+loadOgCards();
 </script>
 </body>
 </html>
