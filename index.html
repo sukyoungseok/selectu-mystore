@@ -1480,7 +1480,7 @@ function renderProducts() {
   }
   el.innerHTML = filtered.map(p => `
     <div class="product-card-v3" onclick="window.open('${p.url}','_blank')">
-      <div class="pc-img" style="background:${p.bg}">${p.icon}</div>
+      <div class="pc-img" data-og-url="${p.url}" style="background:${p.bg}"><span class="pc-img-emoji">${p.icon}</span></div>
       <div class="pc-body">
         <span class="pc-tag" style="background:${p.tagBg};color:${p.tagColor}">${p.tag}</span>
         <div class="pc-name">${p.name}</div>
@@ -1490,6 +1490,27 @@ function renderProducts() {
       </div>
     </div>
   `).join('');
+  loadProductOg();
+}
+
+// ─── 상품 카드 OG 이미지 로딩 ──────────────────────
+function loadProductOg() {
+  const cards = document.querySelectorAll('.pc-img[data-og-url]');
+  cards.forEach(card => {
+    if (card.dataset.ogLoaded === '1') return;
+    card.dataset.ogLoaded = '1';
+    const url = card.dataset.ogUrl;
+    const img = new Image();
+    img.onload = () => {
+      card.style.backgroundImage = `url("${img.src}")`;
+      card.style.backgroundSize = 'cover';
+      card.style.backgroundPosition = 'center';
+      const e = card.querySelector('.pc-img-emoji');
+      if (e) e.style.display = 'none';
+    };
+    img.onerror = () => { /* emoji fallback 유지 */ };
+    img.src = `https://api.microlink.io/?url=${encodeURIComponent(url)}&embed=image.url`;
+  });
 }
 
 // ─── SHOPPABLE PINS ──────────────────────────────
