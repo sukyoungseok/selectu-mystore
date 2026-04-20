@@ -3988,30 +3988,8 @@
                         </div>
                     </div>
                     <div class="exp-fine-print" id="exp-fine-print">
-                        ✈️항공·🏨숙소는
-                        <a
-                            href="https://tripsignal.vercel.app/?city=osaka&duration=3&adults=1"
-                            target="_blank"
-                            style="
-                                color: var(--amber);
-                                text-decoration: underline;
-                            "
-                            >MyTripSignal</a
-                        >
-                        실시간 최저가 기준 · 식비는 평균값
+                        ✈️항공·🏨숙소는 실시간 최저가 기준 · 식비는 평균값
                     </div>
-                    <button
-                        class="exp-main-cta"
-                        id="exp-main-cta"
-                        onclick="
-                            window.open(
-                                'https://tripsignal.vercel.app/?city=osaka&duration=4&adults=1',
-                                '_blank',
-                            )
-                        "
-                    >
-                        더 많은 최저가 경비 찾기 →
-                    </button>
                 </div>
             </div>
 
@@ -4902,14 +4880,9 @@
                         "₩" +
                         (live ? live.total : d.defaultTotal).toLocaleString();
 
-                // fine print + CTA
+                // fine print
                 const fpEl = document.getElementById("exp-fine-print");
-                const ctaEl = document.getElementById("exp-main-cta");
                 if (fpEl) fpEl.textContent = d.finePrint;
-                if (ctaEl) {
-                    ctaEl.textContent = "더 많은 최저가 경비 찾기 →";
-                    ctaEl.onclick = () => window.open(d.ctaUrl, "_blank");
-                }
 
                 document.getElementById("expense-panel").classList.add("open");
             }
