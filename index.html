@@ -4109,6 +4109,61 @@
         <!-- /phone -->
 
         <script>
+            // ══════════════════════════════════════════════════
+            // ★ CREATOR CONFIG — 크리에이터별로 여기만 수정하세요 ★
+            // ══════════════════════════════════════════════════
+            const CREATOR = {
+                name:         "스톤워터",          // 크리에이터 이름
+                handle:       "@myrealtrip",        // 인스타 핸들
+                profileImage: "IMG_7595.jpg",        // 프로필 사진 파일명
+                instagramUrl: "https://www.instagram.com/myrealtrip",
+                youtubeUrl:   "",                    // 없으면 빈 문자열
+                blogUrl:      "",                    // 없으면 빈 문자열
+                email:        "sukyoung.seok@myrealtrip.com",
+                couponUrl:    "https://www.myrealtrip.com/coupons",
+            };
+
+            function applyCreatorConfig() {
+                const c = CREATOR;
+                // 페이지 타이틀
+                document.title = `${c.name} · 마이스토어`;
+                // 프로필
+                const profileImg = document.querySelector(".profile-avatar img");
+                if (profileImg) { profileImg.src = c.profileImage; profileImg.alt = c.name; }
+                const nameEl = document.querySelector(".profile-info h2");
+                if (nameEl) nameEl.textContent = c.name;
+                const handleEl = document.querySelector(".profile-info p");
+                if (handleEl) handleEl.textContent = `여행 크리에이터 · ${c.handle}`;
+                // SNS 링크
+                const instaEl = document.querySelector('.sns-pills a[aria-label="Instagram"]');
+                if (instaEl) instaEl.href = c.instagramUrl || "#";
+                const ytEl = document.querySelector('.sns-pills a[aria-label="YouTube"]');
+                if (ytEl) ytEl.href = c.youtubeUrl || "#";
+                const blogEl = document.querySelector('.sns-pills a[aria-label="Blog"]');
+                if (blogEl) blogEl.href = c.blogUrl || "#";
+                const mailEl = document.querySelector(".sns-pills a.mail");
+                if (mailEl) mailEl.href = `mailto:${c.email}`;
+                // 쿠폰 배너
+                const couponBanner = document.querySelector(".coupon-showcase");
+                if (couponBanner) couponBanner.href = c.couponUrl;
+                const couponKicker = document.querySelector(".cs-kicker");
+                if (couponKicker) couponKicker.textContent = `${c.name} 팔로워 전용`;
+                // 쿠폰 패널 태그
+                document.querySelectorAll(".cs-creator-tag").forEach(el => {
+                    el.textContent = `${c.name} 전용`;
+                });
+                // 푸터
+                const footerMail = document.querySelector(".bio-footer-mail");
+                if (footerMail) { footerMail.href = `mailto:${c.email}`; footerMail.textContent = c.email; }
+                const footerMeta = document.querySelector(".bio-footer-meta");
+                if (footerMeta) footerMeta.textContent = `© 2026 ${c.name} · myrealtrip`;
+                // 경비 패널 subtitle
+                Object.values(CITY_EXPENSE).forEach(city => {
+                    city.subtitle = `${c.name} 직접 다녀온 여행 · 1인 기준`;
+                });
+            }
+            // ══════════════════════════════════════════════════
+
             // ─── DATA ───────────────────────────────────────
             const products = [
                 {
@@ -4889,6 +4944,7 @@
 
             // ─── URL 파라미터로 패널 자동 오픈 ──────────────────
             document.addEventListener("DOMContentLoaded", () => {
+                applyCreatorConfig();
                 const params = new URLSearchParams(location.search);
                 const view = params.get("view");
                 const city = params.get("city") || "osaka";
@@ -4913,7 +4969,7 @@
                     const ctrl = new AbortController();
                     const timer = setTimeout(() => ctrl.abort(), 8000);
                     const res = await fetch(
-                        `https://tripsignal.vercel.app/api/prices/${cityKey}?directOnly=false`,
+                        `/api/prices/${cityKey}?directOnly=false`,
                         { signal: ctrl.signal },
                     );
                     clearTimeout(timer);
