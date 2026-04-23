@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>마이스토어 · 카드뉴스</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet"/>
+<style>
+:root{--cream:#f8f4ee;--amber:#e07a38;--text:#1a1714;--mid:#6b6560;--light:#a09890;--border:#ede8e0}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Noto Sans KR",sans-serif;background:#2a2724;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:24px}
+
+.viewer{position:relative;width:390px;border-radius:20px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.5)}
+.slide{display:none;flex-direction:column;width:100%}
+.slide.active{display:flex}
+
+/* 슬라이드 1 — 표지 */
+.s1{background:linear-gradient(160deg,#1a1714 0%,#3d2010 55%,#c06020 100%);align-items:center;justify-content:center;text-align:center;padding:60px 32px;min-height:480px}
+.s1::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 70% 25%,rgba(224,122,56,.25) 0%,transparent 60%)}
+.s1-badge{position:relative;display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:5px 14px;font-size:10px;font-weight:700;color:rgba(255,255,255,.7);letter-spacing:.08em;margin-bottom:22px}
+.s1-title{position:relative;font-size:26px;font-weight:900;line-height:1.2;letter-spacing:-.04em;color:#fff;margin-bottom:14px}
+.s1-title em{color:var(--amber);font-style:normal}
+.s1-sub{position:relative;font-size:13px;color:rgba(255,255,255,.55);line-height:1.7}
+.slide-num-abs{position:absolute;top:18px;right:20px;font-size:10px;font-weight:700;color:rgba(255,255,255,.3);letter-spacing:.05em}
+.slide-num-abs.dark{color:rgba(26,23,20,.25)}
+
+/* 슬라이드 2 — Why */
+.s2{background:var(--cream);padding:32px 24px}
+.s2-eyebrow{font-size:10px;font-weight:700;letter-spacing:.15em;color:var(--amber);margin-bottom:10px}
+.s2-title{font-size:20px;font-weight:900;letter-spacing:-.04em;line-height:1.25;color:var(--text);margin-bottom:20px}
+.s2-items{display:grid;gap:10px}
+.s2-item{background:#fff;border:1px solid var(--border);border-radius:14px;padding:14px 16px;display:flex;align-items:flex-start;gap:12px}
+.s2-item-icon{font-size:22px;flex-shrink:0}
+.s2-item-text h4{font-size:13px;font-weight:700;color:var(--text);margin-bottom:3px}
+.s2-item-text p{font-size:11px;color:var(--mid);line-height:1.5}
+
+/* 슬라이드 3~5 — 화면 + 설명 */
+.preview-slide{background:var(--cream)}
+.preview-top{padding:20px 20px 14px;display:flex;align-items:flex-start;justify-content:space-between}
+.preview-tag{display:inline-block;background:var(--amber);color:#fff;font-size:9px;font-weight:700;letter-spacing:.08em;padding:3px 10px;border-radius:999px;margin-bottom:6px}
+.preview-title{font-size:18px;font-weight:900;letter-spacing:-.04em;line-height:1.2;color:var(--text)}
+.phone-mockup{margin:0 20px}
+.phone-mockup img{width:100%;height:auto;display:block;border-radius:24px;box-shadow:0 8px 24px rgba(0,0,0,.18)}
+.preview-desc{margin:12px 20px 0;font-size:12px;color:var(--mid);line-height:1.65}
+
+/* 슬라이드 6 — CTA */
+.s6{background:linear-gradient(160deg,#1a1714 0%,#3d2010 55%,#c06020 100%);align-items:center;justify-content:center;text-align:center;padding:60px 32px;min-height:480px}
+.s6::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 30% 70%,rgba(224,122,56,.2) 0%,transparent 60%)}
+.s6-title{position:relative;font-size:24px;font-weight:900;letter-spacing:-.04em;line-height:1.2;color:#fff;margin-bottom:12px}
+.s6-title em{color:var(--amber);font-style:normal}
+.s6-sub{position:relative;font-size:13px;color:rgba(255,255,255,.55);line-height:1.7;margin-bottom:28px}
+.s6-btn{position:relative;display:inline-block;background:var(--amber);color:#fff;border-radius:12px;padding:14px 28px;font-size:14px;font-weight:900;letter-spacing:-.02em;text-decoration:none;margin-bottom:12px}
+.s6-contact{position:relative;font-size:11px;color:rgba(255,255,255,.3)}
+
+/* 네비게이션 */
+.nav{display:flex;align-items:center;gap:16px}
+.nav-btn{width:44px;height:44px;border-radius:50%;border:none;background:rgba(255,255,255,.12);color:#fff;font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .2s}
+.nav-btn:hover{background:rgba(255,255,255,.2)}
+.nav-btn:disabled{opacity:.25;cursor:default}
+.dots{display:flex;gap:6px}
+.dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.3);transition:all .2s;cursor:pointer}
+.dot.active{background:#fff;width:18px;border-radius:3px}
+.hint{font-size:11px;color:rgba(255,255,255,.25);letter-spacing:.04em}
+</style>
+</head>
+<body>
+
+<div class="viewer">
+
+  <!-- 1: 표지 -->
+  <div class="slide s1 active">
+    <div class="slide-num-abs">1 / 6</div>
+    <div class="s1-badge">✈️ MYSTORE by 마이리얼트립</div>
+    <h1 class="s1-title">여행 크리에이터를 위한<br><em>새로운 수익화</em><br>테스트 중이에요</h1>
+    <p class="s1-sub">같이 해보실 분 찾고 있어요 :)<br>넘겨서 확인해보세요</p>
+  </div>
+
+  <!-- 2: Why -->
+  <div class="slide s2">
+    <div class="slide-num-abs dark">2 / 6</div>
+    <p class="s2-eyebrow">WHY</p>
+    <h2 class="s2-title">이런 고민에서<br>시작됐어요</h2>
+    <div class="s2-items">
+      <div class="s2-item">
+        <div class="s2-item-icon">📝</div>
+        <div class="s2-item-text">
+          <h4>노션 따로 만들기 너무 번거롭잖아요</h4>
+          <p>코스·경비 정리를 더이상 힘들게 안 해도 돼요</p>
+        </div>
+      </div>
+      <div class="s2-item">
+        <div class="s2-item-icon">🔗</div>
+        <div class="s2-item-text">
+          <h4>링크가 여기저기 흩어져 있고</h4>
+          <p>팔로워가 찾다 지쳐서 그냥 다른 데서 예약해요</p>
+        </div>
+      </div>
+      <div class="s2-item" style="background:linear-gradient(135deg,#fff0df,#ffddb8);border-color:#efb680">
+        <div class="s2-item-icon">💰</div>
+        <div class="s2-item-text">
+          <h4 style="color:var(--amber)">그 링크에 제휴 수익이 붙는다면?</h4>
+          <p>팔로워가 예약하면 크리에이터님께 수수료가 생겨요</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3: 메인 페이지 -->
+  <div class="slide preview-slide">
+    <div class="slide-num-abs dark">3 / 6</div>
+    <div class="preview-top">
+      <div>
+        <div class="preview-tag">바이오 링크</div>
+        <div class="preview-title">크리에이터 맞춤<br>페이지</div>
+      </div>
+    </div>
+    <div class="phone-mockup">
+      <img src="screenshots/Frame 3.png" alt="마이스토어 메인"/>
+    </div>
+    <div class="preview-desc">프로필·추천 상품·예약 링크를 한 페이지에. 링크 하나로 팔로워가 모든 걸 볼 수 있어요.</div>
+  </div>
+
+  <!-- 4: 여행 코스 -->
+  <div class="slide preview-slide">
+    <div class="slide-num-abs dark">4 / 6</div>
+    <div class="preview-top">
+      <div>
+        <div class="preview-tag">여행 코스</div>
+        <div class="preview-title">코스를 한눈에,<br>노션 없이</div>
+      </div>
+    </div>
+    <div class="phone-mockup">
+      <img src="screenshots/Frame 4.png" alt="여행 코스"/>
+    </div>
+    <div class="preview-desc">크리에이터님 코스를 일정별로 정리해드려요. 팔로워가 그대로 따라갈 수 있어요.</div>
+  </div>
+
+  <!-- 5: 경비 -->
+  <div class="slide preview-slide">
+    <div class="slide-num-abs dark">5 / 6</div>
+    <div class="preview-top">
+      <div>
+        <div class="preview-tag">경비 계산</div>
+        <div class="preview-title">경비도<br>바로 확인</div>
+      </div>
+    </div>
+    <div class="phone-mockup">
+      <img src="screenshots/Frame 5.png" alt="경비 계산"/>
+    </div>
+    <div class="preview-desc">여행지별 예상 경비를 한눈에. 팔로워가 예산 계획까지 세울 수 있어요.</div>
+  </div>
+
+  <!-- 6: CTA -->
+  <div class="slide s6">
+    <div class="slide-num-abs">6 / 6</div>
+    <h2 class="s6-title">지금 함께<br><em>테스트해보실 분</em><br>연락 주세요</h2>
+    <p class="s6-sub">초안 먼저 만들어서 보내드려요.<br>마음에 드시면 그때 시작해요.<br>비용은 없어요 :)</p>
+    <a class="s6-btn" href="https://mystore-mockup.vercel.app" target="_blank">예시 페이지 보기 →</a>
+    <div class="s6-contact">마이리얼트립 마케팅파트너팀<br>marketing_partner@myrealtrip.com</div>
+  </div>
+
+</div>
+
+<div class="nav">
+  <button class="nav-btn" id="prev" onclick="move(-1)" disabled>‹</button>
+  <div class="dots" id="dots"></div>
+  <button class="nav-btn" id="next" onclick="move(1)">›</button>
+</div>
+<p class="hint">← → 키보드 · 스와이프로 이동</p>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+const dotsEl = document.getElementById('dots');
+let cur = 0;
+
+slides.forEach((_,i) => {
+  const d = document.createElement('div');
+  d.className = 'dot' + (i===0?' active':'');
+  d.onclick = () => go(i);
+  dotsEl.appendChild(d);
+});
+
+function go(n) {
+  slides[cur].classList.remove('active');
+  dotsEl.children[cur].classList.remove('active');
+  cur = Math.max(0, Math.min(n, slides.length-1));
+  slides[cur].classList.add('active');
+  dotsEl.children[cur].classList.add('active');
+  document.getElementById('prev').disabled = cur === 0;
+  document.getElementById('next').disabled = cur === slides.length-1;
+}
+
+function move(d) { go(cur+d); }
+
+document.addEventListener('keydown', e => {
+  if(e.key==='ArrowRight') move(1);
+  if(e.key==='ArrowLeft') move(-1);
+});
+
+let sx = 0;
+const viewer = document.querySelector('.viewer');
+viewer.addEventListener('touchstart', e => sx = e.touches[0].clientX);
+viewer.addEventListener('touchend', e => {
+  const dx = e.changedTouches[0].clientX - sx;
+  if(Math.abs(dx) > 40) move(dx < 0 ? 1 : -1);
+});
+</script>
+</body>
+</html>
