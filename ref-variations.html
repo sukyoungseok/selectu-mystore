@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>레퍼런스 베리에이션 — F & G</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --cream: #F8F4EE; --amber: #E07A38; --sage: #6B9080;
+      --text: #1A1714; --mid: #6B6560; --light: #A09890; --border: #EDE8E0;
+    }
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background: #E5E3DC;
+      padding: 40px 20px;
+      display: flex; flex-direction: column; align-items: center; gap: 56px;
+    }
+    .var-label {
+      font-size: 13px; font-weight: 700; color: #888;
+      letter-spacing: 1px; text-transform: uppercase;
+      margin-bottom: 12px; width: 390px;
+    }
+    .phone {
+      width: 390px; background: var(--cream);
+      border-radius: 32px; overflow: hidden;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.18);
+    }
+
+    /* ════════════════════════════════════════
+       VAR F — 오늘의집 스타일 (Shoppable Photo)
+    ════════════════════════════════════════ */
+    .shoppable-wrap {
+      position: relative; overflow: hidden;
+    }
+    .shoppable-img {
+      width: 100%; height: 420px;
+      object-fit: cover; display: block;
+      background: url('https://picsum.photos/seed/200/800/840') center/cover no-repeat;
+    }
+    /* 핀 버튼 */
+    .pin {
+      position: absolute;
+      width: 28px; height: 28px;
+      background: #fff;
+      border-radius: 50%;
+      border: 2px solid var(--amber);
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      z-index: 10;
+      transition: transform 0.15s;
+    }
+    .pin:active { transform: scale(0.92); }
+    .pin-dot {
+      width: 10px; height: 10px;
+      background: var(--amber); border-radius: 50%;
+    }
+    .pin-ring {
+      position: absolute;
+      width: 44px; height: 44px;
+      border-radius: 50%;
+      border: 2px solid rgba(224,122,56,0.35);
+      animation: pulse 1.8s infinite;
+    }
+    @keyframes pulse {
+      0%   { transform: scale(0.85); opacity: 1; }
+      70%  { transform: scale(1.3);  opacity: 0; }
+      100% { transform: scale(1.3);  opacity: 0; }
+    }
+    /* 상품 팝업 */
+    .pin-popup {
+      position: absolute;
+      background: #fff;
+      border-radius: 14px;
+      padding: 10px 12px;
+      display: flex; align-items: center; gap: 10px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+      min-width: 200px;
+      z-index: 20;
+      pointer-events: none;
+    }
+    .pin-popup::before {
+      content: '';
+      position: absolute;
+      width: 10px; height: 10px;
+      background: #fff;
+      transform: rotate(45deg);
+      bottom: -5px; left: 20px;
+      box-shadow: 2px 2px 4px rgba(0,0,0,0.06);
+    }
+    .popup-icon-box {
+      width: 42px; height: 42px;
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px; flex-shrink: 0;
+    }
+    .popup-info { flex: 1; }
+    .popup-tag {
+      font-size: 9px; font-weight: 700;
+      padding: 2px 6px; border-radius: 4px;
+      display: inline-block; margin-bottom: 3px;
+    }
+    .popup-name { font-size: 12px; font-weight: 700; color: var(--text); margin-bottom: 2px; line-height: 1.3; }
+    .popup-price { font-size: 13px; font-weight: 900; color: var(--amber); }
+    .popup-btn {
+      flex-shrink: 0;
+      background: var(--amber); color: #fff;
+      font-size: 10px; font-weight: 700;
+      padding: 7px 10px; border-radius: 8px;
+      border: none; font-family: inherit; cursor: pointer;
+    }
+    /* 하단 설명 */
+    .shoppable-footer {
+      padding: 16px 20px 20px;
+    }
+    .shoppable-footer .sf-hint {
+      font-size: 11px; color: var(--light);
+      margin-bottom: 10px;
+      display: flex; align-items: center; gap: 5px;
+    }
+    .sf-pins-row {
+      display: flex; gap: 8px; overflow-x: auto;
+      -ms-overflow-style: none; scrollbar-width: none;
+    }
+    .sf-pins-row::-webkit-scrollbar { display: none; }
+    .sf-product-chip {
+      flex-shrink: 0;
+      display: flex; align-items: center; gap: 7px;
+      background: #fff; border: 1px solid var(--border);
+      border-radius: 20px; padding: 6px 12px 6px 6px;
+      cursor: pointer;
+    }
+    .sf-chip-icon {
+      width: 28px; height: 28px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 14px;
+    }
+    .sf-chip-name { font-size: 11px; font-weight: 600; color: var(--text); }
+    .sf-chip-price { font-size: 11px; font-weight: 700; color: var(--amber); }
+
+    /* ════════════════════════════════════════
+       VAR G — 샤오홍슈 스타일 (탭 프로필)
+    ════════════════════════════════════════ */
+    /* Hero */
+    .g-hero {
+      height: 200px;
+      background: url('https://picsum.photos/seed/100/800/400') center/cover;
+      position: relative;
+    }
+    .g-hero::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,0.6) 100%);
+    }
+    .g-profile-row {
+      position: absolute; bottom: 16px; left: 20px; right: 20px;
+      z-index: 2;
+      display: flex; align-items: flex-end; justify-content: space-between;
+    }
+    .g-avatar {
+      width: 56px; height: 56px; border-radius: 50%;
+      background: linear-gradient(135deg, #F4C07A, #E07A38);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 24px; border: 2.5px solid #fff;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+    }
+    .g-profile-info { margin-left: 12px; flex: 1; }
+    .g-name { font-size: 16px; font-weight: 900; color: #fff; margin-bottom: 2px; }
+    .g-bio { font-size: 11px; color: rgba(255,255,255,0.8); }
+    .g-follow-btn {
+      flex-shrink: 0;
+      background: var(--amber); color: #fff;
+      font-size: 12px; font-weight: 700;
+      padding: 8px 16px; border-radius: 20px;
+      border: none; font-family: inherit; cursor: pointer;
+    }
+    /* Stats */
+    .g-stats {
+      background: var(--cream);
+      padding: 14px 20px;
+      display: flex; gap: 24px;
+      border-bottom: 1px solid var(--border);
+    }
+    .g-stat { text-align: center; }
+    .g-stat-num { font-size: 16px; font-weight: 900; color: var(--text); }
+    .g-stat-label { font-size: 10px; color: var(--mid); margin-top: 1px; }
+    /* Tabs */
+    .g-tabs {
+      display: flex; background: var(--cream);
+      border-bottom: 1px solid var(--border);
+      position: sticky; top: 0; z-index: 5;
+    }
+    .g-tab {
+      flex: 1; padding: 12px 8px;
+      font-size: 13px; font-weight: 600;
+      color: var(--light); text-align: center;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s;
+    }
+    .g-tab.on { color: var(--text); border-bottom-color: var(--amber); }
+    /* Category chips */
+    .g-chips {
+      display: flex; gap: 6px; overflow-x: auto;
+      padding: 10px 16px;
+      -ms-overflow-style: none; scrollbar-width: none;
+      background: var(--cream); border-bottom: 1px solid var(--border);
+    }
+    .g-chips::-webkit-scrollbar { display: none; }
+    .g-chip {
+      flex-shrink: 0;
+      font-size: 11px; font-weight: 600;
+      padding: 5px 12px; border-radius: 20px;
+      border: 1px solid var(--border);
+      background: #fff; color: var(--mid);
+      cursor: pointer; white-space: nowrap;
+    }
+    .g-chip.on { background: var(--text); color: #fff; border-color: var(--text); }
+    /* Tab content — 게시물 그리드 */
+    .g-post-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3px;
+      padding: 3px;
+    }
+    .g-post-thumb {
+      aspect-ratio: 1; overflow: hidden;
+      position: relative;
+    }
+    .g-post-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .g-post-thumb.tall {
+      grid-row: span 2;
+      aspect-ratio: unset;
+      height: 100%;
+    }
+    /* Tab content — 상품 그리드 */
+    .g-product-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      padding: 14px;
+    }
+    .g-product-card {
+      background: #fff;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    .g-product-img {
+      width: 100%; aspect-ratio: 1;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 40px;
+    }
+    .g-product-body { padding: 10px; }
+    .g-product-tag {
+      font-size: 9px; font-weight: 700;
+      padding: 2px 6px; border-radius: 4px;
+      display: inline-block; margin-bottom: 5px;
+    }
+    .g-product-name { font-size: 12px; font-weight: 600; color: var(--text); line-height: 1.35; margin-bottom: 6px; }
+    .g-product-price { font-size: 14px; font-weight: 900; color: var(--amber); margin-bottom: 2px; }
+    .g-product-sold { font-size: 10px; color: var(--light); }
+    /* Tab — 코스 */
+    .g-course-section { padding: 16px; }
+    .g-course-card {
+      background: #fff; border-radius: 16px;
+      overflow: hidden; cursor: pointer;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    }
+    .g-course-cover {
+      height: 130px;
+      background: url('https://picsum.photos/seed/220/800/300') center/cover;
+      position: relative;
+    }
+    .g-course-cover::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,0.55) 100%);
+    }
+    .g-course-cover-title {
+      position: absolute; bottom: 12px; left: 14px; z-index: 2;
+      color: #fff; font-size: 15px; font-weight: 900;
+    }
+    .g-course-cover-meta {
+      position: absolute; bottom: 12px; right: 14px; z-index: 2;
+      background: var(--amber); color: #fff;
+      font-size: 10px; font-weight: 700;
+      padding: 4px 10px; border-radius: 10px;
+    }
+    .g-course-footer {
+      padding: 12px 14px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .g-course-footer-meta { font-size: 11px; color: var(--mid); }
+    .g-course-footer-btn {
+      font-size: 11px; font-weight: 700; color: var(--amber);
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════ VAR F — 오늘의집 스타일 ═══════════ -->
+<div class="var-label">F — 오늘의집 스타일 · Shoppable Photo</div>
+<div class="phone" id="varF">
+
+  <div class="shoppable-wrap">
+    <!-- 여행 사진 배경 -->
+    <div class="shoppable-img"></div>
+
+    <!-- 핀 1 — 디즈니랜드 입장권 -->
+    <div class="pin" style="left:28%; top:38%">
+      <div class="pin-ring"></div>
+      <div class="pin-dot"></div>
+    </div>
+    <div class="pin-popup" style="left:10%; top:20%">
+      <div class="popup-icon-box" style="background:#FEF3C7">🎡</div>
+      <div class="popup-info">
+        <span class="popup-tag" style="background:#FDE8CE;color:#E07A38">베스트</span>
+        <div class="popup-name">상하이 디즈니랜드 입장권</div>
+        <div class="popup-price">₩82,000</div>
+      </div>
+      <button class="popup-btn">예약</button>
+    </div>
+
+    <!-- 핀 2 — 야경 크루즈 (닫힌 상태) -->
+    <div class="pin" style="left:62%; top:68%">
+      <div class="pin-ring" style="animation-delay:0.6s"></div>
+      <div class="pin-dot"></div>
+    </div>
+
+    <!-- 핀 3 — 포토투어 (닫힌 상태) -->
+    <div class="pin" style="left:48%; top:82%">
+      <div class="pin-ring" style="animation-delay:1.2s"></div>
+      <div class="pin-dot"></div>
+    </div>
+  </div>
+
+  <!-- 하단: 상품 칩 스크롤 -->
+  <div class="shoppable-footer">
+    <div class="sf-hint">
+      <span>📍</span>
+      <span>사진 속 상품 3개 · 탭해서 확인하세요</span>
+    </div>
+    <div class="sf-pins-row">
+      <div class="sf-product-chip">
+        <div class="sf-chip-icon" style="background:#FEF3C7">🎡</div>
+        <div>
+          <div class="sf-chip-name">디즈니랜드</div>
+          <div class="sf-chip-price">₩82,000</div>
+        </div>
+      </div>
+      <div class="sf-product-chip">
+        <div class="sf-chip-icon" style="background:#DBEAFE">⛵</div>
+        <div>
+          <div class="sf-chip-name">황푸강 크루즈</div>
+          <div class="sf-chip-price">₩28,000</div>
+        </div>
+      </div>
+      <div class="sf-product-chip">
+        <div class="sf-chip-icon" style="background:#FCE7F3">📸</div>
+        <div>
+          <div class="sf-chip-name">야경 포토투어</div>
+          <div class="sf-chip-price">₩35,000</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- ═══════════ VAR G — 샤오홍슈 스타일 ═══════════ -->
+<div class="var-label">G — 샤오홍슈 스타일 · 탭 프로필</div>
+<div class="phone" id="varG">
+
+  <!-- 히어로 + 프로필 -->
+  <div class="g-hero">
+    <div class="g-profile-row">
+      <div class="g-avatar">✈️</div>
+      <div class="g-profile-info">
+        <div class="g-name">june_fairytale</div>
+        <div class="g-bio">여행 크리에이터 · 상하이 전문</div>
+      </div>
+      <button class="g-follow-btn">팔로우</button>
+    </div>
+  </div>
+
+  <!-- 스탯 -->
+  <div class="g-stats">
+    <div class="g-stat">
+      <div class="g-stat-num">161</div>
+      <div class="g-stat-label">팔로잉</div>
+    </div>
+    <div class="g-stat">
+      <div class="g-stat-num">23만</div>
+      <div class="g-stat-label">팔로워</div>
+    </div>
+    <div class="g-stat">
+      <div class="g-stat-num">1.1만</div>
+      <div class="g-stat-label">좋아요</div>
+    </div>
+  </div>
+
+  <!-- 탭 -->
+  <div class="g-tabs">
+    <div class="g-tab">게시물</div>
+    <div class="g-tab">상품</div>
+    <div class="g-tab">코스</div>
+    <div class="g-tab on">🎫 쿠폰</div>
+  </div>
+
+  <!-- 쿠폰 탭 콘텐츠 -->
+  <div style="padding:16px; display:flex; flex-direction:column; gap:12px;">
+
+    <!-- 쿠폰 카드 1 — 사용 가능 -->
+    <div style="background:#fff; border-radius:16px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,0.07); display:flex;">
+      <div style="width:6px; background:var(--amber); flex-shrink:0;"></div>
+      <div style="padding:16px 14px; flex:1;">
+        <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:10px;">
+          <div>
+            <div style="font-size:10px; font-weight:700; color:var(--amber); letter-spacing:0.5px; margin-bottom:4px;">마이리얼트립 파트너 혜택</div>
+            <div style="font-size:16px; font-weight:900; color:var(--text); margin-bottom:4px;">첫 예약 3,000원 할인</div>
+            <div style="font-size:11px; color:var(--mid);">5만원 이상 결제 시 · 1회 사용</div>
+          </div>
+          <button style="flex-shrink:0; background:var(--amber); color:#fff; font-size:11px; font-weight:700; padding:10px 12px; border-radius:10px; border:none; font-family:inherit; cursor:pointer; line-height:1.3; text-align:center;">받기</button>
+        </div>
+        <div style="margin-top:12px; padding-top:10px; border-top:1px dashed var(--border); display:flex; align-items:center; justify-content:space-between;">
+          <div style="font-size:10px; color:var(--light);">유효기간: 2026.05.31까지</div>
+          <div style="font-size:10px; color:var(--light);">잔여 47장</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 쿠폰 카드 2 — 재방문 쿠폰 -->
+    <div style="background:#fff; border-radius:16px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,0.07); display:flex;">
+      <div style="width:6px; background:var(--sage); flex-shrink:0;"></div>
+      <div style="padding:16px 14px; flex:1;">
+        <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:10px;">
+          <div>
+            <div style="font-size:10px; font-weight:700; color:var(--sage); letter-spacing:0.5px; margin-bottom:4px;">재방문 감사 쿠폰</div>
+            <div style="font-size:16px; font-weight:900; color:var(--text); margin-bottom:4px;">2번째 예약 5% 할인</div>
+            <div style="font-size:11px; color:var(--mid);">최대 1만원 · june_fairytale 전용</div>
+          </div>
+          <button style="flex-shrink:0; background:var(--sage); color:#fff; font-size:11px; font-weight:700; padding:10px 12px; border-radius:10px; border:none; font-family:inherit; cursor:pointer; line-height:1.3; text-align:center;">받기</button>
+        </div>
+        <div style="margin-top:12px; padding-top:10px; border-top:1px dashed var(--border); display:flex; align-items:center; justify-content:space-between;">
+          <div style="font-size:10px; color:var(--light);">유효기간: 2026.06.30까지</div>
+          <div style="font-size:10px; color:var(--light);">잔여 23장</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 이미 받은 쿠폰 -->
+    <div style="background:#F5F4F2; border-radius:16px; overflow:hidden; display:flex; opacity:0.6;">
+      <div style="width:6px; background:#C0BAB4; flex-shrink:0;"></div>
+      <div style="padding:16px 14px; flex:1;">
+        <div style="display:flex; align-items:center; justify-content:space-between;">
+          <div>
+            <div style="font-size:10px; font-weight:700; color:#A09890; margin-bottom:4px;">사용 완료</div>
+            <div style="font-size:15px; font-weight:700; color:#A09890; text-decoration:line-through;">웰컴 쿠폰 2,000원</div>
+          </div>
+          <div style="font-size:11px; font-weight:600; color:#A09890; padding:8px 12px; border-radius:10px; border:1px solid #DDD;">사용됨</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 상품 탭 콘텐츠 (숨김 상태 데모) -->
+  <div class="g-product-grid" style="display:none;">
+    <div class="g-product-card">
+      <div class="g-product-img" style="background:#FEF3C7">🎡</div>
+      <div class="g-product-body">
+        <span class="g-product-tag" style="background:#FDE8CE;color:#E07A38">베스트</span>
+        <div class="g-product-name">상하이 디즈니랜드 입장권</div>
+        <div class="g-product-price">₩82,000</div>
+        <div class="g-product-sold">9,836 sold</div>
+      </div>
+    </div>
+    <div class="g-product-card">
+      <div class="g-product-img" style="background:#DBEAFE">⛵</div>
+      <div class="g-product-body">
+        <span class="g-product-tag" style="background:#DBEAFE;color:#2563EB">인기</span>
+        <div class="g-product-name">황푸강 야경 유람선 크루즈</div>
+        <div class="g-product-price">₩28,000</div>
+        <div class="g-product-sold">14.6k sold</div>
+      </div>
+    </div>
+    <div class="g-product-card">
+      <div class="g-product-img" style="background:#D1FAE5">🏯</div>
+      <div class="g-product-body">
+        <span class="g-product-tag" style="background:#D1FAE5;color:#059669">추천</span>
+        <div class="g-product-name">우전 수향마을 야경투어</div>
+        <div class="g-product-price">₩45,000</div>
+        <div class="g-product-sold">7,210 sold</div>
+      </div>
+    </div>
+    <div class="g-product-card">
+      <div class="g-product-img" style="background:#FCE7F3">📸</div>
+      <div class="g-product-body">
+        <span class="g-product-tag" style="background:#FCE7F3;color:#DB2777">신규</span>
+        <div class="g-product-name">상하이 야경 포토투어</div>
+        <div class="g-product-price">₩35,000</div>
+        <div class="g-product-sold">135 sold</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

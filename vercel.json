@@ -2,6 +2,6 @@
   "rewrites": [
     { "source": "/", "destination": "/creator-intro.html" },
     { "source": "/main", "destination": "/creator-intro.html" },
-    { "source": "/test", "destination": "/index.html" }
+    { "source": "/test", "destination": "/mockup.html" }
   ]
 }

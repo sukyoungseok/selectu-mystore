@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>셀렉트유 · 마이스토어</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --cream: #F8F4EE; --amber: #E07A38; --sage: #6B9080; --blush: #C97D6E;
+      --text: #1A1714; --mid: #6B6560; --light: #A09890; --border: #EDE8E0;
+    }
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background: #ECEAE4;
+      min-height: 100vh;
+      display: flex; justify-content: center; align-items: flex-start;
+    }
+    .phone {
+      width: 390px; min-height: 100vh;
+      background: var(--cream);
+      position: relative; overflow: hidden;
+      box-shadow: 0 0 60px rgba(0,0,0,0.25);
+    }
+
+    /* ── MAIN PAGE ── */
+    #main-page {
+      position: absolute; top: 0; left: 0; right: 0;
+      overflow-y: auto; height: 100%;
+      transition: transform 0.4s cubic-bezier(0.32,0.72,0,1);
+      background: var(--cream);
+      -webkit-overflow-scrolling: touch;
+      z-index: 0; /* stacking context 생성 → Leaflet z-index를 이 안에 격리 */
+    }
+
+    /* ── AFFILIATE NOTICE ── */
+    .affiliate-notice {
+      background: #F0EDE8; border-bottom: 1px solid var(--border);
+      padding: 7px 16px;
+      font-size: 10px; color: var(--light); line-height: 1.5; text-align: center;
+    }
+    .affiliate-notice a { color: var(--light); text-decoration: underline; }
+
+    /* ── HERO ── */
+    .hero { position: relative; height: 380px; overflow: hidden; }
+    .hero-cover {
+      position: absolute; inset: 0;
+      background: url('community_thumbnail.png') center/cover no-repeat;
+    }
+    .hero-cover::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(to bottom, rgba(20,15,10,0.05) 0%, rgba(20,15,10,0) 40%, rgba(20,15,10,0.5) 100%);
+    }
+    .profile-card {
+      position: absolute; bottom: -20px; left: 20px; right: 20px; z-index: 10;
+      background: rgba(255,255,255,0.82);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255,255,255,0.9);
+      border-radius: 20px; padding: 16px 18px;
+      display: flex; align-items: center; gap: 14px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+    }
+    .profile-avatar {
+      width: 52px; height: 52px;
+      border-radius: 50%; overflow: hidden;
+      flex-shrink: 0; box-shadow: 0 4px 12px rgba(224,122,56,0.35);
+    }
+    .profile-avatar img { width: 100%; height: 100%; object-fit: cover; }
+    .profile-info h2 { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 3px; }
+    .profile-info p { font-size: 12px; color: var(--mid); margin-bottom: 8px; }
+    .sns-pills { display: flex; gap: 6px; }
+    .sns-pill {
+      font-size: 11px; font-weight: 500;
+      background: var(--cream); color: var(--mid);
+      padding: 4px 10px; border-radius: 20px;
+      border: 1px solid #C4BAB0; text-decoration: none; white-space: nowrap;
+    }
+
+    /* ── 쿠폰 배너 (橱窗 위치) ── */
+    .coupon-showcase {
+      margin: 36px 20px 0;
+      background: #fff;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      padding: 13px 16px;
+      display: flex; align-items: center; gap: 12px;
+      cursor: pointer;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+    }
+    .cs-icon {
+      width: 36px; height: 36px; flex-shrink: 0;
+      background: #FFF3E0; border-radius: 10px;
+      display: flex; align-items: center; justify-content: center; font-size: 18px;
+    }
+    .cs-body { flex: 1; }
+    .cs-label { font-size: 10px; font-weight: 700; color: var(--amber); margin-bottom: 2px; letter-spacing: 0.5px; }
+    .cs-desc { font-size: 13px; font-weight: 700; color: var(--text); }
+    .cs-thumbs { display: flex; gap: 5px; flex-shrink: 0; }
+    .cs-thumb {
+      width: 36px; height: 36px; border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 16px; border: 1.5px solid var(--border);
+    }
+    .cs-arrow { font-size: 18px; color: var(--mid); flex-shrink: 0; }
+
+    /* ── TABS ── */
+    .page-tabs {
+      display: flex; margin-top: 16px;
+      border-bottom: 1px solid var(--border);
+      background: var(--cream);
+      position: sticky; top: 0; z-index: 20;
+    }
+    .page-tab {
+      flex: 1; padding: 13px 8px;
+      font-size: 13px; font-weight: 600;
+      color: var(--light); text-align: center; cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s;
+    }
+    .page-tab.on { color: var(--text); border-bottom-color: var(--amber); }
+
+    /* ── TAB CONTENT AREAS ── */
+    .tab-panel { display: none; }
+    .tab-panel.on { display: block; }
+
+    /* ════════ 게시물 탭 ════════ */
+    .links-section { padding: 20px 20px 0; }
+    .links-section h3 { font-size: 15px; font-weight: 800; color: var(--text); margin-bottom: 14px; }
+    .link-blocks { display: flex; flex-direction: column; gap: 8px; }
+    .style-tag {
+      font-size: 10px; font-weight: 700; color: var(--light);
+      letter-spacing: 1px; text-transform: uppercase; margin: 14px 0 6px;
+    }
+    .ls-thumb {
+      display: flex; align-items: center; gap: 12px;
+      padding: 10px 12px; background: #fff; border-radius: 14px;
+      border: 1px solid var(--border); text-decoration: none;
+    }
+    .ls-thumb-img { width: 48px; height: 48px; border-radius: 10px; overflow: hidden; flex-shrink: 0; }
+    .ls-thumb-img img { width: 100%; height: 100%; object-fit: cover; }
+    .ls-thumb-body { flex: 1; }
+    .ls-thumb-title { font-size: 14px; font-weight: 600; color: var(--text); margin-bottom: 2px; }
+    .ls-thumb-sub { font-size: 11px; color: var(--mid); }
+    .ls-thumb-arr { color: var(--mid); font-size: 16px; }
+    .ls-simple {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 16px 18px; background: #fff; border-radius: 14px;
+      border: 1px solid var(--border); text-decoration: none;
+    }
+    .ls-simple-label { font-size: 14px; font-weight: 600; color: var(--text); }
+    .ls-simple-arr { font-size: 16px; color: var(--mid); }
+    .ls-card {
+      display: flex; align-items: center; justify-content: center;
+      padding: 20px; border-radius: 16px; text-decoration: none;
+      font-size: 15px; font-weight: 700; color: #fff;
+      background: linear-gradient(135deg, var(--sage), #4A7060);
+      box-shadow: 0 3px 12px rgba(107,144,128,0.35);
+    }
+    .ls-bgimg {
+      display: flex; align-items: flex-end; height: 100px;
+      border-radius: 16px; overflow: hidden; text-decoration: none;
+      position: relative; background-size: cover; background-position: center;
+    }
+    .ls-bgimg::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(to bottom, rgba(0,0,0,0) 30%, rgba(0,0,0,0.62) 100%);
+    }
+    .ls-bgimg-title {
+      position: relative; z-index: 1;
+      color: #fff; font-size: 14px; font-weight: 700; padding: 14px 16px;
+    }
+    .ls-collection { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+    .ls-coll-item { display: flex; flex-direction: column; align-items: center; text-decoration: none; }
+    .ls-coll-img { width: 100%; aspect-ratio: 1; border-radius: 12px; overflow: hidden; margin-bottom: 6px; }
+    .ls-coll-img img { width: 100%; height: 100%; object-fit: cover; }
+    .ls-coll-title { font-size: 11px; font-weight: 600; color: var(--text); text-align: center; }
+    .links-section-pb { padding-bottom: 40px; }
+
+    /* ── 코스 테이저 카드 ── */
+    .course-teaser {
+      margin: 12px 20px 0;
+      background: #fff; border-radius: 16px;
+      border: 1px solid var(--border); overflow: hidden;
+      cursor: pointer;
+    }
+    .course-teaser-imgs {
+      display: flex; gap: 2px; height: 90px;
+    }
+    .course-teaser-imgs img {
+      flex: 1; min-width: 0; height: 100%; object-fit: cover;
+    }
+    .course-teaser-body {
+      padding: 11px 14px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .course-teaser-badge {
+      font-size: 10px; font-weight: 700; color: var(--amber);
+      background: rgba(224,122,56,0.1); border-radius: 6px;
+      padding: 2px 7px; display: inline-block; margin-bottom: 4px;
+    }
+    .course-teaser-title {
+      font-size: 14px; font-weight: 800; color: var(--text); margin-bottom: 2px;
+    }
+    .course-teaser-sub { font-size: 11px; color: var(--mid); }
+    .course-teaser-arrow { font-size: 22px; color: var(--mid); padding-left: 8px; flex-shrink: 0; }
+
+    /* ── OG 링크 카드 ── */
+    .ls-og {
+      display: block; border-radius: 16px; overflow: hidden;
+      background: #fff; border: 1px solid var(--border); text-decoration: none;
+      margin-bottom: 10px;
+    }
+    .ls-og-placeholder {
+      width: 100%; height: 150px;
+      background: linear-gradient(135deg, #F0EDE8 0%, #E0DCD4 100%);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px;
+    }
+    .ls-og-img { width: 100%; height: 150px; object-fit: cover; display: block; }
+    .ls-og-body { padding: 11px 14px 13px; }
+    .ls-og-title { font-size: 13px; font-weight: 600; color: var(--text); line-height: 1.4; margin-bottom: 3px; }
+    .ls-og-domain { font-size: 11px; color: var(--light); }
+
+    /* ── 쇼퍼블 사진 ── */
+    .shoppable-wrap {
+      position: relative; overflow: hidden;
+      border-radius: 16px; margin: 8px 0;
+    }
+    .shoppable-img {
+      width: 100%; height: 220px;
+      background: url('https://picsum.photos/seed/200/800/440') center/cover no-repeat;
+      display: block;
+    }
+    .s-pin {
+      position: absolute;
+      width: 28px; height: 28px;
+      background: #fff; border-radius: 50%;
+      border: 2px solid var(--amber);
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; z-index: 10;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      transition: transform 0.15s;
+    }
+    .s-pin:active { transform: scale(0.88); }
+    .s-pin-dot { width: 10px; height: 10px; background: var(--amber); border-radius: 50%; }
+    .s-pin-ring {
+      position: absolute; width: 44px; height: 44px;
+      border-radius: 50%;
+      border: 2px solid rgba(224,122,56,0.35);
+      animation: spulse 1.8s infinite;
+    }
+    @keyframes spulse {
+      0%   { transform: scale(0.85); opacity: 1; }
+      70%  { transform: scale(1.3);  opacity: 0; }
+      100% { transform: scale(1.3);  opacity: 0; }
+    }
+    .s-popup {
+      position: absolute; background: #fff;
+      border-radius: 14px; padding: 10px 12px;
+      display: none; align-items: center; gap: 10px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+      min-width: 190px; z-index: 20;
+    }
+    .s-popup.show { display: flex; }
+    .s-popup::after {
+      content: ''; position: absolute;
+      width: 10px; height: 10px; background: #fff;
+      transform: rotate(45deg);
+      bottom: -5px; left: 18px;
+      box-shadow: 2px 2px 4px rgba(0,0,0,0.06);
+    }
+    .sp-icon { width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0; }
+    .sp-info { flex: 1; }
+    .sp-tag { font-size: 9px; font-weight: 700; padding: 2px 6px; border-radius: 4px; display: inline-block; margin-bottom: 3px; }
+    .sp-name { font-size: 12px; font-weight: 700; color: var(--text); margin-bottom: 2px; line-height: 1.3; }
+    .sp-price { font-size: 13px; font-weight: 900; color: var(--amber); }
+    .sp-btn { flex-shrink: 0; background: var(--amber); color: #fff; font-size: 10px; font-weight: 700; padding: 7px 10px; border-radius: 8px; border: none; font-family: inherit; cursor: pointer; }
+    .shoppable-footer { padding: 10px 0 4px; }
+    .sf-hint { font-size: 11px; color: var(--light); margin-bottom: 8px; display: flex; align-items: center; gap: 4px; }
+    .sf-chips-row { display: flex; gap: 8px; overflow-x: auto; -ms-overflow-style: none; scrollbar-width: none; }
+    .sf-chips-row::-webkit-scrollbar { display: none; }
+    .sf-chip { flex-shrink: 0; display: flex; align-items: center; gap: 7px; background: #fff; border: 1px solid var(--border); border-radius: 20px; padding: 6px 12px 6px 6px; cursor: pointer; }
+    .sf-chip-icon { width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; }
+    .sf-chip-name { font-size: 11px; font-weight: 600; color: var(--text); }
+    .sf-chip-price { font-size: 11px; font-weight: 700; color: var(--amber); }
+
+    /* ════════ 상품 탭 ════════ */
+    .products-section { padding: 14px 14px 40px; }
+    .category-chips {
+      display: flex; gap: 6px; overflow-x: auto;
+      padding: 0 0 12px; margin-bottom: 4px;
+      -ms-overflow-style: none; scrollbar-width: none;
+    }
+    .category-chips::-webkit-scrollbar { display: none; }
+    .cat-chip {
+      flex-shrink: 0; font-size: 11px; font-weight: 600;
+      padding: 6px 14px; border-radius: 20px;
+      border: 1px solid var(--border); background: #fff; color: var(--mid);
+      cursor: pointer; white-space: nowrap;
+    }
+    .cat-chip.on { background: var(--text); color: #fff; border-color: var(--text); }
+    .product-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .product-card-v3 {
+      background: #fff; border-radius: 14px;
+      overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      cursor: pointer;
+    }
+    .pc-img {
+      width: 100%; aspect-ratio: 1;
+      display: flex; align-items: center; justify-content: center; font-size: 44px;
+    }
+    .pc-body { padding: 10px; }
+    .pc-tag {
+      font-size: 11px; font-weight: 700;
+      padding: 2px 7px; border-radius: 5px;
+      display: inline-block; margin-bottom: 5px;
+    }
+    .pc-name { font-size: 12px; font-weight: 600; color: var(--text); line-height: 1.35; margin-bottom: 6px; }
+    .pc-price { font-size: 14px; font-weight: 900; color: var(--amber); margin-bottom: 2px; }
+    .pc-sold { font-size: 10px; color: var(--light); margin-bottom: 8px; }
+    .pc-btn {
+      width: 100%; background: var(--amber); color: #fff;
+      font-size: 11px; font-weight: 700; padding: 9px 8px;
+      border-radius: 10px; border: none; cursor: pointer; font-family: inherit;
+    }
+
+    /* ════════ 코스 섹션 (욕구 유발) ════════ */
+    .course-section { overflow: hidden; background: #fff; }
+
+    /* 히어로 이미지 */
+    .cs-hero {
+      position: relative; height: 280px; overflow: hidden;
+      background: url('https://images.unsplash.com/photo-1537531383496-f2e2fa2e7d14?w=800&q=80') center/cover no-repeat;
+    }
+    .cs-hero::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.08) 0%, rgba(0,0,0,0) 25%, rgba(0,0,0,0.72) 100%);
+    }
+    .cs-hero-content {
+      position: absolute; bottom: 0; left: 0; right: 0; z-index: 2;
+      padding: 0 20px 22px;
+    }
+    .cs-creator-tag {
+      display: inline-flex; align-items: center; gap: 5px;
+      background: rgba(255,255,255,0.18); backdrop-filter: blur(8px);
+      border: 1px solid rgba(255,255,255,0.28);
+      border-radius: 20px; padding: 4px 10px 4px 5px;
+      font-size: 11px; font-weight: 600; color: rgba(255,255,255,0.95);
+      margin-bottom: 8px;
+    }
+    .cs-creator-avatar {
+      width: 18px; height: 18px; border-radius: 50%;
+      background: linear-gradient(135deg, #F4C07A, #E07A38);
+      display: flex; align-items: center; justify-content: center; font-size: 9px;
+    }
+    .cs-title {
+      font-size: 24px; font-weight: 900; color: #fff;
+      line-height: 1.15; margin-bottom: 12px;
+      text-shadow: 0 2px 12px rgba(0,0,0,0.3);
+    }
+    .cs-day-pills { display: flex; gap: 6px; flex-wrap: wrap; }
+    .cs-day-pill {
+      font-size: 11px; font-weight: 700; color: rgba(255,255,255,0.92);
+      background: rgba(255,255,255,0.18); backdrop-filter: blur(6px);
+      border: 1px solid rgba(255,255,255,0.25);
+      padding: 5px 11px; border-radius: 20px;
+    }
+
+    /* 사진 스트립 */
+    .cs-photo-strip {
+      display: flex; gap: 3px; height: 72px; overflow: hidden;
+    }
+    .cs-strip-thumb { flex: 1; overflow: hidden; }
+    .cs-strip-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+    /* 소셜 증명 */
+    .cs-social {
+      display: flex; align-items: stretch;
+      border-bottom: 1px solid var(--border); background: #fff;
+    }
+    .cs-social-item {
+      flex: 1; padding: 12px 8px;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 2px;
+    }
+    .cs-social-item + .cs-social-item { border-left: 1px solid var(--border); }
+    .cs-social-num { font-size: 14px; font-weight: 900; color: var(--text); }
+    .cs-social-lbl { font-size: 10px; color: var(--light); }
+
+    /* 하이라이트 칩 */
+    .cs-highlights {
+      display: flex; gap: 7px; overflow-x: auto; padding: 12px 16px;
+      -ms-overflow-style: none; scrollbar-width: none;
+      border-bottom: 1px solid var(--border);
+    }
+    .cs-highlights::-webkit-scrollbar { display: none; }
+    .cs-hl-chip {
+      flex-shrink: 0; background: var(--cream);
+      border: 1px solid var(--border); border-radius: 20px;
+      padding: 6px 13px; font-size: 12px; font-weight: 600; color: var(--text);
+      white-space: nowrap;
+    }
+
+    /* 가격 + CTA */
+    .cs-price-section { padding: 18px 20px 20px; }
+    .cs-price-label { font-size: 10px; color: var(--light); margin-bottom: 6px; }
+    .cs-price-row { display: flex; align-items: baseline; gap: 7px; margin-bottom: 5px; }
+    .cs-price-main { font-size: 30px; font-weight: 900; color: var(--text); line-height: 1; }
+    .cs-price-from { font-size: 13px; color: var(--mid); }
+    .cs-price-badge {
+      background: #FEF3C7; color: #D97706;
+      font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: 6px;
+    }
+    .cs-price-sub { font-size: 11px; color: var(--mid); margin-bottom: 16px; }
+    .cs-price-cta {
+      width: 100%; padding: 17px; background: var(--amber); color: #fff;
+      font-size: 15px; font-weight: 700; border-radius: 14px;
+      border: none; font-family: inherit; cursor: pointer;
+      box-shadow: 0 5px 18px rgba(224,122,56,0.38);
+    }
+
+    /* 지도 토글 */
+    .cs-map-toggle {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 13px 20px; background: var(--cream);
+      border-top: 1px solid var(--border); cursor: pointer;
+      font-size: 13px; font-weight: 600; color: var(--mid);
+    }
+    .cs-map-arrow { font-size: 10px; transition: transform 0.25s; }
+    .cs-map-arrow.open { transform: rotate(180deg); }
+    .cs-map-body { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
+    .cs-map-body.open { max-height: 220px; }
+    #map-preview { height: 190px; }
+    .map-hint { font-size: 10px; color: var(--light); text-align: center; padding: 6px 0 10px; background: var(--cream); }
+
+    /* ── COURSE PANEL (슬라이드업) ── */
+    #course-panel {
+      position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+      background: var(--cream);
+      transform: translateY(100%);
+      transition: transform 0.42s cubic-bezier(0.32,0.72,0,1);
+      z-index: 100; display: flex; flex-direction: column; overflow: hidden;
+    }
+    #course-panel.open { transform: translateY(0); }
+    .panel-topbar {
+      display: flex; align-items: center; gap: 12px;
+      padding: 16px 20px 14px; background: var(--cream);
+      border-bottom: 1px solid var(--border); flex-shrink: 0;
+    }
+    .panel-back {
+      width: 36px; height: 36px; background: #fff; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 16px; cursor: pointer; border: 1px solid var(--border); flex-shrink: 0;
+    }
+    .panel-title { font-size: 16px; font-weight: 800; color: var(--text); }
+    .panel-subtitle { font-size: 11px; color: var(--light); margin-left: auto; }
+    #map-full { height: 220px; flex-shrink: 0; }
+    .day-tabs {
+      display: flex; padding: 0 20px;
+      border-bottom: 1px solid var(--border); flex-shrink: 0; background: var(--cream);
+    }
+    .day-tab {
+      padding: 12px 18px; font-size: 13px; font-weight: 600; color: var(--light);
+      cursor: pointer; border-bottom: 2px solid transparent; transition: all 0.2s; white-space: nowrap;
+    }
+    .day-tab.active { color: var(--text); border-bottom-color: var(--amber); }
+    .day-content { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 20px 20px 40px; }
+    .day-date {
+      font-size: 14px; font-weight: 700; color: var(--sage);
+      letter-spacing: 0.5px; text-transform: uppercase;
+      margin-bottom: 24px; padding-bottom: 12px; border-bottom: 1px solid var(--border);
+    }
+    .stop-item { display: flex; gap: 14px; margin-bottom: 28px; }
+    .stop-timeline { display: flex; flex-direction: column; align-items: center; flex-shrink: 0; }
+    .stop-dot {
+      width: 12px; height: 12px; border-radius: 50%;
+      background: var(--amber); border: 2px solid #fff;
+      box-shadow: 0 0 0 2px var(--amber); flex-shrink: 0;
+    }
+    .stop-line { width: 2px; flex: 1; background: rgba(224,122,56,0.25); margin: 4px 0; min-height: 20px; }
+    .stop-body { flex: 1; }
+    .stop-time { font-size: 11px; font-weight: 600; color: var(--mid); margin-bottom: 3px; }
+    .stop-place { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+    .stop-desc { font-size: 12px; color: var(--mid); line-height: 1.5; margin-bottom: 12px; }
+    .photo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; border-radius: 12px; overflow: hidden; margin-bottom: 12px; }
+    .photo-thumb { aspect-ratio: 1; overflow: hidden; position: relative; }
+    .photo-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .photo-thumb.more::after {
+      content: attr(data-count); position: absolute; inset: 0;
+      background: rgba(26,23,20,0.55);
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-size: 16px; font-weight: 700;
+    }
+    .inline-product {
+      background: #FFFAF5; border-radius: 14px; padding: 14px;
+      display: flex; align-items: center; gap: 12px;
+      border: 1px solid rgba(224,122,56,0.2); margin-bottom: 4px;
+    }
+    .inline-product-icon {
+      width: 48px; height: 48px; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center; font-size: 24px; flex-shrink: 0;
+    }
+    .inline-product-info { flex: 1; }
+    .inline-product-tag {
+      font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 5px;
+      display: inline-block; margin-bottom: 4px;
+    }
+    .inline-product-name { font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 2px; line-height: 1.3; }
+    .inline-product-price { font-size: 14px; font-weight: 800; color: var(--amber); }
+    .inline-product-btn {
+      background: var(--amber); color: #fff; font-size: 11px; font-weight: 700;
+      padding: 9px 13px; border-radius: 10px; border: none; cursor: pointer;
+      font-family: inherit; flex-shrink: 0; line-height: 1.3; text-align: center;
+    }
+    /* ── 새 코스 카드 ── */
+    .course-card { background: #fff; border-bottom: 1px solid var(--border); }
+    .course-card-pad { padding: 16px 18px 0; }
+    .course-badge {
+      display: inline-flex; align-items: center;
+      font-size: 11px; font-weight: 700; color: var(--amber);
+      background: #FFF3E8; border-radius: 6px; padding: 4px 9px; margin-bottom: 10px;
+    }
+    .course-card-title { font-size: 20px; font-weight: 900; color: var(--text); line-height: 1.25; margin-bottom: 5px; }
+    .course-card-meta { font-size: 12px; color: var(--mid); margin-bottom: 14px; }
+    .course-photos-row {
+      display: flex; gap: 6px; overflow-x: auto; padding: 0 18px 14px;
+      -ms-overflow-style: none; scrollbar-width: none;
+    }
+    .course-photos-row::-webkit-scrollbar { display: none; }
+    .course-photo-sq { flex-shrink: 0; width: 88px; height: 88px; border-radius: 10px; overflow: hidden; }
+    .course-photo-sq img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .course-map-label { padding: 8px 18px 5px; font-size: 12px; font-weight: 600; color: var(--mid); }
+    .course-cta-section { padding: 14px 18px 18px; border-top: 1px solid var(--border); }
+    .course-budget-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+    .course-budget-amount { font-size: 20px; font-weight: 900; color: var(--text); line-height: 1.1; margin: 3px 0; }
+    .course-budget-amount em { color: var(--amber); font-style: normal; }
+    .course-budget-badge {
+      background: #FEF3C7; color: #D97706;
+      font-size: 10px; font-weight: 700; padding: 5px 9px; border-radius: 8px; white-space: nowrap;
+    }
+    .course-cta-btn {
+      width: 100%; padding: 16px; background: var(--amber); color: #fff;
+      font-size: 15px; font-weight: 700; border-radius: 14px;
+      border: none; font-family: inherit; cursor: pointer;
+      box-shadow: 0 4px 16px rgba(224,122,56,0.35);
+    }
+    /* ── 경비 상세 패널 ── */
+    #expense-panel {
+      position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+      z-index: 200; display: flex; flex-direction: column; justify-content: flex-end;
+      pointer-events: none; opacity: 0; transition: opacity 0.3s;
+    }
+    #expense-panel.open { pointer-events: all; opacity: 1; }
+    .exp-overlay { position: absolute; inset: 0; background: rgba(0,0,0,0.45); cursor: pointer; }
+    .exp-sheet {
+      position: relative; z-index: 1;
+      background: var(--cream); border-radius: 24px 24px 0 0;
+      padding: 8px 20px 44px;
+      transform: translateY(100%);
+      transition: transform 0.38s cubic-bezier(0.32,0.72,0,1);
+      max-height: 88vh; overflow-y: auto;
+    }
+    #expense-panel.open .exp-sheet { transform: translateY(0); }
+    .exp-title { font-size: 18px; font-weight: 900; color: var(--text); margin-bottom: 3px; }
+    .exp-subtitle { font-size: 12px; color: var(--mid); margin-bottom: 18px; }
+    .exp-item {
+      display: flex; align-items: center; gap: 12px;
+      background: #fff; border-radius: 14px; padding: 14px;
+      margin-bottom: 8px; border: 1px solid var(--border);
+    }
+    .exp-emoji { font-size: 22px; flex-shrink: 0; }
+    .exp-info { flex: 1; min-width: 0; }
+    .exp-name { font-size: 14px; font-weight: 700; color: var(--text); margin-bottom: 2px; }
+    .exp-note { font-size: 11px; color: var(--mid); }
+    .exp-right { display: flex; flex-direction: column; align-items: flex-end; gap: 5px; flex-shrink: 0; }
+    .exp-price-val { font-size: 15px; font-weight: 900; color: var(--text); }
+    .exp-book-btn {
+      background: var(--amber); color: #fff;
+      font-size: 10px; font-weight: 700; padding: 6px 10px;
+      border-radius: 8px; border: none; cursor: pointer; font-family: inherit;
+    }
+    .exp-total-row {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 14px 4px 4px; border-top: 1.5px solid var(--text); margin-top: 4px;
+    }
+    .exp-total-label { font-size: 13px; font-weight: 700; color: var(--text); }
+    .exp-total-val { font-size: 20px; font-weight: 900; color: var(--amber); }
+    .exp-fine-print { font-size: 10px; color: var(--light); margin: 8px 0 16px; }
+    .exp-main-cta {
+      width: 100%; padding: 16px; background: var(--amber); color: #fff;
+      font-size: 15px; font-weight: 700; border-radius: 14px;
+      border: none; font-family: inherit; cursor: pointer;
+      box-shadow: 0 4px 16px rgba(224,122,56,0.35);
+    }
+
+    /* Leaflet */
+    .leaflet-container { background: #f0ede8; }
+    .leaflet-popup-content-wrapper { border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); }
+    .leaflet-popup-content { font-family: 'Noto Sans KR', sans-serif; font-size: 13px; margin: 10px 14px; }
+    .popup-title { font-weight: 700; color: var(--text); margin-bottom: 3px; }
+    .popup-day { font-size: 11px; color: var(--sage); font-weight: 600; }
+
+    /* ── 쿠폰 팝업 패널 ── */
+    #coupon-panel {
+      position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+      z-index: 200;
+      display: flex; flex-direction: column; justify-content: flex-end;
+      pointer-events: none; opacity: 0;
+      transition: opacity 0.3s;
+    }
+    #coupon-panel.open { pointer-events: all; opacity: 1; }
+    .coupon-overlay {
+      position: absolute; inset: 0;
+      background: rgba(0,0,0,0.4); cursor: pointer;
+    }
+    .coupon-sheet {
+      position: relative; z-index: 1;
+      background: var(--cream); border-radius: 24px 24px 0 0;
+      padding: 8px 20px 40px; transform: translateY(100%);
+      transition: transform 0.35s cubic-bezier(0.32,0.72,0,1);
+    }
+    #coupon-panel.open .coupon-sheet { transform: translateY(0); }
+    .sheet-handle {
+      width: 36px; height: 4px; background: var(--border);
+      border-radius: 2px; margin: 12px auto 20px;
+    }
+    .sheet-title { font-size: 17px; font-weight: 900; color: var(--text); margin-bottom: 4px; }
+    .sheet-sub { font-size: 12px; color: var(--mid); margin-bottom: 20px; }
+    .coupon-card {
+      background: #fff; border-radius: 16px;
+      overflow: hidden; display: flex; margin-bottom: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+    }
+    .cc-stripe { width: 6px; flex-shrink: 0; }
+    .cc-body { padding: 16px 14px; flex: 1; }
+    .cc-label { font-size: 10px; font-weight: 700; letter-spacing: 0.5px; margin-bottom: 4px; }
+    .cc-title { font-size: 16px; font-weight: 900; color: var(--text); margin-bottom: 4px; }
+    .cc-desc { font-size: 11px; color: var(--mid); margin-bottom: 12px; }
+    .cc-footer {
+      padding-top: 10px; border-top: 1px dashed var(--border);
+      display: flex; justify-content: space-between;
+    }
+    .cc-expire { font-size: 10px; color: var(--light); }
+    .cc-remain { font-size: 10px; color: var(--light); }
+    .cc-btn {
+      flex-shrink: 0; color: #fff; font-size: 11px; font-weight: 700;
+      padding: 10px 12px; border-radius: 10px; border: none;
+      font-family: inherit; cursor: pointer; align-self: center; margin: 16px 14px 16px 0;
+    }
+
+    /* ── 지도 상품 팝업 (Leaflet) ── */
+    .leaflet-popup-content-wrapper {
+      border-radius: 14px !important;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.18) !important;
+      padding: 0 !important; overflow: hidden;
+    }
+    .leaflet-popup-content { margin: 0 !important; min-width: 210px; }
+    .leaflet-popup-tip-container { margin-top: -1px; }
+    .map-product-popup { display: flex; align-items: center; gap: 10px; padding: 12px 14px; }
+    .mpp-icon { width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0; }
+    .mpp-info { flex: 1; min-width: 0; }
+    .mpp-tag { font-size: 9px; font-weight: 700; padding: 2px 6px; border-radius: 4px; display: inline-block; margin-bottom: 3px; }
+    .mpp-name { font-size: 12px; font-weight: 700; color: #1A1714; margin-bottom: 2px; line-height: 1.3; }
+    .mpp-price { font-size: 13px; font-weight: 900; color: #E07A38; }
+    .mpp-btn { flex-shrink: 0; background: #E07A38; color: #fff; font-size: 10px; font-weight: 700; padding: 8px 10px; border-radius: 8px; border: none; cursor: pointer; font-family: 'Noto Sans KR', sans-serif; white-space: nowrap; }
+    .map-place-popup { padding: 10px 14px; font-size: 12px; font-weight: 700; color: #1A1714; }
+    .map-hint { font-size: 10px; color: var(--light); text-align: center; padding: 6px 0 0; }
+
+    /* ── 총경비 카드 ── */
+    .budget-card {
+      margin: 12px 0 0;
+      background: linear-gradient(135deg, #FFF8F2, #FFF3E8);
+      border-radius: 16px;
+      border: 1px solid rgba(224,122,56,0.2);
+      padding: 14px 16px;
+      display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    }
+    .budget-left { flex: 1; min-width: 0; }
+    .budget-eyebrow { font-size: 10px; font-weight: 700; color: var(--amber); margin-bottom: 3px; letter-spacing: 0.3px; }
+    .budget-price { font-size: 22px; font-weight: 900; color: var(--text); line-height: 1.1; }
+    .budget-sub { font-size: 10px; color: var(--light); margin-top: 3px; }
+    .budget-btn {
+      flex-shrink: 0;
+      background: var(--amber); color: #fff;
+      font-size: 11px; font-weight: 700;
+      padding: 11px 13px; border-radius: 12px;
+      border: none; cursor: pointer;
+      font-family: inherit; white-space: nowrap;
+      box-shadow: 0 3px 10px rgba(224,122,56,0.35);
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+<div class="phone">
+
+  <!-- ────────── MAIN PAGE ────────── -->
+  <div id="main-page">
+
+    <!-- 제휴 고지 -->
+    <div class="affiliate-notice">
+      이 페이지의 링크를 통해 구매 시 수수료를 받아 채널 운영에 도움이 됩니다.
+    </div>
+
+    <!-- HERO -->
+    <div class="hero">
+      <div class="hero-cover"></div>
+      <div class="profile-card">
+        <div class="profile-avatar"><img src="IMG_7595.jpg" alt="셀렉트유"></div>
+        <div class="profile-info">
+          <h2>셀렉트유</h2>
+          <p>여행 크리에이터 · @viento_de</p>
+          <div class="sns-pills">
+            <a class="sns-pill" href="https://www.instagram.com/viento_de" target="_blank">📷 Instagram</a>
+            <a class="sns-pill" href="#">▶ YouTube</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 쿠폰 배너 -->
+    <a class="coupon-showcase" href="https://www.myrealtrip.com/coupons" target="_blank" style="text-decoration:none;">
+      <div class="cs-icon">🎫</div>
+      <div class="cs-body">
+        <div class="cs-label">마이리얼트립 3,000원 쿠폰 받기</div>
+        <div class="cs-desc">셀렉트유 추천 링크로 첫 예약 시 사용 가능</div>
+      </div>
+      <div class="cs-arrow">›</div>
+    </a>
+
+    <!-- 코스 미리보기 카드 (항상 표시, 탭 아님) -->
+    <div class="course-teaser" onclick="openCourse()">
+      <div class="course-teaser-imgs">
+        <img src="insta_thumbnail.png" loading="lazy">
+        <img src="insta_feed_content-1.png" loading="lazy">
+        <img src="insta_feed_content-2.png" loading="lazy">
+        <img src="insta_feed_content-4.png" loading="lazy">
+      </div>
+      <div class="course-teaser-body">
+        <div class="course-teaser-info">
+          <span class="course-teaser-badge">🗺 여행 코스</span>
+          <div class="course-teaser-title">오사카 & 교토 3박 4일</div>
+          <div class="course-teaser-sub">✈️ 총경비 약 102만원 · 1인 기준</div>
+        </div>
+        <div class="course-teaser-arrow">›</div>
+      </div>
+    </div>
+
+    <!-- TABS -->
+    <div class="page-tabs">
+      <div class="page-tab on" onclick="switchTab('posts')">링크</div>
+      <div class="page-tab" onclick="switchTab('products')">필수템</div>
+    </div>
+
+    <!-- ══ 게시물 탭 ══ -->
+    <div id="tab-posts" class="tab-panel on">
+      <div class="links-section">
+        <div class="link-blocks">
+          <div class="style-tag">썸네일</div>
+          <a class="ls-thumb" href="https://www.myrealtrip.com/community/posts/27112" target="_blank">
+            <div class="ls-thumb-img"><img src="insta_thumbnail.png" loading="lazy"></div>
+            <div class="ls-thumb-body">
+              <div class="ls-thumb-title">오사카&교토 3박 4일 여행 후기</div>
+              <div class="ls-thumb-sub">100만원으로 알차게 다녀온 실제 후기</div>
+            </div>
+            <span class="ls-thumb-arr">→</span>
+          </a>
+
+          <div class="style-tag">심플</div>
+          <a class="ls-simple" href="#">
+            <span class="ls-simple-label">📷 인스타그램 팔로우</span>
+            <span class="ls-simple-arr">→</span>
+          </a>
+          <a class="ls-simple" href="#">
+            <span class="ls-simple-label">▶ 유튜브 채널 구독</span>
+            <span class="ls-simple-arr">→</span>
+          </a>
+
+          <div class="style-tag">카드</div>
+          <a class="ls-card" href="#">🎧 여행 팟캐스트 듣기</a>
+
+          <div class="style-tag">사진 크게</div>
+          <a class="ls-bgimg" href="https://www.myrealtrip.com/community/posts/27352" target="_blank"
+            style="background-image:url('insta_feed_content-4.png')">
+            <span class="ls-bgimg-title">⛩️ 교토 청수사 · 기온 포토 모음</span>
+          </a>
+
+          <div class="style-tag">컬렉션 블록</div>
+          <div class="ls-collection">
+            <a class="ls-coll-item" href="https://www.myrealtrip.com/community/posts/27112" target="_blank">
+              <div class="ls-coll-img"><img src="insta_feed_content-2.png" loading="lazy"></div>
+              <span class="ls-coll-title">D1 오사카</span>
+            </a>
+            <a class="ls-coll-item" href="https://www.myrealtrip.com/community/posts/27152" target="_blank">
+              <div class="ls-coll-img"><img src="insta_feed_content-1.png" loading="lazy"></div>
+              <span class="ls-coll-title">D2 난바·우메다</span>
+            </a>
+            <a class="ls-coll-item" href="https://www.myrealtrip.com/community/posts/27352" target="_blank">
+              <div class="ls-coll-img"><img src="insta_feed_content-5.png" loading="lazy"></div>
+              <span class="ls-coll-title">D3 교토</span>
+            </a>
+          </div>
+
+          <div class="style-tag">링크 미리보기</div>
+          <a class="ls-og" href="https://www.myrealtrip.com/community/posts/31410" target="_blank"
+             data-og-url="https://www.myrealtrip.com/community/posts/31410">
+            <div class="ls-og-placeholder">🌃</div>
+            <div class="ls-og-body">
+              <div class="ls-og-title">오사카 하루카스 300 야경 후기</div>
+              <div class="ls-og-domain">myrealtrip.com</div>
+            </div>
+          </a>
+          <a class="ls-og" href="https://www.myrealtrip.com/community/posts/30793" target="_blank"
+             data-og-url="https://www.myrealtrip.com/community/posts/30793">
+            <div class="ls-og-placeholder">🥩</div>
+            <div class="ls-og-body">
+              <div class="ls-og-title">난바 규카츠 맛집 토미타</div>
+              <div class="ls-og-domain">myrealtrip.com</div>
+            </div>
+          </a>
+          <a class="ls-og" href="https://www.myrealtrip.com/community/posts/31741" target="_blank"
+             data-og-url="https://www.myrealtrip.com/community/posts/31741">
+            <div class="ls-og-placeholder">🍵</div>
+            <div class="ls-og-body">
+              <div class="ls-og-title">교토 호지차 티라미수 맛집</div>
+              <div class="ls-og-domain">myrealtrip.com</div>
+            </div>
+          </a>
+          <a class="ls-og" href="https://www.myrealtrip.com/community/posts/31492" target="_blank"
+             data-og-url="https://www.myrealtrip.com/community/posts/31492">
+            <div class="ls-og-placeholder">🍡</div>
+            <div class="ls-og-body">
+              <div class="ls-og-title">교토 미소당고 맛집 오하기노 탄바야</div>
+              <div class="ls-og-domain">myrealtrip.com</div>
+            </div>
+          </a>
+
+        </div>
+      </div>
+      <div class="links-section-pb"></div>
+    </div>
+
+    <!-- ══ 필수템 탭 ══ -->
+    <div id="tab-products" class="tab-panel">
+      <div class="products-section">
+        <div class="category-chips">
+          <div class="cat-chip on">전체</div>
+          <div class="cat-chip">이심·통신</div>
+          <div class="cat-chip">입장권</div>
+          <div class="cat-chip">교통패스</div>
+          <div class="cat-chip">맛집</div>
+          <div class="cat-chip">액티비티</div>
+        </div>
+        <div class="product-grid" id="product-grid"></div>
+      </div>
+    </div>
+
+  </div><!-- /main-page -->
+
+
+  <!-- ────────── COURSE PANEL ────────── -->
+  <div id="course-panel">
+    <div class="panel-topbar">
+      <div class="panel-back" onclick="closeCourse()">←</div>
+      <div><div class="panel-title">오사카&교토 여행 코스</div></div>
+      <div class="panel-subtitle">3박 4일 · 장소 6곳</div>
+    </div>
+    <div id="map-full"></div>
+    <div class="day-tabs" id="day-tabs"></div>
+    <div class="day-content" id="day-content"></div>
+  </div>
+
+  <!-- ────────── COUPON PANEL (Bottom Sheet) ────────── -->
+  <div id="coupon-panel">
+    <div class="coupon-overlay" onclick="closeCoupon()"></div>
+    <div class="coupon-sheet">
+      <div class="sheet-handle"></div>
+      <div class="sheet-title">🎫 파트너 쿠폰</div>
+      <div class="sheet-sub">셀렉트유 통해 예약하면 받을 수 있는 혜택</div>
+
+      <div class="coupon-card">
+        <div class="cc-stripe" style="background:var(--amber)"></div>
+        <div class="cc-body">
+          <div class="cc-label" style="color:var(--amber)">마이리얼트립 파트너 혜택</div>
+          <div class="cc-title">첫 예약 3,000원 할인</div>
+          <div class="cc-desc">5만원 이상 결제 시 · 1회 사용 가능</div>
+          <div class="cc-footer">
+            <div class="cc-expire">유효기간: 2026.05.31까지</div>
+            <div class="cc-remain">잔여 47장</div>
+          </div>
+        </div>
+        <button class="cc-btn" style="background:var(--amber)">받기</button>
+      </div>
+
+      <div class="coupon-card">
+        <div class="cc-stripe" style="background:var(--sage)"></div>
+        <div class="cc-body">
+          <div class="cc-label" style="color:var(--sage)">재방문 감사 쿠폰</div>
+          <div class="cc-title">2번째 예약 5% 할인</div>
+          <div class="cc-desc">최대 1만원 · 셀렉트유 전용</div>
+          <div class="cc-footer">
+            <div class="cc-expire">유효기간: 2026.06.30까지</div>
+            <div class="cc-remain">잔여 23장</div>
+          </div>
+        </div>
+        <button class="cc-btn" style="background:var(--sage)">받기</button>
+      </div>
+
+      <div class="coupon-card" style="opacity:0.55;">
+        <div class="cc-stripe" style="background:#C0BAB4"></div>
+        <div class="cc-body">
+          <div class="cc-label" style="color:#A09890">사용 완료</div>
+          <div class="cc-title" style="color:#A09890;text-decoration:line-through">웰컴 쿠폰 2,000원</div>
+          <div class="cc-desc">첫 방문 기념 쿠폰</div>
+        </div>
+        <button class="cc-btn" style="background:#C0BAB4" disabled>완료</button>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /phone -->
+
+<script>
+// ─── DATA ───────────────────────────────────────
+const products = [
+  { name:"일본 이심 (4일, 2GB/일)", price:"₩12,000", tag:"필수", icon:"📱", bg:"#EDE9FE", tagColor:"#7C3AED", tagBg:"#EDE9FE", sold:"3,421", url:"https://experiences.myrealtrip.com/products/3886994" },
+  { name:"하루카스 300 전망대 입장권", price:"₩13,000", tag:"추천", icon:"🌃", bg:"#FEF3C7", tagColor:"#E07A38", tagBg:"#FDE8CE", sold:"9,836", url:"https://www.myrealtrip.com/offers/25950" },
+  { name:"토미타 규카츠 - 난바 맛집", price:"₩20,000~", tag:"인기", icon:"🥩", bg:"#DBEAFE", tagColor:"#2563EB", tagBg:"#DBEAFE", sold:"14.6k", url:"https://www.myrealtrip.com/community/posts/30793" },
+  { name:"난카이 라피트 편도 E-티켓", price:"₩9,800", tag:"알뜰", icon:"🚄", bg:"#D1FAE5", tagColor:"#059669", tagBg:"#D1FAE5", sold:"10.5k", url:"https://experiences.myrealtrip.com/products/5869248" },
+];
+
+const days = [
+  { day:1, date:"D1 · 오사카", dayCost:"약 3~4만원", stops:[
+    { time:"저녁", place:"하루카스 300 전망대", lat:34.6461, lng:135.5129,
+      desc:"오사카에서 가장 높은 전망대! 야경이 진짜 예뻐요 ✨",
+      cost:"₩13,000", photos:["p2","p3","p4"], product:products[1], pinColor:"amber", pinLabel:"D1" },
+    { time:"밤", place:"도톤보리 야경·라멘", lat:34.6687, lng:135.5007,
+      desc:"오사카의 상징, 글리코상과 화려한 야경. 저녁 라멘 강추!",
+      cost:"₩15,000~", photos:["p1","p5"], product:null, pinColor:"amber", pinLabel:"D1" },
+  ]},
+  { day:2, date:"D2 · 오사카", dayCost:"약 2~3만원", stops:[
+    { time:"점심", place:"토미타 규카츠", lat:34.6658, lng:135.5009,
+      desc:"감칠맛과 함께 입 안에서 사르르 녹는 규카츠 맛집",
+      cost:"₩15,000~", photos:["p8","p9"], product:products[2], pinColor:"sage", pinLabel:"D2" },
+    { time:"저녁", place:"나가자키초 카페거리", lat:34.7017, lng:135.4956,
+      desc:"골목골목 아기자기한 일본 감성을 느낄 수 있는 거리",
+      cost:"카페 ₩5,000~", photos:["p7","p6"], product:null, pinColor:"sage", pinLabel:"D2" },
+  ]},
+  { day:3, date:"D3 · 교토", dayCost:"약 1~2만원", stops:[
+    { time:"오후", place:"청수사 · 기온거리", lat:34.9948, lng:135.7850,
+      desc:"교토의 대표 관광지. 소원의 물 구간에서는 꼭 사진을!",
+      cost:"무료 입장", photos:["p5","p6","p7"], product:null, pinColor:"blush", pinLabel:"D3" },
+    { time:"저녁", place:"카모 강 산책로", lat:35.0038, lng:135.7686,
+      desc:"카모 강을 따라 여유롭게 산책. 호지차 티라미수 맛집 근처!",
+      cost:"디저트 ₩8,000~", photos:["p4","p3"], product:null, pinColor:"blush", pinLabel:"D3" },
+  ]},
+];
+
+const localPhotos = {
+  p1:'insta_feed_content.png', p2:'insta_feed_content-1.png', p3:'insta_feed_content-2.png',
+  p4:'insta_feed_content-3.png', p5:'insta_feed_content-4.png', p6:'insta_feed_content-5.png',
+  p7:'insta_feed_content-6.png', p8:'insta_feed_content-7.png', p9:'insta_thumbnail.png',
+};
+const pinColors = { amber:'#E07A38', sage:'#6B9080', blush:'#C97D6E' };
+function photoUrl(seed){ return localPhotos[seed] || `https://picsum.photos/seed/1/120/120`; }
+
+// ─── RENDER PRODUCTS ─────────────────────────────
+function renderProducts() {
+  const el = document.getElementById('product-grid');
+  el.innerHTML = products.map(p => `
+    <div class="product-card-v3" onclick="window.open('${p.url}','_blank')">
+      <div class="pc-img" style="background:${p.bg}">${p.icon}</div>
+      <div class="pc-body">
+        <span class="pc-tag" style="background:${p.tagBg};color:${p.tagColor}">${p.tag}</span>
+        <div class="pc-name">${p.name}</div>
+        <div class="pc-price">${p.price}</div>
+        <div class="pc-sold">${p.sold} sold</div>
+        <button class="pc-btn">예약하기</button>
+      </div>
+    </div>
+  `).join('');
+}
+
+// ─── SHOPPABLE PINS ──────────────────────────────
+function togglePin(id, e) {
+  if (e) e.stopPropagation();
+  const popup = document.getElementById(id);
+  const isOpen = popup.classList.contains('show');
+  document.querySelectorAll('.s-popup').forEach(p => p.classList.remove('show'));
+  if (!isOpen) popup.classList.add('show');
+}
+document.addEventListener('click', () => {
+  document.querySelectorAll('.s-popup').forEach(p => p.classList.remove('show'));
+});
+
+// ─── COURSE MAP TOGGLE ───────────────────────────
+function toggleCourseMap() {
+  const body = document.getElementById('cs-map-body');
+  const arrow = document.getElementById('cs-map-arrow');
+  const isOpen = body.classList.toggle('open');
+  arrow.classList.toggle('open', isOpen);
+  if (isOpen && !mapPreview) {
+    setTimeout(initMapPreview, 100);
+  } else if (isOpen && mapPreview) {
+    setTimeout(() => mapPreview.invalidateSize(), 350);
+  }
+}
+
+// ─── TABS ────────────────────────────────────────
+function switchTab(name) {
+  document.querySelectorAll('.page-tab').forEach((t,i) => {
+    const tabs = ['posts','products'];
+    t.classList.toggle('on', tabs[i] === name);
+  });
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('on'));
+  document.getElementById(`tab-${name}`).classList.add('on');
+  document.getElementById('main-page').scrollTop = 0;
+}
+
+// ─── OG 이미지 자동 로딩 (microlink.io) ──────────
+async function loadOgCards() {
+  const cards = document.querySelectorAll('[data-og-url]');
+  for (const card of cards) {
+    const url = card.dataset.ogUrl;
+    try {
+      const res = await fetch(`https://api.microlink.io/?url=${encodeURIComponent(url)}&screenshot=false`);
+      const json = await res.json();
+      if (json.status === 'success') {
+        const { title, image } = json.data;
+        const placeholder = card.querySelector('.ls-og-placeholder');
+        if (image?.url && placeholder) {
+          const img = document.createElement('img');
+          img.className = 'ls-og-img';
+          img.src = image.url;
+          img.alt = title || '';
+          img.onerror = () => img.remove(); // 이미지 로드 실패 시 placeholder 유지
+          placeholder.replaceWith(img);
+        }
+        if (title) {
+          const titleEl = card.querySelector('.ls-og-title');
+          if (titleEl) titleEl.textContent = title;
+        }
+      }
+    } catch(e) { /* 실패해도 placeholder 유지 */ }
+  }
+}
+
+// ─── MAP ─────────────────────────────────────────
+let mapPreview, mapFull;
+function createPinIcon(color, label) {
+  return L.divIcon({
+    html:`<div style="width:30px;height:30px;border-radius:50%;background:${pinColors[color]||'#E07A38'};border:2.5px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,0.28);display:flex;align-items:center;justify-content:center;"><span style="color:#fff;font-size:9px;font-weight:800;letter-spacing:-0.3px">${label}</span></div>`,
+    className:'', iconSize:[30,30], iconAnchor:[15,15], popupAnchor:[0,-18]
+  });
+}
+function drawRoutes(map) {
+  days.forEach(day => {
+    const coords = day.stops.filter(s => s.lat).map(s => [s.lat, s.lng]);
+    if (coords.length > 1) {
+      L.polyline(coords, {
+        color: pinColors[day.stops[0].pinColor],
+        weight: 3, opacity: 0.65, dashArray: '6, 9'
+      }).addTo(map);
+    }
+  });
+}
+function initMapPreview() {
+  if (mapPreview) return;
+  if (!document.getElementById('map-preview')) return;
+  mapPreview = L.map('map-preview', { center:[34.78,135.6], zoom:10, zoomControl:false, scrollWheelZoom:false, dragging:false, tap:true, attributionControl:false });
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', { maxZoom:19 }).addTo(mapPreview);
+  drawRoutes(mapPreview);
+  days.forEach(day => day.stops.forEach(s => {
+    const marker = L.marker([s.lat,s.lng], { icon:createPinIcon(s.pinColor,s.pinLabel) }).addTo(mapPreview);
+    if (s.product) {
+      const p = s.product;
+      marker.bindPopup(`
+        <div class="map-product-popup">
+          <div class="mpp-icon" style="background:${p.bg}">${p.icon}</div>
+          <div class="mpp-info">
+            <span class="mpp-tag" style="background:${p.tagBg};color:${p.tagColor}">${p.tag}</span>
+            <div class="mpp-name">${p.name}</div>
+            <div class="mpp-price">${p.price}</div>
+          </div>
+          <button class="mpp-btn" onclick="window.open('${p.url}','_blank')">예약</button>
+        </div>
+      `, { offset:[0,-26], closeButton:false, maxWidth:270 });
+    } else {
+      marker.bindPopup(`<div class="map-place-popup">${s.place}</div>`, { offset:[0,-26], closeButton:false });
+    }
+  }));
+}
+function initMapFull() {
+  if (mapFull) return;
+  mapFull = L.map('map-full', { center:[34.78,135.6], zoom:10, zoomControl:false, attributionControl:false });
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', { maxZoom:19 }).addTo(mapFull);
+  drawRoutes(mapFull);
+  days.forEach(day => day.stops.forEach(s => {
+    const m = L.marker([s.lat,s.lng], { icon:createPinIcon(s.pinColor,s.pinLabel) }).addTo(mapFull);
+    m.bindPopup(`<div class="popup-day">DAY ${day.day}</div><div class="popup-title">${s.place}</div>`);
+    m.on('click', () => selectDay(day.day));
+  }));
+}
+
+// ─── COURSE PANEL ───────────────────────────────
+let currentDay = 1;
+function openCourse() {
+  document.getElementById('course-panel').classList.add('open');
+  setTimeout(() => { initMapFull(); if(mapFull) mapFull.invalidateSize(); }, 450);
+  renderDayTabs(); renderDayContent(1);
+}
+function closeCourse() { document.getElementById('course-panel').classList.remove('open'); }
+function renderDayTabs() {
+  document.getElementById('day-tabs').innerHTML = days.map(d =>
+    `<div class="day-tab ${d.day===currentDay?'active':''}" onclick="selectDay(${d.day})">DAY ${d.day}</div>`
+  ).join('');
+}
+function renderDayContent(dayNum) {
+  const day = days.find(d => d.day===dayNum);
+  if (!day) return;
+  document.getElementById('day-content').innerHTML = `
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;">
+      <div class="day-date" style="margin-bottom:0">${day.date}</div>
+      ${day.dayCost ? `<div style="font-size:12px;font-weight:700;color:var(--amber);background:#FFF3E8;padding:5px 10px;border-radius:8px;">💰 ${day.dayCost}</div>` : ''}
+    </div>
+    ${day.stops.map((stop,idx) => `
+      <div class="stop-item">
+        <div class="stop-timeline">
+          <div class="stop-dot" style="background:${pinColors[stop.pinColor]};box-shadow:0 0 0 2px ${pinColors[stop.pinColor]}"></div>
+          ${idx < day.stops.length-1 ? '<div class="stop-line"></div>' : ''}
+        </div>
+        <div class="stop-body">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:2px;">
+            <div class="stop-time" style="margin-bottom:0">${stop.time}</div>
+            ${stop.cost ? `<div style="font-size:11px;color:var(--mid);font-weight:600;">${stop.cost}</div>` : ''}
+          </div>
+          <div class="stop-place">${stop.place}</div>
+          <div class="stop-desc">${stop.desc}</div>
+          <div class="photo-grid">
+            ${stop.photos.slice(0,3).map((s,i) => `
+              <div class="photo-thumb${i===2&&stop.photos.length>3?' more':''}" data-count="+${stop.photos.length-2}장">
+                <img src="${photoUrl(s)}" loading="lazy">
+              </div>`).join('')}
+          </div>
+          ${stop.product ? `
+            <div class="inline-product">
+              <div class="inline-product-icon" style="background:${stop.product.bg}">${stop.product.icon}</div>
+              <div class="inline-product-info">
+                <span class="inline-product-tag" style="background:${stop.product.tagBg};color:${stop.product.tagColor}">${stop.product.tag}</span>
+                <div class="inline-product-name">${stop.product.name}</div>
+                <div class="inline-product-price">${stop.product.price}</div>
+              </div>
+              <button class="inline-product-btn" onclick="window.open('${stop.product.url}','_blank')">예약하기</button>
+            </div>` : ''}
+        </div>
+      </div>`).join('')}
+  `;
+  document.getElementById('day-content').scrollTop = 0;
+}
+function selectDay(dayNum) {
+  currentDay = dayNum; renderDayTabs(); renderDayContent(dayNum);
+  if (mapFull) { const day=days.find(d=>d.day===dayNum); if(day&&day.stops.length>0) mapFull.flyTo([day.stops[0].lat,day.stops[0].lng],12,{duration:0.8}); }
+}
+
+// ─── COUPON PANEL ───────────────────────────────
+function openCoupon()  { document.getElementById('coupon-panel').classList.add('open'); }
+function closeCoupon() { document.getElementById('coupon-panel').classList.remove('open'); }
+
+// ─── EXPENSE PANEL ──────────────────────────────
+function openExpensePanel()  { document.getElementById('expense-panel').classList.add('open'); }
+function closeExpensePanel() { document.getElementById('expense-panel').classList.remove('open'); }
+
+// ─── BUDGET (TripSignal API) ──────────────────────
+async function loadBudget() {
+  try {
+    const res = await fetch('https://tripsignal.vercel.app/api/prices/shanghai');
+    const json = await res.json();
+    const { flights, hotels } = json.data;
+    const now = new Date();
+    const sixMonths = new Date(); sixMonths.setMonth(sixMonths.getMonth() + 6);
+    let minTotal = Infinity, minDate = null;
+
+    for (const date of Object.keys(flights)) {
+      const d = new Date(date);
+      if (d < now || d > sixMonths) continue;
+      const fPrice = flights[date]?.['1']?.price;
+      const hPrice = hotels[date]?.['3']?.price;
+      if (!fPrice || !hPrice) continue;
+      const total = fPrice + hPrice;
+      if (total < minTotal) { minTotal = total; minDate = date; }
+    }
+
+    if (minDate) {
+      const fmt = new Date(minDate).toLocaleDateString('ko-KR', { month: 'long', day: 'numeric' });
+      const wan = Math.round(minTotal / 10000);
+      document.getElementById('budget-price').textContent = wan + '만원';
+      document.getElementById('budget-sub').textContent = `${fmt} 출발 기준`;
+      // 경비 패널 항공/숙소 금액 업데이트
+      const dayObj = Object.keys(flights).find(d => d === minDate);
+      if (dayObj) {
+        const fPrice = flights[minDate]?.['1']?.price;
+        const hPrice = hotels[minDate]?.['3']?.price;
+        if (fPrice) document.getElementById('exp-flight').textContent = '₩' + fPrice.toLocaleString();
+        if (hPrice) document.getElementById('exp-hotel').textContent = '₩' + hPrice.toLocaleString();
+        if (fPrice && hPrice) {
+          document.getElementById('exp-total').textContent = '₩' + (fPrice + hPrice + 340000).toLocaleString();
+        }
+      }
+    } else {
+      document.getElementById('budget-price').textContent = '가격 정보 없음';
+      document.getElementById('budget-sub').textContent = '';
+    }
+  } catch(e) {
+    // CORS 차단 시 하드코딩 기본값 유지 (실제 구현 시 서버사이드 처리 필요)
+  }
+}
+
+// ─── INIT ────────────────────────────────────────
+renderProducts();
+loadBudget();
+loadOgCards();
+</script>
+</body>
+</html>

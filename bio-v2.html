@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>june_fairytale · 마이스토어</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --cream: #F8F4EE;
+      --card: #FFFFFF;
+      --amber: #E07A38;
+      --sage: #6B9080;
+      --blush: #C97D6E;
+      --text: #1A1714;
+      --mid: #6B6560;
+      --light: #A09890;
+      --border: #EDE8E0;
+    }
+
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background: #ECEAE4;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    /* Phone wrapper */
+    .phone {
+      width: 390px;
+      min-height: 100vh;
+      background: var(--cream);
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 0 60px rgba(0,0,0,0.25);
+    }
+
+    /* ─────────────────────────────────────────
+       MAIN PAGE
+    ───────────────────────────────────────── */
+    #main-page {
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      overflow-y: auto;
+      height: 100%;
+      transition: transform 0.4s cubic-bezier(0.32, 0.72, 0, 1);
+      background: var(--cream);
+      -webkit-overflow-scrolling: touch;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      position: relative;
+      height: 440px;
+      overflow: hidden;
+    }
+    .hero-cover {
+      position: absolute;
+      inset: 0;
+      background: url('https://images.unsplash.com/photo-1547926033-7f6e7a37bf9c?w=800&q=80') center/cover no-repeat;
+    }
+    .hero-cover::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(20,15,10,0.05) 0%,
+        rgba(20,15,10,0.0) 40%,
+        rgba(20,15,10,0.45) 100%
+      );
+    }
+    .hero-text {
+      position: absolute;
+      bottom: 150px;
+      left: 24px;
+      z-index: 2;
+      color: #fff;
+    }
+    .hero-subtitle {
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.92);
+      margin-bottom: 6px;
+    }
+    .hero-title {
+      font-size: 48px;
+      font-weight: 900;
+      line-height: 1.05;
+      letter-spacing: -1px;
+      text-shadow: 0 2px 20px rgba(0,0,0,0.3);
+    }
+
+    /* Glassmorphism profile card */
+    .profile-card {
+      position: absolute;
+      bottom: -20px;
+      left: 20px;
+      right: 20px;
+      z-index: 10;
+      background: rgba(255,255,255,0.82);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255,255,255,0.9);
+      border-radius: 20px;
+      padding: 16px 18px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+    }
+    .profile-avatar {
+      width: 52px; height: 52px;
+      background: linear-gradient(135deg, #F4C07A, #E07A38);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px;
+      flex-shrink: 0;
+      box-shadow: 0 4px 12px rgba(224,122,56,0.35);
+    }
+    .profile-info h2 {
+      font-size: 15px; font-weight: 700;
+      color: var(--text);
+      margin-bottom: 3px;
+    }
+    .profile-info p {
+      font-size: 12px; color: var(--mid);
+      margin-bottom: 8px;
+    }
+    .sns-pills {
+      display: flex; gap: 6px;
+    }
+    .sns-pill {
+      font-size: 11px; font-weight: 500;
+      background: var(--cream);
+      color: var(--mid);
+      padding: 4px 10px;
+      border-radius: 20px;
+      border: 1px solid #C4BAB0;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    /* ── STATS BENTO ── */
+    .stats-bento {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+      padding: 44px 20px 0;
+    }
+    .stat-block {
+      border-radius: 16px;
+      padding: 16px 12px;
+      text-align: center;
+    }
+    .stat-block.amber { background: #FBE8D0; }
+    .stat-block.sage  { background: #D4E8DF; }
+    .stat-block.blush { background: #F5DEDA; }
+    .stat-num {
+      display: block;
+      font-size: 22px; font-weight: 900;
+      color: var(--text);
+      line-height: 1;
+      margin-bottom: 5px;
+    }
+    .stat-label {
+      display: block;
+      font-size: 12px; font-weight: 500;
+      color: var(--mid);
+    }
+    .stat-block.amber .stat-num {
+      font-size: 26px;
+    }
+
+    /* ── SECTION ── */
+    .section {
+      padding: 28px 20px 0;
+    }
+    .section-header {
+      display: flex; align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 14px;
+    }
+    .section-header h3 {
+      font-size: 17px; font-weight: 800;
+      color: var(--text);
+    }
+    .section-header .see-all {
+      font-size: 12px; font-weight: 500;
+      color: var(--sage);
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    /* ── COURSE PREVIEW ── */
+    .course-preview-wrap {
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      background: #fff;
+      cursor: pointer;
+    }
+    #map-preview {
+      height: 180px;
+      pointer-events: none;
+    }
+    .course-cta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 18px;
+      border-top: 1px solid var(--border);
+    }
+    .course-cta-left { display: flex; flex-direction: column; gap: 3px; }
+    .course-cta-title {
+      font-size: 14px; font-weight: 700;
+      color: var(--text);
+    }
+    .course-cta-sub {
+      font-size: 12px; color: var(--mid);
+    }
+    .course-cta-btn {
+      background: var(--amber);
+      color: #fff;
+      font-size: 12px; font-weight: 600;
+      padding: 8px 14px;
+      border-radius: 20px;
+      white-space: nowrap;
+    }
+
+    /* ── PRODUCTS HORIZONTAL SCROLL ── */
+    .products-scroll {
+      display: flex;
+      gap: 12px;
+      overflow-x: auto;
+      padding-bottom: 6px;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .products-scroll::-webkit-scrollbar { display: none; }
+    .product-card {
+      flex-shrink: 0;
+      width: 142px;
+      background: #fff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+      cursor: pointer;
+    }
+    .product-img {
+      height: 96px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 48px;
+    }
+    .product-body { padding: 10px 12px 12px; }
+    .product-tag {
+      display: inline-block;
+      font-size: 11px; font-weight: 700;
+      padding: 3px 7px;
+      border-radius: 6px;
+      margin-bottom: 6px;
+      letter-spacing: 0.5px;
+    }
+    .product-name {
+      font-size: 12px; font-weight: 600;
+      color: var(--text);
+      line-height: 1.35;
+      margin-bottom: 6px;
+    }
+    .product-price {
+      font-size: 14px; font-weight: 800;
+      color: var(--amber);
+      margin-bottom: 8px;
+    }
+    .product-btn {
+      width: 100%;
+      background: var(--amber);
+      color: #fff;
+      font-size: 11px; font-weight: 600;
+      padding: 8px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      font-family: inherit;
+    }
+
+    /* ── LINKS LIST ── */
+    .links-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .link-btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 18px;
+      background: #fff;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      text-decoration: none;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .link-btn:active { transform: scale(0.98); }
+    .link-btn-left {
+      display: flex; align-items: center; gap: 12px;
+    }
+    .link-icon {
+      width: 36px; height: 36px;
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px;
+    }
+    .link-label {
+      font-size: 14px; font-weight: 600;
+      color: var(--text);
+    }
+    .link-arrow {
+      font-size: 18px; color: var(--mid);
+    }
+    .link-btn.featured {
+      background: #FFF8F2;
+      border-color: var(--amber);
+    }
+    .link-btn.featured .link-label {
+      color: var(--amber);
+    }
+
+    /* ── FOOTER ── */
+    .page-footer {
+      padding: 32px 20px 48px;
+      text-align: center;
+    }
+    .page-footer p {
+      font-size: 11px; color: var(--light);
+      line-height: 1.6;
+    }
+    .footer-dot { color: var(--amber); }
+
+    /* ─────────────────────────────────────────
+       COURSE PANEL (slides up)
+    ───────────────────────────────────────── */
+    #course-panel {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: var(--cream);
+      transform: translateY(100%);
+      transition: transform 0.42s cubic-bezier(0.32, 0.72, 0, 1);
+      z-index: 100;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    #course-panel.open {
+      transform: translateY(0);
+    }
+
+    .panel-topbar {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 16px 20px 14px;
+      background: var(--cream);
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .panel-back {
+      width: 36px; height: 36px;
+      background: #fff;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 16px;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .panel-title {
+      font-size: 16px; font-weight: 800;
+      color: var(--text);
+    }
+    .panel-subtitle {
+      font-size: 11px; color: var(--light);
+      margin-left: auto;
+    }
+
+    #map-full {
+      height: 240px;
+      flex-shrink: 0;
+    }
+
+    /* Day tabs */
+    .day-tabs {
+      display: flex;
+      gap: 0;
+      padding: 0 20px;
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+      background: var(--cream);
+    }
+    .day-tab {
+      padding: 12px 18px;
+      font-size: 13px; font-weight: 600;
+      color: var(--light);
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .day-tab.active {
+      color: var(--text);
+      border-bottom-color: var(--text);
+    }
+
+    /* Day content */
+    .day-content {
+      flex: 1;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      padding: 20px 20px 40px;
+    }
+    .day-date {
+      font-size: 14px; font-weight: 700;
+      color: var(--sage);
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* Stop item */
+    .stop-item {
+      display: flex;
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+    .stop-timeline {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-shrink: 0;
+    }
+    .stop-dot {
+      width: 12px; height: 12px;
+      border-radius: 50%;
+      background: var(--amber);
+      border: 2px solid #fff;
+      box-shadow: 0 0 0 2px var(--amber);
+      flex-shrink: 0;
+    }
+    .stop-line {
+      width: 2px;
+      flex: 1;
+      background: rgba(224,122,56,0.25);
+      margin: 4px 0;
+      min-height: 20px;
+    }
+    .stop-body { flex: 1; }
+    .stop-time {
+      font-size: 11px; font-weight: 600;
+      color: var(--mid);
+      margin-bottom: 3px;
+    }
+    .stop-place {
+      font-size: 15px; font-weight: 700;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+    .stop-desc {
+      font-size: 12px; color: var(--mid);
+      line-height: 1.5;
+      margin-bottom: 12px;
+    }
+
+    /* Photo grid */
+    .photo-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4px;
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 12px;
+    }
+    .photo-thumb {
+      aspect-ratio: 1;
+      overflow: hidden;
+      position: relative;
+    }
+    .photo-thumb img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .photo-thumb.more::after {
+      content: attr(data-count);
+      position: absolute; inset: 0;
+      background: rgba(26,23,20,0.55);
+      display: flex; align-items: center; justify-content: center;
+      color: #fff;
+      font-size: 16px; font-weight: 700;
+    }
+
+    /* Inline product card in course */
+    .inline-product {
+      background: #FFFAF5;
+      border-radius: 14px;
+      padding: 14px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border: 1px solid rgba(224,122,56,0.2);
+      margin-bottom: 4px;
+    }
+    .inline-product-icon {
+      width: 48px; height: 48px;
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 24px;
+      flex-shrink: 0;
+    }
+    .inline-product-info { flex: 1; }
+    .inline-product-tag {
+      font-size: 11px; font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 5px;
+      display: inline-block;
+      margin-bottom: 4px;
+    }
+    .inline-product-name {
+      font-size: 13px; font-weight: 600;
+      color: var(--text);
+      margin-bottom: 2px;
+      line-height: 1.3;
+    }
+    .inline-product-price {
+      font-size: 14px; font-weight: 800;
+      color: var(--amber);
+    }
+    .inline-product-btn {
+      background: var(--amber);
+      color: #fff;
+      font-size: 11px; font-weight: 700;
+      padding: 9px 13px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      font-family: inherit;
+      flex-shrink: 0;
+      line-height: 1.3;
+      text-align: center;
+    }
+
+    /* ─────────────────────────────────────────
+       COURSE SECTION REDESIGN
+    ───────────────────────────────────────── */
+    .course-eyebrow {
+      font-size: 11px; font-weight: 700;
+      color: var(--amber);
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .course-big-title {
+      font-size: 22px; font-weight: 900;
+      color: var(--text);
+      line-height: 1.2;
+      margin-bottom: 5px;
+    }
+    .course-meta-txt {
+      font-size: 12px; color: var(--mid);
+      margin-bottom: 14px;
+    }
+    .photo-strip {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      margin-bottom: 12px;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .photo-strip::-webkit-scrollbar { display: none; }
+    .strip-thumb {
+      flex-shrink: 0;
+      width: 86px; height: 86px;
+      border-radius: 12px;
+      overflow: hidden;
+      background: var(--border);
+    }
+    .strip-thumb img { width: 100%; height: 100%; object-fit: cover; }
+    .map-wrap-clean {
+      border-radius: 14px;
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+    }
+    #map-preview { height: 160px; pointer-events: none; }
+    .map-cta-pill {
+      position: absolute;
+      bottom: 12px; right: 12px;
+      z-index: 10;
+      background: var(--amber);
+      color: #fff;
+      font-size: 12px; font-weight: 700;
+      padding: 8px 16px;
+      border-radius: 20px;
+      box-shadow: 0 3px 10px rgba(224,122,56,0.45);
+    }
+
+    /* ─────────────────────────────────────────
+       COUPON BANNER
+    ───────────────────────────────────────── */
+    .coupon-wrap { padding: 24px 20px 0; }
+    .coupon-banner {
+      background: linear-gradient(130deg, #E07A38 0%, #C85A20 100%);
+      border-radius: 18px;
+      padding: 18px 18px 18px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      cursor: pointer;
+    }
+    .coupon-sub {
+      font-size: 11px; font-weight: 500;
+      color: rgba(255,255,255,0.82);
+      margin-bottom: 4px;
+    }
+    .coupon-title {
+      font-size: 15px; font-weight: 900;
+      color: #fff; line-height: 1.35;
+    }
+    .coupon-btn {
+      flex-shrink: 0;
+      background: rgba(255,255,255,0.18);
+      border: 1.5px solid rgba(255,255,255,0.45);
+      color: #fff;
+      font-size: 11px; font-weight: 700;
+      padding: 9px 12px;
+      border-radius: 20px;
+      font-family: inherit;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    /* ─────────────────────────────────────────
+       LINK BLOCK STYLES
+    ───────────────────────────────────────── */
+    .link-blocks { display: flex; flex-direction: column; gap: 8px; }
+    .style-tag {
+      font-size: 10px; font-weight: 700;
+      color: var(--light);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin: 14px 0 6px;
+    }
+    /* 썸네일 */
+    .ls-thumb {
+      display: flex; align-items: center; gap: 12px;
+      padding: 10px 12px;
+      background: #fff; border-radius: 14px;
+      border: 1px solid var(--border);
+      text-decoration: none;
+    }
+    .ls-thumb-img {
+      width: 48px; height: 48px;
+      border-radius: 10px; overflow: hidden; flex-shrink: 0;
+    }
+    .ls-thumb-img img { width: 100%; height: 100%; object-fit: cover; }
+    .ls-thumb-body { flex: 1; }
+    .ls-thumb-title { font-size: 14px; font-weight: 600; color: var(--text); margin-bottom: 2px; }
+    .ls-thumb-sub { font-size: 11px; color: var(--mid); }
+    .ls-thumb-arr { color: var(--mid); font-size: 16px; }
+    /* 심플 */
+    .ls-simple {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 16px 18px;
+      background: #fff; border-radius: 14px;
+      border: 1px solid var(--border);
+      text-decoration: none;
+    }
+    .ls-simple-label { font-size: 14px; font-weight: 600; color: var(--text); }
+    .ls-simple-arr { font-size: 16px; color: var(--mid); }
+    /* 카드 */
+    .ls-card {
+      display: flex; align-items: center; justify-content: center;
+      padding: 20px; border-radius: 16px;
+      text-decoration: none;
+      font-size: 15px; font-weight: 700; color: #fff;
+      background: linear-gradient(135deg, var(--sage), #4A7060);
+      box-shadow: 0 3px 12px rgba(107,144,128,0.35);
+    }
+    /* 사진 크게 */
+    .ls-bgimg {
+      display: flex; align-items: flex-end;
+      height: 100px; border-radius: 16px; overflow: hidden;
+      text-decoration: none; position: relative;
+      background-size: cover; background-position: center;
+    }
+    .ls-bgimg::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(to bottom, rgba(0,0,0,0) 30%, rgba(0,0,0,0.62) 100%);
+    }
+    .ls-bgimg-title {
+      position: relative; z-index: 1;
+      color: #fff; font-size: 14px; font-weight: 700;
+      padding: 14px 16px;
+    }
+    /* 컬렉션 블록 */
+    .ls-collection { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+    .ls-coll-item { display: flex; flex-direction: column; align-items: center; text-decoration: none; }
+    .ls-coll-img { width: 100%; aspect-ratio: 1; border-radius: 12px; overflow: hidden; margin-bottom: 6px; }
+    .ls-coll-img img { width: 100%; height: 100%; object-fit: cover; }
+    .ls-coll-title { font-size: 11px; font-weight: 600; color: var(--text); text-align: center; }
+
+    /* Leaflet custom */
+    .leaflet-container { background: #f0ede8; }
+    .custom-pin {
+      width: 28px; height: 28px;
+      border-radius: 50% 50% 50% 0;
+      transform: rotate(-45deg);
+      border: 2px solid #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    }
+    .custom-pin.amber { background: var(--amber); }
+    .custom-pin.sage  { background: var(--sage); }
+    .custom-pin.blush { background: var(--blush); }
+    .pin-num {
+      position: absolute; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-size: 11px; font-weight: 700;
+      transform: rotate(45deg);
+    }
+    .leaflet-popup-content-wrapper {
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+    .leaflet-popup-content {
+      font-family: 'Noto Sans KR', sans-serif;
+      font-size: 13px;
+      margin: 10px 14px;
+    }
+    .popup-title { font-weight: 700; color: var(--text); margin-bottom: 3px; }
+    .popup-day { font-size: 11px; color: var(--sage); font-weight: 600; }
+  </style>
+</head>
+<body>
+
+<div class="phone">
+
+  <!-- ────────────────── MAIN PAGE ────────────────── -->
+  <div id="main-page">
+
+    <!-- HERO -->
+    <div class="hero">
+      <div class="hero-cover"></div>
+      <div class="profile-card">
+        <div class="profile-avatar">✈️</div>
+        <div class="profile-info">
+          <h2>june_fairytale</h2>
+          <p>여행 크리에이터 · 팔로워 23만</p>
+          <div class="sns-pills">
+            <a class="sns-pill" href="#">📷 Instagram</a>
+            <a class="sns-pill" href="#">▶ YouTube</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- COURSE PREVIEW -->
+    <div class="section">
+      <div class="course-eyebrow">🗺 여행 코스</div>
+      <div class="course-big-title">상하이 3박 4일 풀코스</div>
+      <div class="course-meta-txt">3개 장소 · 사진 42장 · 상품 3개</div>
+      <div class="photo-strip">
+        <div class="strip-thumb"><img src="https://picsum.photos/seed/10/86/86" loading="lazy"></div>
+        <div class="strip-thumb"><img src="https://picsum.photos/seed/30/86/86" loading="lazy"></div>
+        <div class="strip-thumb"><img src="https://picsum.photos/seed/200/86/86" loading="lazy"></div>
+        <div class="strip-thumb"><img src="https://picsum.photos/seed/110/86/86" loading="lazy"></div>
+        <div class="strip-thumb"><img src="https://picsum.photos/seed/300/86/86" loading="lazy"></div>
+        <div class="strip-thumb"><img src="https://picsum.photos/seed/230/86/86" loading="lazy"></div>
+      </div>
+      <div class="map-wrap-clean" onclick="openCourse()">
+        <div id="map-preview"></div>
+        <div class="map-cta-pill">코스 전체 보기 →</div>
+      </div>
+    </div>
+
+    <!-- COUPON -->
+    <div class="coupon-wrap">
+      <div class="coupon-banner">
+        <div>
+          <div class="coupon-sub">마이리얼트립 파트너 혜택</div>
+          <div class="coupon-title">첫 예약 쿠폰<br>3,000원 받기 🎫</div>
+        </div>
+        <button class="coupon-btn">지금 받기 →</button>
+      </div>
+    </div>
+
+    <!-- LINKS -->
+    <div class="section">
+      <div class="section-header">
+        <h3>🔗 링크 모음</h3>
+      </div>
+      <div class="link-blocks">
+
+        <div class="style-tag">썸네일</div>
+        <a class="ls-thumb" href="#">
+          <div class="ls-thumb-img"><img src="https://picsum.photos/seed/101/48/48" loading="lazy"></div>
+          <div class="ls-thumb-body">
+            <div class="ls-thumb-title">상하이 여행 가이드 블로그</div>
+            <div class="ls-thumb-sub">꼭 읽어봐야 할 여행 꿀팁</div>
+          </div>
+          <span class="ls-thumb-arr">→</span>
+        </a>
+
+        <div class="style-tag">심플</div>
+        <a class="ls-simple" href="#">
+          <span class="ls-simple-label">📷 인스타그램 팔로우</span>
+          <span class="ls-simple-arr">→</span>
+        </a>
+        <a class="ls-simple" href="#">
+          <span class="ls-simple-label">▶ 유튜브 채널 구독</span>
+          <span class="ls-simple-arr">→</span>
+        </a>
+
+        <div class="style-tag">카드</div>
+        <a class="ls-card" href="#">🎧 여행 팟캐스트 듣기</a>
+
+        <div class="style-tag">사진 크게</div>
+        <a class="ls-bgimg" href="#"
+          style="background-image:url('https://picsum.photos/seed/220/400/100')">
+          <span class="ls-bgimg-title">🌉 상하이 야경 포토 모음</span>
+        </a>
+
+        <div class="style-tag">컬렉션 블록</div>
+        <div class="ls-collection">
+          <a class="ls-coll-item" href="#">
+            <div class="ls-coll-img"><img src="https://picsum.photos/seed/10/120/120" loading="lazy"></div>
+            <span class="ls-coll-title">디즈니랜드</span>
+          </a>
+          <a class="ls-coll-item" href="#">
+            <div class="ls-coll-img"><img src="https://picsum.photos/seed/200/120/120" loading="lazy"></div>
+            <span class="ls-coll-title">황푸강 야경</span>
+          </a>
+          <a class="ls-coll-item" href="#">
+            <div class="ls-coll-img"><img src="https://picsum.photos/seed/300/120/120" loading="lazy"></div>
+            <span class="ls-coll-title">우전 수향</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="page-footer">
+      <p>마이리얼트립 파트너 링크 포함<br>
+      동일 가격에 크리에이터를 응원할 수 있어요 <span class="footer-dot">♥</span></p>
+    </div>
+
+  </div><!-- /main-page -->
+
+
+  <!-- ────────────────── COURSE PANEL ────────────────── -->
+  <div id="course-panel">
+
+    <div class="panel-topbar">
+      <div class="panel-back" onclick="closeCourse()">←</div>
+      <div>
+        <div class="panel-title">상하이 여행 코스</div>
+      </div>
+      <div class="panel-subtitle">3일 · 장소 5곳</div>
+    </div>
+
+    <div id="map-full"></div>
+
+    <div class="day-tabs" id="day-tabs"></div>
+
+    <div class="day-content" id="day-content"></div>
+
+  </div><!-- /course-panel -->
+
+</div><!-- /phone -->
+
+
+<script>
+// ─── DATA ───────────────────────────────────────────
+const MYLINK_ID = "dummy_mylink_id";
+
+const creator = {
+  name: "june_fairytale",
+  destination: "上海 Shanghai",
+  stats: [
+    { num: "23만", label: "팔로워" },
+    { num: "4", label: "추천 상품" },
+    { num: "3", label: "여행 일수" }
+  ]
+};
+
+const products = [
+  {
+    name: "상하이 디즈니랜드 입장권",
+    price: "₩82,000", tag: "베스트",
+    icon: "🎡", bg: "#FEF3C7",
+    tagColor: "#E07A38", tagBg: "#FDE8CE",
+    url: `https://www.myrealtrip.com/offers/1111?mylink_id=${MYLINK_ID}&utm_content=mystore_june`
+  },
+  {
+    name: "황푸강 야경 유람선 크루즈",
+    price: "₩28,000", tag: "인기",
+    icon: "⛵", bg: "#DBEAFE",
+    tagColor: "#2563EB", tagBg: "#DBEAFE",
+    url: `https://www.myrealtrip.com/offers/2222?mylink_id=${MYLINK_ID}&utm_content=mystore_june`
+  },
+  {
+    name: "우전 수향마을 야경투어",
+    price: "₩45,000", tag: "추천",
+    icon: "🏯", bg: "#D1FAE5",
+    tagColor: "#059669", tagBg: "#D1FAE5",
+    url: `https://www.myrealtrip.com/offers/3333?mylink_id=${MYLINK_ID}&utm_content=mystore_june`
+  },
+  {
+    name: "상하이 야경 포토투어",
+    price: "₩35,000", tag: "신규",
+    icon: "📸", bg: "#FCE7F3",
+    tagColor: "#DB2777", tagBg: "#FCE7F3",
+    url: `https://www.myrealtrip.com/offers/4444?mylink_id=${MYLINK_ID}&utm_content=mystore_june`
+  }
+];
+
+const links = [
+  { label: "인스타그램 팔로우", icon: "📷", iconBg: "#FCE4EC", url: "https://instagram.com" },
+  { label: "유튜브 채널 구독", icon: "▶", iconBg: "#FFEBEE", url: "https://youtube.com" },
+  { label: "상하이 여행 가이드 블로그", icon: "📝", iconBg: "#EBF5FF", url: "#" },
+  { label: "여행 팟캐스트 듣기", icon: "🎧", iconBg: "#F0FDF4", url: "#" },
+  { label: "여행 코디 유료 상담", icon: "💬", iconBg: "#FFF3E0", url: "#", featured: true },
+];
+
+const days = [
+  {
+    day: 1, date: "7월 20일 (토)",
+    stops: [
+      {
+        time: "오후 1시",
+        place: "상하이 디즈니랜드",
+        lat: 31.1444, lng: 121.6617,
+        desc: "꿈의 나라! 셔틀버스 타고 이동, 저녁에 불꽃놀이 꼭 보기",
+        photos: ["disney", "castle", "parade", "firework", "toy"],
+        product: products[0],
+        pinColor: "amber", pinLabel: "D1"
+      }
+    ]
+  },
+  {
+    day: 2, date: "7월 21일 (일)",
+    stops: [
+      {
+        time: "오전 11시",
+        place: "우캉로 거리",
+        lat: 31.2136, lng: 121.4364,
+        desc: "상하이 감성 가득한 플라타너스 골목. 카페 투어 필수!",
+        photos: ["street1", "cafe", "vintage"],
+        product: null,
+        pinColor: "sage", pinLabel: "D2"
+      },
+      {
+        time: "오후 7시",
+        place: "황푸강 야경 크루즈",
+        lat: 31.2338, lng: 121.4912,
+        desc: "상하이 야경을 배에서! 와이탄 뷰가 최고",
+        photos: ["cruise1", "night1", "night2", "bund"],
+        product: products[1],
+        pinColor: "sage", pinLabel: "D2"
+      }
+    ]
+  },
+  {
+    day: 3, date: "7월 22일 (월)",
+    stops: [
+      {
+        time: "오전 9시",
+        place: "우전 수향마을",
+        lat: 31.1000, lng: 121.3500,
+        desc: "물 위의 고대 마을. 시간 여행하는 기분. 야경이 진짜 예뻐요",
+        photos: ["wuzhen1", "wuzhen2", "canal", "lantern", "boat"],
+        product: products[2],
+        pinColor: "blush", pinLabel: "D3"
+      }
+    ]
+  }
+];
+
+// ─── PHOTO SEEDS (picsum) ───────────────────────────
+const photoSeeds = {
+  disney: 10, castle: 20, parade: 30, firework: 40, toy: 50,
+  street1: 100, cafe: 110, vintage: 120,
+  cruise1: 200, night1: 210, night2: 220, bund: 230,
+  wuzhen1: 300, wuzhen2: 310, canal: 320, lantern: 330, boat: 340,
+};
+function photoUrl(seed, w=120, h=120) {
+  return `https://picsum.photos/seed/${photoSeeds[seed] || 1}/${w}/${h}`;
+}
+
+// ─── RENDER PRODUCTS ────────────────────────────────
+function renderProducts() {
+  const el = document.getElementById('products-scroll');
+  el.innerHTML = products.map(p => `
+    <div class="product-card" onclick="window.open('${p.url}','_blank')">
+      <div class="product-img" style="background:${p.bg}">${p.icon}</div>
+      <div class="product-body">
+        <div class="product-tag" style="background:${p.tagBg};color:${p.tagColor}">${p.tag}</div>
+        <div class="product-name">${p.name}</div>
+        <div class="product-price">${p.price}</div>
+        <button class="product-btn" onclick="event.stopPropagation();window.open('${p.url}','_blank')">예약하기</button>
+      </div>
+    </div>
+  `).join('');
+}
+
+// ─── RENDER LINKS ────────────────────────────────────
+function renderLinks() {
+  const el = document.getElementById('links-list');
+  el.innerHTML = links.map(l => `
+    <a class="link-btn${l.featured ? ' featured' : ''}" href="${l.url}" target="_blank">
+      <div class="link-btn-left">
+        <div class="link-icon" style="background:${l.iconBg}">${l.icon}</div>
+        <span class="link-label">${l.label}</span>
+      </div>
+      <span class="link-arrow">→</span>
+    </a>
+  `).join('');
+}
+
+// ─── MAP INIT ───────────────────────────────────────
+let mapPreview, mapFull;
+const pinColors = { amber: '#E07A38', sage: '#6B9080', blush: '#C97D6E' };
+
+function createPinIcon(color, label) {
+  return L.divIcon({
+    html: `<div style="
+      width:28px;height:28px;
+      border-radius:50% 50% 50% 0;
+      transform:rotate(-45deg);
+      background:${pinColors[color]||'#E07A38'};
+      border:2.5px solid #fff;
+      box-shadow:0 2px 8px rgba(0,0,0,0.25);
+      display:flex;align-items:center;justify-content:center;
+    "><span style="transform:rotate(45deg);color:#fff;font-size:9px;font-weight:700">${label}</span></div>`,
+    className: '',
+    iconSize: [28, 28],
+    iconAnchor: [14, 28],
+    popupAnchor: [0, -30]
+  });
+}
+
+function initMapPreview() {
+  mapPreview = L.map('map-preview', {
+    center: [31.22, 121.55],
+    zoom: 10,
+    zoomControl: false,
+    scrollWheelZoom: false,
+    dragging: false,
+    tap: false,
+    attributionControl: false
+  });
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    maxZoom: 19
+  }).addTo(mapPreview);
+
+  days.forEach(day => {
+    day.stops.forEach(stop => {
+      L.marker([stop.lat, stop.lng], { icon: createPinIcon(stop.pinColor, stop.pinLabel) })
+        .addTo(mapPreview);
+    });
+  });
+}
+
+function initMapFull() {
+  if (mapFull) return;
+  mapFull = L.map('map-full', {
+    center: [31.22, 121.55],
+    zoom: 10,
+    zoomControl: false,
+    attributionControl: false
+  });
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    maxZoom: 19
+  }).addTo(mapFull);
+
+  days.forEach(day => {
+    day.stops.forEach(stop => {
+      const marker = L.marker([stop.lat, stop.lng], { icon: createPinIcon(stop.pinColor, `${stop.pinLabel}`) })
+        .addTo(mapFull);
+      marker.bindPopup(`
+        <div class="popup-day">DAY ${day.day}</div>
+        <div class="popup-title">${stop.place}</div>
+      `);
+      // click pin → scroll to day
+      marker.on('click', () => selectDay(day.day));
+    });
+  });
+}
+
+// ─── DAY TABS ───────────────────────────────────────
+let currentDay = 1;
+
+function renderDayTabs() {
+  const el = document.getElementById('day-tabs');
+  el.innerHTML = days.map(d => `
+    <div class="day-tab ${d.day === currentDay ? 'active' : ''}"
+         onclick="selectDay(${d.day})">
+      DAY ${d.day}
+    </div>
+  `).join('');
+}
+
+function renderDayContent(dayNum) {
+  const day = days.find(d => d.day === dayNum);
+  if (!day) return;
+  const el = document.getElementById('day-content');
+  el.innerHTML = `
+    <div class="day-date">${day.date}</div>
+    ${day.stops.map((stop, idx) => `
+      <div class="stop-item">
+        <div class="stop-timeline">
+          <div class="stop-dot" style="background:${pinColors[stop.pinColor]};box-shadow:0 0 0 2px ${pinColors[stop.pinColor]}"></div>
+          ${idx < day.stops.length - 1 ? '<div class="stop-line"></div>' : ''}
+        </div>
+        <div class="stop-body">
+          <div class="stop-time">${stop.time}</div>
+          <div class="stop-place">${stop.place}</div>
+          <div class="stop-desc">${stop.desc}</div>
+          <div class="photo-grid">
+            ${stop.photos.slice(0, 3).map((s, i) => `
+              <div class="photo-thumb${i===2 && stop.photos.length > 3 ? ' more' : ''}"
+                   data-count="+${stop.photos.length - 2}장">
+                <img src="${photoUrl(s)}" loading="lazy">
+              </div>
+            `).join('')}
+          </div>
+          ${stop.product ? `
+            <div class="inline-product">
+              <div class="inline-product-icon" style="background:${stop.product.bg}">${stop.product.icon}</div>
+              <div class="inline-product-info">
+                <span class="inline-product-tag" style="background:${stop.product.tagBg};color:${stop.product.tagColor}">${stop.product.tag}</span>
+                <div class="inline-product-name">${stop.product.name}</div>
+                <div class="inline-product-price">${stop.product.price}</div>
+              </div>
+              <button class="inline-product-btn"
+                onclick="window.open('${stop.product.url}','_blank')">
+                예약하기
+              </button>
+            </div>
+          ` : ''}
+        </div>
+      </div>
+    `).join('')}
+  `;
+  el.scrollTop = 0;
+}
+
+function selectDay(dayNum) {
+  currentDay = dayNum;
+  renderDayTabs();
+  renderDayContent(dayNum);
+
+  // Fly map to first stop of that day
+  if (mapFull) {
+    const day = days.find(d => d.day === dayNum);
+    if (day && day.stops.length > 0) {
+      mapFull.flyTo([day.stops[0].lat, day.stops[0].lng], 12, { duration: 0.8 });
+    }
+  }
+}
+
+// ─── PANEL OPEN/CLOSE ───────────────────────────────
+function openCourse() {
+  const panel = document.getElementById('course-panel');
+  panel.classList.add('open');
+
+  // Init full map after panel opens (needs to be visible)
+  setTimeout(() => {
+    initMapFull();
+    if (mapFull) mapFull.invalidateSize();
+  }, 450);
+
+  renderDayTabs();
+  renderDayContent(1);
+  document.body.style.overflow = 'hidden';
+}
+
+function closeCourse() {
+  const panel = document.getElementById('course-panel');
+  panel.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// ─── INIT ────────────────────────────────────────────
+// Init preview map after brief delay
+setTimeout(initMapPreview, 100);
+</script>
+</body>
+</html>

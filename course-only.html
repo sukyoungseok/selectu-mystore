@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>마이스토어 — 여행 코스 페이지</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:'Noto Sans KR',sans-serif; background:#e8e8ed; min-height:100vh;
+      display:flex; flex-direction:column; align-items:center; padding:32px 16px 64px; }
+
+    .nav {
+      position:fixed; top:0; left:0; right:0; z-index:100;
+      background:rgba(255,255,255,0.95); backdrop-filter:blur(10px);
+      padding:12px 20px; display:flex; gap:8px; justify-content:center;
+      border-bottom:1px solid #eee;
+    }
+    .nav-btn {
+      padding:7px 18px; border-radius:20px; border:1.5px solid #ddd;
+      background:transparent; color:#888; font-size:12px; cursor:pointer;
+      font-family:'Noto Sans KR',sans-serif; transition:all 0.2s; font-weight:500;
+    }
+    .nav-btn.active { background:#111; border-color:#111; color:#fff; }
+
+    .section { display:none; padding-top:60px; width:100%; align-items:center; flex-direction:column; }
+    .section.active { display:flex; }
+
+    .phone {
+      width:390px; max-width:100%; border-radius:40px; overflow:hidden;
+      box-shadow:0 32px 80px rgba(0,0,0,0.22), 0 0 0 1px rgba(0,0,0,0.06);
+      margin:24px auto;
+    }
+    .scroll-area {
+      height:780px; overflow-y:auto;
+      -webkit-overflow-scrolling:touch; scrollbar-width:none;
+    }
+    .scroll-area::-webkit-scrollbar { display:none; }
+
+    /* ════════════ 공통 타임라인 구조 ════════════ */
+    /* 각 스타일에 덮어쓰기 */
+
+    /* ═══════════════════════════════════
+       STYLE A — 다크
+    ═══════════════════════════════════ */
+    .a-page { background:#0d0d0d; min-height:100%; }
+
+    .a-hero {
+      background:linear-gradient(175deg,#1a1a2e 0%,#0d0d0d 100%);
+      padding:36px 22px 22px; position:relative; overflow:hidden;
+    }
+    .a-hero-glow { position:absolute; top:-40px; right:-40px; width:180px; height:180px;
+      border-radius:50%; background:radial-gradient(circle,rgba(255,124,64,0.2) 0%,transparent 70%); }
+    .a-avatar { width:60px; height:60px; border-radius:50%;
+      background:linear-gradient(135deg,#ff7c40,#ffb347);
+      display:flex; align-items:center; justify-content:center;
+      font-size:24px; margin-bottom:10px; position:relative; z-index:1; }
+    .a-name { color:#fff; font-size:16px; font-weight:700; position:relative; z-index:1; }
+    .a-handle { color:#555; font-size:12px; margin:3px 0 7px; position:relative; z-index:1; }
+    .a-desc { color:#777; font-size:12px; line-height:1.7; position:relative; z-index:1; }
+    .a-chips { display:flex; gap:5px; flex-wrap:wrap; margin-top:10px; position:relative; z-index:1; }
+    .a-chip { padding:3px 8px; border-radius:20px; border:1px solid #252525; color:#555; font-size:10px; }
+
+    /* 타임라인 */
+    .a-timeline { padding:16px 20px 8px; }
+    .a-day-group { margin-bottom:20px; }
+    .a-day-header {
+      display:flex; align-items:center; gap:8px; margin-bottom:12px;
+      padding-bottom:10px; border-bottom:1px solid #1a1a1a;
+    }
+    .a-day-badge {
+      background:linear-gradient(135deg,#ff7c40,#ffb347);
+      color:#fff; font-size:9px; font-weight:800; padding:4px 10px; border-radius:20px;
+    }
+    .a-day-name { color:#ccc; font-size:12px; font-weight:700; }
+    .a-day-loc { color:#444; font-size:11px; margin-left:auto; }
+
+    .a-tl { position:relative; padding-left:16px; }
+    .a-tl::before {
+      content:''; position:absolute; left:5px; top:6px; bottom:6px;
+      width:1px; background:linear-gradient(180deg,#ff7c40,rgba(255,124,64,0.1));
+    }
+
+    .a-node { position:relative; margin-bottom:4px; }
+    .a-node-dot {
+      position:absolute; left:-11px; top:10px;
+      width:8px; height:8px; border-radius:50%;
+      background:#ff7c40; box-shadow:0 0 0 3px rgba(255,124,64,0.15);
+      z-index:1;
+    }
+    .a-spot-row {
+      background:#141414; border-radius:10px; padding:9px 11px;
+      display:flex; align-items:center; justify-content:space-between;
+      border:1px solid #1e1e1e; margin-bottom:5px;
+    }
+    .a-spot-name { color:#ccc; font-size:12px; font-weight:500; }
+    .a-spot-time { color:#444; font-size:10px; background:#1a1a1a;
+      padding:2px 7px; border-radius:6px; white-space:nowrap; flex-shrink:0; }
+
+    /* 인라인 상품 카드 — A */
+    .a-inline-book {
+      margin:0 0 8px 0;
+      background:linear-gradient(135deg,rgba(255,124,64,0.12),rgba(255,179,71,0.06));
+      border:1px solid rgba(255,124,64,0.25); border-radius:10px;
+      padding:9px 11px; display:flex; align-items:center; gap:9px;
+      cursor:pointer; text-decoration:none; transition:all 0.15s;
+    }
+    .a-inline-book:active { transform:scale(0.98); }
+    .a-inline-icon { font-size:18px; flex-shrink:0; }
+    .a-inline-info { flex:1; min-width:0; }
+    .a-inline-name { color:#ddd; font-size:11px; font-weight:600;
+      white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .a-inline-price { color:#ff7c40; font-size:13px; font-weight:800; margin-top:1px; }
+    .a-inline-price small { color:#666; font-size:10px; font-weight:400; }
+    .a-inline-btn {
+      background:linear-gradient(135deg,#ff7c40,#ffb347);
+      color:#fff; font-size:10px; font-weight:700;
+      padding:6px 10px; border-radius:8px; white-space:nowrap; flex-shrink:0;
+    }
+
+    .a-footer { padding:16px 20px 28px; text-align:center; }
+    .a-footer-txt { color:#282828; font-size:10px; }
+
+    /* ═══════════════════════════════════
+       STYLE B — 라이트
+    ═══════════════════════════════════ */
+    .b-page { background:#f5f6fa; min-height:100%; }
+
+    .b-hero { background:#fff; padding:36px 22px 22px; text-align:center;
+      border-bottom:1px solid #f0f0f0; }
+    .b-avatar { width:62px; height:62px; border-radius:50%;
+      background:linear-gradient(135deg,#51abf3,#33b893);
+      display:flex; align-items:center; justify-content:center;
+      font-size:24px; margin:0 auto 10px; }
+    .b-name { font-size:16px; font-weight:700; color:#111; }
+    .b-handle { font-size:12px; color:#aaa; margin:3px 0 7px; }
+    .b-desc { font-size:12px; color:#777; line-height:1.7; }
+    .b-chips { display:flex; gap:5px; justify-content:center; flex-wrap:wrap; margin-top:10px; }
+    .b-chip { padding:3px 8px; border-radius:20px; background:#f0f0f0; color:#888; font-size:10px; }
+
+    .b-timeline { padding:16px 18px 8px; }
+    .b-day-group { margin-bottom:20px; }
+    .b-day-header {
+      display:flex; align-items:center; gap:8px; margin-bottom:12px;
+      padding-bottom:10px; border-bottom:1px solid #eee;
+    }
+    .b-day-badge { background:#111; color:#fff; font-size:9px; font-weight:800;
+      padding:4px 10px; border-radius:20px; }
+    .b-day-name { color:#333; font-size:12px; font-weight:700; }
+    .b-day-loc { color:#bbb; font-size:11px; margin-left:auto; }
+
+    .b-tl { position:relative; padding-left:16px; }
+    .b-tl::before {
+      content:''; position:absolute; left:5px; top:6px; bottom:6px;
+      width:1px; background:linear-gradient(180deg,#51abf3,rgba(81,171,243,0.1));
+    }
+
+    .b-node { position:relative; margin-bottom:4px; }
+    .b-node-dot {
+      position:absolute; left:-11px; top:10px;
+      width:8px; height:8px; border-radius:50%;
+      background:#51abf3; box-shadow:0 0 0 3px rgba(81,171,243,0.15);
+      z-index:1;
+    }
+    .b-spot-row {
+      background:#fff; border-radius:10px; padding:9px 11px;
+      display:flex; align-items:center; justify-content:space-between;
+      border:1px solid #eee; margin-bottom:5px;
+      box-shadow:0 1px 4px rgba(0,0,0,0.04);
+    }
+    .b-spot-name { color:#333; font-size:12px; font-weight:500; }
+    .b-spot-time { color:#bbb; font-size:10px; background:#f5f5f5;
+      padding:2px 7px; border-radius:6px; white-space:nowrap; flex-shrink:0; }
+
+    /* 인라인 상품 카드 — B */
+    .b-inline-book {
+      margin:0 0 8px 0;
+      background:linear-gradient(135deg,rgba(81,171,243,0.08),rgba(51,184,147,0.05));
+      border:1.5px solid rgba(81,171,243,0.2); border-radius:10px;
+      padding:9px 11px; display:flex; align-items:center; gap:9px;
+      cursor:pointer; text-decoration:none; transition:all 0.15s;
+      box-shadow:0 2px 8px rgba(81,171,243,0.08);
+    }
+    .b-inline-book:active { transform:scale(0.98); }
+    .b-inline-icon { font-size:18px; flex-shrink:0; }
+    .b-inline-info { flex:1; min-width:0; }
+    .b-inline-name { color:#111; font-size:11px; font-weight:600;
+      white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .b-inline-price { color:#51abf3; font-size:13px; font-weight:800; margin-top:1px; }
+    .b-inline-price small { color:#bbb; font-size:10px; font-weight:400; }
+    .b-inline-btn {
+      background:linear-gradient(135deg,#51abf3,#33b893);
+      color:#fff; font-size:10px; font-weight:700;
+      padding:6px 10px; border-radius:8px; white-space:nowrap; flex-shrink:0;
+    }
+
+    .b-footer { padding:16px 20px 28px; text-align:center; border-top:1px solid #f0f0f0; }
+    .b-footer-txt { color:#ddd; font-size:10px; }
+
+    /* ═══════════════════════════════════
+       STYLE C — 그라데이션
+    ═══════════════════════════════════ */
+    .c-page { background:#f7f7f9; min-height:100%; }
+
+    .c-hero {
+      background:linear-gradient(150deg,#ff6b35 0%,#f7971e 55%,#ffd200 100%);
+      padding:36px 22px 32px; text-align:center; position:relative; overflow:hidden;
+    }
+    .c-hero::after { content:''; position:absolute; bottom:-1px; left:0; right:0;
+      height:28px; background:#f7f7f9; border-radius:28px 28px 0 0; }
+    .c-avatar { width:62px; height:62px; border-radius:50%;
+      background:rgba(255,255,255,0.3); display:flex; align-items:center; justify-content:center;
+      font-size:26px; margin:0 auto 10px; border:2px solid rgba(255,255,255,0.5); }
+    .c-name { font-size:16px; font-weight:800; color:#fff; text-shadow:0 1px 4px rgba(0,0,0,0.15); }
+    .c-handle { font-size:12px; color:rgba(255,255,255,0.8); margin:3px 0 7px; }
+    .c-desc { font-size:12px; color:rgba(255,255,255,0.85); line-height:1.7; }
+    .c-chips { display:flex; gap:5px; justify-content:center; flex-wrap:wrap; margin-top:10px; }
+    .c-chip { padding:3px 8px; border-radius:20px; background:rgba(255,255,255,0.2);
+      color:rgba(255,255,255,0.9); font-size:10px; border:1px solid rgba(255,255,255,0.3); }
+
+    .c-timeline { padding:16px 18px 8px; }
+    .c-day-group { margin-bottom:20px; }
+    .c-day-header {
+      display:flex; align-items:center; gap:8px; margin-bottom:12px;
+    }
+    .c-day-band {
+      flex:1; display:flex; align-items:center; gap:8px;
+      padding:8px 12px; border-radius:10px;
+    }
+    .c-day-badge { color:#fff; font-size:9px; font-weight:800;
+      background:rgba(0,0,0,0.2); padding:3px 8px; border-radius:8px; white-space:nowrap; }
+    .c-day-name { color:#fff; font-size:12px; font-weight:700; text-shadow:0 1px 3px rgba(0,0,0,0.15); flex:1; }
+    .c-day-emoji { font-size:18px; }
+
+    .c-tl { position:relative; padding-left:16px; }
+    .c-tl::before {
+      content:''; position:absolute; left:5px; top:6px; bottom:6px;
+      width:1px; background:linear-gradient(180deg,#ff6b35,rgba(255,107,53,0.1));
+    }
+
+    .c-node { position:relative; margin-bottom:4px; }
+    .c-node-dot {
+      position:absolute; left:-11px; top:10px;
+      width:8px; height:8px; border-radius:50%;
+      background:#ff6b35; box-shadow:0 0 0 3px rgba(255,107,53,0.15);
+      z-index:1;
+    }
+    .c-spot-row {
+      background:#fff; border-radius:10px; padding:9px 11px;
+      display:flex; align-items:center; justify-content:space-between;
+      box-shadow:0 1px 5px rgba(0,0,0,0.05); margin-bottom:5px;
+    }
+    .c-spot-name { color:#333; font-size:12px; font-weight:500; }
+    .c-spot-time { color:#ccc; font-size:10px; white-space:nowrap; flex-shrink:0; }
+
+    /* 인라인 상품 카드 — C */
+    .c-inline-book {
+      margin:0 0 8px 0;
+      background:linear-gradient(135deg,rgba(255,107,53,0.08),rgba(255,210,0,0.06));
+      border:1.5px solid rgba(255,107,53,0.2); border-radius:10px;
+      padding:9px 11px; display:flex; align-items:center; gap:9px;
+      cursor:pointer; text-decoration:none; transition:all 0.15s;
+    }
+    .c-inline-book:active { transform:scale(0.98); }
+    .c-inline-icon { font-size:18px; flex-shrink:0; }
+    .c-inline-info { flex:1; min-width:0; }
+    .c-inline-name { color:#222; font-size:11px; font-weight:600;
+      white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .c-inline-price { color:#ff6b35; font-size:13px; font-weight:800; margin-top:1px; }
+    .c-inline-price small { color:#bbb; font-size:10px; font-weight:400; }
+    .c-inline-btn {
+      background:linear-gradient(135deg,#ff6b35,#ffd200);
+      color:#fff; font-size:10px; font-weight:700;
+      padding:6px 10px; border-radius:8px; white-space:nowrap; flex-shrink:0;
+    }
+
+    .c-footer { padding:12px 18px 28px; text-align:center; }
+    .c-footer-txt { color:#ccc; font-size:10px; }
+  </style>
+</head>
+<body>
+
+  <div class="nav">
+    <button class="nav-btn active" onclick="switchStyle('a', this)">A — 다크</button>
+    <button class="nav-btn" onclick="switchStyle('b', this)">B — 라이트</button>
+    <button class="nav-btn" onclick="switchStyle('c', this)">C — 그라데이션</button>
+  </div>
+
+  <!-- ══════════ STYLE A ══════════ -->
+  <div id="sec-a" class="section active">
+    <div class="phone"><div class="scroll-area"><div class="a-page">
+
+      <div class="a-hero">
+        <div class="a-hero-glow"></div>
+        <div class="a-avatar">🇨🇳</div>
+        <div class="a-name">june ✈️ 상하이 여행기록</div>
+        <div class="a-handle">@june_fairytale</div>
+        <div class="a-desc">상하이 3박4일 완전정복 🏰 디즈니부터 수향마을까지</div>
+        <div class="a-chips">
+          <span class="a-chip">#상하이</span><span class="a-chip">#중국여행</span>
+          <span class="a-chip">#디즈니</span><span class="a-chip">#수향마을</span>
+        </div>
+      </div>
+
+      <div class="a-timeline">
+
+        <!-- DAY 1 -->
+        <div class="a-day-group">
+          <div class="a-day-header">
+            <span class="a-day-badge">DAY 1</span>
+            <span class="a-day-name">디즈니데이 🏰</span>
+            <span class="a-day-loc">상하이 디즈니랜드</span>
+          </div>
+          <div class="a-tl">
+            <div class="a-node">
+              <div class="a-node-dot"></div>
+              <div class="a-spot-row"><span class="a-spot-name">공항 도착</span><span class="a-spot-time">오후</span></div>
+            </div>
+            <a class="a-inline-book" href="#">
+              <span class="a-inline-icon">✈️</span>
+              <div class="a-inline-info">
+                <div class="a-inline-name">인천 → 상하이 왕복 항공</div>
+                <div class="a-inline-price">₩180,000<small>~/인</small></div>
+              </div>
+              <span class="a-inline-btn">예약하기 →</span>
+            </a>
+            <div class="a-node">
+              <div class="a-node-dot"></div>
+              <div class="a-spot-row"><span class="a-spot-name">상하이 디즈니랜드</span><span class="a-spot-time">오후~저녁</span></div>
+            </div>
+            <a class="a-inline-book" href="#">
+              <span class="a-inline-icon">🎢</span>
+              <div class="a-inline-info">
+                <div class="a-inline-name">상하이 디즈니랜드 입장권</div>
+                <div class="a-inline-price">₩85,000<small>~ (5% 쿠폰)</small></div>
+              </div>
+              <span class="a-inline-btn">예약하기 →</span>
+            </a>
+            <div class="a-node">
+              <div class="a-node-dot"></div>
+              <div class="a-spot-row"><span class="a-spot-name">토이스토리 호텔 체크인</span><span class="a-spot-time">숙박</span></div>
+            </div>
+            <a class="a-inline-book" href="#">
+              <span class="a-inline-icon">🏰</span>
+              <div class="a-inline-info">
+                <div class="a-inline-name">상하이 디즈니 토이스토리 호텔</div>
+                <div class="a-inline-price">₩120,000<small>~/박</small></div>
+              </div>
+              <span class="a-inline-btn">예약하기 →</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- DAY 2 -->
+        <div class="a-day-group">
+          <div class="a-day-header">
+            <span class="a-day-badge">DAY 2</span>
+            <span class="a-day-name">우캉멘션 · 예원 · 황푸강</span>
+            <span class="a-day-loc">프랑스조계지</span>
+          </div>
+          <div class="a-tl">
+            <div class="a-node">
+              <div class="a-node-dot"></div>
+              <div class="a-spot-row"><span class="a-spot-name">우캉멘션 (포토스팟)</span><span class="a-spot-time">오전</span></div>
+            </div>
+            <div class="a-node">
+              <div class="a-node-dot"></div>
+              <div class="a-spot-row"><span class="a-spot-name">프랑스조계지 거리 산책</span><span class="a-spot-time">오전</span></div>
+            </div>
+            <div class="a-node">
+              <div class="a-node-dot"></div>
+              <div class="a-spot-row"><span class="a-spot-name">예원 (豫園) · 소룡포</span><span class="a-spot-time">오후</span></div>
+            </div>
+            <div class="a-node">
+              <div class="a-node-dot"></div>
+              <div class="a-spot-row"><span class="a-spot-name">황푸강 유람선 탑승</span><span class="a-spot-time">저녁</span></div>
+            </div>
+            <a class="a-inline-book" href="#">
+              <span class="a-inline-icon">🚢</span>
+              <div class="a-inline-info">
+                <div class="a-inline-name">황푸강 야경 유람선</div>
+                <div class="a-inline-price">₩22,000<small>~/인</small></div>
+              </div>
+              <span class="a-inline-btn">예약하기 →</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- DAY 3 -->
+        <div class="a-day-group">
+          <div class="a-day-header">
+            <span class="a-day-badge">DAY 3</span>
+            <span class="a-day-name">우전 수향마을 야경투어</span>
+            <span class="a-day-loc">우전 (乌镇)</span>
+          </div>
+          <div class="a-tl">
+            <div class="a-node">
+              <div class="a-node-dot"></div>
+              <div class="a-spot-row"><span class="a-spot-name">우전 수향마을 도착</span><span class="a-spot-time">오전</span></div>
+            </div>
+            <a class="a-inline-book" href="#">
+              <span class="a-inline-icon">🏮</span>
+              <div class="a-inline-info">
+                <div class="a-inline-name">우전 수향마을 야경투어</div>
+                <div class="a-inline-price">₩45,000<small>~/인</small></div>
+              </div>
+              <span class="a-inline-btn">예약하기 →</span>
+            </a>
+            <div class="a-node">
+              <div class="a-node-dot"></div>
+              <div class="a-spot-row"><span class="a-spot-name">수향마을 야경 감상</span><span class="a-spot-time">저녁</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DAY 4 -->
+        <div class="a-day-group">
+          <div class="a-day-header">
+            <span class="a-day-badge">DAY 4</span>
+            <span class="a-day-name">동방명주 & 귀국</span>
+            <span class="a-day-loc">루자쭈이</span>
+          </div>
+          <div class="a-tl">
+            <div class="a-node">
+              <div class="a-node-dot"></div>
+              <div class="a-spot-row"><span class="a-spot-name">동방명주 (东方明珠) 전망대</span><span class="a-spot-time">오전</span></div>
+            </div>
+            <div class="a-node">
+              <div class="a-node-dot"></div>
+              <div class="a-spot-row"><span class="a-spot-name">귀국 — 푸동 국제공항</span><span class="a-spot-time">오후</span></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="a-footer">
+        <div class="a-footer-txt">마이리얼트립 마이스토어 · @june_fairytale</div>
+      </div>
+
+    </div></div></div>
+  </div>
+
+  <!-- ══════════ STYLE B ══════════ -->
+  <div id="sec-b" class="section">
+    <div class="phone"><div class="scroll-area"><div class="b-page">
+
+      <div class="b-hero">
+        <div class="b-avatar">🇨🇳</div>
+        <div class="b-name">june ✈️ 상하이 여행기록</div>
+        <div class="b-handle">@june_fairytale</div>
+        <div class="b-desc">상하이 3박4일 완전정복 🏰 디즈니부터 수향마을까지</div>
+        <div class="b-chips">
+          <span class="b-chip">#상하이</span><span class="b-chip">#중국여행</span>
+          <span class="b-chip">#디즈니</span><span class="b-chip">#수향마을</span>
+        </div>
+      </div>
+
+      <div class="b-timeline">
+
+        <!-- DAY 1 -->
+        <div class="b-day-group">
+          <div class="b-day-header">
+            <span class="b-day-badge">DAY 1</span>
+            <span class="b-day-name">디즈니데이 🏰</span>
+            <span class="b-day-loc">상하이 디즈니랜드</span>
+          </div>
+          <div class="b-tl">
+            <div class="b-node">
+              <div class="b-node-dot"></div>
+              <div class="b-spot-row"><span class="b-spot-name">공항 도착</span><span class="b-spot-time">오후</span></div>
+            </div>
+            <a class="b-inline-book" href="#">
+              <span class="b-inline-icon">✈️</span>
+              <div class="b-inline-info">
+                <div class="b-inline-name">인천 → 상하이 왕복 항공</div>
+                <div class="b-inline-price">₩180,000<small>~/인</small></div>
+              </div>
+              <span class="b-inline-btn">예약하기 →</span>
+            </a>
+            <div class="b-node">
+              <div class="b-node-dot"></div>
+              <div class="b-spot-row"><span class="b-spot-name">상하이 디즈니랜드</span><span class="b-spot-time">오후~저녁</span></div>
+            </div>
+            <a class="b-inline-book" href="#">
+              <span class="b-inline-icon">🎢</span>
+              <div class="b-inline-info">
+                <div class="b-inline-name">상하이 디즈니랜드 입장권</div>
+                <div class="b-inline-price">₩85,000<small>~ (5% 쿠폰)</small></div>
+              </div>
+              <span class="b-inline-btn">예약하기 →</span>
+            </a>
+            <div class="b-node">
+              <div class="b-node-dot"></div>
+              <div class="b-spot-row"><span class="b-spot-name">토이스토리 호텔 체크인</span><span class="b-spot-time">숙박</span></div>
+            </div>
+            <a class="b-inline-book" href="#">
+              <span class="b-inline-icon">🏰</span>
+              <div class="b-inline-info">
+                <div class="b-inline-name">상하이 디즈니 토이스토리 호텔</div>
+                <div class="b-inline-price">₩120,000<small>~/박</small></div>
+              </div>
+              <span class="b-inline-btn">예약하기 →</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- DAY 2 -->
+        <div class="b-day-group">
+          <div class="b-day-header">
+            <span class="b-day-badge">DAY 2</span>
+            <span class="b-day-name">우캉멘션 · 예원 · 황푸강</span>
+            <span class="b-day-loc">프랑스조계지</span>
+          </div>
+          <div class="b-tl">
+            <div class="b-node">
+              <div class="b-node-dot"></div>
+              <div class="b-spot-row"><span class="b-spot-name">우캉멘션 (포토스팟)</span><span class="b-spot-time">오전</span></div>
+            </div>
+            <div class="b-node">
+              <div class="b-node-dot"></div>
+              <div class="b-spot-row"><span class="b-spot-name">프랑스조계지 거리 산책</span><span class="b-spot-time">오전</span></div>
+            </div>
+            <div class="b-node">
+              <div class="b-node-dot"></div>
+              <div class="b-spot-row"><span class="b-spot-name">예원 (豫園) · 소룡포</span><span class="b-spot-time">오후</span></div>
+            </div>
+            <div class="b-node">
+              <div class="b-node-dot"></div>
+              <div class="b-spot-row"><span class="b-spot-name">황푸강 유람선 탑승</span><span class="b-spot-time">저녁</span></div>
+            </div>
+            <a class="b-inline-book" href="#">
+              <span class="b-inline-icon">🚢</span>
+              <div class="b-inline-info">
+                <div class="b-inline-name">황푸강 야경 유람선</div>
+                <div class="b-inline-price">₩22,000<small>~/인</small></div>
+              </div>
+              <span class="b-inline-btn">예약하기 →</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- DAY 3 -->
+        <div class="b-day-group">
+          <div class="b-day-header">
+            <span class="b-day-badge">DAY 3</span>
+            <span class="b-day-name">우전 수향마을 야경투어</span>
+            <span class="b-day-loc">우전 (乌镇)</span>
+          </div>
+          <div class="b-tl">
+            <div class="b-node">
+              <div class="b-node-dot"></div>
+              <div class="b-spot-row"><span class="b-spot-name">우전 수향마을 도착</span><span class="b-spot-time">오전</span></div>
+            </div>
+            <a class="b-inline-book" href="#">
+              <span class="b-inline-icon">🏮</span>
+              <div class="b-inline-info">
+                <div class="b-inline-name">우전 수향마을 야경투어</div>
+                <div class="b-inline-price">₩45,000<small>~/인</small></div>
+              </div>
+              <span class="b-inline-btn">예약하기 →</span>
+            </a>
+            <div class="b-node">
+              <div class="b-node-dot"></div>
+              <div class="b-spot-row"><span class="b-spot-name">수향마을 야경 감상</span><span class="b-spot-time">저녁</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DAY 4 -->
+        <div class="b-day-group">
+          <div class="b-day-header">
+            <span class="b-day-badge">DAY 4</span>
+            <span class="b-day-name">동방명주 & 귀국</span>
+            <span class="b-day-loc">루자쭈이</span>
+          </div>
+          <div class="b-tl">
+            <div class="b-node">
+              <div class="b-node-dot"></div>
+              <div class="b-spot-row"><span class="b-spot-name">동방명주 (东方明珠) 전망대</span><span class="b-spot-time">오전</span></div>
+            </div>
+            <div class="b-node">
+              <div class="b-node-dot"></div>
+              <div class="b-spot-row"><span class="b-spot-name">귀국 — 푸동 국제공항</span><span class="b-spot-time">오후</span></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="b-footer">
+        <div class="b-footer-txt">마이리얼트립 마이스토어 · @june_fairytale</div>
+      </div>
+
+    </div></div></div>
+  </div>
+
+  <!-- ══════════ STYLE C ══════════ -->
+  <div id="sec-c" class="section">
+    <div class="phone"><div class="scroll-area"><div class="c-page">
+
+      <div class="c-hero">
+        <div class="c-avatar">🇨🇳</div>
+        <div class="c-name">june ✈️ 상하이 여행기록</div>
+        <div class="c-handle">@june_fairytale</div>
+        <div class="c-desc">상하이 3박4일 완전정복 🏰 디즈니부터 수향마을까지</div>
+        <div class="c-chips">
+          <span class="c-chip">#상하이</span><span class="c-chip">#중국여행</span>
+          <span class="c-chip">#디즈니</span><span class="c-chip">#수향마을</span>
+        </div>
+      </div>
+
+      <div class="c-timeline">
+
+        <!-- DAY 1 -->
+        <div class="c-day-group">
+          <div class="c-day-header">
+            <div class="c-day-band" style="background:linear-gradient(135deg,#667eea,#764ba2);">
+              <span class="c-day-badge">DAY 1</span>
+              <span class="c-day-name">디즈니데이</span>
+              <span class="c-day-emoji">🏰</span>
+            </div>
+          </div>
+          <div class="c-tl">
+            <div class="c-node">
+              <div class="c-node-dot"></div>
+              <div class="c-spot-row"><span class="c-spot-name">공항 도착</span><span class="c-spot-time">오후</span></div>
+            </div>
+            <a class="c-inline-book" href="#">
+              <span class="c-inline-icon">✈️</span>
+              <div class="c-inline-info">
+                <div class="c-inline-name">인천 → 상하이 왕복 항공</div>
+                <div class="c-inline-price">₩180,000<small>~/인</small></div>
+              </div>
+              <span class="c-inline-btn">예약 →</span>
+            </a>
+            <div class="c-node">
+              <div class="c-node-dot"></div>
+              <div class="c-spot-row"><span class="c-spot-name">상하이 디즈니랜드</span><span class="c-spot-time">오후~저녁</span></div>
+            </div>
+            <a class="c-inline-book" href="#">
+              <span class="c-inline-icon">🎢</span>
+              <div class="c-inline-info">
+                <div class="c-inline-name">상하이 디즈니랜드 입장권</div>
+                <div class="c-inline-price">₩85,000<small>~ (5% 쿠폰)</small></div>
+              </div>
+              <span class="c-inline-btn">예약 →</span>
+            </a>
+            <div class="c-node">
+              <div class="c-node-dot"></div>
+              <div class="c-spot-row"><span class="c-spot-name">토이스토리 호텔 체크인</span><span class="c-spot-time">숙박</span></div>
+            </div>
+            <a class="c-inline-book" href="#">
+              <span class="c-inline-icon">🏰</span>
+              <div class="c-inline-info">
+                <div class="c-inline-name">상하이 디즈니 토이스토리 호텔</div>
+                <div class="c-inline-price">₩120,000<small>~/박</small></div>
+              </div>
+              <span class="c-inline-btn">예약 →</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- DAY 2 -->
+        <div class="c-day-group">
+          <div class="c-day-header">
+            <div class="c-day-band" style="background:linear-gradient(135deg,#f7971e,#ffd200);">
+              <span class="c-day-badge">DAY 2</span>
+              <span class="c-day-name">우캉멘션·예원·황푸강</span>
+              <span class="c-day-emoji">🏮</span>
+            </div>
+          </div>
+          <div class="c-tl">
+            <div class="c-node">
+              <div class="c-node-dot"></div>
+              <div class="c-spot-row"><span class="c-spot-name">우캉멘션 (포토스팟)</span><span class="c-spot-time">오전</span></div>
+            </div>
+            <div class="c-node">
+              <div class="c-node-dot"></div>
+              <div class="c-spot-row"><span class="c-spot-name">프랑스조계지 거리 산책</span><span class="c-spot-time">오전</span></div>
+            </div>
+            <div class="c-node">
+              <div class="c-node-dot"></div>
+              <div class="c-spot-row"><span class="c-spot-name">예원 (豫園) · 소룡포</span><span class="c-spot-time">오후</span></div>
+            </div>
+            <div class="c-node">
+              <div class="c-node-dot"></div>
+              <div class="c-spot-row"><span class="c-spot-name">황푸강 유람선 탑승</span><span class="c-spot-time">저녁</span></div>
+            </div>
+            <a class="c-inline-book" href="#">
+              <span class="c-inline-icon">🚢</span>
+              <div class="c-inline-info">
+                <div class="c-inline-name">황푸강 야경 유람선</div>
+                <div class="c-inline-price">₩22,000<small>~/인</small></div>
+              </div>
+              <span class="c-inline-btn">예약 →</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- DAY 3 -->
+        <div class="c-day-group">
+          <div class="c-day-header">
+            <div class="c-day-band" style="background:linear-gradient(135deg,#11998e,#38ef7d);">
+              <span class="c-day-badge">DAY 3</span>
+              <span class="c-day-name">우전 수향마을</span>
+              <span class="c-day-emoji">🌿</span>
+            </div>
+          </div>
+          <div class="c-tl">
+            <div class="c-node">
+              <div class="c-node-dot"></div>
+              <div class="c-spot-row"><span class="c-spot-name">우전 수향마을 도착</span><span class="c-spot-time">오전</span></div>
+            </div>
+            <a class="c-inline-book" href="#">
+              <span class="c-inline-icon">🏮</span>
+              <div class="c-inline-info">
+                <div class="c-inline-name">우전 수향마을 야경투어</div>
+                <div class="c-inline-price">₩45,000<small>~/인</small></div>
+              </div>
+              <span class="c-inline-btn">예약 →</span>
+            </a>
+            <div class="c-node">
+              <div class="c-node-dot"></div>
+              <div class="c-spot-row"><span class="c-spot-name">수향마을 야경 감상</span><span class="c-spot-time">저녁</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DAY 4 -->
+        <div class="c-day-group">
+          <div class="c-day-header">
+            <div class="c-day-band" style="background:linear-gradient(135deg,#ee0979,#ff6a00);">
+              <span class="c-day-badge">DAY 4</span>
+              <span class="c-day-name">동방명주 & 귀국</span>
+              <span class="c-day-emoji">🗼</span>
+            </div>
+          </div>
+          <div class="c-tl">
+            <div class="c-node">
+              <div class="c-node-dot"></div>
+              <div class="c-spot-row"><span class="c-spot-name">동방명주 (东方明珠)</span><span class="c-spot-time">오전</span></div>
+            </div>
+            <div class="c-node">
+              <div class="c-node-dot"></div>
+              <div class="c-spot-row"><span class="c-spot-name">귀국 — 푸동 국제공항</span><span class="c-spot-time">오후</span></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="c-footer">
+        <div class="c-footer-txt">마이리얼트립 마이스토어 · @june_fairytale</div>
+      </div>
+
+    </div></div></div>
+  </div>
+
+  <script>
+    function switchStyle(id, btn) {
+      document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+      document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+      document.getElementById('sec-' + id).classList.add('active');
+      btn.classList.add('active');
+    }
+  </script>
+</body>
+</html>
