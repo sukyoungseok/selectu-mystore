@@ -1,7 +1,12 @@
-.vercel
-.playwright-mcp/
-.omc/
-*.b64
-*-sm.jpg
-inpock-ref.png
-screenshot-main.png
+.DS_Store
+sessions/
+youtube-channel-research.md
+크리에이터-협업-액션플랜*.md
+MyStore v2.html
+bio-v2.html
+bio-v3.html
+budget-button-candidates.html
+course-only.html
+course-variations.html
+design-candidates.html
+ref-variations.html
