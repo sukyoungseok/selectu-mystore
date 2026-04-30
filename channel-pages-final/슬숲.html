@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>슬숲 · 마이스토어</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--cream:#f8f4ee;--amber:#3A8A40;--sage:#5AAA5A;--text:#1a1714;--mid:#6b6560;--light:#a09890;--border:#ede8e0;--accent:#1A4A1A}
+body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;display:flex;justify-content:center;align-items:flex-start}
+.phone{width:390px;min-height:100vh;background:var(--cream);position:relative;overflow:hidden;box-shadow:0 0 60px rgba(0,0,0,.25)}
+#main-page{position:absolute;top:0;left:0;right:0;overflow-y:auto;height:100%;background:var(--cream);-webkit-overflow-scrolling:touch;z-index:0}
+.affiliate-notice{background:#f0ede8;border-bottom:1px solid var(--border);padding:7px 16px;font-size:10px;color:var(--light);line-height:1.5;text-align:center}
+.hero{position:relative;height:380px}
+.hero-cover{position:absolute;inset:0;background:url('../assets/images/seulsup-hero.jpg') center/cover no-repeat}.hero-cover::after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(20,15,10,.05) 0%,rgba(20,15,10,0) 40%,rgba(20,15,10,.5) 100%)}
+.profile-card{position:absolute;bottom:-20px;left:20px;right:20px;z-index:10;background:rgba(255,255,255,.82);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.9);border-radius:20px;padding:16px 18px;display:flex;align-items:center;gap:14px;box-shadow:0 8px 32px rgba(0,0,0,.12)}
+.profile-avatar{width:72px;height:72px;border-radius:50%;flex-shrink:0;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,.15)}.profile-avatar img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+.profile-info h2{font-size:16px;font-weight:700;color:var(--text);margin-bottom:4px}
+.profile-info{min-width:0}.profile-info p{font-size:12px;color:var(--mid);margin-bottom:8px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.sns-pills{display:flex;gap:6px}
+.sns-icon{width:28px;height:28px;border-radius:50%;background:var(--cream);border:1px solid #c4bab0;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;flex-shrink:0;font-size:13px}.sns-icon img{width:16px;height:16px;object-fit:contain}
+.coupon-showcase{margin:30px 20px 0;position:relative;padding:2px 4px 10px 10px;display:block;text-decoration:none}
+.coupon-showcase .cs-layer{position:absolute;background:#fff;border:1.8px solid var(--text);border-radius:6px;transform-origin:90% 10%}
+.coupon-showcase .cs-l2{top:3px;bottom:3px;left:-3px;right:4px;transform:rotate(-2deg);background:#B8E0B8;z-index:0}
+.coupon-showcase .cs-l3{top:1px;bottom:7px;left:2.5px;right:6px;transform:rotate(-1deg);background:#fff;z-index:1}
+.coupon-showcase .cs-ticket{position:relative;z-index:2;display:grid;grid-template-columns:1fr 58px;background:#fff;border-radius:6px;border:1.8px solid var(--text);cursor:pointer;transition:transform .15s}
+.coupon-showcase:hover .cs-ticket{transform:translate(-1px,-1px)}
+.coupon-showcase .cs-ticket::before,.coupon-showcase .cs-ticket::after{content:"";position:absolute;width:10px;height:10px;background:var(--cream);border:1.8px solid var(--text);border-radius:50%;right:51px}
+.coupon-showcase .cs-ticket::before{top:-4px}.coupon-showcase .cs-ticket::after{bottom:-4px}
+.coupon-showcase .cs-main{padding:16px 18px;position:relative}
+.coupon-showcase .cs-kicker{font-size:11px;font-weight:700;color:var(--mid);letter-spacing:-.02em}
+.coupon-showcase .cs-title{font-size:19px;font-weight:900;letter-spacing:-.04em;line-height:1.15;margin-top:4px;color:var(--text)}
+.coupon-showcase .cs-amount-row{display:flex;align-items:center;gap:10px;margin-top:12px;padding-top:10px;border-top:1px dashed var(--text)}
+.coupon-showcase .cs-amount-stack{display:flex;align-items:baseline;gap:4px}
+.coupon-showcase .cs-amt-prefix{font-size:13px;font-weight:700;color:var(--text)}
+.coupon-showcase .cs-amt{font-size:26px;font-weight:900;letter-spacing:-.04em;color:var(--amber);line-height:1}
+.coupon-showcase .cs-amt-unit{font-size:15px;font-weight:800;color:var(--amber)}
+.coupon-showcase .cs-stamp{position:absolute;right:10px;bottom:8px;width:66px;height:66px;border-radius:50%;border:2px solid var(--amber);color:var(--amber);background:transparent;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:.9;transform:rotate(-10deg);opacity:.9;pointer-events:none}
+.coupon-showcase .cs-stamp::before{content:"";position:absolute;inset:3px;border:1px dashed var(--amber);border-radius:50%;opacity:.6}
+.coupon-showcase .cs-stamp-num{font-size:22px;font-weight:900;letter-spacing:-.05em;line-height:1}
+.coupon-showcase .cs-stamp-lbl{font-size:11px;font-weight:900;letter-spacing:.02em;margin-top:2px}
+.coupon-showcase .cs-side{background:var(--text);color:var(--cream);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;border-radius:0 4px 4px 0}
+.coupon-showcase .cs-side svg{width:20px;height:20px}
+.coupon-showcase .cs-side-label{font-size:11px;font-weight:800;color:var(--cream)}
+.trip-carousel-wrap{margin:20px 0 0;position:relative}
+.trip-nav{display:flex;justify-content:center;align-items:center;gap:10px;margin-top:6px}
+.trip-carousel{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 20px 12px;scrollbar-width:none}
+.trip-carousel::-webkit-scrollbar{display:none}
+.trip-card{flex-shrink:0;width:300px;scroll-snap-align:center;background:#fff;border:1px solid var(--border);border-radius:20px;overflow:hidden;box-shadow:0 6px 18px rgba(24,21,18,.07)}
+.tc-hero{position:relative;height:150px}
+.tc-hero.seulsup-ubud{background:url('../assets/images/seulsup-card1.jpg') center/cover no-repeat}
+.tc-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,14,10,.05),rgba(17,14,10,.68))}
+.tc-hero-content{position:absolute;left:16px;right:16px;bottom:14px;z-index:1;color:#fff;display:flex;align-items:center;gap:10px}
+.tc-flag{width:46px;height:46px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0;box-shadow:0 3px 10px rgba(0,0,0,.25)}
+.tc-title{font-size:22px;font-weight:700;line-height:1.15;letter-spacing:-.03em;color:#fff}
+.tc-badges{display:flex;gap:5px;margin-bottom:6px;flex-wrap:wrap}
+.tc-badge{background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.28);backdrop-filter:blur(8px);padding:3px 9px;border-radius:999px;font-size:10px;font-weight:700;color:#fff;letter-spacing:-.01em}
+.tc-title-col{min-width:0}
+.tc-body{padding:16px}
+.tc-ask{font-size:15px;font-weight:900;letter-spacing:-.03em;margin-bottom:12px;color:var(--text)}
+.tc-choice{display:grid;gap:8px}
+.tc-choice button{width:100%;border:1.5px solid transparent;border-radius:18px;padding:16px 18px;font-family:inherit;text-align:left;cursor:pointer;transition:transform .15s;display:flex;align-items:center;justify-content:space-between}
+.tc-choice button:active{transform:scale(.985)}
+.tc-choice strong{display:block;font-size:15px;font-weight:900;letter-spacing:-.03em;margin-bottom:3px;color:var(--text)}
+.tc-choice span{display:block;font-size:11px;font-weight:700;color:var(--mid)}
+.tc-choice .tc-arr{font-size:18px;color:var(--light);opacity:.6;flex-shrink:0;margin-left:10px}
+.tc-choice .plan{background:linear-gradient(135deg,#fffbf0 0%,#fef3c7 100%);border-color:#fcd34d}
+.tc-choice .cost{background:linear-gradient(135deg,#E8F5E8 0%,#B8E0B8 100%);border-color:#98CC98;box-shadow:0 12px 24px rgba(58,138,64,.14);display:block}
+.tc-c-row1{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.tc-c-row1 strong{font-size:15px;font-weight:900;color:#1a1714;letter-spacing:-.02em;margin-bottom:0}
+.tc-c-price{display:flex;align-items:center;gap:6px;flex-shrink:0}
+.tc-choice .tc-c-num{font-size:22px;font-weight:900;color:#3A8A40;letter-spacing:-.04em}
+.tc-choice .tc-c-unit{font-size:12px;font-weight:800;color:#1A5A20}
+.tc-c-row2{display:flex;align-items:center;gap:6px}
+.tc-choice .cost .tc-c-badge{display:inline-flex!important;align-items:center;padding:3px 7px;border-radius:999px;background:linear-gradient(135deg,#3A8A40,#1A4A1A);color:#fff!important;font-size:9px;font-weight:900;letter-spacing:.05em}
+.tc-choice .cost .tc-c-sub{display:inline!important;font-size:11px;font-weight:700;color:#6b6560}
+.tc-choice .cost .tc-c-unit,.tc-choice .cost .tc-c-num{display:inline-flex!important;align-items:baseline}
+.trip-dots{display:flex;justify-content:center;align-items:center;gap:6px}
+.trip-dot{width:6px;height:6px;border-radius:50%;background:rgba(24,21,18,.18);transition:all .2s}
+.trip-dot.on{background:var(--amber);width:18px;border-radius:4px}
+.page-tabs{display:flex;margin-top:16px;border-bottom:1px solid var(--border);background:var(--cream);position:sticky;top:0;z-index:20}
+.page-tab{flex:1;padding:13px 8px;font-size:13px;font-weight:600;color:var(--light);text-align:center;cursor:pointer;border-bottom:2px solid transparent;transition:all .2s}
+.page-tab.on{color:var(--text);border-bottom-color:var(--amber)}
+.tab-panel{display:none}.tab-panel.on{display:block}
+.links-section{padding:20px 20px 0}
+.links-section h3{font-size:15px;font-weight:800;color:var(--text);margin-bottom:14px}
+.ls-og{display:block;border-radius:16px;overflow:hidden;background:#fff;border:1px solid var(--border);text-decoration:none;margin-bottom:10px}
+.ls-og-placeholder{width:100%;height:150px;background:linear-gradient(135deg,#E8F5E8 0%,#B8E0B8 100%);display:flex;align-items:center;justify-content:center;font-size:48px}
+.ls-og-body{padding:11px 14px 13px}
+.ls-og-title{font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:3px}
+.ls-og-domain{font-size:11px;color:var(--light)}
+.ls-badge{font-size:10px;font-weight:700;padding:3px 9px;border-radius:20px;letter-spacing:.2px;white-space:nowrap}
+.ls-badge.hot{background:linear-gradient(135deg,#3A8A40,#1A4A1A);color:#fff}
+.ls-badge.new{background:#B8E0B8;color:#3A8A40}
+.ls-badges{display:flex;gap:5px;margin-bottom:6px;flex-wrap:wrap}
+.ls-textblock{display:flex;gap:14px;align-items:flex-start;margin:20px 0 20px;padding:0 20px}
+.ls-tb-avatar{width:44px;height:44px;border-radius:50%;flex-shrink:0;background:linear-gradient(135deg,#3A8A40,#1A4A1A);display:flex;align-items:center;justify-content:center;font-size:20px}
+.ls-tb-bubble{flex:1;position:relative;background:#fff5e8;border:1.5px solid #ffd9ae;border-radius:18px;padding:14px 16px;box-shadow:0 4px 14px rgba(224,122,56,.08);font-size:13px;line-height:1.7;color:var(--text)}.ls-tb-bubble::before{content:"";position:absolute;left:-10px;top:14px;width:0;height:0;border:8px solid transparent;border-right-color:#ffd9ae;border-left:0}.ls-tb-bubble::after{content:"";position:absolute;left:-7px;top:15px;width:0;height:0;border:7px solid transparent;border-right-color:#fff5e8;border-left:0}
+.ls-tb-title{font-size:14px;font-weight:900;color:var(--amber);margin-bottom:4px;letter-spacing:-.02em}.ls-tb-bubble em{font-style:normal;font-weight:700;background:linear-gradient(transparent 60%,rgba(224,122,56,.35) 60%);padding:0 3px}
+.ls-thumb{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid var(--border);border-radius:16px;padding:12px 14px;text-decoration:none;margin-bottom:10px;transition:transform .15s}
+.ls-thumb:active{transform:scale(.985)}
+.ls-thumb-img{width:44px;height:44px;border-radius:12px;background:var(--border);display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0}
+.ls-thumb-body{flex:1;min-width:0}
+.ls-thumb-title{font-size:13px;font-weight:700;color:var(--text);line-height:1.35;margin-bottom:2px}
+.ls-thumb-sub{font-size:11px;color:var(--mid);line-height:1.4}
+.ls-thumb-arr{font-size:16px;color:var(--light);flex-shrink:0}
+.links-section-pb{height:20px}
+.products-section{padding:16px 16px 0}
+.product-search{position:relative;margin-bottom:14px}
+.product-search-icon{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--light)}
+.product-search input{width:100%;padding:10px 12px 10px 34px;border:1px solid var(--border);border-radius:12px;font-family:inherit;font-size:13px;background:#fff;outline:none;color:var(--text)}
+.product-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding-bottom:20px}
+.product-card-v3{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.06);cursor:pointer;display:flex;flex-direction:column}
+.pc-img{width:100%;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;font-size:44px;overflow:hidden;flex-shrink:0}.pc-img img{width:100%;height:100%;object-fit:cover;display:block}
+.pc-body{padding:10px;display:flex;flex-direction:column;flex:1}
+.pc-tag{font-size:11px;font-weight:700;padding:2px 7px;border-radius:5px;display:inline-block;margin-bottom:5px;align-self:flex-start}
+.pc-name{font-size:12px;font-weight:600;color:var(--text);line-height:1.35;flex:1}
+.pc-price{font-size:14px;font-weight:900;color:var(--amber);margin-top:10px;margin-bottom:4px}
+.pc-city{font-size:11px;font-weight:500;color:var(--light);margin-bottom:8px}
+
+.pc-btn{width:100%;background:var(--amber);color:#fff;font-size:11px;font-weight:700;padding:9px 8px;border-radius:10px;border:none;cursor:pointer;font-family:inherit}
+.bio-footer{margin:36px 0 0;padding:24px 20px 28px;border-top:1px solid var(--border);display:flex;flex-direction:column;align-items:center;gap:4px;background:#f4f0ea}
+.bio-footer-label{font-size:10px;font-weight:700;color:var(--mid);letter-spacing:.5px}
+.bio-footer-mail{font-size:13px;font-weight:700;color:var(--text);text-decoration:none;display:flex;align-items:center;gap:6px}
+.bio-footer-mail::before{content:"✉";font-size:14px;color:var(--amber)}
+.bio-footer-meta{font-size:10px;color:var(--light);margin-top:8px}
+#coupon-panel{position:absolute;top:0;left:0;right:0;bottom:0;z-index:200;display:flex;flex-direction:column;justify-content:flex-end;pointer-events:none;opacity:0;transition:opacity .3s}
+#coupon-panel.open{pointer-events:all;opacity:1}
+.coupon-overlay{position:absolute;inset:0;background:rgba(0,0,0,.4);cursor:pointer}
+.coupon-sheet{position:relative;z-index:1;background:var(--cream);border-radius:24px 24px 0 0;padding:8px 20px 40px;transform:translateY(100%);transition:transform .35s cubic-bezier(.32,.72,0,1)}
+#coupon-panel.open .coupon-sheet{transform:translateY(0)}
+.sheet-handle{width:36px;height:4px;background:var(--border);border-radius:2px;margin:12px auto 20px}
+.sheet-title{font-size:17px;font-weight:900;color:var(--text);margin-bottom:4px}
+.sheet-sub{font-size:12px;color:var(--mid);margin-bottom:20px}
+.coupon-card{background:#fff;border-radius:16px;overflow:hidden;display:flex;margin-bottom:12px;box-shadow:0 2px 10px rgba(0,0,0,.07)}
+.cc-stripe{width:6px;flex-shrink:0}
+.cc-body{padding:16px 14px;flex:1}
+.cc-label{font-size:10px;font-weight:700;letter-spacing:.5px;margin-bottom:4px}
+.cc-title{font-size:16px;font-weight:900;color:var(--text);margin-bottom:4px}
+.cc-desc{font-size:11px;color:var(--mid);margin-bottom:12px}
+.cc-footer{padding-top:10px;border-top:1px dashed var(--border);display:flex;justify-content:space-between}
+.cc-expire,.cc-remain{font-size:10px;color:var(--light)}
+.cc-btn{flex-shrink:0;color:#fff;font-size:11px;font-weight:700;padding:10px 12px;border-radius:10px;border:none;font-family:inherit;cursor:pointer;align-self:center;margin:16px 14px 16px 0}
+.toast{position:fixed;bottom:32px;left:50%;transform:translateX(-50%) translateY(12px);background:#1a1714;color:#fff;font-size:13px;font-weight:700;padding:11px 20px;border-radius:99px;opacity:0;transition:opacity .2s,transform .2s;pointer-events:none;z-index:9999;white-space:nowrap}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.share-btn{display:inline-flex;align-items:center;gap:5px;background:rgba(224,122,56,.1);color:var(--amber);border:1px solid rgba(224,122,56,.3);font-size:11px;font-weight:700;padding:5px 11px;border-radius:99px;cursor:pointer;font-family:inherit;white-space:nowrap;flex-shrink:0}
+.share-btn svg{width:12px;height:12px}
+.exp-title-row{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:3px}
+#course-panel{position:absolute;top:0;left:0;right:0;bottom:0;background:var(--cream);transform:translateY(100%);transition:transform .42s cubic-bezier(.32,.72,0,1);z-index:100;display:flex;flex-direction:column;overflow:hidden}
+#course-panel.open{transform:translateY(0)}
+.panel-topbar{display:flex;align-items:center;gap:12px;padding:16px 20px 14px;background:var(--cream);border-bottom:1px solid var(--border);flex-shrink:0}
+.panel-back{width:36px;height:36px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;cursor:pointer;border:1px solid var(--border);flex-shrink:0}
+.panel-title{font-size:16px;font-weight:800;color:var(--text)}
+.day-tabs{display:flex;padding:0 20px;border-bottom:1px solid var(--border);flex-shrink:0;background:var(--cream);overflow-x:auto;scrollbar-width:none}
+.day-tabs::-webkit-scrollbar{display:none}
+.day-tab{padding:12px 18px;font-size:13px;font-weight:600;color:var(--light);cursor:pointer;border-bottom:2px solid transparent;transition:all .2s;white-space:nowrap}
+.day-tab.active{color:var(--text);border-bottom-color:var(--amber)}
+.day-content{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:20px 20px 40px}
+.stop-item{display:flex;gap:14px;margin-bottom:28px}
+.stop-timeline{display:flex;flex-direction:column;align-items:center;flex-shrink:0}
+.stop-dot{width:12px;height:12px;border-radius:50%;background:var(--amber);border:2px solid #fff;box-shadow:0 0 0 2px var(--amber);flex-shrink:0}
+.stop-line{width:2px;flex:1;background:rgba(224,122,56,.25);margin:4px 0;min-height:20px}
+.stop-body{flex:1}
+.stop-time{font-size:11px;font-weight:600;color:var(--mid);margin-bottom:3px}
+.stop-place{font-size:15px;font-weight:700;color:var(--text);margin-bottom:4px}
+.stop-desc{font-size:12px;color:var(--mid);line-height:1.5;margin-bottom:4px}
+.inline-product{background:#fffaf5;border-radius:14px;padding:14px;display:flex;align-items:center;gap:12px;border:1px solid rgba(224,122,56,.2);margin-top:8px}
+.inline-product-icon{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0}
+.inline-product-info{flex:1}
+.inline-product-tag{font-size:11px;font-weight:700;padding:2px 7px;border-radius:5px;display:inline-block;margin-bottom:4px}
+.inline-product-name{font-size:13px;font-weight:600;color:var(--text);margin-bottom:2px;line-height:1.3}
+.inline-product-price{font-size:14px;font-weight:800;color:var(--amber)}
+.inline-product-btn{background:var(--amber);color:#fff;font-size:11px;font-weight:700;padding:9px 13px;border-radius:10px;border:none;cursor:pointer;font-family:inherit;flex-shrink:0;line-height:1.3;text-align:center}
+#expense-panel{position:absolute;top:0;left:0;right:0;bottom:0;z-index:200;display:flex;flex-direction:column;justify-content:flex-end;pointer-events:none;opacity:0;transition:opacity .3s}
+#expense-panel.open{pointer-events:all;opacity:1}
+.exp-overlay{position:absolute;inset:0;background:rgba(0,0,0,.45);cursor:pointer}
+.exp-sheet{position:relative;z-index:1;background:var(--cream);border-radius:24px 24px 0 0;padding:8px 20px 44px;transform:translateY(100%);transition:transform .38s cubic-bezier(.32,.72,0,1);max-height:88vh;overflow-y:auto}
+#expense-panel.open .exp-sheet{transform:translateY(0)}
+.exp-title{font-size:18px;font-weight:900;color:var(--text);margin-bottom:3px}
+.exp-subtitle{font-size:12px;color:var(--mid);margin-bottom:18px}
+.exp-item{display:flex;align-items:center;gap:12px;background:#fff;border-radius:14px;padding:14px;margin-bottom:8px;border:1px solid var(--border)}
+.exp-group-header{display:flex;align-items:baseline;justify-content:space-between;margin:18px 2px 8px;font-size:13px;font-weight:800;color:var(--text)}
+.exp-emoji{font-size:22px;flex-shrink:0}
+.exp-info{flex:1;min-width:0}
+.exp-name{font-size:14px;font-weight:700;color:var(--text);margin-bottom:2px}
+.exp-live-tag{display:inline-block;margin-left:6px;font-size:9px;font-weight:700;color:var(--amber);background:rgba(224,122,56,.12);border-radius:4px;padding:2px 5px;vertical-align:middle}
+.exp-note{font-size:11px;color:var(--mid)}
+.exp-right{display:flex;flex-direction:column;align-items:flex-end;gap:5px;flex-shrink:0}
+.exp-price-val{font-size:15px;font-weight:900;color:var(--text)}
+.exp-book-btn{background:var(--amber);color:#fff;font-size:10px;font-weight:700;padding:6px 10px;border-radius:8px;border:none;cursor:pointer;font-family:inherit}
+.exp-total-row{display:flex;justify-content:space-between;align-items:center;padding:14px 4px 4px;border-top:1.5px solid var(--text);margin-top:4px}
+.exp-total-label{font-size:13px;font-weight:700;color:var(--text)}
+.exp-total-val{font-size:20px;font-weight:900;color:var(--amber)}
+.exp-fine-print{font-size:10px;color:var(--light);margin:8px 0 16px}
+#map-full{height:220px;flex-shrink:0}
+.leaflet-container{font-family:"Noto Sans KR",sans-serif}
+.leaflet-popup-content-wrapper{border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,.12);border:none;padding:0}
+.leaflet-popup-content{margin:10px 14px;font-size:12px;font-weight:700;color:#1a1714}
+.leaflet-popup-tip-container{display:none}
+</style>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+<div class="phone">
+  <div id="main-page">
+    <div class="affiliate-notice">이 페이지의 링크를 통해 구매 시 수수료를 받아 채널 운영에 도움이 됩니다.</div>
+    <div class="hero">
+      <div class="hero-cover"></div>
+      <div class="profile-card">
+        <div class="profile-avatar"><img src="../assets/profiles/슬숲.jpg" alt="슬숲"/></div>
+        <div class="profile-info">
+          <h2>슬숲</h2>
+          <p>발리 우붓 전문 · 감성 여행 기록 크리에이터</p>
+          <div class="sns-pills">
+            <a class="sns-icon" href="https://www.youtube.com/@seulsup_" target="_blank"><img src="../assets/icons/youtube.png" alt="YouTube"/></a>
+          
+            <a class="sns-icon" href="mailto:lhr1049@hanmail.net" title="이메일 문의">✉️</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="coupon-showcase" href="https://www.myrealtrip.com/coupons" target="_blank">
+      <div class="cs-layer cs-l2"></div><div class="cs-layer cs-l3"></div>
+      <div class="cs-ticket">
+        <div class="cs-main">
+          <div class="cs-kicker">슬숲 구독자 전용</div>
+          <div class="cs-title">선착순 할인 쿠폰팩</div>
+          <div class="cs-amount-row"><div class="cs-amount-stack"><span class="cs-amt-prefix">최대</span><span class="cs-amt">99,000</span><span class="cs-amt-unit">원</span></div></div>
+          <div class="cs-stamp"><span class="cs-stamp-num">8종</span><span class="cs-stamp-lbl">구성</span></div>
+        </div>
+        <div class="cs-side"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v12"/><path d="M6 10l6 6 6-6"/><path d="M5 20h14"/></svg><span class="cs-side-label">받기</span></div>
+      </div>
+    </a>
+    <div class="trip-carousel-wrap">
+      <div class="trip-carousel">
+        <div class="trip-card">
+          <div class="tc-hero seulsup-ubud">
+            <div class="tc-hero-content">
+              <div class="tc-flag">🌿</div>
+              <div class="tc-title-col">
+                <div class="tc-badges"><span class="tc-badge">발리 우붓</span><span class="tc-badge">슬숲 추천</span></div>
+                <div class="tc-title">발리 우붓 감성 코스</div>
+              </div>
+            </div>
+          </div>
+          <div class="tc-body">
+            <div class="tc-ask">어디부터 볼까요?</div>
+            <div class="tc-choice">
+              <button class="plan" onclick="openCourse('bali')">
+                <div><strong>일정표 보기</strong><span>동선 먼저</span></div>
+                <div class="tc-arr">›</div>
+              </button>
+              <button class="cost" onclick="openExpensePanel('bali')">
+                <div class="tc-c-row1"><strong>상세 경비 보기</strong><div class="tc-c-price"><span class="tc-c-num">100만~</span><span class="tc-arr" style="margin-left:0">›</span></div></div>
+                <div class="tc-c-row2"><span class="tc-c-badge">🔥 인기</span><span class="tc-c-sub">항공·숙소·투어 한 번에</span></div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="trip-nav"><div class="trip-dots"><span class="trip-dot on"></span></div></div>
+    </div>
+    <div class="page-tabs">
+      <div class="page-tab on" data-tab="posts" onclick="switchTab('posts')">링크</div>
+      <div class="page-tab" data-tab="products" onclick="switchTab('products')">필수템</div>
+    </div>
+    <div id="tab-posts" class="tab-panel on">
+      <div class="ls-textblock">
+        <div class="ls-tb-avatar"><img src="../assets/profiles/슬숲.jpg" style="width:100%;height:100%;object-fit:cover;border-radius:50%"></div>
+        <div class="ls-tb-bubble">
+          <div class="ls-tb-title">🌿 발리 우붓의 감성을 담아내는 슬숲</div>
+          발리 우붓 여행 브이로그 전문 크리에이터 슬숲님. 논밭·사원·카페의 감성을 영상에 담아내요. 마이스토어에서 슬숲님 추천 발리 상품을 확인해보세요!
+        </div>
+      </div>
+      <div class="links-section">
+        <h3>📸 추천 콘텐츠</h3>
+        <a class="ls-og" href="https://youtu.be/yS41wcflt2c" target="_blank">
+          <div class="ls-og-placeholder"><img src="https://img.youtube.com/vi/yS41wcflt2c/maxresdefault.jpg" style="width:100%;height:150px;object-fit:cover;display:block"></div>
+          <div class="ls-og-body">
+            <div class="ls-badges"><span class="ls-badge hot">🎬 유튜브 영상</span></div>
+            <div class="ls-og-title">발리 우붓 여행 브이로그 — 슬숲의 감성 기록, 논밭·사원·감성카페 코스</div>
+            <div class="ls-og-domain">youtube.com · 슬숲 · 슬숲</div>
+          </div>
+        </a>
+      </div>
+      <div class="links-section-pb"></div>
+    </div>
+    <div id="tab-products" class="tab-panel">
+      <div class="products-section">
+        <div class="product-search">
+          <svg class="product-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          <input id="product-search-input" type="text" placeholder="검색어를 입력해주세요" oninput="renderProducts()"/>
+        </div>
+        <div class="product-grid" id="product-grid"></div>
+      </div>
+    </div>
+    <div class="bio-footer">
+      <div class="bio-footer-label">COLLABORATION</div>
+      <a class="bio-footer-mail" href="mailto:lhr1049@hanmail.net">lhr1049@hanmail.net</a>
+      <div class="bio-footer-meta">© 2026 슬숲 · myrealtrip</div>
+    </div>
+  </div>
+  <div id="course-panel">
+    <div class="panel-topbar">
+      <div class="panel-back" onclick="closeCourse()">←</div>
+      <div><div class="panel-title" id="course-panel-title">추천 코스</div></div>
+      <button class="share-btn" onclick="copyShareLink('course')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/></svg>링크 복사</button>
+    </div>
+    <div id="map-full"></div>
+    <div class="day-tabs" id="day-tabs"></div>
+    <div class="day-content" id="day-content"></div>
+  </div>
+  <div id="expense-panel">
+    <div class="exp-overlay" onclick="closeExpensePanel()"></div>
+    <div class="exp-sheet">
+      <div style="width:36px;height:4px;background:var(--border);border-radius:2px;margin:6px auto 16px"></div>
+      <div class="exp-title-row">
+        <div class="exp-title" id="exp-title-text">총경비</div>
+        <button class="share-btn" onclick="copyShareLink('expense')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/></svg>링크 복사</button>
+      </div>
+      <div class="exp-subtitle" id="exp-subtitle-text">추천 코스 · 1인 기준</div>
+      <div class="exp-item"><div class="exp-emoji">✈️</div><div class="exp-info"><div class="exp-name" id="exp-flight-name">항공권 <span class="exp-live-tag">직항</span></div><div class="exp-note" id="exp-flight-note">항공권 기준</div></div><div class="exp-right"><div class="exp-price-val" id="exp-flight">₩-</div><button class="exp-book-btn" id="exp-flight-btn">예약 바로가기</button></div></div>
+      <div id="exp-hotel-section"><div class="exp-item"><div class="exp-emoji">🏨</div><div class="exp-info"><div class="exp-name" id="exp-hotel-name">호텔 <span class="exp-live-tag">추천</span></div><div class="exp-note" id="exp-hotel-note">3박 2인 1실 1인 기준</div></div><div class="exp-right"><div class="exp-price-val" id="exp-hotel">₩-</div><button class="exp-book-btn" id="exp-hotel-btn">예약 바로가기</button></div></div></div>
+      <div class="exp-item"><div class="exp-emoji">🍜</div><div class="exp-info"><div class="exp-name">식비 · 현지 경비</div><div class="exp-note" id="exp-food-note">현지 식당 포함</div></div><div class="exp-right"><div class="exp-price-val" id="exp-food-price">₩-</div></div></div>
+      <div id="exp-tours-list"></div>
+      <div class="exp-total-row"><div class="exp-total-label">총 경비</div><div class="exp-total-val" id="exp-total">₩-</div></div>
+      <div class="exp-fine-print" id="exp-fine-print">· 1인 기준 평균값</div>
+    </div>
+  </div>
+  <div id="coupon-panel">
+    <div class="coupon-overlay" onclick="closeCoupon()"></div>
+    <div class="coupon-sheet">
+      <div class="sheet-handle"></div>
+      <div class="sheet-title">🎫 파트너 쿠폰</div>
+      <div class="sheet-sub">슬숲 통해 예약하면 받을 수 있는 혜택</div>
+      <div class="coupon-card"><div class="cc-stripe" style="background:var(--amber)"></div><div class="cc-body"><div class="cc-label" style="color:var(--amber)">마이리얼트립 파트너 혜택</div><div class="cc-title">첫 예약 3,000원 할인</div><div class="cc-desc">5만원 이상 결제 시 · 1회 사용 가능</div><div class="cc-footer"><div class="cc-expire">유효기간: 2026.06.30까지</div><div class="cc-remain">잔여 47장</div></div></div><button class="cc-btn" style="background:var(--amber)" onclick="window.open('https://www.myrealtrip.com/coupons','_blank')">받기</button></div>
+      <div class="coupon-card"><div class="cc-stripe" style="background:var(--sage)"></div><div class="cc-body"><div class="cc-label" style="color:var(--sage)">재방문 감사 쿠폰</div><div class="cc-title">2번째 예약 5% 할인</div><div class="cc-desc">최대 1만원 · 슬숲 전용</div><div class="cc-footer"><div class="cc-expire">유효기간: 2026.07.31까지</div><div class="cc-remain">잔여 23장</div></div></div><button class="cc-btn" style="background:var(--sage)" onclick="window.open('https://www.myrealtrip.com/coupons','_blank')">받기</button></div>
+    </div>
+  </div>
+</div>
+<script>
+const products=[
+  {name:"바투르산 지프투어 선라이즈 (사진천재 와얀)",price:"₩215,199",tag:"강추",icon:"⭐",bg:"#FEF3C7",tagColor:"#E07A38",tagBg:"#FDE8CE",url:"https://www.myrealtrip.com/experiences/3735536",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/10/16/5znj/DYEDJIabeh.jpg"},
+  {name:"발리 응우라라이 공항 픽업&샌딩",price:"₩21,262",tag:"공항",icon:"🚗",bg:"#DBEAFE",tagColor:"#1D4ED8",tagBg:"#DBEAFE",url:"https://www.myrealtrip.com/experiences/5542504",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/11/Xyfk/M6g4wybD2g.jpg"},
+  {name:"발리 바투르산 선라이즈 지프투어 (아퐁투어)",price:"₩179,358",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/3650240",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/10/06/McGP/aiVDf2KV0n.jpg"},
+  {name:"발리 남부 맞춤 택시투어 (공항드랍 무료)",price:"₩80,483",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/3886810",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/27/PF0h/jcY1kq437M.jpg"},
+  {name:"발리 프라이빗 택시 맞춤 투어 (남부/동부/우붓)",price:"₩104,153",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/5541608",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/11/vU6E/YWiUt38gkH.jpg"},
+  {name:"발리 공항 픽업/샌딩 단독차량 (비오비투어)",price:"₩19,972",tag:"공항",icon:"🚗",bg:"#DBEAFE",tagColor:"#1D4ED8",tagBg:"#DBEAFE",url:"https://www.myrealtrip.com/experiences/5685003",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/01/29/1LfF/20Czm73D71.jpg"},
+  {name:"내 맘대로 짜는 발리 남부 투어 (인생샷 스팟)",price:"₩103,706",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/4780599",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/08/08/nExf/IBEl5jluGA.jpeg"},
+  {name:"발리 프라이빗 자유여행 맞춤 투어 (트립인발리)",price:"₩101,671",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/4206886",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/30/r9Ys/wsOHGEjLey.jpg"},
+  {name:"렘푸양 사원(천국의문) 발리 동부 투어 (사진천재 와얀)",price:"₩236,887",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/3735545",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/10/16/bkGa/OcWPwQUtNk.jpg"},
+  {name:"인도네시아 이심 (eSIM/로밍)",price:"₩30,986",tag:"필수",icon:"📱",bg:"#DCFCE7",tagColor:"#15803D",tagBg:"#DCFCE7",url:"https://www.myrealtrip.com/experiences/4743451"},
+];
+function renderProducts(){const el=document.getElementById("product-grid");const q=(document.getElementById("product-search-input")?.value||"").trim().toLowerCase();const f=q?products.filter(p=>(p.name+" "+(p.tag||"")).toLowerCase().includes(q)):products;if(!f.length){el.innerHTML=`<div style="grid-column:1/-1;padding:32px 12px;text-align:center;color:var(--light);font-size:13px;">"${q}"에 해당하는 상품이 없어요</div>`;return}el.innerHTML=f.map(p=>`<div class="product-card-v3" onclick="window.open('${p.url}','_blank')"><div class="pc-img" style="background:${p.bg}">${p.img?`<img src="${p.img}" alt="${p.name}"/>`:`${p.icon}`}</div><div class="pc-body"><span class="pc-tag" style="background:${p.tagBg};color:${p.tagColor}">${p.tag}</span><div class="pc-name">${p.name}</div><div class="pc-price">${p.price}</div><button class="pc-btn">예약하기</button></div></div>`).join("");}
+function switchTab(name){document.querySelectorAll(".page-tab").forEach(t=>t.classList.toggle("on",t.dataset.tab===name));document.querySelectorAll(".tab-panel").forEach(p=>p.classList.remove("on"));document.getElementById(`tab-${name}`).classList.add("on");document.getElementById("main-page").scrollTop=0;}
+function openCoupon(){document.getElementById("coupon-panel").classList.add("open");}
+function closeCoupon(){document.getElementById("coupon-panel").classList.remove("open");}
+
+
+const CREATOR={name:"슬숲",email:"lhr1049@hanmail.net"};
+const CITY_DAYS={"bali":[
+  {day:1,date:"D1 · 출발 → 우붓",dayCost:"항공+이심",stops:[
+    {time:"07:00 출발",place:"인천국제공항",lat:37.4602,lng:126.4407,pinColor:"amber",pinLabel:"D1",desc:"발리 직항 7시간. 우붓까지 공항에서 차로 1시간 30분, 미리 픽업 예약 추천 ✈️",cost:"왕복 ₩420,000~",product:{name:"인천-발리 왕복 항공권",price:"₩420,000~",tag:"필수",tagBg:"#EDE9FE",tagColor:"#6D28D9",bg:"#EDE9FE",icon:"✈️",url:"https://www.myrealtrip.com/offers?keyword=발리+항공"}},
+    {time:"오후 도착",place:"우붓 논밭뷰 빌라 체크인",lat:-8.5069,lng:115.2625,pinColor:"amber",pinLabel:"D1",desc:"인피니티 풀·논밭 뷰 빌라 추천. 공항에서 우붓까지 픽업 서비스 이용 추천 🌿",cost:"빌라 1박 ₩75,000~",product:{name:"발리 응우라라이 공항 픽업&샌딩",price:"₩21,262",tag:"공항",tagBg:"#DBEAFE",tagColor:"#1D4ED8",bg:"#DBEAFE",icon:"🚗",url:"https://www.myrealtrip.com/experiences/5542504",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/11/Xyfk/M6g4wybD2g.jpg"}},
+    {time:"저녁",place:"우붓 광장 주변 와룽",lat:-8.5074,lng:115.2616,pinColor:"amber",pinLabel:"D1",desc:"로컬 와룽에서 나시고렝+아이스아메리카노로 첫날 저녁 마무리 🍚",cost:"저녁 ₩8,000~",product:null},
+  ]},
+  {day:2,date:"D2 · 우붓 힐링 코스",dayCost:"논밭+원숭이숲 약 ₩8만",stops:[
+    {time:"06:00",place:"뜨갈랄랑 계단식 논밭 일출",lat:-8.4334,lng:115.2756,pinColor:"sage",pinLabel:"D2",desc:"새벽 6시 논밭에 햇살 스며드는 순간. 입장료 내고 스윙 포토 찍으면 더 예뻐요 📸",cost:"입장료 ₩10,000~",product:null},
+    {time:"오전",place:"우붓 원숭이숲 (Monkey Forest)",lat:-8.5188,lng:115.2622,pinColor:"sage",pinLabel:"D2",desc:"700마리 이상 원숭이 서식. 음식 꺼내면 달려들어요! 가방 꼭 잠그세요 🐒",cost:"입장권 ₩12,000~",product:{name:"우붓 원숭이숲 입장권",price:"₩12,000~",tag:"슬숲 강추",tagBg:"#D1FAE5",tagColor:"#059669",bg:"#D1FAE5",icon:"🐒",url:"https://www.myrealtrip.com/offers?keyword=우붓+원숭이숲"}},
+    {time:"오후",place:"우붓 전통 시장 & 팰리스",lat:-8.5068,lng:115.2626,pinColor:"sage",pinLabel:"D2",desc:"우붓 왕궁 무료 입장. 맞은편 시장에서 바틱 천·은세공품·코코넛 오일 쇼핑 추천 🛍️",cost:"자유",product:null},
+    {time:"저녁",place:"우붓 전통 요리 클래스",lat:-8.5080,lng:115.2610,pinColor:"sage",pinLabel:"D2",desc:"현지 주부에게 미고렝·가도가도 직접 배우기. 시장 투어 포함 프로그램 추천 🍳",cost:"₩55,000~",product:{name:"우붓 전통 요리 클래스",price:"₩55,000~",tag:"체험",tagBg:"#FEF9C3",tagColor:"#D97706",bg:"#FEF3C7",icon:"🍳",url:"https://www.myrealtrip.com/offers?keyword=발리+요리클래스"}},
+  ]},
+  {day:3,date:"D3 · 짱구 서핑 + 카페",dayCost:"서핑+카페 약 ₩5만",stops:[
+    {time:"오전",place:"꾸따비치 서핑 레슨",lat:-8.7195,lng:115.1686,pinColor:"blush",pinLabel:"D3",desc:"초보자도 OK. 2시간 레슨에 보드·강사 포함. 우붓에서 택시 1시간 추천 🏄",cost:"₩35,000~",product:{name:"발리 서핑 레슨 (꾸따 비치)",price:"₩35,000~",tag:"인기",tagBg:"#DBEAFE",tagColor:"#1D4ED8",bg:"#DBEAFE",icon:"🏄",url:"https://www.myrealtrip.com/offers?keyword=발리+서핑"}},
+    {time:"오후",place:"짱구 감성 카페 투어",lat:-8.6477,lng:115.1384,pinColor:"blush",pinLabel:"D3",desc:"짱구는 인스타 감성 카페 천국. 논밭뷰 카페에서 코코넛 라테 한 잔 ☕",cost:"카페 ₩10,000~",product:null},
+    {time:"저녁",place:"에코비치 석양 & 선셋바",lat:-8.6594,lng:115.1275,pinColor:"blush",pinLabel:"D3",desc:"서퍼들 구경하며 석양 감상. 선셋 타임 음료 한 잔으로 발리 감성 완성 🌇",cost:"자유",product:null},
+  ]},
+  {day:4,date:"D4 · 따나롯 + 귀국",dayCost:"스파+사원 약 ₩6만",stops:[
+    {time:"오전",place:"발리 전통 스파 (발리니즈 마사지)",lat:-8.5070,lng:115.2620,pinColor:"amber",pinLabel:"D4",desc:"귀국 전 우붓 스파에서 마무리. 발리니즈 마사지 90분+플라워배스 세트 추천 💆",cost:"₩40,000~",product:{name:"발리 전통 스파 (발리니즈)",price:"₩40,000~",tag:"힐링",tagBg:"#FDF4FF",tagColor:"#7C3AED",bg:"#FDF4FF",icon:"💆",url:"https://www.myrealtrip.com/offers?keyword=발리+스파"}},
+    {time:"17:00",place:"따나롯 사원 일몰",lat:-8.6211,lng:115.0868,pinColor:"amber",pinLabel:"D4",desc:"바다 위 바위섬 사원, 발리 최고 일몰 명소. 해 지기 1시간 전 도착 추천 🌅",cost:"입장료 ₩10,000~",product:null},
+    {time:"23:00",place:"응우라라이 공항 → 귀국",lat:-8.7482,lng:115.1676,pinColor:"amber",pinLabel:"D4",desc:"따나롯에서 공항까지 차로 45분. 면세점 코피루왁 원두 추천 ☕",cost:"",product:{name:"발리 공항 픽업/샌딩 단독차량 (비오비투어)",price:"₩19,972",tag:"공항",tagBg:"#DBEAFE",tagColor:"#1D4ED8",bg:"#DBEAFE",icon:"🚗",url:"https://www.myrealtrip.com/experiences/5685003",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/01/29/1LfF/20Czm73D71.jpg"}},
+  ]},
+]};
+const CITY_EXPENSE={"bali":{title:"발리 우붓·짱구 4박 5일 총경비",food:160000,foodNote:"나시고렝·와룽·카페 식비 4박",defaultFlight:569700,defaultHotel:200000,defaultTotal:1197147,flightNote:"인천-발리 직항 기준",flightUrl:"https://www.myrealtrip.com/offers?keyword=발리+항공",hotelName:"우붓 논밭뷰 빌라",hotelNote:"우붓 빌라 3박 1인 기준",hotelUrl:"",tours:[{emoji:"⭐",name:"바투르산 지프투어 선라이즈 (사진천재 와얀)",note:"화산 일출 지프 드라이브",price:215199,url:"https://www.myrealtrip.com/experiences/3735536",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/10/16/5znj/DYEDJIabeh.jpg"},{emoji:"🚗",name:"발리 응우라라이 공항 픽업&샌딩",note:"공항 ↔ 우붓/짱구 단독 차량",price:21262,url:"https://www.myrealtrip.com/experiences/5542504",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/11/Xyfk/M6g4wybD2g.jpg"},{emoji:"📱",name:"인도네시아 이심 (eSIM/로밍)",note:"LTE 무제한 데이터",price:30986,url:"https://www.myrealtrip.com/experiences/4743451"}],toursLabel:"🎫 슬숲 힐링 추천",finePrint:"· 4박 5일 1인 평균값 · 항공 유류세 포함"}};
+let currentExpenseCity="bali";let currentDay=1;let currentCourseCity="bali";let mapFull;
+function openCourse(city){city=city||"bali";currentCourseCity=city;currentDay=1;document.getElementById("course-panel").classList.add("open");const t=CITY_EXPENSE[city];document.getElementById("course-panel-title").textContent=(t&&t.title)||"추천 코스";renderDayTabs();renderDayContent(1);setTimeout(()=>{initMapFull(city);if(mapFull)mapFull.invalidateSize();},450);}
+function closeCourse(){document.getElementById("course-panel").classList.remove("open");}
+function renderDayTabs(){document.getElementById("day-tabs").innerHTML=CITY_DAYS[currentCourseCity].map(d=>`<div class="day-tab ${d.day===currentDay?"active":""}" onclick="selectDay(${d.day})">DAY ${d.day}</div>`).join("");}
+function renderDayContent(n){const imgMap=Object.fromEntries(products.filter(p=>p.img).map(p=>[p.url,p.img]));const day=CITY_DAYS[currentCourseCity].find(d=>d.day===n);if(!day)return;document.getElementById("day-content").innerHTML=`<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;"><div style="font-size:14px;font-weight:700;color:var(--sage)">${day.date}</div>${day.dayCost?`<div style="font-size:12px;font-weight:700;color:var(--amber);background:#FFF3E8;padding:5px 10px;border-radius:8px;">💰 ${day.dayCost}</div>`:""}</div>${day.stops.map((s,i)=>`<div class="stop-item"><div class="stop-timeline"><div class="stop-dot"></div>${i<day.stops.length-1?'<div class="stop-line"></div>':""}</div><div class="stop-body"><div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:2px;"><div class="stop-time">${s.time}</div>${s.cost?`<div style="font-size:11px;color:var(--mid);font-weight:600;">${s.cost}</div>`:""}</div><div class="stop-place">${s.place}</div><div class="stop-desc">${s.desc}</div>${(s.products||(s.product?[s.product]:[])).map(p=>`<div class="inline-product"><div class="inline-product-icon" style="background:${p.bg};${imgMap[p.url]?'padding:0;overflow:hidden;':''}">${imgMap[p.url]?'<img src="'+imgMap[p.url]+'" style="width:100%;height:100%;object-fit:cover;border-radius:12px;" alt=""/>':p.icon}</div><div class="inline-product-info"><span class="inline-product-tag" style="background:${p.tagBg};color:${p.tagColor}">${p.tag}</span><div class="inline-product-name">${p.name}</div><div class="inline-product-price">${p.price}</div></div><button class="inline-product-btn" onclick="window.open('${p.url}','_blank')">예약하기</button></div>`).join("")}</div></div>`).join("")}`;document.getElementById("day-content").scrollTop=0;}
+function selectDay(n){currentDay=n;renderDayTabs();renderDayContent(n);if(mapFull){const d=CITY_DAYS[currentCourseCity].find(x=>x.day===n);if(d){const coords=d.stops.filter(s=>s.lat).map(s=>[s.lat,s.lng]);if(coords.length)mapFull.fitBounds(coords,{padding:[30,30],maxZoom:13});}}}
+function openExpensePanel(city){city=city||"bali";currentExpenseCity=city;const d=CITY_EXPENSE[city];if(!d)return;document.getElementById("exp-title-text").textContent=d.title;document.getElementById("exp-subtitle-text").textContent=`${CREATOR.name} 추천 코스 · 1인 기준`;document.getElementById("exp-food-price").textContent="₩"+d.food.toLocaleString();document.getElementById("exp-food-note").textContent=d.foodNote;document.getElementById("exp-flight").textContent=d.defaultFlight?("₩"+d.defaultFlight.toLocaleString()):"유류비 별도";document.getElementById("exp-total").textContent="₩"+d.defaultTotal.toLocaleString();document.getElementById("exp-fine-print").textContent=d.finePrint;if(d.flightNote)document.getElementById("exp-flight-note").textContent=d.flightNote;const flightBtn=document.getElementById("exp-flight-btn");if(flightBtn){flightBtn.style.display=d.flightUrl?"":"none";if(d.flightUrl)flightBtn.onclick=()=>window.open(d.flightUrl,"_blank");}const hotelSection=document.getElementById("exp-hotel-section");if(d.hotels){hotelSection.innerHTML=d.hotels.map(h=>`<div class="exp-item"><div class="exp-emoji">🏨</div><div class="exp-info"><div class="exp-name">${h.name} <span class="exp-live-tag">${CREATOR.name} 추천</span></div><div class="exp-note">${h.note}</div></div><div class="exp-right"><div class="exp-price-val">₩${h.price.toLocaleString()}</div><button class="exp-book-btn" onclick="window.open('${h.url}','_blank')">예약 바로가기</button></div></div>`).join("");}else{hotelSection.innerHTML=`<div class="exp-item"><div class="exp-emoji">🏨</div><div class="exp-info"><div class="exp-name">${d.hotelName||"호텔"} <span class="exp-live-tag">${CREATOR.name} 추천</span></div><div class="exp-note">${d.hotelNote||""}</div></div><div class="exp-right"><div class="exp-price-val">₩${d.defaultHotel.toLocaleString()}</div>${d.hotelUrl?`<button class="exp-book-btn" onclick="window.open('${d.hotelUrl}','_blank')">예약 바로가기</button>`:""}</div></div>`;}document.getElementById("exp-tours-list").innerHTML=d.tours.length?`<div class="exp-group-header"><span>${d.toursLabel||"🎫 추천 상품"}</span></div>${d.tours.map(t=>`<div class="exp-item"><div class="exp-emoji">${t.emoji}</div><div class="exp-info"><div class="exp-name">${t.name}</div><div class="exp-note">${t.note}</div></div><div class="exp-right"><div class="exp-price-val">₩${t.price.toLocaleString()}</div>${t.url?`<button class="exp-book-btn" onclick="window.open('${t.url}','_blank')">예약 바로가기</button>`:""}</div></div>`).join("")}`:"";document.getElementById("expense-panel").classList.add("open");}
+function closeExpensePanel(){document.getElementById("expense-panel").classList.remove("open");}
+function copyShareLink(v){let url=location.origin+location.pathname+"?view="+v;if(v==="expense")url+="&city="+currentExpenseCity;navigator.clipboard?.writeText(url).then(()=>showToast("링크가 복사되었어요 🔗"));}
+function showToast(msg){let t=document.getElementById("share-toast");if(!t){t=document.createElement("div");t.id="share-toast";t.className="toast";document.body.appendChild(t)}t.textContent=msg;t.classList.add("show");clearTimeout(t._timer);t._timer=setTimeout(()=>t.classList.remove("show"),2200);}
+const pinColors={amber:"#E07A38",sage:"#6B9080",blush:"#C97D6E"};
+function createPinIcon(color,label){return L.divIcon({html:`<div style="width:30px;height:30px;border-radius:50%;background:${pinColors[color]||"#E07A38"};border:2.5px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,0.28);display:flex;align-items:center;justify-content:center;"><span style="color:#fff;font-size:9px;font-weight:800">${label}</span></div>`,className:"",iconSize:[30,30],iconAnchor:[15,15],popupAnchor:[0,-18]});}
+function drawRoutes(map,city){CITY_DAYS[city].forEach(day=>{const coords=day.stops.filter(s=>s.lat).map(s=>[s.lat,s.lng]);if(coords.length>1)L.polyline(coords,{color:pinColors[day.stops[0].pinColor]||"#E07A38",weight:3,opacity:0.65,dashArray:"6,9"}).addTo(map);});}
+function initMapFull(city){city=city||currentCourseCity;if(mapFull){mapFull.remove();mapFull=null;}mapFull=L.map("map-full",{zoomControl:false,attributionControl:false});L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",{maxZoom:19}).addTo(mapFull);const allCoords=CITY_DAYS[city].flatMap(d=>d.stops.filter(s=>s.lat).map(s=>[s.lat,s.lng]));if(allCoords.length)mapFull.fitBounds(allCoords,{padding:[20,20]});drawRoutes(mapFull,city);CITY_DAYS[city].forEach(day=>day.stops.filter(s=>s.lat).forEach(s=>{const m=L.marker([s.lat,s.lng],{icon:createPinIcon(s.pinColor,s.pinLabel)}).addTo(mapFull);m.bindPopup(`<div>${s.place}</div>`,{closeButton:false});m.on("click",()=>selectDay(day.day));}));}
+document.addEventListener("DOMContentLoaded",()=>{renderProducts();const p=new URLSearchParams(location.search),v=p.get("view"),c=p.get("city")||"bali";if(v==="expense")setTimeout(()=>openExpensePanel(c),400);if(v==="course")setTimeout(()=>openCourse(c),400);});
+</script>
+</body>
+</html>

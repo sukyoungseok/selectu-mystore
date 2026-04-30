@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>재구언 · 마이스토어</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--cream:#f8f4ee;--amber:#6B3AB8;--sage:#8B5CD8;--text:#1a1714;--mid:#6b6560;--light:#a09890;--border:#ede8e0;--accent:#3A1A7A}
+body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;display:flex;justify-content:center;align-items:flex-start}
+.phone{width:390px;min-height:100vh;background:var(--cream);position:relative;overflow:hidden;box-shadow:0 0 60px rgba(0,0,0,.25)}
+#main-page{position:absolute;top:0;left:0;right:0;overflow-y:auto;height:100%;background:var(--cream);-webkit-overflow-scrolling:touch;z-index:0}
+.affiliate-notice{background:#f0ede8;border-bottom:1px solid var(--border);padding:7px 16px;font-size:10px;color:var(--light);line-height:1.5;text-align:center}
+.hero{position:relative;height:380px}
+.hero-cover{position:absolute;inset:0;background:url('../assets/images/jaegueon-hero.jpg') center/cover no-repeat}.hero-cover::after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(20,15,10,.05) 0%,rgba(20,15,10,0) 40%,rgba(20,15,10,.5) 100%)}
+.profile-card{position:absolute;bottom:-20px;left:20px;right:20px;z-index:10;background:rgba(255,255,255,.82);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.9);border-radius:20px;padding:16px 18px;display:flex;align-items:center;gap:14px;box-shadow:0 8px 32px rgba(0,0,0,.12)}
+.profile-avatar{width:72px;height:72px;border-radius:50%;flex-shrink:0;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,.15)}.profile-avatar img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+.profile-info h2{font-size:16px;font-weight:700;color:var(--text);margin-bottom:4px}
+.profile-info{min-width:0}.profile-info p{font-size:12px;color:var(--mid);margin-bottom:8px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.sns-pills{display:flex;gap:6px}
+.sns-icon{width:28px;height:28px;border-radius:50%;background:var(--cream);border:1px solid #c4bab0;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;flex-shrink:0;font-size:13px}.sns-icon img{width:16px;height:16px;object-fit:contain}
+.coupon-showcase{margin:30px 20px 0;position:relative;padding:2px 4px 10px 10px;display:block;text-decoration:none}
+.coupon-showcase .cs-layer{position:absolute;background:#fff;border:1.8px solid var(--text);border-radius:6px;transform-origin:90% 10%}
+.coupon-showcase .cs-l2{top:3px;bottom:3px;left:-3px;right:4px;transform:rotate(-2deg);background:#D8C0F8;z-index:0}
+.coupon-showcase .cs-l3{top:1px;bottom:7px;left:2.5px;right:6px;transform:rotate(-1deg);background:#fff;z-index:1}
+.coupon-showcase .cs-ticket{position:relative;z-index:2;display:grid;grid-template-columns:1fr 58px;background:#fff;border-radius:6px;border:1.8px solid var(--text);cursor:pointer;transition:transform .15s}
+.coupon-showcase:hover .cs-ticket{transform:translate(-1px,-1px)}
+.coupon-showcase .cs-ticket::before,.coupon-showcase .cs-ticket::after{content:"";position:absolute;width:10px;height:10px;background:var(--cream);border:1.8px solid var(--text);border-radius:50%;right:51px}
+.coupon-showcase .cs-ticket::before{top:-4px}.coupon-showcase .cs-ticket::after{bottom:-4px}
+.coupon-showcase .cs-main{padding:16px 18px;position:relative}
+.coupon-showcase .cs-kicker{font-size:11px;font-weight:700;color:var(--mid);letter-spacing:-.02em}
+.coupon-showcase .cs-title{font-size:19px;font-weight:900;letter-spacing:-.04em;line-height:1.15;margin-top:4px;color:var(--text)}
+.coupon-showcase .cs-amount-row{display:flex;align-items:center;gap:10px;margin-top:12px;padding-top:10px;border-top:1px dashed var(--text)}
+.coupon-showcase .cs-amount-stack{display:flex;align-items:baseline;gap:4px}
+.coupon-showcase .cs-amt-prefix{font-size:13px;font-weight:700;color:var(--text)}
+.coupon-showcase .cs-amt{font-size:26px;font-weight:900;letter-spacing:-.04em;color:var(--amber);line-height:1}
+.coupon-showcase .cs-amt-unit{font-size:15px;font-weight:800;color:var(--amber)}
+.coupon-showcase .cs-stamp{position:absolute;right:10px;bottom:8px;width:66px;height:66px;border-radius:50%;border:2px solid var(--amber);color:var(--amber);background:transparent;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:.9;transform:rotate(-10deg);opacity:.9;pointer-events:none}
+.coupon-showcase .cs-stamp::before{content:"";position:absolute;inset:3px;border:1px dashed var(--amber);border-radius:50%;opacity:.6}
+.coupon-showcase .cs-stamp-num{font-size:22px;font-weight:900;letter-spacing:-.05em;line-height:1}
+.coupon-showcase .cs-stamp-lbl{font-size:11px;font-weight:900;letter-spacing:.02em;margin-top:2px}
+.coupon-showcase .cs-side{background:var(--text);color:var(--cream);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;border-radius:0 4px 4px 0}
+.coupon-showcase .cs-side svg{width:20px;height:20px}
+.coupon-showcase .cs-side-label{font-size:11px;font-weight:800;color:var(--cream)}
+.trip-carousel-wrap{margin:20px 0 0;position:relative}
+.trip-nav{display:flex;justify-content:center;align-items:center;gap:10px;margin-top:6px}
+.trip-carousel{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 20px 12px;scrollbar-width:none}
+.trip-carousel::-webkit-scrollbar{display:none}
+.trip-card{flex-shrink:0;width:300px;scroll-snap-align:center;background:#fff;border:1px solid var(--border);border-radius:20px;overflow:hidden;box-shadow:0 6px 18px rgba(24,21,18,.07)}
+.tc-hero{position:relative;height:150px}
+.tc-hero.jae9un-themepark{background:url('../assets/images/jaegueon-card1.jpg') center/cover no-repeat}
+.tc-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,14,10,.05),rgba(17,14,10,.68))}
+.tc-hero-content{position:absolute;left:16px;right:16px;bottom:14px;z-index:1;color:#fff;display:flex;align-items:center;gap:10px}
+.tc-flag{width:46px;height:46px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0;box-shadow:0 3px 10px rgba(0,0,0,.25)}
+.tc-title{font-size:22px;font-weight:700;line-height:1.15;letter-spacing:-.03em;color:#fff}
+.tc-badges{display:flex;gap:5px;margin-bottom:6px;flex-wrap:wrap}
+.tc-badge{background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.28);backdrop-filter:blur(8px);padding:3px 9px;border-radius:999px;font-size:10px;font-weight:700;color:#fff;letter-spacing:-.01em}
+.tc-title-col{min-width:0}
+.tc-body{padding:16px}
+.tc-ask{font-size:15px;font-weight:900;letter-spacing:-.03em;margin-bottom:12px;color:var(--text)}
+.tc-choice{display:grid;gap:8px}
+.tc-choice button{width:100%;border:1.5px solid transparent;border-radius:18px;padding:16px 18px;font-family:inherit;text-align:left;cursor:pointer;transition:transform .15s;display:flex;align-items:center;justify-content:space-between}
+.tc-choice button:active{transform:scale(.985)}
+.tc-choice strong{display:block;font-size:15px;font-weight:900;letter-spacing:-.03em;margin-bottom:3px;color:var(--text)}
+.tc-choice span{display:block;font-size:11px;font-weight:700;color:var(--mid)}
+.tc-choice .tc-arr{font-size:18px;color:var(--light);opacity:.6;flex-shrink:0;margin-left:10px}
+.tc-choice .plan{background:linear-gradient(135deg,#fffbf0 0%,#fef3c7 100%);border-color:#fcd34d}
+.tc-choice .cost{background:linear-gradient(135deg,#EDE8FD 0%,#D8C0F8 100%);border-color:#B8A0F0;box-shadow:0 12px 24px rgba(107,58,184,.14);display:block}
+.tc-c-row1{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.tc-c-row1 strong{font-size:15px;font-weight:900;color:#1a1714;letter-spacing:-.02em;margin-bottom:0}
+.tc-c-price{display:flex;align-items:center;gap:6px;flex-shrink:0}
+.tc-choice .tc-c-num{font-size:22px;font-weight:900;color:#6B3AB8;letter-spacing:-.04em}
+.tc-choice .tc-c-unit{font-size:12px;font-weight:800;color:#4A1A9A}
+.tc-c-row2{display:flex;align-items:center;gap:6px}
+.tc-choice .cost .tc-c-badge{display:inline-flex!important;align-items:center;padding:3px 7px;border-radius:999px;background:linear-gradient(135deg,#6B3AB8,#3A1A7A);color:#fff!important;font-size:9px;font-weight:900;letter-spacing:.05em}
+.tc-choice .cost .tc-c-sub{display:inline!important;font-size:11px;font-weight:700;color:#6b6560}
+.tc-choice .cost .tc-c-unit,.tc-choice .cost .tc-c-num{display:inline-flex!important;align-items:baseline}
+.trip-dots{display:flex;justify-content:center;align-items:center;gap:6px}
+.trip-dot{width:6px;height:6px;border-radius:50%;background:rgba(24,21,18,.18);transition:all .2s}
+.trip-dot.on{background:var(--amber);width:18px;border-radius:4px}
+.page-tabs{display:flex;margin-top:16px;border-bottom:1px solid var(--border);background:var(--cream);position:sticky;top:0;z-index:20}
+.page-tab{flex:1;padding:13px 8px;font-size:13px;font-weight:600;color:var(--light);text-align:center;cursor:pointer;border-bottom:2px solid transparent;transition:all .2s}
+.page-tab.on{color:var(--text);border-bottom-color:var(--amber)}
+.tab-panel{display:none}.tab-panel.on{display:block}
+.links-section{padding:20px 20px 0}
+.links-section h3{font-size:15px;font-weight:800;color:var(--text);margin-bottom:14px}
+.ls-og{display:block;border-radius:16px;overflow:hidden;background:#fff;border:1px solid var(--border);text-decoration:none;margin-bottom:10px}
+.ls-og-placeholder{width:100%;height:150px;background:linear-gradient(135deg,#EDE8FD 0%,#D8C0F8 100%);display:flex;align-items:center;justify-content:center;font-size:48px}
+.ls-og-body{padding:11px 14px 13px}
+.ls-og-title{font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:3px}
+.ls-og-domain{font-size:11px;color:var(--light)}
+.hot-deal-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:16px}
+.hot-deal-item{display:flex;flex-direction:column;align-items:center;text-decoration:none;background:#fff;border:1px solid var(--border);border-radius:14px;overflow:hidden}
+.hot-deal-item img{width:100%;aspect-ratio:1;object-fit:cover}
+.hot-deal-item span{font-size:10px;font-weight:700;color:var(--text);text-align:center;line-height:1.35;padding:8px 6px}
+.ls-img-link{display:block;border-radius:14px;overflow:hidden;background:#fff;border:1px solid var(--border);text-decoration:none;margin-bottom:8px}
+.ls-img-link img{width:100%;display:block;height:90px;object-fit:cover}
+.ls-img-link-title{padding:10px 12px;font-size:13px;font-weight:600;color:var(--text);line-height:1.4}
+.ls-img-link-placeholder{width:100%;height:90px;background:linear-gradient(135deg,#EDE8FD 0%,#D8C0F8 100%);display:flex;align-items:center;justify-content:center;font-size:36px}
+.trip-arrow{width:28px;height:28px;border-radius:50%;background:#fff;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:14px;color:var(--text);font-weight:800;cursor:pointer;padding:0;padding-bottom:2px;box-shadow:0 2px 6px rgba(0,0,0,.06);transition:opacity .2s,transform .15s}
+.trip-arrow:hover{transform:scale(1.08);background:#EDE8FD;color:var(--amber)}
+.trip-arrow:disabled{opacity:.3;pointer-events:none}
+@media(hover:none){.trip-arrow{display:none}}
+.collab-wrap{margin-bottom:4px}
+.collab-year{margin-bottom:14px}
+.collab-year-badge{display:inline-flex;align-items:center;background:linear-gradient(135deg,#3A1A7A,#6B3AB8);color:#fff;font-size:11px;font-weight:900;padding:3px 10px;border-radius:99px;margin-bottom:8px}
+.collab-list{list-style:none;padding:0;margin:0}
+.collab-list li{font-size:12px;color:var(--mid);padding:5px 0;border-bottom:1px solid var(--border);line-height:1.45}
+.collab-list li:last-child{border-bottom:none}
+.collab-month{font-size:10px;font-weight:700;color:var(--amber);min-width:38px;display:inline-block}
+.collab-tag{font-size:10px;font-weight:700;padding:1px 6px;border-radius:99px;margin-left:4px;background:#D8C0F8;color:#6B3AB8}
+.collab-award{font-size:10px;font-weight:700;color:#D97706;margin-left:2px}
+.ls-badge{font-size:10px;font-weight:700;padding:3px 9px;border-radius:20px;letter-spacing:.2px;white-space:nowrap}
+.ls-badge.hot{background:linear-gradient(135deg,#6B3AB8,#3A1A7A);color:#fff}
+.ls-badge.new{background:#D8C0F8;color:#6B3AB8}
+.ls-badges{display:flex;gap:5px;margin-bottom:6px;flex-wrap:wrap}
+.ls-textblock{display:flex;gap:14px;align-items:flex-start;margin:20px 0 20px;padding:0 20px}
+.ls-tb-avatar{width:44px;height:44px;border-radius:50%;flex-shrink:0;background:linear-gradient(135deg,#6B3AB8,#3A1A7A);display:flex;align-items:center;justify-content:center;font-size:20px}
+.ls-tb-bubble{flex:1;position:relative;background:#fff5e8;border:1.5px solid #ffd9ae;border-radius:18px;padding:14px 16px;box-shadow:0 4px 14px rgba(224,122,56,.08);font-size:13px;line-height:1.7;color:var(--text)}.ls-tb-bubble::before{content:"";position:absolute;left:-10px;top:14px;width:0;height:0;border:8px solid transparent;border-right-color:#ffd9ae;border-left:0}.ls-tb-bubble::after{content:"";position:absolute;left:-7px;top:15px;width:0;height:0;border:7px solid transparent;border-right-color:#fff5e8;border-left:0}
+.ls-tb-title{font-size:14px;font-weight:900;color:var(--amber);margin-bottom:4px;letter-spacing:-.02em}.ls-tb-bubble em{font-style:normal;font-weight:700;background:linear-gradient(transparent 60%,rgba(224,122,56,.35) 60%);padding:0 3px}
+.links-section-pb{height:20px}
+.products-section{padding:16px 16px 0}
+.product-search{position:relative;margin-bottom:14px}
+.product-search-icon{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--light)}
+.product-search input{width:100%;padding:10px 12px 10px 34px;border:1px solid var(--border);border-radius:12px;font-family:inherit;font-size:13px;background:#fff;outline:none;color:var(--text)}
+.product-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding-bottom:20px}
+.product-card-v3{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.06);cursor:pointer;display:flex;flex-direction:column}
+.pc-img{width:100%;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;font-size:44px;overflow:hidden;flex-shrink:0}
+.pc-body{padding:10px;display:flex;flex-direction:column;flex:1}
+.pc-tag{font-size:11px;font-weight:700;padding:2px 7px;border-radius:5px;display:inline-block;margin-bottom:5px;align-self:flex-start}
+.pc-name{font-size:12px;font-weight:600;color:var(--text);line-height:1.35;flex:1}
+.pc-price{font-size:14px;font-weight:900;color:var(--amber);margin-top:10px;margin-bottom:4px}
+.pc-city{font-size:11px;font-weight:500;color:var(--light);margin-bottom:8px}
+
+.pc-btn{width:100%;background:var(--amber);color:#fff;font-size:11px;font-weight:700;padding:9px 8px;border-radius:10px;border:none;cursor:pointer;font-family:inherit}
+.bio-footer{margin:36px 0 0;padding:24px 20px 28px;border-top:1px solid var(--border);display:flex;flex-direction:column;align-items:center;gap:4px;background:#f4f0ea}
+.bio-footer-label{font-size:10px;font-weight:700;color:var(--mid);letter-spacing:.5px}
+.bio-footer-mail{font-size:13px;font-weight:700;color:var(--text);text-decoration:none;display:flex;align-items:center;gap:6px}
+.bio-footer-mail::before{content:"✉";font-size:14px;color:var(--amber)}
+.bio-footer-meta{font-size:10px;color:var(--light);margin-top:8px}
+#coupon-panel{position:absolute;top:0;left:0;right:0;bottom:0;z-index:200;display:flex;flex-direction:column;justify-content:flex-end;pointer-events:none;opacity:0;transition:opacity .3s}
+#coupon-panel.open{pointer-events:all;opacity:1}
+.coupon-overlay{position:absolute;inset:0;background:rgba(0,0,0,.4);cursor:pointer}
+.coupon-sheet{position:relative;z-index:1;background:var(--cream);border-radius:24px 24px 0 0;padding:8px 20px 40px;transform:translateY(100%);transition:transform .35s cubic-bezier(.32,.72,0,1)}
+#coupon-panel.open .coupon-sheet{transform:translateY(0)}
+.sheet-handle{width:36px;height:4px;background:var(--border);border-radius:2px;margin:12px auto 20px}
+.sheet-title{font-size:17px;font-weight:900;color:var(--text);margin-bottom:4px}
+.sheet-sub{font-size:12px;color:var(--mid);margin-bottom:20px}
+.coupon-card{background:#fff;border-radius:16px;overflow:hidden;display:flex;margin-bottom:12px;box-shadow:0 2px 10px rgba(0,0,0,.07)}
+.cc-stripe{width:6px;flex-shrink:0}
+.cc-body{padding:16px 14px;flex:1}
+.cc-label{font-size:10px;font-weight:700;letter-spacing:.5px;margin-bottom:4px}
+.cc-title{font-size:16px;font-weight:900;color:var(--text);margin-bottom:4px}
+.cc-desc{font-size:11px;color:var(--mid);margin-bottom:12px}
+.cc-footer{padding-top:10px;border-top:1px dashed var(--border);display:flex;justify-content:space-between}
+.cc-expire,.cc-remain{font-size:10px;color:var(--light)}
+.cc-btn{flex-shrink:0;color:#fff;font-size:11px;font-weight:700;padding:10px 12px;border-radius:10px;border:none;font-family:inherit;cursor:pointer;align-self:center;margin:16px 14px 16px 0}
+.toast{position:fixed;bottom:32px;left:50%;transform:translateX(-50%) translateY(12px);background:#1a1714;color:#fff;font-size:13px;font-weight:700;padding:11px 20px;border-radius:99px;opacity:0;transition:opacity .2s,transform .2s;pointer-events:none;z-index:9999;white-space:nowrap}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+#tip-panel{position:absolute;top:0;left:0;right:0;bottom:0;z-index:200;display:flex;flex-direction:column;justify-content:flex-end;pointer-events:none;opacity:0;transition:opacity .3s}
+#tip-panel.open{pointer-events:all;opacity:1}
+.tip-overlay{position:absolute;inset:0;background:rgba(0,0,0,.45);cursor:pointer}
+.tip-sheet{position:relative;z-index:1;background:var(--cream);border-radius:24px 24px 0 0;padding:0 0 40px;max-height:88vh;display:flex;flex-direction:column;transform:translateY(100%);transition:transform .35s cubic-bezier(.32,.72,0,1)}
+#tip-panel.open .tip-sheet{transform:translateY(0)}
+.tip-sheet-header{padding:8px 20px 16px;border-bottom:1px solid var(--border);flex-shrink:0}
+.tip-sheet-handle{width:36px;height:4px;background:var(--border);border-radius:2px;margin:12px auto 16px}
+.tip-sheet-title{font-size:17px;font-weight:900;color:var(--text);margin-bottom:2px}
+.tip-sheet-period{display:inline-flex;align-items:center;gap:4px;background:linear-gradient(135deg,#6B3AB8,#3A1A7A);color:#fff;font-size:10px;font-weight:700;padding:3px 10px;border-radius:99px;margin-top:6px}
+.tip-sheet-sub{font-size:12px;color:var(--mid);margin-top:4px}
+.tip-list{overflow-y:auto;padding:16px 20px 0;flex:1}
+.tip-item{display:flex;gap:12px;padding:14px 0;border-bottom:1px solid var(--border)}
+.tip-item:last-child{border-bottom:none}
+.tip-num{width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,#6B3AB8,#3A1A7A);color:#fff;font-size:11px;font-weight:900;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
+.tip-body{flex:1;min-width:0}
+.tip-title{font-size:14px;font-weight:800;color:var(--text);margin-bottom:3px;letter-spacing:-.02em}
+.tip-desc{font-size:12px;color:var(--mid);line-height:1.55}
+.tip-loc{font-size:11px;color:var(--amber);font-weight:700;margin-top:4px}
+.tip-emoji{font-size:22px;flex-shrink:0;line-height:1}
+</style>
+</head>
+<body>
+<div class="phone">
+  <div id="main-page">
+    <div class="affiliate-notice">이 페이지의 링크를 통해 구매 시 수수료를 받아 채널 운영에 도움이 됩니다.</div>
+    <div class="hero">
+      <div class="hero-cover"></div>
+      <div class="profile-card">
+        <div class="profile-avatar"><img src="../assets/profiles/재구언.jpg" alt="재구언"/></div>
+        <div class="profile-info">
+          <h2>재구언</h2>
+          <p>20년차 테마파크 전문 에디터 · 매거진</p>
+          <div class="sns-pills">
+            <a class="sns-icon" href="https://www.instagram.com/jae9un/" target="_blank"><img src="../assets/icons/insta.png" alt="Instagram"/></a>
+            <a class="sns-icon" href="https://www.tiktok.com/@jae9un" target="_blank"><img src="../assets/icons/tiktok-logo.png" alt="TikTok"/></a>
+            <a class="sns-icon" href="https://www.youtube.com/@재구언" target="_blank"><img src="../assets/icons/youtube.png" alt="YouTube"/></a>
+            <a class="sns-icon" href="https://blog.naver.com/jackey0206" target="_blank"><img src="../assets/icons/blog.png" alt="Blog"/></a>
+          
+            <a class="sns-icon" href="mailto:jackey0206@naver.com" title="이메일 문의">✉️</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="coupon-showcase" href="https://www.myrealtrip.com/coupons" target="_blank">
+      <div class="cs-layer cs-l2"></div><div class="cs-layer cs-l3"></div>
+      <div class="cs-ticket">
+        <div class="cs-main">
+          <div class="cs-kicker">재구언 팔로워 전용</div>
+          <div class="cs-title">선착순 할인 쿠폰팩</div>
+          <div class="cs-amount-row"><div class="cs-amount-stack"><span class="cs-amt-prefix">최대</span><span class="cs-amt">99,000</span><span class="cs-amt-unit">원</span></div></div>
+          <div class="cs-stamp"><span class="cs-stamp-num">8종</span><span class="cs-stamp-lbl">구성</span></div>
+        </div>
+        <div class="cs-side"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v12"/><path d="M6 10l6 6 6-6"/><path d="M5 20h14"/></svg><span class="cs-side-label">받기</span></div>
+      </div>
+    </a>
+    <div class="trip-carousel-wrap">
+      <div class="trip-carousel" id="trip-carousel">
+        <div class="trip-card">
+          <div class="tc-hero jae9un-themepark">
+            <div class="tc-hero-content">
+              <div class="tc-flag">⭐</div>
+              <div class="tc-title-col">
+                <div class="tc-badges"><span class="tc-badge">2026.3.18~2027.1.11</span><span class="tc-badge">한정 이벤트</span></div>
+                <div class="tc-title">닌텐도 월드 5주년</div>
+              </div>
+            </div>
+          </div>
+          <div class="tc-body">
+            <div class="tc-ask">We are all STARS! 🌟</div>
+            <div class="tc-choice">
+              <button class="plan" onclick="openTipPanel('nintendo5th')">
+                <div><strong>꿀팁 코스 보기</strong><span>7가지 재구언 추천 포인트</span></div>
+                <div class="tc-arr">›</div>
+              </button>
+              <button class="cost" onclick="window.open('https://www.myrealtrip.com/activities/40596','_blank')">
+                <div class="tc-c-row1"><strong>입장권 예약하기</strong><div class="tc-c-price"><span class="tc-c-num">할인가~</span><span class="tc-arr" style="margin-left:4px">›</span></div></div>
+                <div class="tc-c-row2"><span class="tc-c-badge">🎫 익스프레스 패스 포함</span><span class="tc-c-sub">마이리얼트립 공식 판매처</span></div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="trip-card">
+          <div class="tc-hero" style="background:url('../assets/images/jaegueon-card2.jpg') center/cover no-repeat">
+            <div class="tc-hero-content">
+              <div class="tc-flag">🎉</div>
+              <div class="tc-title-col">
+                <div class="tc-badges"><span class="tc-badge">2026.3.4~2027.3.30</span><span class="tc-badge">25주년 축제</span></div>
+                <div class="tc-title">USJ 25주년</div>
+              </div>
+            </div>
+          </div>
+          <div class="tc-body">
+            <div class="tc-ask">DISCOVER U!!! 🎊</div>
+            <div class="tc-choice">
+              <button class="plan" onclick="openTipPanel('usj25th')">
+                <div><strong>꿀팁 코스 보기</strong><span>8가지 재구언 추천 포인트</span></div>
+                <div class="tc-arr">›</div>
+              </button>
+              <button class="cost" onclick="window.open('https://www.myrealtrip.com/activities/40596','_blank')">
+                <div class="tc-c-row1"><strong>입장권 예약하기</strong><div class="tc-c-price"><span class="tc-c-num">할인가~</span><span class="tc-arr" style="margin-left:4px">›</span></div></div>
+                <div class="tc-c-row2"><span class="tc-c-badge">🎫 익스프레스 패스 포함</span><span class="tc-c-sub">마이리얼트립 공식 판매처</span></div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="trip-nav"><button class="trip-arrow" id="trip-prev" aria-label="이전" onclick="tripScroll(-1)">‹</button><div class="trip-dots" id="trip-dots"><span class="trip-dot on"></span><span class="trip-dot"></span></div><button class="trip-arrow" id="trip-next" aria-label="다음" onclick="tripScroll(1)">›</button></div>
+    </div>
+    <div class="page-tabs">
+      <div class="page-tab on" data-tab="posts" onclick="switchTab('posts')">링크</div>
+      <div class="page-tab" data-tab="products" onclick="switchTab('products')">필수템</div>
+    </div>
+    <div id="tab-posts" class="tab-panel on">
+      <div class="ls-textblock">
+        <div class="ls-tb-avatar"><img src="../assets/profiles/재구언.jpg" style="width:100%;height:100%;object-fit:cover;border-radius:50%"></div>
+        <div class="ls-tb-bubble">
+          <div class="ls-tb-title">🎡 20년차 테마파크 전문 매거진</div>
+          누적 릴스 <em>2.5억뷰</em>! 공식 채널보다 신속·정확한 테마파크 정보를 전달해요. 국내외 입장권 최저가부터 USJ·디즈니랜드 완벽 공략까지 ✨
+        </div>
+      </div>
+      <div class="links-section">
+        <h3>🔥 특가 TOP3</h3>
+        <div class="hot-deal-row">
+          <a class="hot-deal-item" href="https://3ha.in/r/358729" target="_blank">
+            <img src="https://cdn.litt.ly/images/ahGkwwqsAmWxWYwdEizduV5D6RYSyWPe?s=240x240&f=webp" alt="잠실 롯데월드"/>
+            <span>🔥잠실 롯데월드 종일권 특가</span>
+          </a>
+          <a class="hot-deal-item" href="https://www.lotteon.com/p/product/LO2581322118?mall_no=1&ch_no=100995&ch_dtl_no=1025316&ch_mem_no=2940355632g4Mt6927c29224" target="_blank">
+            <img src="https://cdn.litt.ly/images/tD2wUz1MT17BDcACECv86YoSyRx9mEy3?s=240x240&f=webp" alt="부산 롯데월드"/>
+            <span>🔥부산 롯데월드 오후권 특가</span>
+          </a>
+          <a class="hot-deal-item" href="https://3ha.in/r/358734" target="_blank">
+            <img src="https://cdn.litt.ly/images/Lmhl635xv0i5jJK6kb8iHmP0J1dJQTSo?s=240x240&f=webp" alt="에버랜드"/>
+            <span>🔥에버랜드 종일권 특가</span>
+          </a>
+        </div>
+        <h3 style="margin-top:20px">🏅 수상경력 · 협업 경험</h3>
+        <div class="collab-wrap">
+          <div class="collab-year">
+            <div class="collab-year-badge">2025</div>
+            <ul class="collab-list">
+              <li><span class="collab-month">8~12월</span> 네이버 클립 크리에이터 5기 <span class="collab-tag">진행중</span></li>
+              <li><span class="collab-month">7월</span> <strong>마이리얼트립</strong> 협업 광고 🎥</li>
+              <li><span class="collab-month">7월</span> 송파 파크하비오 워터킹덤 협업 광고 🎥</li>
+              <li><span class="collab-month">7월</span> 아일랜드캐슬 워터파크 협업 광고 🎥</li>
+              <li><span class="collab-month">7월</span> 트립닷컴 협업 광고 🎥</li>
+              <li><span class="collab-month">7월</span> 디즈니코리아 협업 광고 🎥</li>
+              <li><span class="collab-month">7월</span> 경북문화관광공사 협업 광고 🎥</li>
+              <li><span class="collab-month">6월</span> 홍콩 디즈니랜드 협업 광고 🎥</li>
+              <li><span class="collab-month">6월</span> 하우스텐보스 협업 광고 🎥</li>
+              <li><span class="collab-month">6월</span> <strong>마이리얼트립</strong> 협업 광고 🎥</li>
+              <li><span class="collab-month">5월</span> 디즈니코리아 협업 광고 🎥</li>
+              <li><span class="collab-month">5월</span> 에버랜드 협업 광고 🎥</li>
+              <li><span class="collab-month">4월</span> <strong>마이리얼트립</strong> × 도쿄 디즈니랜드 협업 광고 🎥</li>
+              <li><span class="collab-month">4월</span> 레고랜드 협업 광고 🎥</li>
+              <li><span class="collab-month">4월</span> 더블하트 × 디즈니코리아 만우절 광고 모델 출연</li>
+              <li><span class="collab-month">3월</span> 레고랜드 협업 광고 🎥</li>
+              <li><span class="collab-month">1월</span> <strong>마이리얼트립</strong> × 유니버설 스튜디오 재팬 협업 광고 🎥</li>
+              <li><span class="collab-month">1~6월</span> 네이버 클립 크리에이터 4기</li>
+            </ul>
+          </div>
+          <div class="collab-year">
+            <div class="collab-year-badge">2024</div>
+            <ul class="collab-list">
+              <li><span class="collab-month">12월</span> 노원구청 영상 공모전 <span class="collab-award">🏅 숏폼 부문 장려상</span></li>
+              <li><span class="collab-month">10월</span> 디즈니코리아 협업 광고 🎥</li>
+              <li><span class="collab-month">10월</span> 서울다누림관광 서울 여행 영상 공모전 <span class="collab-award">🏅 대상</span></li>
+              <li><span class="collab-month">10월~</span> 켄싱턴호텔앤리조트 서포터즈 켄러버 3기</li>
+              <li><span class="collab-month">9월</span> 경주월드 협업 광고 🎥</li>
+              <li><span class="collab-month">9월</span> 에버랜드 협업 광고 🎥</li>
+              <li><span class="collab-month">8~12월</span> 네이버 클립 크리에이터 3기 <span class="collab-award">🏅 카테고리 어워즈 3회</span></li>
+              <li><span class="collab-month">7월</span> 레고랜드 협업 광고 🎥</li>
+              <li><span class="collab-month">5월</span> 레고랜드 협업 광고 🎥</li>
+              <li><span class="collab-month">4~12월</span> 한강 이크루즈 서포터즈 1기 <span class="collab-award">🏅 베스트 서포터즈</span></li>
+              <li><span class="collab-month">1~3월</span> 틱톡 포토크리에이터 <span class="collab-award">🏅 특별상 · 매월 우수</span></li>
+            </ul>
+          </div>
+          <div class="collab-year">
+            <div class="collab-year-badge">2023</div>
+            <ul class="collab-list">
+              <li><span class="collab-month">12월</span> 디즈니코리아 협업 광고 🎥</li>
+              <li><span class="collab-month">12월</span> 인천관광공사 숏폼 이벤트 <span class="collab-award">🏅 장려상</span></li>
+              <li><span class="collab-month">10월</span> 인천관광공사 인천워케이션 <span class="collab-award">🏅 최우수 크리에이터</span></li>
+              <li><span class="collab-month">9~11월</span> 틱톡 로컬 인플루언서 2기 <span class="collab-award">🏅 매월 최다 조회수</span></li>
+              <li><span class="collab-month">8~10월</span> 트립닷컴 서포터즈 1기 <span class="collab-award">🏅 매월 우수활동</span></li>
+              <li><span class="collab-month">4~11월</span> 쿠우쿠우 서포터즈 1기</li>
+            </ul>
+          </div>
+          <div class="collab-year">
+            <div class="collab-year-badge">2012</div>
+            <ul class="collab-list">
+              <li><span class="collab-month">2월</span> 롯데월드 최우수 앰버서더 선발 <span class="collab-award">🏅 해외 연수 (도쿄 디즈니)</span></li>
+            </ul>
+          </div>
+          <div class="collab-year">
+            <div class="collab-year-badge">2009</div>
+            <ul class="collab-list">
+              <li><span class="collab-month">3월</span> 롯데월드 앰버서더 8기 · 최우수 수료 <span class="collab-award">🏅 해외 연수 (도쿄 디즈니)</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="links-section-pb"></div>
+    </div>
+    <div id="tab-products" class="tab-panel">
+      <div class="products-section">
+        <div class="product-search">
+          <svg class="product-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          <input id="product-search-input" type="text" placeholder="테마파크 검색" oninput="renderProducts()"/>
+        </div>
+        <div class="product-grid" id="product-grid"></div>
+      </div>
+      <div class="links-section-pb"></div>
+    </div>
+    <div class="bio-footer">
+      <div class="bio-footer-label">COLLABORATION</div>
+      <a class="bio-footer-mail" href="mailto:jackey0206@naver.com">jackey0206@naver.com</a>
+      <div class="bio-footer-meta">© 2026 재구언 · myrealtrip</div>
+    </div>
+  </div>
+  <div id="tip-panel">
+    <div class="tip-overlay" onclick="closeTipPanel()"></div>
+    <div class="tip-sheet">
+      <div class="tip-sheet-header">
+        <div class="tip-sheet-handle"></div>
+        <div class="tip-sheet-title" id="tip-sheet-title"></div>
+        <div class="tip-sheet-period" id="tip-sheet-period"></div>
+        <div class="tip-sheet-sub" id="tip-sheet-sub"></div>
+      </div>
+      <div class="tip-list" id="tip-list"></div>
+    </div>
+  </div>
+  <div id="coupon-panel">
+    <div class="coupon-overlay" onclick="closeCoupon()"></div>
+    <div class="coupon-sheet">
+      <div class="sheet-handle"></div>
+      <div class="sheet-title">🎫 파트너 쿠폰</div>
+      <div class="sheet-sub">재구언 통해 예약하면 받을 수 있는 혜택</div>
+      <div class="coupon-card"><div class="cc-stripe" style="background:var(--amber)"></div><div class="cc-body"><div class="cc-label" style="color:var(--amber)">마이리얼트립 파트너 혜택</div><div class="cc-title">첫 예약 3,000원 할인</div><div class="cc-desc">5만원 이상 결제 시 · 1회 사용 가능</div><div class="cc-footer"><div class="cc-expire">유효기간: 2026.06.30까지</div><div class="cc-remain">잔여 47장</div></div></div><button class="cc-btn" style="background:var(--amber)" onclick="window.open('https://www.myrealtrip.com/coupons','_blank')">받기</button></div>
+      <div class="coupon-card"><div class="cc-stripe" style="background:var(--sage)"></div><div class="cc-body"><div class="cc-label" style="color:var(--sage)">재방문 감사 쿠폰</div><div class="cc-title">2번째 예약 5% 할인</div><div class="cc-desc">최대 1만원 · 재구언 전용</div><div class="cc-footer"><div class="cc-expire">유효기간: 2026.07.31까지</div><div class="cc-remain">잔여 23장</div></div></div><button class="cc-btn" style="background:var(--sage)" onclick="window.open('https://www.myrealtrip.com/coupons','_blank')">받기</button></div>
+    </div>
+  </div>
+</div>
+<script>
+const products=[
+  // 해외 테마파크
+  {name:"도쿄 디즈니랜드 & 디즈니씨 이용권",price:"",tag:"🇯🇵 해외",icon:"🎢",bg:"#f0f4ff",tagColor:"#1d4ed8",tagBg:"#dbeafe",img:"https://cdn.litt.ly/images/XiH6nOd6FuUyOcKXfeV7WTuzNda5Fov9?s=300x300&m=outside&f=webp",url:"https://myrealt.rip/6CKM9e"},
+  {name:"유니버설 스튜디오 재팬(USJ) 이용권",price:"",tag:"🇯🇵 해외",icon:"🎢",bg:"#f0f4ff",tagColor:"#1d4ed8",tagBg:"#dbeafe",img:"https://cdn.litt.ly/images/UmoDl8TzM1FzXBvcpbn9sCPz6bIWTwJz?s=300x300&m=outside&f=webp",url:"https://3ha.in/r/298090"},
+  {name:"USJ 익스프레스 패스",price:"",tag:"🇯🇵 해외",icon:"⚡",bg:"#f0f4ff",tagColor:"#1d4ed8",tagBg:"#dbeafe",img:"https://cdn.litt.ly/images/85u6fPql4WkzCAEfQBhlBIWfPpHxv1tp?s=300x300&m=outside&f=webp",url:"https://myrealt.rip/6xX5ea"},
+  {name:"LA 캘리포니아 디즈니랜드",price:"",tag:"🇺🇸 해외",icon:"🎢",bg:"#f0f4ff",tagColor:"#1d4ed8",tagBg:"#dbeafe",img:"https://cdn.litt.ly/images/B17LSUpV70zjYVtEyOWH6vwp9NaUQdtv?s=300x300&m=outside&f=webp",url:"https://myrealt.rip/78eaac"},
+  {name:"유니버설 스튜디오 할리우드 1+1",price:"",tag:"🇺🇸 해외",icon:"🎬",bg:"#f0f4ff",tagColor:"#1d4ed8",tagBg:"#dbeafe",img:"https://cdn.litt.ly/images/sovMbTq0H0u3EKUxvHaIUlDeBOKQ8bf5?s=300x300&m=outside&f=webp",url:"https://myrealt.rip/7H5I25"},
+  {name:"유니버설 스튜디오 싱가포르",price:"",tag:"🇸🇬 해외",icon:"🎢",bg:"#f0f4ff",tagColor:"#1d4ed8",tagBg:"#dbeafe",img:"https://cdn.litt.ly/images/BqBvEBl7xeXZXfZC0WcRlLjDO0FI8Yw6?s=300x300&m=outside&f=webp",url:"https://myrealt.rip/8NTf1e"},
+  {name:"파리 디즈니랜드 이용권",price:"",tag:"🇫🇷 해외",icon:"🏰",bg:"#f0f4ff",tagColor:"#1d4ed8",tagBg:"#dbeafe",img:"https://cdn.litt.ly/images/GYg6vFsfCb5gWbVC9r86pHJDsmOWLUii?s=300x300&m=outside&f=webp",url:"https://myrealt.rip/7C8oa0"},
+  {name:"홍콩 디즈니랜드 이용권",price:"",tag:"🇭🇰 해외",icon:"🏰",bg:"#f0f4ff",tagColor:"#1d4ed8",tagBg:"#dbeafe",img:"https://cdn.litt.ly/images/XAZczBYiaH9Dyp6tBJrTyundItOcL88c?s=300x300&m=outside&f=webp",url:"https://myrealt.rip/OZ5if1"},
+  {name:"상하이 디즈니랜드",price:"",tag:"🇨🇳 해외",icon:"🏰",bg:"#f0f4ff",tagColor:"#1d4ed8",tagBg:"#dbeafe",img:"https://cdn.litt.ly/images/BCPPMk7HuItHlt2DwFnViSGK2WDxaQom?s=300x300&m=outside&f=webp",url:"https://affiliate.klook.com/redirect?aid=31034&aff_adid=647188&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F2128-disney-resort-shang-hai%2F"},
+  {name:"도쿄 조이폴리스 이용권",price:"",tag:"🇯🇵 해외",icon:"🎮",bg:"#f0f4ff",tagColor:"#1d4ed8",tagBg:"#dbeafe",img:"https://cdn.litt.ly/images/TetqIqmMkvUylJqzKO8XOMdoTV87ZFLN?s=300x300&m=outside&f=webp",url:"https://api3.myrealtrip.com/partner/v1/marketing/advertising-link/7paWRu"},
+  {name:"후지큐 하이랜드 이용권",price:"",tag:"🇯🇵 해외",icon:"🎢",bg:"#f0f4ff",tagColor:"#1d4ed8",tagBg:"#dbeafe",img:"https://cdn.litt.ly/images/S6V1VR6m9SAmGAsmzj4YreVvyz0GXqAF?s=300x300&m=outside&f=webp",url:"https://affiliate.klook.com/redirect?aid=31034&aff_adid=669939&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F51278-one-day-fuji-q-highland-pass%2F"},
+  {name:"도쿄 돔 시티 어트랙션스 이용권",price:"",tag:"🇯🇵 해외",icon:"🎡",bg:"#f0f4ff",tagColor:"#1d4ed8",tagBg:"#dbeafe",img:"https://cdn.litt.ly/images/v2UHBWOSrRECjRwhM9i8vPoukcOkr5pe?s=300x300&m=outside&f=webp",url:"https://affiliate.klook.com/redirect?aid=31034&aff_adid=676799&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F17371-tokyo-dome-attractions-ticket-tokyo%2F"},
+  {name:"도쿄 돔 시티 호텔 특가",price:"",tag:"🇯🇵 호텔",icon:"🏨",bg:"#f0f4ff",tagColor:"#7c3aed",tagBg:"#ede9fe",img:"https://cdn.litt.ly/images/lI8St1ztzpIVOELC6OU0MSAK3SBmul4n?s=300x300&m=outside&f=webp",url:"https://www.klook.com/ko/hotels/detail/275894-tokyo-dome-hotel/?aid=31034&aff_adid=681458"},
+  {name:"레고랜드 재팬 이용권",price:"",tag:"🇯🇵 해외",icon:"🧱",bg:"#f0f4ff",tagColor:"#1d4ed8",tagBg:"#dbeafe",img:"https://cdn.litt.ly/images/AlwHaUtmMu5jCzByMbgN5Z52UngrI0Vx?s=300x300&m=outside&f=webp",url:"https://affiliate.klook.com/redirect?aid=31034&aff_adid=718444&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F44688-legoland-japan-nagoya-domestic%2F"},
+  // 국내 테마파크
+  {name:"서울 롯데월드 어드벤처 이용권",price:"",tag:"🇰🇷 국내",icon:"🎢",bg:"#f0fdf4",tagColor:"#16a34a",tagBg:"#dcfce7",img:"https://cdn.litt.ly/images/jJCZuP71mNxeMWQMlawNCJvFHW9PfSuF?s=300x300&m=outside&f=webp",url:"https://3ha.in/r/230453"},
+  {name:"부산 롯데월드 어드벤처 이용권",price:"",tag:"🇰🇷 국내",icon:"🎢",bg:"#f0fdf4",tagColor:"#16a34a",tagBg:"#dcfce7",img:"https://cdn.litt.ly/images/4KDdbUGqBFRVsxF79JXHz4460g1lC1IP?s=300x300&m=outside&f=webp",url:"https://api3.myrealtrip.com/partner/v1/marketing/advertising-link/LgOwUM"},
+  {name:"에버랜드 이용권",price:"",tag:"🇰🇷 국내",icon:"🎠",bg:"#f0fdf4",tagColor:"#16a34a",tagBg:"#dcfce7",img:"https://cdn.litt.ly/images/8h2zCLRQT3UfCDH8wvnkHjXgJiEMt2RA?s=300x300&m=outside&f=webp",url:"https://3ha.in/r/230441"},
+  {name:"에버랜드 오후권(애프터2) 최저가",price:"",tag:"🔥 특가",icon:"🔥",bg:"#fff7ed",tagColor:"#c2410c",tagBg:"#ffedd5",img:"https://cdn.litt.ly/images/w0YRH1po7TN7m7muRiOw345yaxjZIGup?s=300x300&m=outside&f=webp",url:"https://myrealt.rip/6MKc1c"},
+  {name:"이월드 이용권",price:"",tag:"🇰🇷 국내",icon:"🎡",bg:"#f0fdf4",tagColor:"#16a34a",tagBg:"#dcfce7",img:"https://cdn.litt.ly/images/Ctg0fBlYqAu0NzAP327YBNdCBrfr0lgu?s=300x300&m=outside&f=webp",url:"https://api3.myrealtrip.com/partner/v1/marketing/advertising-link/mooIen"},
+  {name:"제주 신화월드 테마파크 이용권",price:"",tag:"🇰🇷 국내",icon:"🏝️",bg:"#f0fdf4",tagColor:"#16a34a",tagBg:"#dcfce7",url:"https://myrealt.rip/6DPP49"},
+  {name:"경주월드 이용권",price:"",tag:"🇰🇷 국내",icon:"🎢",bg:"#f0fdf4",tagColor:"#16a34a",tagBg:"#dcfce7",img:"https://cdn.litt.ly/images/XYCHeRTwwkOwINwbkdSKyw8YHpIrJS3a?s=300x300&m=outside&f=webp",url:"https://affiliate.klook.com/redirect?aid=31034&aff_adid=668337&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F51533-gyeongju-world-gyeongju%2F"},
+  {name:"춘천 레고랜드 이용권",price:"",tag:"🇰🇷 국내",icon:"🧱",bg:"#f0fdf4",tagColor:"#16a34a",tagBg:"#dcfce7",img:"https://cdn.litt.ly/images/EQf1LV8QNy7e1WHtiw39z0RsKCtWus21?s=300x300&m=outside&f=webp",url:"https://affiliate.klook.com/redirect?aid=31034&aff_adid=668334&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F70318-lego-land-korea-resort-pass%2F"},
+  {name:"서울랜드 이용권",price:"",tag:"🇰🇷 국내",icon:"🎡",bg:"#f0fdf4",tagColor:"#16a34a",tagBg:"#dcfce7",img:"https://cdn.litt.ly/images/5bvEbPZp0FiqO2tab1fcsZ79oj56QBLy?s=300x300&m=outside&f=webp",url:"https://affiliate.klook.com/redirect?aid=31034&aff_adid=668337&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F48485-seoul-land-gyeonggido%2F"},
+  {name:"김해 롯데워터파크",price:"",tag:"🇰🇷 국내",icon:"💦",bg:"#f0fdf4",tagColor:"#16a34a",tagBg:"#dcfce7",img:"https://cdn.litt.ly/images/XhM1G6RUw3x9BNR7c0zMA4eKkquh1Oxv?s=300x300&m=outside&f=webp",url:"https://affiliate.klook.com/redirect?aid=31034&aff_adid=723028&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F88947-lotte-waterpark-pass-gimhae%2F"},
+];
+function renderProducts(){const el=document.getElementById("product-grid");if(!el)return;const q=(document.getElementById("product-search-input")?.value||"").trim().toLowerCase();const f=q?products.filter(p=>(p.name+" "+(p.tag||"")).toLowerCase().includes(q)):products;if(!f.length){el.innerHTML=`<div style="grid-column:1/-1;padding:32px 12px;text-align:center;color:var(--light);font-size:13px;">"${q}"에 해당하는 상품이 없어요</div>`;return;}el.innerHTML=f.map(p=>`<div class="product-card-v3" onclick="window.open('${p.url}','_blank')"><div class="pc-img" style="background:${p.bg||'#f5f5f5'}">${p.img?`<img src="${p.img}" alt="${p.name}" style="width:100%;height:100%;object-fit:cover;display:block;"/>`:`<span style="font-size:32px">${p.icon}</span>`}</div><div class="pc-body"><span class="pc-tag" style="background:${p.tagBg};color:${p.tagColor}">${p.tag}</span><div class="pc-name">${p.name}</div>${p.price?`<div class="pc-price">${p.price}</div>`:""}<button class="pc-btn">예약하기</button></div></div>`).join("");}
+const USJ_TIPS={
+  nintendo5th:{
+    title:"슈퍼 닌텐도 월드 5주년",
+    sub:"We are all STARS! 축제 완벽 공략",
+    period:"📆 2026.3.18 ~ 2027.1.11",
+    tips:[
+      {num:1,emoji:"🎂",title:"스페셜 슈퍼스타 케이크 앞 사진 찍기",desc:"낮과 밤 모두 분위기 달라서 두 번 다 찍는 거 추천!",loc:"📍 슈퍼 닌텐도 월드 입구 앞"},
+      {num:2,emoji:"⭐",title:"스타 사진 찍고 한정판 스티커 받기",desc:"슈퍼스타 사진 찍어서 캐스트에게 보여주면 증정! 손으로 별 모양 만들어도 OK · 슈퍼스타 머리띠·팝콘통도 대상",loc:"📍 슈퍼 닌텐도 월드 일대"},
+      {num:3,emoji:"🦖",title:"특별 캐릭터 '요시' 만나기",desc:"이 기간 한정으로 요시가 특별 등장! 포토존 대기 줄 짧을 때 빠르게 공략",loc:"📍 요시 어드벤처 입구 앞"},
+      {num:4,emoji:"🎪",title:"두근두근 스타 헌터 마치 관람",desc:"당일 USJ 공식 앱·홈페이지에서 공연 시간 미리 확인하고 자리 잡기",loc:"📍 슈퍼 닌텐도 월드 일대"},
+      {num:5,emoji:"🛍️",title:"5주년 한정 굿즈 구매",desc:"파워업 밴드 · 노래하는 슈퍼스타 팝콘통 등 한정판 — 품절 전 오전에 먼저 확보!",loc:"📍 닌텐도 월드 내 샵"},
+      {num:6,emoji:"🍰",title:"5주년 기념 음식 맛보기",desc:"애니버서리 케이크(4인분) · 슈퍼스타 플레이트(양송이 라자냐+프라이드치킨) · 마리오 팬케이크 샌드위치 · 파워업 소다 3종(마리오·루이지·피치)",loc:"📍 슈퍼 닌텐도 월드 내 푸드코트"},
+      {num:7,emoji:"🎟️",title:"입장권·익스프레스 패스 마이리얼트립에서 미리 준비",desc:"공식 판매처 마이리얼트립에서 할인 구매 · 현장 줄 없이 바로 입장 가능",loc:"📍 사전 예약 필수"},
+    ]
+  },
+  usj25th:{
+    title:"USJ 25주년 DISCOVER U!!!",
+    sub:"25주년 축제 완벽 공략",
+    period:"📆 2026.3.4 ~ 2027.3.30",
+    tips:[
+      {num:1,emoji:"📸",title:"25주년 한정 데코 앞 사진 찍기",desc:"입구 아치 건물 · 할리우드 존 가로등 배너 · 뉴욕 존 유니버설 마켓 — 포토 스팟 3곳 다 공략!",loc:"📍 USJ 입구 및 각 존"},
+      {num:2,emoji:"🎉",title:"NO LIMIT! 퍼레이드 관람",desc:"매일 오후 2시 약 40분 · 6/29~9/8은 오후 4시 15분 · 그래머시 파크 일대가 정지 공연 보기 최적 자리",loc:"📍 그래머시 파크 일대"},
+      {num:3,emoji:"🚩",title:"25주년 기념 깃발 구매하기",desc:"퍼레이드 때 흔들면 연기자·캐릭터 반응이 달라짐! · 1,000엔",loc:"📍 스페이스 판타지 스테이션"},
+      {num:4,emoji:"🎫",title:"25주년 한정 스티커 받기",desc:"캐스트에게 달라고 요청하면 증정 · ⚠️ 해리포터·닌텐도 월드 구역에서는 지급 안 함",loc:"📍 USJ 일반 구역 캐스트"},
+      {num:5,emoji:"🌭",title:"25주년 한정 간식 즐기기",desc:"35cm 알트 바이에른 핫도그 · 칠면조 다리 찐빵 · 야쿠르트 소프트아이스크림 망고 · 25주년 코카콜라",loc:"📍 USJ 각 푸드 존"},
+      {num:6,emoji:"💦",title:"워터 어트랙션 여름 한정 체험",desc:"워터월드 Discover U!!! 버전(6/29~8/31) · 쥬라기공원 더 라이드(7/8~9/30) · 죠스(9월경) — 흠뻑 젖을 각오!",loc:"📍 워터월드 / 쥬라기공원 구역"},
+      {num:7,emoji:"🎢",title:"할리우드 드림 라이드 25주년 기념송 듣기",desc:"역대 USJ 기념송 + 25주년 곡 선택 가능 · USJ 앱에서 기간별 송출 곡 미리 확인",loc:"📍 할리우드 드림 더 라이드"},
+      {num:8,emoji:"🎟️",title:"입장권·익스프레스 패스 마이리얼트립에서 미리 준비",desc:"공식 판매처 마이리얼트립에서 할인 구매 · 여름 성수기 전 꼭 선예약!",loc:"📍 사전 예약 필수"},
+    ]
+  }
+};
+function openTipPanel(key){const d=USJ_TIPS[key];if(!d)return;document.getElementById("tip-sheet-title").textContent=d.title;document.getElementById("tip-sheet-period").textContent=d.period;document.getElementById("tip-sheet-sub").textContent=d.sub;document.getElementById("tip-list").innerHTML=d.tips.map(t=>`<div class="tip-item"><div class="tip-num">${t.num}</div><div class="tip-emoji">${t.emoji}</div><div class="tip-body"><div class="tip-title">${t.title}</div><div class="tip-desc">${t.desc}</div><div class="tip-loc">${t.loc}</div></div></div>`).join("");document.getElementById("tip-panel").classList.add("open");}
+function closeTipPanel(){document.getElementById("tip-panel").classList.remove("open");}
+function switchTab(name){document.querySelectorAll(".page-tab").forEach(t=>t.classList.toggle("on",t.dataset.tab===name));document.querySelectorAll(".tab-panel").forEach(p=>p.classList.remove("on"));document.getElementById(`tab-${name}`).classList.add("on");document.getElementById("main-page").scrollTop=0;}
+function openCoupon(){document.getElementById("coupon-panel").classList.add("open");}
+function closeCoupon(){document.getElementById("coupon-panel").classList.remove("open");}
+function tripScroll(dir){const car=document.getElementById("trip-carousel");const cardW=car.querySelector(".trip-card").offsetWidth+12;car.scrollBy({left:dir*cardW,behavior:"smooth"});}
+document.addEventListener("DOMContentLoaded",()=>{renderProducts();(function(){const car=document.getElementById("trip-carousel");if(!car)return;const dots=document.querySelectorAll("#trip-dots .trip-dot");const prev=document.getElementById("trip-prev");const next=document.getElementById("trip-next");const update=()=>{const cardW=car.querySelector(".trip-card").offsetWidth+12;const idx=Math.round(car.scrollLeft/cardW);const total=car.querySelectorAll(".trip-card").length;dots.forEach((d,i)=>d.classList.toggle("on",i===idx));if(prev)prev.disabled=idx===0;if(next)next.disabled=idx>=total-1;};car.addEventListener("scroll",update);window.addEventListener("load",update);update();})();});
+</script>
+</body>
+</html>

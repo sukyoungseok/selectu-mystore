@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>혜밍웨이 · 마이스토어</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--cream:#f8f4ee;--amber:#2E5AC8;--sage:#4E7AE8;--text:#1a1714;--mid:#6b6560;--light:#a09890;--border:#ede8e0;--accent:#0A1A5A}
+body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;display:flex;justify-content:center;align-items:flex-start}
+.phone{width:390px;min-height:100vh;background:var(--cream);position:relative;overflow:hidden;box-shadow:0 0 60px rgba(0,0,0,.25)}
+#main-page{position:absolute;top:0;left:0;right:0;overflow-y:auto;height:100%;background:var(--cream);-webkit-overflow-scrolling:touch;z-index:0}
+.affiliate-notice{background:#f0ede8;border-bottom:1px solid var(--border);padding:7px 16px;font-size:10px;color:var(--light);line-height:1.5;text-align:center}
+.hero{position:relative;height:380px}
+.hero-cover{position:absolute;inset:0;background:linear-gradient(160deg,#0A1A5A 0%,#2E5AC8 45%,#4E7AE8 100%)}
+.hero-cover::after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(20,15,10,.05) 0%,rgba(20,15,10,0) 40%,rgba(20,15,10,.5) 100%)}
+.profile-card{position:absolute;bottom:-20px;left:20px;right:20px;z-index:10;background:rgba(255,255,255,.82);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.9);border-radius:20px;padding:16px 18px;display:flex;align-items:center;gap:14px;box-shadow:0 8px 32px rgba(0,0,0,.12)}
+.profile-avatar{width:72px;height:72px;border-radius:50%;flex-shrink:0;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,.15)}.profile-avatar img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+.profile-info h2{font-size:16px;font-weight:700;color:var(--text);margin-bottom:4px}
+.profile-info{min-width:0}.profile-info p{font-size:12px;color:var(--mid);margin-bottom:8px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.sns-pills{display:flex;gap:6px}
+.sns-icon{width:28px;height:28px;border-radius:50%;background:var(--cream);border:1px solid #c4bab0;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;flex-shrink:0;font-size:13px}.sns-icon img{width:16px;height:16px;object-fit:contain}
+.coupon-showcase{margin:30px 20px 0;position:relative;padding:2px 4px 10px 10px;display:block;text-decoration:none}
+.coupon-showcase .cs-layer{position:absolute;background:#fff;border:1.8px solid var(--text);border-radius:6px;transform-origin:90% 10%}
+.coupon-showcase .cs-l2{top:3px;bottom:3px;left:-3px;right:4px;transform:rotate(-2deg);background:#C0D0F8;z-index:0}
+.coupon-showcase .cs-l3{top:1px;bottom:7px;left:2.5px;right:6px;transform:rotate(-1deg);background:#fff;z-index:1}
+.coupon-showcase .cs-ticket{position:relative;z-index:2;display:grid;grid-template-columns:1fr 58px;background:#fff;border-radius:6px;border:1.8px solid var(--text);cursor:pointer;transition:transform .15s}
+.coupon-showcase:hover .cs-ticket{transform:translate(-1px,-1px)}
+.coupon-showcase .cs-ticket::before,.coupon-showcase .cs-ticket::after{content:"";position:absolute;width:10px;height:10px;background:var(--cream);border:1.8px solid var(--text);border-radius:50%;right:51px}
+.coupon-showcase .cs-ticket::before{top:-4px}.coupon-showcase .cs-ticket::after{bottom:-4px}
+.coupon-showcase .cs-main{padding:16px 18px;position:relative}
+.coupon-showcase .cs-kicker{font-size:11px;font-weight:700;color:var(--mid);letter-spacing:-.02em}
+.coupon-showcase .cs-title{font-size:19px;font-weight:900;letter-spacing:-.04em;line-height:1.15;margin-top:4px;color:var(--text)}
+.coupon-showcase .cs-amount-row{display:flex;align-items:center;gap:10px;margin-top:12px;padding-top:10px;border-top:1px dashed var(--text)}
+.coupon-showcase .cs-amount-stack{display:flex;align-items:baseline;gap:4px}
+.coupon-showcase .cs-amt-prefix{font-size:13px;font-weight:700;color:var(--text)}
+.coupon-showcase .cs-amt{font-size:26px;font-weight:900;letter-spacing:-.04em;color:var(--amber);line-height:1}
+.coupon-showcase .cs-amt-unit{font-size:15px;font-weight:800;color:var(--amber)}
+.coupon-showcase .cs-stamp{position:absolute;right:10px;bottom:8px;width:66px;height:66px;border-radius:50%;border:2px solid var(--amber);color:var(--amber);background:transparent;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:.9;transform:rotate(-10deg);opacity:.9;pointer-events:none}
+.coupon-showcase .cs-stamp::before{content:"";position:absolute;inset:3px;border:1px dashed var(--amber);border-radius:50%;opacity:.6}
+.coupon-showcase .cs-stamp-num{font-size:22px;font-weight:900;letter-spacing:-.05em;line-height:1}
+.coupon-showcase .cs-stamp-lbl{font-size:11px;font-weight:900;letter-spacing:.02em;margin-top:2px}
+.coupon-showcase .cs-side{background:var(--text);color:var(--cream);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;border-radius:0 4px 4px 0}
+.coupon-showcase .cs-side svg{width:20px;height:20px}
+.coupon-showcase .cs-side-label{font-size:11px;font-weight:800;color:var(--cream)}
+.trip-carousel-wrap{margin:20px 0 0;position:relative}
+.trip-nav{display:flex;justify-content:center;align-items:center;gap:10px;margin-top:6px}
+.trip-carousel{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 20px 12px;scrollbar-width:none}
+.trip-carousel::-webkit-scrollbar{display:none}
+.trip-card{flex-shrink:0;width:300px;scroll-snap-align:center;background:#fff;border:1px solid var(--border);border-radius:20px;overflow:hidden;box-shadow:0 6px 18px rgba(24,21,18,.07)}
+.tc-hero{position:relative;height:150px}
+.tc-hero.hyemingway-euro{background:linear-gradient(135deg,#0A1A5A 0%,#2E5AC8 60%,#4E7AE8 100%)}
+.tc-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,14,10,.05),rgba(17,14,10,.68))}
+.tc-hero-content{position:absolute;left:16px;right:16px;bottom:14px;z-index:1;color:#fff;display:flex;align-items:center;gap:10px}
+.tc-flag{width:46px;height:46px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0;box-shadow:0 3px 10px rgba(0,0,0,.25)}
+.tc-title{font-size:22px;font-weight:700;line-height:1.15;letter-spacing:-.03em;color:#fff}
+.tc-badges{display:flex;gap:5px;margin-bottom:6px;flex-wrap:wrap}
+.tc-badge{background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.28);backdrop-filter:blur(8px);padding:3px 9px;border-radius:999px;font-size:10px;font-weight:700;color:#fff;letter-spacing:-.01em}
+.tc-title-col{min-width:0}
+.tc-body{padding:16px}
+.tc-ask{font-size:15px;font-weight:900;letter-spacing:-.03em;margin-bottom:12px;color:var(--text)}
+.tc-choice{display:grid;gap:8px}
+.tc-choice button{width:100%;border:1.5px solid transparent;border-radius:18px;padding:16px 18px;font-family:inherit;text-align:left;cursor:pointer;transition:transform .15s;display:flex;align-items:center;justify-content:space-between}
+.tc-choice button:active{transform:scale(.985)}
+.tc-choice strong{display:block;font-size:15px;font-weight:900;letter-spacing:-.03em;margin-bottom:3px;color:var(--text)}
+.tc-choice span{display:block;font-size:11px;font-weight:700;color:var(--mid)}
+.tc-choice .tc-arr{font-size:18px;color:var(--light);opacity:.6;flex-shrink:0;margin-left:10px}
+.tc-choice .plan{background:linear-gradient(135deg,#fffbf0 0%,#fef3c7 100%);border-color:#fcd34d}
+.tc-choice .cost{background:linear-gradient(135deg,#EBF0FD 0%,#C8D8FC 100%);border-color:#A0B8F8;box-shadow:0 12px 24px rgba(46,90,200,.14);display:block}
+.tc-c-row1{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.tc-c-row1 strong{font-size:15px;font-weight:900;color:#1a1714;letter-spacing:-.02em;margin-bottom:0}
+.tc-c-price{display:flex;align-items:center;gap:6px;flex-shrink:0}
+.tc-choice .tc-c-num{font-size:22px;font-weight:900;color:#2E5AC8;letter-spacing:-.04em}
+.tc-choice .tc-c-unit{font-size:12px;font-weight:800;color:#1A3A9A}
+.tc-c-row2{display:flex;align-items:center;gap:6px}
+.tc-choice .cost .tc-c-badge{display:inline-flex!important;align-items:center;padding:3px 7px;border-radius:999px;background:linear-gradient(135deg,#2E5AC8,#0A1A5A);color:#fff!important;font-size:9px;font-weight:900;letter-spacing:.05em}
+.tc-choice .cost .tc-c-sub{display:inline!important;font-size:11px;font-weight:700;color:#6b6560}
+.tc-choice .cost .tc-c-unit,.tc-choice .cost .tc-c-num{display:inline-flex!important;align-items:baseline}
+.trip-dots{display:flex;justify-content:center;align-items:center;gap:6px}
+.trip-dot{width:6px;height:6px;border-radius:50%;background:rgba(24,21,18,.18);transition:all .2s}
+.trip-dot.on{background:var(--amber);width:18px;border-radius:4px}
+.page-tabs{display:flex;margin-top:16px;border-bottom:1px solid var(--border);background:var(--cream);position:sticky;top:0;z-index:20}
+.page-tab{flex:1;padding:13px 8px;font-size:13px;font-weight:600;color:var(--light);text-align:center;cursor:pointer;border-bottom:2px solid transparent;transition:all .2s}
+.page-tab.on{color:var(--text);border-bottom-color:var(--amber)}
+.tab-panel{display:none}.tab-panel.on{display:block}
+.links-section{padding:20px 20px 0}
+.links-section h3{font-size:15px;font-weight:800;color:var(--text);margin-bottom:14px}
+.ls-og{display:block;border-radius:16px;overflow:hidden;background:#fff;border:1px solid var(--border);text-decoration:none;margin-bottom:10px}
+.ls-og-placeholder{width:100%;height:150px;background:linear-gradient(135deg,#EBF0FD 0%,#C8D8FC 100%);display:flex;align-items:center;justify-content:center;font-size:48px}
+.ls-og-body{padding:11px 14px 13px}
+.ls-og-title{font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:3px}
+.ls-og-domain{font-size:11px;color:var(--light)}
+.ls-badge{font-size:10px;font-weight:700;padding:3px 9px;border-radius:20px;letter-spacing:.2px;white-space:nowrap}
+.ls-badge.hot{background:linear-gradient(135deg,#2E5AC8,#0A1A5A);color:#fff}
+.ls-badge.new{background:#C0D0F8;color:#2E5AC8}
+.ls-badges{display:flex;gap:5px;margin-bottom:6px;flex-wrap:wrap}
+.ls-textblock{display:flex;gap:14px;align-items:flex-start;margin:20px 0 20px;padding:0 20px}
+.ls-tb-avatar{width:44px;height:44px;border-radius:50%;flex-shrink:0;background:linear-gradient(135deg,#2E5AC8,#0A1A5A);display:flex;align-items:center;justify-content:center;font-size:20px}
+.ls-tb-bubble{flex:1;position:relative;background:#fff5e8;border:1.5px solid #ffd9ae;border-radius:18px;padding:14px 16px;box-shadow:0 4px 14px rgba(224,122,56,.08);font-size:13px;line-height:1.7;color:var(--text)}.ls-tb-bubble::before{content:"";position:absolute;left:-10px;top:14px;width:0;height:0;border:8px solid transparent;border-right-color:#ffd9ae;border-left:0}.ls-tb-bubble::after{content:"";position:absolute;left:-7px;top:15px;width:0;height:0;border:7px solid transparent;border-right-color:#fff5e8;border-left:0}
+.ls-tb-title{font-size:14px;font-weight:900;color:var(--amber);margin-bottom:4px;letter-spacing:-.02em}.ls-tb-bubble em{font-style:normal;font-weight:700;background:linear-gradient(transparent 60%,rgba(224,122,56,.35) 60%);padding:0 3px}
+.links-section-pb{height:20px}
+.products-section{padding:16px 16px 0}
+.product-search{position:relative;margin-bottom:14px}
+.product-search-icon{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--light)}
+.product-search input{width:100%;padding:10px 12px 10px 34px;border:1px solid var(--border);border-radius:12px;font-family:inherit;font-size:13px;background:#fff;outline:none;color:var(--text)}
+.product-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding-bottom:20px}
+.product-card-v3{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.06);cursor:pointer;display:flex;flex-direction:column}
+.pc-img{width:100%;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;font-size:44px;overflow:hidden;flex-shrink:0}.pc-img img{width:100%;height:100%;object-fit:cover;display:block}
+.pc-body{padding:10px;display:flex;flex-direction:column;flex:1}
+.pc-tag{font-size:11px;font-weight:700;padding:2px 7px;border-radius:5px;display:inline-block;margin-bottom:5px;align-self:flex-start}
+.pc-name{font-size:12px;font-weight:600;color:var(--text);line-height:1.35;flex:1}
+.pc-price{font-size:14px;font-weight:900;color:var(--amber);margin-top:10px;margin-bottom:10px}
+
+.pc-btn{width:100%;background:var(--amber);color:#fff;font-size:11px;font-weight:700;padding:9px 8px;border-radius:10px;border:none;cursor:pointer;font-family:inherit}
+.bio-footer{margin:36px 0 0;padding:24px 20px 28px;border-top:1px solid var(--border);display:flex;flex-direction:column;align-items:center;gap:4px;background:#f4f0ea}
+.bio-footer-label{font-size:10px;font-weight:700;color:var(--mid);letter-spacing:.5px}
+.bio-footer-mail{font-size:13px;font-weight:700;color:var(--text);text-decoration:none;display:flex;align-items:center;gap:6px}
+.bio-footer-mail::before{content:"✉";font-size:14px;color:var(--amber)}
+.bio-footer-meta{font-size:10px;color:var(--light);margin-top:8px}
+#coupon-panel{position:absolute;top:0;left:0;right:0;bottom:0;z-index:200;display:flex;flex-direction:column;justify-content:flex-end;pointer-events:none;opacity:0;transition:opacity .3s}
+#coupon-panel.open{pointer-events:all;opacity:1}
+.coupon-overlay{position:absolute;inset:0;background:rgba(0,0,0,.4);cursor:pointer}
+.coupon-sheet{position:relative;z-index:1;background:var(--cream);border-radius:24px 24px 0 0;padding:8px 20px 40px;transform:translateY(100%);transition:transform .35s cubic-bezier(.32,.72,0,1)}
+#coupon-panel.open .coupon-sheet{transform:translateY(0)}
+.sheet-handle{width:36px;height:4px;background:var(--border);border-radius:2px;margin:12px auto 20px}
+.sheet-title{font-size:17px;font-weight:900;color:var(--text);margin-bottom:4px}
+.sheet-sub{font-size:12px;color:var(--mid);margin-bottom:20px}
+.coupon-card{background:#fff;border-radius:16px;overflow:hidden;display:flex;margin-bottom:12px;box-shadow:0 2px 10px rgba(0,0,0,.07)}
+.cc-stripe{width:6px;flex-shrink:0}
+.cc-body{padding:16px 14px;flex:1}
+.cc-label{font-size:10px;font-weight:700;letter-spacing:.5px;margin-bottom:4px}
+.cc-title{font-size:16px;font-weight:900;color:var(--text);margin-bottom:4px}
+.cc-desc{font-size:11px;color:var(--mid);margin-bottom:12px}
+.cc-footer{padding-top:10px;border-top:1px dashed var(--border);display:flex;justify-content:space-between}
+.cc-expire,.cc-remain{font-size:10px;color:var(--light)}
+.cc-btn{flex-shrink:0;color:#fff;font-size:11px;font-weight:700;padding:10px 12px;border-radius:10px;border:none;font-family:inherit;cursor:pointer;align-self:center;margin:16px 14px 16px 0}
+.toast{position:fixed;bottom:32px;left:50%;transform:translateX(-50%) translateY(12px);background:#1a1714;color:#fff;font-size:13px;font-weight:700;padding:11px 20px;border-radius:99px;opacity:0;transition:opacity .2s,transform .2s;pointer-events:none;z-index:9999;white-space:nowrap}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.share-btn{display:inline-flex;align-items:center;gap:5px;background:rgba(224,122,56,.1);color:var(--amber);border:1px solid rgba(224,122,56,.3);font-size:11px;font-weight:700;padding:5px 11px;border-radius:99px;cursor:pointer;font-family:inherit;white-space:nowrap;flex-shrink:0}
+.share-btn svg{width:12px;height:12px}
+.exp-title-row{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:3px}
+#course-panel{position:absolute;top:0;left:0;right:0;bottom:0;background:var(--cream);transform:translateY(100%);transition:transform .42s cubic-bezier(.32,.72,0,1);z-index:100;display:flex;flex-direction:column;overflow:hidden}
+#course-panel.open{transform:translateY(0)}
+.panel-topbar{display:flex;align-items:center;gap:12px;padding:16px 20px 14px;background:var(--cream);border-bottom:1px solid var(--border);flex-shrink:0}
+.panel-back{width:36px;height:36px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;cursor:pointer;border:1px solid var(--border);flex-shrink:0}
+.panel-title{font-size:16px;font-weight:800;color:var(--text)}
+.day-tabs{display:flex;padding:0 20px;border-bottom:1px solid var(--border);flex-shrink:0;background:var(--cream);overflow-x:auto;scrollbar-width:none}
+.day-tabs::-webkit-scrollbar{display:none}
+.day-tab{padding:12px 18px;font-size:13px;font-weight:600;color:var(--light);cursor:pointer;border-bottom:2px solid transparent;transition:all .2s;white-space:nowrap}
+.day-tab.active{color:var(--text);border-bottom-color:var(--amber)}
+.day-content{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:20px 20px 40px}
+.stop-item{display:flex;gap:14px;margin-bottom:28px}
+.stop-timeline{display:flex;flex-direction:column;align-items:center;flex-shrink:0}
+.stop-dot{width:12px;height:12px;border-radius:50%;background:var(--amber);border:2px solid #fff;box-shadow:0 0 0 2px var(--amber);flex-shrink:0}
+.stop-line{width:2px;flex:1;background:rgba(224,122,56,.25);margin:4px 0;min-height:20px}
+.stop-body{flex:1}
+.stop-time{font-size:11px;font-weight:600;color:var(--mid);margin-bottom:3px}
+.stop-place{font-size:15px;font-weight:700;color:var(--text);margin-bottom:4px}
+.stop-desc{font-size:12px;color:var(--mid);line-height:1.5;margin-bottom:4px}
+.inline-product{background:#fffaf5;border-radius:14px;padding:14px;display:flex;align-items:center;gap:12px;border:1px solid rgba(224,122,56,.2);margin-top:8px}
+.inline-product-icon{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0}
+.inline-product-info{flex:1}
+.inline-product-tag{font-size:11px;font-weight:700;padding:2px 7px;border-radius:5px;display:inline-block;margin-bottom:4px}
+.inline-product-name{font-size:13px;font-weight:600;color:var(--text);margin-bottom:2px;line-height:1.3}
+.inline-product-price{font-size:14px;font-weight:800;color:var(--amber)}
+.inline-product-btn{background:var(--amber);color:#fff;font-size:11px;font-weight:700;padding:9px 13px;border-radius:10px;border:none;cursor:pointer;font-family:inherit;flex-shrink:0;line-height:1.3;text-align:center}
+#expense-panel{position:absolute;top:0;left:0;right:0;bottom:0;z-index:200;display:flex;flex-direction:column;justify-content:flex-end;pointer-events:none;opacity:0;transition:opacity .3s}
+#expense-panel.open{pointer-events:all;opacity:1}
+.exp-overlay{position:absolute;inset:0;background:rgba(0,0,0,.45);cursor:pointer}
+.exp-sheet{position:relative;z-index:1;background:var(--cream);border-radius:24px 24px 0 0;padding:8px 20px 44px;transform:translateY(100%);transition:transform .38s cubic-bezier(.32,.72,0,1);max-height:88vh;overflow-y:auto}
+#expense-panel.open .exp-sheet{transform:translateY(0)}
+.exp-title{font-size:18px;font-weight:900;color:var(--text);margin-bottom:3px}
+.exp-subtitle{font-size:12px;color:var(--mid);margin-bottom:18px}
+.exp-item{display:flex;align-items:center;gap:12px;background:#fff;border-radius:14px;padding:14px;margin-bottom:8px;border:1px solid var(--border)}
+.exp-group-header{display:flex;align-items:baseline;justify-content:space-between;margin:18px 2px 8px;font-size:13px;font-weight:800;color:var(--text)}
+.exp-emoji{font-size:22px;flex-shrink:0}
+.exp-info{flex:1;min-width:0}
+.exp-name{font-size:14px;font-weight:700;color:var(--text);margin-bottom:2px}
+.exp-live-tag{display:inline-block;margin-left:6px;font-size:9px;font-weight:700;color:var(--amber);background:rgba(224,122,56,.12);border-radius:4px;padding:2px 5px;vertical-align:middle}
+.exp-note{font-size:11px;color:var(--mid)}
+.exp-right{display:flex;flex-direction:column;align-items:flex-end;gap:5px;flex-shrink:0}
+.exp-price-val{font-size:15px;font-weight:900;color:var(--text)}
+.exp-book-btn{background:var(--amber);color:#fff;font-size:10px;font-weight:700;padding:6px 10px;border-radius:8px;border:none;cursor:pointer;font-family:inherit}
+.exp-total-row{display:flex;justify-content:space-between;align-items:center;padding:14px 4px 4px;border-top:1.5px solid var(--text);margin-top:4px}
+.exp-total-label{font-size:13px;font-weight:700;color:var(--text)}
+.exp-total-val{font-size:20px;font-weight:900;color:var(--amber)}
+.exp-fine-print{font-size:10px;color:var(--light);margin:8px 0 16px}
+#map-full{height:220px;flex-shrink:0}
+.leaflet-container{font-family:"Noto Sans KR",sans-serif}
+.leaflet-popup-content-wrapper{border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,.12);border:none;padding:0}
+.leaflet-popup-content{margin:10px 14px;font-size:12px;font-weight:700;color:#1a1714}
+.leaflet-popup-tip-container{display:none}
+</style>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+<div class="phone">
+  <div id="main-page">
+    <div class="affiliate-notice">이 페이지의 링크를 통해 구매 시 수수료를 받아 채널 운영에 도움이 됩니다.</div>
+    <div class="hero">
+      <div class="hero-cover"></div>
+      <div class="profile-card">
+        <div class="profile-avatar"><img src="../assets/profiles/혜밍웨이.jpg" alt="혜밍웨이"/></div>
+        <div class="profile-info">
+          <h2>혜밍웨이</h2>
+          <p>독일 사는 국제가족 · 해외살이 꿀팁</p>
+          <div class="sns-pills">
+            <a class="sns-icon" href="https://www.instagram.com/hyemingway0707/" target="_blank"><img src="../assets/icons/insta.png" alt="Instagram"/></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="coupon-showcase" href="https://www.myrealtrip.com/coupons" target="_blank">
+      <div class="cs-layer cs-l2"></div><div class="cs-layer cs-l3"></div>
+      <div class="cs-ticket">
+        <div class="cs-main">
+          <div class="cs-kicker">혜밍웨이 팔로워 전용</div>
+          <div class="cs-title">선착순 할인 쿠폰팩</div>
+          <div class="cs-amount-row"><div class="cs-amount-stack"><span class="cs-amt-prefix">최대</span><span class="cs-amt">99,000</span><span class="cs-amt-unit">원</span></div></div>
+          <div class="cs-stamp"><span class="cs-stamp-num">8종</span><span class="cs-stamp-lbl">구성</span></div>
+        </div>
+        <div class="cs-side"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v12"/><path d="M6 10l6 6 6-6"/><path d="M5 20h14"/></svg><span class="cs-side-label">받기</span></div>
+      </div>
+    </a>
+    <div class="trip-carousel-wrap">
+      <div class="trip-carousel">
+        <div class="trip-card">
+          <div class="tc-hero hyemingway-euro">
+            <div class="tc-hero-content">
+              <div class="tc-flag">🇩🇪</div>
+              <div class="tc-title-col">
+                <div class="tc-badges"><span class="tc-badge">독일 현지 추천</span><span class="tc-badge">혜밍웨이 강추</span></div>
+                <div class="tc-title">독일·유럽 코스</div>
+              </div>
+            </div>
+          </div>
+          <div class="tc-body">
+            <div class="tc-ask">어디부터 볼까요?</div>
+            <div class="tc-choice">
+              <button class="plan" onclick="openCourse('europe')">
+                <div><strong>일정표 보기</strong><span>동선 먼저</span></div>
+                <div class="tc-arr">›</div>
+              </button>
+              <button class="cost" onclick="openExpensePanel('europe')">
+                <div class="tc-c-row1"><strong>상세 경비 보기</strong><div class="tc-c-price"><span class="tc-c-num">200만~</span><span class="tc-arr" style="margin-left:0">›</span></div></div>
+                <div class="tc-c-row2"><span class="tc-c-badge">🔥 인기</span><span class="tc-c-sub">항공·숙소·투어 한 번에</span></div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="trip-nav"><div class="trip-dots"><span class="trip-dot on"></span></div></div>
+    </div>
+    <div class="page-tabs">
+      <div class="page-tab on" data-tab="posts" onclick="switchTab('posts')">링크</div>
+      <div class="page-tab" data-tab="products" onclick="switchTab('products')">필수템</div>
+    </div>
+    <div id="tab-posts" class="tab-panel on">
+      <div class="ls-textblock">
+        <div class="ls-tb-avatar"><img src="../assets/profiles/혜밍웨이.jpg" style="width:100%;height:100%;object-fit:cover;border-radius:50%"></div>
+        <div class="ls-tb-bubble">
+          <div class="ls-tb-title">🇩🇪 독일사는 국제가족의 유럽 여행 꿀팁</div>
+          독일에 실제 거주하는 한국×호주 국제가족 혜밍웨이님. 현지인만 아는 유럽 여행 꿀팁과 가성비 숙소 정보를 솔직하게 공유해드려요!
+        </div>
+      </div>
+      <div class="links-section">
+        <h3>📸 추천 콘텐츠</h3>
+        <a class="ls-og" href="https://www.instagram.com/reel/DXZzWMbDA7n/" target="_blank">
+          <div class="ls-og-placeholder">🇩🇪</div>
+          <div class="ls-og-body">
+            <div class="ls-badges"><span class="ls-badge hot">내돈내산 후기</span></div>
+            <div class="ls-og-title">독일 메칭겐 아울렛 + Mercure Hotel Sindelfingen — 현지인 추천 가성비 호텔 솔직 리뷰</div>
+            <div class="ls-og-domain">instagram.com · 혜밍웨이</div>
+          </div>
+        </a>
+      </div>
+      <div class="links-section">
+        <h3>📺 채널 & 소통</h3>
+        <a class="ls-og" href="https://youtube.com/@hyemingway0707?si=tY6FoQHLSPebifin" target="_blank">
+          <div class="ls-og-placeholder">🎥</div>
+          <div class="ls-og-body">
+            <div class="ls-og-title">혜밍웨이 유튜브</div>
+            <div class="ls-og-domain">youtube.com · 혜밍웨이</div>
+          </div>
+        </a>
+        <a class="ls-og" href="https://open.kakao.com/o/s1EBSKbh" target="_blank">
+          <img src="https://cdn.litt.ly/images/ucnzAuAS6RVQjmpnJGPb8FGqohmRViEp?s=240x240&f=webp" style="width:100%;height:150px;object-fit:cover">
+          <div class="ls-og-body">
+            <div class="ls-og-title">비즈니스/협업 문의</div>
+            <div class="ls-og-domain">open.kakao.com · 혜밍웨이</div>
+          </div>
+        </a>
+      </div>
+      <div class="links-section">
+        <h3>🛒 혜밍웨이 추천템</h3>
+        <a class="ls-og" href="https://link.coupang.com/a/edFop3" target="_blank">
+          <img src="https://cdn.litt.ly/images/GnKogECVLHpVpVi30cKQRIPk1cehc7nl?s=240x240&f=webp" style="width:100%;height:150px;object-fit:cover">
+          <div class="ls-og-body">
+            <div class="ls-og-title">쟁여두고 먹는 버터! 케리골드 퓨어 아이리쉬 버터 (가염)</div>
+            <div class="ls-og-domain">coupang.com · 혜밍웨이 추천</div>
+          </div>
+        </a>
+        <a class="ls-og" href="https://link.coupang.com/a/edFvdG" target="_blank">
+          <img src="http://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/b7d0/cbde59248b01a282467dcaf6d1081a1d0b891dce28eee6f93f1bb4c90afc.jpg" style="width:100%;height:150px;object-fit:cover">
+          <div class="ls-og-body">
+            <div class="ls-og-title">케리골드 퓨어 아이리쉬 버터 (무염) 30% 할인</div>
+            <div class="ls-og-domain">coupang.com · 혜밍웨이 추천</div>
+          </div>
+        </a>
+        <a class="ls-og" href="https://link.coupang.com/a/eeAGp0" target="_blank">
+          <img src="https://cdn.litt.ly/images/plsAAplXlirBaVyntmHrjoILmHpwSJ8x?s=240x240&f=webp" style="width:100%;height:150px;object-fit:cover">
+          <div class="ls-og-body">
+            <div class="ls-og-title">80만뷰찍은 일본세제! 키레잇코🔥 10% 할인</div>
+            <div class="ls-og-domain">coupang.com · 혜밍웨이 추천</div>
+          </div>
+        </a>
+        <a class="ls-og" href="https://link.coupang.com/a/eeANIY" target="_blank">
+          <img src="https://cdn.litt.ly/images/LK2xfxTZOmUrZxONPGalCi7ynHIEOCc2?s=240x240&f=webp" style="width:100%;height:150px;object-fit:cover">
+          <div class="ls-og-body">
+            <div class="ls-og-title">독일사람들의 강추템! 독일 소화제 겸 감기약</div>
+            <div class="ls-og-domain">coupang.com · 혜밍웨이 추천</div>
+          </div>
+        </a>
+        <a class="ls-og" href="https://link.coupang.com/a/dnVPk5" target="_blank">
+          <img src="https://cdn.litt.ly/images/Q5BQEDxGToSxU5aLtxGgqk3MUF0JJlPY?s=240x240&f=webp" style="width:100%;height:150px;object-fit:cover">
+          <div class="ls-og-body">
+            <div class="ls-og-title">전기포트 청소에 최고인 독일 순수구연산 액상!</div>
+            <div class="ls-og-domain">coupang.com · 혜밍웨이 추천</div>
+          </div>
+        </a>
+        <a class="ls-og" href="https://link.coupang.com/a/dAcLLw" target="_blank">
+          <img src="https://cdn.litt.ly/images/aej9UcDeptPLvYIagbyr2ZIuXHml7Mtn?s=240x240&f=webp" style="width:100%;height:150px;object-fit:cover">
+          <div class="ls-og-body">
+            <div class="ls-og-title">바쁜 연년생맘 아침식사 추천 - 호주산 위트빅스🇦🇺 12% 할인</div>
+            <div class="ls-og-domain">coupang.com · 혜밍웨이 추천</div>
+          </div>
+        </a>
+        <a class="ls-og" href="https://link.coupang.com/a/dFkug8" target="_blank">
+          <img src="https://cdn.litt.ly/images/INhcFIM0zX4kJmYRoZ7BEogA0OgA0SbI?s=240x240&f=webp" style="width:100%;height:150px;object-fit:cover">
+          <div class="ls-og-body">
+            <div class="ls-og-title">바쁜 연년생 워킹맘 아침식사 추천 - 영국산 위타빅스🇬🇧 10% 할인</div>
+            <div class="ls-og-domain">coupang.com · 혜밍웨이 추천</div>
+          </div>
+        </a>
+        <a class="ls-og" href="https://link.coupang.com/a/cegGlq" target="_blank">
+          <img src="https://cdn.litt.ly/images/c9MBb8rFWqowGroXt7JmzkVE17kxebQu?s=240x240&f=webp" style="width:100%;height:150px;object-fit:cover">
+          <div class="ls-og-body">
+            <div class="ls-og-title">시차적응에 바쁜 엄마의 꿀잠 비결 마칼디 (마그네슘+칼슘+비타민D)</div>
+            <div class="ls-og-domain">coupang.com · 혜밍웨이 추천</div>
+          </div>
+        </a>
+        <a class="ls-og" href="https://link.coupang.com/a/ca63OI" target="_blank">
+          <img src="https://cdn.litt.ly/images/Op7iKlOMA3DtmZLFBA6lTTvErChOuN3r?s=240x240&f=webp" style="width:100%;height:150px;object-fit:cover">
+          <div class="ls-og-body">
+            <div class="ls-og-title">시차적응에 바쁜 엄마의 꿀잠템! 독일 마그네슘 추천</div>
+            <div class="ls-og-domain">coupang.com · 혜밍웨이 추천</div>
+          </div>
+        </a>
+        <a class="ls-og" href="https://link.coupang.com/a/clEYjL" target="_blank">
+          <img src="https://cdn.litt.ly/images/Af6pcRFmBoYSj6ZD3xjceO3CI1RNapT5?s=240x240&f=webp" style="width:100%;height:150px;object-fit:cover">
+          <div class="ls-og-body">
+            <div class="ls-og-title">믿고 쓰는 닥터 베크만! 인덕션 클리너</div>
+            <div class="ls-og-domain">coupang.com · 혜밍웨이 추천</div>
+          </div>
+        </a>
+        <a class="ls-og" href="https://link.coupang.com/a/caO0Ur" target="_blank">
+          <img src="https://cdn.litt.ly/images/jECsi2wDBuXz3Omuh4ycEb2lT98UiSO1?s=240x240&f=webp" style="width:100%;height:150px;object-fit:cover">
+          <div class="ls-og-body">
+            <div class="ls-og-title">체지방 분해되는 일본녹차 - 이토엔 오이오차</div>
+            <div class="ls-og-domain">coupang.com · 혜밍웨이 추천</div>
+          </div>
+        </a>
+        <a class="ls-og" href="https://link.coupang.com/a/eeAR4a" target="_blank">
+          <img src="https://cdn.litt.ly/images/U3KyCpXDTIwsk5BNqkb5PELjQDwYa4xb?s=240x240&f=webp" style="width:100%;height:150px;object-fit:cover">
+          <div class="ls-og-body">
+            <div class="ls-og-title">현재가 우울하고 불안할 때 — 퓨처셀프 10% 할인</div>
+            <div class="ls-og-domain">coupang.com · 혜밍웨이 추천</div>
+          </div>
+        </a>
+        <a class="ls-og" href="https://link.coupang.com/a/ca65tE" target="_blank">
+          <img src="https://cdn.litt.ly/images/wTlst7uY3Iimu4pjbNj36mHIFUC85S9U?s=240x240&f=webp" style="width:100%;height:150px;object-fit:cover">
+          <div class="ls-og-body">
+            <div class="ls-og-title">바쁜 워킹맘에게 업무와 육아의 효율성을 극대화 해 준 책 — 레버리지</div>
+            <div class="ls-og-domain">coupang.com · 혜밍웨이 추천</div>
+          </div>
+        </a>
+        <a class="ls-og" href="https://link.coupang.com/a/b5o2zb" target="_blank">
+          <img src="https://cdn.litt.ly/images/d7WXmOUuyUE80HGk1cGQIatLOMo44pib?s=240x240&f=webp" style="width:100%;height:150px;object-fit:cover">
+          <div class="ls-og-body">
+            <div class="ls-og-title">혜밍웨이 추천도서 1 — 소설 : 파친코</div>
+            <div class="ls-og-domain">coupang.com · 혜밍웨이 추천</div>
+          </div>
+        </a>
+        <a class="ls-og" href="https://link.coupang.com/a/cQDlpi" target="_blank">
+          <img src="https://cdn.litt.ly/images/7prUNRWapoABWr9A2XzOv2Z2FOa3C38M?s=240x240&f=webp" style="width:100%;height:150px;object-fit:cover">
+          <div class="ls-og-body">
+            <div class="ls-og-title">혜밍웨이 추천도서 — 어른들이 읽는 동화 : 100만 번 산 고양이</div>
+            <div class="ls-og-domain">coupang.com · 혜밍웨이 추천</div>
+          </div>
+        </a>
+      </div>
+      <div class="links-section-pb"></div>
+    </div>
+    <div id="tab-products" class="tab-panel">
+      <div class="products-section">
+        <div class="product-search">
+          <svg class="product-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          <input id="product-search-input" type="text" placeholder="검색어를 입력해주세요" oninput="renderProducts()"/>
+        </div>
+        <div class="product-grid" id="product-grid"></div>
+      </div>
+    </div>
+    <div class="bio-footer">
+      <div class="bio-footer-label">COLLABORATION</div>
+      <div class="bio-footer-meta">© 2026 혜밍웨이 · myrealtrip</div>
+    </div>
+  </div>
+  <div id="course-panel">
+    <div class="panel-topbar">
+      <div class="panel-back" onclick="closeCourse()">←</div>
+      <div><div class="panel-title" id="course-panel-title">추천 코스</div></div>
+      <button class="share-btn" onclick="copyShareLink('course')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/></svg>링크 복사</button>
+    </div>
+    <div id="map-full"></div>
+    <div class="day-tabs" id="day-tabs"></div>
+    <div class="day-content" id="day-content"></div>
+  </div>
+  <div id="expense-panel">
+    <div class="exp-overlay" onclick="closeExpensePanel()"></div>
+    <div class="exp-sheet">
+      <div style="width:36px;height:4px;background:var(--border);border-radius:2px;margin:6px auto 16px"></div>
+      <div class="exp-title-row">
+        <div class="exp-title" id="exp-title-text">총경비</div>
+        <button class="share-btn" onclick="copyShareLink('expense')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/></svg>링크 복사</button>
+      </div>
+      <div class="exp-subtitle" id="exp-subtitle-text">추천 코스 · 1인 기준</div>
+      <div class="exp-item"><div class="exp-emoji">✈️</div><div class="exp-info"><div class="exp-name" id="exp-flight-name">항공권 <span class="exp-live-tag">직항</span></div><div class="exp-note" id="exp-flight-note">항공권 기준</div></div><div class="exp-right"><div class="exp-price-val" id="exp-flight">₩-</div><button class="exp-book-btn" id="exp-flight-btn">예약 바로가기</button></div></div>
+      <div id="exp-hotel-section"><div class="exp-item"><div class="exp-emoji">🏨</div><div class="exp-info"><div class="exp-name" id="exp-hotel-name">호텔 <span class="exp-live-tag">추천</span></div><div class="exp-note" id="exp-hotel-note">3박 2인 1실 1인 기준</div></div><div class="exp-right"><div class="exp-price-val" id="exp-hotel">₩-</div><button class="exp-book-btn" id="exp-hotel-btn">예약 바로가기</button></div></div></div>
+      <div class="exp-item"><div class="exp-emoji">🍜</div><div class="exp-info"><div class="exp-name">식비 · 현지 경비</div><div class="exp-note" id="exp-food-note">현지 식당 포함</div></div><div class="exp-right"><div class="exp-price-val" id="exp-food-price">₩-</div></div></div>
+      <div id="exp-tours-list"></div>
+      <div class="exp-total-row"><div class="exp-total-label">총 경비</div><div class="exp-total-val" id="exp-total">₩-</div></div>
+      <div class="exp-fine-print" id="exp-fine-print">· 1인 기준 평균값</div>
+    </div>
+  </div>
+  <div id="coupon-panel">
+    <div class="coupon-overlay" onclick="closeCoupon()"></div>
+    <div class="coupon-sheet">
+      <div class="sheet-handle"></div>
+      <div class="sheet-title">🎫 파트너 쿠폰</div>
+      <div class="sheet-sub">혜밍웨이 통해 예약하면 받을 수 있는 혜택</div>
+      <div class="coupon-card"><div class="cc-stripe" style="background:var(--amber)"></div><div class="cc-body"><div class="cc-label" style="color:var(--amber)">마이리얼트립 파트너 혜택</div><div class="cc-title">첫 예약 3,000원 할인</div><div class="cc-desc">5만원 이상 결제 시 · 1회 사용 가능</div><div class="cc-footer"><div class="cc-expire">유효기간: 2026.06.30까지</div><div class="cc-remain">잔여 47장</div></div></div><button class="cc-btn" style="background:var(--amber)" onclick="window.open('https://www.myrealtrip.com/coupons','_blank')">받기</button></div>
+      <div class="coupon-card"><div class="cc-stripe" style="background:var(--sage)"></div><div class="cc-body"><div class="cc-label" style="color:var(--sage)">재방문 감사 쿠폰</div><div class="cc-title">2번째 예약 5% 할인</div><div class="cc-desc">최대 1만원 · 혜밍웨이 전용</div><div class="cc-footer"><div class="cc-expire">유효기간: 2026.07.31까지</div><div class="cc-remain">잔여 23장</div></div></div><button class="cc-btn" style="background:var(--sage)" onclick="window.open('https://www.myrealtrip.com/coupons','_blank')">받기</button></div>
+    </div>
+  </div>
+</div>
+<script>
+const products=[
+  {name:"베를린 핵심 투어 — 서베를린에서 동베를린까지",price:"₩70,800",tag:"혜밍웨이 강추",icon:"🏛️",bg:"#EBF0FD",tagColor:"#2E5AC8",tagBg:"#C8D8FC",city:"베를린",url:"https://experiences.myrealtrip.com/products/3753849"},
+  {name:"체코 체스키크룸로프 차량 투어 (프라하 출발)",price:"₩29,000~",tag:"인기",icon:"🏰",bg:"#FEF0E8",tagColor:"#D47038",tagBg:"#FDD8B8",city:"프라하",url:"https://experiences.myrealtrip.com/products/3434347"},
+  {name:"프라하 시내 오전 + 야경 크루즈 투어",price:"₩68,000~",tag:"추천",icon:"🌉",bg:"#E8F0FD",tagColor:"#1A3A9A",tagBg:"#C0D0F8",city:"프라하",url:"https://experiences.myrealtrip.com/products/3434345"},
+  {name:"베를린 박물관섬 패스 (5개관 입장)",price:"₩20,000~",tag:"문화",icon:"🎨",bg:"#E8FDF4",tagColor:"#1A8A5A",tagBg:"#C8F0DC",city:"베를린",url:"https://experiences.myrealtrip.com/products/5868944"},
+  {name:"베를린 슈프레 강 리버 크루즈 1시간",price:"₩19,000~",tag:"감성",icon:"🛶",bg:"#FFF0F3",tagColor:"#BE185D",tagBg:"#FCE7F3",city:"베를린",url:"https://experiences.myrealtrip.com/products/5815739"},
+  {name:"프라하 출발 — 할슈타트 + 체스키 당일 투어",price:"₩190,000~",tag:"당일치기",icon:"🏔️",bg:"#F8E8F8",tagColor:"#7A1A9A",tagBg:"#E8C8F0",city:"프라하",url:"https://experiences.myrealtrip.com/products/3434358"}
+];
+function renderProducts(){const el=document.getElementById("product-grid");const q=(document.getElementById("product-search-input")?.value||"").trim().toLowerCase();const f=q?products.filter(p=>(p.name+" "+(p.tag||"")).toLowerCase().includes(q)):products;if(!f.length){el.innerHTML=`<div style="grid-column:1/-1;padding:32px 12px;text-align:center;color:var(--light);font-size:13px;">"${q}"에 해당하는 상품이 없어요</div>`;return}el.innerHTML=f.map(p=>`<div class="product-card-v3" onclick="window.open('${p.url}','_blank')"><div class="pc-img" style="background:${p.bg}">${p.img?`<img src="${p.img}" alt="${p.name}"/>`:`${p.icon}`}</div><div class="pc-body"><span class="pc-tag" style="background:${p.tagBg};color:${p.tagColor}">${p.tag}</span><div class="pc-name">${p.name}</div><div class="pc-price">${p.price}</div><button class="pc-btn">예약하기</button></div></div>`).join("");}"에 해당하는 상품이 없어요</div>`;return}el.innerHTML=f.map(p=>`<div class="product-card-v3" onclick="window.open('${p.url}','_blank')"><div class="pc-img" style="${p.img?`background-image:url(${p.img});background-size:cover;background-position:center`:`background:${p.bg}`}">${p.img?"":p.icon}</div><div class="pc-body"><span class="pc-tag" style="background:${p.tagBg};color:${p.tagColor}">${p.tag}</span><div class="pc-name">${p.name}</div><div class="pc-price">${p.price}</div>${p.city?`<div class="pc-city">${p.city}</div>`:""}<button class="pc-btn">예약하기</button></div></div>`).join("");}
+function switchTab(name){document.querySelectorAll(".page-tab").forEach(t=>t.classList.toggle("on",t.dataset.tab===name));document.querySelectorAll(".tab-panel").forEach(p=>p.classList.remove("on"));document.getElementById(`tab-${name}`).classList.add("on");document.getElementById("main-page").scrollTop=0;}
+function openCoupon(){document.getElementById("coupon-panel").classList.add("open");}
+function closeCoupon(){document.getElementById("coupon-panel").classList.remove("open");}
+
+
+const CREATOR={name:"혜밍웨이"};
+const CITY_DAYS={"europe":[
+  {day:1,date:"D1 · 출발 → 프라하 도착",dayCost:"항공비 별도",stops:[
+    {time:"출발",place:"인천국제공항 (ICN)",lat:37.4602,lng:126.4407,pinColor:"amber",pinLabel:"D1",desc:"프라하 직항 또는 경유 약 11~13시간. 루프트한자·에어프랑스 경유 많이 이용 ✈️",cost:"왕복 ₩1,300,000~",product:{name:"인천↔프라하 항공권 검색",price:"₩1,300,000~",tag:"필수",tagBg:"#EDE9FE",tagColor:"#6D28D9",bg:"#EDE9FE",icon:"✈️",city:"프라하",url:"https://flights.myrealtrip.com"}},
+    {time:"저녁 도착",place:"프라하 바츨라프 하벨 공항",lat:50.1008,lng:14.2600,pinColor:"amber",pinLabel:"D1",desc:"공항에서 구시가지까지 버스+지하철 약 40분. 짐 많으면 공항 픽업 택시 추천 🚌",cost:"교통비 ₩5,000~",product:null},
+    {time:"저녁",place:"바츨라프 광장 & 주변 숙소",lat:50.0817,lng:14.4278,pinColor:"amber",pinLabel:"D1",desc:"체코 현대사의 중심지. 첫날은 간단히 체코 맥주 한 잔으로 도착 기념. 필스너 우르켈 추천 🍺",cost:"식비 ₩15,000~",product:null},
+  ]},
+  {day:2,date:"D2 · 프라하 구시가지 완전 정복",dayCost:"₩80,000~",stops:[
+    {time:"오전 9시",place:"프라하 구시가지 광장",lat:50.0874,lng:14.4213,pinColor:"sage",pinLabel:"D2",desc:"천문시계 시연은 매시 정각. 소그룹 한국어 가이드 투어로 역사 해설 들으며 효율적으로 탐방 🗺️",cost:"₩35,000~",product:{name:"프라하 핵심 가이드 오전 투어 (프라하성 포함)",price:"₩35,000~",tag:"추천",tagBg:"#C8D8FC",tagColor:"#2E5AC8",bg:"#EBF0FD",icon:"🏛️",city:"프라하",url:"https://experiences.myrealtrip.com/products/3754169"}},
+    {time:"오후 12시",place:"카를교 & 말라 스트라나",lat:50.0865,lng:14.4114,pinColor:"sage",pinLabel:"D2",desc:"블타바 강 위 고딕 다리. 30개 성인상 배치. 강 건너 말라 스트라나 카페 골목 감성 산책 🌉",cost:"무료",product:null},
+    {time:"오후 2시",place:"프라하성 & 성 비투스 대성당",lat:50.0906,lng:14.4002,pinColor:"sage",pinLabel:"D2",desc:"유럽에서 가장 큰 성. 성 비투스 스테인드글라스 반드시 감상. 오후 조명이 특히 아름다움 ⛪",cost:"입장료 ₩15,000~",product:null},
+    {time:"저녁 7시",place:"블타바 강 야경 크루즈",lat:50.0797,lng:14.4142,pinColor:"sage",pinLabel:"D2",desc:"프라하 야경을 물 위에서 감상. 시내 오전 투어 + 야경 크루즈 패키지로 하루에 완성 🛶",cost:"₩68,000~",product:{name:"프라하 시내 오전 + 야경 크루즈 투어",price:"₩68,000~",tag:"인기",tagBg:"#C0D0F8",tagColor:"#1A3A9A",bg:"#E8F0FD",icon:"🌉",city:"프라하",url:"https://experiences.myrealtrip.com/products/3434345"}},
+  ]},
+  {day:3,date:"D3 · 체스키크룸로프 근교 당일치기",dayCost:"₩30,000~",stops:[
+    {time:"오전 8시",place:"프라하 출발 (픽업)",lat:50.0874,lng:14.4213,pinColor:"blush",pinLabel:"D3",desc:"프라하 숙소 픽업 후 차량으로 체스키크룸로프까지 약 3시간. 차 안에서 체코 역사 해설 🚌",cost:"₩29,000~",product:{name:"체스키크룸로프 차량 투어 (프라하 출발)",price:"₩29,000~",tag:"필수",tagBg:"#FDD8B8",tagColor:"#D47038",bg:"#FEF0E8",icon:"🏰",city:"프라하",url:"https://experiences.myrealtrip.com/products/3434347"}},
+    {time:"오전 11시",place:"체스키크룸로프 구시가지",lat:48.8108,lng:14.3154,pinColor:"blush",pinLabel:"D3",desc:"유네스코 세계문화유산. 동화 속 마을. 성 전망대에서 보이는 S자 강굽이 뷰가 압권 🏰",cost:"무료",product:null},
+    {time:"오후 4시",place:"프라하 귀환",lat:50.0874,lng:14.4213,pinColor:"blush",pinLabel:"D3",desc:"저녁엔 구시가지 골목 식당에서 맥주와 굴라시로 저녁 식사. 체코 현지 맥주 꼭 마실 것! 🍺",cost:"식비 ₩20,000~",product:null},
+  ]},
+  {day:4,date:"D4 · 베를린 이동 & 탐방",dayCost:"₩80,000~",stops:[
+    {time:"오전",place:"프라하 중앙역 출발",lat:50.0833,lng:14.4356,pinColor:"amber",pinLabel:"D4",desc:"프라하↔베를린 직통 기차 약 4시간. 유럽 열차 이동의 낭만. 차창 밖 독일 풍경 감상 🚂",cost:"기차 ₩40,000~",product:null},
+    {time:"오후 2시",place:"베를린 브란덴부르크문",lat:52.5163,lng:13.3777,pinColor:"amber",pinLabel:"D4",desc:"독일 통일의 상징. 제2차 세계대전·냉전의 역사가 담긴 장소. 가이드 투어로 깊이 이해 🏛️",cost:"₩70,800~",product:{name:"베를린 핵심 투어 (서→동 베를린)",price:"₩70,800~",tag:"혜밍웨이 강추",tagBg:"#C8D8FC",tagColor:"#2E5AC8",bg:"#EBF0FD",icon:"🏛️",city:"베를린",url:"https://experiences.myrealtrip.com/products/3753849"}},
+    {time:"오후 5시",place:"체크포인트 찰리 & 베를린 장벽",lat:52.5076,lng:13.3904,pinColor:"amber",pinLabel:"D4",desc:"동서독 분단의 현장. 이스트 사이드 갤러리 야외 벽화 1.3km 도보 감상. 사진 명소 📸",cost:"무료",product:null},
+    {time:"저녁",place:"프렌츨라우어 베르크 카페 거리",lat:52.5386,lng:13.4133,pinColor:"amber",pinLabel:"D4",desc:"베를린 감성 카페 밀집 지역. 독일 크래프트 비어와 함께 유럽 마지막 밤 여유롭게 즐기기 🍻",cost:"식비 ₩25,000~",product:null},
+  ]},
+]};
+const CITY_EXPENSE={"europe":{
+  title:"프라하+베를린 5박 6일 총경비",
+  food:350000,foodNote:"굴라시·크네들리크·독일 소시지 등 현지 식비 5박",
+  defaultFlight:1010400,defaultHotel:420000,defaultTotal:2010400,
+  flightNote:"인천-프라하 경유 왕복 기준 (루프트한자·에어프랑스 등)",
+  flightUrl:"https://flights.myrealtrip.com",
+  hotelName:"프라하 구시가지 인근 호텔",hotelNote:"프라하 3박 + 베를린 2박 1인 기준 (2인 1실)",hotelUrl:"",
+  tours:[
+    {emoji:"🏛️",name:"베를린 핵심 투어 (서→동 베를린)",note:"후기 1,800개 · 소그룹 한국어 진행",price:70800,url:"https://experiences.myrealtrip.com/products/3753849"},
+    {emoji:"🏰",name:"체스키크룸로프 차량 투어",note:"프라하 출발 · 픽업 포함 · 후기 3,000개+",price:29000,url:"https://experiences.myrealtrip.com/products/3434347"},
+    {emoji:"🌉",name:"프라하 시내 + 야경 크루즈",note:"오전 투어 + 야경 세트 구성",price:68000,url:"https://experiences.myrealtrip.com/products/3434345"},
+    {emoji:"🚂",name:"프라하↔베를린 기차",note:"약 4시간 · 유럽 열차 직통",price:40000,url:"https://www.myrealtrip.com/transportation"}
+  ],
+  toursLabel:"🎫 혜밍웨이 추천 코스",
+  finePrint:"· 5박 6일 1인 평균값 · 항공 유류세 포함 · 체스키크룸로프 당일치기 포함"
+}};
+let currentExpenseCity="europe";let currentDay=1;let currentCourseCity="europe";let mapFull;
+function openCourse(city){city=city||"europe";currentCourseCity=city;currentDay=1;document.getElementById("course-panel").classList.add("open");const t=CITY_EXPENSE[city];document.getElementById("course-panel-title").textContent=(t&&t.title)||"추천 코스";renderDayTabs();renderDayContent(1);setTimeout(()=>{initMapFull(city);if(mapFull)mapFull.invalidateSize();},450);}
+function closeCourse(){document.getElementById("course-panel").classList.remove("open");}
+function renderDayTabs(){document.getElementById("day-tabs").innerHTML=CITY_DAYS[currentCourseCity].map(d=>`<div class="day-tab ${d.day===currentDay?"active":""}" onclick="selectDay(${d.day})">DAY ${d.day}</div>`).join("");}
+function renderDayContent(n){const imgMap=Object.fromEntries(products.filter(p=>p.img).map(p=>[p.url,p.img]));const day=CITY_DAYS[currentCourseCity].find(d=>d.day===n);if(!day)return;document.getElementById("day-content").innerHTML=`<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;"><div style="font-size:14px;font-weight:700;color:var(--sage)">${day.date}</div>${day.dayCost?`<div style="font-size:12px;font-weight:700;color:var(--amber);background:#FFF3E8;padding:5px 10px;border-radius:8px;">💰 ${day.dayCost}</div>`:""}</div>${day.stops.map((s,i)=>`<div class="stop-item"><div class="stop-timeline"><div class="stop-dot"></div>${i<day.stops.length-1?'<div class="stop-line"></div>':""}</div><div class="stop-body"><div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:2px;"><div class="stop-time">${s.time}</div>${s.cost?`<div style="font-size:11px;color:var(--mid);font-weight:600;">${s.cost}</div>`:""}</div><div class="stop-place">${s.place}</div><div class="stop-desc">${s.desc}</div>${(s.products||(s.product?[s.product]:[])).map(p=>`<div class="inline-product"><div class="inline-product-icon" style="background:${p.bg};${imgMap[p.url]?'padding:0;overflow:hidden;':''}">${imgMap[p.url]?'<img src="'+imgMap[p.url]+'" style="width:100%;height:100%;object-fit:cover;border-radius:12px;" alt=""/>':p.icon}</div><div class="inline-product-info"><span class="inline-product-tag" style="background:${p.tagBg};color:${p.tagColor}">${p.tag}</span><div class="inline-product-name">${p.name}</div><div class="inline-product-price">${p.price}</div></div><button class="inline-product-btn" onclick="window.open('${p.url}','_blank')">예약하기</button></div>`).join("")}</div></div>`).join("")}`;document.getElementById("day-content").scrollTop=0;}
+function selectDay(n){currentDay=n;renderDayTabs();renderDayContent(n);if(mapFull){const d=CITY_DAYS[currentCourseCity].find(x=>x.day===n);if(d){const coords=d.stops.filter(s=>s.lat).map(s=>[s.lat,s.lng]);if(coords.length)mapFull.fitBounds(coords,{padding:[30,30],maxZoom:13});}}}
+function openExpensePanel(city){city=city||"europe";currentExpenseCity=city;const d=CITY_EXPENSE[city];if(!d)return;document.getElementById("exp-title-text").textContent=d.title;document.getElementById("exp-subtitle-text").textContent=`${CREATOR.name} 추천 코스 · 1인 기준`;document.getElementById("exp-food-price").textContent="₩"+d.food.toLocaleString();document.getElementById("exp-food-note").textContent=d.foodNote;document.getElementById("exp-flight").textContent=d.defaultFlight?("₩"+d.defaultFlight.toLocaleString()):"유류비 별도";document.getElementById("exp-total").textContent="₩"+d.defaultTotal.toLocaleString();document.getElementById("exp-fine-print").textContent=d.finePrint;if(d.flightNote)document.getElementById("exp-flight-note").textContent=d.flightNote;const flightBtn=document.getElementById("exp-flight-btn");if(flightBtn){flightBtn.style.display=d.flightUrl?"":"none";if(d.flightUrl)flightBtn.onclick=()=>window.open(d.flightUrl,"_blank");}const hotelSection=document.getElementById("exp-hotel-section");if(d.hotels){hotelSection.innerHTML=d.hotels.map(h=>`<div class="exp-item"><div class="exp-emoji">🏨</div><div class="exp-info"><div class="exp-name">${h.name} <span class="exp-live-tag">${CREATOR.name} 추천</span></div><div class="exp-note">${h.note}</div></div><div class="exp-right"><div class="exp-price-val">₩${h.price.toLocaleString()}</div><button class="exp-book-btn" onclick="window.open('${h.url}','_blank')">예약 바로가기</button></div></div>`).join("");}else{hotelSection.innerHTML=`<div class="exp-item"><div class="exp-emoji">🏨</div><div class="exp-info"><div class="exp-name">${d.hotelName||"호텔"} <span class="exp-live-tag">${CREATOR.name} 추천</span></div><div class="exp-note">${d.hotelNote||""}</div></div><div class="exp-right"><div class="exp-price-val">₩${d.defaultHotel.toLocaleString()}</div>${d.hotelUrl?`<button class="exp-book-btn" onclick="window.open('${d.hotelUrl}','_blank')">예약 바로가기</button>`:""}</div></div>`;}document.getElementById("exp-tours-list").innerHTML=d.tours.length?`<div class="exp-group-header"><span>${d.toursLabel||"🎫 추천 상품"}</span></div>${d.tours.map(t=>`<div class="exp-item"><div class="exp-emoji">${t.emoji}</div><div class="exp-info"><div class="exp-name">${t.name}</div><div class="exp-note">${t.note}</div></div><div class="exp-right"><div class="exp-price-val">₩${t.price.toLocaleString()}</div>${t.url?`<button class="exp-book-btn" onclick="window.open('${t.url}','_blank')">예약 바로가기</button>`:""}</div></div>`).join("")}`:"";document.getElementById("expense-panel").classList.add("open");}
+function closeExpensePanel(){document.getElementById("expense-panel").classList.remove("open");}
+function copyShareLink(v){let url=location.origin+location.pathname+"?view="+v;if(v==="expense")url+="&city="+currentExpenseCity;navigator.clipboard?.writeText(url).then(()=>showToast("링크가 복사되었어요 🔗"));}
+function showToast(msg){let t=document.getElementById("share-toast");if(!t){t=document.createElement("div");t.id="share-toast";t.className="toast";document.body.appendChild(t)}t.textContent=msg;t.classList.add("show");clearTimeout(t._timer);t._timer=setTimeout(()=>t.classList.remove("show"),2200);}
+const pinColors={amber:"#E07A38",sage:"#6B9080",blush:"#C97D6E"};
+function createPinIcon(color,label){return L.divIcon({html:`<div style="width:30px;height:30px;border-radius:50%;background:${pinColors[color]||"#E07A38"};border:2.5px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,0.28);display:flex;align-items:center;justify-content:center;"><span style="color:#fff;font-size:9px;font-weight:800">${label}</span></div>`,className:"",iconSize:[30,30],iconAnchor:[15,15],popupAnchor:[0,-18]});}
+function drawRoutes(map,city){CITY_DAYS[city].forEach(day=>{const coords=day.stops.filter(s=>s.lat).map(s=>[s.lat,s.lng]);if(coords.length>1)L.polyline(coords,{color:pinColors[day.stops[0].pinColor]||"#E07A38",weight:3,opacity:0.65,dashArray:"6,9"}).addTo(map);});}
+function initMapFull(city){city=city||currentCourseCity;if(mapFull){mapFull.remove();mapFull=null;}mapFull=L.map("map-full",{zoomControl:false,attributionControl:false});L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",{maxZoom:19}).addTo(mapFull);const allCoords=CITY_DAYS[city].flatMap(d=>d.stops.filter(s=>s.lat).map(s=>[s.lat,s.lng]));if(allCoords.length)mapFull.fitBounds(allCoords,{padding:[20,20]});drawRoutes(mapFull,city);CITY_DAYS[city].forEach(day=>day.stops.filter(s=>s.lat).forEach(s=>{const m=L.marker([s.lat,s.lng],{icon:createPinIcon(s.pinColor,s.pinLabel)}).addTo(mapFull);m.bindPopup(`<div>${s.place}</div>`,{closeButton:false});m.on("click",()=>selectDay(day.day));}));}
+document.addEventListener("DOMContentLoaded",()=>{renderProducts();const p=new URLSearchParams(location.search),v=p.get("view"),c=p.get("city")||"europe";if(v==="expense")setTimeout(()=>openExpensePanel(c),400);if(v==="course")setTimeout(()=>openCourse(c),400);});
+</script>
+</body>
+</html>
