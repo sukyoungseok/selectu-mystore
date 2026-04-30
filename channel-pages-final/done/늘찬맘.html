@@ -367,7 +367,7 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
       <div class="exp-item"><div class="exp-emoji">🏨</div><div class="exp-info"><div class="exp-name">숙소 <span class="exp-live-tag">추천</span></div><div class="exp-note" id="exp-hotel-note">코트야드 메리어트 · 4박</div></div><div class="exp-right"><div class="exp-price-val" id="exp-hotel">₩480,000</div><button class="exp-book-btn" onclick="window.open('https://myrealt.rip/Yyjk2c','_blank')">예약 바로가기</button></div></div>
       <div class="exp-item"><div class="exp-emoji">🍜</div><div class="exp-info"><div class="exp-name">식비 · 현지 경비</div><div class="exp-note" id="exp-food-note">쌀국수·분짜·현지 맛집 포함</div></div><div class="exp-right"><div class="exp-price-val" id="exp-food-price">₩280,000</div></div></div>
       <div id="exp-tours-list"></div>
-      <div class="exp-total-row"><div class="exp-total-label">총 경비</div><div class="exp-total-val" id="exp-total">₩1,500,000</div></div>
+      <div class="exp-total-row"><div class="exp-total-label">총 경비</div><div class="exp-total-val" id="exp-total">₩1,173,849</div></div>
       <div class="exp-fine-print" id="exp-fine-print">✈️항공·🏨숙소는 최저가 기준 · 식비는 평균값 · 아이 동반 투어 별도</div>
     </div>
   </div>
@@ -402,25 +402,25 @@ const products=[
 
 const days=[
   {day:1,date:"D1 · 공항 도착 + 휴식",dayCost:"약 2~3만원",stops:[
-    {time:"오후",place:"다낭 국제공항 도착",desc:"첫날부터 무리하지 말기! 체크인 후 호텔 수영장에서 여유롭게. 아이 컨디션 먼저 체크 🌊",cost:"무료",product:null},
-    {time:"저녁",place:"호텔 근처 쌀국수 or 리조트 식사",desc:"현지 로컬 쌀국수 한 그릇으로 베트남 첫 식사. 다낭 해변 인근 맛집 추천.",cost:"₩1~2만원",product:null},
+    {time:"오후",place:"다낭 국제공항 도착",desc:"첫날부터 무리하지 말기! 체크인 후 호텔 수영장에서 여유롭게. 아이 컨디션 먼저 체크 🌊",cost:"무료",product:null,lat:16.044,lng:108.199,pinColor:"sage",pinLabel:"공항"},
+    {time:"저녁",place:"호텔 근처 쌀국수 or 리조트 식사",desc:"현지 로컬 쌀국수 한 그릇으로 베트남 첫 식사. 다낭 해변 인근 맛집 추천.",cost:"₩1~2만원",product:null,lat:16.067,lng:108.225,pinColor:"amber",pinLabel:"저녁"},
   ]},
   {day:2,date:"D2 · 호이안 투어",dayCost:"약 5~8만원",stops:[
-    {time:"오전",place:"호텔 키즈클럽 & 물놀이",desc:"오전은 리조트에서 아이와 물놀이. 한낮 야외 활동은 피하고 에어컨 있는 실내 우선!",cost:"무료(숙박 포함)",product:null},
-    {time:"점심",place:"모닝글로리 레스토랑",desc:"호이안 대표 베트남 음식점. 까오러우·화이트로즈·반미 모두 맛있어요. 예약 추천!",cost:"₩2~3만원",product:null},
-    {time:"오후",place:"호이안 올드타운 투어",desc:"유네스코 세계문화유산. 아오자이 대여 후 스냅 촬영 강추! 박물관, Cà Phê Fusion 카페도 들러요.",cost:"₩1~2만원",product:null},
-    {time:"저녁",place:"소원배 & HOME Hoi An 저녁",desc:"투본강 소원배 체험 후 야경 감상. 저녁은 HOME Hoi An에서. 호이안 야경이 진짜 낭만 🏮",cost:"₩3~5만원",product:{name:"다낭 바나힐&호이안 퍼펙트 원데이 투어",price:"₩387,548",tagBg:"#FDE8CE",tagColor:"#E07A38",tag:"강추",bg:"#FEF3C7",icon:"🌟",city:"다낭",url:"https://myrealt.rip/YyiUdf",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/12/dR98/dfgJCJ0FWF.jpg"}},
+    {time:"오전",place:"호텔 키즈클럽 & 물놀이",desc:"오전은 리조트에서 아이와 물놀이. 한낮 야외 활동은 피하고 에어컨 있는 실내 우선!",cost:"무료(숙박 포함)",product:null,lat:16.067,lng:108.225,pinColor:"sage",pinLabel:"리조트"},
+    {time:"점심",place:"모닝글로리 레스토랑",desc:"호이안 대표 베트남 음식점. 까오러우·화이트로즈·반미 모두 맛있어요. 예약 추천!",cost:"₩2~3만원",product:null,lat:15.880,lng:108.326,pinColor:"amber",pinLabel:"모닝글로리"},
+    {time:"오후",place:"호이안 올드타운 투어",desc:"유네스코 세계문화유산. 아오자이 대여 후 스냅 촬영 강추! 박물관, Cà Phê Fusion 카페도 들러요.",cost:"₩1~2만원",product:null,lat:15.882,lng:108.325,pinColor:"sage",pinLabel:"올드타운"},
+    {time:"저녁",place:"소원배 & HOME Hoi An 저녁",desc:"투본강 소원배 체험 후 야경 감상. 저녁은 HOME Hoi An에서. 호이안 야경이 진짜 낭만 🏮",cost:"₩3~5만원",product:{name:"다낭 바나힐&호이안 퍼펙트 원데이 투어",price:"₩387,548",tagBg:"#FDE8CE",tagColor:"#E07A38",tag:"강추",bg:"#FEF3C7",icon:"🌟",city:"다낭",url:"https://myrealt.rip/YyiUdf",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/12/dR98/dfgJCJ0FWF.jpg"},lat:15.877,lng:108.329,pinColor:"amber",pinLabel:"소원배"},
   ]},
   {day:3,date:"D3 · 빈원더스",dayCost:"약 10~15만원",stops:[
-    {time:"오전(오픈런)",place:"빈원더스 다낭",desc:"오픈 시간에 맞춰 입장! 리버사파리 먼저 보고, 한낮엔 실내 놀이터와 오락실. 더울 때 워터파크로 이동 🎡",cost:"₩34,466",product:{name:"남호이안 빈원더스 입장권",price:"₩34,466",tagBg:"#FDE8CE",tagColor:"#E07A38",tag:"입장권",bg:"#FEF3C7",icon:"🎫",city:"다낭",url:"https://myrealt.rip/YyiVcf",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/04/eoUv/WnpPmEjV2K.jpg"}},
-    {time:"점심",place:"Việt Food (빈원더스 내)",desc:"빈원더스 안 베트남 음식 코너. 아이 입맛에 맞는 메뉴 다양해요.",cost:"₩2~3만원",product:null},
+    {time:"오전(오픈런)",place:"빈원더스 다낭",desc:"오픈 시간에 맞춰 입장! 리버사파리 먼저 보고, 한낮엔 실내 놀이터와 오락실. 더울 때 워터파크로 이동 🎡",cost:"₩34,466",product:{name:"남호이안 빈원더스 입장권",price:"₩34,466",tagBg:"#FDE8CE",tagColor:"#E07A38",tag:"입장권",bg:"#FEF3C7",icon:"🎫",city:"다낭",url:"https://myrealt.rip/YyiVcf",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/04/eoUv/WnpPmEjV2K.jpg"},lat:15.812,lng:108.360,pinColor:"sage",pinLabel:"빈원더스"},
+    {time:"점심",place:"Việt Food (빈원더스 내)",desc:"빈원더스 안 베트남 음식 코너. 아이 입맛에 맞는 메뉴 다양해요.",cost:"₩2~3만원",product:null,lat:15.812,lng:108.360,pinColor:"amber",pinLabel:"식사"},
   ]},
   {day:4,date:"D4 · 바나힐",dayCost:"약 8~12만원",stops:[
-    {time:"종일",place:"바나힐 & 황금다리",desc:"케이블카 타고 올라가는 테마파크! 황금다리 포토스팟 필수. 서늘한 날씨라 아이들 좋아해요 🏔️",cost:"₩53,000",product:{name:"바나힐 입장권 + eSIM 50% 할인",price:"₩53,000",tagBg:"#FDE8CE",tagColor:"#E07A38",tag:"입장권",bg:"#FEF3C7",icon:"🎫",city:"다낭",url:"https://myrealt.rip/YyiO9c",img:"https://d2ur7st6jjikze.cloudfront.net/offer_photos/63983/394591_medium_1565941616.jpg?1565941616"}},
-    {time:"저녁",place:"다낭 시내 귀환",desc:"바나힐 하산 후 다낭 시내 해산물 레스토랑에서 저녁. 용다리 야경 산책도 추천!",cost:"₩3~5만원",product:null},
+    {time:"종일",place:"바나힐 & 황금다리",desc:"케이블카 타고 올라가는 테마파크! 황금다리 포토스팟 필수. 서늘한 날씨라 아이들 좋아해요 🏔️",cost:"₩53,000",product:{name:"바나힐 입장권 + eSIM 50% 할인",price:"₩53,000",tagBg:"#FDE8CE",tagColor:"#E07A38",tag:"입장권",bg:"#FEF3C7",icon:"🎫",city:"다낭",url:"https://myrealt.rip/YyiO9c",img:"https://d2ur7st6jjikze.cloudfront.net/offer_photos/63983/394591_medium_1565941616.jpg?1565941616"},lat:15.995,lng:107.991,pinColor:"sage",pinLabel:"바나힐"},
+    {time:"저녁",place:"다낭 시내 귀환",desc:"바나힐 하산 후 다낭 시내 해산물 레스토랑에서 저녁. 용다리 야경 산책도 추천!",cost:"₩3~5만원",product:null,lat:16.068,lng:108.221,pinColor:"amber",pinLabel:"다낭"},
   ]},
   {day:5,date:"D5 · 귀국",dayCost:"약 1만원",stops:[
-    {time:"오전",place:"호텔 조식 & 공항 이동",desc:"마지막 날은 여유롭게 조식 후 체크아웃. 다낭 공항 면세점에서 기념품 쇼핑!",cost:"자유",product:null},
+    {time:"오전",place:"호텔 조식 & 공항 이동",desc:"마지막 날은 여유롭게 조식 후 체크아웃. 다낭 공항 면세점에서 기념품 쇼핑!",cost:"자유",product:null,lat:16.044,lng:108.199,pinColor:"sage",pinLabel:"공항"},
   ]},
 ];
 
