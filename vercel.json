@@ -5,16 +5,16 @@
     { "source": "/test", "destination": "/mockup.html" },
     { "source": "/sing.______", "destination": "/channel-pages-final/done/씽아.html" },
     { "source": "/travel_baek", "destination": "/channel-pages-final/done/백자매.html" },
-    { "source": "/hwung_travel", "destination": "/channel-pages-final/훵.html" },
+    { "source": "/hwung_travel", "destination": "/channel-pages-final/done/훵.html" },
     { "source": "/daero._.nana", "destination": "/channel-pages-final/done/대로와나나.html" },
     { "source": "/life.traveler.jayna", "destination": "/channel-pages-final/done/제이나.html" },
     { "source": "/hyemingway0707", "destination": "/channel-pages-final/혜밍웨이.html" },
     { "source": "/uely_", "destination": "/channel-pages-final/유블리.html" },
-    { "source": "/busan_matna_", "destination": "/channel-pages-final/부산맛나.html" },
-    { "source": "/hongdadak", "destination": "/channel-pages-final/홍다닥.html" },
+    { "source": "/busan_matna_", "destination": "/channel-pages-final/done/부산맛나.html" },
+    { "source": "/hongdadak", "destination": "/channel-pages-final/done/홍다닥.html" },
     { "source": "/jae9un.jpg", "destination": "/channel-pages-final/done/재구언.html" },
     { "source": "/min_pic._", "destination": "/channel-pages-final/done/민픽.html" },
-    { "source": "/henriuniverse", "destination": "/channel-pages-final/헨리.html" },
+    { "source": "/henriuniverse", "destination": "/channel-pages-final/done/헨리.html" },
     { "source": "/juuuyomi_", "destination": "/channel-pages-final/주영이랑.html" },
     { "source": "/yeseulio", "destination": "/channel-pages-final/예슬리오.html" },
     { "source": "/review__channel", "destination": "/channel-pages-final/별별리뷰.html" },
@@ -22,6 +22,6 @@
     { "source": "/seulsup_", "destination": "/channel-pages-final/슬숲.html" },
     { "source": "/today.brighten", "destination": "/channel-pages-final/done/늘찬맘.html" },
     { "source": "/papatraveltv", "destination": "/channel-pages-final/done/파파트래블.html" },
-    { "source": "/tep_trip.eat.play", "destination": "/channel-pages-final/트이프.html" }
+    { "source": "/tep_trip.eat.play", "destination": "/channel-pages-final/done/트이프.html" }
   ]
 }
