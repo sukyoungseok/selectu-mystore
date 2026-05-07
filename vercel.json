@@ -13,7 +13,7 @@
     { "source": "/busan_matna_", "destination": "/channel-pages-final/부산맛나.html" },
     { "source": "/hongdadak", "destination": "/channel-pages-final/홍다닥.html" },
     { "source": "/jae9un.jpg", "destination": "/channel-pages-final/재구언.html" },
-    { "source": "/min_pic._", "destination": "/channel-pages-final/민픽.html" },
+    { "source": "/min_pic._", "destination": "/channel-pages-final/done/민픽.html" },
     { "source": "/henriuniverse", "destination": "/channel-pages-final/헨리.html" },
     { "source": "/juuuyomi_", "destination": "/channel-pages-final/주영이랑.html" },
     { "source": "/yeseulio", "destination": "/channel-pages-final/예슬리오.html" },
@@ -21,6 +21,7 @@
     { "source": "/mingoose_world", "destination": "/channel-pages-final/밍구스월드.html" },
     { "source": "/seulsup_", "destination": "/channel-pages-final/슬숲.html" },
     { "source": "/today.brighten", "destination": "/channel-pages-final/done/늘찬맘.html" },
-    { "source": "/papatraveltv", "destination": "/channel-pages-final/done/파파트래블.html" }
+    { "source": "/papatraveltv", "destination": "/channel-pages-final/done/파파트래블.html" },
+    { "source": "/tep_trip.eat.play", "destination": "/channel-pages-final/트이프.html" }
   ]
 }

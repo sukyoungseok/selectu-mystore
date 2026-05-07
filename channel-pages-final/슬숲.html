@@ -9,7 +9,7 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{--cream:#f8f4ee;--amber:#3A8A40;--sage:#5AAA5A;--text:#1a1714;--mid:#6b6560;--light:#a09890;--border:#ede8e0;--accent:#1A4A1A}
 body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;display:flex;justify-content:center;align-items:flex-start}
-.phone{width:390px;min-height:100vh;background:var(--cream);position:relative;overflow:hidden;box-shadow:0 0 60px rgba(0,0,0,.25)}
+.phone{width:390px;height:100vh;background:var(--cream);position:relative;overflow:hidden;box-shadow:0 0 60px rgba(0,0,0,.25)}
 #main-page{position:absolute;top:0;left:0;right:0;overflow-y:auto;height:100%;background:var(--cream);-webkit-overflow-scrolling:touch;z-index:0}
 .affiliate-notice{background:#f0ede8;border-bottom:1px solid var(--border);padding:7px 16px;font-size:10px;color:var(--light);line-height:1.5;text-align:center}
 .hero{position:relative;height:380px}
@@ -101,6 +101,8 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
 .ls-thumb{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid var(--border);border-radius:16px;padding:12px 14px;text-decoration:none;margin-bottom:10px;transition:transform .15s}
 .ls-thumb:active{transform:scale(.985)}
 .ls-thumb-img{width:44px;height:44px;border-radius:12px;background:var(--border);display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0}
+.ls-thumb-icon{width:48px;height:48px;border-radius:12px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:24px;overflow:hidden}
+.ls-thumb-icon img{width:100%;height:100%;object-fit:cover;border-radius:12px}
 .ls-thumb-body{flex:1;min-width:0}
 .ls-thumb-title{font-size:13px;font-weight:700;color:var(--text);line-height:1.35;margin-bottom:2px}
 .ls-thumb-sub{font-size:11px;color:var(--mid);line-height:1.4}
@@ -156,7 +158,7 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
 .day-tabs::-webkit-scrollbar{display:none}
 .day-tab{padding:12px 18px;font-size:13px;font-weight:600;color:var(--light);cursor:pointer;border-bottom:2px solid transparent;transition:all .2s;white-space:nowrap}
 .day-tab.active{color:var(--text);border-bottom-color:var(--amber)}
-.day-content{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:20px 20px 40px}
+.day-content{flex:1;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:20px 20px 40px}
 .stop-item{display:flex;gap:14px;margin-bottom:28px}
 .stop-timeline{display:flex;flex-direction:column;align-items:center;flex-shrink:0}
 .stop-dot{width:12px;height:12px;border-radius:50%;background:var(--amber);border:2px solid #fff;box-shadow:0 0 0 2px var(--amber);flex-shrink:0}
@@ -276,13 +278,14 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
       </div>
       <div class="links-section">
         <h3>📸 추천 콘텐츠</h3>
-        <a class="ls-og" href="https://youtu.be/yS41wcflt2c" target="_blank">
-          <div class="ls-og-placeholder"><img src="https://img.youtube.com/vi/yS41wcflt2c/maxresdefault.jpg" style="width:100%;height:150px;object-fit:cover;display:block"></div>
-          <div class="ls-og-body">
+        <a class="ls-thumb" href="https://youtu.be/yS41wcflt2c" target="_blank">
+          <div class="ls-thumb-icon"><img src="https://img.youtube.com/vi/yS41wcflt2c/maxresdefault.jpg"></div>
+          <div class="ls-thumb-body">
             <div class="ls-badges"><span class="ls-badge hot">🎬 유튜브 영상</span></div>
-            <div class="ls-og-title">발리 우붓 여행 브이로그 — 슬숲의 감성 기록, 논밭·사원·감성카페 코스</div>
-            <div class="ls-og-domain">youtube.com · 슬숲 · 슬숲</div>
+            <div class="ls-thumb-title">발리 우붓 여행 브이로그</div>
+            <div class="ls-thumb-sub">논밭·사원·감성카페 코스 · 슬숲</div>
           </div>
+          <div class="ls-thumb-arrow">›</div>
         </a>
       </div>
       <div class="links-section-pb"></div>
@@ -342,16 +345,16 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
 </div>
 <script>
 const products=[
-  {name:"바투르산 지프투어 선라이즈 (사진천재 와얀)",price:"₩215,199",tag:"강추",icon:"⭐",bg:"#FEF3C7",tagColor:"#E07A38",tagBg:"#FDE8CE",url:"https://www.myrealtrip.com/experiences/3735536",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/10/16/5znj/DYEDJIabeh.jpg"},
-  {name:"발리 응우라라이 공항 픽업&샌딩",price:"₩21,262",tag:"공항",icon:"🚗",bg:"#DBEAFE",tagColor:"#1D4ED8",tagBg:"#DBEAFE",url:"https://www.myrealtrip.com/experiences/5542504",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/11/Xyfk/M6g4wybD2g.jpg"},
-  {name:"발리 바투르산 선라이즈 지프투어 (아퐁투어)",price:"₩179,358",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/3650240",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/10/06/McGP/aiVDf2KV0n.jpg"},
-  {name:"발리 남부 맞춤 택시투어 (공항드랍 무료)",price:"₩80,483",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/3886810",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/27/PF0h/jcY1kq437M.jpg"},
-  {name:"발리 프라이빗 택시 맞춤 투어 (남부/동부/우붓)",price:"₩104,153",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/5541608",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/11/vU6E/YWiUt38gkH.jpg"},
-  {name:"발리 공항 픽업/샌딩 단독차량 (비오비투어)",price:"₩19,972",tag:"공항",icon:"🚗",bg:"#DBEAFE",tagColor:"#1D4ED8",tagBg:"#DBEAFE",url:"https://www.myrealtrip.com/experiences/5685003",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/01/29/1LfF/20Czm73D71.jpg"},
-  {name:"내 맘대로 짜는 발리 남부 투어 (인생샷 스팟)",price:"₩103,706",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/4780599",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/08/08/nExf/IBEl5jluGA.jpeg"},
-  {name:"발리 프라이빗 자유여행 맞춤 투어 (트립인발리)",price:"₩101,671",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/4206886",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/30/r9Ys/wsOHGEjLey.jpg"},
-  {name:"렘푸양 사원(천국의문) 발리 동부 투어 (사진천재 와얀)",price:"₩236,887",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/3735545",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/10/16/bkGa/OcWPwQUtNk.jpg"},
-  {name:"인도네시아 이심 (eSIM/로밍)",price:"₩30,986",tag:"필수",icon:"📱",bg:"#DCFCE7",tagColor:"#15803D",tagBg:"#DCFCE7",url:"https://www.myrealtrip.com/experiences/4743451"},
+  {name:"바투르산 지프투어 선라이즈 (사진천재 와얀)",price:"₩215,199",tag:"강추",icon:"⭐",bg:"#FEF3C7",tagColor:"#E07A38",tagBg:"#FDE8CE",url:"https://myrealt.rip/ZIqed5",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/10/16/5znj/DYEDJIabeh.jpg"},
+  {name:"발리 응우라라이 공항 픽업&샌딩",price:"₩21,262",tag:"공항",icon:"🚗",bg:"#DBEAFE",tagColor:"#1D4ED8",tagBg:"#DBEAFE",url:"https://myrealt.rip/ZIqf77",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/11/Xyfk/M6g4wybD2g.jpg"},
+  {name:"발리 바투르산 선라이즈 지프투어 (아퐁투어)",price:"₩179,358",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://myrealt.rip/ZIqg9e",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/10/06/McGP/aiVDf2KV0n.jpg"},
+  {name:"발리 남부 맞춤 택시투어 (공항드랍 무료)",price:"₩80,483",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://myrealt.rip/ZIqh7a",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/27/PF0h/jcY1kq437M.jpg"},
+  {name:"발리 프라이빗 택시 맞춤 투어 (남부/동부/우붓)",price:"₩104,153",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://myrealt.rip/ZIqi62",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/11/vU6E/YWiUt38gkH.jpg"},
+  {name:"발리 공항 픽업/샌딩 단독차량 (비오비투어)",price:"₩19,972",tag:"공항",icon:"🚗",bg:"#DBEAFE",tagColor:"#1D4ED8",tagBg:"#DBEAFE",url:"https://myrealt.rip/ZIqj28",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/01/29/1LfF/20Czm73D71.jpg"},
+  {name:"내 맘대로 짜는 발리 남부 투어 (인생샷 스팟)",price:"₩103,706",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://myrealt.rip/ZIqkaa",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/08/08/nExf/IBEl5jluGA.jpeg"},
+  {name:"발리 프라이빗 자유여행 맞춤 투어 (트립인발리)",price:"₩101,671",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://myrealt.rip/ZIqle0",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/01/30/r9Ys/wsOHGEjLey.jpg"},
+  {name:"렘푸양 사원(천국의문) 발리 동부 투어 (사진천재 와얀)",price:"₩236,887",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://myrealt.rip/ZIqma3",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/10/16/bkGa/OcWPwQUtNk.jpg"},
+  {name:"인도네시아 이심 (eSIM/로밍)",price:"₩30,986",tag:"필수",icon:"📱",bg:"#DCFCE7",tagColor:"#15803D",tagBg:"#DCFCE7",url:"https://myrealt.rip/ZIqncb"},
 ];
 function renderProducts(){const el=document.getElementById("product-grid");const q=(document.getElementById("product-search-input")?.value||"").trim().toLowerCase();const f=q?products.filter(p=>(p.name+" "+(p.tag||"")).toLowerCase().includes(q)):products;if(!f.length){el.innerHTML=`<div style="grid-column:1/-1;padding:32px 12px;text-align:center;color:var(--light);font-size:13px;">"${q}"에 해당하는 상품이 없어요</div>`;return}el.innerHTML=f.map(p=>`<div class="product-card-v3" onclick="window.open('${p.url}','_blank')"><div class="pc-img" style="background:${p.bg}">${p.img?`<img src="${p.img}" alt="${p.name}"/>`:`${p.icon}`}</div><div class="pc-body"><span class="pc-tag" style="background:${p.tagBg};color:${p.tagColor}">${p.tag}</span><div class="pc-name">${p.name}</div><div class="pc-price">${p.price}</div>${p.city?`<div class="pc-city">${p.city}</div>`:""}<button class="pc-btn">예약하기</button></div></div>`).join("");}
 function switchTab(name){document.querySelectorAll(".page-tab").forEach(t=>t.classList.toggle("on",t.dataset.tab===name));document.querySelectorAll(".tab-panel").forEach(p=>p.classList.remove("on"));document.getElementById(`tab-${name}`).classList.add("on");document.getElementById("main-page").scrollTop=0;}
@@ -362,28 +365,28 @@ function closeCoupon(){document.getElementById("coupon-panel").classList.remove(
 const CREATOR={name:"슬숲",email:"lhr1049@hanmail.net"};
 const CITY_DAYS={"bali":[
   {day:1,date:"D1 · 출발 → 우붓",dayCost:"항공+이심",stops:[
-    {time:"07:00 출발",place:"인천국제공항",lat:37.4602,lng:126.4407,pinColor:"amber",pinLabel:"D1",desc:"발리 직항 7시간. 우붓까지 공항에서 차로 1시간 30분, 미리 픽업 예약 추천 ✈️",cost:"왕복 ₩420,000~",product:{name:"인천-발리 왕복 항공권",price:"₩420,000~",tag:"필수",tagBg:"#EDE9FE",tagColor:"#6D28D9",bg:"#EDE9FE",icon:"✈️",url:"https://www.myrealtrip.com/offers?keyword=발리+항공"}},
-    {time:"오후 도착",place:"우붓 논밭뷰 빌라 체크인",lat:-8.5069,lng:115.2625,pinColor:"amber",pinLabel:"D1",desc:"인피니티 풀·논밭 뷰 빌라 추천. 공항에서 우붓까지 픽업 서비스 이용 추천 🌿",cost:"빌라 1박 ₩75,000~",product:{name:"발리 응우라라이 공항 픽업&샌딩",price:"₩21,262",tag:"공항",tagBg:"#DBEAFE",tagColor:"#1D4ED8",bg:"#DBEAFE",icon:"🚗",url:"https://www.myrealtrip.com/experiences/5542504",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/11/Xyfk/M6g4wybD2g.jpg"}},
+    {time:"07:00 출발",place:"인천국제공항",lat:37.4602,lng:126.4407,pinColor:"amber",pinLabel:"D1",desc:"발리 직항 7시간. 우붓까지 공항에서 차로 1시간 30분, 미리 픽업 예약 추천 ✈️",cost:"왕복 ₩420,000~",product:{name:"인천-발리 왕복 항공권",price:"₩420,000~",tag:"필수",tagBg:"#EDE9FE",tagColor:"#6D28D9",bg:"#EDE9FE",icon:"✈️",url:"https://myrealt.rip/ZIqo46"}},
+    {time:"오후 도착",place:"우붓 논밭뷰 빌라 체크인",lat:-8.5069,lng:115.2625,pinColor:"amber",pinLabel:"D1",desc:"인피니티 풀·논밭 뷰 빌라 추천. 공항에서 우붓까지 픽업 서비스 이용 추천 🌿",cost:"빌라 1박 ₩75,000~",product:{name:"발리 응우라라이 공항 픽업&샌딩",price:"₩21,262",tag:"공항",tagBg:"#DBEAFE",tagColor:"#1D4ED8",bg:"#DBEAFE",icon:"🚗",url:"https://myrealt.rip/ZIqf77",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/11/Xyfk/M6g4wybD2g.jpg"}},
     {time:"저녁",place:"우붓 광장 주변 와룽",lat:-8.5074,lng:115.2616,pinColor:"amber",pinLabel:"D1",desc:"로컬 와룽에서 나시고렝+아이스아메리카노로 첫날 저녁 마무리 🍚",cost:"저녁 ₩8,000~",product:null},
   ]},
   {day:2,date:"D2 · 우붓 힐링 코스",dayCost:"논밭+원숭이숲 약 ₩8만",stops:[
     {time:"06:00",place:"뜨갈랄랑 계단식 논밭 일출",lat:-8.4334,lng:115.2756,pinColor:"sage",pinLabel:"D2",desc:"새벽 6시 논밭에 햇살 스며드는 순간. 입장료 내고 스윙 포토 찍으면 더 예뻐요 📸",cost:"입장료 ₩10,000~",product:null},
-    {time:"오전",place:"우붓 원숭이숲 (Monkey Forest)",lat:-8.5188,lng:115.2622,pinColor:"sage",pinLabel:"D2",desc:"700마리 이상 원숭이 서식. 음식 꺼내면 달려들어요! 가방 꼭 잠그세요 🐒",cost:"입장권 ₩12,000~",product:{name:"우붓 원숭이숲 입장권",price:"₩12,000~",tag:"슬숲 강추",tagBg:"#D1FAE5",tagColor:"#059669",bg:"#D1FAE5",icon:"🐒",url:"https://www.myrealtrip.com/offers?keyword=우붓+원숭이숲"}},
+    {time:"오전",place:"우붓 원숭이숲 (Monkey Forest)",lat:-8.5188,lng:115.2622,pinColor:"sage",pinLabel:"D2",desc:"700마리 이상 원숭이 서식. 음식 꺼내면 달려들어요! 가방 꼭 잠그세요 🐒",cost:"입장권 ₩12,000~",product:{name:"우붓 원숭이숲 입장권",price:"₩12,000~",tag:"슬숲 강추",tagBg:"#D1FAE5",tagColor:"#059669",bg:"#D1FAE5",icon:"🐒",url:"https://myrealt.rip/ZIqp49"}},
     {time:"오후",place:"우붓 전통 시장 & 팰리스",lat:-8.5068,lng:115.2626,pinColor:"sage",pinLabel:"D2",desc:"우붓 왕궁 무료 입장. 맞은편 시장에서 바틱 천·은세공품·코코넛 오일 쇼핑 추천 🛍️",cost:"자유",product:null},
-    {time:"저녁",place:"우붓 전통 요리 클래스",lat:-8.5080,lng:115.2610,pinColor:"sage",pinLabel:"D2",desc:"현지 주부에게 미고렝·가도가도 직접 배우기. 시장 투어 포함 프로그램 추천 🍳",cost:"₩55,000~",product:{name:"우붓 전통 요리 클래스",price:"₩55,000~",tag:"체험",tagBg:"#FEF9C3",tagColor:"#D97706",bg:"#FEF3C7",icon:"🍳",url:"https://www.myrealtrip.com/offers?keyword=발리+요리클래스"}},
+    {time:"저녁",place:"우붓 전통 요리 클래스",lat:-8.5080,lng:115.2610,pinColor:"sage",pinLabel:"D2",desc:"현지 주부에게 미고렝·가도가도 직접 배우기. 시장 투어 포함 프로그램 추천 🍳",cost:"₩55,000~",product:{name:"우붓 전통 요리 클래스",price:"₩55,000~",tag:"체험",tagBg:"#FEF9C3",tagColor:"#D97706",bg:"#FEF3C7",icon:"🍳",url:"https://myrealt.rip/ZIqq3b"}},
   ]},
   {day:3,date:"D3 · 짱구 서핑 + 카페",dayCost:"서핑+카페 약 ₩5만",stops:[
-    {time:"오전",place:"꾸따비치 서핑 레슨",lat:-8.7195,lng:115.1686,pinColor:"blush",pinLabel:"D3",desc:"초보자도 OK. 2시간 레슨에 보드·강사 포함. 우붓에서 택시 1시간 추천 🏄",cost:"₩35,000~",product:{name:"발리 서핑 레슨 (꾸따 비치)",price:"₩35,000~",tag:"인기",tagBg:"#DBEAFE",tagColor:"#1D4ED8",bg:"#DBEAFE",icon:"🏄",url:"https://www.myrealtrip.com/offers?keyword=발리+서핑"}},
+    {time:"오전",place:"꾸따비치 서핑 레슨",lat:-8.7195,lng:115.1686,pinColor:"blush",pinLabel:"D3",desc:"초보자도 OK. 2시간 레슨에 보드·강사 포함. 우붓에서 택시 1시간 추천 🏄",cost:"₩35,000~",product:{name:"발리 서핑 레슨 (꾸따 비치)",price:"₩35,000~",tag:"인기",tagBg:"#DBEAFE",tagColor:"#1D4ED8",bg:"#DBEAFE",icon:"🏄",url:"https://myrealt.rip/ZIqr0b"}},
     {time:"오후",place:"짱구 감성 카페 투어",lat:-8.6477,lng:115.1384,pinColor:"blush",pinLabel:"D3",desc:"짱구는 인스타 감성 카페 천국. 논밭뷰 카페에서 코코넛 라테 한 잔 ☕",cost:"카페 ₩10,000~",product:null},
     {time:"저녁",place:"에코비치 석양 & 선셋바",lat:-8.6594,lng:115.1275,pinColor:"blush",pinLabel:"D3",desc:"서퍼들 구경하며 석양 감상. 선셋 타임 음료 한 잔으로 발리 감성 완성 🌇",cost:"자유",product:null},
   ]},
   {day:4,date:"D4 · 따나롯 + 귀국",dayCost:"스파+사원 약 ₩6만",stops:[
-    {time:"오전",place:"발리 전통 스파 (발리니즈 마사지)",lat:-8.5070,lng:115.2620,pinColor:"amber",pinLabel:"D4",desc:"귀국 전 우붓 스파에서 마무리. 발리니즈 마사지 90분+플라워배스 세트 추천 💆",cost:"₩40,000~",product:{name:"발리 전통 스파 (발리니즈)",price:"₩40,000~",tag:"힐링",tagBg:"#FDF4FF",tagColor:"#7C3AED",bg:"#FDF4FF",icon:"💆",url:"https://www.myrealtrip.com/offers?keyword=발리+스파"}},
+    {time:"오전",place:"발리 전통 스파 (발리니즈 마사지)",lat:-8.5070,lng:115.2620,pinColor:"amber",pinLabel:"D4",desc:"귀국 전 우붓 스파에서 마무리. 발리니즈 마사지 90분+플라워배스 세트 추천 💆",cost:"₩40,000~",product:{name:"발리 전통 스파 (발리니즈)",price:"₩40,000~",tag:"힐링",tagBg:"#FDF4FF",tagColor:"#7C3AED",bg:"#FDF4FF",icon:"💆",url:"https://myrealt.rip/ZIqsa2"}},
     {time:"17:00",place:"따나롯 사원 일몰",lat:-8.6211,lng:115.0868,pinColor:"amber",pinLabel:"D4",desc:"바다 위 바위섬 사원, 발리 최고 일몰 명소. 해 지기 1시간 전 도착 추천 🌅",cost:"입장료 ₩10,000~",product:null},
-    {time:"23:00",place:"응우라라이 공항 → 귀국",lat:-8.7482,lng:115.1676,pinColor:"amber",pinLabel:"D4",desc:"따나롯에서 공항까지 차로 45분. 면세점 코피루왁 원두 추천 ☕",cost:"",product:{name:"발리 공항 픽업/샌딩 단독차량 (비오비투어)",price:"₩19,972",tag:"공항",tagBg:"#DBEAFE",tagColor:"#1D4ED8",bg:"#DBEAFE",icon:"🚗",url:"https://www.myrealtrip.com/experiences/5685003",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/01/29/1LfF/20Czm73D71.jpg"}},
+    {time:"23:00",place:"응우라라이 공항 → 귀국",lat:-8.7482,lng:115.1676,pinColor:"amber",pinLabel:"D4",desc:"따나롯에서 공항까지 차로 45분. 면세점 코피루왁 원두 추천 ☕",cost:"",product:{name:"발리 공항 픽업/샌딩 단독차량 (비오비투어)",price:"₩19,972",tag:"공항",tagBg:"#DBEAFE",tagColor:"#1D4ED8",bg:"#DBEAFE",icon:"🚗",url:"https://myrealt.rip/ZIqj28",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/01/29/1LfF/20Czm73D71.jpg"}},
   ]},
 ]};
-const CITY_EXPENSE={"bali":{title:"발리 우붓·짱구 4박 5일 총경비",food:160000,foodNote:"나시고렝·와룽·카페 식비 4박",defaultFlight:569700,defaultHotel:200000,defaultTotal:1197147,flightNote:"인천-발리 직항 기준",flightUrl:"https://www.myrealtrip.com/offers?keyword=발리+항공",hotelName:"우붓 논밭뷰 빌라",hotelNote:"우붓 빌라 3박 1인 기준",hotelUrl:"",tours:[{emoji:"⭐",name:"바투르산 지프투어 선라이즈 (사진천재 와얀)",note:"화산 일출 지프 드라이브",price:215199,url:"https://www.myrealtrip.com/experiences/3735536",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/10/16/5znj/DYEDJIabeh.jpg"},{emoji:"🚗",name:"발리 응우라라이 공항 픽업&샌딩",note:"공항 ↔ 우붓/짱구 단독 차량",price:21262,url:"https://www.myrealtrip.com/experiences/5542504",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/11/Xyfk/M6g4wybD2g.jpg"},{emoji:"📱",name:"인도네시아 이심 (eSIM/로밍)",note:"LTE 무제한 데이터",price:30986,url:"https://www.myrealtrip.com/experiences/4743451"}],toursLabel:"🎫 슬숲 힐링 추천",finePrint:"· 4박 5일 1인 평균값 · 항공 유류세 포함"}};
+const CITY_EXPENSE={"bali":{title:"발리 우붓·짱구 4박 5일 총경비",food:160000,foodNote:"나시고렝·와룽·카페 식비 4박",defaultFlight:569700,defaultHotel:200000,defaultTotal:1197147,flightNote:"인천-발리 직항 기준",flightUrl:"https://myrealt.rip/ZIqo46",hotelName:"우붓 논밭뷰 빌라",hotelNote:"우붓 빌라 3박 1인 기준",hotelUrl:"",tours:[{emoji:"⭐",name:"바투르산 지프투어 선라이즈 (사진천재 와얀)",note:"화산 일출 지프 드라이브",price:215199,url:"https://myrealt.rip/ZIqed5",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/10/16/5znj/DYEDJIabeh.jpg"},{emoji:"🚗",name:"발리 응우라라이 공항 픽업&샌딩",note:"공항 ↔ 우붓/짱구 단독 차량",price:21262,url:"https://myrealt.rip/ZIqf77",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/11/Xyfk/M6g4wybD2g.jpg"},{emoji:"📱",name:"인도네시아 이심 (eSIM/로밍)",note:"LTE 무제한 데이터",price:30986,url:"https://myrealt.rip/ZIqncb"}],toursLabel:"🎫 슬숲 힐링 추천",finePrint:"· 4박 5일 1인 평균값 · 항공 유류세 포함"}};
 let currentExpenseCity="bali";let currentDay=1;let currentCourseCity="bali";let mapFull;
 function openCourse(city){city=city||"bali";currentCourseCity=city;currentDay=1;document.getElementById("course-panel").classList.add("open");const t=CITY_EXPENSE[city];document.getElementById("course-panel-title").textContent=(t&&t.title)||"추천 코스";renderDayTabs();renderDayContent(1);setTimeout(()=>{initMapFull(city);if(mapFull)mapFull.invalidateSize();},450);}
 function closeCourse(){document.getElementById("course-panel").classList.remove("open");}

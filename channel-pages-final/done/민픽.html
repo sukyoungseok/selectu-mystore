@@ -9,11 +9,11 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{--cream:#f8f4ee;--amber:#8B7048;--sage:#AE9268;--text:#1a1714;--mid:#6b6560;--light:#a09890;--border:#ede8e0;--accent:#4A3A1A}
 body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;display:flex;justify-content:center;align-items:flex-start}
-.phone{width:390px;min-height:100vh;background:var(--cream);position:relative;overflow:hidden;box-shadow:0 0 60px rgba(0,0,0,.25)}
+.phone{width:390px;height:100vh;background:var(--cream);position:relative;overflow:hidden;box-shadow:0 0 60px rgba(0,0,0,.25)}
 #main-page{position:absolute;top:0;left:0;right:0;overflow-y:auto;height:100%;background:var(--cream);-webkit-overflow-scrolling:touch;z-index:0}
 .affiliate-notice{background:#f0ede8;border-bottom:1px solid var(--border);padding:7px 16px;font-size:10px;color:var(--light);line-height:1.5;text-align:center}
 .hero{position:relative;height:380px}
-.hero-cover{position:absolute;inset:0;background:url('../assets/images/minpic-hero.jpg') center/cover no-repeat}.hero-cover::after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(20,15,10,.05) 0%,rgba(20,15,10,0) 40%,rgba(20,15,10,.5) 100%)}
+.hero-cover{position:absolute;inset:0;background:url('../assets/images/minpic-hero.png') center/cover no-repeat}.hero-cover::after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(20,15,10,.05) 0%,rgba(20,15,10,0) 40%,rgba(20,15,10,.5) 100%)}
 .profile-card{position:absolute;bottom:-20px;left:20px;right:20px;z-index:10;background:rgba(255,255,255,.82);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.9);border-radius:20px;padding:16px 18px;display:flex;align-items:center;gap:14px;box-shadow:0 8px 32px rgba(0,0,0,.12)}
 .profile-avatar{width:72px;height:72px;border-radius:50%;flex-shrink:0;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,.15)}.profile-avatar img{width:100%;height:100%;object-fit:cover;border-radius:50%}
 .profile-info h2{font-size:16px;font-weight:700;color:var(--text);margin-bottom:4px}
@@ -50,6 +50,7 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
 .trip-card{flex-shrink:0;width:300px;scroll-snap-align:center;background:#fff;border:1px solid var(--border);border-radius:20px;overflow:hidden;box-shadow:0 6px 18px rgba(24,21,18,.07)}
 .tc-hero{position:relative;height:150px}
 .tc-hero.minpic-europe{background:url('../assets/images/minpic-card1.jpg') center/cover no-repeat}
+.tc-hero.minpic-south{background:url('../assets/images/minpic-card1.jpg') center/cover no-repeat}
 .tc-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,14,10,.05),rgba(17,14,10,.68))}
 .tc-hero-content{position:absolute;left:16px;right:16px;bottom:14px;z-index:1;color:#fff;display:flex;align-items:center;gap:10px}
 .tc-flag{width:46px;height:46px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0;box-shadow:0 3px 10px rgba(0,0,0,.25)}
@@ -97,6 +98,13 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
 .ls-badge.hot{background:linear-gradient(135deg,#8B7048,#4A3A1A);color:#fff}
 .ls-badge.new{background:#E8D8C0;color:#8B7048}
 .ls-badges{display:flex;gap:5px;margin-bottom:6px;flex-wrap:wrap}
+.ls-thumb{display:flex;align-items:center;gap:12px;background:#fff;border-radius:14px;padding:12px 14px;margin-bottom:8px;text-decoration:none;border:1px solid var(--border)}
+.ls-thumb-icon{width:48px;height:48px;border-radius:12px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:24px;overflow:hidden}
+.ls-thumb-icon img{width:100%;height:100%;object-fit:cover;border-radius:12px}
+.ls-thumb-body{flex:1;min-width:0}
+.ls-thumb-title{font-size:13px;font-weight:700;color:var(--text);line-height:1.35;margin-bottom:2px}
+.ls-thumb-sub{font-size:11px;color:var(--light)}
+.ls-thumb-arr{font-size:18px;color:var(--light);flex-shrink:0}
 .ls-textblock{display:flex;gap:14px;align-items:flex-start;margin:20px 0 20px;padding:0 20px}
 .ls-tb-avatar{width:44px;height:44px;border-radius:50%;flex-shrink:0;background:linear-gradient(135deg,#8B7048,#4A3A1A);display:flex;align-items:center;justify-content:center;font-size:20px}
 .ls-tb-bubble{flex:1;position:relative;background:#f7f2ea;border:1.5px solid #d0b888;border-radius:18px;padding:14px 16px;box-shadow:0 4px 14px rgba(139,112,72,.08);font-size:13px;line-height:1.7;color:var(--text)}.ls-tb-bubble::before{content:"";position:absolute;left:-10px;top:14px;width:0;height:0;border:8px solid transparent;border-right-color:#d0b888;border-left:0}.ls-tb-bubble::after{content:"";position:absolute;left:-7px;top:15px;width:0;height:0;border:7px solid transparent;border-right-color:#f7f2ea;border-left:0}
@@ -152,7 +160,7 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
 .day-tabs::-webkit-scrollbar{display:none}
 .day-tab{padding:12px 18px;font-size:13px;font-weight:600;color:var(--light);cursor:pointer;border-bottom:2px solid transparent;transition:all .2s;white-space:nowrap}
 .day-tab.active{color:var(--text);border-bottom-color:var(--amber)}
-.day-content{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:20px 20px 40px}
+.day-content{flex:1;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:20px 20px 40px}
 .stop-item{display:flex;gap:14px;margin-bottom:28px}
 .stop-timeline{display:flex;flex-direction:column;align-items:center;flex-shrink:0}
 .stop-dot{width:12px;height:12px;border-radius:50%;background:var(--amber);border:2px solid #fff;box-shadow:0 0 0 2px var(--amber);flex-shrink:0}
@@ -217,7 +225,7 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
         </div>
       </div>
     </div>
-    <a class="coupon-showcase" href="https://www.myrealtrip.com/coupons" target="_blank">
+    <a class="coupon-showcase" href="https://myrealt.rip/ZGwvd6" target="_blank">
       <div class="cs-layer cs-l2"></div><div class="cs-layer cs-l3"></div>
       <div class="cs-ticket">
         <div class="cs-main">
@@ -232,36 +240,12 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
     <div class="trip-carousel-wrap">
       <div class="trip-carousel" id="trip-carousel">
         <div class="trip-card">
-          <div class="tc-hero minpic-europe">
-            <div class="tc-hero-content">
-              <div class="tc-flag">🇮🇹</div>
-              <div class="tc-title-col">
-                <div class="tc-badges"><span class="tc-badge">205일 장기여행</span><span class="tc-badge">릴스 1400만뷰</span></div>
-                <div class="tc-title">이탈리아 한달 코스</div>
-              </div>
-            </div>
-          </div>
-          <div class="tc-body">
-            <div class="tc-ask">어디부터 볼까요?</div>
-            <div class="tc-choice">
-              <button class="plan" onclick="openCourse('rome')">
-                <div><strong>일정표 보기</strong><span>동선 먼저</span></div>
-                <div class="tc-arr">›</div>
-              </button>
-              <button class="cost" onclick="openExpensePanel('rome')">
-                <div class="tc-c-row1"><strong>상세 경비 보기</strong><div class="tc-c-price"><span class="tc-c-num">180만~</span><span class="tc-arr" style="margin-left:0">›</span></div></div>
-                <div class="tc-c-row2"><span class="tc-c-badge">🔥 인기</span><span class="tc-c-sub">항공·숙소·투어 한 번에</span></div>
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="trip-card">
-          <div class="tc-hero" style="background:linear-gradient(135deg,#E8C4A0 0%,#C47A52 50%,#7A3C28 100%)">
+          <div class="tc-hero minpic-south">
             <div class="tc-hero-content">
               <div class="tc-flag">🏖️</div>
               <div class="tc-title-col">
-                <div class="tc-badges"><span class="tc-badge">이탈리아 남부</span><span class="tc-badge">7박8일</span></div>
-                <div class="tc-title">폴리냐노·포지타노</div>
+                <div class="tc-badges"><span class="tc-badge">이탈리아 남부</span><span class="tc-badge">8일 완전체</span></div>
+                <div class="tc-title">100만원 남부 완전체</div>
               </div>
             </div>
           </div>
@@ -280,7 +264,6 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
           </div>
         </div>
       </div>
-      <div class="trip-nav"><button class="trip-arrow" id="trip-prev" onclick="tripScroll(-1)">‹</button><div class="trip-dots"><span class="trip-dot on"></span><span class="trip-dot"></span></div><button class="trip-arrow" id="trip-next" onclick="tripScroll(1)">›</button></div>
     </div>
     <div class="page-tabs">
       <div class="page-tab on" data-tab="posts" onclick="switchTab('posts')">링크</div>
@@ -296,13 +279,14 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
       </div>
       <div class="links-section">
         <h3>📸 추천 콘텐츠</h3>
-        <a class="ls-og" href="https://www.instagram.com/reel/DGLG5Z5p6kv/" target="_blank">
-          <div class="ls-og-placeholder">🇮🇹</div>
-          <div class="ls-og-body">
+        <a class="ls-thumb" href="https://www.instagram.com/reel/DGLG5Z5p6kv/" target="_blank">
+          <div class="ls-thumb-icon">🇮🇹</div>
+          <div class="ls-thumb-body">
             <div class="ls-badges"><span class="ls-badge hot">🔥 릴스 1400만뷰</span></div>
-            <div class="ls-og-title">360만원으로 이탈리아 한달여행 코스+경비 총정리 — 22도시·감성숙소·구글맵 공유</div>
-            <div class="ls-og-domain">instagram.com · 민픽</div>
+            <div class="ls-thumb-title">360만원으로 이탈리아 한달여행</div>
+            <div class="ls-thumb-sub">22도시·감성숙소·구글맵 공유</div>
           </div>
+          <div class="ls-thumb-arrow">›</div>
         </a>
       </div>
       <div class="links-section-pb"></div>
@@ -355,23 +339,23 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
       <div class="sheet-handle"></div>
       <div class="sheet-title">🎫 파트너 쿠폰</div>
       <div class="sheet-sub">민픽 통해 예약하면 받을 수 있는 혜택</div>
-      <div class="coupon-card"><div class="cc-stripe" style="background:var(--amber)"></div><div class="cc-body"><div class="cc-label" style="color:var(--amber)">마이리얼트립 파트너 혜택</div><div class="cc-title">첫 예약 3,000원 할인</div><div class="cc-desc">5만원 이상 결제 시 · 1회 사용 가능</div><div class="cc-footer"><div class="cc-expire">유효기간: 2026.06.30까지</div><div class="cc-remain">잔여 47장</div></div></div><button class="cc-btn" style="background:var(--amber)" onclick="window.open('https://www.myrealtrip.com/coupons','_blank')">받기</button></div>
-      <div class="coupon-card"><div class="cc-stripe" style="background:var(--sage)"></div><div class="cc-body"><div class="cc-label" style="color:var(--sage)">재방문 감사 쿠폰</div><div class="cc-title">2번째 예약 5% 할인</div><div class="cc-desc">최대 1만원 · 민픽 전용</div><div class="cc-footer"><div class="cc-expire">유효기간: 2026.07.31까지</div><div class="cc-remain">잔여 23장</div></div></div><button class="cc-btn" style="background:var(--sage)" onclick="window.open('https://www.myrealtrip.com/coupons','_blank')">받기</button></div>
+      <div class="coupon-card"><div class="cc-stripe" style="background:var(--amber)"></div><div class="cc-body"><div class="cc-label" style="color:var(--amber)">마이리얼트립 파트너 혜택</div><div class="cc-title">첫 예약 3,000원 할인</div><div class="cc-desc">5만원 이상 결제 시 · 1회 사용 가능</div><div class="cc-footer"><div class="cc-expire">유효기간: 2026.06.30까지</div><div class="cc-remain">잔여 47장</div></div></div><button class="cc-btn" style="background:var(--amber)" onclick="window.open('https://myrealt.rip/ZGwvd6','_blank')">받기</button></div>
+      <div class="coupon-card"><div class="cc-stripe" style="background:var(--sage)"></div><div class="cc-body"><div class="cc-label" style="color:var(--sage)">재방문 감사 쿠폰</div><div class="cc-title">2번째 예약 5% 할인</div><div class="cc-desc">최대 1만원 · 민픽 전용</div><div class="cc-footer"><div class="cc-expire">유효기간: 2026.07.31까지</div><div class="cc-remain">잔여 23장</div></div></div><button class="cc-btn" style="background:var(--sage)" onclick="window.open('https://myrealt.rip/ZGwvd6','_blank')">받기</button></div>
     </div>
   </div>
 </div>
 <script>
 const products=[
-  {name:"[콜로세움+포로로마노 투어] 콜로세움·포로로마노·팔라틴 언덕 가이드 투어",price:"₩140,947",tag:"민픽 강추",icon:"🏛️",bg:"#F5EEE8",tagColor:"#8B7048",tagBg:"#E8D8C0",url:"https://experiences.myrealtrip.com/products/3147802",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/05/21/89xy/aO2KsdlYPt.jpg"},
-  {name:"[바티칸 오전 패스트트랙] BEST OF BEST 바티칸 박물관 투어",price:"₩156,351",tag:"강추",icon:"⛪",bg:"#EDE9FE",tagColor:"#6D28D9",tagBg:"#EDE9FE",url:"https://experiences.myrealtrip.com/products/3147814",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/05/21/Oyeg/T0Wu2Y3SjB.jpg"},
-  {name:"[4년연속 1등 야경시내투어] 트레비·판테온·나보나 야경 최대코스",price:"₩45,000~",tag:"야경",icon:"🌙",bg:"#FFF7ED",tagColor:"#B45309",tagBg:"#FEF3C7",url:"https://experiences.myrealtrip.com/products/3430514",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/05/CdlN/nG1qOzoMpu.jpg"},
-  {name:"[오후/바티칸 투어] 박물관+성당 내부입장 패스트트랙",price:"₩69,000~",tag:"베스트",icon:"🎨",bg:"#F0FDF4",tagColor:"#166534",tagBg:"#DCFCE7",url:"https://experiences.myrealtrip.com/products/3431668",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/06/P3U5/SGbN6tOoTb.jpg"},
-  {name:"[로마] 콜로세움+포로로마노+팔라티노 입장권 오디오가이드 포함",price:"₩8,500~",tag:"입장권",icon:"🎫",bg:"#F8FAFC",tagColor:"#374151",tagBg:"#E5E7EB",url:"https://experiences.myrealtrip.com/products/5907780",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/31/tXtQ/WMjGISMvlB.jpg"},
-  {name:"유럽 42개국 이심 eSIM (로밍 데이터 무제한)",price:"₩1,900~/일",tag:"필수",icon:"📱",bg:"#FFF0F3",tagColor:"#BE185D",tagBg:"#FCE7F3",url:"https://www.myrealtrip.com/sim/products/4743445"},
-  {name:"이탈리아 남부투어 포지타노·아말피 페리 탑승 (로마출발)",price:"₩339,193",tag:"강추",icon:"⛴️",bg:"#EFF6FF",tagColor:"#1D4ED8",tagBg:"#DBEAFE",url:"https://www.myrealtrip.com/experiences/3440846"},
-  {name:"[바티칸 명품 투어] 열정&지식&효율 패스트트랙",price:"₩158,466",tag:"바티칸",icon:"⛪",bg:"#EDE9FE",tagColor:"#6D28D9",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/3415360"},
-  {name:"박재벌 엔터 이탈리아 남부투어 비교불가 재미 (로마출발)",price:"₩344,541",tag:"강추",icon:"🎭",bg:"#FEF3C7",tagColor:"#E07A38",tagBg:"#FDE8CE",url:"https://www.myrealtrip.com/experiences/3521936"},
-  {name:"[바티칸 집중] 9천개+ 후기 최다보유 투어",price:"₩157,198",tag:"바티칸",icon:"⛪",bg:"#EDE9FE",tagColor:"#6D28D9",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/3463776"},
+  {name:"[콜로세움+포로로마노 투어] 콜로세움·포로로마노·팔라틴 언덕 가이드 투어",price:"₩140,947",tag:"민픽 강추",icon:"🏛️",bg:"#F5EEE8",tagColor:"#8B7048",tagBg:"#E8D8C0",url:"https://myrealt.rip/ZIq8e8",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/05/21/89xy/aO2KsdlYPt.jpg"},
+  {name:"[바티칸 오전 패스트트랙] BEST OF BEST 바티칸 박물관 투어",price:"₩156,351",tag:"강추",icon:"⛪",bg:"#EDE9FE",tagColor:"#6D28D9",tagBg:"#EDE9FE",url:"https://myrealt.rip/ZIq94f",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/05/21/Oyeg/T0Wu2Y3SjB.jpg"},
+  {name:"[4년연속 1등 야경시내투어] 트레비·판테온·나보나 야경 최대코스",price:"₩45,000~",tag:"야경",icon:"🌙",bg:"#FFF7ED",tagColor:"#B45309",tagBg:"#FEF3C7",url:"https://myrealt.rip/ZIqA97",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/05/CdlN/nG1qOzoMpu.jpg"},
+  {name:"[오후/바티칸 투어] 박물관+성당 내부입장 패스트트랙",price:"₩69,000~",tag:"베스트",icon:"🎨",bg:"#F0FDF4",tagColor:"#166534",tagBg:"#DCFCE7",url:"https://myrealt.rip/ZIqBa4",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/06/P3U5/SGbN6tOoTb.jpg"},
+  {name:"[로마] 콜로세움+포로로마노+팔라티노 입장권 오디오가이드 포함",price:"₩8,500~",tag:"입장권",icon:"🎫",bg:"#F8FAFC",tagColor:"#374151",tagBg:"#E5E7EB",url:"https://myrealt.rip/ZIqC84",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/31/tXtQ/WMjGISMvlB.jpg"},
+  {name:"유럽 42개국 이심 eSIM (로밍 데이터 무제한)",price:"₩1,900~/일",tag:"필수",icon:"📱",bg:"#FFF0F3",tagColor:"#BE185D",tagBg:"#FCE7F3",url:"https://myrealt.rip/ZGwi97",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/31/WOCG/qQ7SmosV55.jpg"},
+  {name:"이탈리아 남부투어 포지타노·아말피 페리 탑승 (로마출발)",price:"₩339,193",tag:"강추",icon:"⛴️",bg:"#EFF6FF",tagColor:"#1D4ED8",tagBg:"#DBEAFE",url:"https://myrealt.rip/ZIq47b",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/09/wkfG/206jFYlnYe.jpg"},
+  {name:"[바티칸 명품 투어] 열정&지식&효율 패스트트랙",price:"₩158,466",tag:"바티칸",icon:"⛪",bg:"#EDE9FE",tagColor:"#6D28D9",tagBg:"#EDE9FE",url:"https://myrealt.rip/ZIq564",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/06/26/Y1uC/rn6kNFtZHw.jpg"},
+  {name:"박재벌 엔터 이탈리아 남부투어 비교불가 재미 (로마출발)",price:"₩344,541",tag:"강추",icon:"🎭",bg:"#FEF3C7",tagColor:"#E07A38",tagBg:"#FDE8CE",url:"https://myrealt.rip/ZIq636",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/08/29/T7U8/QHh7lKI7W2.jpg"},
+  {name:"[바티칸 집중] 9천개+ 후기 최다보유 투어",price:"₩157,198",tag:"바티칸",icon:"⛪",bg:"#EDE9FE",tagColor:"#6D28D9",tagBg:"#EDE9FE",url:"https://myrealt.rip/ZIq70c",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/21/c7SS/sqzScVZE3e.jpg"},
 ];
 function renderProducts(){const el=document.getElementById("product-grid");const q=(document.getElementById("product-search-input")?.value||"").trim().toLowerCase();const f=q?products.filter(p=>(p.name+" "+(p.tag||"")).toLowerCase().includes(q)):products;if(!f.length){el.innerHTML=`<div style="grid-column:1/-1;padding:32px 12px;text-align:center;color:var(--light);font-size:13px;">"${q}"에 해당하는 상품이 없어요</div>`;return}el.innerHTML=f.map(p=>`<div class="product-card-v3" onclick="window.open('${p.url}','_blank')"><div class="pc-img" style="background:${p.bg}">${p.img?`<img src="${p.img}" alt="${p.name}"/>`:`${p.icon}`}</div><div class="pc-body"><span class="pc-tag" style="background:${p.tagBg};color:${p.tagColor}">${p.tag}</span><div class="pc-name">${p.name}</div><div class="pc-price">${p.price}</div>${p.city?`<div class="pc-city">${p.city}</div>`:""}<button class="pc-btn">예약하기</button></div></div>`).join("");}function switchTab(name){document.querySelectorAll(".page-tab").forEach(t=>t.classList.toggle("on",t.dataset.tab===name));document.querySelectorAll(".tab-panel").forEach(p=>p.classList.remove("on"));document.getElementById(`tab-${name}`).classList.add("on");document.getElementById("main-page").scrollTop=0;}
 function openCoupon(){document.getElementById("coupon-panel").classList.add("open");}
@@ -381,70 +365,74 @@ function closeCoupon(){document.getElementById("coupon-panel").classList.remove(
 const CREATOR={name:"민픽",email:"min_pic@naver.com"};
 const CITY_DAYS={"rome":[
   {day:1,date:"D1 · 출발 → 로마 도착",dayCost:"항공+이심",stops:[
-    {time:"출발",place:"인천국제공항",lat:37.4602,lng:126.4407,pinColor:"amber",pinLabel:"D1",desc:"로마 직항 없음. 에미레이트·터키항공 경유 약 14~15시간. 출발 전 이심 미리 설치 필수 ✈️",cost:"왕복 ₩900,000~",product:{name:"유럽 42개국 이심 eSIM (로밍 데이터 무제한)",price:"₩1,900~/일",tag:"필수",tagBg:"#FCE7F3",tagColor:"#BE185D",bg:"#FFF0F3",icon:"📱",url:"https://www.myrealtrip.com/sim/products/4743445"},
-  {name:"이탈리아 남부투어 포지타노·아말피 페리 탑승 (로마출발)",price:"₩339,193",tag:"강추",icon:"⛴️",bg:"#EFF6FF",tagColor:"#1D4ED8",tagBg:"#DBEAFE",url:"https://www.myrealtrip.com/experiences/3440846"},
-  {name:"[바티칸 명품 투어] 열정&지식&효율 패스트트랙",price:"₩158,466",tag:"바티칸",icon:"⛪",bg:"#EDE9FE",tagColor:"#6D28D9",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/3415360"},
-  {name:"박재벌 엔터 이탈리아 남부투어 비교불가 재미 (로마출발)",price:"₩344,541",tag:"강추",icon:"🎭",bg:"#FEF3C7",tagColor:"#E07A38",tagBg:"#FDE8CE",url:"https://www.myrealtrip.com/experiences/3521936"},
-  {name:"[바티칸 집중] 9천개+ 후기 최다보유 투어",price:"₩157,198",tag:"바티칸",icon:"⛪",bg:"#EDE9FE",tagColor:"#6D28D9",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/3463776"},},
+    {time:"출발",place:"인천국제공항",lat:37.4602,lng:126.4407,pinColor:"amber",pinLabel:"D1",desc:"로마 직항 없음. 에미레이트·터키항공 경유 약 14~15시간. 출발 전 이심 미리 설치 필수 ✈️",cost:"왕복 ₩900,000~",products:[{name:"유럽 42개국 이심 eSIM (로밍 데이터 무제한)",price:"₩1,900~/일",tag:"필수",tagBg:"#FCE7F3",tagColor:"#BE185D",bg:"#FFF0F3",icon:"📱",url:"https://myrealt.rip/ZGwi97",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/31/WOCG/qQ7SmosV55.jpg"},{name:"이탈리아 남부투어 포지타노·아말피 페리 탑승 (로마출발)",price:"₩339,193",tag:"강추",icon:"⛴️",bg:"#EFF6FF",tagColor:"#1D4ED8",tagBg:"#DBEAFE",url:"https://myrealt.rip/ZIq47b",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/09/wkfG/206jFYlnYe.jpg"},{name:"[바티칸 명품 투어] 열정&지식&효율 패스트트랙",price:"₩158,466",tag:"바티칸",icon:"⛪",bg:"#EDE9FE",tagColor:"#6D28D9",tagBg:"#EDE9FE",url:"https://myrealt.rip/ZIq564",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/06/26/Y1uC/rn6kNFtZHw.jpg"},{name:"박재벌 엔터 이탈리아 남부투어 비교불가 재미 (로마출발)",price:"₩344,541",tag:"강추",icon:"🎭",bg:"#FEF3C7",tagColor:"#E07A38",tagBg:"#FDE8CE",url:"https://myrealt.rip/ZIq636",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/08/29/T7U8/QHh7lKI7W2.jpg"},{name:"[바티칸 집중] 9천개+ 후기 최다보유 투어",price:"₩157,198",tag:"바티칸",icon:"⛪",bg:"#EDE9FE",tagColor:"#6D28D9",tagBg:"#EDE9FE",url:"https://myrealt.rip/ZIq70c",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/21/c7SS/sqzScVZE3e.jpg"}]},
     {time:"저녁 도착",place:"로마 피우미치노 공항",lat:41.8003,lng:12.2388,pinColor:"amber",pinLabel:"D1",desc:"공항에서 테르미니역까지 레오나르도 익스프레스 32분, €14. 가장 빠르고 편한 시내 진입 방법 🚆",cost:"레오나르도 익스프레스 €14",product:null},
     {time:"밤",place:"로마 테르미니역 근처 숙소",lat:41.9024,lng:12.4963,pinColor:"amber",pinLabel:"D1",desc:"첫날은 테르미니역 근처 숙소 추천. 교통 편의성 최고, 슈퍼마켓도 가까워요 🏨",cost:"",product:null}
   ]},
   {day:2,date:"D2 · 콜로세움 & 고대 로마",dayCost:"투어비 ₩65,000~",stops:[
-    {time:"오전 9시",place:"콜로세움",lat:41.8902,lng:12.4922,pinColor:"sage",pinLabel:"D2",desc:"로마 최고 명소! 패스트트랙 가이드 투어로 줄 없이 내부 입장. 포로로마노까지 함께 볼 것 🏛️",cost:"투어 ₩65,000",product:{name:"[콜로세움+포로로마노 투어] 가이드 투어",price:"₩140,947",tag:"민픽 강추",tagBg:"#E8D8C0",tagColor:"#8B7048",bg:"#F5EEE8",icon:"🏛️",url:"https://experiences.myrealtrip.com/products/3147802",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/05/21/89xy/aO2KsdlYPt.jpg"}},
+    {time:"오전 9시",place:"콜로세움",lat:41.8902,lng:12.4922,pinColor:"sage",pinLabel:"D2",desc:"로마 최고 명소! 패스트트랙 가이드 투어로 줄 없이 내부 입장. 포로로마노까지 함께 볼 것 🏛️",cost:"투어 ₩65,000",product:{name:"[콜로세움+포로로마노 투어] 가이드 투어",price:"₩140,947",tag:"민픽 강추",tagBg:"#E8D8C0",tagColor:"#8B7048",bg:"#F5EEE8",icon:"🏛️",url:"https://myrealt.rip/ZIq8e8",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/05/21/89xy/aO2KsdlYPt.jpg"}},
     {time:"오후 1시",place:"팔라틴 언덕 & 포로 로마노",lat:41.8888,lng:12.4873,pinColor:"sage",pinLabel:"D2",desc:"콜로세움 입장권으로 포로로마노+팔라틴 언덕 동시 입장 가능. 고대 로마 황제들의 궁전 터 🏺",cost:"콜로세움 입장권 포함",product:null},
     {time:"오후 3시",place:"나보나 광장",lat:41.8992,lng:12.4730,pinColor:"sage",pinLabel:"D2",desc:"베르니니 분수 3개가 있는 바로크 광장. 젤라또 먹으면서 광장 산책, 노천카페 분위기 최고 🍦",cost:"",product:null},
     {time:"저녁",place:"판테온 & 근처 파스타 식당",lat:41.8986,lng:12.4769,pinColor:"sage",pinLabel:"D2",desc:"판테온은 무료 입장(예약 필요). 근처 까르보나라 파스타 맛집 필수 방문. €15~20 선 🍝",cost:"식비 약 €18",product:null}
   ]},
   {day:3,date:"D3 · 바티칸 & 트레비",dayCost:"투어비 ₩69,000~",stops:[
-    {time:"오전 9시",place:"바티칸 박물관",lat:41.9029,lng:12.4534,pinColor:"blush",pinLabel:"D3",desc:"미켈란젤로 시스티나 채플·라파엘로 방까지. 패스트트랙 투어로 2시간 대기 없이 입장 가능 🎨",cost:"투어 ₩69,000",product:{name:"[바티칸 오전 패스트트랙] BEST OF BEST 바티칸 박물관 투어",price:"₩156,351",tag:"강추",tagBg:"#EDE9FE",tagColor:"#6D28D9",bg:"#EDE9FE",icon:"⛪",url:"https://experiences.myrealtrip.com/products/3147814",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/05/21/Oyeg/T0Wu2Y3SjB.jpg"}},
+    {time:"오전 9시",place:"바티칸 박물관",lat:41.9029,lng:12.4534,pinColor:"blush",pinLabel:"D3",desc:"미켈란젤로 시스티나 채플·라파엘로 방까지. 패스트트랙 투어로 2시간 대기 없이 입장 가능 🎨",cost:"투어 ₩69,000",product:{name:"[바티칸 오전 패스트트랙] BEST OF BEST 바티칸 박물관 투어",price:"₩156,351",tag:"강추",tagBg:"#EDE9FE",tagColor:"#6D28D9",bg:"#EDE9FE",icon:"⛪",url:"https://myrealt.rip/ZIq94f",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/05/21/Oyeg/T0Wu2Y3SjB.jpg"}},
     {time:"오후 1시",place:"성 베드로 대성당",lat:41.9022,lng:12.4539,pinColor:"blush",pinLabel:"D3",desc:"무료 입장. 쿠폴라(돔) 올라가면 로마 전경 파노라마. 줄 길 수 있으니 오전 바티칸 투어와 묶을 것 ⛪",cost:"돔 입장 €8",product:null},
     {time:"오후 3시",place:"트레비 분수",lat:41.9009,lng:12.4833,pinColor:"blush",pinLabel:"D3",desc:"동전 던지면 로마에 다시 온다는 전설! 아침 일찍이나 늦은 저녁에 가면 사람 훨씬 적어요 💰",cost:"",product:null},
     {time:"저녁",place:"스페인 광장 & 쇼핑",lat:41.9057,lng:12.4822,pinColor:"blush",pinLabel:"D3",desc:"명품 거리 비아 콘도티. 계단 위에서 야경 감상 후 젤라또 마무리. 야간 조명이 낭만적 💑",cost:"",product:null}
   ]},
   {day:4,date:"D4 · 자유 탐방 & 귀국",dayCost:"",stops:[
-    {time:"오전",place:"로마 시내 야경 투어 (선택)",lat:41.8992,lng:12.4730,pinColor:"amber",pinLabel:"D4",desc:"전날 못 간 명소 자유 탐방 또는 야경 투어 선택. 포폴로 광장·아벤티노 언덕 오렌지 정원 추천 🌅",cost:"야경투어 ₩45,000",product:{name:"[4년연속 1등 야경시내투어] 트레비·판테온·나보나 야경 최대코스",price:"₩45,000~",tag:"야경",tagBg:"#FEF3C7",tagColor:"#B45309",bg:"#FFF7ED",icon:"🌙",url:"https://experiences.myrealtrip.com/products/3430514",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/05/CdlN/nG1qOzoMpu.jpg"}},
+    {time:"오전",place:"로마 시내 야경 투어 (선택)",lat:41.8992,lng:12.4730,pinColor:"amber",pinLabel:"D4",desc:"전날 못 간 명소 자유 탐방 또는 야경 투어 선택. 포폴로 광장·아벤티노 언덕 오렌지 정원 추천 🌅",cost:"야경투어 ₩45,000",product:{name:"[4년연속 1등 야경시내투어] 트레비·판테온·나보나 야경 최대코스",price:"₩45,000~",tag:"야경",tagBg:"#FEF3C7",tagColor:"#B45309",bg:"#FFF7ED",icon:"🌙",url:"https://myrealt.rip/ZIqA97",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/05/CdlN/nG1qOzoMpu.jpg"}},
     {time:"오후",place:"로마 피우미치노 공항",lat:41.8003,lng:12.2388,pinColor:"amber",pinLabel:"D4",desc:"귀국편 체크인 최소 3시간 전 공항 도착 권장. 레오나르도 익스프레스 테르미니 출발 32분 ✈️",cost:"",product:null}
   ]}
 ],"italy":[
-  {day:1,date:"D1 · 출발 → 바리 도착",dayCost:"항공+이심",stops:[
-    {time:"출발",place:"인천국제공항",lat:37.4602,lng:126.4407,pinColor:"amber",pinLabel:"D1",desc:"이탈리아 남부 직항 없음. 두바이·로마 경유 후 바리 이동 ✈️",cost:"왕복 ₩900,000~",products:[{name:"유럽 42개국 이심 eSIM (로밍 데이터 무제한)",price:"₩1,900~/일",tag:"필수",tagBg:"#FCE7F3",tagColor:"#BE185D",bg:"#FFF0F3",icon:"📱",url:"https://www.myrealtrip.com/sim/products/4743445"},{name:"이탈리아 남부투어 포지타노·아말피 페리 탑승 (로마출발)",price:"₩339,193",tag:"강추",icon:"⛴️",bg:"#EFF6FF",tagColor:"#1D4ED8",tagBg:"#DBEAFE",url:"https://www.myrealtrip.com/experiences/3440846"},{name:"[바티칸 명품 투어] 열정&지식&효율 패스트트랙",price:"₩158,466",tag:"바티칸",icon:"⛪",bg:"#EDE9FE",tagColor:"#6D28D9",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/3415360"},{name:"박재벌 엔터 이탈리아 남부투어 비교불가 재미 (로마출발)",price:"₩344,541",tag:"강추",icon:"🎭",bg:"#FEF3C7",tagColor:"#E07A38",tagBg:"#FDE8CE",url:"https://www.myrealtrip.com/experiences/3521936"},{name:"[바티칸 집중] 9천개+ 후기 최다보유 투어",price:"₩157,198",tag:"바티칸",icon:"⛪",bg:"#EDE9FE",tagColor:"#6D28D9",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/3463776"}]},
-    {time:"저녁 도착",place:"바리 (Bari)",lat:41.1171,lng:16.8719,pinColor:"amber",pinLabel:"D1",desc:"남이탈리아 여행의 관문. 구시가 산책 후 로컬 오스테리아에서 해산물 파스타 저녁 🍝",cost:"",product:null}
+  {day:1,date:"D1 · 밤늦게 바리 도착",dayCost:"항공+이심",stops:[
+    {time:"출발",place:"인천국제공항",lat:37.4602,lng:126.4407,pinColor:"amber",pinLabel:"D1",desc:"이탈리아 남부 직항 없음. 두바이·이스탄불 경유 후 바리 이동. 출발 전 이심 필수 ✈️",cost:"왕복 ₩650,000~",products:[{name:"유럽 42개국 이심 eSIM (로밍 데이터 무제한)",price:"₩1,900~/일",tag:"필수",tagBg:"#FCE7F3",tagColor:"#BE185D",bg:"#FFF0F3",icon:"📱",url:"https://myrealt.rip/ZGwi97"}]},
+    {time:"밤 도착",place:"바리 (Bari)",lat:41.1171,lng:16.8719,pinColor:"amber",pinLabel:"D1",desc:"남이탈리아 여행의 관문. 밤늦게 도착 후 숙소로 이동. 컨디션 정비하고 내일을 위한 에너지 충전 🏨",cost:"",product:null}
   ]},
-  {day:2,date:"D2 · 폴리냐노 & 알베로벨로",dayCost:"교통비 ₩10,000~",stops:[
-    {time:"오전",place:"폴리냐노 아마레",lat:40.9977,lng:17.2317,pinColor:"sage",pinLabel:"D2",desc:"절벽 위 하얀 마을! 에메랄드빛 바다와 다이빙 명소로 유명. 좁은 골목 탐방 🌊",cost:"기차 €5~",product:null},
-    {time:"오후",place:"알베로벨로",lat:40.7858,lng:17.2413,pinColor:"sage",pinLabel:"D2",desc:"원뿔 지붕 트룰리 — 유네스코 세계문화유산. 걸어서 15분이면 마을 전체 탐방 가능 🏠",cost:"기차 €3~",product:null},
-    {time:"저녁",place:"바리 구시가지",lat:41.1171,lng:16.8719,pinColor:"sage",pinLabel:"D2",desc:"오레키에떼 파스타 할머니 골목! 손으로 직접 빚는 귀 모양 파스타 장인들 🍝",cost:"",product:null}
+  {day:2,date:"D2 · 폴리냐노아마레 → 알베로벨로",dayCost:"교통비 €10~",stops:[
+    {time:"오전",place:"폴리냐노 아마레",lat:40.9977,lng:17.2317,pinColor:"sage",pinLabel:"D2",desc:"절벽 위 하얀 마을! 에메랄드빛 바다 위 다이빙 명소로 유명한 인생샷 스폿 🌊 바리에서 기차로 30분",cost:"바리→폴리냐노 기차 €4",product:null},
+    {time:"점심",place:"Bontà sotto l'arco",lat:40.9975,lng:17.2314,pinColor:"sage",pinLabel:"D2",desc:"문어 샌드위치 맛집 🐙 폴리냐노 현지인 추천! 신선한 문어 들어간 샌드위치 강추",cost:"€8~",product:null},
+    {time:"오후",place:"Bella Blu Gelateria",lat:40.9978,lng:17.2312,pinColor:"sage",pinLabel:"D2",desc:"폴리냐노 젤라또 맛집 🍦 절벽 바다뷰 감상하며 먹는 젤라또, 이게 여행이지!",cost:"€3~",product:null},
+    {time:"저녁 도착",place:"알베로벨로 (Alberobello)",lat:40.7858,lng:17.2413,pinColor:"sage",pinLabel:"D2",desc:"유네스코 세계문화유산! 원뿔 지붕 트룰리가 빼곡한 동화 마을 🏠 저녁에 도착하면 조명이 예뻐요",cost:"폴리냐노→알베로벨로 기차 €3~",product:null},
+    {time:"밤",place:"Grilled Chicken",lat:40.7860,lng:17.2415,pinColor:"sage",pinLabel:"D2",desc:"알베로벨로 치킨 맛집 🍗 이탈리아 남부식 그릴드 치킨으로 저녁 마무리!",cost:"€12~",product:null}
   ]},
-  {day:3,date:"D3 · 마테라",dayCost:"",stops:[
-    {time:"오전",place:"마테라 사씨 지구",lat:40.6663,lng:16.6043,pinColor:"blush",pinLabel:"D3",desc:"2019 유럽 문화수도·유네스코 세계문화유산. 3,000년 역사 동굴 마을. 007 촬영지 🎬",cost:"버스 €5~",product:null},
-    {time:"점심",place:"Bontà sotto l'arco",lat:40.6660,lng:16.6048,pinColor:"blush",pinLabel:"D3",desc:"마테라 골목 숨은 맛집. 문어 샌드위치(polpo sandwich)가 별미! 현지인 줄서는 곳 🐙",cost:"€8~",product:null},
-    {time:"석양",place:"마테라 전망대",lat:40.6658,lng:16.6040,pinColor:"blush",pinLabel:"D3",desc:"사씨 지구 맞은편 전망대. 석양에 황금빛으로 물드는 동굴 마을 최고 포토 스폿 📸",cost:"",product:null}
+  {day:3,date:"D3 · 알베로벨로 → 마테라",dayCost:"",stops:[
+    {time:"오전",place:"알베로벨로 구경",lat:40.7858,lng:17.2413,pinColor:"blush",pinLabel:"D3",desc:"낮의 트룰리 마을은 또 다른 매력! 골목골목 기념품 샵 구경하며 여유롭게 탐방 🚶",cost:"",product:null},
+    {time:"점심",place:"Paninoteca Pane e Mozza",lat:40.7856,lng:17.2411,pinColor:"blush",pinLabel:"D3",desc:"알베로벨로 샌드위치 맛집 🧀 신선한 모차렐라가 들어간 수제 샌드위치. 떠나기 전 마지막 한 입!",cost:"€7~",product:null},
+    {time:"오후",place:"마테라 (Matera)",lat:40.6663,lng:16.6043,pinColor:"blush",pinLabel:"D3",desc:"2019 유럽 문화수도·유네스코 세계문화유산 🏺 3,000년 역사의 동굴 마을, 007·벤허 촬영지! 골목골목 걸어보기",cost:"알베로벨로→마테라 버스 €5",product:null},
+    {time:"저녁",place:"La Finestra sui Sassi",lat:40.6660,lng:16.6046,pinColor:"blush",pinLabel:"D3",desc:"마테라 뷰 맛집 🪟 사씨 지구가 내려다보이는 테라스 레스토랑. 석양 맞춰 방문 강추!",cost:"€18~",product:null},
+    {time:"디저트",place:"Lo Stragelato",lat:40.6657,lng:16.6038,pinColor:"blush",pinLabel:"D3",desc:"마테라 젤라또 맛집 🍦 동굴 마을 야경 감상하며 달달하게 하루 마무리",cost:"€3~",product:null}
   ]},
-  {day:4,date:"D4 · 살레르노 → 포지타노",dayCost:"페리 ₩23,000",stops:[
-    {time:"오전",place:"살레르노 항구",lat:40.6824,lng:14.7681,pinColor:"amber",pinLabel:"D4",desc:"바리→살레르노 기차 이동 후 포지타노행 페리 탑승. 아말피 해안 첫 풍경 ⛴️",cost:"살레르노→포지타노 15€",product:null},
-    {time:"오후",place:"포지타노",lat:40.6280,lng:14.4847,pinColor:"amber",pinLabel:"D4",desc:"절벽 위 파스텔 빛 마을. 스피아자 그란데 해변에서 첫 인상 만끽 🌊",cost:"",product:null},
-    {time:"저녁",place:"Bella Blu",lat:40.6278,lng:14.4842,pinColor:"amber",pinLabel:"D4",desc:"포지타노 최고 젤라또. 레몬·피스타치오 들고 절벽 산책로 걷기 🍦",cost:"€3~",product:null}
+  {day:4,date:"D4 · 마테라 → 살레르노 이동",dayCost:"",stops:[
+    {time:"오전~오후",place:"마테라 구경",lat:40.6663,lng:16.6043,pinColor:"amber",pinLabel:"D4",desc:"사씨 지구 깊숙이 탐방! 동굴 안을 들여다보고 좁은 골목길 걸으며 인생샷 찍기 📸",cost:"",product:null},
+    {time:"점심",place:"Dulcis In Fundo",lat:40.6658,lng:16.6045,pinColor:"amber",pinLabel:"D4",desc:"마테라 뷰 맛집 🌅 사씨 전망이 환상적인 레스토랑. 파스타+와인으로 마테라를 마음에 새기기",cost:"€20~",product:null},
+    {time:"오후",place:"살레르노 이동",lat:40.6824,lng:14.7681,pinColor:"amber",pinLabel:"D4",desc:"내일 포지타노행 페리를 위해 살레르노로 이동 🚌 마테라→살레르노 버스 약 3시간",cost:"버스 €12~",product:null}
   ]},
-  {day:5,date:"D5 · 포지타노 풀데이",dayCost:"",stops:[
-    {time:"아침",place:"Collina Positano Bakery",lat:40.6285,lng:14.4852,pinColor:"sage",pinLabel:"D5",desc:"언덕 위 베이커리. 코르네토+에스프레소, 창밖 바다뷰로 하루 시작 ☕",cost:"€5~",product:null},
-    {time:"오전",place:"Profumi di Positano 전망대",lat:40.6282,lng:14.4838,pinColor:"sage",pinLabel:"D5",desc:"포지타노 대표 포토 스폿. 알록달록한 집들과 파란 바다 파노라마 📸",cost:"",product:null},
-    {time:"오후~밤",place:"절벽뷰 에어비앤비",lat:40.6280,lng:14.4847,pinColor:"sage",pinLabel:"D5",desc:"1박 45만원 절벽뷰 에어비앤비 — 테라스 야경이 이 여행 최고 하이라이트 ✨",cost:"1박 약 45만원",product:null}
+  {day:5,date:"D5 · 살레르노 → 포지타노 도착",dayCost:"페리 15€",stops:[
+    {time:"오전",place:"살레르노 항구",lat:40.6824,lng:14.7681,pinColor:"sage",pinLabel:"D5",desc:"포지타노행 페리 탑승 🛳️ 아말피 해안을 바다 위에서 감상하는 최고의 이동 방법! 15유로",cost:"살레르노→포지타노 15€",product:null},
+    {time:"오후 3시 도착",place:"포지타노 (Positano)",lat:40.6280,lng:14.4847,pinColor:"sage",pinLabel:"D5",desc:"절벽 위 파스텔 빛 마을 도착 🌊 뷰가 예쁜 숙소에서 2박! 2박3일 내내 숙소 테라스에서 바다뷰 즐기기",cost:"",product:null},
+    {time:"저녁",place:"MELE Pizza and Grill",lat:40.6281,lng:14.4850,pinColor:"sage",pinLabel:"D5",desc:"포지타노 첫 저녁 🍕 화덕 피자가 너무 맛있어서 다음 날도 재방문한 전설의 맛집!",cost:"€14~",product:null}
   ]},
-  {day:6,date:"D6 · 포지타노 → 소렌토",dayCost:"",stops:[
-    {time:"점심",place:"MELE Pizza",lat:40.6278,lng:14.4848,pinColor:"amber",pinLabel:"D6",desc:"포지타노 마지막 식사. 화덕 피자 + 해변뷰 조합 🍕",cost:"€12~",product:null},
-    {time:"오후",place:"소렌토",lat:40.6263,lng:14.3757,pinColor:"amber",pinLabel:"D6",desc:"레몬 원산지! 리몬첼로 쇼핑 필수. 구시가 골목 탐방 🍋",cost:"버스 €3~",product:null},
-    {time:"저녁",place:"Villa Comunale di Sorrento",lat:40.6262,lng:14.3750,pinColor:"amber",pinLabel:"D6",desc:"소렌토 최고 전망대. 석양 나폴리만+베수비오 화산 파노라마 🌅",cost:"무료",product:null}
+  {day:6,date:"D6 · 포지타노 해변",dayCost:"",stops:[
+    {time:"오전",place:"Positano Spiaggia",lat:40.6274,lng:14.4839,pinColor:"amber",pinLabel:"D6",desc:"포지타노 대표 해변 🏖️ 에메랄드빛 바다와 파스텔 건물이 어우러진 포지타노의 상징. 수영·선베딩!",cost:"선베드 €15~",product:null},
+    {time:"저녁",place:"MELE Pizza and Grill (재방문)",lat:40.6281,lng:14.4850,pinColor:"amber",pinLabel:"D6",desc:"피자가 너무 맛있어서 재방문! 🍕 이 집 피자 안 먹고 포지타노 못 떠난다",cost:"€14~",product:null}
   ]},
-  {day:7,date:"D7 · 나폴리",dayCost:"",stops:[
-    {time:"점심",place:"L'Antica Pizzeria Da Michele",lat:40.8534,lng:14.2681,pinColor:"blush",pinLabel:"D7",desc:"세계 최고 피자집. 마르게리타·마리나라 2종만 판매. '먹고 기도하고 사랑하라' 촬영지 🍕",cost:"€7~",product:null},
-    {time:"오후",place:"나폴리 스파카나폴리",lat:40.8502,lng:14.2574,pinColor:"blush",pinLabel:"D7",desc:"나폴리를 보고 죽어라! 에너지 넘치는 골목 문화 탐방 🏛️",cost:"",product:null},
-    {time:"저녁",place:"Daddy's Burger",lat:40.8518,lng:14.2685,pinColor:"blush",pinLabel:"D7",desc:"나폴리 현지인 사랑받는 수제버거. 여행 마지막 밤 캐주얼 식사 🍔",cost:"€10~",product:null}
+  {day:7,date:"D7 · 포지타노 뷰포인트 → 메타",dayCost:"",stops:[
+    {time:"아침",place:"Collina Positano Bakery",lat:40.6290,lng:14.4852,pinColor:"blush",pinLabel:"D7",desc:"언덕 위 베이커리에서 하루 시작 ☕ 코르네토+에스프레소, 창밖 바다뷰로 완벽한 아침!",cost:"€5~",product:null},
+    {time:"오전",place:"Profumi di Positano (뷰포인트)",lat:40.6282,lng:14.4838,pinColor:"blush",pinLabel:"D7",desc:"📍포지타노 뷰포인트 1 — 가게 앞 도로가 포인트! 알록달록한 집들과 파란 바다 파노라마 📸",cost:"",product:null},
+    {time:"오전",place:"Boutique Castellano (뷰포인트)",lat:40.6279,lng:14.4841,pinColor:"blush",pinLabel:"D7",desc:"📍포지타노 뷰포인트 2 — 가게 앞 도로가 포인트! 각도 다른 포지타노 풍경 📸",cost:"",product:null},
+    {time:"오후",place:"메타 (Meta di Sorrento)",lat:40.6270,lng:14.4090,pinColor:"blush",pinLabel:"D7",desc:"소렌토 근처 조용한 마을 메타에서 휴식 🌅 포지타노보다 한적하고 여유로운 분위기",cost:"",product:null},
+    {time:"저녁",place:"Daddy's Burger",lat:40.6270,lng:14.4090,pinColor:"blush",pinLabel:"D7",desc:"메타 수제버거 맛집 🍔 여행 마지막 밤 캐주얼하고 편안하게 마무리!",cost:"€12~",product:null}
   ]},
-  {day:8,date:"D8 · 귀국",dayCost:"",stops:[
-    {time:"오전",place:"나폴리 카포디키노 공항",lat:40.8854,lng:14.2908,pinColor:"amber",pinLabel:"D8",desc:"귀국편 체크인 최소 3시간 전 도착 권장. 나폴리→로마 환승 또는 직접 귀국 ✈️",cost:"",product:null}
+  {day:8,date:"D8 · 소렌토 → 나폴리",dayCost:"",stops:[
+    {time:"오전",place:"소렌토 (Sorrento)",lat:40.6263,lng:14.3757,pinColor:"amber",pinLabel:"D8",desc:"레몬 원산지! 리몬첼로 쇼핑 필수 🍋 구시가 골목 탐방 후 소렌토 느낌 만끽",cost:"",product:null},
+    {time:"오전",place:"Villa Comunale di Sorrento",lat:40.6262,lng:14.3750,pinColor:"amber",pinLabel:"D8",desc:"📍소렌토 뷰포인트! 나폴리만+베수비오 화산 파노라마 🌋 소렌토 최고 전망대. 무료입장!",cost:"무료",product:null},
+    {time:"점심",place:"L'Antica Pizzeria Da Michele (나폴리)",lat:40.8534,lng:14.2681,pinColor:"amber",pinLabel:"D8",desc:"🍕 나폴리에서 제일 유명한 피자맛집! 마르게리타·마리나라 2종만 판매. '먹고 기도하고 사랑하라' 촬영지. 대기 필수",cost:"€7~",product:null},
+    {time:"오후",place:"나폴리 → 다른 도시 이동",lat:40.8534,lng:14.2681,pinColor:"amber",pinLabel:"D8",desc:"나폴리에서 다음 목적지로 이동 🚄 기차로 로마까지 1시간 10분",cost:"",product:null}
   ]}
 ]};
-const CITY_EXPENSE={"rome":{title:"로마 4박 5일 총경비",food:180000,foodNote:"파스타·피자·젤라또 현지 식비 4박 기준",defaultFlight:767600,defaultHotel:200000,defaultTotal:1489898,flightNote:"인천-로마 경유 항공 왕복 기준 (에미레이트·터키항공)",flightUrl:"https://flights.myrealtrip.com/",hotelName:"테르미니역 근처 호텔",hotelNote:"로마 시내 4박 1인 기준",hotelUrl:"",tours:[{emoji:"🏛️",name:"콜로세움+포로로마노 가이드 투어",note:"패스트트랙 한국어 가이드 포함",price:140947,url:"https://www.myrealtrip.com/experiences/3147802",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/05/21/89xy/aO2KsdlYPt.jpg"},{emoji:"⛪",name:"바티칸 박물관 오전 패스트트랙 투어",note:"시스티나 채플+성 베드로 성당 포함",price:156351,url:"https://www.myrealtrip.com/experiences/3147814",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/05/21/Oyeg/T0Wu2Y3SjB.jpg"},{emoji:"🌙",name:"로마 야경 시내투어",note:"트레비·판테온·나보나 최대코스",price:45000,url:"https://www.myrealtrip.com/experiences/3430514",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/05/CdlN/nG1qOzoMpu.jpg"}],toursLabel:"🎫 로마 추천 투어",finePrint:"· 4박 5일 1인 평균값 · 항공 유류세 포함 · 현지 물가 변동 있음"},"italy":{title:"이탈리아 남부 7박8일 총경비",food:231000,foodNote:"현지 식당·카페 7박 기준 (하루 한두끼 외식)",defaultFlight:900000,defaultHotel:732000,defaultTotal:1863000,flightNote:"인천-나폴리 경유 항공 왕복 기준",flightUrl:"https://flights.myrealtrip.com/",hotelName:"에어비앤비 포함 7박 숙소",hotelNote:"포지타노 절벽뷰 에어비앤비 포함 · 1인 기준",hotelUrl:"",tours:[{emoji:"⛴️",name:"살레르노→포지타노 페리",note:"아말피 해안 직항 페리, 약 1시간",price:23000,url:""},{emoji:"🚌",name:"장거리 버스·기차",note:"바리↔마테라·살레르노 등",price:41000,url:""}],toursLabel:"🛳️ 현지 교통비",finePrint:"· 7박8일 1인 기준 · 숙박+식비+교통 ₩1,027,000 (항공 별도) · 포지타노 절벽뷰 에어비앤비 포함"}};
+const CITY_EXPENSE={"rome":{title:"로마 4박 5일 총경비",food:180000,foodNote:"파스타·피자·젤라또 현지 식비 4박 기준",defaultFlight:767600,defaultHotel:200000,defaultTotal:1489898,flightNote:"인천-로마 경유 항공 왕복 기준 (에미레이트·터키항공)",flightUrl:"https://myrealt.rip/ZGSd25",hotelName:"테르미니역 근처 호텔",hotelNote:"로마 시내 4박 1인 기준",hotelUrl:"https://myrealt.rip/ZGShf8",tours:[{emoji:"🏛️",name:"콜로세움+포로로마노 가이드 투어",note:"패스트트랙 한국어 가이드 포함",price:140947,url:"https://myrealt.rip/ZIq8e8",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/05/21/89xy/aO2KsdlYPt.jpg"},{emoji:"⛪",name:"바티칸 박물관 오전 패스트트랙 투어",note:"시스티나 채플+성 베드로 성당 포함",price:156351,url:"https://myrealt.rip/ZIq94f",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/05/21/Oyeg/T0Wu2Y3SjB.jpg"},{emoji:"🌙",name:"로마 야경 시내투어",note:"트레비·판테온·나보나 최대코스",price:45000,url:"https://myrealt.rip/ZIqA97",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/05/CdlN/nG1qOzoMpu.jpg"}],toursLabel:"🎫 로마 추천 투어",finePrint:"· 4박 5일 1인 평균값 · 항공 유류세 포함 · 현지 물가 변동 있음"},"italy":{title:"이탈리아 남부 8일 총경비",food:231000,foodNote:"하루 한두끼 외식 기준 · 먹고 싶은 거 다 먹은 비용",defaultFlight:1275640,defaultHotel:732000,defaultTotal:1027000,flightNote:"인천-로마 직항 기준 · 총경비 합산에서 제외",flightUrl:"https://myrealt.rip/ZGSd25",hotelName:"숙소 7박",hotelNote:"포지타노 절벽뷰 1박 45만원 에어비앤비 2박 포함 · 성수기 평균 60~100만원대",hotelUrl:"https://myrealt.rip/ZGShf8",tours:[{emoji:"🛳️",name:"살레르노→포지타노 페리",note:"아말피 해안 직항 페리 · 15유로",price:23000,url:""},{emoji:"🚃",name:"기타 대중교통",note:"기차·버스·현지 이동 합산",price:41000,url:""}],toursLabel:"🚃 현지 교통비",finePrint:"· 총경비 ₩1,027,000 = 숙박+식비+교통 합산 · 항공권(₩1,275,640~) 총경비에서 제외 · 장거리 이동비 +3~12만원 별도 · 기념품 등 개인편차 항목 제외"}};
 let currentExpenseCity="rome";let currentDay=1;let currentCourseCity="rome";let mapFull;
 function openCourse(city){city=city||"rome";currentCourseCity=city;currentDay=1;document.getElementById("course-panel").classList.add("open");const t=CITY_EXPENSE[city];document.getElementById("course-panel-title").textContent=(t&&t.title)||"추천 코스";renderDayTabs();renderDayContent(1);setTimeout(()=>{initMapFull(city);if(mapFull)mapFull.invalidateSize();},450);}
 function closeCourse(){document.getElementById("course-panel").classList.remove("open");}

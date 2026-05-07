@@ -9,7 +9,7 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{--cream:#f8f4ee;--amber:#e07a38;--sage:#6b9080;--text:#1a1714;--mid:#6b6560;--light:#a09890;--border:#ede8e0;--accent:#3a5fa8}
 body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;display:flex;justify-content:center;align-items:flex-start}
-.phone{width:390px;min-height:100vh;background:var(--cream);position:relative;overflow:hidden;box-shadow:0 0 60px rgba(0,0,0,.25)}
+.phone{width:390px;height:100vh;background:var(--cream);position:relative;overflow:hidden;box-shadow:0 0 60px rgba(0,0,0,.25)}
 #main-page{position:absolute;top:0;left:0;right:0;overflow-y:auto;height:100%;background:var(--cream);-webkit-overflow-scrolling:touch;z-index:0}
 .affiliate-notice{background:#f0ede8;border-bottom:1px solid var(--border);padding:7px 16px;font-size:10px;color:var(--light);line-height:1.5;text-align:center}
 .hero{position:relative;height:380px}
@@ -104,6 +104,18 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
 .ls-tb-bubble{flex:1;position:relative;background:#fff5e8;border:1.5px solid #ffd9ae;border-radius:18px;padding:14px 16px;box-shadow:0 4px 14px rgba(224,122,56,.08);font-size:13px;line-height:1.7;color:var(--text)}.ls-tb-bubble::before{content:"";position:absolute;left:-10px;top:14px;width:0;height:0;border:8px solid transparent;border-right-color:#ffd9ae;border-left:0}.ls-tb-bubble::after{content:"";position:absolute;left:-7px;top:15px;width:0;height:0;border:7px solid transparent;border-right-color:#fff5e8;border-left:0}
 .ls-tb-title{font-size:14px;font-weight:900;color:var(--amber);margin-bottom:4px;letter-spacing:-.02em}.ls-tb-bubble em{font-style:normal;font-weight:700;background:linear-gradient(transparent 60%,rgba(224,122,56,.35) 60%);padding:0 3px}
 .links-section-pb{height:20px}
+.ls-thumb{display:flex;align-items:center;gap:12px;padding:10px 12px;background:#fff;border-radius:14px;border:1px solid var(--border);text-decoration:none;margin-bottom:10px}
+.ls-thumb-img{width:56px;height:56px;border-radius:10px;overflow:hidden;flex-shrink:0;background:#f5f3ef;display:flex;align-items:center;justify-content:center;font-size:26px}
+.ls-thumb-img img{width:100%;height:100%;object-fit:cover;display:block}
+.ls-thumb-body{flex:1;min-width:0}
+.ls-thumb-title{font-size:13px;font-weight:600;color:var(--text);line-height:1.4;margin-bottom:2px}
+.ls-thumb-sub{font-size:11px;color:var(--light)}
+.ls-thumb-arr{color:var(--light);font-size:16px;flex-shrink:0}
+.ls-bgimg{display:flex;align-items:flex-end;border-radius:14px;overflow:hidden;text-decoration:none;position:relative;background-size:cover;background-position:center;margin-bottom:0}
+.ls-bgimg::after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,0) 20%,rgba(0,0,0,.65) 100%)}
+.ls-bgimg-title{position:relative;z-index:1;color:#fff;font-size:12px;font-weight:700;padding:10px 12px;text-shadow:0 1px 3px rgba(0,0,0,.3)}
+.ls-bgimg-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px}
+.ls-bgimg-grid .ls-bgimg{aspect-ratio:3/2}
 .products-section{padding:16px 16px 0}
 .product-search{position:relative;margin-bottom:14px}
 .product-search-icon{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--light)}
@@ -137,7 +149,7 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
 .day-tabs::-webkit-scrollbar{display:none}
 .day-tab{padding:12px 18px;font-size:13px;font-weight:600;color:var(--light);cursor:pointer;border-bottom:2px solid transparent;transition:all .2s;white-space:nowrap}
 .day-tab.active{color:var(--text);border-bottom-color:var(--amber)}
-.day-content{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:20px 20px 40px}
+.day-content{flex:1;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:20px 20px 40px}
 .stop-item{display:flex;gap:14px;margin-bottom:28px}
 .stop-timeline{display:flex;flex-direction:column;align-items:center;flex-shrink:0}
 .stop-dot{width:12px;height:12px;border-radius:50%;background:var(--amber);border:2px solid #fff;box-shadow:0 0 0 2px var(--amber);flex-shrink:0}
@@ -277,195 +289,130 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
           여행 가려고 돈 야금야금 모으는 훵님. 갓성비 숙소와 지브리 감성 가득한 숨은 스팟 발굴이 특기예요. 가성비 여행을 꿈꾼다면 훵님 큐레이션을 믿어보세요!
         </div>
       </div>
-      <div class="links-section">
+      <div class="links-section" style="padding-top:4px">
         <h3>📹 추천 릴스</h3>
-        <a class="ls-og" href="https://www.instagram.com/reel/DTscruhAWHj/?igsh=MXJkZTIxN2NtbXViOA==" target="_blank">
-          <div class="ls-og-placeholder">🏯</div>
-          <div class="ls-og-body">
-            <div class="ls-badges"><span class="ls-badge hot">🔥 인기 릴스</span></div>
-            <div class="ls-og-title">나고야 4박 5일 완전정복 — 지브리파크·시라카와고·온천료칸</div>
-            <div class="ls-og-domain">instagram.com · 훵</div>
-          </div>
+        <a class="ls-thumb" href="https://www.instagram.com/reel/DTscruhAWHj/?igsh=MXJkZTIxN2NtbXViOA==" target="_blank">
+          <div class="ls-thumb-img">🏯</div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">나고야 4박 5일 완전정복</div><div class="ls-thumb-sub">지브리파크 · 시라카와고 · 온천료칸</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
       </div>
-      <div class="links-section">
+      <div class="links-section" style="padding-top:4px">
         <h3>🎒 여행 굿즈 & 유용템</h3>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/bnMxg3cogbT0GI1NAnPe7vv-cfm-Ko0C0-0u2XaWWFaGaryfRfFGR5qczen312S9ok5oXVCJC5pH6UnPasGijUip8n_vYZMMbNCs798bmHXD6ssSLq2hRr1HEL1U79gs" target="_blank">
-          <img src="https://d13k46lqgoj3d6.cloudfront.net/2026/1/29/2026-1-29-1769702781534.webp?w=600&f=avif" style="width:100%;height:150px;object-fit:cover">
-          <div class="ls-og-body">
-            <div class="ls-og-title">제 인생 삼각대!!</div>
-            <div class="ls-og-domain">inpock · 훵 추천</div>
-          </div>
+        <a class="ls-thumb" href="https://link.inpock.co.kr/api/r/bnMxg3cogbT0GI1NAnPe7vv-cfm-Ko0C0-0u2XaWWFaGaryfRfFGR5qczen312S9ok5oXVCJC5pH6UnPasGijUip8n_vYZMMbNCs798bmHXD6ssSLq2hRr1HEL1U79gs" target="_blank">
+          <div class="ls-thumb-img"><img src="https://d13k46lqgoj3d6.cloudfront.net/2026/1/29/2026-1-29-1769702781534.webp?w=600&f=avif" loading="lazy" alt=""></div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">제 인생 삼각대!!</div><div class="ls-thumb-sub">inpock · 훵 추천</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/GGiyhSXdH9s9JPJEXKeGLRpEpKdG8N_4YHdNQMmnoTQBVlyuNbeWRZjI8qyJNCrtNUEHQGb1KucoOfFEH0ny0fuWph3-MHXUtfzCyogYL4Aku9uTK2tKfaNw7anGCDkq" target="_blank">
-          <img src="https://d13k46lqgoj3d6.cloudfront.net/2025/12/28/2025-12-28-1766919180757.webp?w=600&f=avif" style="width:100%;height:150px;object-fit:cover">
-          <div class="ls-og-body">
-            <div class="ls-og-title">기내 꿀잠 목베개 (무조건 챙겨다님)</div>
-            <div class="ls-og-domain">inpock · 훵 추천</div>
-          </div>
+        <a class="ls-thumb" href="https://link.inpock.co.kr/api/r/GGiyhSXdH9s9JPJEXKeGLRpEpKdG8N_4YHdNQMmnoTQBVlyuNbeWRZjI8qyJNCrtNUEHQGb1KucoOfFEH0ny0fuWph3-MHXUtfzCyogYL4Aku9uTK2tKfaNw7anGCDkq" target="_blank">
+          <div class="ls-thumb-img"><img src="https://d13k46lqgoj3d6.cloudfront.net/2025/12/28/2025-12-28-1766919180757.webp?w=600&f=avif" loading="lazy" alt=""></div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">기내 꿀잠 목베개 (무조건 챙겨다님)</div><div class="ls-thumb-sub">inpock · 훵 추천</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/7T8Ent2y9rG9gn9A4NcOU8oQCBSjhS3XD2jOfCngUiSAjOnDOv2FaHEfE-FYR28Aeu9sh33dNzmQkLGjhoj64pE1bSeYo50a6hPQvnUxKgHQowMqcpTAnaMPxLLT" target="_blank">
-          <img src="https://d13k46lqgoj3d6.cloudfront.net/2026/3/29/2026-3-29-1774770036780.webp?w=600&f=avif" style="width:100%;height:150px;object-fit:cover">
-          <div class="ls-og-body">
-            <div class="ls-og-title">해외 이심&유심 20% 할인 링크</div>
-            <div class="ls-og-domain">inpock · 훵 추천</div>
-          </div>
+        <a class="ls-thumb" href="https://link.inpock.co.kr/api/r/7T8Ent2y9rG9gn9A4NcOU8oQCBSjhS3XD2jOfCngUiSAjOnDOv2FaHEfE-FYR28Aeu9sh33dNzmQkLGjhoj64pE1bSeYo50a6hPQvnUxKgHQowMqcpTAnaMPxLLT" target="_blank">
+          <div class="ls-thumb-img"><img src="https://d13k46lqgoj3d6.cloudfront.net/2026/3/29/2026-3-29-1774770036780.webp?w=600&f=avif" loading="lazy" alt=""></div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">해외 이심&amp;유심 20% 할인 링크</div><div class="ls-thumb-sub">inpock · 훵 추천</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
       </div>
-      <div class="links-section">
+      <div class="links-section" style="padding-top:4px">
         <h3>🏨 추천 숙소</h3>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/czHxgEzT2reKGwAzJktSJon_2pEA5lncLxD43cG24W1poeWRGitpfq5gDCBj25Gc8MmhyHkVr8m5i_10TW2wn-Omxqo4IG6kRnKCKWXo2c9DkvZTTjqCrBmK1lxg_o3RGj_yVH3afQHF6xqDjiZI3UMAb9s0NpJQJToCPrUCnaOdyuvOznsTg4YIktFBLcKspQ0o6MZg7Ph5GouuMPe4" target="_blank">
-          <img src="https://d13k46lqgoj3d6.cloudfront.net/2026/2/27/2026-2-27-1772208209278.webp?w=600&f=avif" style="width:100%;height:150px;object-fit:cover">
-          <div class="ls-og-body">
-            <div class="ls-og-title">일본 유럽 감성 호텔</div>
-            <div class="ls-og-domain">inpock · 훵 추천</div>
-          </div>
-        </a>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/TSb7Ph3YjjeE7gZiwunJfzQ0RbBlSPkyh2mM4LwU94y9KTlacp9M2wapPmjEz8fOVCORutFfeY8mkm1y8MqaL0dBKIDLnwZV-A8aWky6EdM4b5GMm3jfVXKYKu-yicqi-Nn0_CgJGxdhy9yj6t9m8_VeztXjmeT4S3kl-PRM42R1aStfKKFus8_kr01MskUNFxXnlimoIFsGOMjN7sPQvw" target="_blank">
-          <img src="https://d13k46lqgoj3d6.cloudfront.net/2025/10/17/2025-10-17-1760711401576.avif?w=600" style="width:100%;height:150px;object-fit:cover">
-          <div class="ls-og-body">
-            <div class="ls-og-title">영화 세트장 같은 교토 료칸</div>
-            <div class="ls-og-domain">inpock · 훵 추천</div>
-          </div>
-        </a>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/mMqaFnfrY0jz54Uk_34s3Bxg40QfXYG11Y9Yo9whgTf8Wgv6TBsfiAqlGDe6_aumIlLHULSYfg-oYn2fvMobku1PjWnFMp4YFeGnFOeT7RF8dYNs02kF_SoIbG2drrzv4ihDPqzJ5SO3YDPicY8PvcVmIIYR9zI" target="_blank">
-          <img src="https://d13k46lqgoj3d6.cloudfront.net/2025/10/22/2025-10-22-1761129197935.avif?w=600" style="width:100%;height:150px;object-fit:cover">
-          <div class="ls-og-body">
-            <div class="ls-og-title">유후인 프라이빗 노천탕 료칸</div>
-            <div class="ls-og-domain">inpock · 훵 추천</div>
-          </div>
-        </a>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/rN-4b5ihxvEnAh9z6ZbbOANGpK_oipAtnyoI7si-fFH9K625I-Xh_1yiKi7yweQgBT0WT938EfdMY8AvkKvtDk2oTgIbODUurvR3tfaGrvWG9y6jLsXZNfxMKZMlNYiTAyaP-T02YT2u3abhQiPUVdYWC8IOwl0" target="_blank">
-          <div class="ls-og-placeholder">🌆</div>
-          <div class="ls-og-body">
-            <div class="ls-og-title">신주쿠 료칸 컨셉 호텔</div>
-            <div class="ls-og-domain">inpock · 훵 추천</div>
-          </div>
-        </a>
+        <div class="ls-bgimg-grid">
+          <a class="ls-bgimg" href="https://link.inpock.co.kr/api/r/czHxgEzT2reKGwAzJktSJon_2pEA5lncLxD43cG24W1poeWRGitpfq5gDCBj25Gc8MmhyHkVr8m5i_10TW2wn-Omxqo4IG6kRnKCKWXo2c9DkvZTTjqCrBmK1lxg_o3RGj_yVH3afQHF6xqDjiZI3UMAb9s0NpJQJToCPrUCnaOdyuvOznsTg4YIktFBLcKspQ0o6MZg7Ph5GouuMPe4" target="_blank" style="background-image:url('https://d13k46lqgoj3d6.cloudfront.net/2026/2/27/2026-2-27-1772208209278.webp?w=600&f=avif')"><span class="ls-bgimg-title">🏨 일본 유럽 감성 호텔</span></a>
+          <a class="ls-bgimg" href="https://link.inpock.co.kr/api/r/TSb7Ph3YjjeE7gZiwunJfzQ0RbBlSPkyh2mM4LwU94y9KTlacp9M2wapPmjEz8fOVCORutFfeY8mkm1y8MqaL0dBKIDLnwZV-A8aWky6EdM4b5GMm3jfVXKYKu-yicqi-Nn0_CgJGxdhy9yj6t9m8_VeztXjmeT4S3kl-PRM42R1aStfKKFus8_kr01MskUNFxXnlimoIFsGOMjN7sPQvw" target="_blank" style="background-image:url('https://d13k46lqgoj3d6.cloudfront.net/2025/10/17/2025-10-17-1760711401576.avif?w=600')"><span class="ls-bgimg-title">🌿 교토 료칸</span></a>
+          <a class="ls-bgimg" href="https://link.inpock.co.kr/api/r/mMqaFnfrY0jz54Uk_34s3Bxg40QfXYG11Y9Yo9whgTf8Wgv6TBsfiAqlGDe6_aumIlLHULSYfg-oYn2fvMobku1PjWnFMp4YFeGnFOeT7RF8dYNs02kF_SoIbG2drrzv4ihDPqzJ5SO3YDPicY8PvcVmIIYR9zI" target="_blank" style="background-image:url('https://d13k46lqgoj3d6.cloudfront.net/2025/10/22/2025-10-22-1761129197935.avif?w=600')"><span class="ls-bgimg-title">♨️ 유후인 노천탕 료칸</span></a>
+          <a class="ls-bgimg" href="https://link.inpock.co.kr/api/r/rN-4b5ihxvEnAh9z6ZbbOANGpK_oipAtnyoI7si-fFH9K625I-Xh_1yiKi7yweQgBT0WT938EfdMY8AvkKvtDk2oTgIbODUurvR3tfaGrvWG9y6jLsXZNfxMKZMlNYiTAyaP-T02YT2u3abhQiPUVdYWC8IOwl0" target="_blank" style="background:linear-gradient(135deg,#2a2438,#4a3a68)"><span class="ls-bgimg-title">🌆 신주쿠 료칸 컨셉 호텔</span></a>
+        </div>
       </div>
-      <div class="links-section">
+      <div class="links-section" style="padding-top:4px">
         <h3>🎫 투어 & 티켓</h3>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/j_cmqdx3zuCn5-gKsmVRxwBA_iSMLo1uRYA93ByDU0UZShHXAsL_UqAXUn6tTyKWhQ3PSFRV1nUqQ7uIw4ZIRAsYBU437khZ-nO4YHrJV1QFNHuk5ZuF5gpUAj91gbmOKNUopK6PdHvF8q1QVlUH62RQfFO4u0E1J-YvjqcuSAur9PHciVTLJKyMGl_4iRBVoxAT_knC13wu0numvWDbINMut66UPpKrePalDSmqFUECRCqsPqrSx3oyBwFHJuQZqbF2Sulx2oZjTFA7GwlI-941K6mLGszThxtAW-d7Swi8DgLPhffPh7Y872mHNzCLAoqCASrUhXa3-XO9wuJQ8WL1KolqXmJ0fHdGGnjF0PY0ocdo_4L0S70hlKB0WADrtU0mP7jposD1RIOrt1-nGS19DzFVg2GlHTs" target="_blank">
-          <img src="https://d13k46lqgoj3d6.cloudfront.net/2025/9/7/2025-9-7-1757251658319.avif?w=300" style="width:100%;height:150px;object-fit:cover">
-          <div class="ls-og-body">
-            <div class="ls-og-title">오사카 야경 전망대 할인 티켓</div>
-            <div class="ls-og-domain">inpock · 훵 추천</div>
-          </div>
+        <a class="ls-thumb" href="https://link.inpock.co.kr/api/r/j_cmqdx3zuCn5-gKsmVRxwBA_iSMLo1uRYA93ByDU0UZShHXAsL_UqAXUn6tTyKWhQ3PSFRV1nUqQ7uIw4ZIRAsYBU437khZ-nO4YHrJV1QFNHuk5ZuF5gpUAj91gbmOKNUopK6PdHvF8q1QVlUH62RQfFO4u0E1J-YvjqcuSAur9PHciVTLJKyMGl_4iRBVoxAT_knC13wu0numvWDbINMut66UPpKrePalDSmqFUECRCqsPqrSx3oyBwFHJuQZqbF2Sulx2oZjTFA7GwlI-941K6mLGszThxtAW-d7Swi8DgLPhffPh7Y872mHNzCLAoqCASrUhXa3-XO9wuJQ8WL1KolqXmJ0fHdGGnjF0PY0ocdo_4L0S70hlKB0WADrtU0mP7jposD1RIOrt1-nGS19DzFVg2GlHTs" target="_blank">
+          <div class="ls-thumb-img"><img src="https://d13k46lqgoj3d6.cloudfront.net/2025/9/7/2025-9-7-1757251658319.avif?w=300" loading="lazy" alt=""></div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">오사카 야경 전망대 할인 티켓</div><div class="ls-thumb-sub">inpock · 훵 추천</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/NcDGewzoUbDI5Y0XUdkiRFUtL9baM6Q6EtKOnQ1-GKX5oPXK-81wjKK8h6TPbQ3086HAyt9zg1uFaNE4qF-cYHT8ZW3D3HRJqRDNGlsh-6NDKsZqYfWJQiM11IP-NSJXCg" target="_blank">
-          <div class="ls-og-placeholder">🚌</div>
-          <div class="ls-og-body">
-            <div class="ls-og-title">유후인+다자이후+벳푸 버스투어</div>
-            <div class="ls-og-domain">inpock · 훵 추천</div>
-          </div>
+        <a class="ls-thumb" href="https://link.inpock.co.kr/api/r/NcDGewzoUbDI5Y0XUdkiRFUtL9baM6Q6EtKOnQ1-GKX5oPXK-81wjKK8h6TPbQ3086HAyt9zg1uFaNE4qF-cYHT8ZW3D3HRJqRDNGlsh-6NDKsZqYfWJQiM11IP-NSJXCg" target="_blank">
+          <div class="ls-thumb-img">🚌</div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">유후인+다자이후+벳푸 버스투어</div><div class="ls-thumb-sub">inpock · 훵 추천</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/wF8dSeedmFpjuDMyuSJz-7ae22XOYpom-IcDDz89nb0BjkQ5W6yv59nM8RK-2QOA7B2aR9pQmoQdxP039_uDM2qKcNLoSh785k8_HV9yyHfE1ZRnBT3B8tdI_qQ4rbCOL1cMtObFWnpm-AlxqK8BUbI4g8ahDA6h6PTKwPTHXzqs27CE5NWpS1cTdg" target="_blank">
-          <div class="ls-og-placeholder">🏖️</div>
-          <div class="ls-og-body">
-            <div class="ls-og-title">후쿠오카 이토시마 투어 정보</div>
-            <div class="ls-og-domain">inpock · 훵 추천</div>
-          </div>
+        <a class="ls-thumb" href="https://link.inpock.co.kr/api/r/wF8dSeedmFpjuDMyuSJz-7ae22XOYpom-IcDDz89nb0BjkQ5W6yv59nM8RK-2QOA7B2aR9pQmoQdxP039_uDM2qKcNLoSh785k8_HV9yyHfE1ZRnBT3B8tdI_qQ4rbCOL1cMtObFWnpm-AlxqK8BUbI4g8ahDA6h6PTKwPTHXzqs27CE5NWpS1cTdg" target="_blank">
+          <div class="ls-thumb-img">🏖️</div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">후쿠오카 이토시마 투어 정보</div><div class="ls-thumb-sub">inpock · 훵 추천</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/yOpqC8N6oQRdb8Ed5_nJMkjmbSVjaXDmlxW_HBgF5N6LSwqUVEIAWzasHmlBDQk4kG7E7YqeWoPBt_OAlp4Kdw3l5HHNFain7wxjCbkfzo2K7qg0FFBa-w8x3iH0-i9xCnh8r-mHGWqRRtkeHMaoSchSr58cD5BZaRm6-aNYr2ATF0_8awL9g11k1V9qMaMXkSxfMp3jpjZp5gyBMg6g" target="_blank">
-          <div class="ls-og-placeholder">🧙</div>
-          <div class="ls-og-body">
-            <div class="ls-og-title">도쿄 해리포터 스튜디오 할인 티켓</div>
-            <div class="ls-og-domain">inpock · 훵 추천</div>
-          </div>
+        <a class="ls-thumb" href="https://link.inpock.co.kr/api/r/yOpqC8N6oQRdb8Ed5_nJMkjmbSVjaXDmlxW_HBgF5N6LSwqUVEIAWzasHmlBDQk4kG7E7YqeWoPBt_OAlp4Kdw3l5HHNFain7wxjCbkfzo2K7qg0FFBa-w8x3iH0-i9xCnh8r-mHGWqRRtkeHMaoSchSr58cD5BZaRm6-aNYr2ATF0_8awL9g11k1V9qMaMXkSxfMp3jpjZp5gyBMg6g" target="_blank">
+          <div class="ls-thumb-img">🧙</div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">도쿄 해리포터 스튜디오 할인 티켓</div><div class="ls-thumb-sub">inpock · 훵 추천</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/5R4YJ5zoFmFbWJ7Fnq-HpRENVilQ-xXyAxEq-Y2BJQFTzOeLOSzUcOb4i55saX2vjs7lJW4n7hS-pVn3DtL_4gwFt9W8klRjDHz0pgHz2xCWQfTSXMUUVlA01Vx7iB3tc7c_J7JAbxES0ufI4D7PJdH9AaMW" target="_blank">
-          <div class="ls-og-placeholder">🎨</div>
-          <div class="ls-og-body">
-            <div class="ls-og-title">[선착순 쿠폰] 강릉 아르떼뮤지엄 예약</div>
-            <div class="ls-og-domain">inpock · 훵 추천</div>
-          </div>
+        <a class="ls-thumb" href="https://link.inpock.co.kr/api/r/5R4YJ5zoFmFbWJ7Fnq-HpRENVilQ-xXyAxEq-Y2BJQFTzOeLOSzUcOb4i55saX2vjs7lJW4n7hS-pVn3DtL_4gwFt9W8klRjDHz0pgHz2xCWQfTSXMUUVlA01Vx7iB3tc7c_J7JAbxES0ufI4D7PJdH9AaMW" target="_blank">
+          <div class="ls-thumb-img">🎨</div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">[선착순 쿠폰] 강릉 아르떼뮤지엄 예약</div><div class="ls-thumb-sub">inpock · 훵 추천</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
       </div>
-      <div class="links-section">
+      <div class="links-section" style="padding-top:4px">
         <h3>📝 여행 정보 & 블로그</h3>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/2DxDPvXlmN5wrRSXCGnE2hZCVKrqnokf25SOD-oYm1RbuiD8hWnZ0XUdva55mUE15RXccSAwlQVRkOfFzuANszWNSYEXrthVfoXdoZ5e1Iy9_LTEmEBuBAF3CTaruAd53CJbcHEM-BABm-ItXb0U4XC4PSQLLBaOBNzTiSFuRIBr-I9LTV8yIWVenGqZfexk0pZRaxlv4iDeBWaBiHX5UoTLJ154tsoJYHfsGBtjwLthVat1VHnAF3Z7dxIO5c8" target="_blank">
-          <div class="ls-og-placeholder">🩵</div>
-          <div class="ls-og-body">
-            <div class="ls-og-title">🩵 네이버 여행 인플루언서 '훵 블로그'🩵 — 직접 경험해서 느낀 여행 꿀팁 저장소</div>
-            <div class="ls-og-domain">inpock · 훵</div>
-          </div>
+        <a class="ls-thumb" href="https://link.inpock.co.kr/api/r/2DxDPvXlmN5wrRSXCGnE2hZCVKrqnokf25SOD-oYm1RbuiD8hWnZ0XUdva55mUE15RXccSAwlQVRkOfFzuANszWNSYEXrthVfoXdoZ5e1Iy9_LTEmEBuBAF3CTaruAd53CJbcHEM-BABm-ItXb0U4XC4PSQLLBaOBNzTiSFuRIBr-I9LTV8yIWVenGqZfexk0pZRaxlv4iDeBWaBiHX5UoTLJ154tsoJYHfsGBtjwLthVat1VHnAF3Z7dxIO5c8" target="_blank">
+          <div class="ls-thumb-img">🩵</div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">훵 블로그 — 여행 꿀팁 저장소</div><div class="ls-thumb-sub">네이버 여행 인플루언서</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/9G_yrUmMIEs-LiDzthJTD6SOzTMSLkdBG6uR6Z4LXQk0GxdGtVpcKwMtuXEp8Pu8UvHQzPaR5UG5nE-FCc6J2K-GZTx2fHphnwX0lLv-F0Jozv-0wccaL8mksDoXe-T9PWrlL6gS0kxjZZeVjAZCJqpQLpC606A" target="_blank">
-          <div class="ls-og-placeholder">🌸</div>
-          <div class="ls-og-body">
-            <div class="ls-og-title">후쿠오카 여행 코스 총정리 — 혼자 다녀온 4박5일 일정표</div>
-            <div class="ls-og-domain">inpock · 훵</div>
-          </div>
+        <a class="ls-thumb" href="https://link.inpock.co.kr/api/r/9G_yrUmMIEs-LiDzthJTD6SOzTMSLkdBG6uR6Z4LXQk0GxdGtVpcKwMtuXEp8Pu8UvHQzPaR5UG5nE-FCc6J2K-GZTx2fHphnwX0lLv-F0Jozv-0wccaL8mksDoXe-T9PWrlL6gS0kxjZZeVjAZCJqpQLpC606A" target="_blank">
+          <div class="ls-thumb-img">🌸</div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">후쿠오카 여행 코스 총정리</div><div class="ls-thumb-sub">혼자 다녀온 4박5일 일정표</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/nJ3hlmQOl6eNgJEezzNlFhsytJzWun3CL5PhNov5qckEHRplQLD31hgOtQdexLoU85DjrlnAvJkSwuxAF5moNmwbsNN7abXBOZchFVql6uG3WIstT_HO0OwwitmaqeklCHuSBtVR4cFTspYU5kTUmgjrJz-uh9g" target="_blank">
-          <div class="ls-og-placeholder">💴</div>
-          <div class="ls-og-body">
-            <div class="ls-og-title">후쿠오카 여행 경비 표 총정리! — 4박5일 2인 경비</div>
-            <div class="ls-og-domain">inpock · 훵</div>
-          </div>
+        <a class="ls-thumb" href="https://link.inpock.co.kr/api/r/nJ3hlmQOl6eNgJEezzNlFhsytJzWun3CL5PhNov5qckEHRplQLD31hgOtQdexLoU85DjrlnAvJkSwuxAF5moNmwbsNN7abXBOZchFVql6uG3WIstT_HO0OwwitmaqeklCHuSBtVR4cFTspYU5kTUmgjrJz-uh9g" target="_blank">
+          <div class="ls-thumb-img">💴</div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">후쿠오카 여행 경비 표 총정리!</div><div class="ls-thumb-sub">4박5일 2인 경비</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/l8BKv1BT2aZ1YpR0GC9-78u_9Lbo7L1ExSjmUxL1wJJF_97p1kCbaMnkSfjW0cb9MZe78Tf4DTc9GKGNvUibK_oPxPOEhyPWPorwR29dE6d339WHUiUl7kzAkRLGiRAfvS6crZPxMSjjMDSO2sAPi_DRE2Sk5ss" target="_blank">
-          <div class="ls-og-placeholder">❄️</div>
-          <div class="ls-og-body">
-            <div class="ls-og-title">삿포로 부럽지 않은 시라카와고 — 버스투어 업체비교 & 맛집</div>
-            <div class="ls-og-domain">inpock · 훵</div>
-          </div>
+        <a class="ls-thumb" href="https://link.inpock.co.kr/api/r/l8BKv1BT2aZ1YpR0GC9-78u_9Lbo7L1ExSjmUxL1wJJF_97p1kCbaMnkSfjW0cb9MZe78Tf4DTc9GKGNvUibK_oPxPOEhyPWPorwR29dE6d339WHUiUl7kzAkRLGiRAfvS6crZPxMSjjMDSO2sAPi_DRE2Sk5ss" target="_blank">
+          <div class="ls-thumb-img">❄️</div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">삿포로 부럽지 않은 시라카와고</div><div class="ls-thumb-sub">버스투어 업체비교 & 맛집</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/Axm2LMa_PgkPbI62fu4TleE2p1B4CiHBSHtr3_NB7jqriJGW34avsuqrHp1Arox6vFZGmHLtCrwARvzlofymJFbIt-GrEwqvq4vO_RnYbHBNUyOPRIsWJ6Md8sXN1UR4ATgFjN6rVy_uBPKhFgTYhc6kX6nQPtg" target="_blank">
-          <div class="ls-og-placeholder">✈️</div>
-          <div class="ls-og-body">
-            <div class="ls-og-title">나고야 공항에서 시내 이동하는 방법</div>
-            <div class="ls-og-domain">inpock · 훵</div>
-          </div>
+        <a class="ls-thumb" href="https://link.inpock.co.kr/api/r/Axm2LMa_PgkPbI62fu4TleE2p1B4CiHBSHtr3_NB7jqriJGW34avsuqrHp1Arox6vFZGmHLtCrwARvzlofymJFbIt-GrEwqvq4vO_RnYbHBNUyOPRIsWJ6Md8sXN1UR4ATgFjN6rVy_uBPKhFgTYhc6kX6nQPtg" target="_blank">
+          <div class="ls-thumb-img">✈️</div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">나고야 공항에서 시내 이동하는 방법</div><div class="ls-thumb-sub">inpock · 훵</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/4v30Cgj7fHkP7MZX52TfORbhNpxLMONB6NPO2hh8rLb51Y740fsguKH-CQ5CSsgSOEaXDxSFMGOo8Rao2LXsXx6mGf7LuW5mAUVvr_QG0SSG5siQDBSv4cv29q8bE9c43BS_9a0rm7-6nk" target="_blank">
-          <div class="ls-og-placeholder">🎑</div>
-          <div class="ls-og-body">
-            <div class="ls-og-title">지브리파크 티켓 예약 방법 — 하나하나 자세하게 정리</div>
-            <div class="ls-og-domain">inpock · 훵</div>
-          </div>
+        <a class="ls-thumb" href="https://link.inpock.co.kr/api/r/4v30Cgj7fHkP7MZX52TfORbhNpxLMONB6NPO2hh8rLb51Y740fsguKH-CQ5CSsgSOEaXDxSFMGOo8Rao2LXsXx6mGf7LuW5mAUVvr_QG0SSG5siQDBSv4cv29q8bE9c43BS_9a0rm7-6nk" target="_blank">
+          <div class="ls-thumb-img">🎑</div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">지브리파크 티켓 예약 방법</div><div class="ls-thumb-sub">하나하나 자세하게 정리</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/ns0JirphohW780QtSnXhUcabQyyOUT4Sm4WfmQ_dQwpdabXStclfUPZimnwtaMjWMBnWZaJyeov580DMqCaeMTJjhSgYUkiAvY_o9Imh1LYKq3hyqQD3HtIx_0by2mBeo80caPte8X161ZH2x6WhRHtKehJeM9o" target="_blank">
-          <div class="ls-og-placeholder">🗼</div>
-          <div class="ls-og-body">
-            <div class="ls-og-title">도쿄 4박5일 여행 코스 총정리</div>
-            <div class="ls-og-domain">inpock · 훵</div>
-          </div>
+        <a class="ls-thumb" href="https://link.inpock.co.kr/api/r/ns0JirphohW780QtSnXhUcabQyyOUT4Sm4WfmQ_dQwpdabXStclfUPZimnwtaMjWMBnWZaJyeov580DMqCaeMTJjhSgYUkiAvY_o9Imh1LYKq3hyqQD3HtIx_0by2mBeo80caPte8X161ZH2x6WhRHtKehJeM9o" target="_blank">
+          <div class="ls-thumb-img">🗼</div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">도쿄 4박5일 여행 코스 총정리</div><div class="ls-thumb-sub">inpock · 훵</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/cusXq4GX8ixUvmoJsvPrp3Cwby4kvjIKYxecbCDIxF4RYKovi06uxy1uyLvwNU2PJUelRlP7fa6CpfmeeCKB6AhgRSW9maQqliOEEEe3BnbiReH4dojjGdNytV8-9HEurlktEXIsGmaRQ4KmWA0XnhsmsXbqSCY" target="_blank">
-          <div class="ls-og-placeholder">💴</div>
-          <div class="ls-og-body">
-            <div class="ls-og-title">도쿄 4박5일 여행 경비 — 두명이서 다녀온 경비표 총정리!</div>
-            <div class="ls-og-domain">inpock · 훵</div>
-          </div>
+        <a class="ls-thumb" href="https://link.inpock.co.kr/api/r/cusXq4GX8ixUvmoJsvPrp3Cwby4kvjIKYxecbCDIxF4RYKovi06uxy1uyLvwNU2PJUelRlP7fa6CpfmeeCKB6AhgRSW9maQqliOEEEe3BnbiReH4dojjGdNytV8-9HEurlktEXIsGmaRQ4KmWA0XnhsmsXbqSCY" target="_blank">
+          <div class="ls-thumb-img">💴</div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">도쿄 4박5일 여행 경비 총정리!</div><div class="ls-thumb-sub">두명이서 다녀온 경비표</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/T8N90ECYv0Xnqv59v3yvvCr_Bkg0-X8FXpRzRulBBxj2aGGARG8gPZfojy2-u7Iu3W3XcCFm84dnO5AnUzytt8c0P4fB1uaUSn_pMUTwS0-0K1ooMGOP-qujFw9QOnJmUi95XxNNL7Kl2bXn28eu-r2QvnZKE4porEeF8yr99DgoCjVXexEycaiUwA" target="_blank">
-          <div class="ls-og-placeholder">🐉</div>
-          <div class="ls-og-body">
-            <div class="ls-og-title">홍콩 & 마카오 자유여행 일정 총정리본</div>
-            <div class="ls-og-domain">inpock · 훵</div>
-          </div>
+        <a class="ls-thumb" href="https://link.inpock.co.kr/api/r/T8N90ECYv0Xnqv59v3yvvCr_Bkg0-X8FXpRzRulBBxj2aGGARG8gPZfojy2-u7Iu3W3XcCFm84dnO5AnUzytt8c0P4fB1uaUSn_pMUTwS0-0K1ooMGOP-qujFw9QOnJmUi95XxNNL7Kl2bXn28eu-r2QvnZKE4porEeF8yr99DgoCjVXexEycaiUwA" target="_blank">
+          <div class="ls-thumb-img">🐉</div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">홍콩 & 마카오 자유여행 일정 총정리본</div><div class="ls-thumb-sub">inpock · 훵</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/9rFw0ZWa4qPiv5713t-W6A8pkGzBo1kXLklmHxNNSOmFDPKr2S_9BC25Nm6mZ0JMVGJ1FyLu4y1OkNASnW94nRX8OG0PXSQUtQRzlnNKEirBLCnWSrX2amJRrYauQyIcHBC3IaEh845qPMKF3XdrokjqsAnRXLoTAZ_i5b3vR_8U9Ump6u9LEwknhw" target="_blank">
-          <div class="ls-og-placeholder">🍊</div>
-          <div class="ls-og-body">
-            <div class="ls-og-title">제주도 혼자 뚜벅이 여행 코스 & 꿀팁</div>
-            <div class="ls-og-domain">inpock · 훵</div>
-          </div>
+        <a class="ls-thumb" href="https://link.inpock.co.kr/api/r/9rFw0ZWa4qPiv5713t-W6A8pkGzBo1kXLklmHxNNSOmFDPKr2S_9BC25Nm6mZ0JMVGJ1FyLu4y1OkNASnW94nRX8OG0PXSQUtQRzlnNKEirBLCnWSrX2amJRrYauQyIcHBC3IaEh845qPMKF3XdrokjqsAnRXLoTAZ_i5b3vR_8U9Ump6u9LEwknhw" target="_blank">
+          <div class="ls-thumb-img">🍊</div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">제주도 혼자 뚜벅이 여행 코스 & 꿀팁</div><div class="ls-thumb-sub">inpock · 훵</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/lCRPFb6PdegpC0TcHFSo775Gz3_KIBZiEbyVMd597fhvDseNkU2njrex03R9Lqh1oNrZmWGJXrrTY2B0lw8LvE1FUn6nIWOYhYvfnok2NBeC9BurMICNaLEaUUCz0qUjLUl6HRGXWOtHkWEI6LHWijXviX1nbR0iY6qijJTfUw61xMtWKPlWUiKoRg" target="_blank">
-          <div class="ls-og-placeholder">🌊</div>
-          <div class="ls-og-body">
-            <div class="ls-og-title">가마쿠라 여행 코스 총정리 (도쿄 근교 여행)</div>
-            <div class="ls-og-domain">inpock · 훵</div>
-          </div>
+        <a class="ls-thumb" href="https://link.inpock.co.kr/api/r/lCRPFb6PdegpC0TcHFSo775Gz3_KIBZiEbyVMd597fhvDseNkU2njrex03R9Lqh1oNrZmWGJXrrTY2B0lw8LvE1FUn6nIWOYhYvfnok2NBeC9BurMICNaLEaUUCz0qUjLUl6HRGXWOtHkWEI6LHWijXviX1nbR0iY6qijJTfUw61xMtWKPlWUiKoRg" target="_blank">
+          <div class="ls-thumb-img">🌊</div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">가마쿠라 여행 코스 총정리</div><div class="ls-thumb-sub">도쿄 근교 여행</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
-        <a class="ls-og" href="https://link.inpock.co.kr/api/r/YK-jW1Qt-twy-7Rby_yLM8r515it0cY01EGFo_wGeugLnGsFAcBK9JM8YG73istwi-4RXR0HhWwKhjm7ZnfHXk77x8V23Cox5re8JRx963gkREdklYT1aG-AtCa8nXFnECns6rfl6yE-Trrs1VC-czDl7bxYMDsOww" target="_blank">
-          <div class="ls-og-placeholder">🌐</div>
-          <div class="ls-og-body">
-            <div class="ls-og-title">네이버 인플루언서 홈 — 훵</div>
-            <div class="ls-og-domain">naver.com · 훵</div>
-          </div>
+        <a class="ls-thumb" href="https://link.inpock.co.kr/api/r/YK-jW1Qt-twy-7Rby_yLM8r515it0cY01EGFo_wGeugLnGsFAcBK9JM8YG73istwi-4RXR0HhWwKhjm7ZnfHXk77x8V23Cox5re8JRx963gkREdklYT1aG-AtCa8nXFnECns6rfl6yE-Trrs1VC-czDl7bxYMDsOww" target="_blank">
+          <div class="ls-thumb-img">🌐</div>
+          <div class="ls-thumb-body"><div class="ls-thumb-title">네이버 인플루언서 홈 — 훵</div><div class="ls-thumb-sub">naver.com · 훵</div></div>
+          <span class="ls-thumb-arr">→</span>
         </a>
       </div>
       <div class="links-section-pb"></div>
@@ -533,16 +480,16 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
 const CREATOR={name:"훵",email:"hongeunji5953@gmail.com",couponUrl:"https://www.myrealtrip.com/coupons"};
 
 const products=[
-  {name:"나고야 메이테츠 공항철도 편도티켓",price:"₩9,618",tag:"교통",icon:"🚂",bg:"#DBEAFE",tagColor:"#1D4ED8",tagBg:"#DBEAFE",city:"나고야",url:"https://www.myrealtrip.com/experiences/5869313",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/16/mPIE/YFFlIoIVa2.jpg"},
-  {name:"시라카와고 & 다카야마 버스투어 (한국인가이드)",price:"₩174,030",tag:"강추",icon:"⭐",bg:"#FEF3C7",tagColor:"#E07A38",tagBg:"#FDE8CE",city:"기후",url:"https://www.myrealtrip.com/experiences/3425907",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/04/AD6J/IQJrYNesNG.jpg"},
-  {name:"나고야 시라카와고 히다 다카야마 버스투어 DSLR 촬영",price:"₩170,036",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",city:"기후",url:"https://www.myrealtrip.com/experiences/4913938",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/17/tUvk/1wepqrODBP.jpeg"},
-  {name:"나고야 출발 1일 시라카와고 히다 다카야마 버스투어 (아이트립)",price:"₩148,230",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",city:"기후",url:"https://www.myrealtrip.com/experiences/4982593",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/06/CoS0/IIOg8vDB6q.jpg"},
-  {name:"미슐랭 별3개 시라카와고 버스투어 (한국인가이드)",price:"₩178,977",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",city:"기후",url:"https://www.myrealtrip.com/experiences/3424821",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/06/Humm/ON8GYQAr3g.jpg"},
-  {name:"나고야 다카야마 시라카와고 버스투어 엔데이트립",price:"₩150,283",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",city:"기후",url:"https://www.myrealtrip.com/experiences/3412124",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/10/UdFq/pdiAszb84j.jpg"},
-  {name:"유투어버스 나고야 다카야마N시라카와고 버스 투어",price:"₩132,294",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",city:"기후",url:"https://www.myrealtrip.com/experiences/3862816",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/03/yvz5/e6k1zZShDq.jpg"},
-  {name:"알펜루트 설벽산책과 세계유산 시라카와고 1일투어",price:"₩885,774",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",city:"기후",url:"https://www.myrealtrip.com/experiences/3425906",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/11/vRFs/WmLfAhEPzd.jpg"},
-  {name:"나고야항 수족관 입장권",price:"₩45,023",tag:"입장권",icon:"🎫",bg:"#FEF3C7",tagColor:"#E07A38",tagBg:"#FDE8CE",city:"나고야",url:"https://www.myrealtrip.com/experiences/5541726",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/11/tK4x/v7hUqk4z9j.jpg"},
-  {name:"포뮬러 F1 일본 스즈카 그랑프리 2026 (3일권)",price:"₩523,537",tag:"입장권",icon:"🏎️",bg:"#FEF3C7",tagColor:"#E07A38",tagBg:"#FDE8CE",city:"나고야",url:"https://www.myrealtrip.com/experiences/5809205",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/03/anhg/LyrujaZtAK.jpg"},
+  {name:"나고야 메이테츠 공항철도 편도티켓",price:"₩9,618",tag:"교통",icon:"🚂",bg:"#DBEAFE",tagColor:"#1D4ED8",tagBg:"#DBEAFE",city:"나고야",url:"https://myrealt.rip/ZIsDf6",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/16/mPIE/YFFlIoIVa2.jpg"},
+  {name:"시라카와고 & 다카야마 버스투어 (한국인가이드)",price:"₩174,030",tag:"강추",icon:"⭐",bg:"#FEF3C7",tagColor:"#E07A38",tagBg:"#FDE8CE",city:"기후",url:"https://myrealt.rip/ZIsE48",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/04/AD6J/IQJrYNesNG.jpg"},
+  {name:"나고야 시라카와고 히다 다카야마 버스투어 DSLR 촬영",price:"₩170,036",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",city:"기후",url:"https://myrealt.rip/ZIsF7d",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/17/tUvk/1wepqrODBP.jpeg"},
+  {name:"나고야 출발 1일 시라카와고 히다 다카야마 버스투어 (아이트립)",price:"₩148,230",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",city:"기후",url:"https://myrealt.rip/ZIsG9e",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/06/CoS0/IIOg8vDB6q.jpg"},
+  {name:"미슐랭 별3개 시라카와고 버스투어 (한국인가이드)",price:"₩178,977",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",city:"기후",url:"https://myrealt.rip/ZIsHe7",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/06/Humm/ON8GYQAr3g.jpg"},
+  {name:"나고야 다카야마 시라카와고 버스투어 엔데이트립",price:"₩150,283",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",city:"기후",url:"https://myrealt.rip/ZIsIe6",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/10/UdFq/pdiAszb84j.jpg"},
+  {name:"유투어버스 나고야 다카야마N시라카와고 버스 투어",price:"₩132,294",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",city:"기후",url:"https://myrealt.rip/ZIsJ64",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/02/03/yvz5/e6k1zZShDq.jpg"},
+  {name:"알펜루트 설벽산책과 세계유산 시라카와고 1일투어",price:"₩885,774",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",city:"기후",url:"https://myrealt.rip/ZIsK99",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/11/vRFs/WmLfAhEPzd.jpg"},
+  {name:"나고야항 수족관 입장권",price:"₩45,023",tag:"입장권",icon:"🎫",bg:"#FEF3C7",tagColor:"#E07A38",tagBg:"#FDE8CE",city:"나고야",url:"https://myrealt.rip/ZIsL1c",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/11/tK4x/v7hUqk4z9j.jpg"},
+  {name:"포뮬러 F1 일본 스즈카 그랑프리 2026 (3일권)",price:"₩523,537",tag:"입장권",icon:"🏎️",bg:"#FEF3C7",tagColor:"#E07A38",tagBg:"#FDE8CE",city:"나고야",url:"https://myrealt.rip/ZIsM84",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/03/anhg/LyrujaZtAK.jpg"},
 ];
 
 const days=[
@@ -553,7 +500,7 @@ const days=[
     {time:"저녁",place:"아츠타 호라이켄 히츠마부시",desc:"나고야 대표 명물 히츠마부시(장어덮밥). 그냥·파와 함께·다시로 세 방식으로 즐기는 나고야식 장어덮밥. 예약 필수!",cost:"₩3만원",product:null},
   ]},
   {day:2,date:"D2 · 시라카와고 & 다카야마",dayCost:"약 8~10만원",stops:[
-    {time:"오전",place:"시라카와고 합장촌",desc:"유네스코 세계문화유산! 삼각 지붕의 합장마을. 겨울 설경이 압도적. 버스로 약 2시간 50분. 투어 이용 추천 🏔️",cost:"₩174,030",product:{name:"시라카와고+다카야마 버스투어",price:"₩174,030",tagBg:"#DBEAFE",tagColor:"#1D4ED8",tag:"강추",bg:"#DBEAFE",icon:"🏔️",city:"기후",url:"https://www.myrealtrip.com/experiences/3425907",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/04/AD6J/IQJrYNesNG.jpg"}},
+    {time:"오전",place:"시라카와고 합장촌",desc:"유네스코 세계문화유산! 삼각 지붕의 합장마을. 겨울 설경이 압도적. 버스로 약 2시간 50분. 투어 이용 추천 🏔️",cost:"₩174,030",product:{name:"시라카와고+다카야마 버스투어",price:"₩174,030",tagBg:"#DBEAFE",tagColor:"#1D4ED8",tag:"강추",bg:"#DBEAFE",icon:"🏔️",city:"기후",url:"https://myrealt.rip/ZIsE48",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/04/AD6J/IQJrYNesNG.jpg"}},
     {time:"오후",place:"다카야마 전통 거리",desc:"에도 시대 상인 거리 산마치스지. 양조장·된장집·기념품 가득. 미타라시 당고 먹으면서 산책!",cost:"₩1만원",product:null},
     {time:"저녁",place:"전광석화 라멘",desc:"다카야마 명물 라멘. 진한 간장 육수에 차슈. 여행 중 최고 가성비 한 끼!",cost:"₩1만원",product:null},
   ]},
@@ -570,7 +517,7 @@ const days=[
   ]},
 ];
 
-const CITY_EXPENSE={nagoya:{title:"✈️ 나고야 4박 5일 총경비",food:420000,foodNote:"미소카츠·히츠마부시·하브스 포함",defaultFlight:204000,defaultHotel:380000,defaultTotal:1232671,tours:[{emoji:"🚂",name:"나고야 메이테츠 공항철도 편도티켓",note:"공항↔나고야역 직결 교통 (편도)",price:9618,url:"https://www.myrealtrip.com/experiences/5869313",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/16/mPIE/YFFlIoIVa2.jpg"},{emoji:"🏔️",name:"시라카와고 & 다카야마 버스투어 (한국인가이드)",note:"세계문화유산 합장촌 당일치기",price:174030,url:"https://www.myrealtrip.com/experiences/3425907",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/04/AD6J/IQJrYNesNG.jpg"},{emoji:"🐟",name:"나고야항 수족관 입장권",note:"상어·범고래·벨루가 등 국내 최대 규모",price:45023,url:"https://www.myrealtrip.com/experiences/5541726",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/11/tK4x/v7hUqk4z9j.jpg"}],finePrint:"✈️항공·🏨숙소는 최저가 기준 · 식비는 평균값"}};
+const CITY_EXPENSE={nagoya:{title:"✈️ 나고야 4박 5일 총경비",food:420000,foodNote:"미소카츠·히츠마부시·하브스 포함",defaultFlight:204000,defaultHotel:380000,defaultTotal:1232671,tours:[{emoji:"🚂",name:"나고야 메이테츠 공항철도 편도티켓",note:"공항↔나고야역 직결 교통 (편도)",price:9618,url:"https://myrealt.rip/ZIsDf6",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/16/mPIE/YFFlIoIVa2.jpg"},{emoji:"🏔️",name:"시라카와고 & 다카야마 버스투어 (한국인가이드)",note:"세계문화유산 합장촌 당일치기",price:174030,url:"https://myrealt.rip/ZIsE48",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/04/AD6J/IQJrYNesNG.jpg"},{emoji:"🐟",name:"나고야항 수족관 입장권",note:"상어·범고래·벨루가 등 국내 최대 규모",price:45023,url:"https://myrealt.rip/ZIsL1c",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/11/tK4x/v7hUqk4z9j.jpg"}],finePrint:"✈️항공·🏨숙소는 최저가 기준 · 식비는 평균값"}};
 let currentExpenseCity="nagoya";
 
 function renderProducts(){const el=document.getElementById("product-grid");const q=(document.getElementById("product-search-input")?.value||"").trim().toLowerCase();const f=q?products.filter(p=>(p.name+" "+(p.tag||"")).toLowerCase().includes(q)):products;if(!f.length){el.innerHTML=`<div style="grid-column:1/-1;padding:32px 12px;text-align:center;color:var(--light);font-size:13px;">"${q}"에 해당하는 상품이 없어요</div>`;return}el.innerHTML=f.map(p=>`<div class="product-card-v3" onclick="window.open('${p.url}','_blank')"><div class="pc-img" style="${p.img?`background-image:url(${p.img});background-size:cover;background-position:center`:`background:${p.bg}`}">${p.img?"":p.icon}</div><div class="pc-body"><span class="pc-tag" style="background:${p.tagBg};color:${p.tagColor}">${p.tag}</span><div class="pc-name">${p.name}</div><div class="pc-price">${p.price}</div>${p.city?`<div class="pc-city">${p.city}</div>`:""}<button class="pc-btn">예약하기</button></div></div>`).join("");}

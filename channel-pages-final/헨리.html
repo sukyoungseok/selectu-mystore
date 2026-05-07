@@ -9,7 +9,7 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{--cream:#f8f4ee;--amber:#2A7A8A;--sage:#4A9AAA;--text:#1a1714;--mid:#6b6560;--light:#a09890;--border:#ede8e0;--accent:#102A40}
 body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;display:flex;justify-content:center;align-items:flex-start}
-.phone{width:390px;min-height:100vh;background:var(--cream);position:relative;overflow:hidden;box-shadow:0 0 60px rgba(0,0,0,.25)}
+.phone{width:390px;height:100vh;background:var(--cream);position:relative;overflow:hidden;box-shadow:0 0 60px rgba(0,0,0,.25)}
 #main-page{position:absolute;top:0;left:0;right:0;overflow-y:auto;height:100%;background:var(--cream);-webkit-overflow-scrolling:touch;z-index:0}
 .affiliate-notice{background:#f0ede8;border-bottom:1px solid var(--border);padding:7px 16px;font-size:10px;color:var(--light);line-height:1.5;text-align:center}
 .hero{position:relative;height:380px}
@@ -99,6 +99,17 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
 .ls-badge.hot{background:linear-gradient(135deg,#2A7A8A,#102A40);color:#fff}
 .ls-badge.new{background:#B0D8E0;color:#2A7A8A}
 .ls-badges{display:flex;gap:5px;margin-bottom:5px;flex-wrap:wrap}
+.ls-thumb{display:flex;align-items:center;gap:12px;background:#fff;border-radius:14px;padding:12px 14px;margin-bottom:8px;text-decoration:none;border:1px solid var(--border)}
+.ls-thumb-icon{width:48px;height:48px;border-radius:12px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:24px;overflow:hidden}
+.ls-thumb-icon img{width:100%;height:100%;object-fit:cover;border-radius:12px}
+.ls-thumb-body{flex:1;min-width:0}
+.ls-thumb-title{font-size:13px;font-weight:700;color:var(--text);line-height:1.35;margin-bottom:2px}
+.ls-thumb-sub{font-size:11px;color:var(--light)}
+.ls-thumb-arr{font-size:18px;color:var(--light);flex-shrink:0}
+.ls-simple{display:flex;align-items:center;justify-content:space-between;padding:10px 2px;border-bottom:1px solid var(--border);text-decoration:none}
+.ls-simple:last-child{border-bottom:none}
+.ls-simple-label{font-size:13px;font-weight:600;color:var(--text)}
+.ls-simple-arr{font-size:15px;color:var(--light)}
 .ls-textblock{display:flex;gap:14px;align-items:flex-start;margin:20px 0 20px;padding:0 20px}
 .ls-tb-avatar{width:44px;height:44px;border-radius:50%;flex-shrink:0;background:linear-gradient(135deg,#2A7A8A,#102A40);display:flex;align-items:center;justify-content:center;font-size:20px}
 .ls-tb-bubble{flex:1;position:relative;background:#eef5f7;border:1.5px solid #a8ccd4;border-radius:18px;padding:14px 16px;box-shadow:0 4px 14px rgba(42,122,138,.08);font-size:13px;line-height:1.7;color:var(--text)}.ls-tb-bubble::before{content:"";position:absolute;left:-10px;top:14px;width:0;height:0;border:8px solid transparent;border-right-color:#a8ccd4;border-left:0}.ls-tb-bubble::after{content:"";position:absolute;left:-7px;top:15px;width:0;height:0;border:7px solid transparent;border-right-color:#eef5f7;border-left:0}
@@ -154,7 +165,7 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
 .day-tabs::-webkit-scrollbar{display:none}
 .day-tab{padding:12px 18px;font-size:13px;font-weight:600;color:var(--light);cursor:pointer;border-bottom:2px solid transparent;transition:all .2s;white-space:nowrap}
 .day-tab.active{color:var(--text);border-bottom-color:var(--amber)}
-.day-content{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:20px 20px 40px}
+.day-content{flex:1;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:20px 20px 40px}
 .stop-item{display:flex;gap:14px;margin-bottom:28px}
 .stop-timeline{display:flex;flex-direction:column;align-items:center;flex-shrink:0}
 .stop-dot{width:12px;height:12px;border-radius:50%;background:var(--amber);border:2px solid #fff;box-shadow:0 0 0 2px var(--amber);flex-shrink:0}
@@ -299,107 +310,115 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
       </div>
       <div class="links-section">
         <h3>📸 추천 콘텐츠</h3>
-        <a class="ls-og" href="https://www.instagram.com/henriuniverse/" target="_blank">
-          <div class="ls-og-placeholder">✈️</div>
-          <div class="ls-og-body">
-            <div class="ls-badges"><span class="ls-badge hot">#헨리플랜</span></div>
-            <div class="ls-og-title">헨리 채널 — 파워J의 완벽한 여행 계획 · 블로그 #헨리플랜 · 릴스 크리에이터</div>
-            <div class="ls-og-domain">instagram.com · 헨리</div>
+        <a class="ls-thumb" href="https://www.instagram.com/henriuniverse/" target="_blank">
+          <div class="ls-thumb-icon" style="background:#E8F5F8">✈️</div>
+          <div class="ls-thumb-body">
+            <div class="ls-thumb-title"><span class="ls-badge hot" style="margin-right:5px">#헨리플랜</span>헨리 인스타그램 채널</div>
+            <div class="ls-thumb-sub">파워J의 완벽한 여행 계획 · 릴스 크리에이터</div>
           </div>
+          <div class="ls-thumb-arr">›</div>
         </a>
-        <a class="ls-og" href="https://www.instagram.com/henriuniverse/" target="_blank">
-          <div class="ls-og-placeholder">🌺</div>
-          <div class="ls-og-body">
-            <div class="ls-badges"><span class="ls-badge hot">#헨리플랜 하와이</span></div>
-            <div class="ls-og-title">하와이 4박5일 완벽 일정 — 쿠알로아 랜치 UTV · 다이아몬드 헤드 트레킹 · 힐튼 불꽃놀이 · 와이켈레 아울렛</div>
-            <div class="ls-og-domain">instagram.com · 헨리 여행 가이드</div>
+        <a class="ls-thumb" href="https://www.instagram.com/henriuniverse/" target="_blank">
+          <div class="ls-thumb-icon" style="background:#FEF3C7">🌺</div>
+          <div class="ls-thumb-body">
+            <div class="ls-thumb-title"><span class="ls-badge hot" style="margin-right:5px">#헨리플랜 하와이</span>하와이 4박5일 완벽 일정</div>
+            <div class="ls-thumb-sub">쿠알로아 랜치 UTV · 다이아몬드 헤드 · 힐튼 불꽃놀이</div>
           </div>
+          <div class="ls-thumb-arr">›</div>
         </a>
-        <a class="ls-og" href="https://www.instagram.com/henriuniverse/" target="_blank">
-          <div class="ls-og-placeholder">🏙️</div>
-          <div class="ls-og-body">
-            <div class="ls-badges"><span class="ls-badge hot">#헨리플랜 상하이</span></div>
-            <div class="ls-og-title">상하이 3박4일 완벽 일정 — 입국신고서 작성법 · 고덕 지도 모음 · 꼼꼼한 일정표 포함</div>
-            <div class="ls-og-domain">instagram.com · 헨리 여행 가이드</div>
+        <a class="ls-thumb" href="https://www.instagram.com/henriuniverse/" target="_blank">
+          <div class="ls-thumb-icon" style="background:#E8F0FD">🏙️</div>
+          <div class="ls-thumb-body">
+            <div class="ls-thumb-title"><span class="ls-badge hot" style="margin-right:5px">#헨리플랜 상하이</span>상하이 3박4일 완벽 일정</div>
+            <div class="ls-thumb-sub">입국신고서 작성법 · 고덕 지도 모음 · 꼼꼼한 일정표</div>
           </div>
+          <div class="ls-thumb-arr">›</div>
         </a>
-        <a class="ls-og" href="https://m.blog.naver.com/hjs8756?tab=1" target="_blank">
-          <div class="ls-og-placeholder" style="background-image:url(https://blogpfthumb-phinf.pstatic.net/MjAyNTA5MDZfMjIx/MDAxNzU3MDg3ODYzNDUx.Rtv2yromV2Z6T_ZOHNfrS22FhBgFrWjRWUK3cTtlOcYg.ImjmkEIpIkOhh5jzjaxaaPcksKbW62q3cktj9riZP4kg.JPEG/C2176D74-FD41-4895-A404-466635B2DDB7_1_105_c.jpeg?type=f204_204)"></div>
-          <div class="ls-og-body">
-            <div class="ls-badges"><span class="ls-badge hot">#헨리플랜</span></div>
-            <div class="ls-og-title">네이버 블로그 — 오늘도 헨리플랜</div>
-            <div class="ls-og-domain">blog.naver.com · 오늘도 헨리플랜</div>
+        <a class="ls-thumb" href="https://m.blog.naver.com/hjs8756?tab=1" target="_blank">
+          <div class="ls-thumb-icon"><img src="https://blogpfthumb-phinf.pstatic.net/MjAyNTA5MDZfMjIx/MDAxNzU3MDg3ODYzNDUx.Rtv2yromV2Z6T_ZOHNfrS22FhBgFrWjRWUK3cTtlOcYg.ImjmkEIpIkOhh5jzjaxaaPcksKbW62q3cktj9riZP4kg.JPEG/C2176D74-FD41-4895-A404-466635B2DDB7_1_105_c.jpeg?type=f204_204" alt="헨리플랜 블로그"/></div>
+          <div class="ls-thumb-body">
+            <div class="ls-thumb-title">네이버 블로그 — 오늘도 헨리플랜</div>
+            <div class="ls-thumb-sub">blog.naver.com · 헨리플랜</div>
           </div>
+          <div class="ls-thumb-arr">›</div>
         </a>
-        <a class="ls-og" href="https://m.blog.naver.com/hjs8756/224136785300" target="_blank">
-          <div class="ls-og-placeholder" style="background-image:url(https://blogthumb.pstatic.net/MjAyNjAxMDZfMTU5/MDAxNzY3Njk1MzUyNDY2.zbQ8BrtFzfrqCcuji-CwAoP4SMZCJuY3fvbU2pClAgYg.MUqbm0vt1tsGEv9VWdPXpXr80ucplYg7y1AM4yCvKIkg.JPEG/DSC05200.JPG?type=w2)"></div>
-          <div class="ls-og-body">
-            <div class="ls-badges"><span class="ls-badge new">후기</span></div>
-            <div class="ls-og-title">대마도 배편 예약 1박 2일 후기 💙</div>
-            <div class="ls-og-domain">blog.naver.com · 오늘도 헨리플랜</div>
+        <a class="ls-thumb" href="https://m.blog.naver.com/hjs8756/224136785300" target="_blank">
+          <div class="ls-thumb-icon"><img src="https://blogthumb.pstatic.net/MjAyNjAxMDZfMTU5/MDAxNzY3Njk1MzUyNDY2.zbQ8BrtFzfrqCcuji-CwAoP4SMZCJuY3fvbU2pClAgYg.MUqbm0vt1tsGEv9VWdPXpXr80ucplYg7y1AM4yCvKIkg.JPEG/DSC05200.JPG?type=w2" alt="대마도 후기"/></div>
+          <div class="ls-thumb-body">
+            <div class="ls-thumb-title"><span class="ls-badge new" style="margin-right:5px">후기</span>대마도 배편 예약 1박 2일 후기 💙</div>
+            <div class="ls-thumb-sub">blog.naver.com · 오늘도 헨리플랜</div>
           </div>
+          <div class="ls-thumb-arr">›</div>
         </a>
-        <h3 style="margin-top:20px">✅ 헨리 팔로워 전용 혜택</h3>
-        <a class="ls-og" href="https://www.pieceofcreative.com/fit/11873" target="_blank">
-          <div class="ls-og-placeholder" style="background-image:url(https://media.eoding.com/media/travelagent/148/imagecontent/%EB%82%98%ED%8A%B8%EB%9E%91_%ED%8C%90%EB%9E%91_%EB%8B%A8%EB%8F%85%ED%88%AC%EC%96%B4.png)"></div>
-          <div class="ls-og-body">
-            <div class="ls-badges"><span class="ls-badge new">즉시할인</span></div>
-            <div class="ls-og-title">나트랑 판랑사막투어 2천원 즉시할인코드 (DB9AF6260F)</div>
-            <div class="ls-og-domain">pieceofcreative.com · 나트랑 투어</div>
+      </div>
+      <div class="links-section">
+        <h3>✅ 헨리 팔로워 전용 혜택</h3>
+        <a class="ls-thumb" href="https://www.pieceofcreative.com/fit/11873" target="_blank">
+          <div class="ls-thumb-icon"><img src="https://media.eoding.com/media/travelagent/148/imagecontent/%EB%82%98%ED%8A%B8%EB%9E%91_%ED%8C%90%EB%9E%91_%EB%8B%A8%EB%8F%85%ED%88%AC%EC%96%B4.png" alt="나트랑 판랑사막투어"/></div>
+          <div class="ls-thumb-body">
+            <div class="ls-thumb-title"><span class="ls-badge new" style="margin-right:5px">즉시할인</span>나트랑 판랑사막투어 2천원 할인</div>
+            <div class="ls-thumb-sub">할인코드: DB9AF6260F</div>
           </div>
+          <div class="ls-thumb-arr">›</div>
         </a>
-        <a class="ls-og" href="https://3ha.in/r/173171" target="_blank">
-          <div class="ls-og-placeholder" style="background-image:url(https://usimsa.com/img/usimsa-og-700.jpg)"></div>
-          <div class="ls-og-body">
-            <div class="ls-badges"><span class="ls-badge new">20% 할인</span></div>
-            <div class="ls-og-title">유심사 이심 20% 추가 할인</div>
-            <div class="ls-og-domain">유심사 · 이심 할인</div>
+        <a class="ls-thumb" href="https://3ha.in/r/173171" target="_blank">
+          <div class="ls-thumb-icon"><img src="https://usimsa.com/img/usimsa-og-700.jpg" alt="유심사 이심"/></div>
+          <div class="ls-thumb-body">
+            <div class="ls-thumb-title"><span class="ls-badge new" style="margin-right:5px">20% 할인</span>유심사 이심 추가 할인</div>
+            <div class="ls-thumb-sub">유심사 · 헨리 전용 할인</div>
           </div>
+          <div class="ls-thumb-arr">›</div>
         </a>
-        <a class="ls-og" href="https://m.blog.naver.com/hjs8756/224166369602" target="_blank">
-          <div class="ls-og-placeholder" style="background-image:url(https://blogthumb.pstatic.net/MjAyNjAxMzFfMjc2/MDAxNzY5ODMxMzA5MTQ0.yLXXchOFfIKSxZPnpJbyxp-RhFQp__R7TQyqFiMrrOsg.NtnlKdrMwK5ZwgmNBCWbqK1Pc4mwyoGyGCvZw2-F2ykg.JPEG/IMG%25A3%25DF9544.jpg?type=w2)"></div>
-          <div class="ls-og-body">
-            <div class="ls-badges"><span class="ls-badge new">최대 7천원</span></div>
-            <div class="ls-og-title">클룩(Klook) 2월 최대 7천원 할인쿠폰</div>
-            <div class="ls-og-domain">blog.naver.com · 클룩 할인</div>
+        <a class="ls-thumb" href="https://m.blog.naver.com/hjs8756/224166369602" target="_blank">
+          <div class="ls-thumb-icon" style="background:#FEF3C7">🎡</div>
+          <div class="ls-thumb-body">
+            <div class="ls-thumb-title"><span class="ls-badge new" style="margin-right:5px">최대 7천원</span>클룩(Klook) 할인쿠폰</div>
+            <div class="ls-thumb-sub">blog.naver.com · 클룩 할인 가이드</div>
           </div>
+          <div class="ls-thumb-arr">›</div>
         </a>
-        <a class="ls-og" href="https://myrealt.rip/TcxB22" target="_blank">
-          <div class="ls-og-placeholder">🎁</div>
-          <div class="ls-og-body">
-            <div class="ls-badges"><span class="ls-badge hot">쿠폰팩</span></div>
-            <div class="ls-og-title">마이리얼트립 할인 쿠폰팩 받고 예약하러 가기</div>
-            <div class="ls-og-domain">myrealtrip.com · 할인 쿠폰</div>
+        <a class="ls-thumb" href="https://myrealt.rip/TcxB22" target="_blank">
+          <div class="ls-thumb-icon" style="background:#FEF3C7">🎁</div>
+          <div class="ls-thumb-body">
+            <div class="ls-thumb-title"><span class="ls-badge hot" style="margin-right:5px">쿠폰팩</span>마이리얼트립 할인 쿠폰팩</div>
+            <div class="ls-thumb-sub">myrealtrip.com · 헨리 전용 혜택</div>
           </div>
+          <div class="ls-thumb-arr">›</div>
         </a>
-        <h3 style="margin-top:20px">🛒 헨리 추천 여행 상품</h3><a class="ls-og" href="https://www.myrealtrip.com/experiences/3530078" target="_blank">
-          <div class="ls-og-placeholder" style="background-image:url(https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/03/81jT/MGs48SiQ8S.jpg)"></div>
-          <div class="ls-og-body">
-            <div class="ls-badges"><span class="ls-badge hot">헨리 강추</span></div>
-            <div class="ls-og-title">거북이스노클링/선셋크루즈+5종해양 (내돈내산 후기 6700개)</div>
-            <div class="ls-og-domain">myrealtrip.com</div>
+      </div>
+      <div class="links-section">
+        <h3>🛒 헨리 추천 여행 상품</h3>
+        <a class="ls-thumb" href="https://myrealt.rip/ZIri8d" target="_blank">
+          <div class="ls-thumb-icon"><img src="https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/03/81jT/MGs48SiQ8S.jpg" alt="거북이스노클링"/></div>
+          <div class="ls-thumb-body">
+            <div class="ls-thumb-title"><span class="ls-badge hot" style="margin-right:5px">헨리 강추</span>거북이스노클링/선셋크루즈+5종해양</div>
+            <div class="ls-thumb-sub">내돈내산 후기 6,700개</div>
           </div>
-        </a><a class="ls-og" href="https://www.myrealtrip.com/experiences/3441921" target="_blank">
-          <div class="ls-og-placeholder" style="background-image:url(https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/10/k9JU/MMDqRSa2ib.jpg)"></div>
-          <div class="ls-og-body">
-            <div class="ls-badges"><span class="ls-badge hot">헨리 강추</span></div>
-            <div class="ls-og-title">쿠알로아 랜치 UTV 랩터 투어</div>
-            <div class="ls-og-domain">myrealtrip.com</div>
+          <div class="ls-thumb-arr">›</div>
+        </a>
+        <a class="ls-thumb" href="https://myrealt.rip/ZIrj0c" target="_blank">
+          <div class="ls-thumb-icon"><img src="https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/10/k9JU/MMDqRSa2ib.jpg" alt="쿠알로아 UTV"/></div>
+          <div class="ls-thumb-body">
+            <div class="ls-thumb-title"><span class="ls-badge hot" style="margin-right:5px">헨리 강추</span>쿠알로아 랜치 UTV 랩터 투어</div>
+            <div class="ls-thumb-sub">myrealtrip.com · 하와이</div>
           </div>
-        </a><a class="ls-og" href="https://www.myrealtrip.com/experiences/3860884" target="_blank">
-          <div class="ls-og-placeholder" style="background-image:url(https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/18/010d/RlycFkKDOA.jpg)"></div>
-          <div class="ls-og-body">
-            <div class="ls-badges"><span class="ls-badge hot">공항</span></div>
-            <div class="ls-og-title">하와이 공항 픽업/샌딩 (씨엠트래블 한인택시)</div>
-            <div class="ls-og-domain">myrealtrip.com</div>
+          <div class="ls-thumb-arr">›</div>
+        </a>
+        <a class="ls-thumb" href="https://myrealt.rip/ZIrk8d" target="_blank">
+          <div class="ls-thumb-icon"><img src="https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/18/010d/RlycFkKDOA.jpg" alt="하와이 공항 픽업"/></div>
+          <div class="ls-thumb-body">
+            <div class="ls-thumb-title"><span class="ls-badge hot" style="margin-right:5px">공항</span>하와이 공항 픽업/샌딩 (씨엠트래블)</div>
+            <div class="ls-thumb-sub">myrealtrip.com · 한인택시</div>
           </div>
-        </a><a class="ls-og" href="https://www.myrealtrip.com/experiences/3441184" target="_blank">
-          <div class="ls-og-placeholder" style="background-image:url(https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/09/Zc5A/tz2QpfafEN.jpg)"></div>
-          <div class="ls-og-body">
-            <div class="ls-badges"><span class="ls-badge hot">공연</span></div>
-            <div class="ls-og-title">폴리네시안 문화센터</div>
-            <div class="ls-og-domain">myrealtrip.com</div>
+          <div class="ls-thumb-arr">›</div>
+        </a>
+        <a class="ls-thumb" href="https://myrealt.rip/ZIrqde" target="_blank">
+          <div class="ls-thumb-icon"><img src="https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/09/Zc5A/tz2QpfafEN.jpg" alt="폴리네시안 문화센터"/></div>
+          <div class="ls-thumb-body">
+            <div class="ls-thumb-title"><span class="ls-badge hot" style="margin-right:5px">공연</span>폴리네시안 문화센터</div>
+            <div class="ls-thumb-sub">myrealtrip.com · 하와이</div>
           </div>
+          <div class="ls-thumb-arr">›</div>
         </a>
       </div>
       <div class="links-section-pb"></div>
@@ -459,16 +478,16 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
 </div>
 <script>
 const products=[
-  {name:"거북이스노클링/선셋크루즈+5종해양 (내돈내산 후기 6700개)",price:"₩391,224",tag:"강추",icon:"⭐",bg:"#FEF3C7",tagColor:"#E07A38",tagBg:"#FDE8CE",url:"https://www.myrealtrip.com/experiences/3530078",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/03/81jT/MGs48SiQ8S.jpg"},
-  {name:"쿠알로아 랜치 UTV 랩터 투어",price:"₩598,711",tag:"강추",icon:"⭐",bg:"#FEF3C7",tagColor:"#E07A38",tagBg:"#FDE8CE",url:"https://www.myrealtrip.com/experiences/3441921",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/10/k9JU/MMDqRSa2ib.jpg"},
-  {name:"하와이 공항 픽업/샌딩 (씨엠트래블 한인택시)",price:"₩78,323",tag:"공항",icon:"🚗",bg:"#DBEAFE",tagColor:"#1D4ED8",tagBg:"#DBEAFE",url:"https://www.myrealtrip.com/experiences/3860884",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/18/010d/RlycFkKDOA.jpg"},
-  {name:"거북이스노클링+해양5종 (놀고먹고찍고)",price:"₩413,017",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/3521467",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/08/28/7lr3/cRgtoVjzns.jpg"},
-  {name:"쿠알로아 랜치 무비사이트 투어 90분",price:"₩280,789",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/3441914",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/10/q2bk/GPi70athF8.jpg"},
-  {name:"하나우마베이 예약 대행+스노클링 장비 렌탈",price:"₩309,514",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/3569966",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/26/ILQP/nDTZwDfrHe.jpg"},
-  {name:"하나우마베이 스노클링 사전예약 (입장권 포함)",price:"₩301,696",tag:"수중",icon:"🤿",bg:"#E8F4FD",tagColor:"#1E6FA8",tagBg:"#C8E4F8",url:"https://www.myrealtrip.com/experiences/3442814",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/10/8UKF/fYvpalYuFZ.jpg"},
-  {name:"쿠알로아 랜치 전기산악 자전거 투어",price:"₩353,582",tag:"투어",icon:"🚵",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/3441940",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/10/LQUS/QiuiadLzvM.jpg"},
-  {name:"폴리네시안 문화센터",price:"₩670,621",tag:"공연",icon:"🎭",bg:"#DCFCE7",tagColor:"#15803D",tagBg:"#DCFCE7",url:"https://www.myrealtrip.com/experiences/3441184",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/09/Zc5A/tz2QpfafEN.jpg"},
-  {name:"스타오브호놀룰루 디너 크루즈",price:"₩790,761",tag:"투어",icon:"🚢",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://www.myrealtrip.com/experiences/3517012",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/08/24/8d1g/zkwjqjl7wK.jpg"},
+  {name:"거북이스노클링/선셋크루즈+5종해양 (내돈내산 후기 6700개)",price:"₩391,224",tag:"강추",icon:"⭐",bg:"#FEF3C7",tagColor:"#E07A38",tagBg:"#FDE8CE",url:"https://myrealt.rip/ZIri8d",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/03/81jT/MGs48SiQ8S.jpg"},
+  {name:"쿠알로아 랜치 UTV 랩터 투어",price:"₩598,711",tag:"강추",icon:"⭐",bg:"#FEF3C7",tagColor:"#E07A38",tagBg:"#FDE8CE",url:"https://myrealt.rip/ZIrj0c",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/10/k9JU/MMDqRSa2ib.jpg"},
+  {name:"하와이 공항 픽업/샌딩 (씨엠트래블 한인택시)",price:"₩78,323",tag:"공항",icon:"🚗",bg:"#DBEAFE",tagColor:"#1D4ED8",tagBg:"#DBEAFE",url:"https://myrealt.rip/ZIrk8d",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/18/010d/RlycFkKDOA.jpg"},
+  {name:"거북이스노클링+해양5종 (놀고먹고찍고)",price:"₩413,017",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://myrealt.rip/ZIrl9d",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/08/28/7lr3/cRgtoVjzns.jpg"},
+  {name:"쿠알로아 랜치 무비사이트 투어 90분",price:"₩280,789",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://myrealt.rip/ZIrm81",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/10/q2bk/GPi70athF8.jpg"},
+  {name:"하나우마베이 예약 대행+스노클링 장비 렌탈",price:"₩309,514",tag:"투어",icon:"🚌",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://myrealt.rip/ZIrn13",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/26/ILQP/nDTZwDfrHe.jpg"},
+  {name:"하나우마베이 스노클링 사전예약 (입장권 포함)",price:"₩301,696",tag:"수중",icon:"🤿",bg:"#E8F4FD",tagColor:"#1E6FA8",tagBg:"#C8E4F8",url:"https://myrealt.rip/ZIro5c",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/10/8UKF/fYvpalYuFZ.jpg"},
+  {name:"쿠알로아 랜치 전기산악 자전거 투어",price:"₩353,582",tag:"투어",icon:"🚵",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://myrealt.rip/ZIrp0f",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/10/LQUS/QiuiadLzvM.jpg"},
+  {name:"폴리네시안 문화센터",price:"₩670,621",tag:"공연",icon:"🎭",bg:"#DCFCE7",tagColor:"#15803D",tagBg:"#DCFCE7",url:"https://myrealt.rip/ZIrqde",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/09/Zc5A/tz2QpfafEN.jpg"},
+  {name:"스타오브호놀룰루 디너 크루즈",price:"₩790,761",tag:"투어",icon:"🚢",bg:"#EDE9FE",tagColor:"#7C3AED",tagBg:"#EDE9FE",url:"https://myrealt.rip/ZIrrb4",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/08/24/8d1g/zkwjqjl7wK.jpg"},
 ];
 function renderProducts(){const el=document.getElementById("product-grid");const q=(document.getElementById("product-search-input")?.value||"").trim().toLowerCase();const f=q?products.filter(p=>(p.name+" "+(p.tag||"")).toLowerCase().includes(q)):products;if(!f.length){el.innerHTML=`<div style="grid-column:1/-1;padding:32px 12px;text-align:center;color:var(--light);font-size:13px;">"${q}"에 해당하는 상품이 없어요</div>`;return}el.innerHTML=f.map(p=>`<div class="product-card-v3" onclick="window.open('${p.url}','_blank')"><div class="pc-img" style="background:${p.bg}">${p.img?`<img src="${p.img}" alt="${p.name}"/>`:`${p.icon}`}</div><div class="pc-body"><span class="pc-tag" style="background:${p.tagBg};color:${p.tagColor}">${p.tag}</span><div class="pc-name">${p.name}</div><div class="pc-price">${p.price}</div>${p.city?`<div class="pc-city">${p.city}</div>`:""}<button class="pc-btn">예약하기</button></div></div>`).join("");}
 function switchTab(name){document.querySelectorAll(".page-tab").forEach(t=>t.classList.toggle("on",t.dataset.tab===name));document.querySelectorAll(".tab-panel").forEach(p=>p.classList.remove("on"));document.getElementById(`tab-${name}`).classList.add("on");document.getElementById("main-page").scrollTop=0;}
@@ -480,25 +499,25 @@ const CREATOR={name:"헨리",email:"hjs8756@naver.com"};
 const CITY_DAYS={"hawaii":[
   {day:1,date:"D1 · 출발 → 호놀룰루",dayCost:"항공비 별도",stops:[
     {time:"출발",place:"인천국제공항 (ICN)",lat:37.4602,lng:126.4407,pinColor:"amber",pinLabel:"D1",desc:"호놀룰루 직항 약 9~10시간. 대한항공·아시아나 운항 중. 기내 서비스 미리 체크! ✈️",cost:"왕복 ₩1,100,000~",product:{name:"인천↔호놀룰루 항공권 검색",price:"₩1,100,000~",tag:"필수",tagBg:"#EDE9FE",tagColor:"#6D28D9",bg:"#EDE9FE",icon:"✈️",url:"https://flights.myrealtrip.com/air/b2c/AIR/INT/AIRINTTRP0100100000.k1?KSESID=air:b2c:SELK138RB:SELK138RB::00&depCtyCode1=SEL&arrCtyCode1=HNL"}},
-    {time:"오전 도착",place:"호놀룰루 국제공항 (HNL)",lat:21.3245,lng:-157.9251,pinColor:"amber",pinLabel:"D1",desc:"공항에서 와이키키까지 차로 약 20분. 한인 픽업 서비스 이용 시 편리하게 이동 가능 🚗",cost:"픽업 ₩28,000~",product:{name:"공항 픽업/샌딩 씨엠 트래블",price:"₩28,000~",tag:"편의",tagBg:"#B0D8E0",tagColor:"#102A40",bg:"#E8F5F8",icon:"🚗",url:"https://experiences.myrealtrip.com/products/3860884"}},
+    {time:"오전 도착",place:"호놀룰루 국제공항 (HNL)",lat:21.3245,lng:-157.9251,pinColor:"amber",pinLabel:"D1",desc:"공항에서 와이키키까지 차로 약 20분. 한인 픽업 서비스 이용 시 편리하게 이동 가능 🚗",cost:"픽업 ₩28,000~",product:{name:"공항 픽업/샌딩 씨엠 트래블",price:"₩28,000~",tag:"편의",tagBg:"#B0D8E0",tagColor:"#102A40",bg:"#E8F5F8",icon:"🚗",url:"https://myrealt.rip/ZIrk8d"}},
     {time:"오후",place:"와이키키 비치",lat:21.2765,lng:-157.8290,pinColor:"amber",pinLabel:"D1",desc:"하와이 대표 해변. 도착 당일 가볍게 산책하며 시차 적응. 선셋 타임 놓치지 말 것! 🌅",cost:"무료",product:null},
     {time:"저녁",place:"알라모아나 쇼핑센터",lat:21.2897,lng:-157.8442,pinColor:"amber",pinLabel:"D1",desc:"세계 최대 야외 쇼핑몰. 포케·로코모코 맛집 푸드코트 이용 후 기념품 쇼핑 추천 🛍️",cost:"식비 ₩20,000~",product:null},
   ]},
   {day:2,date:"D2 · 오아후 액티비티 데이",dayCost:"₩150,000~",stops:[
     {time:"오전 7시",place:"와이키키 서핑 스팟",lat:21.2765,lng:-157.8290,pinColor:"sage",pinLabel:"D2",desc:"와이키키 파도는 초보자에게 최적. 한국인 강사와 소그룹 수업, 픽업 포함으로 편리 🏄",cost:"₩41,000~",product:{name:"오아후 서핑 레슨 (한국인 강사)",price:"₩41,000~",tag:"인기",tagBg:"#E8F5F8",tagColor:"#2A7A8A",bg:"#B0D8E0",icon:"🏄",url:"https://experiences.myrealtrip.com/products/3441922"}},
-    {time:"오전 10시",place:"하나우마베이",lat:21.2700,lng:-157.6948,pinColor:"sage",pinLabel:"D2",desc:"하와이 최고 스노클링 명소. 주정부 인증 업체 이용 시 입장권 포함, 사전 예약 필수 🤿",cost:"₩104,000~",product:{name:"하나우마베이 스노클링 (입장권 포함)",price:"₩104,000~",tag:"필수",tagBg:"#C0D0F8",tagColor:"#1A3A9A",bg:"#E8F0FD",icon:"🤿",url:"https://experiences.myrealtrip.com/products/3442814"}},
+    {time:"오전 10시",place:"하나우마베이",lat:21.2700,lng:-157.6948,pinColor:"sage",pinLabel:"D2",desc:"하와이 최고 스노클링 명소. 주정부 인증 업체 이용 시 입장권 포함, 사전 예약 필수 🤿",cost:"₩104,000~",product:{name:"하나우마베이 스노클링 (입장권 포함)",price:"₩104,000~",tag:"필수",tagBg:"#C0D0F8",tagColor:"#1A3A9A",bg:"#E8F0FD",icon:"🤿",url:"https://myrealt.rip/ZIro5c"}},
     {time:"오후 2시",place:"다이아몬드 헤드",lat:21.2619,lng:-157.8054,pinColor:"sage",pinLabel:"D2",desc:"왕복 약 1시간 30분 트레킹. 정상에서 와이키키 전경 파노라마 뷰. 물과 선크림 필수 ⛰️",cost:"입장료 ₩5,000~",product:null},
     {time:"오후 5시",place:"카카아코 벽화 거리",lat:21.2980,lng:-157.8600,pinColor:"sage",pinLabel:"D2",desc:"인스타 감성 가득한 로컬 아트 지구. 포케 맛집 밀집 지역. 저녁 식사 후 야경 산책 추천 🎨",cost:"식비 ₩25,000~",product:null},
   ]},
   {day:3,date:"D3 · 노스쇼어 & 쿠알로아",dayCost:"₩200,000~",stops:[
     {time:"오전 8시",place:"쿠알로아 랜치",lat:21.5225,lng:-157.8375,pinColor:"blush",pinLabel:"D3",desc:"쥬라기공원·아바타 촬영지! UTV 랩터 투어로 정글 탐험. 영어 진행, 사전 예약 필수 🦕",cost:"₩69,000~",product:{name:"쿠알로아 랜치 UTV 랩터 투어",price:"₩69,000~",tag:"액티비티",tagBg:"#C8E8C8",tagColor:"#1A6A1A",bg:"#E8F4E8",icon:"🚙",url:"https://experiences.myrealtrip.com/products/3517020"}},
     {time:"오후 12시",place:"할레이와 (노스쇼어)",lat:21.5936,lng:-158.1043,pinColor:"blush",pinLabel:"D3",desc:"세계 최고 서퍼들의 성지. 마테우스 새우 트럭, 마쓰모토 빙수 필수 코스. 여유롭게 구경 🦐",cost:"식비 ₩30,000~",product:null},
-    {time:"오후 3시",place:"폴리네시안 문화센터",lat:21.6434,lng:-157.9217,pinColor:"blush",pinLabel:"D3",desc:"6개 폴리네시아 문화 체험. 루아우 쇼 관람 가능. 오아후 북쪽에서 이동 시 30분 거리 🌺",cost:"₩92,000~",product:{name:"폴리네시안 문화센터 입장권",price:"₩92,000~",tag:"문화",tagBg:"#E8C8F0",tagColor:"#7A1A9A",bg:"#F8E8F8",icon:"🎭",url:"https://experiences.myrealtrip.com/products/3441184"}},
+    {time:"오후 3시",place:"폴리네시안 문화센터",lat:21.6434,lng:-157.9217,pinColor:"blush",pinLabel:"D3",desc:"6개 폴리네시아 문화 체험. 루아우 쇼 관람 가능. 오아후 북쪽에서 이동 시 30분 거리 🌺",cost:"₩92,000~",product:{name:"폴리네시안 문화센터 입장권",price:"₩92,000~",tag:"문화",tagBg:"#E8C8F0",tagColor:"#7A1A9A",bg:"#F8E8F8",icon:"🎭",url:"https://myrealt.rip/ZIrqde"}},
     {time:"저녁",place:"와이키키 비치워크",lat:21.2765,lng:-157.8290,pinColor:"blush",pinLabel:"D3",desc:"힐튼 하와이안 빌리지 불꽃놀이 (금요일 저녁 8시). 칼라카우아 거리 야간 산책 추천 🎆",cost:"무료",product:null},
   ]},
   {day:4,date:"D4 · 크루즈 & 귀국",dayCost:"₩120,000~",stops:[
     {time:"오전",place:"진주만 기념관",lat:21.3649,lng:-157.9452,pinColor:"amber",pinLabel:"D4",desc:"USS 애리조나 기념관 방문. 역사적 감동의 장소. 무료 입장이지만 예약 필수 (선착순) 🕊️",cost:"무료",product:null},
-    {time:"오후 5시",place:"스타 오브 호놀룰루 디너 크루즈",lat:21.3020,lng:-157.8630,pinColor:"amber",pinLabel:"D4",desc:"선셋 배경 디너 크루즈. 와이키키 야경과 함께하는 로맨틱한 마지막 밤. 3스타/5스타 선택 🚢",cost:"₩119,000~",product:{name:"스타 오브 호놀룰루 디너 크루즈",price:"₩119,000~",tag:"추천",tagBg:"#FDD8B8",tagColor:"#C04010",bg:"#FEF0E8",icon:"🚢",url:"https://experiences.myrealtrip.com/products/3517012"}},
+    {time:"오후 5시",place:"스타 오브 호놀룰루 디너 크루즈",lat:21.3020,lng:-157.8630,pinColor:"amber",pinLabel:"D4",desc:"선셋 배경 디너 크루즈. 와이키키 야경과 함께하는 로맨틱한 마지막 밤. 3스타/5스타 선택 🚢",cost:"₩119,000~",product:{name:"스타 오브 호놀룰루 디너 크루즈",price:"₩119,000~",tag:"추천",tagBg:"#FDD8B8",tagColor:"#C04010",bg:"#FEF0E8",icon:"🚢",url:"https://myrealt.rip/ZIrrb4"}},
     {time:"익일 오전",place:"호놀룰루 국제공항 출발",lat:21.3245,lng:-157.9251,pinColor:"amber",pinLabel:"D4",desc:"귀국. 아이키키 아울렛(와이켈레) 들를 경우 공항 방향이라 편리. 면세 쇼핑 잊지 말 것 🛍️",cost:"공항 ₩28,000~",product:null},
   ]},
 ],"shanghai":[
@@ -533,9 +552,9 @@ const CITY_EXPENSE={"hawaii":{
   flightUrl:"https://flights.myrealtrip.com/air/b2c/AIR/INT/AIRINTTRP0100100000.k1?KSESID=air:b2c:SELK138RB:SELK138RB::00&depCtyCode1=SEL&arrCtyCode1=HNL",
   hotelName:"와이키키 비치 호텔",hotelNote:"와이키키 지역 4박 1인 기준 (2인 1실)",hotelUrl:"",
   tours:[
-    {emoji:"🐢",name:"거북이스노클링/선셋크루즈+5종해양",note:"내돈내산 후기 6,700개 · 한국어 진행",price:391224,url:"https://www.myrealtrip.com/experiences/3530078",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/03/81jT/MGs48SiQ8S.jpg"},
-    {emoji:"🚗",name:"하와이 공항 픽업/샌딩 (씨엠트래블)",note:"한인택시 · 안심 셔틀 서비스",price:78323,url:"https://www.myrealtrip.com/experiences/3860884",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/18/010d/RlycFkKDOA.jpg"},
-    {emoji:"🚙",name:"쿠알로아 랜치 UTV 랩터 투어",note:"쥬라기공원 촬영지 · 2시간 or 3시간",price:598711,url:"https://www.myrealtrip.com/experiences/3441921",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/10/k9JU/MMDqRSa2ib.jpg"}
+    {emoji:"🐢",name:"거북이스노클링/선셋크루즈+5종해양",note:"내돈내산 후기 6,700개 · 한국어 진행",price:391224,url:"https://myrealt.rip/ZIri8d",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/09/03/81jT/MGs48SiQ8S.jpg"},
+    {emoji:"🚗",name:"하와이 공항 픽업/샌딩 (씨엠트래블)",note:"한인택시 · 안심 셔틀 서비스",price:78323,url:"https://myrealt.rip/ZIrk8d",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/11/18/010d/RlycFkKDOA.jpg"},
+    {emoji:"🚙",name:"쿠알로아 랜치 UTV 랩터 투어",note:"쥬라기공원 촬영지 · 2시간 or 3시간",price:598711,url:"https://myrealt.rip/ZIrj0c",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2024/07/10/k9JU/MMDqRSa2ib.jpg"}
   ],
   toursLabel:"🎫 헨리 추천 액티비티",
   finePrint:"· 4박 5일 1인 평균값 · 항공 유류세 포함 · 액티비티 1~2개 기준"

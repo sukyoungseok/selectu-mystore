@@ -9,7 +9,7 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{--cream:#f8f4ee;--amber:#1A8A7A;--sage:#3AAA9A;--text:#1a1714;--mid:#6b6560;--light:#a09890;--border:#ede8e0;--accent:#0A4A40}
 body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;display:flex;justify-content:center;align-items:flex-start}
-.phone{width:390px;min-height:100vh;background:var(--cream);position:relative;overflow:hidden;box-shadow:0 0 60px rgba(0,0,0,.25)}
+.phone{width:390px;height:100vh;background:var(--cream);position:relative;overflow:hidden;box-shadow:0 0 60px rgba(0,0,0,.25)}
 #main-page{position:absolute;top:0;left:0;right:0;overflow-y:auto;height:100%;background:var(--cream);-webkit-overflow-scrolling:touch;z-index:0}
 .affiliate-notice{background:#f0ede8;border-bottom:1px solid var(--border);padding:7px 16px;font-size:10px;color:var(--light);line-height:1.5;text-align:center}
 .hero{position:relative;height:380px}
@@ -101,6 +101,8 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
 .ls-thumb{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid var(--border);border-radius:16px;padding:12px 14px;text-decoration:none;margin-bottom:10px;transition:transform .15s}
 .ls-thumb:active{transform:scale(.985)}
 .ls-thumb-img{width:44px;height:44px;border-radius:12px;background:var(--border);display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0}
+.ls-thumb-icon{width:48px;height:48px;border-radius:12px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:24px;overflow:hidden}
+.ls-thumb-icon img{width:100%;height:100%;object-fit:cover;border-radius:12px}
 .ls-thumb-body{flex:1;min-width:0}
 .ls-thumb-title{font-size:13px;font-weight:700;color:var(--text);line-height:1.35;margin-bottom:2px}
 .ls-thumb-sub{font-size:11px;color:var(--mid);line-height:1.4}
@@ -156,7 +158,7 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
 .day-tabs::-webkit-scrollbar{display:none}
 .day-tab{padding:12px 18px;font-size:13px;font-weight:600;color:var(--light);cursor:pointer;border-bottom:2px solid transparent;transition:all .2s;white-space:nowrap}
 .day-tab.active{color:var(--text);border-bottom-color:var(--amber)}
-.day-content{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:20px 20px 40px}
+.day-content{flex:1;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:20px 20px 40px}
 .stop-item{display:flex;gap:14px;margin-bottom:28px}
 .stop-timeline{display:flex;flex-direction:column;align-items:center;flex-shrink:0}
 .stop-dot{width:12px;height:12px;border-radius:50%;background:var(--amber);border:2px solid #fff;box-shadow:0 0 0 2px var(--amber);flex-shrink:0}
@@ -276,13 +278,14 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
       </div>
       <div class="links-section">
         <h3>📸 추천 콘텐츠</h3>
-        <a class="ls-og" href="https://youtu.be/FKgIPxElr4Y" target="_blank">
-          <div class="ls-og-placeholder"><img src="https://img.youtube.com/vi/FKgIPxElr4Y/maxresdefault.jpg" style="width:100%;height:150px;object-fit:cover;display:block"></div>
-          <div class="ls-og-body">
+        <a class="ls-thumb" href="https://youtu.be/FKgIPxElr4Y" target="_blank">
+          <div class="ls-thumb-icon"><img src="https://img.youtube.com/vi/FKgIPxElr4Y/maxresdefault.jpg"></div>
+          <div class="ls-thumb-body">
             <div class="ls-badges"><span class="ls-badge hot">🎬 유튜브 영상</span></div>
-            <div class="ls-og-title">발리 한달살기 완전정복 — 밍구스월드의 장기여행 가이드, 우붓·꾸따·스미냑 코스</div>
-            <div class="ls-og-domain">youtube.com · 밍구스월드 · 밍구스월드</div>
+            <div class="ls-thumb-title">발리 한달살기 완전정복</div>
+            <div class="ls-thumb-sub">우붓·꾸따·스미냑 코스 · 밍구스월드</div>
           </div>
+          <div class="ls-thumb-arrow">›</div>
         </a>
       </div>
       <div class="links-section-pb"></div>
