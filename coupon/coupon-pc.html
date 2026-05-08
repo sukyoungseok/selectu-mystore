@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5HGL54Q9S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Q5HGL54Q9S');
+</script>
+<meta charset="UTF-8">
+<title>크리에이터 전용 쿠폰 - PC</title>
+<style>
+  @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #fff; font-family: 'Pretendard', -apple-system, sans-serif; }
+
+  /* 네비게이션 */
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 52px 80px 40px;
+  }
+  .nav-logo {
+    font-size: 22px;
+    font-weight: 900;
+    font-style: italic;
+    color: #191919;
+    letter-spacing: -1px;
+  }
+  .nav-logo span { color: #05C072; }
+  .nav-sub {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: -0.36px;
+  }
+
+  /* 히어로 */
+  .hero {
+    padding: 60px 80px 72px;
+    background: linear-gradient(160deg, #f8fbff 0%, #fff 60%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+  .platform-icons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  .platform-icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .platform-icon.insta {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  }
+  .platform-icon.youtube { background: #FF0000; }
+  .platform-icon svg { width: 36px; height: 36px; }
+  .plus-divider { font-size: 28px; font-weight: 300; color: #ccc; }
+
+  .hero-badge {
+    display: inline-flex;
+    gap: 7px;
+    align-items: center;
+    background: #101418;
+    border-radius: 24px;
+    padding: 6px 18px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+  }
+  .hero-badge svg { width: 16px; height: 16px; }
+
+  .hero-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #101418;
+    line-height: 1.26;
+    letter-spacing: -1.2px;
+  }
+  .hero-title em {
+    font-style: normal;
+    background: linear-gradient(97deg, #1583DB 49%, #04D1CE 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .hero-desc {
+    font-size: 18px;
+    font-weight: 500;
+    color: #888;
+    line-height: 1.5;
+    letter-spacing: -0.18px;
+  }
+
+  /* 쿠폰 섹션 */
+  .coupon-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 0 80px 80px;
+  }
+  .coupon-box {
+    width: 900px;
+    background: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    padding: 48px 88px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .coupon-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #101418;
+    text-align: center;
+    line-height: 1.35;
+    letter-spacing: -0.44px;
+  }
+  .coupon-title em {
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(97deg, #1583DB 49%, #04D1CE 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .coupon-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+  }
+  .coupon-card {
+    background: #f5f6f7;
+    border-radius: 12px;
+    padding: 24px 18.5px 16px;
+    width: 163px;
+  }
+  .coupon-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2b96ed;
+    letter-spacing: -0.28px;
+    margin-bottom: 6px;
+  }
+  .coupon-amount {
+    font-size: 22px;
+    font-weight: 700;
+    color: #141719;
+    line-height: 18px;
+    margin-bottom: 6px;
+  }
+  .coupon-cond {
+    font-size: 15px;
+    font-weight: 600;
+    color: #141719;
+    letter-spacing: -0.15px;
+  }
+  .coupon-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 14px 20px;
+    border-radius: 12px;
+    background: linear-gradient(91deg, #39A7FF 0%, #0C9997 100%);
+    color: white;
+    font-size: 16.5px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -0.15px;
+    width: 320px;
+  }
+</style>
+</head>
+<body>
+
+<div style="width:1060px; background:#fff;">
+  <!-- 네비 -->
+  <div class="nav">
+    <div class="nav-logo">M<span>y</span>realtrip</div>
+    <div class="nav-sub">공식 파트너스토어</div>
+  </div>
+
+  <!-- 히어로 -->
+  <div class="hero">
+    <div class="platform-icons">
+      <div class="platform-icon insta">
+        <svg viewBox="0 0 24 24" fill="none">
+          <rect x="2" y="2" width="20" height="20" rx="5" stroke="white" stroke-width="2"/>
+          <circle cx="12" cy="12" r="4" stroke="white" stroke-width="2"/>
+          <circle cx="17.5" cy="6.5" r="1.5" fill="white"/>
+        </svg>
+      </div>
+      <span class="plus-divider">+</span>
+      <div class="platform-icon youtube">
+        <svg viewBox="0 0 24 24" fill="white">
+          <path d="M21.8 8s-.2-1.4-.8-2c-.8-.8-1.6-.8-2-.9C16.6 5 12 5 12 5s-4.6 0-7 .1c-.4.1-1.2.1-2 .9-.6.6-.8 2-.8 2S2 9.6 2 11.2v1.5c0 1.6.2 3.2.2 3.2s.2 1.4.8 2c.8.8 1.8.8 2.2.8C6.6 19 12 19 12 19s4.6 0 7-.2c.4-.1 1.2-.1 2-.9.6-.6.8-2 .8-2s.2-1.6.2-3.2v-1.5C22 9.6 21.8 8 21.8 8zM10 15V9l5.2 3-5.2 3z"/>
+        </svg>
+      </div>
+    </div>
+    <div class="hero-badge">
+      <svg viewBox="0 0 16 16" fill="none">
+        <path d="M8 1l1.8 3.6 4 .6-2.9 2.8.7 4L8 10l-3.6 2 .7-4L2.2 5.2l4-.6L8 1z" fill="white"/>
+      </svg>
+      파트너 크리에이터 전용
+    </div>
+    <div class="hero-title">여행을 더 저렴하게,<br><em>크리에이터 특별쿠폰</em></div>
+    <div class="hero-desc">구독·팔로우 중인 크리에이터가 마이리얼트립과 함께 준비한 혜택이에요</div>
+  </div>
+
+  <!-- 쿠폰 -->
+  <div class="coupon-wrap">
+    <div class="coupon-box">
+      <div class="coupon-title">구독자·팔로워 전용&nbsp;&nbsp;<em>선착순 투어티켓 할인쿠폰</em></div>
+      <div class="coupon-grid">
+        <div class="coupon-card"><div class="coupon-label">COUPON</div><div class="coupon-amount">1,000원</div><div class="coupon-cond">5만원 이상 구매 시</div></div>
+        <div class="coupon-card"><div class="coupon-label">COUPON</div><div class="coupon-amount">3,000원</div><div class="coupon-cond">10만원 이상 구매 시</div></div>
+        <div class="coupon-card"><div class="coupon-label">COUPON</div><div class="coupon-amount">5,000원</div><div class="coupon-cond">15만원 이상 구매 시</div></div>
+        <div class="coupon-card"><div class="coupon-label">COUPON</div><div class="coupon-amount">15,000원</div><div class="coupon-cond">60만원 이상 구매 시</div></div>
+        <div class="coupon-card"><div class="coupon-label">COUPON</div><div class="coupon-amount">25,000원</div><div class="coupon-cond">100만원 이상 구매 시</div></div>
+        <div class="coupon-card"><div class="coupon-label">COUPON</div><div class="coupon-amount">50,000원</div><div class="coupon-cond">200만원 이상 구매 시</div></div>
+      </div>
+      <div class="coupon-btn">↓ 쿠폰팩 한번에 다운로드</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

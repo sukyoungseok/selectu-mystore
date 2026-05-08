@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5HGL54Q9S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Q5HGL54Q9S');
+</script>
+<meta charset="UTF-8">
+<title>크리에이터 전용 쿠폰팩 - PC</title>
+<style>
+  @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #f0f0f0; font-family: 'Pretendard', -apple-system, sans-serif; display: flex; justify-content: center; padding: 40px; }
+
+  .page { width: 1060px; background: linear-gradient(155deg, #F8FBFF 0%, #FFFFFF 60%); border-radius: 20px; overflow: hidden; box-shadow: 0 4px 32px rgba(0,0,0,0.1); }
+
+  /* 네비 */
+  .nav { padding: 44px 80px 36px; display: flex; align-items: center; gap: 8px; background: white; }
+  .nav-logo { font-size: 22px; font-weight: 900; font-style: italic; color: #191919; letter-spacing: -1px; }
+  .nav-logo span { color: #05C072; }
+  .nav-sub { font-size: 18px; font-weight: 700; color: #000; letter-spacing: -0.36px; }
+
+  /* 히어로 */
+  .hero {
+    padding: 56px 80px 64px;
+    background: linear-gradient(155deg, #F8FBFF 0%, #FFFFFF 60%);
+    display: flex; flex-direction: column; align-items: center; gap: 18px; text-align: center;
+  }
+  .platform-icons { display: flex; gap: 16px; align-items: center; }
+  .platform-icon {
+    width: 68px; height: 68px; border-radius: 20px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .platform-icon.insta { background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
+  .platform-icon.youtube { background: #FF0000; }
+  .platform-icon svg { width: 34px; height: 34px; }
+  .plus { font-size: 28px; font-weight: 300; color: #ccc; }
+
+  .badge {
+    display: inline-flex; gap: 7px; align-items: center;
+    background: #101418; border-radius: 24px; padding: 6px 18px;
+    color: white; font-size: 13px; font-weight: 600; letter-spacing: -0.2px;
+  }
+  .badge svg { width: 15px; height: 15px; }
+
+  .hero-title { font-size: 36px; font-weight: 800; color: #101418; line-height: 1.26; letter-spacing: -1.2px; }
+  .hero-title em {
+    font-style: normal;
+    background: linear-gradient(97deg, #1583DB 49%, #04D1CE 90%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .hero-desc { font-size: 17px; font-weight: 500; color: #888; line-height: 1.5; letter-spacing: -0.17px; }
+
+  /* 쿠폰 그리드 레이아웃 */
+  .coupon-row {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 20px; padding: 0 80px 80px;
+  }
+
+  .coupon-box { border-radius: 16px; overflow: hidden; box-shadow: 0 2px 16px rgba(0,0,0,0.07); }
+
+  .section-header {
+    padding: 28px 32px 24px;
+    display: flex; align-items: center; gap: 14px;
+  }
+  .section-icon { font-size: 28px; }
+  .section-tag { font-size: 11px; font-weight: 700; letter-spacing: 0.8px; opacity: 0.75; margin-bottom: 3px; color: rgba(255,255,255,0.85); }
+  .section-title-text { font-size: 20px; font-weight: 800; color: white; letter-spacing: -0.5px; }
+
+  /* 투어티켓: 파랑 */
+  .tour .section-header { background: linear-gradient(97deg, #39A7FF 0%, #0C9997 100%); }
+  .tour .coupon-label { color: #2B96ED; }
+  .tour .coupon-btn { background: linear-gradient(97deg, #39A7FF 0%, #0C9997 100%); }
+
+  /* 해외숙소: 오렌지 */
+  .hotel .section-header { background: linear-gradient(97deg, #FF8C42 0%, #FF4E50 100%); }
+  .hotel .coupon-label { color: #FF6B35; }
+  .hotel .coupon-btn { background: linear-gradient(97deg, #FF8C42 0%, #FF4E50 100%); }
+
+  .section-body { background: white; padding: 24px 28px 28px; display: flex; flex-direction: column; gap: 16px; }
+
+  .coupon-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+
+  .coupon-card { background: #f5f6f7; border-radius: 12px; padding: 18px 16px 14px; }
+  .coupon-label { font-size: 13px; font-weight: 700; letter-spacing: -0.2px; margin-bottom: 5px; }
+  .coupon-amount { font-size: 20px; font-weight: 700; color: #141719; margin-bottom: 4px; line-height: 1.1; }
+  .coupon-cond { font-size: 13px; font-weight: 600; color: #666; letter-spacing: -0.1px; }
+
+  .coupon-btn {
+    width: 100%; padding: 14px;
+    border-radius: 12px; color: white;
+    font-size: 15px; font-weight: 600;
+    text-align: center; letter-spacing: -0.15px;
+    border: none; cursor: pointer;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- 네비 -->
+  <div class="nav">
+    <div class="nav-logo">M<span>y</span>realtrip</div>
+    <div class="nav-sub">공식 파트너스토어</div>
+  </div>
+
+  <!-- 히어로 -->
+  <div class="hero">
+    <div class="platform-icons">
+      <div class="platform-icon insta">
+        <svg viewBox="0 0 24 24" fill="none">
+          <rect x="2" y="2" width="20" height="20" rx="5" stroke="white" stroke-width="2"/>
+          <circle cx="12" cy="12" r="4" stroke="white" stroke-width="2"/>
+          <circle cx="17.5" cy="6.5" r="1.5" fill="white"/>
+        </svg>
+      </div>
+      <span class="plus">+</span>
+      <div class="platform-icon youtube">
+        <svg viewBox="0 0 24 24" fill="white">
+          <path d="M21.8 8s-.2-1.4-.8-2c-.8-.8-1.6-.8-2-.9C16.6 5 12 5 12 5s-4.6 0-7 .1c-.4.1-1.2.1-2 .9-.6.6-.8 2-.8 2S2 9.6 2 11.2v1.5c0 1.6.2 3.2.2 3.2s.2 1.4.8 2c.8.8 1.8.8 2.2.8C6.6 19 12 19 12 19s4.6 0 7-.2c.4-.1 1.2-.1 2-.9.6-.6.8-2 .8-2s.2-1.6.2-3.2v-1.5C22 9.6 21.8 8 21.8 8zM10 15V9l5.2 3-5.2 3z"/>
+        </svg>
+      </div>
+    </div>
+    <div class="badge">
+      <svg viewBox="0 0 14 14" fill="none"><path d="M7 1l1.5 3 3.5.5-2.5 2.5.5 3.5L7 9l-3 1.5.5-3.5L2 4.5 5.5 4 7 1z" fill="white"/></svg>
+      파트너 크리에이터 전용
+    </div>
+    <div class="hero-title">여행을 더 저렴하게,<br><em>크리에이터 특별쿠폰</em></div>
+    <div class="hero-desc">구독·팔로우 중인 크리에이터가 마이리얼트립과 함께 준비한 혜택이에요</div>
+  </div>
+
+  <!-- 쿠폰 두 섹션 나란히 -->
+  <div class="coupon-row">
+
+    <!-- 투어티켓 -->
+    <div class="coupon-box tour">
+      <div class="section-header">
+        <div class="section-icon">🎫</div>
+        <div>
+          <div class="section-tag">TOUR TICKET</div>
+          <div class="section-title-text">투어티켓 쿠폰팩</div>
+        </div>
+      </div>
+      <div class="section-body">
+        <div class="coupon-grid">
+          <div class="coupon-card"><div class="coupon-label tour">COUPON</div><div class="coupon-amount">1,000원</div><div class="coupon-cond">5만원 이상</div></div>
+          <div class="coupon-card"><div class="coupon-label tour">COUPON</div><div class="coupon-amount">3,000원</div><div class="coupon-cond">10만원 이상</div></div>
+          <div class="coupon-card"><div class="coupon-label tour">COUPON</div><div class="coupon-amount">5,000원</div><div class="coupon-cond">15만원 이상</div></div>
+          <div class="coupon-card"><div class="coupon-label tour">COUPON</div><div class="coupon-amount">15,000원</div><div class="coupon-cond">60만원 이상</div></div>
+          <div class="coupon-card"><div class="coupon-label tour">COUPON</div><div class="coupon-amount">25,000원</div><div class="coupon-cond">100만원 이상</div></div>
+          <div class="coupon-card"><div class="coupon-label tour">COUPON</div><div class="coupon-amount">50,000원</div><div class="coupon-cond">200만원 이상</div></div>
+        </div>
+        <button class="coupon-btn tour">↓ 쿠폰팩 한번에 다운로드</button>
+      </div>
+    </div>
+
+    <!-- 해외숙소 -->
+    <div class="coupon-box hotel">
+      <div class="section-header">
+        <div class="section-icon">🏨</div>
+        <div>
+          <div class="section-tag">HOTEL &amp; STAY</div>
+          <div class="section-title-text">해외숙소 쿠폰팩</div>
+        </div>
+      </div>
+      <div class="section-body">
+        <div class="coupon-grid">
+          <div class="coupon-card"><div class="coupon-label hotel">COUPON</div><div class="coupon-amount">1,000원</div><div class="coupon-cond">5만원 이상</div></div>
+          <div class="coupon-card"><div class="coupon-label hotel">COUPON</div><div class="coupon-amount">3,000원</div><div class="coupon-cond">10만원 이상</div></div>
+          <div class="coupon-card"><div class="coupon-label hotel">COUPON</div><div class="coupon-amount">5,000원</div><div class="coupon-cond">15만원 이상</div></div>
+          <div class="coupon-card"><div class="coupon-label hotel">COUPON</div><div class="coupon-amount">15,000원</div><div class="coupon-cond">60만원 이상</div></div>
+          <div class="coupon-card"><div class="coupon-label hotel">COUPON</div><div class="coupon-amount">25,000원</div><div class="coupon-cond">100만원 이상</div></div>
+          <div class="coupon-card"><div class="coupon-label hotel">COUPON</div><div class="coupon-amount">50,000원</div><div class="coupon-cond">200만원 이상</div></div>
+        </div>
+        <button class="coupon-btn hotel">↓ 쿠폰팩 한번에 다운로드</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
