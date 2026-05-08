@@ -50,7 +50,7 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
 .trip-card{flex-shrink:0;width:300px;scroll-snap-align:center;background:#fff;border:1px solid var(--border);border-radius:20px;overflow:hidden;box-shadow:0 6px 18px rgba(24,21,18,.07)}
 .tc-hero{position:relative;height:150px}
 .tc-hero.jayna-bohol{background:url('../assets/images/jayna-card1.jpg') center/cover no-repeat}
-.tc-hero.jayna-ocean{background:linear-gradient(160deg,#0d4f7a 0%,#0e8fa0 60%,#18b8b0 100%)}
+.tc-hero.jayna-ocean{background:url('../assets/images/jayna-card2.jpg') center/cover no-repeat}
 .tc-hero.jayna-sunset{background:linear-gradient(160deg,#7a2a10 0%,#c85420 50%,#e89040 100%)}
 .tc-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,14,10,.05),rgba(17,14,10,.68))}
 .tc-hero-content{position:absolute;left:16px;right:16px;bottom:14px;z-index:1;color:#fff;display:flex;align-items:center;gap:10px}
@@ -269,8 +269,32 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
             </div>
           </div>
         </div>
+        <div class="trip-card">
+          <div class="tc-hero jayna-ocean">
+            <div class="tc-hero-content">
+              <div class="tc-flag">🐢</div>
+              <div class="tc-title-col">
+                <div class="tc-badges"><span class="tc-badge">보홀</span><span class="tc-badge">제이나 강추</span></div>
+                <div class="tc-title">호핑투어 & 스노클링</div>
+              </div>
+            </div>
+          </div>
+          <div class="tc-body">
+            <div class="tc-ask">어디부터 볼까요?</div>
+            <div class="tc-choice">
+              <button class="plan" onclick="openCourse('bohol')">
+                <div><strong>일정표 보기</strong><span>DAY별 동선 확인</span></div>
+                <div class="tc-arr">›</div>
+              </button>
+              <button class="cost" onclick="openExpensePanel('bohol')">
+                <div class="tc-c-row1"><strong>상세 경비 보기</strong><div class="tc-c-price"><span class="tc-c-num">118</span><span class="tc-c-unit">만~</span><span class="tc-arr" style="margin-left:4px">›</span></div></div>
+                <div class="tc-c-row2"><span class="tc-c-badge">🔥 인기</span><span class="tc-c-sub">항공·숙소·투어 한 번에</span></div>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="trip-nav"><button class="trip-arrow" id="trip-prev" onclick="tripScroll(-1)">‹</button><div class="trip-dots"><span class="trip-dot on"></span></div><button class="trip-arrow" id="trip-next" onclick="tripScroll(1)">›</button></div>
+      <div class="trip-nav"><button class="trip-arrow" id="trip-prev" onclick="tripScroll(-1)">‹</button><div class="trip-dots"><span class="trip-dot on"></span><span class="trip-dot"></span></div><button class="trip-arrow" id="trip-next" onclick="tripScroll(1)">›</button></div>
     </div>
     <div class="page-tabs">
       <div class="page-tab on" data-tab="posts" onclick="switchTab('posts')">링크</div>
