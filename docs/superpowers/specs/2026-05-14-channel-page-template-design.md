@@ -77,9 +77,18 @@ module.exports = {
 
   textblock: { title:"🍜 ...", body:"..." },
 
-  links: [   // 추천 콘텐츠 — 썸네일형/OG카드형 둘 다 지원
-    { style:"thumb", icon:"🇯🇵", badges:["경비 총정리"], title:"...", sub:"...", url:"..." },
-    { style:"og", img:"https://...", title:"...", url:"..." },
+  linkSections: [   // 추천 콘텐츠 — "섹션(h3 제목) → 항목들" 2단 구조
+    {
+      heading: "📸 추천 콘텐츠",
+      items: [
+        // 썸네일형: 작은 아이콘 + 제목 + 한 줄 설명
+        { type:"thumb", icon:"🇯🇵", badges:[{text:"경비 총정리",style:"hot"}],
+          title:"...", sub:"...", url:"..." },
+        // OG카드형: 큰 썸네일 이미지 + 제목 + 도메인
+        { type:"og", img:"https://...", badges:[{text:"🔥 13만 조회수",style:"hot"}],
+          title:"...", domain:"youtube.com · 파파트래블", url:"..." },
+      ]
+    },
   ],
 
   products: [  // 필수템 탭 상품 목록
@@ -105,7 +114,8 @@ module.exports = {
 
 핵심:
 - `trips[]` 배열이 단일/다중 도시를 자동 처리. 1개면 트립카드 1장, 2개면 2장. `days`는 기존 `CITY_DAYS`, `expense`는 기존 `CITY_EXPENSE`와 동일 구조.
-- `links`는 썸네일형(`thumb`)·OG카드형(`og`) 둘 다 `style` 필드로 지원.
+- `linkSections`는 "섹션(h3 제목) → 항목들" 2단 구조. 항목은 썸네일형(`thumb`)·OG카드형(`og`) 2가지 타입을 지원한다. 파파트래블에만 있는 `dest-bundle`(목적지 묶음 복합 컴포넌트)은 일회성 구조이므로 템플릿 범위에서 제외하며, 추후 신규 페이지에서 실제 필요해지면 셸에 확장한다.
+- 트립카드 안내 문구는 크리에이터 전체 통일이므로 셸에 고정한다: `tc-ask`는 "어디부터 볼까요?", 일정표 버튼은 "일정표 보기 / DAY별 동선 확인", 경비 버튼은 "상세 경비 보기 / 🔥 인기 / 항공·숙소·투어 한 번에". `trips[].title`·`badges`·`costFrom`만 크리에이터별로 다르다.
 - 수경님 구역은 영상 보고 옮기면 되는 단순 정보, Claude 구역은 요약·구조화가 필요한 부분.
 
 ## 색상 프리셋
@@ -147,6 +157,8 @@ const CITY_EXPENSE = {{CITY_EXPENSE}};
 
 - CSS는 셸에 완전 고정.
 - 배경 이미지는 지금 방식 그대로 유지한다. 빌드가 기존과 똑같은 형태의 CSS 한 줄(`.hero-cover{...}`, `.tc-hero.{city}{...}`)을 자동 생성해 셸의 전용 슬롯에 끼운다. 디자인 코드 접근 방식은 바꾸지 않는다.
+- 셸은 최신 페이지(트립카드 캐러셀 ‹ › 화살표 버튼 + `tripScroll` JS + `id="trip-carousel"`·`id="trip-dots"` 포함)를 기준으로 한다. 화살표는 모든 신규 페이지에 표준 포함된다.
+- `<div class="trip-dots">`의 dot 개수도 `trips[]` 개수에 맞춰 빌드가 생성한다.
 
 ### build.js
 
@@ -155,7 +167,7 @@ const CITY_EXPENSE = {{CITY_EXPENSE}};
 1. `shell.html` + `data/부산맛나.js` 읽기
 2. 색상 프리셋 적용 — `theme` 이름으로 `THEMES`에서 토큰 조회, `:root` 슬롯 주입
 3. 배경 이미지 CSS 생성 — `heroImg` 및 각 `trips[].cardImg`로 CSS 한 줄씩 생성해 슬롯 주입
-4. 반복구역 렌더링 — `sns[]`→SNS 아이콘, `trips[]`→트립카드, `links[]`→링크 항목, `coupon.cards[]`→쿠폰 카드
+4. 반복구역 렌더링 — `sns[]`→SNS 아이콘, `trips[]`→트립카드+dot, `linkSections[]`→섹션(h3)별 링크 항목(thumb/og), `coupon.cards[]`→쿠폰 카드
 5. `<script>` 안에 `products` / `CREATOR` / `CITY_DAYS` / `CITY_EXPENSE` 주입 — `CITY_DAYS`·`CITY_EXPENSE`는 `trips[]`에서 `city`를 키로 자동 조립
 6. `done/부산맛나.html` 완성본 출력
 
