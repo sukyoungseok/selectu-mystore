@@ -27,12 +27,12 @@ module.exports = {
     amount: "99,000",
     count: "8종",
     cards: [
-      { label:"마이리얼트립 파트너 혜택", title:"첫 예약 3,000원 할인",
-        desc:"5만원 이상 결제 시 · 1회 사용 가능", expire:"유효기간: 2026.06.30까지",
-        remain:"잔여 47장", url:"https://www.myrealtrip.com/coupons", color:"var(--amber)" },
-      { label:"재방문 감사 쿠폰", title:"2번째 예약 5% 할인",
-        desc:"최대 1만원 · 부산맛나 전용", expire:"유효기간: 2026.07.31까지",
-        remain:"잔여 23장", url:"https://www.myrealtrip.com/coupons", color:"var(--sage)" },
+      { label: "마이리얼트립 파트너 혜택", title: "첫 예약 3,000원 할인",
+        desc: "5만원 이상 결제 시 · 1회 사용 가능", expire: "유효기간: 2026.06.30까지",
+        remain: "잔여 47장", url: "https://www.myrealtrip.com/coupons", color: "var(--amber)" },
+      { label: "재방문 감사 쿠폰", title: "2번째 예약 5% 할인",
+        desc: "최대 1만원 · 부산맛나 전용", expire: "유효기간: 2026.07.31까지",
+        remain: "잔여 23장", url: "https://www.myrealtrip.com/coupons", color: "var(--sage)" },
     ],
   },
 
@@ -50,6 +50,10 @@ module.exports = {
           title:"삿포로 5박6일 인당 123만원",
           sub:"료칸·스프카레·징기스칸·버스투어 완전 정복",
           url:"https://www.instagram.com/reel/DSCL2k-EpkW/" },
+        // og 타입 예시 (큰 썸네일 카드 — 유튜브 영상 등):
+        // { type:"og", img:"https://img.youtube.com/vi/{영상ID}/maxresdefault.jpg",
+        //   badges:[{text:"🔥 13만 조회수",style:"hot"}], title:"영상 제목",
+        //   domain:"youtube.com · 채널명", url:"https://youtu.be/{영상ID}" },
       ],
     },
   ],
@@ -73,6 +77,7 @@ module.exports = {
     {
       city: "sapporo",
       flag: "🇯🇵",
+      // 참고: badges는 크리에이터 전체 여행 기간, days/expense는 하이라이트 압축본 (3박 4일)
       badges: ["5박 6일", "인당 123만원"],
       title: "삿포로 가성비 코스",
       cardImg: "../assets/images/busanmatna-card1.jpg",
@@ -85,7 +90,7 @@ module.exports = {
           {time:"저녁",place:"스스키노 라멘 골목",lat:43.0558,lng:141.3548,pinColor:"amber",pinLabel:"D1",desc:"삿포로 미소라멘 꼭 드세요! 스스키노 라멘 골목에서 진한 버터콘 라멘 추천 🍜",cost:"라멘 ₩12,000~",product:null},
         ]},
         {day:2,date:"D2 · 오타루 당일치기",dayCost:"오타루+초밥 약 ₩7만",stops:[
-          {time:"09:00",place:"삿포로역 → 오타루 (JR 25분)",lat:43.1908,lng:140.9942,pinColor:"sage",pinLabel:"D2",desc:"JR 쾌속으로 25분. 오타루 시내 걸어다닐 수 있어서 렌트 불필요 🚃",cost:"왕복 ₩9,000~"},
+          {time:"09:00",place:"삿포로역 → 오타루 (JR 25분)",lat:43.1908,lng:140.9942,pinColor:"sage",pinLabel:"D2",desc:"JR 쾌속으로 25분. 오타루 시내 걸어다닐 수 있어서 렌트 불필요 🚃",cost:"왕복 ₩9,000~",product:null},
           {time:"오전",place:"오타루 운하 & 창고거리",lat:43.1967,lng:140.9947,pinColor:"sage",pinLabel:"D2",desc:"붉은 벽돌 창고와 운하 반영이 최고 포토스팟. 아침 일찍 가면 사람 없어요 📸",cost:"무료",product:null},
           {time:"점심",place:"오타루 회전초밥 (마사즈시)",lat:43.1925,lng:140.9942,pinColor:"sage",pinLabel:"D2",desc:"홋카이도 신선 해산물 회전초밥. 연어·성게·게 등 1접시 200~500엔. 줄 서도 가치 있어요 🍣",cost:"1인 ₩25,000~",product:null},
           {time:"오후",place:"오타루 오르골당 & 유리공예",lat:43.1940,lng:140.9936,pinColor:"sage",pinLabel:"D2",desc:"100년 역사 오르골 박물관. 미니 오르골이 기념품으로 인기. 체험 제작도 가능 🎵",cost:"₩15,000~",product:null},
@@ -93,7 +98,7 @@ module.exports = {
         {day:3,date:"D3 · 삿포로 맛집 + 귀국",dayCost:"맥주+스프카레 약 ₩5만",stops:[
           {time:"오전",place:"삿포로 맥주박물관",lat:43.0686,lng:141.3744,pinColor:"blush",pinLabel:"D3",desc:"무료 관람 + 유료 시음. 클래식·블랙라벨 등 삿포로 맥주 3종 시음 추천 🍺",cost:"시음 ₩8,000~",product:null},
           {time:"점심",place:"삿포로 스프카레 (스아게+)",lat:43.0680,lng:141.3510,pinColor:"blush",pinLabel:"D3",desc:"삿포로 소울푸드! 닭다리+큰 채소가 통째로 들어간 진한 카레. 본점 추천 🍛",cost:"₩15,000~",product:null},
-          {time:"오후",place:"오도리공원 & TV타워",lat:43.0609,lng:141.3556,pinColor:"blush",pinLabel:"D3",desc:"삿포로 한복판 1.5km 공원. 겨울엔 눈 축제 장소! TV타워 전망대에서 파노라마 🗼",cost:"전망대 ₩5,000~"},
+          {time:"오후",place:"오도리공원 & TV타워",lat:43.0609,lng:141.3556,pinColor:"blush",pinLabel:"D3",desc:"삿포로 한복판 1.5km 공원. 겨울엔 눈 축제 장소! TV타워 전망대에서 파노라마 🗼",cost:"전망대 ₩5,000~",product:null},
           {time:"18:00",place:"신치토세 공항 → 귀국",lat:42.7772,lng:141.6929,pinColor:"blush",pinLabel:"D3",desc:"공항 면세점 로이스 생초콜릿·시로이코이비토 쿠키 필수 구매! 귀국 선물 1티어 🍫",cost:"",product:null},
         ]},
       ],
