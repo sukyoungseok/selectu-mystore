@@ -1,0 +1,704 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - link "myrealtrip" [ref=e6] [cursor=pointer]:
+        - /url: https://www.myrealtrip.com
+        - img "myrealtrip" [ref=e7]
+      - generic [ref=e10]:
+        - img "icon" [ref=e12] [cursor=pointer]
+        - textbox "\"파리 숙소 특가\" 기간 한정 오픈!" [ref=e13]
+      - generic [ref=e15]:
+        - button "파트너 로그인" [ref=e17] [cursor=pointer]
+        - button "로그인 및 회원가입" [ref=e19] [cursor=pointer]
+    - navigation [ref=e21]:
+      - generic [ref=e22]:
+        - link "홈" [ref=e24] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com
+          - generic [ref=e25]: 홈
+        - link "할인" [ref=e27] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/promotions/benefit
+          - generic [ref=e28]: 할인
+        - link "항공" [ref=e30] [cursor=pointer]:
+          - /url: https://flights.myrealtrip.com/
+          - generic [ref=e31]: 항공
+        - link "해외 숙소" [ref=e33] [cursor=pointer]:
+          - /url: https://accommodation.myrealtrip.com/union?isDomestic=false&exposureSubCategory=HOTEL_RESORT
+          - generic [ref=e34]: 해외 숙소
+        - link "국내 숙소" [ref=e36] [cursor=pointer]:
+          - /url: https://accommodation.myrealtrip.com/union?isDomestic=true&exposureSubCategory=HOTEL_RESORT
+          - generic [ref=e37]: 국내 숙소
+        - link "패키지" [ref=e39] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/promotions/package_home
+          - generic [ref=e40]: 패키지
+        - link "한인민박" [ref=e42] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/promotions/hanin
+          - generic [ref=e43]: 한인민박
+        - link "투어·티켓" [ref=e45] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/main/experiences/
+          - generic [ref=e46]: 투어·티켓
+        - generic [ref=e47]:
+          - link "유럽열차" [ref=e48] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/transportation
+            - generic [ref=e49]: 유럽열차
+          - img "icon" [ref=e50]
+        - button "더보기 icon" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: 더보기
+          - img "icon" [ref=e54]
+  - main [ref=e55]:
+    - generic [ref=e57]:
+      - navigation [ref=e62]:
+        - generic [ref=e64]:
+          - button "상품 소개" [ref=e65] [cursor=pointer]
+          - button "상품 정보" [ref=e66] [cursor=pointer]
+          - button "이용 안내" [ref=e67] [cursor=pointer]
+          - button "환불 안내" [ref=e68] [cursor=pointer]
+          - button "후기" [ref=e69] [cursor=pointer]
+      - generic [ref=e71]:
+        - article [ref=e72]:
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - link "일본" [ref=e75] [cursor=pointer]:
+                - /url: /search?q=일본
+              - link "오사카" [ref=e77] [cursor=pointer]:
+                - /url: /search?q=오사카
+            - heading "[시간지정/즉시확정] 유니버셜 스튜디오 재팬 익스프레스4,5" [level=1] [ref=e78]
+            - button "4.7 (1,531)" [ref=e81] [cursor=pointer]:
+              - generic [ref=e82]:
+                - img [ref=e83]
+                - img [ref=e85]
+                - img [ref=e87]
+                - img [ref=e89]
+                - img [ref=e91]
+              - generic [ref=e93]: "4.7"
+              - generic [ref=e94]: (1,531)
+          - list [ref=e95]:
+            - listitem [ref=e96]:
+              - img "즉시확정" [ref=e97]
+              - strong [ref=e98]: 즉시확정
+              - text: 구매 즉시 예약 확정 (일부 상품 이용일 추가 예약 필요)
+            - listitem [ref=e99]:
+              - img "최대 12개월 무이자 할부 가능" [ref=e100]
+              - strong [ref=e101]: 최대 12개월 무이자 할부 가능
+              - link [ref=e102] [cursor=pointer]:
+                - /url: https://www.myrealtrip.com/order/installment
+                - img [ref=e103]
+          - list [ref=e105]:
+            - listitem [ref=e106]:
+              - img "eticket" [ref=e107]
+              - text: e-ticket
+            - listitem [ref=e108]:
+              - img "walking" [ref=e109]
+              - text: 도보 이동
+            - listitem [ref=e110]:
+              - img "language" [ref=e111]
+              - text: 한국어
+          - list [ref=e112]:
+            - listitem [ref=e113]:
+              - generic [ref=e116]:
+                - heading "📣익스프레스패스 티켓 오픈 공지" [level=3] [ref=e117]
+                - paragraph [ref=e120]:
+                  - text: 🚨2026년 5월 7일 ~ 5월 31일 기간 동안은 다이너소어 어트랙션 운행 중지로 인해 해리포터로 자동 지정되어 이용이 진행됩니다. 🤯 옵션이 많고 복잡한 익스프레스 패스 .. 👇🏻 나에게 딱 맞는 익스프레스는? 10초 만에 찾는 맞춤형 티켓 추천! 🪄
+                  - link "https://myusjexpress-myrealtrip.lovable.app/" [ref=e121] [cursor=pointer]:
+                    - /url: https://myusjexpress-myrealtrip.lovable.app/
+                  - text: 🔹구매일 기준 2개월 뒤의 티켓 구매가 가능합니다. 🔹선택일자에 가능한 모든 옵션을 불러오는 데 평균 5초 정도 소요됩니다. 🔹여러 명이 방문 예정이라면 인원수만큼 한번에 구매해 주세요. 취소/환불 불가한 상품으로 개별 구매 시, 예약 변경이 어렵습니다. 한번에 구매가능한 최대 수량은 20매이며, 그 이상을 구매할 경우 예약이 취소될 수 있습니다. 🔹본 상품은 구매 즉시 확정이 되는 상품이나, 상황에 따라 예약 확정 및 바우처 확인까지 시간이 조금 더 소요될 수 있습니다. 🔹아동 이용 규정 - 만 3세 이하는 보호자의 익스프레스 패스로 같이 이용가능합니다. 보호자의 익스프레스 패스로 닌텐도 확약시간에 같이 입장가능합니다. - 다만 키 제한 등으로 이용하지 못하는 어트랙션이 많습니다. 아래 링크에서 신장 제한 규정을 살펴본 후 이용해주세요. (
+                  - link "https://www.usj.co.jp/web/ko/kr/service-guide/safe/height-restriction" [ref=e122] [cursor=pointer]:
+                    - /url: https://www.usj.co.jp/web/ko/kr/service-guide/safe/height-restriction
+                  - text: ) TM & © Universal Studios. All rights reserved. 🚨2026년 3월 7일 ~ 3월 29일 죠스™가 점검을 진행합니다. 지금 유니버셜 스튜디오 재팬 구매하면 일본 eSIM 50% 즉시 할인! ✔️ eSIM 링크(
+                  - link "https://www.myrealtrip.com/sim" [ref=e123] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/sim
+                  - text: ) ✔️ 본 상품 구매 시 할인쿠폰이 자동으로 발급됩니다.
+          - generic [ref=e125]:
+            - heading "옵션 선택" [level=2] [ref=e126]
+            - generic [ref=e128]:
+              - button "금액 조회하기가 무엇인가요?question-icon" [ref=e129] [cursor=pointer]:
+                - paragraph [ref=e130]: 금액 조회하기가 무엇인가요?
+                - img "question-icon" [ref=e131]
+              - generic [ref=e133]:
+                - button "날짜를 선택해주세요" [ref=e135] [cursor=pointer]
+                - generic:
+                  - button "option-icon옵션을 선택해주세요":
+                    - img "option-icon"
+                    - text: 옵션을 선택해주세요
+                - button "금액 조회하기" [disabled] [ref=e137]
+          - generic [ref=e141]:
+            - img [ref=e143]
+            - button "상품 설명 더 보기더보기" [ref=e147] [cursor=pointer]:
+              - text: 상품 설명 더 보기
+              - img "더보기" [ref=e148]
+          - generic [ref=e151]:
+            - generic [ref=e153]: 1/20
+            - generic [ref=e155]:
+              - img "advertisement-banner-offer_detail-6193" [ref=e159] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-3675" [ref=e163] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-3790" [ref=e167] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5512" [ref=e173] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5546" [ref=e179] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5959" [ref=e185] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5950" [ref=e191] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-4370" [ref=e197] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5541" [ref=e203] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5426" [ref=e209] [cursor=pointer]
+              - generic [ref=e212] [cursor=pointer]:
+                - img "advertisement-banner-offer_detail-6080" [ref=e215]
+                - generic:
+                  - generic: 광고
+              - generic [ref=e218] [cursor=pointer]:
+                - img "advertisement-banner-offer_detail-5866" [ref=e221]
+                - generic:
+                  - generic: 광고
+              - img "advertisement-banner-offer_detail-3400" [ref=e227] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-4738" [ref=e233] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5654" [ref=e239] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5477" [ref=e245] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-6272" [ref=e251] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-6112" [ref=e257] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-4102" [ref=e263] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-6096" [ref=e269] [cursor=pointer]
+          - generic [ref=e273]:
+            - generic [ref=e274]:
+              - paragraph [ref=e275]: "4.7"
+              - generic [ref=e276]:
+                - generic [ref=e277]:
+                  - img [ref=e278]
+                  - img [ref=e280]
+                  - img [ref=e282]
+                  - img [ref=e284]
+                  - img [ref=e286]
+                - paragraph [ref=e288]: 후기 1531개
+            - generic [ref=e289]:
+              - generic [ref=e291]:
+                - img [ref=e292]
+                - img [ref=e294]
+                - img [ref=e296]
+                - img [ref=e298]
+                - img [ref=e300]
+              - paragraph [ref=e302]: 김**
+              - generic [ref=e304]:
+                - text: 자녀와 가는 여행
+                - text: 2026-04-18
+              - generic [ref=e306]:
+                - generic [ref=e307]:
+                  - text: 리뷰 보고 구매했는데
+                  - text: 가격이 저렴한 편은 아니지만
+                  - text: 직접 가보면 오히려 가격이 싸게 느껴질 정도로
+                  - text: 정말로 가볼만한 곳이에요!!!
+                  - text: 아이들과 같이 갔는데
+                  - text: 가족들 전부 너무 만족해하면서 잘 놀고왔어요
+                  - text: 입구에서 모바일 티켓만 찍으면 돼서 편했어요!
+                  - text: 익스프레스 패스는 줄이 따로 있었고
+                  - text: 직원이 들어가는 입구, 중간에 비치되어있어
+                  - text: 큐알을 여러번 찍어서 확인하는데
+                  - text: 확실히 일반 줄 보다 빨리 탈 수 있는 장점이 있어 좋았어요
+                  - text: 아무래도 돈은 비싸지만 시간을 살 수 있단 장점!!
+                  - text: 이왕이면 같이 가는 가족이나 일행 중에서
+                  - text: 한 사람이 큐알을 다 가지고 있으면 한 번에
+                  - text: 다 찍어서 바로바로 입장 가능하니 편할 듯해요~
+                  - text: (어트랙션 취향이 달라 흩어지는 경우는 제외)
+                  - text: 5개짜리 구매했는데 추후 원더랜드 가서 2개,
+                  - text: 더라이드 1개 기다려서 타는 거 합쳐서
+                  - text: 10시반입장-오후6시까지 총 8개 탔습니다~~
+                  - text: (중간 점심 시간 30-1시간 제외하고)
+                  - text: 놀이기구 충분히 타고싶으신 분은 꼭 추천드려요!!
+                - button "더 보기arrow-blue-down" [ref=e308] [cursor=pointer]:
+                  - generic [ref=e309]:
+                    - text: 더 보기
+                    - img "arrow-blue-down" [ref=e310]
+              - button "후기 1,531개 전체 보기더보기" [ref=e311] [cursor=pointer]:
+                - text: 후기 1,531개 전체 보기
+                - img "더보기" [ref=e312]
+          - generic [ref=e314]:
+            - heading "상품 정보" [level=2] [ref=e315]
+            - generic [ref=e316]:
+              - generic [ref=e317]:
+                - heading "포함 사항" [level=3] [ref=e318]
+                - paragraph [ref=e322]: • 유니버셜 익스프레스 패스 4 * 선택한 익스프레스4 권종에 따라 탑승 어트랙션이 달라집니다.
+              - generic [ref=e323]:
+                - heading "불포함 사항" [level=3] [ref=e324]
+                - paragraph [ref=e328]: • 유니버설 스튜디오 재팬™입장권 (반드시 별도로 구매하셔야 이용 가능합니다.) • 기타 개인 경비
+          - generic [ref=e330]:
+            - heading "이용 안내" [level=2] [ref=e331]
+            - generic [ref=e332]:
+              - generic [ref=e333]:
+                - heading "이용 시간" [level=3] [ref=e334]
+                - paragraph [ref=e336]:
+                  - text: "[운영시간] 08:30-22:00 • 운영시간은 매일 달라집니다. • 링크를 통해 확인해주세요. ("
+                  - link "https://www.usj.co.jp/web/en/us/park-guide/schedule/park-hour" [ref=e337] [cursor=pointer]:
+                    - /url: https://www.usj.co.jp/web/en/us/park-guide/schedule/park-hour
+                  - text: )
+              - generic [ref=e338]:
+                - heading "위치 안내" [level=3] [ref=e339]
+                - generic [ref=e340]:
+                  - paragraph [ref=e341]:
+                    - paragraph [ref=e343]: 유니버설 스튜디오 재팬 (2 Chome-1-33 Sakurajima, Konohana Ward, Osaka, 554-0031 일본)
+                  - link "지도" [ref=e345] [cursor=pointer]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=34.6654338377898,135.432335398237
+                    - img "지도" [ref=e346]
+              - generic [ref=e347]:
+                - heading "사용 방법" [level=3] [ref=e348]
+                - generic [ref=e349]:
+                  - paragraph [ref=e352]:
+                    - text: "• 예약 확정 후 마이리얼트립 앱 - '내 여행' - 예약 상세 페이지 클릭시 바우처를 확인하실 수 있습니다. • 이용 방법 : 모바일 또는 출력본 바우처(e-티켓) 제시 후 바로 이용 • 유효기간 : 지정일 사용 [유의사항] • 파크에 입장하시려면 별도의 입장권을 구입해야 합니다. • 1인당 1매의 티켓을 구입해야 합니다. • 실권교환없이 지정된 시간에 어트랙션의 익스프레스 줄을 통해 입장하여 이용해 주세요. • 지정된 시간에 해당 어트랙션을 이용하지 못한 경우, 해당 어트랙션은 익스프레스패스를 통해 이용할 수 없습니다. 지정된 시간을 지켜주세요. • 일부 익스프레스패스에는 슈퍼닌텐도월드에서 이용가능한 파워업밴드의 구매권이 포함되어있습니다. 교환권이 아닌 구매권임으로 유의부탁드립니다. • 구매일로부터 93일이후 이용분의 재고가 매일 오픈 판매됩니다. • 날짜 지정 시 특정 옵션이 노출이 안 되는 경우 재고가 마감된 사항으로 구매 불가능합니다. • 안전을 위해 직원의 지시에 따라 체험해 주세요. • 또한, 위험한 행위나 다른 게스트에게 피해를 주는 행위를 할 경우, 파크 퇴장을 요구할 수 있습니다. • 좌석에 깊숙이 앉으시고, 항시 등을 등받이에 기댄 자세로 승차해 주세요. • 개별 구입의 경우, 취소가 불가능하니 주의해 주세요. • 어트랙션의 경우 운행중지기간이 긴급하게 있을 수 있습니다. • 운행중지 중인 어트랙션의 경우, 익스프레스 패스 사용 대상 어트랙션 중 다른 것으로 1회 대체 이용하실 수 있습니다. * 대체 어트랙션에 대한 미탑승으로 인한 부분 환불은 요청은 불가하니 사전에 유의해주세요. • 해당 어트랙션의 운행 시간은 예고 없이 변경될 수 있습니다. • 해당 어트랙션이 특별한 행사를 할 경우에는 다른 어트랙션으로 간주하여 본 티켓을 이용할 수 없습니다. • 어트랙션 탑승 시 악화될 우려가 있는 증상을 가진 분, 바른 승차 자세를 유지할 수 없는 분, 체격에 의해 좌석에 앉을 수 없는 분, 안전장치를 고정할 수 없는 분, 깁스를 착용한 분은 이용하실 수 없습니다. • 라이드를 이용함에 있어서 악화될 우려가 있는 증상을 가진 분은 이용할 수 없습니다. • 바른 자세를 유지할 수 없는 분, 체격에 의해 시트에 앉을 수 없는 분 및 안전바로 신체를 고정할 수 없는 분은 이용할 수 없습니다. • 휠체어 또는 전동식 휠체어를 이용하시는 분은 어트랙션 좌석으로 바꿔 타셔야 합니다. • 안경은 벗고 탑승해 주세요. • 의수, 의족을 사용하시는 분, 깁스를 하신분, 가발을 착용하시는 분은 말씀해 주세요. • 고정이 안된 보조구, 인공 기관(의료 기기)을 장착하신 분은 직원에게 문의해 주세요. • 일부, 어두운 장소를 주행하게 됩니다. 불안하신 분은 말씀해 주세요. • 수하물은 들고 타실 수 없습니다. 카메라, 비디오, 기타 모든 짐은 선반 또는 어트랙션을 이용하지 않는 일행분에게 맡겨 주세요. • 시설 안에서는 사진 및 비디오 촬영을 금지하고 있습니다. • 시설 안에서는 먹고 마시는 것을 금지하고 있습니다. • 아래에 해당하는 분은 이용할 수 없습니다. - 심장 질환, 혈압 이상 / 등, 목, 허리, 척추 부위 질환 / 임신 중 / 멀미, 어지럼증 / 몸 상태가 안 좋으신 분 / 고소 공포증 / 폐소공포증 • 아래의 특수효과를 사용하고 있습니다. 본 특수효과로 인해 악화되는 증상을 가진 분은 이용할 수 없습니다. - 큰소리, 어둠, 냄새, 스트로보(카메라 등의 섬광 장치), 안개 • 동반자(정신적, 육체적으로 건강한 중학생 이상으로, 이용 기준에 준하는 자)가 필요한 분. - 긴급상황 시 대응이 곤란한 분 / 정신 장애가 있는 분 / 시각 장애가 있는 분 / 휠체어를 이용하는 분 • 그 밖의 장애를 가진 분은 직원에게 문의해 주세요. • 예약 확정 후 '내 여행' 바우처에서 만나는 시간과 장소를 반드시 재확인해주세요. • 상품페이지와 바우처 상의 정보가 다를 경우, 반드시 바우처 상의 정보를 확인 부탁드립니다 • 그 외 자세한 정보는 공식 홈페이지를 확인해 주세요 :"
+                    - link "https://www.usj.co.jp/web/en/us/service-guide/safe" [ref=e353] [cursor=pointer]:
+                      - /url: https://www.usj.co.jp/web/en/us/service-guide/safe
+                    - text: "• 아래 펀 버라이어트 옵션과 버라이어티 펀 옵션의 이용 가능한 어트랙션이 다르니 꼭 옵션 안내 확인 부탁드립니다. - 유니버설 익스프레스 패스 4 ~ Fun･ Variety ~ : 미니언 메이헴 / 죠스 - 유니버설 익스프레스 패스 4 ~ Variety・Fun～ : 미니언 메이헴 / 명탐정 코난 4-D [기타 안내] • 여행자 보험에 가입 후 진행할 것을 권장합니다. • 시설 안은 금연입니다."
+                  - link "더 보기" [ref=e356] [cursor=pointer]:
+                    - /url: ""
+          - generic [ref=e358]:
+            - heading "취소 및 환불 규정" [level=2] [ref=e359]
+            - paragraph [ref=e364]:
+              - text: ※ 해당 상품은 상품 특성상 아래의 취소 환불 규정이 적용됩니다.
+              - text: "- 확정 이후 환불 및 변경이 불가하오니 신중한 구매 부탁 드립니다."
+          - generic [ref=e367]:
+            - generic [ref=e368]:
+              - link "JTR WEB JTR WEB" [ref=e369] [cursor=pointer]:
+                - /url: /guides/6973
+                - img "JTR WEB" [ref=e370]
+                - paragraph [ref=e371]: JTR WEB
+              - button "파트너 정보" [ref=e374] [cursor=pointer]:
+                - button "파트너 정보" [ref=e375]:
+                  - generic [ref=e376]:
+                    - img [ref=e377]
+                    - text: 파트너 정보
+            - paragraph [ref=e382]: 전세계의 다양한 투어 & 액티비티 및 교통패스, 입장권을 다양하게 소개 및 판매합니다. 현지에서 줄 설 필요없이 쉽고 간편하게 예약하고, 현지에서 잊지못할 체험들을 경험 해 보세요!
+          - generic [ref=e384]:
+            - heading "여행자 후기 사진" [level=2] [ref=e385]
+            - button "+25" [ref=e390] [cursor=pointer]:
+              - list [ref=e391]:
+                - listitem [ref=e392]:
+                  - button [ref=e393]
+                  - button [ref=e396]
+                  - button "+25" [ref=e399]:
+                    - paragraph [ref=e401]: "+25"
+          - generic [ref=e406]:
+            - heading "후기1,531" [level=4] [ref=e408]
+            - generic [ref=e409]:
+              - generic [ref=e410]:
+                - paragraph [ref=e411]: "4.7"
+                - generic [ref=e412]:
+                  - img [ref=e413]
+                  - img [ref=e415]
+                  - img [ref=e417]
+                  - img [ref=e419]
+                  - img [ref=e421]
+              - generic [ref=e423]:
+                - paragraph
+                - generic [ref=e424]:
+                  - generic [ref=e425]:
+                    - img [ref=e426]
+                    - img [ref=e428]
+                    - img [ref=e430]
+                    - img [ref=e432]
+                    - img [ref=e434]
+                  - paragraph [ref=e438]: "1242"
+                - generic [ref=e439]:
+                  - generic [ref=e440]:
+                    - img [ref=e441]
+                    - img [ref=e443]
+                    - img [ref=e445]
+                    - img [ref=e447]
+                  - paragraph [ref=e451]: "187"
+                - generic [ref=e452]:
+                  - generic [ref=e453]:
+                    - img [ref=e454]
+                    - img [ref=e456]
+                    - img [ref=e458]
+                  - paragraph [ref=e461]: "50"
+                - generic [ref=e462]:
+                  - generic [ref=e463]:
+                    - img [ref=e464]
+                    - img [ref=e466]
+                  - paragraph [ref=e469]: "14"
+                - generic [ref=e470]:
+                  - img [ref=e472]
+                  - paragraph [ref=e475]: "38"
+            - generic [ref=e476]:
+              - generic [ref=e477]:
+                - generic [ref=e478]:
+                  - generic [ref=e479]:
+                    - img [ref=e480]
+                    - img [ref=e482]
+                    - img [ref=e484]
+                    - img [ref=e486]
+                    - img [ref=e488]
+                  - generic [ref=e490]: 류**
+                  - generic [ref=e491]: 2026-05-08
+                  - generic [ref=e494]:
+                    - text: 5월7일 혼잡도 C일 때 입장했습니다.
+                    - text: 9시부터 19시까지 운영인데 중간에 두시간 이상이 묶여버히니
+                    - text: 다른 어트랙션을 많이 타지 못해 아쉽지만
+                    - text: 아들이 너무 좋아했어요.
+                    - text: 번역기를 미리 주셨으면 더 좋았겠지만....
+                - separator [ref=e495]
+                - generic [ref=e496]:
+                  - generic [ref=e497]:
+                    - img [ref=e498]
+                    - img [ref=e500]
+                    - img [ref=e502]
+                    - img [ref=e504]
+                    - img [ref=e506]
+                  - generic [ref=e508]: 강**
+                  - generic [ref=e509]:
+                    - text: 자녀와 가는 여행
+                    - text: 2026-05-07
+                  - generic [ref=e513]:
+                    - text: 익스프레스권 있어서 빠른 탑승 가능했습니다
+                    - text: 슈퍼마리오의 동키가 유명해서 210분 대기라 거기서 제일 잘 활용하긴 했는데, 그닦이였고
+                    - text: 사실 아이들이 가장 좋아했던 건 플라잉 다이너소어 였어요 이건 무서워서 그런지 밤에 가니 줄이 길지 않아 3번 타고 온 듯요
+                    - text: 저는 제일 좋았던건 어트랙션보다 워터월드였고
+                    - text: 헤리포터는 살짝 멀미는 나지만 정말 와! 했던 한국에 없는 경험들이였습니다
+                    - text: 아이들 모두 좋아했어요~
+                    - text: 인쇄하실 필요없고 핸드폰에 담아가셔서 QR 보여주시면 되서 사용도 간편했습니다
+                - separator [ref=e514]
+                - generic [ref=e515]:
+                  - generic [ref=e516]:
+                    - img [ref=e517]
+                    - img [ref=e519]
+                    - img [ref=e521]
+                    - img [ref=e523]
+                    - img [ref=e525]
+                  - generic [ref=e527]: 남**
+                  - generic [ref=e528]: 2026-05-07
+                  - generic [ref=e530]: 골든위크에 방문했고 새벽6시 오픈런으로 가방검사 7시40분경, 그리고 최종 입장은 8시30분경 했습니다. 처음 서는 줄이 가방 검사줄, 그리고 뛰어가서 다시 서는 줄이 입장줄이었고, 나름 질서 정연했는데 결론은 익스산건 다타고왔어요! 익스 아닌건 진짜 기본 1시간 대기. 가자마자 뛰어가서 익스 미포함 동키콩 40분 정도 대기하고 타고 나오니 대기 300분ㄷㄷ. 근데 중요한건 여러분!! 입장권 별도 구매 입니다. 여기 계속 적혀있었는데 제가 놓치는 바람에 입장대기할때 입장권 별도로 구매했어요.. 너무 놀래서 다리힘이 풀렸어요;; 익스구매+입장권해서 인당 약 30만원의 비용이 듭니다. 3인가족 100정도 기본이네요 ㅎㅎㅎ 개인적으로는 상해 디즈니랜드가 더 좋았어요.
+                - separator [ref=e531]
+              - button "후기 더 보기 arrow-icon" [ref=e534] [cursor=pointer]:
+                - button "후기 더 보기 arrow-icon" [ref=e535]:
+                  - generic [ref=e536]:
+                    - text: 후기 더 보기
+                    - img "arrow-icon" [ref=e537]
+        - complementary [ref=e538]:
+          - list [ref=e539]:
+            - listitem [ref=e540]:
+              - generic [ref=e541]:
+                - generic [ref=e542]:
+                  - generic [ref=e543]:
+                    - generic [ref=e545]:
+                      - strong [ref=e546]: 45,400원
+                      - text: 부터
+                    - button "share" [ref=e548] [cursor=pointer]:
+                      - img "share" [ref=e549]
+                  - generic [ref=e550]:
+                    - generic [ref=e552]:
+                      - button "1.2만" [ref=e553] [cursor=pointer]:
+                        - generic [ref=e555]:
+                          - img [ref=e557]
+                          - generic [ref=e560]: 1.2만
+                      - button "즉시사용예약하기" [ref=e561] [cursor=pointer]:
+                        - img "즉시사용" [ref=e562]
+                        - text: 예약하기
+                    - paragraph [ref=e563]:
+                      - text: 구매 후 즉시 확정됩니다.
+                      - link "즉시사용":
+                        - /url: /about/instantbooking
+                        - img "즉시사용" [ref=e564] [cursor=pointer]
+                - link "JTR WEB JTR WEB" [ref=e567] [cursor=pointer]:
+                  - /url: /guides/6973
+                  - img "JTR WEB" [ref=e568]
+                  - generic [ref=e569]: JTR WEB
+      - generic [ref=e571]:
+        - paragraph [ref=e574]: "'유니버셜 스튜디오 재팬' 인기상품"
+        - generic [ref=e578]:
+          - generic [ref=e580]:
+            - link "즉시확정 티켓·입장권 ・ 오사카 [1일권] 오사카 유니버설 스튜디오 재팬 입장권 8,466 91,200원 / 1인 3.0만" [ref=e581] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/50211
+              - generic [ref=e586]: 즉시확정
+              - generic [ref=e587]:
+                - generic [ref=e589]: 티켓·입장권 ・ 오사카
+                - heading "[1일권] 오사카 유니버설 스튜디오 재팬 입장권" [level=3] [ref=e590]:
+                  - generic [ref=e591]: "[1일권] 오사카 유니버설 스튜디오 재팬 입장권"
+                - generic [ref=e592]:
+                  - generic [ref=e594]:
+                    - generic [ref=e595]:
+                      - img [ref=e596]
+                      - img [ref=e598]
+                      - img [ref=e600]
+                      - img [ref=e602]
+                      - img [ref=e604]
+                    - text: 8,466
+                  - generic [ref=e606]:
+                    - generic [ref=e607]: 91,200원
+                    - text: / 1인
+              - generic [ref=e610]:
+                - img [ref=e612]
+                - generic [ref=e615]: 3.0만
+            - link "즉시확정 티켓·입장권 ・ 오사카 슈퍼 닌텐도 월드 입장 확약권 + 유니버설 스튜디오 재팬 1일권 + 간사이 조이패스 170 134,600원 / 1인 4907" [ref=e616] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/161684
+              - generic [ref=e621]: 즉시확정
+              - generic [ref=e622]:
+                - generic [ref=e624]: 티켓·입장권 ・ 오사카
+                - heading "슈퍼 닌텐도 월드 입장 확약권 + 유니버설 스튜디오 재팬 1일권 + 간사이 조이패스" [level=3] [ref=e625]:
+                  - generic [ref=e626]: 슈퍼 닌텐도 월드 입장 확약권 + 유니버설 스튜디오 재팬 1일권 + 간사이 조이패스
+                - generic [ref=e627]:
+                  - generic [ref=e629]:
+                    - generic [ref=e630]:
+                      - img [ref=e631]
+                      - img [ref=e633]
+                      - img [ref=e635]
+                      - img [ref=e637]
+                      - img [ref=e639]
+                    - text: "170"
+                  - generic [ref=e643]:
+                    - generic [ref=e644]: 134,600원
+                    - text: / 1인
+              - generic [ref=e647]:
+                - img [ref=e649]
+                - generic [ref=e652]: "4907"
+            - link "즉시확정 티켓·입장권 ・ 오사카 [시간지정/즉시확정] 유니버셜 스튜디오 재팬 익스프레스7, 8 219 45,100원 / 1인 4289" [ref=e653] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/16378
+              - generic [ref=e658]: 즉시확정
+              - generic [ref=e659]:
+                - generic [ref=e661]: 티켓·입장권 ・ 오사카
+                - heading "[시간지정/즉시확정] 유니버셜 스튜디오 재팬 익스프레스7, 8" [level=3] [ref=e662]:
+                  - generic [ref=e663]: "[시간지정/즉시확정] 유니버셜 스튜디오 재팬 익스프레스7, 8"
+                - generic [ref=e664]:
+                  - generic [ref=e666]:
+                    - generic [ref=e667]:
+                      - img [ref=e668]
+                      - img [ref=e670]
+                      - img [ref=e672]
+                      - img [ref=e674]
+                      - img [ref=e676]
+                    - text: "219"
+                  - generic [ref=e678]:
+                    - generic [ref=e679]: 45,100원
+                    - text: / 1인
+              - generic [ref=e682]:
+                - img [ref=e684]
+                - generic [ref=e687]: "4289"
+            - link "즉시확정 티켓·입장권 ・ 오사카 오사카 유니버설 스튜디오 재팬 1.5일권 12 84,900원 / 1인 217" [ref=e688] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/134683
+              - generic [ref=e693]: 즉시확정
+              - generic [ref=e694]:
+                - generic [ref=e696]: 티켓·입장권 ・ 오사카
+                - heading "오사카 유니버설 스튜디오 재팬 1.5일권" [level=3] [ref=e697]:
+                  - generic [ref=e698]: 오사카 유니버설 스튜디오 재팬 1.5일권
+                - generic [ref=e699]:
+                  - generic [ref=e701]:
+                    - generic [ref=e702]:
+                      - img [ref=e703]
+                      - img [ref=e705]
+                      - img [ref=e707]
+                      - img [ref=e709]
+                      - img [ref=e711]
+                    - text: "12"
+                  - generic [ref=e713]:
+                    - generic [ref=e714]: 84,900원
+                    - text: / 1인
+              - generic [ref=e717]:
+                - img [ref=e719]
+                - generic [ref=e722]: "217"
+            - link "즉시확정 티켓·입장권 ・ 오사카 [1일권]유니버설 스튜디오 재팬 스마트 콤보(마이리얼트립 포인트 10,000P 증정) 8,471 93,000원 / 1인 94" [ref=e723] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/179375
+              - generic [ref=e728]: 즉시확정
+              - generic [ref=e729]:
+                - generic [ref=e731]: 티켓·입장권 ・ 오사카
+                - heading "[1일권]유니버설 스튜디오 재팬 스마트 콤보(마이리얼트립 포인트 10,000P 증정)" [level=3] [ref=e732]:
+                  - generic [ref=e733]: "[1일권]유니버설 스튜디오 재팬 스마트 콤보(마이리얼트립 포인트 10,000P 증정)"
+                - generic [ref=e734]:
+                  - generic [ref=e736]:
+                    - generic [ref=e737]:
+                      - img [ref=e738]
+                      - img [ref=e740]
+                      - img [ref=e742]
+                      - img [ref=e744]
+                      - img [ref=e746]
+                    - text: 8,471
+                  - generic [ref=e748]:
+                    - generic [ref=e749]: 93,000원
+                    - text: / 1인
+              - generic [ref=e752]:
+                - img [ref=e754]
+                - generic [ref=e757]: "94"
+            - link "즉시확정 티켓·입장권 ・ 오사카 오사카 유니버설 스튜디오 재팬 2일권 2 99,700원 / 1인 56" [ref=e758] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/134691
+              - generic [ref=e763]: 즉시확정
+              - generic [ref=e764]:
+                - generic [ref=e766]: 티켓·입장권 ・ 오사카
+                - heading "오사카 유니버설 스튜디오 재팬 2일권" [level=3] [ref=e767]:
+                  - generic [ref=e768]: 오사카 유니버설 스튜디오 재팬 2일권
+                - generic [ref=e769]:
+                  - generic [ref=e771]:
+                    - generic [ref=e772]:
+                      - img [ref=e773]
+                      - img [ref=e775]
+                      - img [ref=e777]
+                      - img [ref=e779]
+                      - img [ref=e781]
+                    - text: "2"
+                  - generic [ref=e783]:
+                    - generic [ref=e784]: 99,700원
+                    - text: / 1인
+              - generic [ref=e787]:
+                - img [ref=e789]
+                - generic [ref=e792]: "56"
+            - link "즉시확정 티켓·입장권 ・ 오사카 [즉시확정] 유니버설 스튜디오 재팬 식사&쇼핑 바우처 5 9,900원 / 1인 116" [ref=e793] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/141141
+              - generic [ref=e798]: 즉시확정
+              - generic [ref=e799]:
+                - generic [ref=e801]: 티켓·입장권 ・ 오사카
+                - heading "[즉시확정] 유니버설 스튜디오 재팬 식사&쇼핑 바우처" [level=3] [ref=e802]:
+                  - generic [ref=e803]: "[즉시확정] 유니버설 스튜디오 재팬 식사&쇼핑 바우처"
+                - generic [ref=e804]:
+                  - generic [ref=e806]:
+                    - generic [ref=e807]:
+                      - img [ref=e808]
+                      - img [ref=e810]
+                      - img [ref=e812]
+                      - img [ref=e814]
+                      - img [ref=e816]
+                    - text: "5"
+                  - generic [ref=e818]:
+                    - generic [ref=e819]: 9,900원
+                    - text: / 1인
+              - generic [ref=e822]:
+                - img [ref=e824]
+                - generic [ref=e827]: "116"
+            - link "티켓·입장권 ・ 오사카 유니버셜 스튜디오 재팬 입장권 A-0422 337 61,416원 / 1인 2585" [ref=e828] [cursor=pointer]:
+              - /url: https://experiences.myrealtrip.com/products/3426947
+              - generic [ref=e833]:
+                - generic [ref=e835]: 티켓·입장권 ・ 오사카
+                - heading "유니버셜 스튜디오 재팬 입장권 A-0422" [level=3] [ref=e836]:
+                  - generic [ref=e837]: 유니버셜 스튜디오 재팬 입장권 A-0422
+                - generic [ref=e838]:
+                  - generic [ref=e840]:
+                    - generic [ref=e841]:
+                      - img [ref=e842]
+                      - img [ref=e844]
+                      - img [ref=e846]
+                      - img [ref=e848]
+                      - img [ref=e850]
+                    - text: "337"
+                  - generic [ref=e852]:
+                    - generic [ref=e853]: 61,416원
+                    - text: / 1인
+              - generic [ref=e856]:
+                - img [ref=e858]
+                - generic [ref=e861]: "2585"
+            - link "즉시확정 티켓·입장권 ・ 오사카 [D시즌] (만 65세이상) 유니버셜스튜디오 재팬 1일권 1 92,800원 / 1인 2" [ref=e862] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/167304
+              - generic [ref=e867]: 즉시확정
+              - generic [ref=e868]:
+                - generic [ref=e870]: 티켓·입장권 ・ 오사카
+                - heading "[D시즌] (만 65세이상) 유니버셜스튜디오 재팬 1일권" [level=3] [ref=e871]:
+                  - generic [ref=e872]: "[D시즌] (만 65세이상) 유니버셜스튜디오 재팬 1일권"
+                - generic [ref=e873]:
+                  - generic [ref=e875]:
+                    - generic [ref=e876]:
+                      - img [ref=e877]
+                      - img [ref=e879]
+                      - img [ref=e881]
+                      - img [ref=e883]
+                      - img [ref=e885]
+                    - text: "1"
+                  - generic [ref=e887]:
+                    - generic [ref=e888]: 92,800원
+                    - text: / 1인
+              - generic [ref=e891]:
+                - img [ref=e893]
+                - generic [ref=e896]: "2"
+          - button "Next slide" [ref=e897] [cursor=pointer]:
+            - img "next" [ref=e898]
+      - paragraph [ref=e900]: "상품번호: 122690"
+  - contentinfo [ref=e902]:
+    - generic [ref=e903]:
+      - generic [ref=e904]:
+        - generic [ref=e905]:
+          - text: 고객지원실 운영안내
+          - list [ref=e906]:
+            - listitem [ref=e907]: 채팅상담 연중무휴 24시간 유선상담 연중무휴 09:00-18:00
+            - listitem [ref=e908]: 대표번호 1670-8208
+          - button "고객지원실" [ref=e910] [cursor=pointer]:
+            - button "고객지원실" [ref=e911]:
+              - generic [ref=e912]: 고객지원실
+        - generic [ref=e913]:
+          - generic [ref=e914]:
+            - text: 소개
+            - list [ref=e915]:
+              - listitem [ref=e916]:
+                - link "회사소개" [ref=e917] [cursor=pointer]:
+                  - /url: https://about.myrealtrip.com
+              - listitem [ref=e918]:
+                - link "채용" [ref=e919] [cursor=pointer]:
+                  - /url: https://careers.myrealtrip.com
+              - listitem [ref=e920]:
+                - link "공고" [ref=e921] [cursor=pointer]:
+                  - /url: https://www.myrealtrip.com/announcement
+          - generic [ref=e922]:
+            - text: 파트너
+            - list [ref=e923]:
+              - listitem [ref=e924]:
+                - link "파트너 홈" [ref=e925] [cursor=pointer]:
+                  - /url: https://partner.myrealtrip.com/welcome
+              - listitem [ref=e926]:
+                - link "제휴 문의" [ref=e927] [cursor=pointer]:
+                  - /url: "mailto: partnership@myrealtrip.com"
+              - listitem [ref=e928]:
+                - link "광고 문의" [ref=e929] [cursor=pointer]:
+                  - /url: "mailto: ad@myrealtrip.com"
+          - generic [ref=e930]:
+            - text: 지원
+            - list [ref=e931]:
+              - listitem [ref=e932]:
+                - link "공지사항" [ref=e933] [cursor=pointer]:
+                  - /url: https://support.myrealtrip.com/notice
+              - listitem [ref=e934]:
+                - link "문의내역" [ref=e935] [cursor=pointer]:
+                  - /url: https://support.myrealtrip.com/inquiry
+              - listitem [ref=e936]:
+                - link "최저가 보장제" [ref=e937] [cursor=pointer]:
+                  - /url: https://www.myrealtrip.com/best_price
+      - generic [ref=e938]:
+        - generic [ref=e939]:
+          - generic [ref=e940]:
+            - link "이용 약관" [ref=e942] [cursor=pointer]:
+              - /url: https://auth.myrealtrip.com/terms/policyAgreement
+            - link "개인정보 처리방침" [ref=e944] [cursor=pointer]:
+              - /url: https://auth.myrealtrip.com/terms/common/privacy
+            - link "취소 및 환불 정책" [ref=e946] [cursor=pointer]:
+              - /url: https://auth.myrealtrip.com/terms/common/cancel
+          - generic [ref=e947]:
+            - generic [ref=e948]:
+              - link "icon 페이스북으로 이동하기" [ref=e950] [cursor=pointer]:
+                - /url: https://www.facebook.com/myRealTrip
+                - img "icon" [ref=e951]
+                - generic [ref=e952]: 페이스북으로 이동하기
+              - link "icon 네이버 블로그로 이동하기" [ref=e954] [cursor=pointer]:
+                - /url: https://blog.naver.com/myrealtrip
+                - img "icon" [ref=e955]
+                - generic [ref=e956]: 네이버 블로그로 이동하기
+              - link "icon 인스타그램으로 이동하기" [ref=e958] [cursor=pointer]:
+                - /url: https://instagram.com/myrealtrip
+                - img "icon" [ref=e959]
+                - generic [ref=e960]: 인스타그램으로 이동하기
+              - link "icon 유투브로 이동하기" [ref=e962] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC2oeFByIBQjkKXmQjE0U5rQ
+                - img "icon" [ref=e963]
+                - generic [ref=e964]: 유투브로 이동하기
+            - generic [ref=e966]:
+              - link "icon" [ref=e968] [cursor=pointer]:
+                - /url: https://itunes.apple.com/app/id1141745032
+                - img "icon" [ref=e969]
+              - link "icon" [ref=e971] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.mrt.ducati
+                - img "icon" [ref=e972]
+          - button "icon 한국어 icon" [ref=e975] [cursor=pointer]:
+            - img "icon" [ref=e976]
+            - generic [ref=e977]: 한국어
+            - img "icon" [ref=e978]
+        - generic [ref=e979]:
+          - paragraph [ref=e981]:
+            - text: 상호명 (주)마이리얼트립 | 대표 이동건 | 개인정보보호책임자 김형석 | 사업자등록번호 209-81-55339
+            - link "사업자정보확인" [ref=e982] [cursor=pointer]:
+              - /url: https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2098155339
+            - text: "| 통신판매업신고번호 2019-서울서초-0260 | 관광사업등록번호 : 제2019-3호"
+            - text: 주소 서울특별시 서초구 강남대로 311, 18층 1729호(서초동, 한화생명보험빌딩) | 이메일 help@myrealtrip.com | 입점 문의 partnership@myrealtrip.com
+            - text: "마케팅파트너/크리에이터 문의 marketing_partner@myrealtrip.com | 마케팅 문의 marketing@myrealtrip.com | 호스팅 서비스 제공자 : (주)마이리얼트립"
+            - text: "자사는 서울특별시관광협회 공제영업보증보험에 가입되어 있습니다. 영업보증보험: 1.5억원 / 기획여행보증: 2억원"
+            - text: 마이리얼트립은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 상품·거래정보 및 거래에 대하여 책임을 지지않습니다.
+            - text: 부득이한 사정에 의해 확정된 여행일정이 변경되는 경우 여행자의 사전 동의를 받습니다.
+            - text: (주)마이리얼트립이 소유, 운영, 관리하는 웹사이트 및 앱 내의 상품, 판매자 정보, 이벤트 정보, 디자인, UI 등을 포함한 일체의 콘텐츠에 대한 무단 복제, 배포, 전송, 스크래핑 등의 행위는 저작권법 등 관련 법령에 의하여 엄격히 금지됩니다.
+          - button "ISMS-P" [ref=e984] [cursor=pointer]:
+            - img "ISMS-P" [ref=e985]
+  - button "마이리얼트립 상담 버튼" [ref=e987]:
+    - generic [ref=e988] [cursor=pointer]:
+      - generic [ref=e989]: 마이리얼트립 상담 버튼
+      - img [ref=e991]

@@ -1,0 +1,256 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: 이 페이지의 링크를 통해 구매 시 수수료를 받아 채널 운영에 도움이 됩니다.
+    - generic [ref=e7]:
+      - img "헨리" [ref=e9]
+      - generic [ref=e10]:
+        - heading "헨리" [level=2] [ref=e11]
+        - paragraph [ref=e12]: "파워J의 꼼꼼한 여행 계획 · #헨리플랜"
+        - generic [ref=e13]:
+          - link "Instagram" [ref=e14] [cursor=pointer]:
+            - /url: https://www.instagram.com/henriuniverse/
+            - img "Instagram" [ref=e15]
+          - link [ref=e16] [cursor=pointer]:
+            - /url: https://linktr.ee/hwangdaebal
+            - img [ref=e17]
+          - link "✉️" [ref=e20] [cursor=pointer]:
+            - /url: mailto:hjs8756@naver.com
+    - link "헨리 팔로워 전용 선착순 할인 쿠폰팩 최대 99,000 원 8종 구성 받기" [ref=e21] [cursor=pointer]:
+      - /url: https://www.myrealtrip.com/coupons
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]: 헨리 팔로워 전용
+          - generic [ref=e27]: 선착순 할인 쿠폰팩
+          - generic [ref=e29]:
+            - generic [ref=e30]: 최대
+            - generic [ref=e31]: 99,000
+            - generic [ref=e32]: 원
+          - generic:
+            - generic: 8종
+            - generic: 구성
+        - generic [ref=e33]:
+          - img [ref=e34]
+          - generic [ref=e36]: 받기
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: 🌺
+            - generic [ref=e43]:
+              - generic [ref=e44]:
+                - generic [ref=e45]: "#헨리플랜"
+                - generic [ref=e46]: 하와이
+              - generic [ref=e47]: 하와이 4박5일
+          - generic [ref=e48]:
+            - generic [ref=e49]: 어디부터 볼까요?
+            - generic [ref=e50]:
+              - button "일정표 보기 동선 먼저 ›" [ref=e51] [cursor=pointer]:
+                - generic [ref=e52]:
+                  - strong [ref=e53]: 일정표 보기
+                  - generic [ref=e54]: 동선 먼저
+                - generic [ref=e55]: ›
+              - button "상세 경비 보기 200만~ › 🔥 인기 항공·숙소·투어 한 번에" [ref=e56] [cursor=pointer]:
+                - generic [ref=e57]:
+                  - strong [ref=e58]: 상세 경비 보기
+                  - generic [ref=e59]:
+                    - generic [ref=e60]: 200만~
+                    - generic [ref=e61]: ›
+                - generic [ref=e62]:
+                  - generic [ref=e63]: 🔥 인기
+                  - generic [ref=e64]: 항공·숙소·투어 한 번에
+        - generic [ref=e65]:
+          - generic [ref=e67]:
+            - generic [ref=e68]: 🇨🇳
+            - generic [ref=e69]:
+              - generic [ref=e70]:
+                - generic [ref=e71]: "#헨리플랜"
+                - generic [ref=e72]: 상하이
+              - generic [ref=e73]: 상하이 3박4일
+          - generic [ref=e74]:
+            - generic [ref=e75]: 어디부터 볼까요?
+            - generic [ref=e76]:
+              - button "일정표 보기 시내·근교·테마파크 코스 ›" [ref=e77] [cursor=pointer]:
+                - generic [ref=e78]:
+                  - strong [ref=e79]: 일정표 보기
+                  - generic [ref=e80]: 시내·근교·테마파크 코스
+                - generic [ref=e81]: ›
+              - button "상세 경비 보기 90만~ › 🔥 인기 항공·숙소·투어 한 번에" [ref=e82] [cursor=pointer]:
+                - generic [ref=e83]:
+                  - strong [ref=e84]: 상세 경비 보기
+                  - generic [ref=e85]:
+                    - generic [ref=e86]: 90만~
+                    - generic [ref=e87]: ›
+                - generic [ref=e88]:
+                  - generic [ref=e89]: 🔥 인기
+                  - generic [ref=e90]: 항공·숙소·투어 한 번에
+      - generic [ref=e91]:
+        - button "이전" [disabled]: ‹
+        - button "다음" [ref=e95] [cursor=pointer]: ›
+    - generic [ref=e96]:
+      - generic [ref=e97] [cursor=pointer]: 링크
+      - generic [ref=e98] [cursor=pointer]: 필수템
+    - generic [ref=e99]:
+      - generic [ref=e100]:
+        - img [ref=e102]
+        - generic [ref=e103]:
+          - generic [ref=e104]: "📅 파워J의 완벽한 여행 계획서 #헨리플랜"
+          - text: "대문자 파워J 헨리님의 꼼꼼한 여행 계획 블로그 #헨리플랜. 선한 영향력으로 완벽한 여행 일정을 공유해드려요. 마이스토어에서 헨리님 추천 상품을 확인해보세요!"
+      - generic [ref=e105]:
+        - heading "📸 추천 콘텐츠" [level=3] [ref=e106]
+        - 'link "✈️ #헨리플랜 헨리 채널 — 파워J의 완벽한 여행 계획 · 블로그 #헨리플랜 · 릴스 크리에이터 instagram.com · 헨리" [ref=e107] [cursor=pointer]':
+          - /url: https://www.instagram.com/henriuniverse/
+          - generic [ref=e108]: ✈️
+          - generic [ref=e109]:
+            - generic [ref=e111]: "#헨리플랜"
+            - generic [ref=e112]: "헨리 채널 — 파워J의 완벽한 여행 계획 · 블로그 #헨리플랜 · 릴스 크리에이터"
+            - generic [ref=e113]: instagram.com · 헨리
+        - 'link "🌺 #헨리플랜 하와이 하와이 4박5일 완벽 일정 — 쿠알로아 랜치 UTV · 다이아몬드 헤드 트레킹 · 힐튼 불꽃놀이 · 와이켈레 아울렛 instagram.com · 헨리 여행 가이드" [ref=e114] [cursor=pointer]':
+          - /url: https://www.instagram.com/henriuniverse/
+          - generic [ref=e115]: 🌺
+          - generic [ref=e116]:
+            - generic [ref=e118]: "#헨리플랜 하와이"
+            - generic [ref=e119]: 하와이 4박5일 완벽 일정 — 쿠알로아 랜치 UTV · 다이아몬드 헤드 트레킹 · 힐튼 불꽃놀이 · 와이켈레 아울렛
+            - generic [ref=e120]: instagram.com · 헨리 여행 가이드
+        - 'link "🏙️ #헨리플랜 상하이 상하이 3박4일 완벽 일정 — 입국신고서 작성법 · 고덕 지도 모음 · 꼼꼼한 일정표 포함 instagram.com · 헨리 여행 가이드" [ref=e121] [cursor=pointer]':
+          - /url: https://www.instagram.com/henriuniverse/
+          - generic [ref=e122]: 🏙️
+          - generic [ref=e123]:
+            - generic [ref=e125]: "#헨리플랜 상하이"
+            - generic [ref=e126]: 상하이 3박4일 완벽 일정 — 입국신고서 작성법 · 고덕 지도 모음 · 꼼꼼한 일정표 포함
+            - generic [ref=e127]: instagram.com · 헨리 여행 가이드
+        - link "#헨리플랜 네이버 블로그 — 오늘도 헨리플랜 blog.naver.com · 오늘도 헨리플랜" [ref=e128] [cursor=pointer]:
+          - /url: https://m.blog.naver.com/hjs8756?tab=1
+          - generic [ref=e130]:
+            - generic [ref=e132]: "#헨리플랜"
+            - generic [ref=e133]: 네이버 블로그 — 오늘도 헨리플랜
+            - generic [ref=e134]: blog.naver.com · 오늘도 헨리플랜
+        - link "후기 대마도 배편 예약 1박 2일 후기 💙 blog.naver.com · 오늘도 헨리플랜" [ref=e135] [cursor=pointer]:
+          - /url: https://m.blog.naver.com/hjs8756/224136785300
+          - generic [ref=e137]:
+            - generic [ref=e139]: 후기
+            - generic [ref=e140]: 대마도 배편 예약 1박 2일 후기 💙
+            - generic [ref=e141]: blog.naver.com · 오늘도 헨리플랜
+        - heading "✅ 헨리 팔로워 전용 혜택" [level=3] [ref=e142]
+        - link "즉시할인 나트랑 판랑사막투어 2천원 즉시할인코드 (DB9AF6260F) pieceofcreative.com · 나트랑 투어" [ref=e143] [cursor=pointer]:
+          - /url: https://www.pieceofcreative.com/fit/11873
+          - generic [ref=e145]:
+            - generic [ref=e147]: 즉시할인
+            - generic [ref=e148]: 나트랑 판랑사막투어 2천원 즉시할인코드 (DB9AF6260F)
+            - generic [ref=e149]: pieceofcreative.com · 나트랑 투어
+        - link "20% 할인 유심사 이심 20% 추가 할인 유심사 · 이심 할인" [ref=e150] [cursor=pointer]:
+          - /url: https://3ha.in/r/173171
+          - generic [ref=e152]:
+            - generic [ref=e154]: 20% 할인
+            - generic [ref=e155]: 유심사 이심 20% 추가 할인
+            - generic [ref=e156]: 유심사 · 이심 할인
+        - link "최대 7천원 클룩(Klook) 2월 최대 7천원 할인쿠폰 blog.naver.com · 클룩 할인" [ref=e157] [cursor=pointer]:
+          - /url: https://m.blog.naver.com/hjs8756/224166369602
+          - generic [ref=e159]:
+            - generic [ref=e161]: 최대 7천원
+            - generic [ref=e162]: 클룩(Klook) 2월 최대 7천원 할인쿠폰
+            - generic [ref=e163]: blog.naver.com · 클룩 할인
+        - link "🎁 쿠폰팩 마이리얼트립 할인 쿠폰팩 받고 예약하러 가기 myrealtrip.com · 할인 쿠폰" [ref=e164] [cursor=pointer]:
+          - /url: https://myrealt.rip/TcxB22
+          - generic [ref=e165]: 🎁
+          - generic [ref=e166]:
+            - generic [ref=e168]: 쿠폰팩
+            - generic [ref=e169]: 마이리얼트립 할인 쿠폰팩 받고 예약하러 가기
+            - generic [ref=e170]: myrealtrip.com · 할인 쿠폰
+        - heading "🛒 헨리 추천 여행 상품" [level=3] [ref=e171]
+        - link "헨리 강추 거북이스노클링/선셋크루즈+5종해양 (내돈내산 후기 6700개) myrealtrip.com" [ref=e172] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/experiences/3530078
+          - generic [ref=e174]:
+            - generic [ref=e176]: 헨리 강추
+            - generic [ref=e177]: 거북이스노클링/선셋크루즈+5종해양 (내돈내산 후기 6700개)
+            - generic [ref=e178]: myrealtrip.com
+        - link "헨리 강추 쿠알로아 랜치 UTV 랩터 투어 myrealtrip.com" [ref=e179] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/experiences/3441921
+          - generic [ref=e181]:
+            - generic [ref=e183]: 헨리 강추
+            - generic [ref=e184]: 쿠알로아 랜치 UTV 랩터 투어
+            - generic [ref=e185]: myrealtrip.com
+        - link "공항 하와이 공항 픽업/샌딩 (씨엠트래블 한인택시) myrealtrip.com" [ref=e186] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/experiences/3860884
+          - generic [ref=e188]:
+            - generic [ref=e190]: 공항
+            - generic [ref=e191]: 하와이 공항 픽업/샌딩 (씨엠트래블 한인택시)
+            - generic [ref=e192]: myrealtrip.com
+        - link "공연 폴리네시안 문화센터 myrealtrip.com" [ref=e193] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/experiences/3441184
+          - generic [ref=e195]:
+            - generic [ref=e197]: 공연
+            - generic [ref=e198]: 폴리네시안 문화센터
+            - generic [ref=e199]: myrealtrip.com
+    - generic [ref=e201]:
+      - generic [ref=e202]: COLLABORATION
+      - link "✉ hjs8756@naver.com" [ref=e203] [cursor=pointer]:
+        - /url: mailto:hjs8756@naver.com
+      - generic [ref=e204]: © 2026 헨리 · myrealtrip
+  - generic [ref=e206]:
+    - generic [ref=e207] [cursor=pointer]: ←
+    - generic [ref=e209]: 추천 코스
+    - button "링크 복사" [ref=e210] [cursor=pointer]:
+      - img [ref=e211]
+      - text: 링크 복사
+  - generic:
+    - generic:
+      - generic:
+        - generic: 총경비
+        - button "링크 복사":
+          - img
+          - text: 링크 복사
+      - generic: 추천 코스 · 1인 기준
+      - generic:
+        - generic: ✈️
+        - generic:
+          - generic:
+            - text: 항공권
+            - generic: 직항
+          - generic: 항공권 기준
+        - generic:
+          - generic: ₩-
+          - button "예약 바로가기"
+      - generic:
+        - generic:
+          - generic: 🏨
+          - generic:
+            - generic:
+              - text: 호텔
+              - generic: 추천
+            - generic: 3박 2인 1실 1인 기준
+          - generic:
+            - generic: ₩-
+            - button "예약 바로가기"
+      - generic:
+        - generic: 🍜
+        - generic:
+          - generic: 식비 · 현지 경비
+          - generic: 현지 식당 포함
+        - generic:
+          - generic: ₩-
+      - generic:
+        - generic: 총 경비
+        - generic: ₩-
+      - generic: · 1인 기준 평균값
+  - generic:
+    - generic:
+      - generic: 🎫 파트너 쿠폰
+      - generic: 헨리 통해 예약하면 받을 수 있는 혜택
+      - generic:
+        - generic:
+          - generic: 마이리얼트립 파트너 혜택
+          - generic: 첫 예약 3,000원 할인
+          - generic: 5만원 이상 결제 시 · 1회 사용 가능
+          - generic:
+            - generic: "유효기간: 2026.06.30까지"
+            - generic: 잔여 47장
+        - button "받기"
+      - generic:
+        - generic:
+          - generic: 재방문 감사 쿠폰
+          - generic: 2번째 예약 5% 할인
+          - generic: 최대 1만원 · 헨리 전용
+          - generic:
+            - generic: "유효기간: 2026.07.31까지"
+            - generic: 잔여 23장
+        - button "받기"

@@ -1,0 +1,105 @@
+<h2>챗봇 대화 UX — 어떤 느낌으로 갈까요?</h2>
+<p class="subtitle">같은 질문에 대한 3가지 다른 챗봇 스타일. 실제 대화 흐름을 확인해보세요.</p>
+
+<div class="cards" style="grid-template-columns:1fr 1fr 1fr;align-items:start;">
+
+  <!-- Option A: 정보 중심 -->
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;background:#0f172a;border-radius:8px 8px 0 0;">
+      <div style="padding:10px 14px;border-bottom:1px solid #1e293b;display:flex;align-items:center;gap:8px;">
+        <div style="width:28px;height:28px;background:#3b82f6;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;">✈️</div>
+        <div>
+          <div style="color:white;font-size:12px;font-weight:bold;">MRT 여행 AI</div>
+          <div style="color:#64748b;font-size:10px;">인스타 콘텐츠 기반</div>
+        </div>
+      </div>
+      <div style="padding:12px;display:flex;flex-direction:column;gap:8px;min-height:180px;">
+        <!-- User msg -->
+        <div style="align-self:flex-end;background:#3b82f6;color:white;border-radius:12px 12px 2px 12px;padding:7px 11px;font-size:11px;max-width:80%;">오사카 3박4일 일정 짜줘</div>
+        <!-- Bot msg -->
+        <div style="align-self:flex-start;background:#1e293b;color:#e2e8f0;border-radius:2px 12px 12px 12px;padding:9px 11px;font-size:10px;max-width:90%;line-height:1.6;">
+          📍 <b>오사카 3박4일 추천 루트</b><br>
+          Day1: 도톤보리·신사이바시<br>
+          Day2: 나라 당일치기<br>
+          Day3: 교토 아라시야마<br>
+          Day4: 우메다·공항<br><br>
+          <span style="color:#60a5fa;font-size:10px;">🔗 오사카 패스 보기 →</span>
+        </div>
+      </div>
+      <div style="padding:8px 12px;border-top:1px solid #1e293b;">
+        <div style="background:#1e293b;border-radius:16px;padding:6px 12px;font-size:10px;color:#475569;">여행지를 입력하세요...</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A. 정보 중심 어시스턴트</h3>
+      <p>구글 여행 가이드처럼 정확하고 구조적. 일정·예산·상품 링크를 깔끔하게 제공</p>
+    </div>
+  </div>
+
+  <!-- Option B: 크리에이터 페르소나 -->
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;background:#0f172a;border-radius:8px 8px 0 0;">
+      <div style="padding:10px 14px;border-bottom:1px solid #1e293b;display:flex;align-items:center;gap:8px;">
+        <div style="width:28px;height:28px;background:linear-gradient(135deg,#f59e0b,#ef4444);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;">🧡</div>
+        <div>
+          <div style="color:white;font-size:12px;font-weight:bold;">파파트래블 AI</div>
+          <div style="color:#64748b;font-size:10px;">파파트래블 콘텐츠로 대화해요</div>
+        </div>
+      </div>
+      <div style="padding:12px;display:flex;flex-direction:column;gap:8px;min-height:180px;">
+        <div style="align-self:flex-end;background:#3b82f6;color:white;border-radius:12px 12px 2px 12px;padding:7px 11px;font-size:11px;max-width:80%;">오사카 3박4일 일정 짜줘</div>
+        <div style="align-self:flex-start;background:#1e293b;color:#e2e8f0;border-radius:2px 12px 12px 12px;padding:9px 11px;font-size:10px;max-width:90%;line-height:1.6;">
+          오사카라면 저도 진짜 좋아하는 곳이에요! 🍜<br><br>
+          제 릴스에서 소개한 <span style="color:#f59e0b;">도톤보리 야식 루트</span>는 꼭 가보세요. 나라는 당일치기로 가는 게 딱이고요.<br><br>
+          <span style="color:#60a5fa;font-size:10px;">📸 관련 릴스 보기 → &nbsp; 🛒 나라 투어 →</span>
+        </div>
+      </div>
+      <div style="padding:8px 12px;border-top:1px solid #1e293b;">
+        <div style="background:#1e293b;border-radius:16px;padding:6px 12px;font-size:10px;color:#475569;">파파트래블에게 물어보기...</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B. 크리에이터 페르소나 챗봇</h3>
+      <p>마치 크리에이터 본인이 답하는 것처럼. 인스타 말투·콘텐츠 스타일 반영. 릴스 링크도 함께 제공</p>
+    </div>
+  </div>
+
+  <!-- Option C: 하이브리드 -->
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;background:#0f172a;border-radius:8px 8px 0 0;">
+      <div style="padding:10px 14px;border-bottom:1px solid #1e293b;display:flex;align-items:center;gap:8px;">
+        <div style="width:28px;height:28px;background:linear-gradient(135deg,#8b5cf6,#3b82f6);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;">🌟</div>
+        <div>
+          <div style="color:white;font-size:12px;font-weight:bold;">파파트래블 여행 챗봇</div>
+          <div style="color:#64748b;font-size:10px;">릴스·인스타 기반 맞춤 추천</div>
+        </div>
+      </div>
+      <div style="padding:12px;display:flex;flex-direction:column;gap:8px;min-height:180px;">
+        <div style="align-self:flex-end;background:#3b82f6;color:white;border-radius:12px 12px 2px 12px;padding:7px 11px;font-size:11px;max-width:80%;">오사카 3박4일 일정 짜줘</div>
+        <div style="align-self:flex-start;background:#1e293b;color:#e2e8f0;border-radius:2px 12px 12px 12px;padding:9px 11px;font-size:10px;max-width:90%;line-height:1.6;">
+          파파트래블이 다녀온 <span style="color:#a78bfa;">오사카 루트</span>예요! 🗺️<br><br>
+          <div style="background:#0f172a;border-radius:6px;padding:6px 8px;margin:4px 0;border-left:2px solid #8b5cf6;">
+            Day1 도톤보리 → Day2 나라 → Day3 교토
+          </div>
+          <span style="color:#60a5fa;font-size:10px;">📸 릴스 3개 →&nbsp; 🛒 오사카 패스 →</span>
+        </div>
+        <!-- Quick reply chips -->
+        <div style="display:flex;gap:4px;flex-wrap:wrap;">
+          <span style="background:#1e293b;border:1px solid #334155;color:#94a3b8;border-radius:10px;padding:3px 8px;font-size:9px;">예산은?</span>
+          <span style="background:#1e293b;border:1px solid #334155;color:#94a3b8;border-radius:10px;padding:3px 8px;font-size:9px;">숙소 추천도</span>
+          <span style="background:#1e293b;border:1px solid #334155;color:#94a3b8;border-radius:10px;padding:3px 8px;font-size:9px;">맛집만</span>
+        </div>
+      </div>
+      <div style="padding:8px 12px;border-top:1px solid #1e293b;">
+        <div style="background:#1e293b;border-radius:16px;padding:6px 12px;font-size:10px;color:#475569;">무엇이든 물어보세요...</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C. 하이브리드 (추천)</h3>
+      <p>정보는 정확하게, 말투는 크리에이터처럼. 빠른 답변 버튼으로 대화 유도. 릴스 + 상품 링크 동시 제공</p>
+    </div>
+  </div>
+
+</div>
+
+<p style="text-align:center;color:#94a3b8;font-size:13px;margin-top:16px;">어떤 느낌이 제일 마음에 드세요? 클릭하거나 터미널에서 말해주세요</p>

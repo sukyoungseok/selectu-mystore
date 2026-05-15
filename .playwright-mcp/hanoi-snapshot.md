@@ -1,0 +1,92 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - navigation [ref=e5]:
+        - button "myrealtrip" [ref=e7] [cursor=pointer]
+        - generic [ref=e11]
+        - generic [ref=e16]
+      - navigation [ref=e22]:
+        - generic [ref=e23]
+    - generic [ref=e158]:
+      - generic [ref=e162]:
+        - link "통합" [ref=e163] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/search?q=부산 투어&extra=
+        - link "투어·티켓" [ref=e166] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/search?q=부산 투어&tab=tour&extra=
+        - link "패키지" [ref=e170] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/pkc/search?q=%EB%B6%80%EC%82%B0%20%ED%88%AC%EC%96%B4
+        - link "국내숙소" [ref=e173] [cursor=pointer]:
+          - /url: https://accommodation.myrealtrip.com/union/products?keyword=%EB%B6%80%EC%82%B0%20%ED%88%AC%EC%96%B4&isDomestic=true&checkIn=2026-05-17&checkOut=2026-05-18
+        - link "여행자보험" [ref=e176] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/event/flight_insurance
+        - link "해외렌터카" [ref=e179] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/rentalcars
+        - link "국내렌터카" [ref=e182] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/rentacar
+        - link "해외골프" [ref=e185] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/promotions/mrt_tna_golf
+        - link "항공권" [ref=e188] [cursor=pointer]:
+          - /url: https://flights.myrealtrip.com
+      - generic [ref=e194]:
+        - generic [ref=e197] [cursor=pointer]
+        - generic [ref=e204] [cursor=pointer]
+        - generic [ref=e211] [cursor=pointer]
+        - generic [ref=e218] [cursor=pointer]
+      - generic [ref=e223]:
+        - generic [ref=e228]
+        - generic [ref=e347]
+        - generic [ref=e514]
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 부산 원데이 투어ㅣ해운대블루라인파크 열차&캡슐+해동용궁사+감천문화마을+흰여울 [부산출발] 235 5.0 (7) 부산 ∙ 투어 ∙ 10시간 0분 소요 무료취소 77,000원" [ref=e722] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3885009
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [부산] 미포스카이캡슐 · 감천문화마을 · 오륙도 스카이워크 투어 (부산 출발) 231 5.0 (10) 부산 ∙ 투어 ∙ 11시간 0분 소요 무료취소 즉시 확정 63,500원" [ref=e771] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3881177
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [부산] 태종대 · 감천문화마을 · 송도 스카이워크 · 해동용궁사 당일 투어 (부산 출발) 455 4.7 (22) 부산 ∙ 투어 ∙ 10시간 30분 소요 무료취소 즉시 확정 57,500원" [ref=e822] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3881174
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 부산 야경 소규모 스냅투어 혼자서도 즐길 수 있는 스냅 (최대 7명) 992 4.9 (112) 부산 ∙ 투어 ∙ 3시간 30분 소요 무료취소 75,000원" [ref=e873] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3827341
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 경주 원데이 투어ㅣ대릉원, 불국사, 교촌마을, 월정교, 동궁과 월지[부산출발] 35 5.0 (1) 부산 ∙ 투어 ∙ 11시간 0분 소요 무료취소 56,090원" [ref=e922] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3885010
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 부산출발 - 내장산 단풍 당일 투어 10 3.0 (1) 부산 ∙ 투어 ∙ 14시간 30분 소요 무료취소 55,000원" [ref=e971] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3885012
+        - generic [ref=e1020]
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [가을한정/부산출발] 내장산 국립공원 단풍투어｜한국어 가이드｜1인 출발 확정 7 무료취소 즉시 확정 64,900원" [ref=e1224] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/4637078
+        - link "product-thumbnail-0 product-thumbnail-1 [부산 해운대] 블루라인파크(~6/30) 4579 4.7 (498) 부산 ∙ 이동/교통편의 즉시 확정 8,000원 2% 7,800원" [ref=e1275] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/offers/107438
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 [키즈] [부산_국립해양박물관] 우리의 삶과 역사, 그리고 바다 33 45,000원" [ref=e1318] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/4414509
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 감천문화마을+천마산둘레길 야경투어 68 4.5 (2) 부산 ∙ 투어 ∙ 3시간 0분 소요 무료취소 20,000원" [ref=e1360] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3881494
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 부산의 아름다운 자연을 느낄수 있는 3곳 153 5.0 (1) 부산 ∙ 투어 ∙ 4시간 0분 소요 35,000원" [ref=e1414] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3880326
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [부산/투어] 피란수도 부산 도심을 경험하는 여행 178 4.5 (4) 부산 ∙ 투어 ∙ 5시간 0분 소요 무료취소 즉시 확정 50,000원" [ref=e1461] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3827625
+        - generic [ref=e1517]
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [부산] 해동용궁사 + 감천문화마을 + 블루라인파크 가이드 투어 6 4.9 (239) 부산 ∙ 투어 즉시 확정 39,525원" [ref=e1731] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/5905549
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [부산/서구] 스냅사진 작가와 함께하는 부산 송도 둘렛길 투어+맛집 투어 64 5.0 (1) 부산 ∙ 투어 ∙ 6시간 0분 소요 50,000원" [ref=e1785] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3881491
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [부산/부산진구] 전포 카페거리의 모든 것! 전포카페거리 투어 65 20,000원" [ref=e1836] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3881493
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 뚜벅뚜벅 둘러보는 옹기 마을과 시골 장터 인생샷 찍으러 고!고!고! 40 70,000원" [ref=e1882] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3884943
+        - link "product-thumbnail-0 [부산투어패스] 부산투어패스 부산여행 프리패스권 1094 4.7 (156) 부산 ∙ 입장권 즉시 확정 쿠폰할인가 29,900원 3% 28,900원" [ref=e1928] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/offers/113378
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 product-thumbnail-5 product-thumbnail-6 [부산] 센텀 스파랜드 입장권(3/31~4/30) 1009 4.8 (57) 부산 ∙ 스파/힐링 최저가보장제 즉시 확정 20,000원 12% 17,500원" [ref=e1967] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/offers/112026
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [부산 해운대] 부산 요트투어 요트와 특가 2302 4.9 (207) 부산 ∙ 액티비티 즉시 확정 60,000원 92% 5,000원" [ref=e2032] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/offers/107441
+        - link "product-thumbnail-0 [부산] 벡스코 상상체험 키즈월드 119 4.7 (12) 부산 ∙ 입장권 최저가보장제 즉시 확정 쿠폰할인가 15,500원 6% 14,500원" [ref=e2087] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/offers/163937
+      - button "저장됨" [ref=e2126] [cursor=pointer]:
+        - img [ref=e2128]
+        - generic [ref=e2131]: 저장됨
+    - contentinfo [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]
+        - generic [ref=e104]
+  - alert [ref=e157]
+  - button "마이리얼트립 상담 버튼" [ref=e2133]:
+    - generic [ref=e2134] [cursor=pointer]:
+      - generic [ref=e2135]: 마이리얼트립 상담 버튼
+      - img [ref=e2137]

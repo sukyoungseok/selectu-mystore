@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>쿠폰 옵션 비교 — 조건 제거</title>
+<style>
+  @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #b0b5ba;
+    font-family: 'Pretendard', -apple-system, sans-serif;
+    padding: 48px 32px 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  .page-header { text-align: center; }
+  .page-header h1 { font-size: 22px; font-weight: 800; color: #1a1a1a; letter-spacing: -0.5px; }
+  .page-header p { font-size: 14px; color: #444; margin-top: 6px; }
+
+  .compare-row { display: flex; gap: 32px; align-items: flex-start; }
+
+  .col { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+  .col-label {
+    background: #1a1a1a; color: #fff;
+    font-size: 13px; font-weight: 700; letter-spacing: -0.2px;
+    padding: 5px 16px; border-radius: 20px;
+  }
+  .col-desc {
+    font-size: 12px; color: #444; text-align: center;
+    max-width: 340px; line-height: 1.5;
+  }
+
+  /* Phone frame */
+  .phone {
+    width: 390px; background: #fff;
+    border-radius: 20px; overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  }
+
+  /* Nav */
+  .nav { padding: 26px 20px 14px; display: flex; align-items: center; gap: 8px; }
+  .nav-logo { font-size: 17px; font-weight: 900; font-style: italic; color: #191919; letter-spacing: -1px; }
+  .nav-logo span { color: #05C072; }
+  .nav-sub { font-size: 14px; font-weight: 600; color: #000; }
+
+  /* Coupon section (shared) */
+  .cs { margin: 0 9px 12px; border-radius: 16px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+  .cs:last-child { margin-bottom: 20px; }
+
+  .sh { padding: 16px 18px 14px; display: flex; align-items: center; gap: 10px; background: #fff; border-bottom: 1px solid #eee; }
+  .si { font-size: 18px; }
+  .st { font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; margin-bottom: 2px; }
+  .stt { font-size: 16px; font-weight: 800; color: #101418; letter-spacing: -0.4px; }
+
+  .sb { background: #fff; display: flex; flex-direction: column; }
+
+  .cbtn {
+    width: 100%; border: none; cursor: pointer;
+    color: white; font-size: 15px; font-weight: 600;
+    font-family: 'Pretendard', sans-serif;
+    letter-spacing: -0.15px; text-align: center;
+  }
+
+  /* ===================== OPTION A ===================== */
+  /* 조건만 제거, COUPON 레이블 유지, 카드 컴팩트 */
+  .opt-a .sb { padding: 12px 12px 14px; gap: 10px; }
+  .opt-a .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
+  .opt-a .card {
+    background: #f5f6f7; border-radius: 12px;
+    padding: 13px 13px;
+    display: flex; flex-direction: column; justify-content: center;
+  }
+  .opt-a .cl { font-size: 11px; font-weight: 700; letter-spacing: 0.4px; margin-bottom: 6px; }
+  .opt-a .ca { font-size: 20px; font-weight: 800; color: #101418; line-height: 1; }
+  .opt-a .cbtn { padding: 12px; border-radius: 12px; }
+  /* tour */
+  .opt-a .tour .st { color: #27ab86; }
+  .opt-a .tour .cl { color: #1c9674; }
+  .opt-a .tour .cbtn { background: linear-gradient(97deg, #51abf3 0%, #27ab86 100%); }
+  /* hotel */
+  .opt-a .hotel .st { color: #ff9a00; }
+  .opt-a .hotel .cl { color: #ec4937; }
+  .opt-a .hotel .cbtn { background: linear-gradient(97deg, #ff9a00 0%, #ec4937 100%); }
+
+  /* ===================== OPTION B ===================== */
+  /* 레이블+조건 모두 제거, 금액만 크게 중앙 */
+  .opt-b .sb { padding: 12px 12px 14px; gap: 10px; }
+  .opt-b .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
+  .opt-b .card {
+    background: #f5f6f7; border-radius: 12px;
+    height: 80px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .opt-b .ca { font-size: 24px; font-weight: 800; color: #101418; letter-spacing: -0.8px; line-height: 1; }
+  .opt-b .cbtn { padding: 12px; border-radius: 12px; }
+  /* tour */
+  .opt-b .tour .st { color: #27ab86; }
+  .opt-b .tour .cbtn { background: linear-gradient(97deg, #51abf3 0%, #27ab86 100%); }
+  /* hotel */
+  .opt-b .hotel .st { color: #ff9a00; }
+  .opt-b .hotel .cbtn { background: linear-gradient(97deg, #ff9a00 0%, #ec4937 100%); }
+
+  /* ===================== OPTION C ===================== */
+  /* 3열 타일, 카테고리 dot + 금액 */
+  .opt-c .sb { padding: 12px 12px 14px; gap: 10px; }
+  .opt-c .grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 7px; }
+  .opt-c .card {
+    background: #f5f6f7; border-radius: 10px;
+    height: 68px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px;
+  }
+  .opt-c .cdot { width: 6px; height: 6px; border-radius: 50%; }
+  .opt-c .ca { font-size: 16px; font-weight: 800; color: #101418; letter-spacing: -0.4px; line-height: 1; white-space: nowrap; }
+  .opt-c .cbtn { padding: 12px; border-radius: 12px; }
+  /* tour */
+  .opt-c .tour .st { color: #27ab86; }
+  .opt-c .tour .cdot { background: #27ab86; }
+  .opt-c .tour .cbtn { background: linear-gradient(97deg, #51abf3 0%, #27ab86 100%); }
+  /* hotel */
+  .opt-c .hotel .st { color: #ff9a00; }
+  .opt-c .hotel .cdot { background: #ff9a00; }
+  .opt-c .hotel .cbtn { background: linear-gradient(97deg, #ff9a00 0%, #ec4937 100%); }
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <h1>쿠폰 디자인 옵션 비교</h1>
+  <p>구매 조건 텍스트("5만원 이상" 등) 제거 후 3가지 방향</p>
+</div>
+
+<div class="compare-row">
+
+  <!-- ============ OPTION A ============ -->
+  <div class="col">
+    <div class="col-label">옵션 A · 컴팩트</div>
+    <div class="col-desc">조건만 제거, COUPON 레이블 유지<br>카드 높이 자연스럽게 줄어 2열 유지</div>
+    <div class="phone opt-a">
+      <div class="nav"><div class="nav-logo">M<span>y</span>realtrip</div><div class="nav-sub">공식 파트너스토어</div></div>
+
+      <div class="cs tour">
+        <div class="sh"><span class="si">🎫</span><div><div class="st tour">Tour Ticket</div><div class="stt">투어티켓 쿠폰팩</div></div></div>
+        <div class="sb">
+          <div class="grid">
+            <div class="card"><div class="cl">COUPON</div><div class="ca">1,000원</div></div>
+            <div class="card"><div class="cl">COUPON</div><div class="ca">3,000원</div></div>
+            <div class="card"><div class="cl">COUPON</div><div class="ca">5,000원</div></div>
+            <div class="card"><div class="cl">COUPON</div><div class="ca">15,000원</div></div>
+            <div class="card"><div class="cl">COUPON</div><div class="ca">25,000원</div></div>
+            <div class="card"><div class="cl">COUPON</div><div class="ca">50,000원</div></div>
+          </div>
+          <button class="cbtn tour">↓ 쿠폰팩 한번에 다운로드</button>
+        </div>
+      </div>
+
+      <div class="cs hotel">
+        <div class="sh"><span class="si">🏨</span><div><div class="st hotel">Hotel &amp; Stay</div><div class="stt">해외숙소 쿠폰팩</div></div></div>
+        <div class="sb">
+          <div class="grid">
+            <div class="card"><div class="cl">COUPON</div><div class="ca">1,000원</div></div>
+            <div class="card"><div class="cl">COUPON</div><div class="ca">3,000원</div></div>
+            <div class="card"><div class="cl">COUPON</div><div class="ca">5,000원</div></div>
+            <div class="card"><div class="cl">COUPON</div><div class="ca">15,000원</div></div>
+            <div class="card"><div class="cl">COUPON</div><div class="ca">25,000원</div></div>
+            <div class="card"><div class="cl">COUPON</div><div class="ca">50,000원</div></div>
+          </div>
+          <button class="cbtn hotel">↓ 쿠폰팩 한번에 다운로드</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ OPTION B ============ -->
+  <div class="col">
+    <div class="col-label">옵션 B · 빅 넘버</div>
+    <div class="col-desc">레이블·조건 모두 제거, 금액만 크게<br>카드 고정 높이 · 금액이 임팩트 있게</div>
+    <div class="phone opt-b">
+      <div class="nav"><div class="nav-logo">M<span>y</span>realtrip</div><div class="nav-sub">공식 파트너스토어</div></div>
+
+      <div class="cs tour">
+        <div class="sh"><span class="si">🎫</span><div><div class="st tour">Tour Ticket</div><div class="stt">투어티켓 쿠폰팩</div></div></div>
+        <div class="sb">
+          <div class="grid">
+            <div class="card"><div class="ca">1,000원</div></div>
+            <div class="card"><div class="ca">3,000원</div></div>
+            <div class="card"><div class="ca">5,000원</div></div>
+            <div class="card"><div class="ca">15,000원</div></div>
+            <div class="card"><div class="ca">25,000원</div></div>
+            <div class="card"><div class="ca">50,000원</div></div>
+          </div>
+          <button class="cbtn tour">↓ 쿠폰팩 한번에 다운로드</button>
+        </div>
+      </div>
+
+      <div class="cs hotel">
+        <div class="sh"><span class="si">🏨</span><div><div class="st hotel">Hotel &amp; Stay</div><div class="stt">해외숙소 쿠폰팩</div></div></div>
+        <div class="sb">
+          <div class="grid">
+            <div class="card"><div class="ca">1,000원</div></div>
+            <div class="card"><div class="ca">3,000원</div></div>
+            <div class="card"><div class="ca">5,000원</div></div>
+            <div class="card"><div class="ca">15,000원</div></div>
+            <div class="card"><div class="ca">25,000원</div></div>
+            <div class="card"><div class="ca">50,000원</div></div>
+          </div>
+          <button class="cbtn hotel">↓ 쿠폰팩 한번에 다운로드</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ OPTION C ============ -->
+  <div class="col">
+    <div class="col-label">옵션 C · 3열 타일</div>
+    <div class="col-desc">2열 → 3열로 변경, 6개 쿠폰 한눈에<br>카테고리 dot으로 소속감 유지</div>
+    <div class="phone opt-c">
+      <div class="nav"><div class="nav-logo">M<span>y</span>realtrip</div><div class="nav-sub">공식 파트너스토어</div></div>
+
+      <div class="cs tour">
+        <div class="sh"><span class="si">🎫</span><div><div class="st tour">Tour Ticket</div><div class="stt">투어티켓 쿠폰팩</div></div></div>
+        <div class="sb">
+          <div class="grid">
+            <div class="card"><div class="cdot"></div><div class="ca">1,000원</div></div>
+            <div class="card"><div class="cdot"></div><div class="ca">3,000원</div></div>
+            <div class="card"><div class="cdot"></div><div class="ca">5,000원</div></div>
+            <div class="card"><div class="cdot"></div><div class="ca">15,000원</div></div>
+            <div class="card"><div class="cdot"></div><div class="ca">25,000원</div></div>
+            <div class="card"><div class="cdot"></div><div class="ca">50,000원</div></div>
+          </div>
+          <button class="cbtn tour">↓ 쿠폰팩 한번에 다운로드</button>
+        </div>
+      </div>
+
+      <div class="cs hotel">
+        <div class="sh"><span class="si">🏨</span><div><div class="st hotel">Hotel &amp; Stay</div><div class="stt">해외숙소 쿠폰팩</div></div></div>
+        <div class="sb">
+          <div class="grid">
+            <div class="card"><div class="cdot"></div><div class="ca">1,000원</div></div>
+            <div class="card"><div class="cdot"></div><div class="ca">3,000원</div></div>
+            <div class="card"><div class="cdot"></div><div class="ca">5,000원</div></div>
+            <div class="card"><div class="cdot"></div><div class="ca">15,000원</div></div>
+            <div class="card"><div class="cdot"></div><div class="ca">25,000원</div></div>
+            <div class="card"><div class="cdot"></div><div class="ca">50,000원</div></div>
+          </div>
+          <button class="cbtn hotel">↓ 쿠폰팩 한번에 다운로드</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

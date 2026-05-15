@@ -1,0 +1,95 @@
+- generic [active] [ref=e1]:
+  - region "script.google.com 에서는 서비스 제공 및 서비스 품질 개선과 트래픽 분석을 위해 Google 쿠키를 사용합니다." [ref=e2]:
+    - paragraph [ref=e3]:
+      - text: script.google.com 에서는 서비스 제공 및 서비스 품질 개선과 트래픽 분석을 위해 Google 쿠키를 사용합니다.
+      - link "Google에서 쿠키를 사용하는 방법을 자세히 알아보세요. 새 탭에서 열립니다." [ref=e4] [cursor=pointer]:
+        - /url: https://policies.google.com/technologies/cookies?hl=ko
+        - text: 자세히 알아보세요
+    - button "확인" [ref=e5] [cursor=pointer]
+  - iframe [ref=e6]:
+    
+  - generic [ref=e7]:
+    - banner [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - button "기본 메뉴" [expanded] [ref=e12] [cursor=pointer]:
+            - img [ref=e13]
+          - link "Google Apps Script" [ref=e17] [cursor=pointer]:
+            - /url: /home
+            - img [ref=e18]
+            - generic [ref=e19]: Apps Script
+        - generic [ref=e20]:
+          - search [ref=e27]:
+            - generic [ref=e33]:
+              - textbox [disabled] [ref=e34]: 검색
+              - combobox "검색" [ref=e35]
+            - button "검색" [ref=e36] [cursor=pointer]:
+              - img [ref=e37]
+          - button "지원" [ref=e44] [cursor=pointer]:
+            - generic [ref=e47]: help_outline
+        - generic [ref=e49]:
+          - button "Google 앱" [ref=e53] [cursor=pointer]:
+            - img [ref=e54]
+          - 'button "Google 계정: 석수경 (sukyoung.seok@myrealtrip.com)" [ref=e59] [cursor=pointer]':
+            - img [ref=e61]
+      - navigation [ref=e62]:
+        - menu [ref=e63]:
+          - generic [ref=e65]:
+            - button "새 프로젝트" [ref=e67] [cursor=pointer]:
+              - img [ref=e69]
+              - generic [ref=e75]: 새 프로젝트
+            - generic [ref=e76]:
+              - menuitem "별표표시된 프로젝트" [ref=e77]:
+                - button "별표표시된 프로젝트" [ref=e78] [cursor=pointer]:
+                  - generic [ref=e81]:
+                    - generic [ref=e82]: star_outline
+                    - generic [ref=e83]: 별표표시된 프로젝트
+              - menuitem "내 프로젝트" [ref=e84]:
+                - button "내 프로젝트" [ref=e85] [cursor=pointer]:
+                  - generic [ref=e88]:
+                    - generic [ref=e89]: folder
+                    - generic [ref=e90]: 내 프로젝트
+              - menuitem "모든 프로젝트" [ref=e91]:
+                - button "모든 프로젝트" [ref=e92] [cursor=pointer]:
+                  - generic [ref=e95]:
+                    - generic [ref=e96]: folder
+                    - generic [ref=e97]: 모든 프로젝트
+              - menuitem "공유한 프로젝트" [ref=e98]:
+                - button "공유한 프로젝트" [ref=e99] [cursor=pointer]:
+                  - generic [ref=e102]:
+                    - generic [ref=e103]: group
+                    - generic [ref=e104]: 공유한 프로젝트
+              - menuitem "휴지통" [ref=e105]:
+                - button "휴지통" [ref=e106] [cursor=pointer]:
+                  - generic [ref=e109]:
+                    - generic [ref=e110]: delete
+                    - generic [ref=e111]: 휴지통
+              - menuitem "내 실행" [ref=e113]:
+                - button "내 실행" [ref=e114] [cursor=pointer]:
+                  - generic [ref=e117]:
+                    - img [ref=e119]
+                    - generic [ref=e125]: 내 실행
+              - menuitem "내 트리거" [ref=e126]:
+                - button "내 트리거" [ref=e127] [cursor=pointer]:
+                  - generic [ref=e130]:
+                    - generic [ref=e131]: alarm
+                    - generic [ref=e132]: 내 트리거
+              - menuitem "시작하기" [ref=e134]:
+                - button "시작하기" [ref=e135] [cursor=pointer]:
+                  - generic [ref=e138]:
+                    - generic [ref=e139]: play_circle_outline
+                    - generic [ref=e140]: 시작하기
+              - menuitem "설정" [ref=e141]:
+                - button "설정" [ref=e142] [cursor=pointer]:
+                  - generic [ref=e145]:
+                    - generic [ref=e146]: settings
+                    - generic [ref=e147]: 설정
+              - menuitem "서비스 상태" [ref=e148]:
+                - button "서비스 상태" [ref=e149] [cursor=pointer]:
+                  - generic [ref=e152]:
+                    - generic [ref=e153]: warning_amber
+                    - generic [ref=e154]: 서비스 상태
+    - generic [ref=e155]:
+      - heading "내 프로젝트" [level=1] [ref=e157]
+      - generic [ref=e163]:
+        - generic: 로드 중

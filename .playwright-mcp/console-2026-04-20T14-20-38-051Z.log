@@ -1,0 +1,33 @@
+[     479ms] [ERROR] Access to fetch at 'https://tripsignal.vercel.app/api/prices/tokyo?directOnly=false' from origin 'https://mystore-mockup.vercel.app' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://mystore-mockup.vercel.app/:0
+[     479ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://tripsignal.vercel.app/api/prices/tokyo?directOnly=false:0
+[     479ms] [WARNING] TripSignal tokyo 로드 실패 (기본값 유지): TypeError: Failed to fetch
+    at loadCityBudget (https://mystore-mockup.vercel.app/:4915:39)
+    at https://mystore-mockup.vercel.app/:4985:57
+    at Array.forEach (<anonymous>)
+    at loadBudget (https://mystore-mockup.vercel.app/:4985:39)
+    at https://mystore-mockup.vercel.app/:5019:13 @ https://mystore-mockup.vercel.app/:4976
+[     482ms] [ERROR] Access to fetch at 'https://tripsignal.vercel.app/api/prices/osaka?directOnly=false' from origin 'https://mystore-mockup.vercel.app' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://mystore-mockup.vercel.app/:0
+[     482ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://tripsignal.vercel.app/api/prices/osaka?directOnly=false:0
+[     482ms] [WARNING] TripSignal osaka 로드 실패 (기본값 유지): TypeError: Failed to fetch
+    at loadCityBudget (https://mystore-mockup.vercel.app/:4915:39)
+    at https://mystore-mockup.vercel.app/:4985:57
+    at Array.forEach (<anonymous>)
+    at loadBudget (https://mystore-mockup.vercel.app/:4985:39)
+    at https://mystore-mockup.vercel.app/:5019:13 @ https://mystore-mockup.vercel.app/:4976
+[     482ms] [ERROR] Access to fetch at 'https://tripsignal.vercel.app/api/prices/taipei?directOnly=false' from origin 'https://mystore-mockup.vercel.app' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://mystore-mockup.vercel.app/:0
+[     482ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://tripsignal.vercel.app/api/prices/taipei?directOnly=false:0
+[     482ms] [WARNING] TripSignal taipei 로드 실패 (기본값 유지): TypeError: Failed to fetch
+    at loadCityBudget (https://mystore-mockup.vercel.app/:4915:39)
+    at https://mystore-mockup.vercel.app/:4985:57
+    at Array.forEach (<anonymous>)
+    at loadBudget (https://mystore-mockup.vercel.app/:4985:39)
+    at https://mystore-mockup.vercel.app/:5019:13 @ https://mystore-mockup.vercel.app/:4976
+[     482ms] [ERROR] Access to fetch at 'https://tripsignal.vercel.app/api/prices/bangkok?directOnly=false' from origin 'https://mystore-mockup.vercel.app' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://mystore-mockup.vercel.app/:0
+[     482ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://tripsignal.vercel.app/api/prices/bangkok?directOnly=false:0
+[     482ms] [WARNING] TripSignal bangkok 로드 실패 (기본값 유지): TypeError: Failed to fetch
+    at loadCityBudget (https://mystore-mockup.vercel.app/:4915:39)
+    at https://mystore-mockup.vercel.app/:4985:57
+    at Array.forEach (<anonymous>)
+    at loadBudget (https://mystore-mockup.vercel.app/:4985:39)
+    at https://mystore-mockup.vercel.app/:5019:13 @ https://mystore-mockup.vercel.app/:4976
+[     746ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://mystore-mockup.vercel.app/favicon.ico:0

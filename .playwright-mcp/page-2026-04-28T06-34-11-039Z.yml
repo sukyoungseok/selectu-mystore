@@ -1,0 +1,199 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - navigation [ref=e5]:
+        - button "myrealtrip" [ref=e7] [cursor=pointer]:
+          - img "myrealtrip" [ref=e8]
+        - generic [ref=e11]:
+          - img "icon" [ref=e13] [cursor=pointer]
+          - textbox "판교 호캉스 \"루프탑 콘서트\" 한정 오픈!" [ref=e14]:
+            - /placeholder: "판교 호캉스 \"루프탑 콘서트\" 한정 오픈! "
+        - generic [ref=e16]:
+          - button "파트너 로그인" [ref=e18] [cursor=pointer]
+          - button "로그인 및 회원가입" [ref=e20] [cursor=pointer]
+      - navigation [ref=e22]:
+        - generic [ref=e23]:
+          - link "홈" [ref=e25] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com
+            - generic [ref=e26]: 홈
+          - link "할인" [ref=e28] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/promotions/benefit
+            - generic [ref=e29]: 할인
+          - link "항공" [ref=e31] [cursor=pointer]:
+            - /url: https://flights.myrealtrip.com/
+            - generic [ref=e32]: 항공
+          - link "국내 숙소" [ref=e34] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=domestic
+            - generic [ref=e35]: 국내 숙소
+          - link "해외 숙소" [ref=e37] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=overseas
+            - generic [ref=e38]: 해외 숙소
+          - link "해외여행보험" [ref=e40] [cursor=pointer]:
+            - /url: https://direct.samsungfire.com/vd/overture_index.jsp?OTK=F2511AF0514
+            - generic [ref=e41]: 해외여행보험
+          - link "패키지" [ref=e43] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/pkc
+            - generic [ref=e44]: 패키지
+          - link "한인민박" [ref=e46] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=minbak
+            - generic [ref=e47]: 한인민박
+          - link "투어·티켓" [ref=e49] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/experiences
+            - generic [ref=e50]: 투어·티켓
+          - button "더보기 icon" [ref=e52] [cursor=pointer]:
+            - generic [ref=e53]: 더보기
+            - img "icon" [ref=e54]
+    - main [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - generic [ref=e61]: 진행중
+            - generic [ref=e62]: 홍콩 5성급 프리미엄 에어텔 마켓 (마이팩)
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - button "3박4일 (인천)" [ref=e65] [cursor=pointer]:
+                - generic [ref=e66]: 3박4일 (인천)
+              - button "3박5일 (인천·부산)" [ref=e67] [cursor=pointer]:
+                - generic [ref=e68]: 3박5일 (인천·부산)
+            - generic [ref=e69] [cursor=pointer]:
+              - img [ref=e70]
+              - generic [ref=e72]: 공유
+        - generic [ref=e73]:
+          - img "PC-1.jpg (1/5)" [ref=e76]
+          - generic [ref=e78]:
+            - img "PC-2.jpg (2/5)" [ref=e79]
+            - button
+          - img "MO-3-2추가.jpg (1/2)" [ref=e83]
+          - img "pc5-2-카드사추가.jpg" [ref=e87]
+          - img "PC-3.jpg (3/5)" [ref=e90]
+          - generic [ref=e92]:
+            - img "PC-4.jpg (4/5)" [ref=e93]
+            - button
+            - button
+          - img "PC-5.jpg (5/5)" [ref=e98]
+          - img "PC-9.jpg (1/2)" [ref=e121]
+          - img "PC-10.jpg (2/2)" [ref=e124]
+          - img "PC-15.jpg (2/5)" [ref=e142]
+          - generic [ref=e144]:
+            - img "PC-16.jpg (3/5)" [ref=e145]
+            - button
+            - button
+          - img "PC-17.jpg (4/5)" [ref=e150]
+          - img "PC-18.jpg (5/5)" [ref=e153]
+          - img "PC-19.jpg (1/5)" [ref=e156]
+          - generic [ref=e158]:
+            - img "PC-20.jpg (2/5)" [ref=e159]
+            - link:
+              - /url: https://www.myrealtrip.com/mypack/detail/5889926?adultCount=2&childCount=2
+            - link:
+              - /url: https://www.myrealtrip.com/mypack/detail/5852478?adultCount=2&childCount=2
+          - img "PC-21.jpg (3/5)" [ref=e164]
+          - generic [ref=e166]:
+            - img "PC-24.jpg (4/5)" [ref=e167]
+            - button
+            - button
+          - img "PC-25.jpg (5/5)" [ref=e172]
+    - contentinfo [ref=e174]:
+      - generic [ref=e175]:
+        - generic [ref=e176]:
+          - generic [ref=e177]:
+            - text: 고객지원실 운영안내
+            - list [ref=e178]:
+              - listitem [ref=e179]: 채팅상담 연중무휴 24시간 유선상담 연중무휴 09:00-18:00
+              - listitem [ref=e180]: 유선상담 1670-8208
+            - button "고객지원실" [ref=e182]:
+              - button "고객지원실" [ref=e183] [cursor=pointer]:
+                - generic [ref=e184]: 고객지원실
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - text: 소개
+              - list [ref=e187]:
+                - listitem [ref=e188]:
+                  - link "회사소개" [ref=e189] [cursor=pointer]:
+                    - /url: https://about.myrealtrip.com
+                - listitem [ref=e190]:
+                  - link "채용" [ref=e191] [cursor=pointer]:
+                    - /url: https://career.myrealtrip.com
+                - listitem [ref=e192]:
+                  - link "공고" [ref=e193] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/announcement
+            - generic [ref=e194]:
+              - text: 파트너
+              - list [ref=e195]:
+                - listitem [ref=e196]:
+                  - link "파트너 홈" [ref=e197] [cursor=pointer]:
+                    - /url: https://partner.myrealtrip.com/welcome
+                - listitem [ref=e198]:
+                  - link "제휴 문의" [ref=e199] [cursor=pointer]:
+                    - /url: mailto:partnership@myrealtrip.com
+                - listitem [ref=e200]:
+                  - link "광고 문의" [ref=e201] [cursor=pointer]:
+                    - /url: mailto:ad@myrealtrip.com
+            - generic [ref=e202]:
+              - text: 지원
+              - list [ref=e203]:
+                - listitem [ref=e204]:
+                  - link "공지사항" [ref=e205] [cursor=pointer]:
+                    - /url: https://support.myrealtrip.com/notice
+                - listitem [ref=e206]:
+                  - link "문의내역" [ref=e207] [cursor=pointer]:
+                    - /url: https://support.myrealtrip.com/inquiry
+                - listitem [ref=e208]:
+                  - link "최저가 보장제" [ref=e209] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/best_price
+        - generic [ref=e210]:
+          - generic [ref=e211]:
+            - generic [ref=e212]:
+              - link "이용 약관" [ref=e214] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/policyAgreement
+              - link "개인정보 처리방침" [ref=e216] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/common/privacy
+              - link "취소 및 환불 정책" [ref=e218] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/common/cancel
+              - link "개발자 센터" [ref=e220] [cursor=pointer]:
+                - /url: https://docs.myrealtrip.com/#/api/intro
+            - generic [ref=e221]:
+              - generic [ref=e222]:
+                - link "icon 페이스북으로 이동하기" [ref=e224] [cursor=pointer]:
+                  - /url: https://www.facebook.com/myRealTrip
+                  - img "icon" [ref=e225]
+                  - generic [ref=e226]: 페이스북으로 이동하기
+                - link "icon 네이버 블로그로 이동하기" [ref=e228] [cursor=pointer]:
+                  - /url: https://blog.naver.com/myrealtrip
+                  - img "icon" [ref=e229]
+                  - generic [ref=e230]: 네이버 블로그로 이동하기
+                - link "icon 인스타그램으로 이동하기" [ref=e232] [cursor=pointer]:
+                  - /url: https://instagram.com/myrealtrip
+                  - img "icon" [ref=e233]
+                  - generic [ref=e234]: 인스타그램으로 이동하기
+                - link "icon 유투브로 이동하기" [ref=e236] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UC2oeFByIBQjkKXmQjE0U5rQ
+                  - img "icon" [ref=e237]
+                  - generic [ref=e238]: 유투브로 이동하기
+              - generic [ref=e240]:
+                - link "icon" [ref=e242] [cursor=pointer]:
+                  - /url: https://itunes.apple.com/app/id1141745032
+                  - img "icon" [ref=e243]
+                - link "icon" [ref=e245] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.mrt.ducati
+                  - img "icon" [ref=e246]
+            - button "icon 한국어 icon" [ref=e248] [cursor=pointer]:
+              - img "icon" [ref=e249]
+              - generic [ref=e250]: 한국어
+              - img "icon" [ref=e251]
+          - generic [ref=e252]:
+            - paragraph [ref=e254]:
+              - text: 상호명 (주)마이리얼트립 | 대표 이동건 | 개인정보보호책임자 김형석 | 사업자등록번호 209-81-55339
+              - link "사업자정보확인" [ref=e256] [cursor=pointer]:
+                - /url: https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2098155339
+              - text: "| 통신판매업신고번호 2019-서울서초-0260 | 관광사업등록번호 : 제2019-3호"
+              - text: 주소 서울특별시 서초구 강남대로 311, 18층 1729호(서초동, 한화생명보험빌딩)
+              - text: 이메일 help@myrealtrip.com | 입점 문의 partnership@myrealtrip.com
+              - text: "마케팅파트너/크리에이터 문의 marketing_partner@myrealtrip.com | 마케팅 문의 marketing@myrealtrip.com | 호스팅 서비스 제공자 : (주)마이리얼트립"
+              - text: "자사는 서울특별시관광협회 공제영업보증보험에 가입되어 있습니다. 영업보증보험: 1.5억원 / 기획여행보증: 2억원"
+              - text: 마이리얼트립은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 상품·거래정보 및 거래에 대하여 책임을 지지않습니다.
+              - text: 부득이한 사정에 의해 확정된 여행일정이 변경되는 경우 여행자의 사전 동의를 받습니다.
+              - text: (주)마이리얼트립이 소유, 운영, 관리하는 웹사이트 및 앱 내의 상품, 판매자 정보, 이벤트 정보, 디자인, UI 등을 포함한 일체의 콘텐츠에 대한 무단 복제, 배포, 전송, 스크래핑 등의 행위는 저작권법 등 관련 법령에 의하여 엄격히 금지됩니다.
+            - button "ISMS-P" [ref=e258] [cursor=pointer]:
+              - img "ISMS-P" [ref=e259]
+  - alert [ref=e260]

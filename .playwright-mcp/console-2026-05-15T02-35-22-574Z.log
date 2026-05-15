@@ -1,0 +1,5 @@
+[      43ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:8765/channel-pages-final/assets/profiles/%EB%B6%80%EC%82%B0%EB%A7%9B%EB%82%98.jpg:0
+[      43ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:8765/channel-pages-final/assets/icons/insta.png:0
+[      64ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:8765/channel-pages-final/assets/profiles/%EB%B6%80%EC%82%B0%EB%A7%9B%EB%82%98.jpg:0
+[      65ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:8765/channel-pages-final/assets/images/busanmatna-hero.jpg:0
+[      65ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:8765/channel-pages-final/assets/images/busanmatna-card1.jpg:0

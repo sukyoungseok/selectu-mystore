@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"python3 << 'PYEOF' 2>&1\\nimport asyncio\\nfrom pathlib import Path\\nfrom playwright.async_api import async_playwright\\n\\nAUTH_STATE = Path.home() / \\\".config\\\" / \\\"mrt-promotion\\\" / \\\"auth....",
+  "error": "Exit code 1\n✅ 저장된 세션 재사용\nTraceback (most recent call last):\n  File \"<stdin>\", line 79, in <module>\n  File \"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py\", line 195, in run\n    return runner.run(main)\n           ~~~~~~~~~~^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py\", line 118, in run\n    return self._loop.run_until_complete(task)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"/Library/Frameworks...",
+  "timestamp": "2026-05-15T12:23:37.199Z",
+  "retry_count": 1
+}

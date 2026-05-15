@@ -1,0 +1,173 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: 이 페이지의 링크를 통해 구매 시 수수료를 받아 채널 운영에 도움이 됩니다.
+    - generic [ref=e7]:
+      - img "부산맛나" [ref=e9]
+      - generic [ref=e10]:
+        - heading "부산맛나" [level=2] [ref=e11]
+        - paragraph [ref=e12]: 부산 찐맛집 · 여행 전문탐방 크리에이터
+        - generic [ref=e13]:
+          - link "Instagram" [ref=e14] [cursor=pointer]:
+            - /url: https://www.instagram.com/busan_matna_/
+            - img "Instagram" [ref=e15]
+          - link "✉️" [ref=e16] [cursor=pointer]:
+            - /url: mailto:ttt0831@naver.com
+    - link "부산맛나 팔로워 전용 선착순 할인 쿠폰팩 최대 99,000 원 8종 구성 받기" [ref=e17] [cursor=pointer]:
+      - /url: https://www.myrealtrip.com/coupons
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - generic [ref=e22]: 부산맛나 팔로워 전용
+          - generic [ref=e23]: 선착순 할인 쿠폰팩
+          - generic [ref=e25]:
+            - generic [ref=e26]: 최대
+            - generic [ref=e27]: 99,000
+            - generic [ref=e28]: 원
+          - generic:
+            - generic: 8종
+            - generic: 구성
+        - generic [ref=e29]:
+          - img [ref=e30]
+          - generic [ref=e32]: 받기
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - generic [ref=e37]:
+          - generic [ref=e38]: 🇯🇵
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - generic [ref=e41]: 5박 6일
+              - generic [ref=e42]: 인당 123만원
+            - generic [ref=e43]: 삿포로 가성비 코스
+        - generic [ref=e44]:
+          - generic [ref=e45]: 어디부터 볼까요?
+          - generic [ref=e46]:
+            - button "일정표 보기 DAY별 동선 확인 ›" [ref=e47] [cursor=pointer]:
+              - generic [ref=e48]:
+                - strong [ref=e49]: 일정표 보기
+                - generic [ref=e50]: DAY별 동선 확인
+              - generic [ref=e51]: ›
+            - button "상세 경비 보기 85만~ › 🔥 인기 항공·숙소·투어 한 번에" [ref=e52] [cursor=pointer]:
+              - generic [ref=e53]:
+                - strong [ref=e54]: 상세 경비 보기
+                - generic [ref=e55]:
+                  - generic [ref=e56]: 85만~
+                  - generic [ref=e57]: ›
+              - generic [ref=e58]:
+                - generic [ref=e59]: 🔥 인기
+                - generic [ref=e60]: 항공·숙소·투어 한 번에
+      - generic [ref=e61]:
+        - generic [ref=e63]:
+          - generic [ref=e64]: 🏔️
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - generic [ref=e67]: 5박 6일
+              - generic [ref=e68]: 인당 123만원
+            - generic [ref=e69]: 오타루 당일치기 코스
+        - generic [ref=e70]:
+          - generic [ref=e71]: 어디부터 볼까요?
+          - generic [ref=e72]:
+            - button "일정표 보기 DAY별 동선 확인 ›" [ref=e73] [cursor=pointer]:
+              - generic [ref=e74]:
+                - strong [ref=e75]: 일정표 보기
+                - generic [ref=e76]: DAY별 동선 확인
+              - generic [ref=e77]: ›
+            - button "상세 경비 보기 40만~ › 🔥 인기 항공·숙소·투어 한 번에" [ref=e78] [cursor=pointer]:
+              - generic [ref=e79]:
+                - strong [ref=e80]: 상세 경비 보기
+                - generic [ref=e81]:
+                  - generic [ref=e82]: 40만~
+                  - generic [ref=e83]: ›
+              - generic [ref=e84]:
+                - generic [ref=e85]: 🔥 인기
+                - generic [ref=e86]: 항공·숙소·투어 한 번에
+    - generic [ref=e91]:
+      - generic [ref=e92] [cursor=pointer]: 링크
+      - generic [ref=e93] [cursor=pointer]: 필수템
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - img [ref=e97]
+        - generic [ref=e98]:
+          - generic [ref=e99]: 🍜 부산 찐맛집부터 해외 여행 전문탐방까지
+          - text: 부산의 찐 맛집을 탐방하며 해외 여행도 빠삭하게 정리하는 부산맛나님. 삿포로 5박6일 인당 123만원 코스 — 료칸부터 스프카레, 징기스칸까지 완전 정복!
+      - generic [ref=e100]:
+        - heading "📸 추천 콘텐츠" [level=3] [ref=e101]
+        - link "🇯🇵 경비 총정리 삿포로 5박6일 인당 123만원 료칸·스프카레·징기스칸·버스투어 완전 정복 ›" [ref=e102] [cursor=pointer]:
+          - /url: https://www.instagram.com/reel/DSCL2k-EpkW/
+          - generic [ref=e103]: 🇯🇵
+          - generic [ref=e104]:
+            - generic [ref=e106]: 경비 총정리
+            - generic [ref=e107]: 삿포로 5박6일 인당 123만원
+            - generic [ref=e108]: 료칸·스프카레·징기스칸·버스투어 완전 정복
+          - generic [ref=e109]: ›
+    - generic [ref=e111]:
+      - generic [ref=e112]: COLLABORATION
+      - link "✉ ttt0831@naver.com" [ref=e113] [cursor=pointer]:
+        - /url: mailto:ttt0831@naver.com
+      - generic [ref=e114]: © 2026 부산맛나 · myrealtrip
+  - generic [ref=e116]:
+    - generic [ref=e117] [cursor=pointer]: ←
+    - generic [ref=e119]: 추천 코스
+    - button "링크 복사" [ref=e120] [cursor=pointer]:
+      - img [ref=e121]
+      - text: 링크 복사
+  - generic:
+    - generic:
+      - generic:
+        - generic: 총경비
+        - button "링크 복사":
+          - img
+          - text: 링크 복사
+      - generic: 추천 코스 · 1인 기준
+      - generic:
+        - generic: ✈️
+        - generic:
+          - generic:
+            - text: 항공권
+            - generic: 직항
+          - generic: 항공권 기준
+        - generic:
+          - generic: ₩-
+          - button "예약 바로가기"
+      - generic:
+        - generic:
+          - generic: 🏨
+          - generic:
+            - generic:
+              - text: 호텔
+              - generic: 추천
+            - generic: 3박 2인 1실 1인 기준
+          - generic:
+            - generic: ₩-
+            - button "예약 바로가기"
+      - generic:
+        - generic: 🍜
+        - generic:
+          - generic: 식비 · 현지 경비
+          - generic: 현지 식당 포함
+        - generic:
+          - generic: ₩-
+      - generic:
+        - generic: 총 경비
+        - generic: ₩-
+      - generic: · 1인 기준 평균값
+  - generic:
+    - generic:
+      - generic: 🎫 파트너 쿠폰
+      - generic: 부산맛나 통해 예약하면 받을 수 있는 혜택
+      - generic:
+        - generic:
+          - generic: 마이리얼트립 파트너 혜택
+          - generic: 첫 예약 3,000원 할인
+          - generic: 5만원 이상 결제 시 · 1회 사용 가능
+          - generic:
+            - generic: "유효기간: 2026.06.30까지"
+            - generic: 잔여 47장
+        - button "받기"
+      - generic:
+        - generic:
+          - generic: 재방문 감사 쿠폰
+          - generic: 2번째 예약 5% 할인
+          - generic: 최대 1만원 · 부산맛나 전용
+          - generic:
+            - generic: "유효기간: 2026.07.31까지"
+            - generic: 잔여 23장
+        - button "받기"

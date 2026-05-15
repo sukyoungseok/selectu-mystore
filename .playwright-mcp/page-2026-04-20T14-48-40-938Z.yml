@@ -1,0 +1,252 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "가이드" [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - generic [ref=e13]:
+          - link "YouTube 홈" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - generic [ref=e20]: KR
+        - button "탐색 건너뛰기" [ref=e24] [cursor=pointer]:
+          - generic: 탐색 건너뛰기
+      - generic [ref=e28]:
+        - search [ref=e29]:
+          - generic [ref=e30]:
+            - generic [ref=e31]:
+              - combobox "검색" [expanded] [ref=e33]
+              - button [ref=e36] [cursor=pointer]
+            - button "Search" [ref=e37] [cursor=pointer]:
+              - generic [ref=e40]:
+                - img
+        - generic [ref=e42]:
+          - button "음성으로 검색" [ref=e44] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e49]:
+        - button "설정" [ref=e54] [cursor=pointer]
+        - link "로그인" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DoTiR5EQ6ekM&hl=ko&ec=65620
+          - generic: 로그인
+  - main [ref=e63]:
+    - generic [ref=e64]:
+      - generic [ref=e66]:
+        - complementary [ref=e73]:
+          - generic "YouTube 동영상 플레이어" [active] [ref=e76]:
+            - button "재생" [ref=e81] [cursor=pointer]:
+              - img
+            - generic [ref=e82]:
+              - generic [ref=e83]:
+                - slider "탐색 슬라이더" [disabled] [ref=e84]
+                - generic:
+                  - generic:
+                    - generic:
+                      - slider "세밀한 탐색을 하려면 패널을 클릭하거나 스크롤하세요." [disabled]
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - button "일시중지(k)" [ref=e95] [cursor=pointer]:
+                    - img
+                  - generic [ref=e96]:
+                    - button "음소거(m)" [ref=e98] [cursor=pointer]:
+                      - img
+                    - slider "볼륨"
+                  - button "0 분 0 초/0 분 15 초" [ref=e102] [cursor=pointer]: 0:00 / 0:15
+                - generic [ref=e103]:
+                  - generic [ref=e104]:
+                    - button "자동재생 사용 설정" [ref=e105] [cursor=pointer]
+                    - button "자막 사용 불가" [ref=e108] [cursor=pointer]:
+                      - generic [ref=e109]:
+                        - img
+                    - button "설정" [ref=e110] [cursor=pointer]:
+                      - img
+                  - generic [ref=e111]:
+                    - button "영화관 모드(t)" [ref=e112] [cursor=pointer]:
+                      - img
+                    - button "전체 화면(f)" [ref=e113] [cursor=pointer]:
+                      - img
+        - generic [ref=e114]:
+          - generic [ref=e116]:
+            - heading "4박5일 나 혼자 홍콩여행 몰아보기🇭🇰이대로 가게 되는 그런 브이로그 • 딤섬,토마토 라면,밀크티,에그타르트,트램,전망대,푸딩빵,재즈바,2층버스,한국인 국룰 숙소를 다 냠념뇸" [level=1] [ref=e118]
+            - generic [ref=e119]:
+              - generic [ref=e120]:
+                - generic [ref=e121]:
+                  - link [ref=e122] [cursor=pointer]:
+                    - /url: /@Sookohaseyo
+                  - generic [ref=e124]:
+                    - generic "sookoh 수코" [ref=e128]:
+                      - link "sookoh 수코" [ref=e129] [cursor=pointer]:
+                        - /url: /@Sookohaseyo
+                    - generic "구독자 20.5만명" [ref=e130]
+                - generic [ref=e134]:
+                  - button "sookoh 수코을(를) 구독합니다." [ref=e136] [cursor=pointer]:
+                    - generic: 구독
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                    - generic:
+                      - img
+              - generic [ref=e143]:
+                - generic [ref=e144]:
+                  - generic [ref=e148]:
+                    - button "다른 사용자 5,631명과 함께 이 동영상에 좋아요 표시" [ref=e152] [cursor=pointer]:
+                      - generic: 5.6천
+                    - button "동영상에 싫어요 표시" [ref=e159] [cursor=pointer]
+                  - button "공유" [ref=e165] [cursor=pointer]:
+                    - generic: 공유
+                - button "재생목록에 저장" [ref=e172] [cursor=pointer]:
+                  - generic: 저장
+                - button "추가 작업" [ref=e177] [cursor=pointer]
+            - generic [ref=e183] [cursor=pointer]:
+              - generic [ref=e184]:
+                - generic [ref=e186]:
+                  - text: 조회수 47만회 11개월 전
+                  - link "#hongkong" [ref=e187]:
+                    - /url: /hashtag/hongkong
+                  - link "#홍콩여행" [ref=e188]:
+                    - /url: /hashtag/%ED%99%8D%EC%BD%A9%EC%97%AC%ED%96%89
+                  - link "#홍콩" [ref=e189]:
+                    - /url: /hashtag/%ED%99%8D%EC%BD%A9
+                - tooltip "tooltip"
+              - generic [ref=e190]:
+                - generic [ref=e191]:
+                  - generic [ref=e194]:
+                    - link "44분" [ref=e196]:
+                      - /url: /watch?v=oTiR5EQ6ekM&t=2640s
+                      - text: 44:00
+                    - text: 정말로 찾고있어요....간절 여행사진은
+                    - 'link "Instagram Channel Link: sookohaseyo" [ref=e199]':
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqblV4bVcxdzhxRlBDUVo0V3F5anFIbXI0UWhHd3xBQ3Jtc0ttWXFKR1dGdWYtMXUwY1g3Z3lvaktRV2JuTzMyelRHNE9lNzNYc0tTU3ZpcmV1TlZfbUQwd0JtN1ZQTkVpVGJJUU5KazVMeHVHaU1CXzd1UDB6QTVFNV9KQzBFelJFMHNrVlFJemx4NGt2UktKQnpSVQ&q=https%3A%2F%2Fwww.instagram.com%2Fsookohaseyo%2F&v=oTiR5EQ6ekM
+                      - text: / sookohaseyo
+                  - generic: …
+                - button "...더보기" [ref=e201]
+          - text: •
+      - generic [ref=e208]:
+        - generic [ref=e210] [cursor=pointer]:
+          - link [ref=e211]:
+            - /url: /watch?v=0_triXHSoGY
+            - generic [ref=e220]: 2:00:06
+          - generic [ref=e222]:
+            - generic [ref=e223]:
+              - heading "오사카 교토 여행 몰아보기🔥주유패스, 숙소, 구글맵, 필수코스와 현지인 맛집까지 가득담은 브이로그 | 10박11일 나혼자 오사카 교토 배낭여행vlog 통합본 2시간" [level=3] [ref=e224]:
+                - link "오사카 교토 여행 몰아보기🔥주유패스, 숙소, 구글맵, 필수코스와 현지인 맛집까지 가득담은 브이로그 | 10박11일 나혼자 오사카 교토 배낭여행vlog 통합본 2시간" [ref=e225]:
+                  - /url: /watch?v=0_triXHSoGY
+                  - text: 오사카 교토 여행 몰아보기🔥주유패스, 숙소, 구글맵, 필수코스와 현지인 맛집까지 가득담은 브이로그 | 10박11일 나혼자 오사카 교토 배낭여행vlog 통합본
+              - generic [ref=e227]:
+                - group [ref=e228]:
+                  - generic [ref=e229]: sookoh 수코
+                - group [ref=e230]:
+                  - generic [ref=e231]: 조회수 65만회
+                  - generic [ref=e232]: •
+                  - generic [ref=e233]: 2년 전
+            - button "추가 작업" [ref=e236]
+        - generic [ref=e241] [cursor=pointer]:
+          - link [ref=e242]:
+            - /url: /watch?v=Dk8EyUX-vtU
+            - generic [ref=e249]: 14:24
+          - generic [ref=e251]:
+            - generic [ref=e252]:
+              - heading "🇭🇰홍콩 현지인이 답답해서 만든 홍콩 여행 정보&팁 영상 1탄 (날씨, 쇼핑, 치안, 음식, 교통 등) 14분 24초" [level=3] [ref=e253]:
+                - link "🇭🇰홍콩 현지인이 답답해서 만든 홍콩 여행 정보&팁 영상 1탄 (날씨, 쇼핑, 치안, 음식, 교통 등) 14분 24초" [ref=e254]:
+                  - /url: /watch?v=Dk8EyUX-vtU
+                  - text: 🇭🇰홍콩 현지인이 답답해서 만든 홍콩 여행 정보&팁 영상 1탄 (날씨, 쇼핑, 치안, 음식, 교통 등)
+              - generic [ref=e256]:
+                - group [ref=e257]:
+                  - generic [ref=e258]: 윤유 Yunyu in HK
+                - group [ref=e259]:
+                  - generic [ref=e260]: 조회수 31만회
+                  - generic [ref=e261]: •
+                  - generic [ref=e262]: 1년 전
+            - button "추가 작업" [ref=e265]
+        - generic [ref=e270] [cursor=pointer]:
+          - link [ref=e271]:
+            - /url: /watch?v=5cX5SCnQEd4
+            - generic [ref=e278]: 11:30
+          - generic [ref=e280]:
+            - generic [ref=e281]:
+              - heading "2박4일 홍콩여행 강행군 11분 30초" [level=3] [ref=e282]:
+                - link "2박4일 홍콩여행 강행군 11분 30초" [ref=e283]:
+                  - /url: /watch?v=5cX5SCnQEd4
+                  - text: 2박4일 홍콩여행 강행군
+              - generic [ref=e285]:
+                - group [ref=e286]:
+                  - generic [ref=e287]: soobee 수비
+                - group [ref=e288]:
+                  - generic [ref=e289]: 조회수 353회
+                  - generic [ref=e290]: •
+                  - generic [ref=e291]: 9일 전
+            - button "추가 작업" [ref=e294]
+        - generic [ref=e299] [cursor=pointer]:
+          - link [ref=e300]:
+            - /url: /watch?v=Jsost-nVgYI
+            - generic [ref=e307]: 26:09
+          - generic [ref=e309]:
+            - generic [ref=e310]:
+              - heading "|🇭🇰 홍콩 브이로그| 홍콩, 제발 이렇게만 가세요 | 홍콩 초보자 필독! 실패 확률 0%인 4박 5일 완벽 코스 공유 | (맛집/포토스팟 총정리) 26분" [level=3] [ref=e311]:
+                - link "|🇭🇰 홍콩 브이로그| 홍콩, 제발 이렇게만 가세요 | 홍콩 초보자 필독! 실패 확률 0%인 4박 5일 완벽 코스 공유 | (맛집/포토스팟 총정리) 26분" [ref=e312]:
+                  - /url: /watch?v=Jsost-nVgYI
+                  - text: "|🇭🇰 홍콩 브이로그| 홍콩, 제발 이렇게만 가세요 | 홍콩 초보자 필독! 실패 확률 0%인 4박 5일 완벽 코스 공유 | (맛집/포토스팟 총정리)"
+              - generic [ref=e314]:
+                - group [ref=e315]:
+                  - generic [ref=e316]: 남만득 nammandeur
+                - group [ref=e317]:
+                  - generic [ref=e318]: 조회수 1만회
+                  - generic [ref=e319]: •
+                  - generic [ref=e320]: 4주 전
+            - button "추가 작업" [ref=e323]
+        - generic [ref=e328] [cursor=pointer]:
+          - link [ref=e329]:
+            - /url: /watch?v=AA2jUJ3jUQ0&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=e336]: 27:14
+          - generic [ref=e338]:
+            - generic [ref=e339]:
+              - heading "홍콩에서 3박 4일🇭🇰 | 절대 후회하지 않을 홍콩 맛집 20곳 추천 27분" [level=3] [ref=e340]:
+                - link "홍콩에서 3박 4일🇭🇰 | 절대 후회하지 않을 홍콩 맛집 20곳 추천 27분" [ref=e341]:
+                  - /url: /watch?v=AA2jUJ3jUQ0&pp=ugUEEgJrbw%3D%3D
+                  - text: 홍콩에서 3박 4일🇭🇰 | 절대 후회하지 않을 홍콩 맛집 20곳 추천
+              - generic [ref=e343]:
+                - group [ref=e344]:
+                  - generic [ref=e345]: 픽필름 pickfilm
+                - group [ref=e346]:
+                  - generic [ref=e347]: 조회수 6.7만회
+                  - generic [ref=e348]: •
+                  - generic [ref=e349]: 5개월 전
+            - button "추가 작업" [ref=e352]
+        - generic [ref=e357] [cursor=pointer]:
+          - link [ref=e358]:
+            - /url: /watch?v=G7_mrfldqOA
+            - generic [ref=e365]: 23:28
+          - generic [ref=e367]:
+            - generic [ref=e368]:
+              - heading "나혼자 청주 당일치기🥐청주보다 유명한 초코케이크와 짜글이 • 봉용불고기로 여는 뚜벅이 갓벽코스 청주여행 브이로그 23분" [level=3] [ref=e369]:
+                - link "나혼자 청주 당일치기🥐청주보다 유명한 초코케이크와 짜글이 • 봉용불고기로 여는 뚜벅이 갓벽코스 청주여행 브이로그 23분" [ref=e370]:
+                  - /url: /watch?v=G7_mrfldqOA
+                  - text: 나혼자 청주 당일치기🥐청주보다 유명한 초코케이크와 짜글이 • 봉용불고기로 여는 뚜벅이 갓벽코스 청주여행 브이로그
+              - generic [ref=e372]:
+                - group [ref=e373]:
+                  - generic [ref=e374]: sookoh 수코
+                - group [ref=e375]:
+                  - generic [ref=e376]: 조회수 39만회
+                  - generic [ref=e377]: •
+                  - generic [ref=e378]: 11개월 전
+            - button "추가 작업" [ref=e381]
+        - generic [ref=e386] [cursor=pointer]:
+          - link [ref=e387]:
+            - /url: /watch?v=Gc9CU46CCwQ
+            - generic [ref=e394]: 16:22
+          - generic [ref=e396]:
+            - generic [ref=e397]:
+              - heading "나혼자 알찬 홍콩 1박 2일 / 에그타르트 비교 / 야경투어 / 맛집추천 16분" [level=3] [ref=e398]:
+                - link "나혼자 알찬 홍콩 1박 2일 / 에그타르트 비교 / 야경투어 / 맛집추천 16분" [ref=e399]:
+                  - /url: /watch?v=Gc9CU46CCwQ
+                  - text: 나혼자 알찬 홍콩 1박 2일 / 에그타르트 비교 / 야경투어 / 맛집추천
+              - generic [ref=e401]:
+                - group [ref=e402]:
+                  - generic [ref=e403]: 키퍼플 keepurple
+                - group [ref=e404]:
+                  - generic [ref=e405]: 조회수 1.6천회
+                  - generic [ref=e406]: •
+                  - generic [ref=e407]: 11일 전
+            - button "추가 작업" [ref=e410]

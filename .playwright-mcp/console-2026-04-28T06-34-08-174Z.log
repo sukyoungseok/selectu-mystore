@@ -1,0 +1,2 @@
+[    2153ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://www.myrealtrip.com/promotions/46honkong_mypack?t_scope=86400&utm_source=mktpartner&mylink_id=1611220:0
+[    4319ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://o249654.ingest.us.sentry.io/api/4506936291295232/envelope/?sentry_key=5740f042e26dfe7c4fb5a6f417187eef&sentry_version=7&sentry_client=sentry.javascript.nextjs%2F7.102.1:0

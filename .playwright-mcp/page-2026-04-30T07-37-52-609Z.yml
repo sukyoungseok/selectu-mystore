@@ -1,0 +1,241 @@
+- generic [ref=e9]:
+  - generic [ref=e11]:
+    - button [ref=e12] [cursor=pointer]:
+      - img [ref=e13]
+    - button [ref=e16] [cursor=pointer]:
+      - img [ref=e17]
+  - generic [ref=e20]:
+    - generic [ref=e22]:
+      - img [ref=e24]
+      - img [ref=e26]
+    - generic [ref=e27]:
+      - heading "한국×호주 글로벌 가족의 일상이야기" [level=1] [ref=e29]
+      - heading "🇰🇷🇬🇧🇦🇺🇯🇵🇩🇪 ✈️해외살이 2n년차, 5개국살이 연년생 워킹맘이 실제 사용하는 꿀템들을 소개해요!" [level=2] [ref=e30]
+  - generic [ref=e32]:
+    - link "비지니스/협업 문의 비지니스/협업 문의" [ref=e35] [cursor=pointer]:
+      - /url: https://open.kakao.com/o/s1EBSKbh
+      - generic [ref=e36]:
+        - generic [ref=e38]:
+          - img [ref=e39]
+          - heading "비지니스/협업 문의" [level=2] [ref=e41]
+        - generic:
+          - generic:
+            - img
+            - generic:
+              - heading "비지니스/협업 문의" [level=2]
+    - heading "\"아래 추천 제품들은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\"" [level=3] [ref=e45]
+    - link "쟁여두고 먹는 버터! 풀 먹고 자란 소에서 만든 KERRYGOLD 케리골드 퓨어 아이리쉬 버터 (가염버터) 쟁여두고 먹는 버터! 풀 먹고 자란 소에서 만든 KERRYGOLD 케리골드 퓨어 아이리쉬 버터 (가염버터)" [ref=e48] [cursor=pointer]:
+      - /url: https://link.coupang.com/a/edFop3
+      - generic [ref=e49]:
+        - generic [ref=e51]:
+          - img [ref=e52]
+          - heading "쟁여두고 먹는 버터! 풀 먹고 자란 소에서 만든 KERRYGOLD 케리골드 퓨어 아이리쉬 버터 (가염버터)" [level=2] [ref=e54]
+        - generic:
+          - generic:
+            - img
+            - generic:
+              - heading "쟁여두고 먹는 버터! 풀 먹고 자란 소에서 만든 KERRYGOLD 케리골드 퓨어 아이리쉬 버터 (가염버터)" [level=2]
+    - link "쟁여두고 먹는 버터! 풀 먹고 자란 소에서 만든 KERRYGOLD 케리골드 퓨어 아이리쉬 (무염버터) 30% 30,900원 쟁여두고 먹는 버터! 풀 먹고 자란 소에서 만든 KERRYGOLD 케리골드 퓨어 아이리쉬 (무염버터) 30% 30,900원" [ref=e57] [cursor=pointer]:
+      - /url: https://link.coupang.com/a/edFvdG
+      - generic [ref=e58]:
+        - generic [ref=e60]:
+          - img [ref=e61]
+          - generic [ref=e62]:
+            - heading "쟁여두고 먹는 버터! 풀 먹고 자란 소에서 만든 KERRYGOLD 케리골드 퓨어 아이리쉬 (무염버터)" [level=2] [ref=e63]
+            - generic [ref=e64]:
+              - generic [ref=e65]: 30%
+              - generic [ref=e66]: 30,900원
+        - generic:
+          - generic:
+            - img
+            - generic:
+              - heading "쟁여두고 먹는 버터! 풀 먹고 자란 소에서 만든 KERRYGOLD 케리골드 퓨어 아이리쉬 (무염버터)" [level=2]
+              - generic:
+                - generic: 30%
+                - generic: 30,900원
+    - link "80만뷰찍은 일본세제! 키레잇코🔥 10% 15,300원 80만뷰찍은 일본세제! 키레잇코🔥 10% 15,300원" [ref=e69] [cursor=pointer]:
+      - /url: https://link.coupang.com/a/eeAGp0
+      - generic [ref=e70]:
+        - generic [ref=e72]:
+          - img [ref=e73]
+          - generic [ref=e74]:
+            - heading "80만뷰찍은 일본세제! 키레잇코🔥" [level=2] [ref=e75]
+            - generic [ref=e76]:
+              - generic [ref=e77]: 10%
+              - generic [ref=e78]: 15,300원
+        - generic:
+          - generic:
+            - img
+            - generic:
+              - heading "80만뷰찍은 일본세제! 키레잇코🔥" [level=2]
+              - generic:
+                - generic: 10%
+                - generic: 15,300원
+    - link "독일사람들의 강추템! 독일 소화제 겸 감기약 59,300원 독일사람들의 강추템! 독일 소화제 겸 감기약 59,300원" [ref=e81] [cursor=pointer]:
+      - /url: https://link.coupang.com/a/eeANIY
+      - generic [ref=e82]:
+        - generic [ref=e84]:
+          - img [ref=e85]
+          - generic [ref=e86]:
+            - heading "독일사람들의 강추템! 독일 소화제 겸 감기약" [level=2] [ref=e87]
+            - generic [ref=e89]: 59,300원
+        - generic:
+          - generic:
+            - img
+            - generic:
+              - heading "독일사람들의 강추템! 독일 소화제 겸 감기약" [level=2]
+              - generic:
+                - generic: 59,300원
+    - link "전기포트 청소에 최고인 독일 순수구연산 액상! 전기포트 청소에 최고인 독일 순수구연산 액상!" [ref=e92] [cursor=pointer]:
+      - /url: https://link.coupang.com/a/dnVPk5
+      - generic [ref=e93]:
+        - generic [ref=e95]:
+          - img [ref=e96]
+          - heading "전기포트 청소에 최고인 독일 순수구연산 액상!" [level=2] [ref=e98]
+        - generic:
+          - generic:
+            - img
+            - generic:
+              - heading "전기포트 청소에 최고인 독일 순수구연산 액상!" [level=2]
+    - link "바쁜 연년생맘의 우리 집에 떨어지면 큰일나는 아침식사 추천템1 - 호주산 위트빅스🇦🇺 12% 17,830원 바쁜 연년생맘의 우리 집에 떨어지면 큰일나는 아침식사 추천템1 - 호주산 위트빅스🇦🇺 12% 17,830원" [ref=e101] [cursor=pointer]:
+      - /url: https://link.coupang.com/a/dAcLLw
+      - generic [ref=e102]:
+        - generic [ref=e104]:
+          - img [ref=e105]
+          - generic [ref=e106]:
+            - heading "바쁜 연년생맘의 우리 집에 떨어지면 큰일나는 아침식사 추천템1 - 호주산 위트빅스🇦🇺" [level=2] [ref=e107]
+            - generic [ref=e108]:
+              - generic [ref=e109]: 12%
+              - generic [ref=e110]: 17,830원
+        - generic:
+          - generic:
+            - img
+            - generic:
+              - heading "바쁜 연년생맘의 우리 집에 떨어지면 큰일나는 아침식사 추천템1 - 호주산 위트빅스🇦🇺" [level=2]
+              - generic:
+                - generic: 12%
+                - generic: 17,830원
+    - link "바쁜 연년생 워킹맘 아침식사 추천템2 - 영국산 위타빅스🇬🇧 10% 15,300원 바쁜 연년생 워킹맘 아침식사 추천템2 - 영국산 위타빅스🇬🇧 10% 15,300원" [ref=e113] [cursor=pointer]:
+      - /url: https://link.coupang.com/a/dFkug8
+      - generic [ref=e114]:
+        - generic [ref=e116]:
+          - img [ref=e117]
+          - generic [ref=e118]:
+            - heading "바쁜 연년생 워킹맘 아침식사 추천템2 - 영국산 위타빅스🇬🇧" [level=2] [ref=e119]
+            - generic [ref=e120]:
+              - generic [ref=e121]: 10%
+              - generic [ref=e122]: 15,300원
+        - generic:
+          - generic:
+            - img
+            - generic:
+              - heading "바쁜 연년생 워킹맘 아침식사 추천템2 - 영국산 위타빅스🇬🇧" [level=2]
+              - generic:
+                - generic: 10%
+                - generic: 15,300원
+    - link "시차적응에 바쁜 엄마의 꿀잠 비결 마칼디 (마그네슘+ 칼슘 + 비타민D) 시차적응에 바쁜 엄마의 꿀잠 비결 마칼디 (마그네슘+ 칼슘 + 비타민D)" [ref=e125] [cursor=pointer]:
+      - /url: https://link.coupang.com/a/cegGlq
+      - generic [ref=e126]:
+        - generic [ref=e128]:
+          - img [ref=e129]
+          - heading "시차적응에 바쁜 엄마의 꿀잠 비결 마칼디 (마그네슘+ 칼슘 + 비타민D)" [level=2] [ref=e131]
+        - generic:
+          - generic:
+            - img
+            - generic:
+              - heading "시차적응에 바쁜 엄마의 꿀잠 비결 마칼디 (마그네슘+ 칼슘 + 비타민D)" [level=2]
+    - link "시차적응에 바쁜 엄마의 꿀잠템 ! 독일 마그네슘 추천! 시차적응에 바쁜 엄마의 꿀잠템 ! 독일 마그네슘 추천!" [ref=e134] [cursor=pointer]:
+      - /url: https://link.coupang.com/a/ca63OI
+      - generic [ref=e135]:
+        - generic [ref=e137]:
+          - img [ref=e138]
+          - heading "시차적응에 바쁜 엄마의 꿀잠템 ! 독일 마그네슘 추천!" [level=2] [ref=e140]
+        - generic:
+          - generic:
+            - img
+            - generic:
+              - heading "시차적응에 바쁜 엄마의 꿀잠템 ! 독일 마그네슘 추천!" [level=2]
+    - link "믿고 쓰는 닥터. 베크만! 우울할 땐 청소를🔥 - 인덕션 클리너 믿고 쓰는 닥터. 베크만! 우울할 땐 청소를🔥 - 인덕션 클리너" [ref=e143] [cursor=pointer]:
+      - /url: https://link.coupang.com/a/clEYjL
+      - generic [ref=e144]:
+        - generic [ref=e146]:
+          - img [ref=e147]
+          - heading "믿고 쓰는 닥터. 베크만! 우울할 땐 청소를🔥 - 인덕션 클리너" [level=2] [ref=e149]
+        - generic:
+          - generic:
+            - img
+            - generic:
+              - heading "믿고 쓰는 닥터. 베크만! 우울할 땐 청소를🔥 - 인덕션 클리너" [level=2]
+    - link "체지방 분해되는 일본녹차 -이토엔 오이오차 체지방 분해되는 일본녹차 -이토엔 오이오차" [ref=e152] [cursor=pointer]:
+      - /url: https://link.coupang.com/a/caO0Ur
+      - generic [ref=e153]:
+        - generic [ref=e155]:
+          - img [ref=e156]
+          - heading "체지방 분해되는 일본녹차 -이토엔 오이오차" [level=2] [ref=e158]
+        - generic:
+          - generic:
+            - img
+            - generic:
+              - heading "체지방 분해되는 일본녹차 -이토엔 오이오차" [level=2]
+    - link "현재가 우울하고 불안할 때! 미래의 나와 연결하는 법, 퓨처셀프 10% 15,300원 현재가 우울하고 불안할 때! 미래의 나와 연결하는 법, 퓨처셀프 10% 15,300원" [ref=e161] [cursor=pointer]:
+      - /url: https://link.coupang.com/a/eeAR4a
+      - generic [ref=e162]:
+        - generic [ref=e164]:
+          - img [ref=e165]
+          - generic [ref=e166]:
+            - heading "현재가 우울하고 불안할 때! 미래의 나와 연결하는 법, 퓨처셀프" [level=2] [ref=e167]
+            - generic [ref=e168]:
+              - generic [ref=e169]: 10%
+              - generic [ref=e170]: 15,300원
+        - generic:
+          - generic:
+            - img
+            - generic:
+              - heading "현재가 우울하고 불안할 때! 미래의 나와 연결하는 법, 퓨처셀프" [level=2]
+              - generic:
+                - generic: 10%
+                - generic: 15,300원
+    - 'link "바쁜 워킹맘에게 업무와 육아의 효율성을 극대화 해 준 책!! : 레버리지 바쁜 워킹맘에게 업무와 육아의 효율성을 극대화 해 준 책!! : 레버리지" [ref=e173] [cursor=pointer]':
+      - /url: https://link.coupang.com/a/ca65tE
+      - generic [ref=e174]:
+        - generic [ref=e176]:
+          - img [ref=e177]
+          - 'heading "바쁜 워킹맘에게 업무와 육아의 효율성을 극대화 해 준 책!! : 레버리지" [level=2] [ref=e179]'
+        - generic:
+          - generic:
+            - img
+            - generic:
+              - 'heading "바쁜 워킹맘에게 업무와 육아의 효율성을 극대화 해 준 책!! : 레버리지" [level=2]'
+    - 'link "혜밍웨이 추천도서 1 - 소설 : 파친코 혜밍웨이 추천도서 1 - 소설 : 파친코" [ref=e182] [cursor=pointer]':
+      - /url: https://link.coupang.com/a/b5o2zb
+      - generic [ref=e183]:
+        - generic [ref=e185]:
+          - img [ref=e186]
+          - 'heading "혜밍웨이 추천도서 1 - 소설 : 파친코" [level=2] [ref=e188]'
+        - generic:
+          - generic:
+            - img
+            - generic:
+              - 'heading "혜밍웨이 추천도서 1 - 소설 : 파친코" [level=2]'
+    - 'link "혜밍웨이 추천도서 - 어른들이 읽는 동화 : 100만 번 산 고양이 혜밍웨이 추천도서 - 어른들이 읽는 동화 : 100만 번 산 고양이" [ref=e191] [cursor=pointer]':
+      - /url: https://link.coupang.com/a/cQDlpi
+      - generic [ref=e192]:
+        - generic [ref=e194]:
+          - img [ref=e195]
+          - 'heading "혜밍웨이 추천도서 - 어른들이 읽는 동화 : 100만 번 산 고양이" [level=2] [ref=e197]'
+        - generic:
+          - generic:
+            - img
+            - generic:
+              - 'heading "혜밍웨이 추천도서 - 어른들이 읽는 동화 : 100만 번 산 고양이" [level=2]'
+    - link "혜밍웨이 유튜브 혜밍웨이 유튜브" [ref=e200] [cursor=pointer]:
+      - /url: https://youtube.com/@hyemingway0707?si=tY6FoQHLSPebifin
+      - generic [ref=e201]:
+        - heading "혜밍웨이 유튜브" [level=2] [ref=e204]
+        - generic:
+          - generic:
+            - heading "혜밍웨이 유튜브" [level=2]
+  - button "MY 페이지 무료로 만들기 >" [ref=e207] [cursor=pointer]:
+    - generic [ref=e208]:
+      - img [ref=e209]
+      - generic [ref=e210]: MY 페이지 무료로 만들기 >

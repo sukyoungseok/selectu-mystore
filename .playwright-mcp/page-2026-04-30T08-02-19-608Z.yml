@@ -1,0 +1,642 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "가이드" [pressed] [ref=e9] [cursor=pointer]:
+            - generic [ref=e12]:
+              - img
+          - generic [ref=e13]:
+            - link "YouTube 홈" [ref=e14] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e19]:
+                - img
+            - generic [ref=e20]: KR
+          - button "탐색 건너뛰기" [ref=e24] [cursor=pointer]:
+            - generic: 탐색 건너뛰기
+        - generic [ref=e28]:
+          - search [ref=e29]:
+            - generic [ref=e30]:
+              - generic [ref=e31]:
+                - combobox "검색" [expanded] [ref=e33]
+                - button [ref=e36] [cursor=pointer]
+              - button "Search" [ref=e37] [cursor=pointer]:
+                - generic [ref=e40]:
+                  - img
+          - generic [ref=e42]:
+            - button "음성으로 검색" [ref=e44] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+            - tooltip "tooltip"
+        - generic [ref=e49]:
+          - button "설정" [ref=e54] [cursor=pointer]:
+            - generic [ref=e57]:
+              - img
+          - link "로그인" [ref=e60] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%2540review__channel%252Fabout&hl=ko&ec=65620
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+            - generic: 로그인
+    - navigation [ref=e64]:
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - generic [ref=e73]:
+            - link "홈" [ref=e75] [cursor=pointer]:
+              - /url: /
+              - link "홈" [ref=e76]:
+                - generic [ref=e79]:
+                  - img
+                - generic [ref=e80]: 홈
+            - link "Shorts" [ref=e82] [cursor=pointer]:
+              - link "Shorts" [ref=e83]:
+                - generic [ref=e86]:
+                  - img
+                - generic [ref=e87]: Shorts
+            - link "구독" [ref=e89] [cursor=pointer]:
+              - /url: /feed/subscriptions
+              - link "구독" [ref=e90]:
+                - generic [ref=e93]:
+                  - img
+                - generic [ref=e94]: 구독
+            - link "내 페이지" [ref=e96] [cursor=pointer]:
+              - /url: /feed/you
+              - link "내 페이지" [ref=e97]:
+                - generic [ref=e100]:
+                  - img
+                - generic [ref=e101]: 내 페이지
+            - link "기록" [ref=e103] [cursor=pointer]:
+              - /url: /feed/history
+              - link "기록" [ref=e104]:
+                - generic [ref=e107]:
+                  - img
+                - generic [ref=e108]: 기록
+          - generic [ref=e109]:
+            - generic [ref=e110]: 로그인하면 동영상에 좋아요를 표시하고 댓글을 달거나 구독할 수 있습니다.
+            - link "로그인" [ref=e113] [cursor=pointer]:
+              - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%2540review__channel%252Fabout&hl=ko
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+              - generic: 로그인
+          - generic [ref=e117]:
+            - heading "탐색" [level=3] [ref=e118]:
+              - generic [ref=e119]: 탐색
+            - generic [ref=e120]:
+              - link "쇼핑" [ref=e122] [cursor=pointer]:
+                - /url: /channel/UCkYQyvc_i9hXEo4xic9Hh2g
+                - link "쇼핑" [ref=e123]:
+                  - generic [ref=e126]:
+                    - img
+                  - generic [ref=e127]: 쇼핑
+              - link "음악" [ref=e129] [cursor=pointer]:
+                - /url: /channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ
+                - link "음악" [ref=e130]:
+                  - generic [ref=e133]:
+                    - img
+                  - generic [ref=e134]: 음악
+              - link "영화" [ref=e136] [cursor=pointer]:
+                - /url: /feed/storefront?bp=ogUCKAU%3D
+                - link "영화" [ref=e137]:
+                  - generic [ref=e140]:
+                    - img
+                  - generic [ref=e141]: 영화
+              - button "더보기" [ref=e143]:
+                - link "더보기" [ref=e144] [cursor=pointer]:
+                  - link "더보기" [ref=e145]:
+                    - generic [ref=e148]:
+                      - img
+                    - generic [ref=e149]: 더보기
+          - generic [ref=e150]:
+            - heading "YouTube 더보기" [level=3] [ref=e151]:
+              - generic [ref=e152]: YouTube 더보기
+            - generic [ref=e153]:
+              - link "YouTube Premium" [ref=e155] [cursor=pointer]:
+                - /url: /premium
+                - link "YouTube Premium" [ref=e156]:
+                  - generic [ref=e159]:
+                    - img
+                  - generic [ref=e160]: YouTube Premium
+              - link "YouTube Music" [ref=e162] [cursor=pointer]:
+                - /url: https://music.youtube.com/
+                - link "YouTube Music" [ref=e163]:
+                  - generic [ref=e166]:
+                    - img
+                  - generic [ref=e167]: YouTube Music
+              - link "YouTube Kids" [ref=e169] [cursor=pointer]:
+                - /url: https://www.youtubekids.com/?source=youtube_web
+                - link "YouTube Kids" [ref=e170]:
+                  - generic [ref=e173]:
+                    - img
+                  - generic [ref=e174]: YouTube Kids
+          - link "신고 기록" [ref=e178] [cursor=pointer]:
+            - /url: /reporthistory
+            - link "신고 기록" [ref=e179]:
+              - generic [ref=e182]:
+                - img
+              - generic [ref=e183]: 신고 기록
+        - generic [ref=e184]:
+          - generic [ref=e185]:
+            - link "정보" [ref=e186] [cursor=pointer]:
+              - /url: https://www.youtube.com/about/
+            - link "보도자료" [ref=e187] [cursor=pointer]:
+              - /url: https://www.youtube.com/about/press/
+            - link "저작권" [ref=e188] [cursor=pointer]:
+              - /url: https://www.youtube.com/about/copyright/
+            - link "문의하기" [ref=e189] [cursor=pointer]:
+              - /url: /t/contact_us/
+            - link "크리에이터" [ref=e190] [cursor=pointer]:
+              - /url: https://www.youtube.com/creators/
+            - link "광고" [ref=e191] [cursor=pointer]:
+              - /url: https://www.youtube.com/ads/
+            - link "개발자" [ref=e192] [cursor=pointer]:
+              - /url: https://developers.google.com/youtube
+          - generic [ref=e193]:
+            - link "약관" [ref=e194] [cursor=pointer]:
+              - /url: /t/terms
+            - link "개인정보처리방침" [ref=e195] [cursor=pointer]:
+              - /url: /t/privacy
+            - link "정책 및 안전" [ref=e196] [cursor=pointer]:
+              - /url: https://www.youtube.com/about/policies/
+            - link "YouTube 작동의 원리" [ref=e197] [cursor=pointer]:
+              - /url: https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen
+            - link "새로운 기능 테스트하기" [ref=e198] [cursor=pointer]:
+              - /url: /new
+          - generic [ref=e200]:
+            - text: "© 2026 Google LLC, Sundar Pichai, 1600 Amphitheatre Parkway, Mountain View CA 94043, USA, 0807-882-594 (무료), yt-support-solutions-kr@google.com, 호스팅: Google LLC,"
+            - link "사업자정보" [ref=e201] [cursor=pointer]:
+              - /url: http://www.ftc.go.kr/selectBizOvrCommPop.do?apvPermMgtNo=2022-공정-0001
+            - text: ","
+            - link "불법촬영물 신고" [ref=e202] [cursor=pointer]:
+              - /url: https://support.google.com/youtube?p=korea_report
+            - text: 크리에이터들이 유튜브 상에 게시, 태그 또는 추천한 상품들은 판매자들의 약관에 따라 판매됩니다. 유튜브는 이러한 제품들을 판매하지 않으며, 그에 대한 책임을 지지 않습니다.
+    - generic [ref=e203]:
+      - main [ref=e204]:
+        - generic [ref=e211]:
+          - generic [ref=e227]:
+            - heading "별별리뷰" [level=1] [ref=e229]
+            - generic [ref=e230]:
+              - group [ref=e231]:
+                - generic [ref=e232]: "@review__channel"
+              - generic [ref=e233]: •
+              - group [ref=e234]:
+                - generic "구독자 2.01만명" [ref=e235]
+                - generic [ref=e236]: •
+                - generic [ref=e237]: 동영상 494개
+            - generic [ref=e239] [cursor=pointer]:
+              - generic [ref=e241]: 채널 자세히 알아보기
+              - 'button "설명: 채널 자세히 알아보기... 탭하여 자세히 알아보세요." [ref=e242]':
+                - generic [ref=e243]: ...더보기
+            - button "구독" [ref=e247] [cursor=pointer]:
+              - generic: 구독
+          - tablist [ref=e254]:
+            - tablist [ref=e258]:
+              - tab "홈" [selected] [ref=e259] [cursor=pointer]:
+                - generic [ref=e260]: 홈
+              - tab "동영상" [ref=e261] [cursor=pointer]:
+                - generic [ref=e262]: 동영상
+              - tab "Shorts" [ref=e263] [cursor=pointer]:
+                - generic [ref=e264]: Shorts
+              - tab "재생목록" [ref=e265] [cursor=pointer]:
+                - generic [ref=e266]: 재생목록
+              - tab "게시물" [ref=e267] [cursor=pointer]:
+                - generic [ref=e268]: 게시물
+              - button "검색" [ref=e272] [cursor=pointer]:
+                - generic [ref=e275]:
+                  - img
+        - generic [ref=e282]:
+          - generic [ref=e286]:
+            - heading "동영상" [level=2] [ref=e289]:
+              - link "동영상" [ref=e292] [cursor=pointer]:
+                - /url: /@review__channel/videos?view=0&sort=dd&shelf_id=1
+                - generic [ref=e293]: 동영상
+            - generic [ref=e295]:
+              - generic [ref=e298]:
+                - generic [ref=e300] [cursor=pointer]:
+                  - link [ref=e301]:
+                    - /url: /watch?v=vcs2lHLd8Vo
+                    - generic [ref=e308]: 16:02
+                  - generic [ref=e310]:
+                    - generic [ref=e311]:
+                      - heading "다낭 마사지 어디가 좋을까? 직접가보고 40% 깎았다 16분" [level=3] [ref=e312]:
+                        - link "다낭 마사지 어디가 좋을까? 직접가보고 40% 깎았다 16분" [ref=e313]:
+                          - /url: /watch?v=vcs2lHLd8Vo
+                          - text: 다낭 마사지 어디가 좋을까? 직접가보고 40% 깎았다
+                      - group [ref=e316]:
+                        - generic [ref=e317]: 조회수 1.8천회
+                        - generic [ref=e318]: •
+                        - generic [ref=e319]: 4일 전
+                    - button "추가 작업" [ref=e322]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e327] [cursor=pointer]:
+                  - link [ref=e328]:
+                    - /url: /watch?v=1ttYfaOa30c
+                    - generic [ref=e335]: 17:12
+                  - generic [ref=e337]:
+                    - generic [ref=e338]:
+                      - heading "나트랑 가성비 여행 코스 총정리 | 숙소 네일 씨푸드 야시장 쇼핑까지 완벽한 여행 17분" [level=3] [ref=e339]:
+                        - link "나트랑 가성비 여행 코스 총정리 | 숙소 네일 씨푸드 야시장 쇼핑까지 완벽한 여행 17분" [ref=e340]:
+                          - /url: /watch?v=1ttYfaOa30c
+                          - text: 나트랑 가성비 여행 코스 총정리 | 숙소 네일 씨푸드 야시장 쇼핑까지 완벽한 여행
+                      - group [ref=e343]:
+                        - generic [ref=e344]: 조회수 4.2천회
+                        - generic [ref=e345]: •
+                        - generic [ref=e346]: 7일 전
+                    - button "추가 작업" [ref=e349]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e354] [cursor=pointer]:
+                  - link [ref=e355]:
+                    - /url: /watch?v=nytPb5-7l_4
+                    - generic [ref=e362]: 13:32
+                  - generic [ref=e364]:
+                    - generic [ref=e365]:
+                      - heading "다낭 호텔 어디갈지 고민이라면? 한시장 근처 추천 숙소 6곳 13분 32초" [level=3] [ref=e366]:
+                        - link "다낭 호텔 어디갈지 고민이라면? 한시장 근처 추천 숙소 6곳 13분 32초" [ref=e367]:
+                          - /url: /watch?v=nytPb5-7l_4
+                          - text: 다낭 호텔 어디갈지 고민이라면? 한시장 근처 추천 숙소 6곳
+                      - group [ref=e370]:
+                        - generic [ref=e371]: 조회수 4.1천회
+                        - generic [ref=e372]: •
+                        - generic [ref=e373]: 2주 전
+                    - button "추가 작업" [ref=e376]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e381] [cursor=pointer]:
+                  - link [ref=e382]:
+                    - /url: /watch?v=ZnfmZkniLrs
+                    - generic [ref=e389]: 37:27
+                  - generic [ref=e391]:
+                    - generic [ref=e392]:
+                      - heading "다낭 여행코스 이렇게 하면 끝 (렌트카 12시간으로 오행산·호이안 포함 코스) 37분" [level=3] [ref=e393]:
+                        - link "다낭 여행코스 이렇게 하면 끝 (렌트카 12시간으로 오행산·호이안 포함 코스) 37분" [ref=e394]:
+                          - /url: /watch?v=ZnfmZkniLrs
+                          - text: 다낭 여행코스 이렇게 하면 끝 (렌트카 12시간으로 오행산·호이안 포함 코스)
+                      - group [ref=e397]:
+                        - generic [ref=e398]: 조회수 4.6천회
+                        - generic [ref=e399]: •
+                        - generic [ref=e400]: 2주 전
+                    - button "추가 작업" [ref=e403]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e408] [cursor=pointer]:
+                  - link [ref=e409]:
+                    - /url: /watch?v=2WRCSUygY64
+                    - generic [ref=e416]: 21:35
+                  - generic [ref=e418]:
+                    - generic [ref=e419]:
+                      - heading "다낭 한시장 추천 코스... 갑자기 고백받았습니다 (호텔, 맛집, BAR, 쇼핑) 21분" [level=3] [ref=e420]:
+                        - link "다낭 한시장 추천 코스... 갑자기 고백받았습니다 (호텔, 맛집, BAR, 쇼핑) 21분" [ref=e421]:
+                          - /url: /watch?v=2WRCSUygY64
+                          - text: 다낭 한시장 추천 코스... 갑자기 고백받았습니다 (호텔, 맛집, BAR, 쇼핑)
+                      - group [ref=e424]:
+                        - generic [ref=e425]: 조회수 3천회
+                        - generic [ref=e426]: •
+                        - generic [ref=e427]: 3주 전
+                    - button "추가 작업" [ref=e430]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e435] [cursor=pointer]:
+                  - link [ref=e436]:
+                    - /url: /watch?v=g68U4tUjnjY
+                    - generic [ref=e443]: 20:09
+                  - generic [ref=e445]:
+                    - generic [ref=e446]:
+                      - heading "비싸진 다낭에서 찾은 진짜 가성비 코스 (로컬 맛집, 카페, 마사지) 20분" [level=3] [ref=e447]:
+                        - link "비싸진 다낭에서 찾은 진짜 가성비 코스 (로컬 맛집, 카페, 마사지) 20분" [ref=e448]:
+                          - /url: /watch?v=g68U4tUjnjY
+                          - text: 비싸진 다낭에서 찾은 진짜 가성비 코스 (로컬 맛집, 카페, 마사지)
+                      - group [ref=e451]:
+                        - generic [ref=e452]: 조회수 4.2천회
+                        - generic [ref=e453]: •
+                        - generic [ref=e454]: 4주 전
+                    - button "추가 작업" [ref=e457]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+              - button "다음" [ref=e463] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+          - generic [ref=e470]:
+            - heading "인기 동영상" [level=2] [ref=e473]:
+              - link "인기 동영상" [ref=e476] [cursor=pointer]:
+                - /url: /@review__channel/videos?view=0&sort=p&shelf_id=2
+                - generic [ref=e477]: 인기 동영상
+            - generic [ref=e479]:
+              - generic [ref=e482]:
+                - generic [ref=e484] [cursor=pointer]:
+                  - link [ref=e485]:
+                    - /url: /watch?v=8AcoRlC3z1U
+                    - generic [ref=e492]: 10:31
+                  - generic [ref=e494]:
+                    - generic [ref=e495]:
+                      - heading "전주 현지인 맛집 11곳 직적다녀본 솔직후기 | 줄서서먹는 맛집 전주맛집 객리단길맛집 전주한옥마을맛집 전주카페 10분 31초" [level=3] [ref=e496]:
+                        - link "전주 현지인 맛집 11곳 직적다녀본 솔직후기 | 줄서서먹는 맛집 전주맛집 객리단길맛집 전주한옥마을맛집 전주카페 10분 31초" [ref=e497]:
+                          - /url: /watch?v=8AcoRlC3z1U
+                          - text: 전주 현지인 맛집 11곳 직적다녀본 솔직후기 | 줄서서먹는 맛집 전주맛집 객리단길맛집 전주한옥마을맛집 전주카페
+                      - group [ref=e500]:
+                        - generic [ref=e501]: 조회수 21만회
+                        - generic [ref=e502]: •
+                        - generic [ref=e503]: 2년 전
+                    - button "추가 작업" [ref=e506]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e511] [cursor=pointer]:
+                  - link [ref=e512]:
+                    - /url: /watch?v=nCSI-9hHAMg
+                    - generic [ref=e519]: 36:17
+                  - generic [ref=e521]:
+                    - generic [ref=e522]:
+                      - heading "다낭 한시장 쇼핑 2025 시세표 대공개! 5번 방문 후 흥정 꿀팁 쇼핑리스트 총정리 36분" [level=3] [ref=e523]:
+                        - link "다낭 한시장 쇼핑 2025 시세표 대공개! 5번 방문 후 흥정 꿀팁 쇼핑리스트 총정리 36분" [ref=e524]:
+                          - /url: /watch?v=nCSI-9hHAMg
+                          - text: 다낭 한시장 쇼핑 2025 시세표 대공개! 5번 방문 후 흥정 꿀팁 쇼핑리스트 총정리
+                      - group [ref=e527]:
+                        - generic [ref=e528]: 조회수 13만회
+                        - generic [ref=e529]: •
+                        - generic [ref=e530]: 9개월 전
+                    - button "추가 작업" [ref=e533]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e538] [cursor=pointer]:
+                  - link [ref=e539]:
+                    - /url: /watch?v=sLBwO6Afpn8&pp=0gcJCd8KAYcqIYzv
+                    - generic [ref=e546]: 31:40
+                  - generic [ref=e548]:
+                    - generic [ref=e549]:
+                      - heading "후쿠오카 쇼핑 15곳 총정리 | 2025 일본 쇼핑리스트 할인 꿀팁 슈프림 유니클로키티티 메종키츠네 꼼데 31분" [level=3] [ref=e550]:
+                        - link "후쿠오카 쇼핑 15곳 총정리 | 2025 일본 쇼핑리스트 할인 꿀팁 슈프림 유니클로키티티 메종키츠네 꼼데 31분" [ref=e551]:
+                          - /url: /watch?v=sLBwO6Afpn8&pp=0gcJCd8KAYcqIYzv
+                          - text: 후쿠오카 쇼핑 15곳 총정리 | 2025 일본 쇼핑리스트 할인 꿀팁 슈프림 유니클로키티티 메종키츠네 꼼데
+                      - group [ref=e554]:
+                        - generic [ref=e555]: 조회수 13만회
+                        - generic [ref=e556]: •
+                        - generic [ref=e557]: 10개월 전
+                    - button "추가 작업" [ref=e560]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e565] [cursor=pointer]:
+                  - link [ref=e566]:
+                    - /url: /watch?v=YoggjP5ZkO4&pp=0gcJCd8KAYcqIYzv
+                    - generic [ref=e573]: 10:02
+                  - generic [ref=e575]:
+                    - generic [ref=e576]:
+                      - heading "제주도 한달살이하면서 선정한 도민 추천 맛집 BEST9 (내돈내산 노협찬) 10분 2초" [level=3] [ref=e577]:
+                        - link "제주도 한달살이하면서 선정한 도민 추천 맛집 BEST9 (내돈내산 노협찬) 10분 2초" [ref=e578]:
+                          - /url: /watch?v=YoggjP5ZkO4&pp=0gcJCd8KAYcqIYzv
+                          - text: 제주도 한달살이하면서 선정한 도민 추천 맛집 BEST9 (내돈내산 노협찬)
+                      - group [ref=e581]:
+                        - generic [ref=e582]: 조회수 11만회
+                        - generic [ref=e583]: •
+                        - generic [ref=e584]: 1년 전
+                    - button "추가 작업" [ref=e587]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e592] [cursor=pointer]:
+                  - link [ref=e593]:
+                    - /url: /watch?v=MnFwdQDj5nY
+                    - generic [ref=e600]: 14:31
+                  - generic [ref=e602]:
+                    - generic [ref=e603]:
+                      - heading "태안 펜션 전객실 오션뷰 1박 55,000원 바베큐 조식 무제한 가성비 숙소 태안여행 14분 31초" [level=3] [ref=e604]:
+                        - link "태안 펜션 전객실 오션뷰 1박 55,000원 바베큐 조식 무제한 가성비 숙소 태안여행 14분 31초" [ref=e605]:
+                          - /url: /watch?v=MnFwdQDj5nY
+                          - text: 태안 펜션 전객실 오션뷰 1박 55,000원 바베큐 조식 무제한 가성비 숙소 태안여행
+                      - group [ref=e608]:
+                        - generic [ref=e609]: 조회수 7.3만회
+                        - generic [ref=e610]: •
+                        - generic [ref=e611]: 1년 전
+                    - button "추가 작업" [ref=e614]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e619] [cursor=pointer]:
+                  - link [ref=e620]:
+                    - /url: /watch?v=OTxN-RqEIBo
+                    - generic [ref=e627]: 8:20
+                  - generic [ref=e629]:
+                    - generic [ref=e630]:
+                      - heading "제주도여행 제주공항근처 줄서서먹는 맛집 내돈내산 후기 8분 20초" [level=3] [ref=e631]:
+                        - link "제주도여행 제주공항근처 줄서서먹는 맛집 내돈내산 후기 8분 20초" [ref=e632]:
+                          - /url: /watch?v=OTxN-RqEIBo
+                          - text: 제주도여행 제주공항근처 줄서서먹는 맛집 내돈내산 후기
+                      - group [ref=e635]:
+                        - generic [ref=e636]: 조회수 7.2만회
+                        - generic [ref=e637]: •
+                        - generic [ref=e638]: 2년 전
+                    - button "추가 작업" [ref=e641]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+              - button "다음" [ref=e647] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+          - generic [ref=e653]:
+            - generic [ref=e654]:
+              - generic [ref=e658]:
+                - img
+              - heading "Shorts" [level=2] [ref=e660]:
+                - generic [ref=e662]: Shorts
+              - button "추가 작업" [ref=e666] [cursor=pointer]:
+                - generic [ref=e669]:
+                  - img
+            - generic [ref=e671]:
+              - generic [ref=e674]:
+                - generic [ref=e676]:
+                  - link [ref=e677] [cursor=pointer]:
+                    - /url: /shorts/e_2O2ViFoEA
+                  - generic [ref=e681] [cursor=pointer]:
+                    - 'link "다낭 맛집 미케비치 쌀국수 어디갈지 고민이라면? #다낭여행 #다낭맛집 #다낭쌀국수 #다낭자유여행" [ref=e682]':
+                      - /url: /shorts/e_2O2ViFoEA
+                    - generic [ref=e683]: 조회수 2.1천회
+                  - button "추가 작업" [ref=e685] [cursor=pointer]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                - generic [ref=e690]:
+                  - link [ref=e691] [cursor=pointer]:
+                    - /url: /shorts/EHC_wrvYd78
+                  - generic [ref=e695] [cursor=pointer]:
+                    - 'link "다낭 맛집 크레이피쉬 쌀국수 꼭 드세요 한시장 근처 추천 #다낭여행 #다낭맛집 #다낭맛집추천 #다낭한시장" [ref=e696]':
+                      - /url: /shorts/EHC_wrvYd78
+                    - generic [ref=e697]: 조회수 2.6천회
+                  - button "추가 작업" [ref=e699] [cursor=pointer]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                - generic [ref=e704]:
+                  - link [ref=e705] [cursor=pointer]:
+                    - /url: /shorts/c8BF0jDR9nE
+                  - generic [ref=e709] [cursor=pointer]:
+                    - 'link "다낭 마사지 고급진 곳을 원한다면?! #다낭마사디 #다낭여행 #다낭 #다나스파 #다낭자유여행" [ref=e710]':
+                      - /url: /shorts/c8BF0jDR9nE
+                    - generic [ref=e711]: 조회수 2.6천회
+                  - button "추가 작업" [ref=e713] [cursor=pointer]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                - generic [ref=e718]:
+                  - link [ref=e719] [cursor=pointer]:
+                    - /url: /shorts/H6Na7UoBBqA
+                  - generic [ref=e723] [cursor=pointer]:
+                    - 'link "나트랑 네일 무제한 네일아트? 나트랑여행 중 재방문한 이유 #나트랑여행 #나트랑 #나트랑네일 #나트랑자유여행" [ref=e724]':
+                      - /url: /shorts/H6Na7UoBBqA
+                    - generic [ref=e725]: 조회수 2.1천회
+                  - button "추가 작업" [ref=e727] [cursor=pointer]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                - generic [ref=e732]:
+                  - link [ref=e733] [cursor=pointer]:
+                    - /url: /shorts/OsBz2EorJ5I
+                  - generic [ref=e737] [cursor=pointer]:
+                    - 'link "나트랑 씨푸드 맛집 왜 이렇게 줄서요?! 싱싱한 해산물 식당 #나트랑 #나트랑여행 #나트랑자유여행 #나트랑맛집 #나트랑씨푸드" [ref=e738]':
+                      - /url: /shorts/OsBz2EorJ5I
+                    - generic [ref=e739]: 조회수 3천회
+                  - button "추가 작업" [ref=e741] [cursor=pointer]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                - generic [ref=e746]:
+                  - link [ref=e747] [cursor=pointer]:
+                    - /url: /shorts/eWsswCbtC8U
+                  - generic [ref=e751] [cursor=pointer]:
+                    - 'link "나트랑 마사지 여행 꿀팁! 100곳 할인 가능하다구요? #나트랑여행 #나트랑 #나트랑마사지 #베나자 #나트랑자유여행" [ref=e752]':
+                      - /url: /shorts/eWsswCbtC8U
+                    - generic [ref=e753]: 조회수 2.3천회
+                  - button "추가 작업" [ref=e755] [cursor=pointer]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+              - button "다음" [ref=e761] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+      - text: •
+  - dialog [active] [ref=e765]:
+    - generic [ref=e766]:
+      - generic [ref=e769]:
+        - heading "별별리뷰" [level=2] [ref=e771]:
+          - generic "별별리뷰" [ref=e772]
+        - button "닫기" [ref=e776] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+      - generic [ref=e786]:
+        - generic [ref=e787]:
+          - generic [ref=e789]: 추가 정보
+          - table [ref=e790]:
+            - rowgroup [ref=e791]:
+              - row "이메일 주소를 보려면 로그인하세요." [ref=e792]:
+                - cell [ref=e793]:
+                  - generic [ref=e796]:
+                    - img
+                - cell "이메일 주소를 보려면 로그인하세요." [ref=e797]:
+                  - generic [ref=e800]:
+                    - text: 이메일 주소를 보려면
+                    - link "로그인" [ref=e801] [cursor=pointer]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3D%252F%2540review__channel&hl=ko
+                    - text: 하세요.
+              - row "www.youtube.com/@review__channel" [ref=e802]:
+                - cell [ref=e803]:
+                  - generic [ref=e806]:
+                    - img
+                - cell "www.youtube.com/@review__channel" [ref=e807]:
+                  - link "www.youtube.com/@review__channel" [ref=e808] [cursor=pointer]:
+                    - /url: http://www.youtube.com/@review__channel
+              - row "대한민국" [ref=e809]:
+                - cell [ref=e810]:
+                  - generic [ref=e813]:
+                    - img
+                - cell "대한민국" [ref=e814]
+              - 'row "가입일: 2022. 12. 30." [ref=e815]':
+                - cell [ref=e816]:
+                  - generic [ref=e819]:
+                    - img
+                - 'cell "가입일: 2022. 12. 30." [ref=e820]':
+                  - generic [ref=e822]: "가입일: 2022. 12. 30."
+              - row "구독자 2.01만명" [ref=e823]:
+                - cell [ref=e824]:
+                  - generic [ref=e827]:
+                    - img
+                - cell "구독자 2.01만명" [ref=e828]
+              - row "동영상 494개" [ref=e829]:
+                - cell [ref=e830]:
+                  - generic [ref=e833]:
+                    - img
+                - cell "동영상 494개" [ref=e834]
+              - row "조회수 14,303,554회" [ref=e835]:
+                - cell [ref=e836]:
+                  - generic [ref=e839]:
+                    - img
+                - cell "조회수 14,303,554회" [ref=e840]
+        - button "채널 공유" [ref=e845] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+          - generic: 채널 공유

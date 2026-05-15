@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd /Users/sukyoung-seok/mystore-mockup && echo \\\"=== requests 설치 확인 ===\\\" && python3 -c \\\"import requests; print('requests OK', requests.__version__)\\\" 2>&1 && echo \\\"=== scripts 폴더 ===\\\" ...",
+  "error": "Exit code 1\n=== requests 설치 확인 ===\nrequests OK 2.32.5\n=== scripts 폴더 ===\nbio_links_new.csv\ncms_upload.py\ncrawl_bio_links.py\ncrawl_bio_links_new.py\ncreate_contact_sheet.py\ncreate_final_list.py\ncreate_tapping_sheet.py\nexport_figma_images.py\nfetch_instagram_profiles.py\nfigma_create_variations.js\nfigma_variations_scripter.js\nsheets_to_creators.py\ntest_creators.txt\nupdate_final_links.py\nupdate_sheet.py\nupdate_sheet_new.py\nupdate_sheet_youtube.py\n=== test_creators.txt 존재? ===\nls: test_creators.txt: No...",
+  "timestamp": "2026-05-14T13:11:34.868Z",
+  "retry_count": 1
+}

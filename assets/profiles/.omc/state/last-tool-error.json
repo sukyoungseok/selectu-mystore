@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd /Users/sukyoung-seok/mystore-mockup && python3 -c \\\"import playwright; print('playwright', playwright.__version__)\\\" 2>&1 && python3 -c \\\"from playwright.sync_api import sync_playwright...",
+  "error": "Exit code 1\nTraceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n    import playwright; print('playwright', playwright.__version__)\n                                           ^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: module 'playwright' has no attribute '__version__'",
+  "timestamp": "2026-05-14T14:42:02.477Z",
+  "retry_count": 1
+}

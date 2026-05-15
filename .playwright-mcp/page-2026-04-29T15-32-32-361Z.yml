@@ -1,0 +1,47 @@
+- generic [ref=e9]:
+  - generic [ref=e11]:
+    - button [ref=e12] [cursor=pointer]:
+      - img [ref=e13]
+    - button [ref=e16] [cursor=pointer]:
+      - img [ref=e17]
+  - generic [ref=e20]:
+    - img [ref=e23]
+    - generic [ref=e24]:
+      - heading "트이프" [level=1] [ref=e26]
+      - heading "❣️가성비있는 여행지·숙소·맛집 정보❣️" [level=2] [ref=e27]
+  - generic [ref=e29]:
+    - heading "링크로 구매 시 트이프가 수수료를 받아요😊" [level=3] [ref=e33]
+    - link "1. 나트랑 깜란국제공항 입국 패스트트랙" [ref=e36] [cursor=pointer]:
+      - /url: https://myrealt.rip/KUGzd5
+      - heading "1. 나트랑 깜란국제공항 입국 패스트트랙" [level=2] [ref=e38]
+    - link "2.교토 나라버스투어 사슴공원" [ref=e47] [cursor=pointer]:
+      - /url: https://myrealt.rip/Ko5A24
+      - heading "2.교토 나라버스투어 사슴공원" [level=2] [ref=e49]
+    - link "3.나트랑 아미아나 깜란 리조트" [ref=e58] [cursor=pointer]:
+      - /url: https://myrealt.rip/Kw3t8a
+      - heading "3.나트랑 아미아나 깜란 리조트" [level=2] [ref=e60]
+    - link "4.나트랑 아미아나 칸호아 리조트" [ref=e69] [cursor=pointer]:
+      - /url: https://myrealt.rip/Kw3ya7
+      - heading "4.나트랑 아미아나 칸호아 리조트" [level=2] [ref=e71]
+    - link "5.간사이 와이드 패스(오사카, 교토)" [ref=e80] [cursor=pointer]:
+      - /url: https://myrealt.rip/KzR163
+      - heading "5.간사이 와이드 패스(오사카, 교토)" [level=2] [ref=e82]
+    - link "6.홍콩 디즈니랜드 아렌델 조식" [ref=e91] [cursor=pointer]:
+      - /url: https://3ha.in/r/378217
+      - heading "6.홍콩 디즈니랜드 아렌델 조식" [level=2] [ref=e93]
+    - link "7.트립닷컴 3.3 메가세일" [ref=e102] [cursor=pointer]:
+      - /url: https://www.trip.com/t/wgzEeNDTgT2
+      - heading "7.트립닷컴 3.3 메가세일" [level=2] [ref=e104]
+    - link "8.마티나, 스카이허브 라운지 (인천/김포/김해)" [ref=e113] [cursor=pointer]:
+      - /url: https://3ha.in/r/392005
+      - heading "8.마티나, 스카이허브 라운지 (인천/김포/김해)" [level=2] [ref=e115]
+    - link "8.마티나 골드 라운지" [ref=e124] [cursor=pointer]:
+      - /url: https://3ha.in/r/392009
+      - heading "8.마티나 골드 라운지" [level=2] [ref=e126]
+    - link "⬇️브랜든 도난방지 가방⬇️" [ref=e135] [cursor=pointer]:
+      - /url: https://m.site.naver.com/241uG
+      - heading "⬇️브랜든 도난방지 가방⬇️" [level=2] [ref=e137]
+  - button "MY 페이지 무료로 만들기 >" [ref=e146] [cursor=pointer]:
+    - generic [ref=e147]:
+      - img [ref=e148]
+      - generic [ref=e149]: MY 페이지 무료로 만들기 >

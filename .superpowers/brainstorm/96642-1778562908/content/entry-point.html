@@ -1,0 +1,99 @@
+<h2>챗봇을 어디서 만나게 할까요?</h2>
+<p class="subtitle">여행자가 챗봇을 처음 만나는 진입점 — 3가지 옵션</p>
+
+<div class="cards" style="grid-template-columns:1fr 1fr 1fr;">
+
+  <!-- Option A -->
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:16px;background:#f8fafc;">
+      <!-- Mockup: Channel page with floating chat button -->
+      <div style="border:1px solid #e2e8f0;border-radius:8px;overflow:hidden;font-size:11px;background:white;">
+        <div style="background:#1a1a2e;color:white;padding:10px 12px;font-weight:bold;font-size:12px;">🗺️ 파파트래블의 마이스토어</div>
+        <div style="padding:10px 12px;">
+          <div style="height:40px;background:#f1f5f9;border-radius:6px;margin-bottom:8px;display:flex;align-items:center;padding:0 10px;color:#94a3b8;">히어로 이미지 영역</div>
+          <div style="height:20px;background:#f1f5f9;border-radius:4px;width:60%;margin-bottom:6px;"></div>
+          <div style="height:14px;background:#f1f5f9;border-radius:4px;width:80%;margin-bottom:6px;"></div>
+          <div style="height:14px;background:#f1f5f9;border-radius:4px;width:70%;"></div>
+        </div>
+        <!-- Floating button -->
+        <div style="margin:8px;background:#3b82f6;color:white;border-radius:20px;padding:8px 12px;display:flex;align-items:center;gap:6px;font-size:11px;font-weight:bold;">
+          <span>💬</span>
+          <span>파파트래블에게 여행 물어보기</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A. 채널 페이지 내 CTA 버튼</h3>
+      <p>기존 채널 페이지 하단에 "이 크리에이터에게 여행 물어보기" 버튼 추가 → 클릭 시 챗봇 화면으로 이동</p>
+      <div class="pros-cons" style="margin-top:12px;">
+        <div class="pros"><h4>장점</h4><ul><li>기존 페이지 활용</li><li>자연스러운 흐름</li></ul></div>
+        <div class="cons"><h4>단점</h4><ul><li>채널 페이지 먼저 알아야 함</li></ul></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Option B -->
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:16px;background:#f8fafc;">
+      <!-- Mockup: Standalone chat page -->
+      <div style="border:1px solid #e2e8f0;border-radius:8px;overflow:hidden;font-size:11px;background:white;">
+        <div style="background:#0f172a;color:white;padding:8px 12px;font-size:11px;display:flex;align-items:center;gap:8px;">
+          <span style="width:28px;height:28px;background:#3b82f6;border-radius:50%;display:flex;align-items:center;justify-content:center;">🧳</span>
+          <div>
+            <div style="font-weight:bold;">MRT 여행 AI</div>
+            <div style="opacity:0.6;font-size:9px;">인스타 콘텐츠 기반</div>
+          </div>
+        </div>
+        <div style="padding:10px 12px;min-height:60px;">
+          <div style="background:#f1f5f9;border-radius:8px;padding:8px;font-size:10px;color:#475569;margin-bottom:6px;">오사카 3박 4일 추천 일정 알려줘</div>
+          <div style="background:#dbeafe;border-radius:8px;padding:8px;font-size:10px;color:#1e40af;margin-left:12px;">도톤보리→나라→교토 루트 추천드려요! 관련 상품도 확인해보세요 →</div>
+        </div>
+        <div style="padding:6px 12px;border-top:1px solid #f1f5f9;">
+          <div style="border:1px solid #e2e8f0;border-radius:16px;padding:5px 10px;font-size:10px;color:#94a3b8;">여행지를 물어보세요...</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B. 독립 챗봇 페이지</h3>
+      <p>mystore-mrt.vercel.app/chat 같은 별도 URL. 인스타 피드 QR코드나 링크트리에서 직접 연결</p>
+      <div class="pros-cons" style="margin-top:12px;">
+        <div class="pros"><h4>장점</h4><ul><li>SNS에서 직접 유입</li><li>독립적 확장 가능</li></ul></div>
+        <div class="cons"><h4>단점</h4><ul><li>채널 페이지와 분리됨</li></ul></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Option C -->
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:16px;background:#f8fafc;">
+      <!-- Mockup: Channel page + popup -->
+      <div style="border:1px solid #e2e8f0;border-radius:8px;overflow:hidden;font-size:11px;background:white;position:relative;">
+        <div style="background:#1a1a2e;color:white;padding:10px 12px;font-weight:bold;font-size:12px;">🗺️ 파파트래블의 마이스토어</div>
+        <div style="padding:10px 12px;opacity:0.4;">
+          <div style="height:40px;background:#f1f5f9;border-radius:6px;margin-bottom:8px;"></div>
+          <div style="height:14px;background:#f1f5f9;border-radius:4px;width:70%;"></div>
+        </div>
+        <!-- Popup overlay -->
+        <div style="position:absolute;bottom:8px;right:8px;left:8px;background:white;border:1px solid #3b82f6;border-radius:10px;padding:10px;box-shadow:0 4px 12px rgba(59,130,246,0.2);">
+          <div style="font-weight:bold;font-size:11px;margin-bottom:4px;">🤖 여행 질문 있으세요?</div>
+          <div style="font-size:9px;color:#64748b;margin-bottom:6px;">이 페이지 콘텐츠로 답해드려요</div>
+          <div style="display:flex;gap:4px;">
+            <span style="background:#eff6ff;border-radius:10px;padding:3px 7px;font-size:9px;color:#3b82f6;">3박4일 코스?</span>
+            <span style="background:#eff6ff;border-radius:10px;padding:3px 7px;font-size:9px;color:#3b82f6;">예산은?</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C. 채널 페이지 내 팝업/위젯</h3>
+      <p>채널 페이지 방문 시 챗봇 위젯이 하단에 자동으로 뜸. 빠른 질문 버튼 포함</p>
+      <div class="pros-cons" style="margin-top:12px;">
+        <div class="pros"><h4>장점</h4><ul><li>유입 마찰 최소화</li><li>페이지 이탈 없음</li></ul></div>
+        <div class="cons"><h4>단점</h4><ul><li>화면 차지, 거슬릴 수도</li></ul></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<p style="text-align:center;color:#94a3b8;font-size:13px;margin-top:16px;">클릭해서 선택하거나, 터미널에서 의견 말해주세요</p>

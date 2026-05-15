@@ -1,0 +1,1542 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - navigation [ref=e5]:
+        - button "myrealtrip" [ref=e7] [cursor=pointer]:
+          - img "myrealtrip" [ref=e8]
+        - generic [ref=e11]:
+          - img "icon" [ref=e13] [cursor=pointer]
+          - textbox "\"라한 호텔 브랜드\" 전라/경상 라스트 특가!" [ref=e14]:
+            - /placeholder: "\"라한 호텔 브랜드\" 전라/경상 라스트 특가! "
+        - generic [ref=e16]:
+          - button "파트너 로그인" [ref=e18] [cursor=pointer]
+          - button "로그인 및 회원가입" [ref=e20] [cursor=pointer]
+      - navigation [ref=e22]:
+        - generic [ref=e23]:
+          - link "홈" [ref=e25] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com
+            - generic [ref=e26]: 홈
+          - link "할인" [ref=e28] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/promotions/benefit
+            - generic [ref=e29]: 할인
+          - link "항공" [ref=e31] [cursor=pointer]:
+            - /url: https://flights.myrealtrip.com/
+            - generic [ref=e32]: 항공
+          - link "국내 숙소" [ref=e34] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=domestic
+            - generic [ref=e35]: 국내 숙소
+          - link "해외 숙소" [ref=e37] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=overseas
+            - generic [ref=e38]: 해외 숙소
+          - link "해외여행보험" [ref=e40] [cursor=pointer]:
+            - /url: https://direct.samsungfire.com/vd/overture_index.jsp?OTK=F2511AF0514
+            - generic [ref=e41]: 해외여행보험
+          - link "패키지" [ref=e43] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/pkc
+            - generic [ref=e44]: 패키지
+          - link "한인민박" [ref=e46] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=minbak
+            - generic [ref=e47]: 한인민박
+          - link "투어·티켓" [ref=e49] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/experiences
+            - generic [ref=e50]: 투어·티켓
+          - button "더보기 icon" [ref=e52] [cursor=pointer]:
+            - generic [ref=e53]: 더보기
+            - img "icon" [ref=e54]
+    - main [ref=e55]:
+      - article [ref=e56]:
+        - generic [ref=e62]:
+          - img [ref=e68] [cursor=pointer]
+          - generic [ref=e71] [cursor=pointer]:
+            - img [ref=e73]
+            - textbox [ref=e75]
+        - generic [ref=e78]: 24일 후 프로모션 종료
+        - generic [ref=e83]:
+          - generic [ref=e85]:
+            - img "product detail 0" [ref=e89]
+            - img "product detail 1" [ref=e93]
+            - generic [ref=e96]:
+              - img "product detail 2" [ref=e97]
+              - img "Placeholder Thumbnail" [ref=e99]
+            - generic [ref=e102]:
+              - img "product detail 3" [ref=e103]
+              - img "Placeholder Thumbnail" [ref=e105]
+            - generic [ref=e108]:
+              - img "product detail 4" [ref=e109]
+              - img "Placeholder Thumbnail" [ref=e111]
+            - generic [ref=e114]:
+              - img "product detail 5" [ref=e115]
+              - img "Placeholder Thumbnail" [ref=e117]
+            - generic [ref=e120]:
+              - img "product detail 6" [ref=e121]
+              - img "Placeholder Thumbnail" [ref=e123]
+            - generic [ref=e126]:
+              - img "product detail 7" [ref=e127]
+              - img "Placeholder Thumbnail" [ref=e129]
+            - generic [ref=e132]:
+              - img "product detail 8" [ref=e133]
+              - img "Placeholder Thumbnail" [ref=e135]
+            - generic [ref=e138]:
+              - img "product detail 9" [ref=e139]
+              - img "Placeholder Thumbnail" [ref=e141]
+            - generic [ref=e144]:
+              - img "product detail 10" [ref=e145]
+              - img "Placeholder Thumbnail" [ref=e147]
+            - generic [ref=e150]:
+              - img "product detail 11" [ref=e151]
+              - img "Placeholder Thumbnail" [ref=e153]
+            - generic [ref=e156]:
+              - img "product detail 12" [ref=e157]
+              - img "Placeholder Thumbnail" [ref=e159]
+            - generic [ref=e162]:
+              - img "product detail 13" [ref=e163]
+              - img "Placeholder Thumbnail" [ref=e165]
+            - generic [ref=e168]:
+              - img "product detail 14" [ref=e169]
+              - img "Placeholder Thumbnail" [ref=e171]
+            - generic [ref=e174]:
+              - img "product detail 15" [ref=e175]
+              - img "Placeholder Thumbnail" [ref=e177]
+            - generic [ref=e180]:
+              - img "product detail 16" [ref=e181]
+              - img "Placeholder Thumbnail" [ref=e183]
+            - generic [ref=e186]:
+              - img "product detail 17" [ref=e187]
+              - img "Placeholder Thumbnail" [ref=e189]
+            - generic [ref=e192]:
+              - img "product detail 18" [ref=e193]
+              - img "Placeholder Thumbnail" [ref=e195]
+            - generic [ref=e198]:
+              - img "product detail 19" [ref=e199]
+              - img "Placeholder Thumbnail" [ref=e201]
+            - generic [ref=e204]:
+              - img "product detail 20" [ref=e205]
+              - img "Placeholder Thumbnail" [ref=e207]
+            - generic [ref=e210]:
+              - img "product detail 21" [ref=e211]
+              - img "Placeholder Thumbnail" [ref=e213]
+            - generic [ref=e216]:
+              - img "product detail 22" [ref=e217]
+              - img "Placeholder Thumbnail" [ref=e219]
+            - generic [ref=e222]:
+              - img "product detail 23" [ref=e223]
+              - img "Placeholder Thumbnail" [ref=e225]
+            - generic [ref=e228]:
+              - img "product detail 24" [ref=e229]
+              - img "Placeholder Thumbnail" [ref=e231]
+            - generic [ref=e234]:
+              - img "product detail 25" [ref=e235]
+              - img "Placeholder Thumbnail" [ref=e237]
+            - generic [ref=e240]:
+              - img "product detail 26" [ref=e241]
+              - img "Placeholder Thumbnail" [ref=e243]
+            - generic [ref=e246]:
+              - img "product detail 27" [ref=e247]
+              - img "Placeholder Thumbnail" [ref=e249]
+            - generic [ref=e252]:
+              - img "product detail 28" [ref=e253]
+              - img "Placeholder Thumbnail" [ref=e255]
+            - generic [ref=e258]:
+              - img "product detail 29" [ref=e259]
+              - img "Placeholder Thumbnail" [ref=e261]
+            - generic [ref=e264]:
+              - img "product detail 30" [ref=e265]
+              - img "Placeholder Thumbnail" [ref=e267]
+            - generic [ref=e270]:
+              - img "product detail 31" [ref=e271]
+              - img "Placeholder Thumbnail" [ref=e273]
+            - generic [ref=e276]:
+              - img "product detail 32" [ref=e277]
+              - img "Placeholder Thumbnail" [ref=e279]
+            - generic [ref=e282]:
+              - img "product detail 33" [ref=e283]
+              - img "Placeholder Thumbnail" [ref=e285]
+            - generic [ref=e288]:
+              - img "product detail 34" [ref=e289]
+              - img "Placeholder Thumbnail" [ref=e291]
+            - generic [ref=e294]:
+              - img "product detail 35" [ref=e295]
+              - img "Placeholder Thumbnail" [ref=e297]
+            - generic [ref=e300]:
+              - img "product detail 36" [ref=e301]
+              - img "Placeholder Thumbnail" [ref=e303]
+            - generic [ref=e306]:
+              - img "product detail 37" [ref=e307]
+              - img "Placeholder Thumbnail" [ref=e309]
+            - generic [ref=e312]:
+              - img "product detail 38" [ref=e313]
+              - img "Placeholder Thumbnail" [ref=e315]
+          - generic [ref=e316]: 1/39
+        - generic [ref=e319]:
+          - generic [ref=e320] [cursor=pointer]: 정보
+          - generic [ref=e321] [cursor=pointer]: 객실 선택
+          - generic [ref=e322] [cursor=pointer]: 후기
+          - generic [ref=e323] [cursor=pointer]: 위치
+          - generic [ref=e324] [cursor=pointer]: 안내
+          - generic [ref=e325] [cursor=pointer]: 결제혜택
+        - generic [ref=e326]:
+          - generic [ref=e330]:
+            - generic [ref=e332]:
+              - heading "아미아나 리조트 깜란" [level=1] [ref=e333]
+              - generic [ref=e334]:
+                - img "icons" [ref=e335]
+                - img "icons" [ref=e336]
+                - img "icons" [ref=e337]
+                - img "icons" [ref=e338]
+            - generic [ref=e339]:
+              - generic [ref=e340]: 454V+46C, Cam Hải Đông, Cam Lâm District, Khánh Hòa, 베트남, 0
+              - link "지도에서 보기" [ref=e341] [cursor=pointer]:
+                - /url: https://www.google.com/maps/search/?api=1&query=12.1053099,109.1930183
+          - generic [ref=e343]:
+            - generic [ref=e345]: My 단독 특가
+            - list [ref=e347]:
+              - listitem [ref=e348]:
+                - img "조식 포함" [ref=e350]
+                - generic [ref=e351]:
+                  - generic [ref=e352]: 조식 포함
+                  - generic [ref=e353]: 전 옵션 제공
+              - listitem [ref=e354]:
+                - img "추가 혜택 택 1" [ref=e356]
+                - generic [ref=e357]:
+                  - generic [ref=e358]: 추가 혜택 택 1
+                  - generic [ref=e359]: 런치세트 / 디너뷔페 / 머드목욕
+              - listitem [ref=e360]:
+                - img "웰컴 생과일 1회 무료" [ref=e362]
+                - generic [ref=e363]:
+                  - generic [ref=e364]: 웰컴 생과일 1회 무료
+                  - generic [ref=e365]: 옵션별 상이
+              - listitem [ref=e366]:
+                - img "미니바 1회 무료" [ref=e368]
+                - generic [ref=e369]:
+                  - generic [ref=e370]: 미니바 1회 무료
+                  - generic [ref=e371]: 옵션별 상이
+          - generic [ref=e375]:
+            - heading "이 리조트 왜 좋을까?" [level=2] [ref=e377]
+            - generic [ref=e378]:
+              - img "이 리조트 왜 좋을까?" [ref=e379]
+              - button "내용 더보기" [ref=e384] [cursor=pointer]:
+                - generic [ref=e386]: 내용 더보기
+          - generic [ref=e390]:
+            - heading "편의 시설" [level=2] [ref=e391]
+            - generic [ref=e392]:
+              - generic [ref=e393]:
+                - generic [ref=e395]: 수영장
+                - generic [ref=e397]: 바/라운지
+                - generic [ref=e399]: 피트니스 시설
+              - button "시설 및 서비스 더보기" [ref=e400] [cursor=pointer]:
+                - generic [ref=e401]: 시설 및 서비스 더보기
+                - img [ref=e402]
+          - generic [ref=e406]:
+            - generic [ref=e407]:
+              - heading "객실 선택" [level=2] [ref=e408]
+              - generic [ref=e411]:
+                - button "5/29(금) - 5/30(토) ・ 1박" [ref=e412] [cursor=pointer]:
+                  - img [ref=e413]
+                  - generic [ref=e415]: 5/29(금) - 5/30(토) ・ 1박
+                - button "성인 2명" [ref=e416] [cursor=pointer]:
+                  - img [ref=e417]
+                  - generic [ref=e419]: 성인 2명
+            - generic [ref=e420]:
+              - generic [ref=e422]:
+                - generic [ref=e423]:
+                  - generic [ref=e425]:
+                    - img "단독 특가" [ref=e426]
+                    - generic [ref=e427]: 단독 특가
+                  - link "room detail thumbnail 0 room detail thumbnail 1 room detail thumbnail 2" [ref=e428] [cursor=pointer]:
+                    - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=MRT%3A-%3ASTAYNET%3A-%3A1734%3A-%3A18555&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                    - generic [ref=e430]:
+                      - img "room detail thumbnail 0" [ref=e432]
+                      - img "room detail thumbnail 1" [ref=e434]
+                      - img "room detail thumbnail 2" [ref=e436]
+                  - generic [ref=e437]:
+                    - link "[조식 패키지] 풀빌라 1베드룸" [ref=e438] [cursor=pointer]:
+                      - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=MRT%3A-%3ASTAYNET%3A-%3A1734%3A-%3A18555&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                    - generic [ref=e439]:
+                      - generic [ref=e440]:
+                        - generic [ref=e441]:
+                          - img "영업일 기준 4일 이내 확정" [ref=e443]
+                          - generic [ref=e445]: 영업일 기준 4일 이내 확정
+                        - generic [ref=e446]:
+                          - img "성인 2명" [ref=e448]
+                          - generic [ref=e450]: 성인 2명
+                      - link "자세히 보기" [ref=e451] [cursor=pointer]:
+                        - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=MRT%3A-%3ASTAYNET%3A-%3A1734%3A-%3A18555&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                        - button "자세히 보기" [ref=e452]:
+                          - generic [ref=e453]: 자세히 보기
+                - generic [ref=e455]:
+                  - generic [ref=e457]:
+                    - generic [ref=e458]: "[특가] 조식 패키지"
+                    - generic [ref=e459]:
+                      - generic [ref=e460]:
+                        - img "환불 불가" [ref=e462]
+                        - generic [ref=e464]: 환불 불가
+                      - generic [ref=e465]:
+                        - img "조식 포함" [ref=e467]
+                        - generic [ref=e469]: 조식 포함
+                      - generic [ref=e470]:
+                        - img "런치 세트/디너 뷔페/머드목욕 중 택 1" [ref=e472]
+                        - generic [ref=e474]: 런치 세트/디너 뷔페/머드목욕 중 택 1
+                      - generic [ref=e475]:
+                        - img "웰컴 생과일 & 미니바 1회 무료 제공" [ref=e477]
+                        - generic [ref=e479]: 웰컴 생과일 & 미니바 1회 무료 제공
+                    - button "자세히 보기" [ref=e480] [cursor=pointer]:
+                      - generic [ref=e481]: 자세히 보기
+                  - generic [ref=e482]:
+                    - generic [ref=e484]:
+                      - generic [ref=e485]:
+                        - generic [ref=e486]: 프로모션 특가
+                        - generic [ref=e487]: 766,458원
+                      - generic [ref=e488]:
+                        - generic [ref=e489]: 553,443원/박
+                        - img "price badge" [ref=e490]
+                      - generic [ref=e491]: 세금포함 608,787원/박
+                    - link "객실 옵션 보기" [ref=e493] [cursor=pointer]:
+                      - /url: /union/products/4478090/plans?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&isDomestic=false&providerRoomId=MRT%3A-%3ASTAYNET%3A-%3A1734%3A-%3A18555&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                      - button "객실 옵션 보기" [ref=e494]:
+                        - generic [ref=e495]: 객실 옵션 보기
+              - generic [ref=e497]:
+                - generic [ref=e498]:
+                  - generic [ref=e501]: 서두르세요! 객실이 1개 남았어요
+                  - link "room detail thumbnail 0 room detail thumbnail 1 room detail thumbnail 2" [ref=e502] [cursor=pointer]:
+                    - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A1018483601&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                    - generic [ref=e504]:
+                      - img "room detail thumbnail 0" [ref=e506]
+                      - img "room detail thumbnail 1" [ref=e508]
+                      - img "room detail thumbnail 2" [ref=e510]
+                  - generic [ref=e511]:
+                    - link "가든뷰 주니어 스위트 (아동 테마룸)" [ref=e512] [cursor=pointer]:
+                      - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A1018483601&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                    - generic [ref=e513]:
+                      - generic [ref=e514]:
+                        - generic [ref=e515]:
+                          - img "조식" [ref=e517]
+                          - generic [ref=e519]: 조식
+                        - generic [ref=e520]:
+                          - img "킹베드 1개 + 싱글베드 2개" [ref=e522]
+                          - generic [ref=e524]: 킹베드 1개 + 싱글베드 2개
+                        - generic [ref=e525]:
+                          - img "성인 2명" [ref=e527]
+                          - generic [ref=e529]: 성인 2명
+                        - generic [ref=e530]:
+                          - img "Garden view" [ref=e532]
+                          - generic [ref=e534]: Garden view
+                        - generic [ref=e535]:
+                          - img "객실 크기(㎡) - 90" [ref=e537]
+                          - generic [ref=e539]: 객실 크기(㎡) - 90
+                        - generic [ref=e540]:
+                          - img "TV" [ref=e542]
+                          - generic [ref=e544]: TV
+                        - generic [ref=e545]:
+                          - img "목욕 가운" [ref=e547]
+                          - generic [ref=e549]: 목욕 가운
+                      - link "자세히 보기" [ref=e550] [cursor=pointer]:
+                        - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A1018483601&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                        - button "자세히 보기" [ref=e551]:
+                          - generic [ref=e552]: 자세히 보기
+                - generic [ref=e555]:
+                  - generic [ref=e557]:
+                    - generic [ref=e558]:
+                      - generic [ref=e559]: 286,113원/박
+                      - img "price badge" [ref=e560]
+                    - generic [ref=e561]: 세금포함 320,260원/박
+                  - link "객실 옵션 보기" [ref=e563] [cursor=pointer]:
+                    - /url: /union/products/4478090/plans?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A1018483601&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                    - button "객실 옵션 보기" [ref=e564]:
+                      - generic [ref=e565]: 객실 옵션 보기
+              - generic [ref=e567]:
+                - generic [ref=e568]:
+                  - generic [ref=e571]: 서두르세요! 객실이 1개 남았어요
+                  - link "room detail thumbnail 0 room detail thumbnail 1 room detail thumbnail 2" [ref=e572] [cursor=pointer]:
+                    - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A1018264407&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                    - generic [ref=e574]:
+                      - img "room detail thumbnail 0" [ref=e576]
+                      - img "room detail thumbnail 1" [ref=e578]
+                      - img "room detail thumbnail 2" [ref=e580]
+                  - generic [ref=e581]:
+                    - link "디럭스 가든뷰 트윈룸" [ref=e582] [cursor=pointer]:
+                      - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A1018264407&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                    - generic [ref=e583]:
+                      - generic [ref=e584]:
+                        - generic [ref=e585]:
+                          - img "조식" [ref=e587]
+                          - generic [ref=e589]: 조식
+                        - generic [ref=e590]:
+                          - img "싱글베드 2개" [ref=e592]
+                          - generic [ref=e594]: 싱글베드 2개
+                        - generic [ref=e595]:
+                          - img "성인 2명" [ref=e597]
+                          - generic [ref=e599]: 성인 2명
+                        - generic [ref=e600]:
+                          - img "Garden view" [ref=e602]
+                          - generic [ref=e604]: Garden view
+                        - generic [ref=e605]:
+                          - img "객실 크기(㎡) - 50" [ref=e607]
+                          - generic [ref=e609]: 객실 크기(㎡) - 50
+                        - generic [ref=e610]:
+                          - img "TV" [ref=e612]
+                          - generic [ref=e614]: TV
+                        - generic [ref=e615]:
+                          - img "목욕 가운" [ref=e617]
+                          - generic [ref=e619]: 목욕 가운
+                      - link "자세히 보기" [ref=e620] [cursor=pointer]:
+                        - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A1018264407&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                        - button "자세히 보기" [ref=e621]:
+                          - generic [ref=e622]: 자세히 보기
+                - generic [ref=e625]:
+                  - generic [ref=e627]:
+                    - generic [ref=e628]:
+                      - generic [ref=e629]: 428,608원/박
+                      - img "price badge" [ref=e630]
+                    - generic [ref=e631]: 세금포함 479,778원/박
+                  - link "객실 옵션 보기" [ref=e633] [cursor=pointer]:
+                    - /url: /union/products/4478090/plans?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A1018264407&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                    - button "객실 옵션 보기" [ref=e634]:
+                      - generic [ref=e635]: 객실 옵션 보기
+              - generic [ref=e637]:
+                - generic [ref=e638]:
+                  - generic [ref=e641]: 서두르세요! 객실이 1개 남았어요
+                  - link "room detail thumbnail 0 room detail thumbnail 1 room detail thumbnail 2" [ref=e642] [cursor=pointer]:
+                    - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A990816861&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                    - generic [ref=e644]:
+                      - img "room detail thumbnail 0" [ref=e646]
+                      - img "room detail thumbnail 1" [ref=e648]
+                      - img "room detail thumbnail 2" [ref=e650]
+                  - generic [ref=e651]:
+                    - link "디럭스 킹룸 - 정원 전망" [ref=e652] [cursor=pointer]:
+                      - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A990816861&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                    - generic [ref=e653]:
+                      - generic [ref=e654]:
+                        - generic [ref=e655]:
+                          - img "조식" [ref=e657]
+                          - generic [ref=e659]: 조식
+                        - generic [ref=e660]:
+                          - img "킹베드 1개" [ref=e662]
+                          - generic [ref=e664]: 킹베드 1개
+                        - generic [ref=e665]:
+                          - img "성인 2명" [ref=e667]
+                          - generic [ref=e669]: 성인 2명
+                        - generic [ref=e670]:
+                          - img "Garden view" [ref=e672]
+                          - generic [ref=e674]: Garden view
+                        - generic [ref=e675]:
+                          - img "객실 크기(㎡) - 50" [ref=e677]
+                          - generic [ref=e679]: 객실 크기(㎡) - 50
+                        - generic [ref=e680]:
+                          - img "TV" [ref=e682]
+                          - generic [ref=e684]: TV
+                        - generic [ref=e685]:
+                          - img "목욕 가운" [ref=e687]
+                          - generic [ref=e689]: 목욕 가운
+                      - link "자세히 보기" [ref=e690] [cursor=pointer]:
+                        - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A990816861&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                        - button "자세히 보기" [ref=e691]:
+                          - generic [ref=e692]: 자세히 보기
+                - generic [ref=e695]:
+                  - generic [ref=e697]:
+                    - generic [ref=e698]:
+                      - generic [ref=e699]: 428,608원/박
+                      - img "price badge" [ref=e700]
+                    - generic [ref=e701]: 세금포함 479,778원/박
+                  - link "객실 옵션 보기" [ref=e703] [cursor=pointer]:
+                    - /url: /union/products/4478090/plans?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A990816861&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                    - button "객실 옵션 보기" [ref=e704]:
+                      - generic [ref=e705]: 객실 옵션 보기
+              - generic [ref=e707]:
+                - generic [ref=e708]:
+                  - generic [ref=e711]: 서두르세요! 객실이 1개 남았어요
+                  - link "room detail thumbnail 0 room detail thumbnail 1 room detail thumbnail 2" [ref=e712] [cursor=pointer]:
+                    - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A1018485278&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                    - generic [ref=e714]:
+                      - img "room detail thumbnail 0" [ref=e716]
+                      - img "room detail thumbnail 1" [ref=e718]
+                      - img "room detail thumbnail 2" [ref=e720]
+                  - generic [ref=e721]:
+                    - link "2 베드룸 가든뷰 패밀리 스위트 (아동 테마룸)" [ref=e722] [cursor=pointer]:
+                      - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A1018485278&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                    - generic [ref=e723]:
+                      - generic [ref=e724]:
+                        - generic [ref=e725]:
+                          - img "조식" [ref=e727]
+                          - generic [ref=e729]: 조식
+                        - generic [ref=e730]:
+                          - 'img "침실 1: :킹베드 1개 + 침실 2: :벙크베드 1개 + 싱글베드 2개" [ref=e732]'
+                          - generic [ref=e734]: "침실 1: :킹베드 1개 + 침실 2: :벙크베드 1개 + 싱글베드 2개"
+                        - generic [ref=e735]:
+                          - img "성인 2명" [ref=e737]
+                          - generic [ref=e739]: 성인 2명
+                        - generic [ref=e740]:
+                          - img "Garden view" [ref=e742]
+                          - generic [ref=e744]: Garden view
+                        - generic [ref=e745]:
+                          - img "객실 크기(㎡) - 120" [ref=e747]
+                          - generic [ref=e749]: 객실 크기(㎡) - 120
+                        - generic [ref=e750]:
+                          - img "TV" [ref=e752]
+                          - generic [ref=e754]: TV
+                        - generic [ref=e755]:
+                          - img "목욕 가운" [ref=e757]
+                          - generic [ref=e759]: 목욕 가운
+                      - link "자세히 보기" [ref=e760] [cursor=pointer]:
+                        - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A1018485278&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                        - button "자세히 보기" [ref=e761]:
+                          - generic [ref=e762]: 자세히 보기
+                - generic [ref=e765]:
+                  - generic [ref=e767]:
+                    - generic [ref=e768]:
+                      - generic [ref=e769]: 504,906원/박
+                      - img "price badge" [ref=e770]
+                    - generic [ref=e771]: 세금포함 565,455원/박
+                  - link "객실 옵션 보기" [ref=e773] [cursor=pointer]:
+                    - /url: /union/products/4478090/plans?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A1018485278&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                    - button "객실 옵션 보기" [ref=e774]:
+                      - generic [ref=e775]: 객실 옵션 보기
+              - generic [ref=e777]:
+                - generic [ref=e778]:
+                  - generic [ref=e781]: 서두르세요! 객실이 얼마 남지 않았어요
+                  - link "room detail thumbnail 0 room detail thumbnail 1 room detail thumbnail 2" [ref=e782] [cursor=pointer]:
+                    - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A1018486124&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                    - generic [ref=e784]:
+                      - img "room detail thumbnail 0" [ref=e786]
+                      - img "room detail thumbnail 1" [ref=e788]
+                      - img "room detail thumbnail 2" [ref=e790]
+                  - generic [ref=e791]:
+                    - link "이그제큐티브 2 베드룸 씨뷰 패밀리 스위트 (아동 테마룸)" [ref=e792] [cursor=pointer]:
+                      - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A1018486124&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                    - generic [ref=e793]:
+                      - generic [ref=e794]:
+                        - generic [ref=e795]:
+                          - img "조식" [ref=e797]
+                          - generic [ref=e799]: 조식
+                        - generic [ref=e800]:
+                          - 'img "침실 1: :킹베드 1개 + 침실 2: :벙크베드 1개 + 싱글베드 2개" [ref=e802]'
+                          - generic [ref=e804]: "침실 1: :킹베드 1개 + 침실 2: :벙크베드 1개 + 싱글베드 2개"
+                        - generic [ref=e805]:
+                          - img "성인 2명" [ref=e807]
+                          - generic [ref=e809]: 성인 2명
+                        - generic [ref=e810]:
+                          - img "Sea view" [ref=e812]
+                          - generic [ref=e814]: Sea view
+                        - generic [ref=e815]:
+                          - img "객실 크기(㎡) - 120" [ref=e817]
+                          - generic [ref=e819]: 객실 크기(㎡) - 120
+                        - generic [ref=e820]:
+                          - img "TV" [ref=e822]
+                          - generic [ref=e824]: TV
+                        - generic [ref=e825]:
+                          - img "목욕 가운" [ref=e827]
+                          - generic [ref=e829]: 목욕 가운
+                      - link "자세히 보기" [ref=e830] [cursor=pointer]:
+                        - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A1018486124&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                        - button "자세히 보기" [ref=e831]:
+                          - generic [ref=e832]: 자세히 보기
+                - generic [ref=e835]:
+                  - generic [ref=e837]:
+                    - generic [ref=e838]:
+                      - generic [ref=e839]: 629,124원/박
+                      - img "price badge" [ref=e840]
+                    - generic [ref=e841]: 세금포함 704,568원/박
+                  - link "객실 옵션 보기" [ref=e843] [cursor=pointer]:
+                    - /url: /union/products/4478090/plans?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A1018486124&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                    - button "객실 옵션 보기" [ref=e844]:
+                      - generic [ref=e845]: 객실 옵션 보기
+              - generic [ref=e847]:
+                - generic [ref=e848]:
+                  - generic [ref=e851]: 서두르세요! 객실이 1개 남았어요
+                  - link "room detail thumbnail 0 room detail thumbnail 1 room detail thumbnail 2" [ref=e852] [cursor=pointer]:
+                    - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A1018485991&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                    - generic [ref=e854]:
+                      - img "room detail thumbnail 0" [ref=e856]
+                      - img "room detail thumbnail 1" [ref=e858]
+                      - img "room detail thumbnail 2" [ref=e860]
+                  - generic [ref=e861]:
+                    - link "2 베드룸 씨뷰 패밀리 스위트 (아동 테마룸)" [ref=e862] [cursor=pointer]:
+                      - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A1018485991&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                    - generic [ref=e863]:
+                      - generic [ref=e864]:
+                        - generic [ref=e865]:
+                          - img "조식" [ref=e867]
+                          - generic [ref=e869]: 조식
+                        - generic [ref=e870]:
+                          - 'img "침실 1: :킹베드 1개 + 침실 2: :싱글베드 2개 + 벙크베드 1개" [ref=e872]'
+                          - generic [ref=e874]: "침실 1: :킹베드 1개 + 침실 2: :싱글베드 2개 + 벙크베드 1개"
+                        - generic [ref=e875]:
+                          - img "성인 2명" [ref=e877]
+                          - generic [ref=e879]: 성인 2명
+                        - generic [ref=e880]:
+                          - img "Sea view" [ref=e882]
+                          - generic [ref=e884]: Sea view
+                        - generic [ref=e885]:
+                          - img "객실 크기(㎡) - 165" [ref=e887]
+                          - generic [ref=e889]: 객실 크기(㎡) - 165
+                        - generic [ref=e890]:
+                          - img "TV" [ref=e892]
+                          - generic [ref=e894]: TV
+                        - generic [ref=e895]:
+                          - img "목욕 가운" [ref=e897]
+                          - generic [ref=e899]: 목욕 가운
+                      - link "자세히 보기" [ref=e900] [cursor=pointer]:
+                        - /url: /union/products/4478090/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=4478090&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A1018485991&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                        - button "자세히 보기" [ref=e901]:
+                          - generic [ref=e902]: 자세히 보기
+                - generic [ref=e905]:
+                  - generic [ref=e907]:
+                    - generic [ref=e908]:
+                      - generic [ref=e909]: 677,332원/박
+                      - img "price badge" [ref=e910]
+                    - generic [ref=e911]: 세금포함 758,558원/박
+                  - link "객실 옵션 보기" [ref=e913] [cursor=pointer]:
+                    - /url: /union/products/4478090/plans?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A63722873%3A-%3A1018485991&utm_source=mktpartner&segment=&childAges=&mylink_id=1774399&t_scope=86400
+                    - button "객실 옵션 보기" [ref=e914]:
+                      - generic [ref=e915]: 객실 옵션 보기
+          - generic [ref=e919]:
+            - generic [ref=e920]:
+              - img [ref=e921]
+              - generic [ref=e923]: 4.1 · 후기 16개
+            - generic [ref=e927]:
+              - generic [ref=e930]:
+                - generic [ref=e931]:
+                  - generic [ref=e932]:
+                    - img [ref=e933]
+                    - img [ref=e935]
+                    - img [ref=e937]
+                    - img [ref=e939]
+                    - img [ref=e941]
+                  - generic [ref=e943]: 3달 전
+                - generic [ref=e944]:
+                  - generic [ref=e945]: 출장, 여행 등 해외에 많이 나갔던 편인데.아미아나 깜란은 말그대로 역대급이었습니다! 최고의 객실시설, 식당, 수영장, 직원 친절도등 어느 하나 부족한게 없었습니다. 제 친구들에게도 강추했습니다. 조만간 또 올께요~!!
+                  - generic [ref=e946]:
+                    - img "Placeholder Thumbnail" [ref=e949]
+                    - generic [ref=e951]: 6+
+                - generic [ref=e952]: 이그제큐티브패밀리스위트2베드룸
+                - generic [ref=e953]: 안*혁
+              - generic [ref=e956]:
+                - generic [ref=e957]:
+                  - generic [ref=e958]:
+                    - img [ref=e959]
+                    - img [ref=e961]
+                    - img [ref=e963]
+                    - img [ref=e965]
+                    - img [ref=e967]
+                  - generic [ref=e969]: 8달 전
+                - generic [ref=e970]:
+                  - generic [ref=e971]: 가기 전 안좋은 후기들이 좀 있어서 걱정을 했는데 너무너무 만족스러웠어요! 씨뷰로 배정 받았는데 뷰 볼 때마다 너무 행복했고 프라이빗 비치, 수영장도 만족스러웠어요 재방문 의사 100프로입니다 ㅎㅎ 수질은 안좋은 편이라 샤워기 필터 여러개 챙겨가시는 거 추천해요 암튼 대만족
+                  - generic [ref=e972]:
+                    - img "Placeholder Thumbnail" [ref=e975]
+                    - generic [ref=e977]: 6+
+                - generic [ref=e978]: 디럭스 룸 씨뷰
+                - generic [ref=e979]: 김*경
+              - generic [ref=e982]:
+                - generic [ref=e983]:
+                  - generic [ref=e984]:
+                    - img [ref=e985]
+                    - img [ref=e987]
+                    - img [ref=e989]
+                    - img [ref=e991]
+                    - img [ref=e993]
+                  - generic [ref=e995]: 2달 전
+                - generic [ref=e997]: 깨끗하게 잘 관리된 룸 컨디션과 멋진 뷰, 조식과 석식 뷔페 메뉴가 다양한 것이 장점. 나뜨랑 시내와는 거리가 먼 것이 단점.
+                - generic [ref=e998]: 디럭스 빌라 킹베드
+                - generic [ref=e999]: 이*석
+              - generic [ref=e1002]:
+                - generic [ref=e1003]:
+                  - generic [ref=e1004]:
+                    - img [ref=e1005]
+                    - img [ref=e1007]
+                    - img [ref=e1009]
+                    - img [ref=e1011]
+                    - img [ref=e1013]
+                  - generic [ref=e1015]: 4달 전
+                - generic [ref=e1017]: 2박 3일. 4인 가족. 가든뷰 아동 테마룸. 메인풀이 따뜻했어요. (30도 정도) 외부는 바람이 많이 불어 추운 듯 했지만 메인풀은 계속 온수가 공급되어 한국의 실내 수영장보다 따뜻했어요. 온수풀은 훨씬 따뜻.. 체감상 40도 이상의 온도. 얕아서 어르신이나 어린 아이들에게 좋아요. 엔터시설도 잘 되어 있어 저녁 시간 들기기 좋구요. 식사도 만족입니다.
+                - generic [ref=e1018]: 디럭스 가든뷰 룸 (아동 테마룸)
+                - generic [ref=e1019]: 최*숙
+              - generic [ref=e1022]:
+                - generic [ref=e1023]:
+                  - generic [ref=e1024]:
+                    - img [ref=e1025]
+                    - img [ref=e1027]
+                    - img [ref=e1029]
+                    - img [ref=e1031]
+                    - img [ref=e1033]
+                  - generic [ref=e1035]: 4달 전
+                - generic [ref=e1036]:
+                  - generic [ref=e1037]: 수영장은 너무 넒고 잘되어있어서 가족들끼리 오기에 좋음 다만 조식 레스토랑이 엄청 맛잇다는 아님 ㅎ 현재 석식 무료제공인데 그냥 정말 간단히 먹는정도지 배채울만큼 맛있지는 않아서 배달시켜 먹고 했음 방안에 날파리가 좀 있음 이유는 모르겠으나 과일을 무료로 주셔서 과일에 꼬이는건지 과일을 치워도 날파리가 좀 날림.. 하지만 만족도는 높음!!! ㅋ시설도 깨끗하고 수영장이 제일 만족도 높음
+                  - generic [ref=e1038]:
+                    - img "Placeholder Thumbnail" [ref=e1041]
+                    - generic [ref=e1043]: 3+
+                - generic [ref=e1044]: 디럭스룸 씨뷰
+                - generic [ref=e1045]: 조*화
+              - generic [ref=e1048]:
+                - generic [ref=e1049]:
+                  - generic [ref=e1050]:
+                    - img [ref=e1051]
+                    - img [ref=e1053]
+                    - img [ref=e1055]
+                    - img [ref=e1057]
+                    - img [ref=e1059]
+                  - generic [ref=e1061]: 7달 전
+                - generic [ref=e1062]:
+                  - generic [ref=e1063]: 공항에서 가까워서 아기가 빨리 쉴수 있어 좋았어요 객실도 너무 깨끗하고 예쁩니다. 욕조가 커서 아기랑 같이 놀기에도 좋고 수영장 진짜 최고 좋았어요 구명조끼 무료 대여해줘서 바닷가도 가서 바로 놀수 있고 해피아워 디너 조식 모두 주니 편하네요 아이랑 가기 최고 좋아요
+                  - generic [ref=e1064]:
+                    - img "Placeholder Thumbnail" [ref=e1067]
+                    - generic [ref=e1069]: 2+
+                - generic [ref=e1070]: 디럭스 룸 가든뷰
+                - generic [ref=e1071]: 김*미
+              - generic [ref=e1074]:
+                - generic [ref=e1075]:
+                  - generic [ref=e1076]:
+                    - img [ref=e1077]
+                    - img [ref=e1079]
+                    - img [ref=e1081]
+                    - img [ref=e1083]
+                    - img [ref=e1085]
+                  - generic [ref=e1087]: 1달 전
+                - generic [ref=e1089]: 객실내에 벌레드이쫌있어서 살짝 아쉬웠고 ATM기기가 없어 너무 아쉬웠어요 급하게 프런트에서 한화도 환전이 됐음 좋았을텐데 많이 아쉽더라구요
+                - generic [ref=e1090]: 이그제큐티브패밀리스위트2베드룸
+                - generic [ref=e1091]: 정*경
+              - generic [ref=e1094]:
+                - generic [ref=e1095]:
+                  - generic [ref=e1096]:
+                    - img [ref=e1097]
+                    - img [ref=e1099]
+                    - img [ref=e1101]
+                    - img [ref=e1103]
+                    - img [ref=e1105]
+                  - generic [ref=e1107]: 3달 전
+                - generic [ref=e1109]: 친절하고 쉬기 좋았어요. 키즈룸과 놀이시설들이 많이 생겨서 좋았습니다
+                - generic [ref=e1110]: 디럭스 씨뷰 킹룸
+                - generic [ref=e1111]: 정*호
+              - generic [ref=e1114]:
+                - generic [ref=e1115]:
+                  - generic [ref=e1116]:
+                    - img [ref=e1117]
+                    - img [ref=e1119]
+                    - img [ref=e1121]
+                    - img [ref=e1123]
+                    - img [ref=e1125]
+                  - generic [ref=e1127]: 4달 전
+                - generic [ref=e1129]: 휴양하기 좋은 리조트였음
+                - generic [ref=e1130]: 디럭스 룸 씨뷰
+                - generic [ref=e1131]: 김*정
+              - generic [ref=e1134]:
+                - generic [ref=e1135]:
+                  - generic [ref=e1136]:
+                    - img [ref=e1137]
+                    - img [ref=e1139]
+                    - img [ref=e1141]
+                    - img [ref=e1143]
+                    - img [ref=e1145]
+                  - generic [ref=e1147]: 8달 전
+                - generic [ref=e1149]: 너무 좋은 라조트 이지만 수질이 너무 최악입니다ㅠㅠ 필터가 물을 틀자마자 까매지고 저희 아이는 필터낀 샤워기로 씻겼지만 아침에 온 몸 얼굴 전신이 두드러기가 났어요 프론트에 말을 하니 아이 상태보고 소원을 들어주겠다? 하시더니 투어로 11시에 퇴실 한다 하니까 아쉽지만 다음에 보자고 하시더라구요..ㅋㅋ 소원을 왜 물어보신건지 ㅋㅋㅋ 아무튼 다 좋았지만 수질이 최악이었고 거기에 죄송하단 말 외 대응이 없어서 아쉬웠어요 어린 아이들 데리고 가는집들은 여기 가기 마세오ㅠㅠㅠ저희 애 초4인데 여태 잘 놀다가 마지막날 물때문에 온 몸 전신 두드러기 난거보니 애기들은 더 약할거 같아요 진짜 수질 최악에 최악!ㅜㅜㅜ
+                - generic [ref=e1150]: Junior Suite Garden View with Children Themed Room
+                - generic [ref=e1151]: 손*경
+              - generic [ref=e1154]:
+                - generic [ref=e1155]:
+                  - generic [ref=e1156]:
+                    - img [ref=e1157]
+                    - img [ref=e1159]
+                    - img [ref=e1161]
+                    - img [ref=e1163]
+                    - img [ref=e1165]
+                  - generic [ref=e1167]: 10달 전
+                - generic [ref=e1168]:
+                  - generic [ref=e1169]: 아미아나는 수영장 이용하려고 예약하였는데 아직 신설 리조트라 모든게 깨끗하고 친절하였습니다~~ 다만 , 곳곳에 공사를 마무리한다던지 자잘하게 수리하는 모습은 연박하는 동안 계속 보였어요 소음은 없었습니다^^ 조금 더 시간이 지나면 완벽한 모습을 갖추겠죠? 오후랑 저녁에 수영 즐기고 잘 쉬다가 갑니다!
+                  - generic [ref=e1170]:
+                    - img "Placeholder Thumbnail" [ref=e1173]
+                    - generic [ref=e1175]: 4+
+                - generic [ref=e1176]: 이그제큐티브 스위트
+                - generic [ref=e1177]: 곽*비
+              - generic [ref=e1180]:
+                - generic [ref=e1181]:
+                  - generic [ref=e1182]:
+                    - img [ref=e1183]
+                    - img [ref=e1185]
+                    - img [ref=e1187]
+                    - img [ref=e1189]
+                    - img [ref=e1191]
+                  - generic [ref=e1193]: 8달 전
+                - generic [ref=e1194]:
+                  - generic [ref=e1195]: 새로 생긴거여서 깨끗하고 좋아요 직원들도 친절하고, 조용히 쉬기 좋은 리조트네요
+                  - generic [ref=e1196]:
+                    - img "Placeholder Thumbnail" [ref=e1199]
+                    - generic [ref=e1201]: 6+
+                - generic [ref=e1202]: Deluxe Twin Room Sea View
+                - generic [ref=e1203]: 오*복
+              - generic [ref=e1206]:
+                - generic [ref=e1207]:
+                  - generic [ref=e1208]:
+                    - img [ref=e1209]
+                    - img [ref=e1211]
+                    - img [ref=e1213]
+                    - img [ref=e1215]
+                    - img [ref=e1217]
+                  - generic [ref=e1219]: 8달 전
+                - generic [ref=e1220]:
+                  - generic [ref=e1221]: 솔직히 할건없는데 싸서 좋았음ㅋ 저는 정말 갠찮았음 만족
+                  - img "Placeholder Thumbnail" [ref=e1225]
+                - generic [ref=e1226]: 디럭스 룸 씨뷰
+                - generic [ref=e1227]: 남*련
+              - generic [ref=e1230]:
+                - generic [ref=e1231]:
+                  - generic [ref=e1232]:
+                    - img [ref=e1233]
+                    - img [ref=e1235]
+                    - img [ref=e1237]
+                    - img [ref=e1239]
+                    - img [ref=e1241]
+                  - generic [ref=e1243]: 9달 전
+                - generic [ref=e1245]: 별로에요. 신상리조트라 갔는데 라면 뜨거운물 부어달라고했는데 직원분이 새라면을 버림 .. 햄버거 서비스로 준다고 했는데 체크아웃할때 돈내라고 해서 다시 그직원 확인하는데 비웃으면서 말함 기분 완전 나빴어요. 다신 안가요. 신상이라 수영장 한곳 오픈 안되어있고 저는 레이트체크아웃 사전에 신청해서 돈냈는데 다른 사람들은 그냥 주기도하고 기분 완전 나쁘고 영어하시는분들도 리셉션 정도 입니다. 시설 그냥 기존 아미아나 생각하면 더 별로에요 신상이라 프로모션 주는거뿐 시간지나면 프로모션 안주면 별로일거같아여. 바다뷰 했는데 바다뷰도 아닌듯…나트랑 처음간거 아닌데 제일 별로였어요 살면서 처음쓰는 후기입니다. 1점도 주기싫어요
+                - generic [ref=e1246]: 디럭스 룸 씨뷰
+                - generic [ref=e1247]: 이*지
+              - generic [ref=e1250]:
+                - generic [ref=e1251]:
+                  - generic [ref=e1252]:
+                    - img [ref=e1253]
+                    - img [ref=e1255]
+                    - img [ref=e1257]
+                    - img [ref=e1259]
+                    - img [ref=e1261]
+                  - generic [ref=e1263]: 9달 전
+                - generic [ref=e1265]: 가격대비 별로입니다 주니어객실 뷰는 공사뷰이고... 저렴한 만큼 한 듯합니다
+                - generic [ref=e1266]: 주니어 스위트 가든뷰 아동테마
+                - generic [ref=e1267]: 기*희
+              - generic [ref=e1270]:
+                - generic [ref=e1271]:
+                  - generic [ref=e1272]:
+                    - img [ref=e1273]
+                    - img [ref=e1275]
+                    - img [ref=e1277]
+                    - img [ref=e1279]
+                    - img [ref=e1281]
+                  - generic [ref=e1283]: 9달 전
+                - generic [ref=e1285]: 첫날 룸 에어컨 고장으로 다른 룸 준비를 위해 기다림 둘째날 첫날 룸 다른 분 예약으로 또 다른 룸 이동 다른룸 호스 물 새는 거 고칠 때까지 기다림 …..
+                - generic [ref=e1286]: 디럭스 씨뷰 킹룸
+                - generic [ref=e1287]: 한*우
+            - button "후기 모두 보기" [ref=e1289] [cursor=pointer]:
+              - generic [ref=e1290]: 후기 모두 보기
+          - generic [ref=e1294]:
+            - generic [ref=e1295]: 다른 서비스의 이용 후기
+            - generic [ref=e1299]:
+              - generic [ref=e1302]:
+                - generic [ref=e1303]:
+                  - generic [ref=e1304]:
+                    - img [ref=e1305]
+                    - img [ref=e1307]
+                    - img [ref=e1309]
+                    - img [ref=e1311]
+                    - img [ref=e1313]
+                  - generic [ref=e1315]: 3달 전
+                - generic [ref=e1317]: Excellent staff, the room was exceptionally clean. There were tons of activities to do that you really don't need to leave the property.
+                - img "Expedia" [ref=e1319]
+                - generic [ref=e1320]: ThuyTien
+              - generic [ref=e1323]:
+                - generic [ref=e1324]:
+                  - generic [ref=e1325]:
+                    - img [ref=e1326]
+                    - img [ref=e1328]
+                    - img [ref=e1330]
+                    - img [ref=e1332]
+                    - img [ref=e1334]
+                  - generic [ref=e1336]: 3달 전
+                - generic [ref=e1338]: 전체적으로 좋은 구성 깔끔한 객실 친절한직원이 상주하고있습니딘. 잘쉬다왔어요!
+                - img "Hotels.com" [ref=e1340]
+                - generic [ref=e1341]: jinwoo
+              - generic [ref=e1344]:
+                - generic [ref=e1345]:
+                  - generic [ref=e1346]:
+                    - img [ref=e1347]
+                    - img [ref=e1349]
+                    - img [ref=e1351]
+                    - img [ref=e1353]
+                    - img [ref=e1355]
+                  - generic [ref=e1357]: 3달 전
+                - generic [ref=e1359]: Great place for families. Buffet food was varied and good. We appreciated the quiet environment - no piped drum ‘n’ bass or pool Zumba stuff. Heaven. One of the few resort hotels we would consider returning to.
+                - img "Expedia" [ref=e1361]
+                - generic [ref=e1362]: Tu
+              - generic [ref=e1365]:
+                - generic [ref=e1366]:
+                  - generic [ref=e1367]:
+                    - img [ref=e1368]
+                    - img [ref=e1370]
+                    - img [ref=e1372]
+                    - img [ref=e1374]
+                    - img [ref=e1376]
+                  - generic [ref=e1378]: 4달 전
+                - generic [ref=e1380]: 맛있는 식사 즐거운 수영
+                - img "Hotels.com" [ref=e1382]
+                - generic [ref=e1383]: Seonwook
+              - generic [ref=e1386]:
+                - generic [ref=e1387]:
+                  - generic [ref=e1388]:
+                    - img [ref=e1389]
+                    - img [ref=e1391]
+                    - img [ref=e1393]
+                    - img [ref=e1395]
+                    - img [ref=e1397]
+                  - generic [ref=e1399]: 4달 전
+                - generic [ref=e1401]: 시설은 전체적으로 깨끗하나 지을때 꼼꼼히 짓지는 않았음
+                - img "Hotels.com" [ref=e1403]
+                - generic [ref=e1404]: Suhak
+              - generic [ref=e1407]:
+                - generic [ref=e1408]:
+                  - generic [ref=e1409]:
+                    - img [ref=e1410]
+                    - img [ref=e1412]
+                    - img [ref=e1414]
+                    - img [ref=e1416]
+                    - img [ref=e1418]
+                  - generic [ref=e1420]: 4달 전
+                - generic [ref=e1422]: 조식이 매우 훌륭했고 객실도 깨끗했으며 직원도 친절함. 샤워기 필터는 꼭 가져가시길 :)
+                - img "Hotels.com" [ref=e1424]
+                - generic [ref=e1425]: hyejun
+              - generic [ref=e1428]:
+                - generic [ref=e1429]:
+                  - generic [ref=e1430]:
+                    - img [ref=e1431]
+                    - img [ref=e1433]
+                    - img [ref=e1435]
+                    - img [ref=e1437]
+                    - img [ref=e1439]
+                  - generic [ref=e1441]: 4달 전
+                - generic [ref=e1443]: Kind and good environments and facilities
+                - img "Hotels.com" [ref=e1445]
+                - generic [ref=e1446]: Hanna
+              - generic [ref=e1449]:
+                - generic [ref=e1450]:
+                  - generic [ref=e1451]:
+                    - img [ref=e1452]
+                    - img [ref=e1454]
+                    - img [ref=e1456]
+                    - img [ref=e1458]
+                    - img [ref=e1460]
+                  - generic [ref=e1462]: 4달 전
+                - generic [ref=e1464]: 객실 깨끗하고 직원분들도 친절합니다! 야외 놀이터, 실내 키즈룸이 있어 아이들과 오기에도 좋아요~!
+                - img "Hotels.com" [ref=e1466]
+                - generic [ref=e1467]: jaemoon
+              - generic [ref=e1470]:
+                - generic [ref=e1471]:
+                  - generic [ref=e1472]:
+                    - img [ref=e1473]
+                    - img [ref=e1475]
+                    - img [ref=e1477]
+                    - img [ref=e1479]
+                    - img [ref=e1481]
+                  - generic [ref=e1483]: 6달 전
+                - generic [ref=e1485]: Excellent stay at Amiana resort. Its new, clean, good food + afternoon tea fruits, resort is beautiful with great pools and private beach
+                - img "Hotels.com" [ref=e1487]
+                - generic [ref=e1488]: Su Young
+              - generic [ref=e1491]:
+                - generic [ref=e1492]:
+                  - generic [ref=e1493]:
+                    - img [ref=e1494]
+                    - img [ref=e1496]
+                    - img [ref=e1498]
+                    - img [ref=e1500]
+                    - img [ref=e1502]
+                  - generic [ref=e1504]: 6달 전
+                - generic [ref=e1506]: とても良いリゾートです‼️
+                - img "Expedia" [ref=e1508]
+                - generic [ref=e1509]: Osamu
+              - generic [ref=e1512]:
+                - generic [ref=e1513]:
+                  - generic [ref=e1514]:
+                    - img [ref=e1515]
+                    - img [ref=e1517]
+                    - img [ref=e1519]
+                    - img [ref=e1521]
+                    - img [ref=e1523]
+                  - generic [ref=e1525]: 8달 전
+                - generic [ref=e1527]: 음식도 맛있고 시설도 좋아요. 공사가 덜 끝난 부분이나, 직원들이 응대에 미숙한 부분이 있긴 합니다
+                - img "Hotels.com" [ref=e1529]
+                - generic [ref=e1530]: CHOI WON
+              - generic [ref=e1533]:
+                - generic [ref=e1534]:
+                  - generic [ref=e1535]:
+                    - img [ref=e1536]
+                    - img [ref=e1538]
+                    - img [ref=e1540]
+                    - img [ref=e1542]
+                    - img [ref=e1544]
+                  - generic [ref=e1546]: 9달 전
+                - generic [ref=e1548]: Nice place to take a vacation.
+                - img "Hotels.com" [ref=e1550]
+                - generic [ref=e1551]: DO YEON
+              - generic [ref=e1554]:
+                - generic [ref=e1555]:
+                  - generic [ref=e1556]:
+                    - img [ref=e1557]
+                    - img [ref=e1559]
+                    - img [ref=e1561]
+                    - img [ref=e1563]
+                    - img [ref=e1565]
+                  - generic [ref=e1567]: 3달 전
+                - generic [ref=e1569]: 객실이 매우 깨끗하고 좋습니다. 식사 및 편의시설도 매우 만족스러워 재방문 의사 있습니다.
+                - img "Hotels.com" [ref=e1571]
+                - generic [ref=e1572]: Kwansoo
+              - generic [ref=e1575]:
+                - generic [ref=e1576]:
+                  - generic [ref=e1577]:
+                    - img [ref=e1578]
+                    - img [ref=e1580]
+                    - img [ref=e1582]
+                    - img [ref=e1584]
+                    - img [ref=e1586]
+                  - generic [ref=e1588]: 3달 전
+                - generic [ref=e1590]: 객실 시설, 조식 및 석식, Afternoon tea 만족하며 수영장 시설 좋았음 하지만 엘리베이터 3대중 2대 운영안되어서 많이 불편했음
+                - img "Hotels.com" [ref=e1592]
+                - generic [ref=e1593]: Changyul
+              - generic [ref=e1596]:
+                - generic [ref=e1597]:
+                  - generic [ref=e1598]:
+                    - img [ref=e1599]
+                    - img [ref=e1601]
+                    - img [ref=e1603]
+                    - img [ref=e1605]
+                    - img [ref=e1607]
+                  - generic [ref=e1609]: 4달 전
+                - generic [ref=e1611]: 뷔폐 음식에 파리가 앉아 있는것이 자주 목격되어 덮개를 씌우는것이 좋을것 같습니다
+                - img "Hotels.com" [ref=e1613]
+                - generic [ref=e1614]: Seokjoo
+              - generic [ref=e1617]:
+                - generic [ref=e1618]:
+                  - generic [ref=e1619]:
+                    - img [ref=e1620]
+                    - img [ref=e1622]
+                    - img [ref=e1624]
+                    - img [ref=e1626]
+                    - img [ref=e1628]
+                  - generic [ref=e1630]: 9달 전
+                - generic [ref=e1632]: 2025年5月オープンなので、全ての施設が新しくてきれいです。朝食・夕食のブッフェ料理の種類もとても多く美味しくて、毎日食べていても飽きませんでした。 ただ、ビーチビレッジレストラン、10階レストラン、お土産屋さん、サンセットラウンジが建設中だったので、レストランは1か所しかありません。お料理はおいしかったです。 また、屋内キッズクラブも完成しているようには見えませんでした。スパと泥温泉は利用可能です。 施設全体を満喫したいなら、事前にホテルに確認するといいでしょう。
+                - img "Expedia" [ref=e1634]
+                - generic [ref=e1635]: Miwa
+              - generic [ref=e1638]:
+                - generic [ref=e1639]:
+                  - generic [ref=e1640]:
+                    - img [ref=e1641]
+                    - img [ref=e1643]
+                    - img [ref=e1645]
+                    - img [ref=e1647]
+                    - img [ref=e1649]
+                  - generic [ref=e1651]: 7달 전
+                - generic [ref=e1653]: 隣のホテルの爆音での音楽が夜うるさい
+                - img "Expedia" [ref=e1655]
+                - generic [ref=e1656]: WATARU
+          - generic [ref=e1660]:
+            - heading "숙소 위치" [level=2] [ref=e1661]
+            - generic [ref=e1662]:
+              - generic [ref=e1664] [cursor=pointer]:
+                - link "Google Map latitude:12.1053099, longitude:109.1930183":
+                  - /url: https://www.google.com/maps/search/?api=1&query=12.1053099,109.1930183
+                  - img "Google Map" [ref=e1665]
+                  - img "latitude:12.1053099, longitude:109.1930183" [ref=e1666]
+              - generic [ref=e1667]:
+                - generic [ref=e1668]:
+                  - img [ref=e1670]
+                  - generic [ref=e1672]: 454V+46C, Cam Hải Đông, Cam Lâm District, Khánh Hòa, 베트남, 0
+                - button "주소복사" [ref=e1673] [cursor=pointer]:
+                  - generic [ref=e1674]: 주소복사
+          - generic [ref=e1677]:
+            - heading "숙박 안내" [level=2] [ref=e1679]
+            - button "숙소 소개" [ref=e1680] [cursor=pointer]:
+              - generic [ref=e1681]:
+                - generic [ref=e1682]: 숙소 소개
+                - img [ref=e1683]
+            - button "숙소 정책" [ref=e1686] [cursor=pointer]:
+              - generic [ref=e1687]:
+                - generic [ref=e1688]: 숙소 정책
+                - img [ref=e1689]
+            - button "보건 & 안전" [ref=e1692] [cursor=pointer]:
+              - generic [ref=e1693]:
+                - generic [ref=e1694]: 보건 & 안전
+                - img [ref=e1695]
+            - button "판매자 정보" [ref=e1698] [cursor=pointer]:
+              - generic [ref=e1699]:
+                - generic [ref=e1700]: 판매자 정보
+                - img [ref=e1701]
+          - generic [ref=e1709]:
+            - heading "결제 혜택" [level=2] [ref=e1711]
+            - generic [ref=e1712]:
+              - generic [ref=e1713] [cursor=pointer]:
+                - generic [ref=e1714]:
+                  - img "benefit" [ref=e1716]
+                  - generic [ref=e1717]:
+                    - generic [ref=e1718]: KB국민카드
+                    - generic [ref=e1719]: KB할인팩 결제일 할인 (최대 3만원 할인)
+                - img [ref=e1720]
+              - generic [ref=e1723] [cursor=pointer]:
+                - generic [ref=e1724]:
+                  - img "benefit" [ref=e1726]
+                  - generic [ref=e1727]:
+                    - generic [ref=e1728]: 카카오페이
+                    - generic [ref=e1729]: 머니 / 삼성카드 최대 6만원 즉시할인
+                - img [ref=e1730]
+              - generic [ref=e1733] [cursor=pointer]:
+                - generic [ref=e1734]:
+                  - img "benefit" [ref=e1736]
+                  - generic [ref=e1737]:
+                    - generic [ref=e1738]: 삼성카드
+                    - generic [ref=e1739]: 최대 5만원 결제일 할인
+                - img [ref=e1740]
+              - generic [ref=e1743] [cursor=pointer]:
+                - generic [ref=e1744]:
+                  - img "benefit" [ref=e1746]
+                  - generic [ref=e1747]:
+                    - generic [ref=e1748]: 현대카드
+                    - generic [ref=e1749]: M포인트 10% 사용가능 (최대 15,000 M포인트)
+                - img [ref=e1750]
+              - generic [ref=e1753] [cursor=pointer]:
+                - generic [ref=e1754]:
+                  - img "benefit" [ref=e1756]
+                  - generic [ref=e1757]:
+                    - generic [ref=e1758]: 무이자할부
+                    - generic [ref=e1759]: 최대 24개월 무이자 할부 가능
+                - img [ref=e1760]
+            - button "혜택 더보기" [ref=e1763] [cursor=pointer]:
+              - generic [ref=e1764]: 혜택 더보기
+          - generic [ref=e1767]:
+            - generic [ref=e1769]:
+              - heading "비슷한 숙소 둘러보기" [level=2] [ref=e1771]
+              - generic [ref=e1775]:
+                - link "[특가] 아나만다라 깜란 [특가] 아나만다라 깜란 4.6 (113) 168,346원/박 5성급 · 리조트 price badge" [ref=e1779] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/3924428?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "[특가] 아나만다라 깜란" [ref=e1781]
+                  - generic [ref=e1782]:
+                    - generic [ref=e1783]: "[특가] 아나만다라 깜란"
+                    - generic [ref=e1784]:
+                      - img [ref=e1786]
+                      - generic [ref=e1788]: "4.6"
+                      - generic [ref=e1789]: (113)
+                    - generic [ref=e1791]: 168,346원/박
+                    - generic [ref=e1792]: 5성급 · 리조트
+                    - img "price badge" [ref=e1794]
+                - link "더 아남 깜란 더 아남 깜란 4.7 (518) 281,571원/박 5성급 · 리조트 price badge" [ref=e1798] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/3890511?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "더 아남 깜란" [ref=e1800]
+                  - generic [ref=e1801]:
+                    - generic [ref=e1802]: 더 아남 깜란
+                    - generic [ref=e1803]:
+                      - img [ref=e1805]
+                      - generic [ref=e1807]: "4.7"
+                      - generic [ref=e1808]: (518)
+                    - generic [ref=e1810]: 281,571원/박
+                    - generic [ref=e1811]: 5성급 · 리조트
+                    - img "price badge" [ref=e1813]
+                - link "깜란 모벤픽 리조트 깜란 모벤픽 리조트 4.3 (364) 163,573원/박 5성급 · 리조트 price badge" [ref=e1817] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/5878787?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "깜란 모벤픽 리조트" [ref=e1819]
+                  - generic [ref=e1820]:
+                    - generic [ref=e1821]: 깜란 모벤픽 리조트
+                    - generic [ref=e1822]:
+                      - img [ref=e1824]
+                      - generic [ref=e1826]: "4.3"
+                      - generic [ref=e1827]: (364)
+                    - generic [ref=e1829]: 163,573원/박
+                    - generic [ref=e1830]: 5성급 · 리조트
+                    - img "price badge" [ref=e1832]
+                - link "알마리조트 캄란 알마리조트 캄란 4.6 (370) 227,372원/박 5성급 · 리조트 price badge" [ref=e1836] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/5891825?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "알마리조트 캄란" [ref=e1838]
+                  - generic [ref=e1839]:
+                    - generic [ref=e1840]: 알마리조트 캄란
+                    - generic [ref=e1841]:
+                      - img [ref=e1843]
+                      - generic [ref=e1845]: "4.6"
+                      - generic [ref=e1846]: (370)
+                    - generic [ref=e1848]: 227,372원/박
+                    - generic [ref=e1849]: 5성급 · 리조트
+                    - img "price badge" [ref=e1851]
+                - link "[특가] 멜리아 빈펄 깜란 비치 리조트 [특가] 멜리아 빈펄 깜란 비치 리조트 4.6 (472) 251,546원/박 5성급 · 리조트 price badge" [ref=e1855] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/3543066?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "[특가] 멜리아 빈펄 깜란 비치 리조트" [ref=e1857]
+                  - generic [ref=e1858]:
+                    - generic [ref=e1859]: "[특가] 멜리아 빈펄 깜란 비치 리조트"
+                    - generic [ref=e1860]:
+                      - img [ref=e1862]
+                      - generic [ref=e1864]: "4.6"
+                      - generic [ref=e1865]: (472)
+                    - generic [ref=e1867]: 251,546원/박
+                    - generic [ref=e1868]: 5성급 · 리조트
+                    - img "price badge" [ref=e1870]
+                - link "나트랑 미아 리조트 나트랑 미아 리조트 4.7 (419) 219,337원/박 5성급 · 리조트 price badge" [ref=e1874] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/3503439?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "나트랑 미아 리조트" [ref=e1876]
+                  - generic [ref=e1877]:
+                    - generic [ref=e1878]: 나트랑 미아 리조트
+                    - generic [ref=e1879]:
+                      - img [ref=e1881]
+                      - generic [ref=e1883]: "4.7"
+                      - generic [ref=e1884]: (419)
+                    - generic [ref=e1886]: 219,337원/박
+                    - generic [ref=e1887]: 5성급 · 리조트
+                    - img "price badge" [ref=e1889]
+                - link "윈덤 가든 깜란 리조트 나트랑 윈덤 가든 깜란 리조트 나트랑 4.6 (57) 187,623원/박 5성급 · 리조트 price badge" [ref=e1893] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/3899003?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "윈덤 가든 깜란 리조트 나트랑" [ref=e1895]
+                  - generic [ref=e1896]:
+                    - generic [ref=e1897]: 윈덤 가든 깜란 리조트 나트랑
+                    - generic [ref=e1898]:
+                      - img [ref=e1900]
+                      - generic [ref=e1902]: "4.6"
+                      - generic [ref=e1903]: (57)
+                    - generic [ref=e1905]: 187,623원/박
+                    - generic [ref=e1906]: 5성급 · 리조트
+                    - img "price badge" [ref=e1908]
+                - link "[특가] 셀렉텀 노아 리조트 캄 란 [올인클루시브 특가 호텔] [특가] 셀렉텀 노아 리조트 캄 란 [올인클루시브 특가 호텔] 4.4 (41) 152,368원/박 5성급 · 리조트" [ref=e1912] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/4431356?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "[특가] 셀렉텀 노아 리조트 캄 란 [올인클루시브 특가 호텔]" [ref=e1914]
+                  - generic [ref=e1915]:
+                    - generic [ref=e1916]: "[특가] 셀렉텀 노아 리조트 캄 란 [올인클루시브 특가 호텔]"
+                    - generic [ref=e1917]:
+                      - img [ref=e1919]
+                      - generic [ref=e1921]: "4.4"
+                      - generic [ref=e1922]: (41)
+                    - generic [ref=e1924]: 152,368원/박
+                    - generic [ref=e1925]: 5성급 · 리조트
+                - link "두옌 하 리조트 캄란 두옌 하 리조트 캄란 4.5 (245) 110,581원/박 5성급 · 리조트" [ref=e1929] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/1286529?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "두옌 하 리조트 캄란" [ref=e1931]
+                  - generic [ref=e1932]:
+                    - generic [ref=e1933]: 두옌 하 리조트 캄란
+                    - generic [ref=e1934]:
+                      - img [ref=e1936]
+                      - generic [ref=e1938]: "4.5"
+                      - generic [ref=e1939]: (245)
+                    - generic [ref=e1941]: 110,581원/박
+                    - generic [ref=e1942]: 5성급 · 리조트
+                - link "스완도르 깜란 리조트 나트랑 스완도르 깜란 리조트 나트랑 4.9 (10) 317,337원/박 5성급 · 리조트 price badge" [ref=e1946] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/3897355?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "스완도르 깜란 리조트 나트랑" [ref=e1948]
+                  - generic [ref=e1949]:
+                    - generic [ref=e1950]: 스완도르 깜란 리조트 나트랑
+                    - generic [ref=e1951]:
+                      - img [ref=e1953]
+                      - generic [ref=e1955]: "4.9"
+                      - generic [ref=e1956]: (10)
+                    - generic [ref=e1958]: 317,337원/박
+                    - generic [ref=e1959]: 5성급 · 리조트
+                    - img "price badge" [ref=e1961]
+            - generic [ref=e1963]:
+              - heading "이 시기 인기 숙소 둘러보기" [level=2] [ref=e1965]
+              - generic [ref=e1969]:
+                - link "[특가] 멜리아 빈펄 깜란 비치 리조트 [특가] 멜리아 빈펄 깜란 비치 리조트 4.6 (472) 251,546원/박 5성급 · 리조트 price badge" [ref=e1973] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/3543066?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "[특가] 멜리아 빈펄 깜란 비치 리조트" [ref=e1975]
+                  - generic [ref=e1976]:
+                    - generic [ref=e1977]: "[특가] 멜리아 빈펄 깜란 비치 리조트"
+                    - generic [ref=e1978]:
+                      - img [ref=e1980]
+                      - generic [ref=e1982]: "4.6"
+                      - generic [ref=e1983]: (472)
+                    - generic [ref=e1985]: 251,546원/박
+                    - generic [ref=e1986]: 5성급 · 리조트
+                    - img "price badge" [ref=e1988]
+                - link "아미아나 리조트 깜란 아미아나 리조트 깜란 4.1 (16) 209,729원/박 4성급 · 리조트 price badge" [ref=e1992] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/4441930?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "아미아나 리조트 깜란" [ref=e1994]
+                  - generic [ref=e1995]:
+                    - generic [ref=e1996]: 아미아나 리조트 깜란
+                    - generic [ref=e1997]:
+                      - img [ref=e1999]
+                      - generic [ref=e2001]: "4.1"
+                      - generic [ref=e2002]: (16)
+                    - generic [ref=e2004]: 209,729원/박
+                    - generic [ref=e2005]: 4성급 · 리조트
+                    - img "price badge" [ref=e2007]
+                - link "알마리조트 캄란 알마리조트 캄란 4.6 (370) 227,372원/박 5성급 · 리조트 price badge" [ref=e2011] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/1876213?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "알마리조트 캄란" [ref=e2013]
+                  - generic [ref=e2014]:
+                    - generic [ref=e2015]: 알마리조트 캄란
+                    - generic [ref=e2016]:
+                      - img [ref=e2018]
+                      - generic [ref=e2020]: "4.6"
+                      - generic [ref=e2021]: (370)
+                    - generic [ref=e2023]: 227,372원/박
+                    - generic [ref=e2024]: 5성급 · 리조트
+                    - img "price badge" [ref=e2026]
+                - link "[특가] 셀렉텀 노아 리조트 캄 란 [올인클루시브 특가 호텔] [특가] 셀렉텀 노아 리조트 캄 란 [올인클루시브 특가 호텔] 4.4 (41) 152,368원/박 5성급 · 리조트" [ref=e2030] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/1944003?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "[특가] 셀렉텀 노아 리조트 캄 란 [올인클루시브 특가 호텔]" [ref=e2032]
+                  - generic [ref=e2033]:
+                    - generic [ref=e2034]: "[특가] 셀렉텀 노아 리조트 캄 란 [올인클루시브 특가 호텔]"
+                    - generic [ref=e2035]:
+                      - img [ref=e2037]
+                      - generic [ref=e2039]: "4.4"
+                      - generic [ref=e2040]: (41)
+                    - generic [ref=e2042]: 152,368원/박
+                    - generic [ref=e2043]: 5성급 · 리조트
+                - link "퓨전 리조트 깜란 퓨전 리조트 깜란 4.5 (570) 349,786원/박 5성급 · 호텔" [ref=e2047] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/1238294?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "퓨전 리조트 깜란" [ref=e2049]
+                  - generic [ref=e2050]:
+                    - generic [ref=e2051]: 퓨전 리조트 깜란
+                    - generic [ref=e2052]:
+                      - img [ref=e2054]
+                      - generic [ref=e2056]: "4.5"
+                      - generic [ref=e2057]: (570)
+                    - generic [ref=e2059]: 349,786원/박
+                    - generic [ref=e2060]: 5성급 · 호텔
+                - link "스완도르 깜란 리조트 나트랑 스완도르 깜란 리조트 나트랑 4.9 (10) 317,337원/박 5성급 · 리조트 price badge" [ref=e2064] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/1289696?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "스완도르 깜란 리조트 나트랑" [ref=e2066]
+                  - generic [ref=e2067]:
+                    - generic [ref=e2068]: 스완도르 깜란 리조트 나트랑
+                    - generic [ref=e2069]:
+                      - img [ref=e2071]
+                      - generic [ref=e2073]: "4.9"
+                      - generic [ref=e2074]: (10)
+                    - generic [ref=e2076]: 317,337원/박
+                    - generic [ref=e2077]: 5성급 · 리조트
+                    - img "price badge" [ref=e2079]
+                - link "네이비 호텔 캄란 네이비 호텔 캄란 4.0 (117) 37,067원/박 3.5성급 · 호텔" [ref=e2083] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/1859200?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "네이비 호텔 캄란" [ref=e2085]
+                  - generic [ref=e2086]:
+                    - generic [ref=e2087]: 네이비 호텔 캄란
+                    - generic [ref=e2088]:
+                      - img [ref=e2090]
+                      - generic [ref=e2092]: "4.0"
+                      - generic [ref=e2093]: (117)
+                    - generic [ref=e2095]: 37,067원/박
+                    - generic [ref=e2096]: 3.5성급 · 호텔
+                - link "EMS 하우스 씨뷰 아파트먼트-더 아레나 깜란 EMS 하우스 씨뷰 아파트먼트-더 아레나 깜란 3.0 (1) 58,638원/박 5성급 · 호텔" [ref=e2100] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/4323917?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "EMS 하우스 씨뷰 아파트먼트-더 아레나 깜란" [ref=e2102]
+                  - generic [ref=e2103]:
+                    - generic [ref=e2104]: EMS 하우스 씨뷰 아파트먼트-더 아레나 깜란
+                    - generic [ref=e2105]:
+                      - img [ref=e2107]
+                      - generic [ref=e2109]: "3.0"
+                      - generic [ref=e2110]: (1)
+                    - generic [ref=e2112]: 58,638원/박
+                    - generic [ref=e2113]: 5성급 · 호텔
+                - link "[특가] JW 메리어트 캄란베이 리조트 & 스파 [특가] JW 메리어트 캄란베이 리조트 & 스파 5.0 (3) 259,204원/박 5성급 · 리조트 price badge" [ref=e2117] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/4808061?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "[특가] JW 메리어트 캄란베이 리조트 & 스파" [ref=e2119]
+                  - generic [ref=e2120]:
+                    - generic [ref=e2121]: "[특가] JW 메리어트 캄란베이 리조트 & 스파"
+                    - generic [ref=e2122]:
+                      - img [ref=e2124]
+                      - generic [ref=e2126]: "5.0"
+                      - generic [ref=e2127]: (3)
+                    - generic [ref=e2129]: 259,204원/박
+                    - generic [ref=e2130]: 5성급 · 리조트
+                    - img "price badge" [ref=e2132]
+                - link "래디슨 블루 깜란 래디슨 블루 깜란 4.3 (154) 136,371원/박 5성급 · 호텔 price badge" [ref=e2136] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/3404857?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "래디슨 블루 깜란" [ref=e2138]
+                  - generic [ref=e2139]:
+                    - generic [ref=e2140]: 래디슨 블루 깜란
+                    - generic [ref=e2141]:
+                      - img [ref=e2143]
+                      - generic [ref=e2145]: "4.3"
+                      - generic [ref=e2146]: (154)
+                    - generic [ref=e2148]: 136,371원/박
+                    - generic [ref=e2149]: 5성급 · 호텔
+                    - img "price badge" [ref=e2151]
+            - generic [ref=e2153]:
+              - heading "근처 숙소 둘러보기" [level=2] [ref=e2155]
+              - generic [ref=e2159]:
+                - link "[특가] JW 메리어트 캄란베이 리조트 & 스파 [특가] JW 메리어트 캄란베이 리조트 & 스파 5.0 (3) 259,204원/박 5성급 · 리조트 price badge" [ref=e2163] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/4883510?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "[특가] JW 메리어트 캄란베이 리조트 & 스파" [ref=e2165]
+                  - generic [ref=e2166]:
+                    - generic [ref=e2167]: "[특가] JW 메리어트 캄란베이 리조트 & 스파"
+                    - generic [ref=e2168]:
+                      - img [ref=e2170]
+                      - generic [ref=e2172]: "5.0"
+                      - generic [ref=e2173]: (3)
+                    - generic [ref=e2175]: 259,204원/박
+                    - generic [ref=e2176]: 5성급 · 리조트
+                    - img "price badge" [ref=e2178]
+                - link "Amiana Resort Cam Ranh Amiana Resort Cam Ranh 5.0 (1) 246,426원/박 5성급 · 리조트 price badge" [ref=e2182] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/4428647?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "Amiana Resort Cam Ranh" [ref=e2184]
+                  - generic [ref=e2185]:
+                    - generic [ref=e2186]: Amiana Resort Cam Ranh
+                    - generic [ref=e2187]:
+                      - img [ref=e2189]
+                      - generic [ref=e2191]: "5.0"
+                      - generic [ref=e2192]: (1)
+                    - generic [ref=e2194]: 246,426원/박
+                    - generic [ref=e2195]: 5성급 · 리조트
+                    - img "price badge" [ref=e2197]
+                - link "래디슨 블루 깜란 래디슨 블루 깜란 4.3 (154) 136,371원/박 5성급 · 호텔 price badge" [ref=e2201] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/4058165?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "래디슨 블루 깜란" [ref=e2203]
+                  - generic [ref=e2204]:
+                    - generic [ref=e2205]: 래디슨 블루 깜란
+                    - generic [ref=e2206]:
+                      - img [ref=e2208]
+                      - generic [ref=e2210]: "4.3"
+                      - generic [ref=e2211]: (154)
+                    - generic [ref=e2213]: 136,371원/박
+                    - generic [ref=e2214]: 5성급 · 호텔
+                    - img "price badge" [ref=e2216]
+                - link "나트랑 깜란 리비에라 비치 리조트 & 스파 나트랑 깜란 리비에라 비치 리조트 & 스파 4.4 (131) 165,594원/박 5성급 · 리조트 price badge" [ref=e2220] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/4080039?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "나트랑 깜란 리비에라 비치 리조트 & 스파" [ref=e2222]
+                  - generic [ref=e2223]:
+                    - generic [ref=e2224]: 나트랑 깜란 리비에라 비치 리조트 & 스파
+                    - generic [ref=e2225]:
+                      - img [ref=e2227]
+                      - generic [ref=e2229]: "4.4"
+                      - generic [ref=e2230]: (131)
+                    - generic [ref=e2232]: 165,594원/박
+                    - generic [ref=e2233]: 5성급 · 리조트
+                    - img "price badge" [ref=e2235]
+                - link "[특가] 셀렉텀 노아 리조트 캄 란 [올인클루시브 특가 호텔] [특가] 셀렉텀 노아 리조트 캄 란 [올인클루시브 특가 호텔] 4.4 (41) 152,368원/박 5성급 · 리조트" [ref=e2239] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/4431356?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "[특가] 셀렉텀 노아 리조트 캄 란 [올인클루시브 특가 호텔]" [ref=e2241]
+                  - generic [ref=e2242]:
+                    - generic [ref=e2243]: "[특가] 셀렉텀 노아 리조트 캄 란 [올인클루시브 특가 호텔]"
+                    - generic [ref=e2244]:
+                      - img [ref=e2246]
+                      - generic [ref=e2248]: "4.4"
+                      - generic [ref=e2249]: (41)
+                    - generic [ref=e2251]: 152,368원/박
+                    - generic [ref=e2252]: 5성급 · 리조트
+                - link "두옌 하 리조트 캄란 두옌 하 리조트 캄란 4.5 (245) 110,581원/박 5성급 · 리조트" [ref=e2256] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/1286529?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "두옌 하 리조트 캄란" [ref=e2258]
+                  - generic [ref=e2259]:
+                    - generic [ref=e2260]: 두옌 하 리조트 캄란
+                    - generic [ref=e2261]:
+                      - img [ref=e2263]
+                      - generic [ref=e2265]: "4.5"
+                      - generic [ref=e2266]: (245)
+                    - generic [ref=e2268]: 110,581원/박
+                    - generic [ref=e2269]: 5성급 · 리조트
+                - link "나트랑 미아 리조트 나트랑 미아 리조트 4.7 (419) 219,337원/박 5성급 · 리조트 price badge" [ref=e2273] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/3503439?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "나트랑 미아 리조트" [ref=e2275]
+                  - generic [ref=e2276]:
+                    - generic [ref=e2277]: 나트랑 미아 리조트
+                    - generic [ref=e2278]:
+                      - img [ref=e2280]
+                      - generic [ref=e2282]: "4.7"
+                      - generic [ref=e2283]: (419)
+                    - generic [ref=e2285]: 219,337원/박
+                    - generic [ref=e2286]: 5성급 · 리조트
+                    - img "price badge" [ref=e2288]
+      - generic [ref=e2291]:
+        - generic [ref=e2293]:
+          - generic [ref=e2295]: 프로모션 특가
+          - generic [ref=e2296]:
+            - generic [ref=e2297]: 286,113원/박
+            - img "sale badge" [ref=e2298]
+          - generic [ref=e2299]:
+            - button "5월 29일(금) - 5월 30일(토) · 1박" [ref=e2300] [cursor=pointer]
+            - generic [ref=e2301]: ·
+            - button "2명" [ref=e2302] [cursor=pointer]:
+              - generic [ref=e2303]: 2명
+        - button "객실 선택" [ref=e2304] [cursor=pointer]:
+          - generic [ref=e2306]: 객실 선택
+    - contentinfo [ref=e2308]:
+      - generic [ref=e2309]:
+        - generic [ref=e2310]:
+          - generic [ref=e2311]:
+            - text: 고객지원실 운영안내
+            - list [ref=e2312]:
+              - listitem [ref=e2313]: 채팅상담 연중무휴 24시간 유선상담 연중무휴 09:00-18:00
+              - listitem [ref=e2314]: 유선상담 1670-8208
+            - button "고객지원실" [ref=e2316]:
+              - button "고객지원실" [ref=e2317] [cursor=pointer]:
+                - generic [ref=e2318]: 고객지원실
+          - generic [ref=e2319]:
+            - generic [ref=e2320]:
+              - text: 소개
+              - list [ref=e2321]:
+                - listitem [ref=e2322]:
+                  - link "회사소개" [ref=e2323] [cursor=pointer]:
+                    - /url: https://about.myrealtrip.com
+                - listitem [ref=e2324]:
+                  - link "채용" [ref=e2325] [cursor=pointer]:
+                    - /url: https://career.myrealtrip.com
+                - listitem [ref=e2326]:
+                  - link "공고" [ref=e2327] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/announcement
+            - generic [ref=e2328]:
+              - text: 파트너
+              - list [ref=e2329]:
+                - listitem [ref=e2330]:
+                  - link "파트너 홈" [ref=e2331] [cursor=pointer]:
+                    - /url: https://partner.myrealtrip.com/welcome
+                - listitem [ref=e2332]:
+                  - link "제휴 문의" [ref=e2333] [cursor=pointer]:
+                    - /url: mailto:partnership@myrealtrip.com
+                - listitem [ref=e2334]:
+                  - link "광고 문의" [ref=e2335] [cursor=pointer]:
+                    - /url: mailto:ad@myrealtrip.com
+            - generic [ref=e2336]:
+              - text: 지원
+              - list [ref=e2337]:
+                - listitem [ref=e2338]:
+                  - link "공지사항" [ref=e2339] [cursor=pointer]:
+                    - /url: https://support.myrealtrip.com/notice
+                - listitem [ref=e2340]:
+                  - link "문의내역" [ref=e2341] [cursor=pointer]:
+                    - /url: https://support.myrealtrip.com/inquiry
+                - listitem [ref=e2342]:
+                  - link "최저가 보장제" [ref=e2343] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/best_price
+        - generic [ref=e2344]:
+          - generic [ref=e2345]:
+            - generic [ref=e2346]:
+              - link "이용 약관" [ref=e2348] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/policyAgreement
+              - link "개인정보 처리방침" [ref=e2350] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/common/privacy
+              - link "취소 및 환불 정책" [ref=e2352] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/common/cancel
+              - link "개발자 센터" [ref=e2354] [cursor=pointer]:
+                - /url: https://docs.myrealtrip.com/#/api/intro
+            - generic [ref=e2355]:
+              - generic [ref=e2356]:
+                - link "icon 페이스북으로 이동하기" [ref=e2358] [cursor=pointer]:
+                  - /url: https://www.facebook.com/myRealTrip
+                  - img "icon" [ref=e2359]
+                  - generic [ref=e2360]: 페이스북으로 이동하기
+                - link "icon 네이버 블로그로 이동하기" [ref=e2362] [cursor=pointer]:
+                  - /url: https://blog.naver.com/myrealtrip
+                  - img "icon" [ref=e2363]
+                  - generic [ref=e2364]: 네이버 블로그로 이동하기
+                - link "icon 인스타그램으로 이동하기" [ref=e2366] [cursor=pointer]:
+                  - /url: https://instagram.com/myrealtrip
+                  - img "icon" [ref=e2367]
+                  - generic [ref=e2368]: 인스타그램으로 이동하기
+                - link "icon 유투브로 이동하기" [ref=e2370] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UC2oeFByIBQjkKXmQjE0U5rQ
+                  - img "icon" [ref=e2371]
+                  - generic [ref=e2372]: 유투브로 이동하기
+              - generic [ref=e2374]:
+                - link "icon" [ref=e2376] [cursor=pointer]:
+                  - /url: https://itunes.apple.com/app/id1141745032
+                  - img "icon" [ref=e2377]
+                - link "icon" [ref=e2379] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.mrt.ducati
+                  - img "icon" [ref=e2380]
+            - button "icon 한국어 icon" [ref=e2382] [cursor=pointer]:
+              - img "icon" [ref=e2383]
+              - generic [ref=e2384]: 한국어
+              - img "icon" [ref=e2385]
+          - generic [ref=e2386]:
+            - paragraph [ref=e2388]:
+              - text: 상호명 (주)마이리얼트립 | 대표 이동건 | 개인정보보호책임자 김형석 | 사업자등록번호 209-81-55339
+              - link "사업자정보확인" [ref=e2390] [cursor=pointer]:
+                - /url: https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2098155339
+              - text: "| 통신판매업신고번호 2019-서울서초-0260 | 관광사업등록번호 : 제2019-3호"
+              - text: 주소 서울특별시 서초구 강남대로 311, 18층 1729호(서초동, 한화생명보험빌딩)
+              - text: 이메일 help@myrealtrip.com | 입점 문의 partnership@myrealtrip.com
+              - text: "마케팅파트너/크리에이터 문의 marketing_partner@myrealtrip.com | 마케팅 문의 marketing@myrealtrip.com | 호스팅 서비스 제공자 : (주)마이리얼트립"
+              - text: "자사는 서울특별시관광협회 공제영업보증보험에 가입되어 있습니다. 영업보증보험: 1.5억원 / 기획여행보증: 2억원"
+              - text: 마이리얼트립은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 상품·거래정보 및 거래에 대하여 책임을 지지않습니다.
+              - text: 부득이한 사정에 의해 확정된 여행일정이 변경되는 경우 여행자의 사전 동의를 받습니다.
+              - text: (주)마이리얼트립이 소유, 운영, 관리하는 웹사이트 및 앱 내의 상품, 판매자 정보, 이벤트 정보, 디자인, UI 등을 포함한 일체의 콘텐츠에 대한 무단 복제, 배포, 전송, 스크래핑 등의 행위는 저작권법 등 관련 법령에 의하여 엄격히 금지됩니다.
+            - button "ISMS-P" [ref=e2392] [cursor=pointer]:
+              - img "ISMS-P" [ref=e2393]
+  - dialog
+  - dialog
+  - dialog
+  - dialog
+  - dialog
+  - alert [ref=e2394]: 캄란 - 아미아나 리조트 깜란 후기, 가격, 위치 - 예약

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>마이스토어 모집 타임라인</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard', sans-serif;
+    background: #f2f3f7;
+    padding: 32px 24px 48px;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 28px;
+  }
+  .header h1 { font-size: 18px; font-weight: 800; color: #1a1a2e; margin-bottom: 4px; }
+  .header p { font-size: 13px; color: #999; }
+
+  .calendar {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  }
+
+  .month-header {
+    background: #1a1a2e;
+    color: #fff;
+    text-align: center;
+    padding: 14px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+
+  .weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background: #2d2d44;
+  }
+  .weekday {
+    text-align: center;
+    padding: 8px 4px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #aab;
+    letter-spacing: 0.05em;
+  }
+  .weekday.sun { color: #ff8a8a; }
+  .weekday.sat { color: #8ab4ff; }
+
+  .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border-top: 1px solid #f0f0f0;
+  }
+
+  .day {
+    min-height: 96px;
+    padding: 8px 8px 10px;
+    border-right: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    background: #fff;
+  }
+  .day:nth-child(7n) { border-right: none; }
+  .day.empty { background: #fafafa; }
+  .day.today { background: #f0f4ff; }
+  .day.launch { background: #f0fff4; }
+  .day.deadline { background: #fff5f5; }
+  .day.has-task { background: #fff; }
+
+  .day-num {
+    font-size: 13px;
+    font-weight: 700;
+    color: #ccc;
+    margin-bottom: 6px;
+    display: block;
+  }
+  .day.today .day-num { color: #3b5bdb; }
+  .day.has-task .day-num { color: #1a1a2e; }
+  .day.launch .day-num { color: #2d7a3a; }
+  .day.deadline .day-num { color: #c92a2a; }
+  .day.sat .day-num { color: #74a9f5; }
+  .day.sun .day-num { color: #ff8a8a; }
+
+  .tag {
+    display: block;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    line-height: 1.5;
+  }
+  .tag-blue   { background: #e8eeff; color: #3b5bdb; }
+  .tag-orange { background: #fff3e0; color: #d4650a; }
+  .tag-pink   { background: #fce8f0; color: #c2185b; }
+  .tag-purple { background: #f0e8ff; color: #7b2d8b; }
+  .tag-green  { background: #e8f4e8; color: #2d7a3a; }
+  .tag-launch { background: #2d7a3a; color: #fff; text-align: center; border-radius: 7px; font-size: 11px; }
+  .tag-end    { background: #c92a2a; color: #fff; text-align: center; border-radius: 7px; font-size: 11px; }
+
+  .legend {
+    max-width: 900px;
+    margin: 16px auto 0;
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .legend-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: #666; }
+  .legend-dot { width: 10px; height: 10px; border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>마이스토어 크리에이터 모집 타임라인</h1>
+  <p>2026년 5월 · 신청 마감 5/31</p>
+</div>
+
+<div class="calendar">
+  <div class="month-header">MAY 2026</div>
+
+  <div class="weekdays">
+    <div class="weekday sun">SUN</div>
+    <div class="weekday">MON</div>
+    <div class="weekday">TUE</div>
+    <div class="weekday">WED</div>
+    <div class="weekday">THU</div>
+    <div class="weekday">FRI</div>
+    <div class="weekday sat">SAT</div>
+  </div>
+
+  <div class="days">
+
+    <!-- Week 1: 5/1 = 금요일 → Sun~Thu 비움 -->
+    <div class="day empty"></div><!-- Sun -->
+    <div class="day empty"></div><!-- Mon -->
+    <div class="day empty"></div><!-- Tue -->
+    <div class="day empty"></div><!-- Wed -->
+    <div class="day empty"></div><!-- Thu -->
+    <div class="day empty"><span class="day-num">1</span></div><!-- Fri -->
+    <div class="day empty sat"><span class="day-num sat">2</span></div><!-- Sat -->
+
+    <!-- Week 2: 3~9 -->
+    <div class="day empty sun"><span class="day-num sun">3</span></div>
+    <div class="day empty"><span class="day-num">4</span></div>
+    <div class="day empty"><span class="day-num">5</span></div>
+    <div class="day empty"><span class="day-num">6</span></div>
+    <div class="day empty"><span class="day-num">7</span></div>
+    <div class="day empty"><span class="day-num">8</span></div>
+    <div class="day empty sat"><span class="day-num sat">9</span></div>
+
+    <!-- Week 3: 10~16 (핵심 주간) -->
+    <div class="day empty sun"><span class="day-num sun">10</span></div>
+    <div class="day empty"><span class="day-num">11</span></div>
+    <div class="day empty"><span class="day-num">12</span></div>
+
+    <!-- 5/13 (Wed) TODAY -->
+    <div class="day today has-task">
+      <span class="day-num">13</span>
+      <span class="tag tag-blue">크리에이터 리스트 작성</span>
+      <span class="tag tag-blue">컨택 발송</span>
+      <span class="tag tag-orange">구글 폼 제작</span>
+      <span class="tag tag-orange">집계 시트 세팅</span>
+      <span class="tag tag-green">쿠폰팩 생성</span>
+    </div>
+
+    <!-- 5/14 (Thu) -->
+    <div class="day has-task">
+      <span class="day-num">14</span>
+      <span class="tag tag-pink">MRT 인스타 콘텐츠 제작</span>
+      <span class="tag tag-pink">업로드 일정 확정</span>
+    </div>
+
+    <!-- 5/15 (Fri) -->
+    <div class="day has-task">
+      <span class="day-num">15</span>
+      <span class="tag tag-blue">단가 협의 완료</span>
+      <span class="tag tag-blue">예산 확보</span>
+      <span class="tag tag-pink">자동DM 세팅</span>
+      <span class="tag tag-pink">MRT 인스타 업로드</span>
+    </div>
+
+    <div class="day empty sat"><span class="day-num sat">16</span></div>
+
+    <!-- Week 4: 17~23 -->
+    <div class="day empty sun"><span class="day-num sun">17</span></div>
+    <div class="day empty"><span class="day-num">18</span></div>
+    <div class="day empty"><span class="day-num">19</span></div>
+
+    <!-- 5/20 (Wed) 🚀 발행일 -->
+    <div class="day launch has-task">
+      <span class="day-num">20</span>
+      <span class="tag tag-orange">단축 URL 생성</span>
+      <span class="tag tag-orange">발송 방식 확정</span>
+      <span class="tag tag-purple">전자책 기획</span>
+      <span class="tag tag-launch">🚀 전체 콘텐츠 발행</span>
+    </div>
+
+    <div class="day empty"><span class="day-num">21</span></div>
+
+    <!-- 5/22 (Fri) -->
+    <div class="day has-task">
+      <span class="day-num">22</span>
+      <span class="tag tag-purple">전자책 제작</span>
+    </div>
+
+    <div class="day empty sat"><span class="day-num sat">23</span></div>
+
+    <!-- Week 5: 24~30 -->
+    <div class="day empty sun"><span class="day-num sun">24</span></div>
+    <div class="day empty"><span class="day-num">25</span></div>
+    <div class="day empty"><span class="day-num">26</span></div>
+    <div class="day empty"><span class="day-num">27</span></div>
+    <div class="day empty"><span class="day-num">28</span></div>
+    <div class="day empty"><span class="day-num">29</span></div>
+    <div class="day empty sat"><span class="day-num sat">30</span></div>
+
+    <!-- Week 6: 5/31 (Sun) 마감 -->
+    <div class="day deadline sun has-task">
+      <span class="day-num">31</span>
+      <span class="tag tag-end">🔚 신청 마감</span>
+    </div>
+
+  </div>
+</div>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:#e8eeff;border:1.5px solid #3b5bdb;"></div> 크리에이터 컨택</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#fff3e0;border:1.5px solid #d4650a;"></div> 신청 폼 / 쿠폰팩</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#fce8f0;border:1.5px solid #c2185b;"></div> MRT 공식 인스타</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#f0e8ff;border:1.5px solid #7b2d8b;"></div> 전자책</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#2d7a3a;"></div> 🚀 발행일 (5/20)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#c92a2a;"></div> 🔚 마감일 (5/31)</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,597 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - link "myrealtrip" [ref=e6] [cursor=pointer]:
+        - /url: https://www.myrealtrip.com
+        - img "myrealtrip" [ref=e7]
+      - generic [ref=e10]:
+        - img "icon" [ref=e12] [cursor=pointer]
+        - textbox "\"뷰티 초특가\" 최대 70% 할인" [ref=e13]
+      - generic [ref=e15]:
+        - button "파트너 로그인" [ref=e17] [cursor=pointer]
+        - button "로그인 및 회원가입" [ref=e19] [cursor=pointer]
+    - navigation [ref=e21]:
+      - generic [ref=e22]:
+        - link "홈" [ref=e24] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com
+          - generic [ref=e25]: 홈
+        - link "할인" [ref=e27] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/promotions/benefit
+          - generic [ref=e28]: 할인
+        - link "항공" [ref=e30] [cursor=pointer]:
+          - /url: https://flights.myrealtrip.com/
+          - generic [ref=e31]: 항공
+        - link "해외 숙소" [ref=e33] [cursor=pointer]:
+          - /url: https://accommodation.myrealtrip.com/union?isDomestic=false&exposureSubCategory=HOTEL_RESORT
+          - generic [ref=e34]: 해외 숙소
+        - link "국내 숙소" [ref=e36] [cursor=pointer]:
+          - /url: https://accommodation.myrealtrip.com/union?isDomestic=true&exposureSubCategory=HOTEL_RESORT
+          - generic [ref=e37]: 국내 숙소
+        - link "패키지" [ref=e39] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/promotions/package_home
+          - generic [ref=e40]: 패키지
+        - link "한인민박" [ref=e42] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/promotions/hanin
+          - generic [ref=e43]: 한인민박
+        - link "투어·티켓" [ref=e45] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/main/experiences/
+          - generic [ref=e46]: 투어·티켓
+        - generic [ref=e47]:
+          - link "유럽열차" [ref=e48] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/transportation
+            - generic [ref=e49]: 유럽열차
+          - img "icon" [ref=e50]
+        - button "더보기 icon" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: 더보기
+          - img "icon" [ref=e54]
+  - main [ref=e55]:
+    - generic [ref=e57]:
+      - navigation [ref=e62]:
+        - generic [ref=e64]:
+          - button "예약하기" [ref=e65] [cursor=pointer]
+          - button "상품 소개" [ref=e66] [cursor=pointer]
+          - button "이용 안내" [ref=e67] [cursor=pointer]
+          - button "환불 안내" [ref=e68] [cursor=pointer]
+      - generic [ref=e70]:
+        - article [ref=e71]:
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - link "대한민국" [ref=e74] [cursor=pointer]:
+                - /url: /search?q=대한민국
+              - link "경기도" [ref=e76] [cursor=pointer]:
+                - /url: /search?q=경기도
+            - heading "★특가★ 에버랜드 오후이용권 (~26/5/31)" [level=1] [ref=e77]
+            - generic:
+              - generic:
+                - button
+          - list [ref=e78]:
+            - listitem [ref=e79]:
+              - img "즉시확정" [ref=e80]
+              - strong [ref=e81]: 즉시확정
+              - text: 구매 즉시 예약 확정 (일부 상품 이용일 추가 예약 필요)
+            - listitem [ref=e82]:
+              - img "최대 12개월 무이자 할부 가능" [ref=e83]
+              - strong [ref=e84]: 최대 12개월 무이자 할부 가능
+              - link [ref=e85] [cursor=pointer]:
+                - /url: https://www.myrealtrip.com/order/installment
+                - img [ref=e86]
+          - list [ref=e88]:
+            - listitem [ref=e89]:
+              - img "eticket" [ref=e90]
+              - text: e-ticket
+            - listitem [ref=e91]:
+              - img "calendar" [ref=e92]
+              - text: 유효기간(~2026.05.31) 내 사용
+          - list [ref=e93]:
+            - listitem [ref=e94]:
+              - generic [ref=e97]:
+                - heading "⭐다양한 티켓으로 즐기는 에버랜드 (당일구매/당일사용 가능)" [level=3] [ref=e98]
+                - paragraph [ref=e101]:
+                  - text: "- 대/소 공통 이용 가능하며, 36개월부터 요금 적용됩니다. - 36개월 미만은 증빙서류 지참 시, 무료 입장 가능해요. - 꼭! 이용 날짜에 맞는 옵션을 선택해 주세요! (이미지 참고) - 방문 전 에버랜드 온라인 회원 가입과 앱을 꼭 설치해주세요! 📲 - 입장하자마자 에버랜드 앱 '스마트줄서기'로 최애 놀이기구를 예약하고 대기 시간을 아끼세요! ✨ 마이리얼트립 ONLY 최대 1.5만원 즉시 할인! - 상세내용은"
+                  - link "https://www.myrealtrip.com/promotions/checkout" [ref=e102] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/promotions/checkout
+                  - text: "을 확인하세요. 🚌 왕복 셔틀버스 타고 편하게 이동하세요! - 종로/홍대/동대문 :"
+                  - link "https://www.myrealtrip.com/offers/82076" [ref=e103] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/offers/82076
+                  - text: "- 영등포/강남 :"
+                  - link "https://www.myrealtrip.com/offers/82077" [ref=e104] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/offers/82077
+          - generic [ref=e106]:
+            - heading "예약하기" [level=2] [ref=e107]
+            - generic [ref=e114]:
+              - generic [ref=e115]:
+                - heading "에버랜드 오후권 (~26/5/31)" [level=3] [ref=e116]
+                - list [ref=e118]:
+                  - listitem [ref=e119]: ※ 오후 4시부터 입장 가능
+              - generic [ref=e120]:
+                - generic [ref=e121]:
+                  - generic [ref=e122]:
+                    - text: 68,000원
+                    - img "discount" [ref=e123]
+                    - generic [ref=e124]: 46%
+                  - generic [ref=e125]: 1명37,000원
+                - generic [ref=e127]:
+                  - button "1만큼 감소" [disabled] [ref=e128]:
+                    - img "1만큼 감소" [ref=e129]
+                  - generic [ref=e130]: "0"
+                  - button "1만큼 증가" [ref=e131] [cursor=pointer]:
+                    - img "1만큼 증가" [ref=e132]
+          - generic [ref=e133]:
+            - iframe [ref=e136]:
+              - generic [active] [ref=f32e1]:
+                - generic "YouTube 동영상 플레이어" [ref=f32e3]
+                - generic [ref=f32e5]:
+                  - generic:
+                    - generic:
+                      - button "동영상 재생" [ref=f32e10] [cursor=pointer]
+                      - button "재생 컨트롤 숨기기" [ref=f32e12] [cursor=pointer]
+                      - generic [ref=f32e14]:
+                        - generic [ref=f32e19]:
+                          - generic [ref=f32e20]:
+                            - 'link "60초 만에 봄 마스터하기 시~작! | #에버랜드 #튤립축제" [ref=f32e21] [cursor=pointer]':
+                              - /url: https://www.youtube.com/watch?v=yHB3eINROUI
+                            - link "에버랜드 - EVERLAND" [ref=f32e22] [cursor=pointer]:
+                              - /url: /channel/UCmzN1qaCzjKtezHbzJXGvxg
+                              - generic [ref=f32e23]: 에버랜드 - EVERLAND
+                          - generic [ref=f32e24]:
+                            - button [ref=f32e25] [cursor=pointer]
+                            - generic [ref=f32e26]:
+                              - generic [ref=f32e27]:
+                                - generic: 에버랜드 - EVERLAND
+                                - generic: 구독자 145만명
+                              - generic [ref=f32e35]:
+                                - generic [ref=f32e36]:
+                                  - generic:
+                                    - generic:
+                                      - img
+                                  - button "구독" [ref=f32e39] [cursor=pointer]:
+                                    - generic [ref=f32e40]: 구독
+                                - generic:
+                                  - generic:
+                                    - img
+                        - generic [ref=f32e44]:
+                          - generic [ref=f32e45]:
+                            - button "공유" [ref=f32e47] [cursor=pointer]:
+                              - generic [ref=f32e51]:
+                                - img
+                            - button "나중에 볼 동영상" [ref=f32e56] [cursor=pointer]:
+                              - generic [ref=f32e60]:
+                                - img
+                          - link "YouTube에서 보기" [ref=f32e67] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=yHB3eINROUI
+                            - generic [ref=f32e70]:
+                              - text: "다음에서 보기:"
+                              - img [ref=f32e72]:
+                                - generic [ref=f32e74]:
+                                  - img
+            - generic [ref=e139]:
+              - generic [ref=e140]:
+                - img [ref=e141]
+                - img [ref=e142]
+                - img [ref=e143]
+                - img [ref=e144]
+                - img [ref=e145]
+                - img [ref=e146]
+                - img [ref=e147]
+                - img [ref=e148]
+                - img [ref=e149]
+                - img [ref=e150]
+                - img [ref=e151]
+              - button "상품 설명 더 보기더보기" [ref=e155] [cursor=pointer]:
+                - text: 상품 설명 더 보기
+                - img "더보기" [ref=e156]
+          - generic [ref=e159]:
+            - generic [ref=e161]: 1/20
+            - generic [ref=e163]:
+              - img "advertisement-banner-offer_detail-6193" [ref=e167] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-3675" [ref=e171] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5846" [ref=e175] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5541" [ref=e181] [cursor=pointer]
+              - generic [ref=e184] [cursor=pointer]:
+                - img "advertisement-banner-offer_detail-6080" [ref=e187]
+                - generic:
+                  - generic: 광고
+              - generic [ref=e190] [cursor=pointer]:
+                - img "advertisement-banner-offer_detail-5866" [ref=e193]
+                - generic:
+                  - generic: 광고
+              - img "advertisement-banner-offer_detail-3400" [ref=e199] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-4738" [ref=e205] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-3790" [ref=e211] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5654" [ref=e217] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5477" [ref=e223] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-4102" [ref=e229] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-6272" [ref=e235] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-6112" [ref=e241] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5512" [ref=e247] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-6096" [ref=e253] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5862" [ref=e259] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-3517" [ref=e265] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-6143" [ref=e271] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5914" [ref=e277] [cursor=pointer]
+          - generic [ref=e279]:
+            - heading "이용 안내" [level=2] [ref=e280]
+            - generic [ref=e281]:
+              - generic [ref=e282]:
+                - heading "이용 시간" [level=3] [ref=e283]
+                - generic:
+                  - paragraph
+              - generic [ref=e284]:
+                - heading "위치 안내" [level=3] [ref=e285]
+                - generic [ref=e286]:
+                  - paragraph [ref=e287]:
+                    - paragraph [ref=e289]: 대한민국 경기도 용인시 처인구 포곡읍 에버랜드로 199 (전대리 310)
+                  - link "지도" [ref=e291] [cursor=pointer]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=37.293476,127.19981
+                    - img "지도" [ref=e292]
+              - generic [ref=e293]:
+                - heading "사용 방법" [level=3] [ref=e294]
+                - generic [ref=e295]:
+                  - paragraph [ref=e298]: "- 판매기간 : ~ 2026.05.31 - 유효기간 : 2026.03.23 ~ 2026.05.31 - ★ 오후이용권은 오후 4시부터 이용 가능합니다. - ★ 입장 전 에버랜드 APP에 이용권 등록 바랍니다. APP 미등록시 비해피,레인슈어런스 등의 이벤트 참여 및 일부 시설의 예약이 제한될 수 있습니다. - ※ 에버랜드 컨텐츠는 축제&시즌에 따라 변경되므로 이용시점에 에버랜드 홈페이지 또는 APP에서 확인 바랍니다. 이용 안내 - 1. 상품구매 - 2. 문자로 QR 코드수신 - 3. MMS 상단에 보여지는 QR코드를 에버랜드 App에 등록 후 에버랜드 정문에서 제시 후 입장"
+                  - link "더 보기" [ref=e301] [cursor=pointer]:
+                    - /url: ""
+              - generic [ref=e302]:
+                - heading "추가정보" [level=3] [ref=e303]
+                - generic [ref=e304]:
+                  - paragraph [ref=e307]: "[추가정보] - 대/소 공통 이용 가능하며 36개월부터 요금 적용됩니다. - 당일 에버랜드 입장 및 가동중인 시설 이용 가능합니다. - (단, 코인물/대여물/스페셜투어/기획전 등 별도 요금) - 일부 어트랙션/동물원/식당 이용시간은 에버랜드 마감시간과 다르게 조기 종료될수 있으니 사전에 에버랜드 모바일 앱에서 운영시간 확인 바랍니다. - 정문주차장/4주차장은 유료, 그 외 주차장은 무료로 운영됩니다 - QR코드의 사진을 판매사이트에 그대로 올리는 경우 제3자의 무단 도용에 따른 피해가 발생할 수 있습니다. - ▷에버랜드 http://www.everland.com - 홈페이지 : www.everland.com - 주차 : 정문주차장/4주차장은 유료, 그 외 주차장은 무료 운영 - 영업시간 : 에버랜드 홈페이지 참고(홈페이지 : www.everland.com) - 휴 무 : 휴무없음 - 무료입장나이 : 36개월 미만 (증빙서류 지참 필수/미지참시 유아요금적용) - 에버랜드 컨텐츠는 축제&시즌에 따라 변경되므로 이용시점에 에버랜드 홈페이지 또는 APP에서 확인 바랍니다."
+                  - link "더 보기" [ref=e310] [cursor=pointer]:
+                    - /url: ""
+          - generic [ref=e312]:
+            - heading "취소 및 환불 규정" [level=2] [ref=e313]
+            - paragraph [ref=e318]:
+              - text: "- 유효기간 내 미사용티켓 100% 환불가능"
+              - text: "- 유효기간 종료 후 미사용티켓 100% 환불"
+              - text: "- 사용한 티켓은 환불 불가능합니다."
+          - generic [ref=e321]:
+            - generic [ref=e322]:
+              - link "놀유니버스 놀유니버스" [ref=e323] [cursor=pointer]:
+                - /url: /guides/133152
+                - img "놀유니버스" [ref=e324]
+                - paragraph [ref=e325]: 놀유니버스
+              - button "파트너 정보" [ref=e328] [cursor=pointer]:
+                - button "파트너 정보" [ref=e329]:
+                  - generic [ref=e330]:
+                    - img [ref=e331]
+                    - text: 파트너 정보
+            - paragraph [ref=e336]: 안녕하세요, 마이리얼트립 파트너 놀유니버스입니다. 국내외 숙박ㆍ레저ㆍ교통 등 여가를 위한 모든 서비스를 제공하는 No.1 여가 슈퍼앱! 놀유니버스는 누구나 마음 편히 놀 수 있도록 여가의 패러다임을 전환하고 있습니다.
+          - generic [ref=e337]:
+            - separator [ref=e338]
+            - heading "첫 후기를 남겨보세요" [level=5] [ref=e339]
+            - paragraph [ref=e340]: 여행자님의 후기는 다른 여행자에게 큰 도움이 됩니다.
+            - separator [ref=e341]
+        - complementary [ref=e342]:
+          - list [ref=e343]:
+            - listitem [ref=e344]:
+              - generic [ref=e345]:
+                - generic [ref=e346]:
+                  - generic [ref=e347]:
+                    - generic [ref=e349]:
+                      - generic [ref=e350]: 쿠폰할인가
+                      - strong [ref=e351]: 36,500원
+                      - text: 부터
+                    - button "share" [ref=e353] [cursor=pointer]:
+                      - img "share" [ref=e354]
+                  - generic [ref=e355]:
+                    - generic [ref=e357]:
+                      - button "32" [ref=e358] [cursor=pointer]:
+                        - generic [ref=e360]:
+                          - img [ref=e362]
+                          - generic [ref=e365]: "32"
+                      - button "즉시사용예약하기" [ref=e366] [cursor=pointer]:
+                        - img "즉시사용" [ref=e367]
+                        - text: 예약하기
+                    - paragraph [ref=e368]:
+                      - text: 구매 후 즉시 확정됩니다.
+                      - link "즉시사용":
+                        - /url: /about/instantbooking
+                        - img "즉시사용" [ref=e369] [cursor=pointer]
+                - link "놀유니버스 놀유니버스" [ref=e372] [cursor=pointer]:
+                  - /url: /guides/133152
+                  - img "놀유니버스" [ref=e373]
+                  - generic [ref=e374]: 놀유니버스
+            - listitem [ref=e375]:
+              - button "🌳[선착순] 500원 즉시 할인 받기" [ref=e377] [cursor=pointer]:
+                - generic [ref=e378]:
+                  - generic [ref=e379]: 🌳[선착순] 500원 즉시 할인 받기
+                  - img [ref=e380]
+      - generic [ref=e382]:
+        - paragraph [ref=e385]: "'테마파크 입장권' 인기상품"
+        - generic [ref=e389]:
+          - generic [ref=e391]:
+            - link "5월 특가 입장권 ・ 서울 [특가] 롯데월드 어드벤처 종합이용권 (~26/05/31) 3,063 52,000원41,900원 / 1인 1.2만" [ref=e392] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/70816
+              - generic [ref=e397]: 5월 특가
+              - generic [ref=e398]:
+                - generic [ref=e400]: 입장권 ・ 서울
+                - heading "[특가] 롯데월드 어드벤처 종합이용권 (~26/05/31)" [level=3] [ref=e401]:
+                  - generic [ref=e402]: "[특가] 롯데월드 어드벤처 종합이용권 (~26/05/31)"
+                - generic [ref=e403]:
+                  - generic [ref=e405]:
+                    - generic [ref=e406]:
+                      - img [ref=e407]
+                      - img [ref=e409]
+                      - img [ref=e411]
+                      - img [ref=e413]
+                      - img [ref=e415]
+                    - text: 3,063
+                  - generic [ref=e417]:
+                    - generic [ref=e418]: 52,000원
+                    - generic [ref=e419]: 41,900원
+                    - text: / 1인
+              - generic [ref=e422]:
+                - img [ref=e424]
+                - generic [ref=e427]: 1.2만
+            - link "즉시확정 입장권 ・ 경기도 [용인] 에버랜드 종일이용권 (~26/05/31) 224 53,000원 / 1인 1592" [ref=e428] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/83686
+              - generic [ref=e433]: 즉시확정
+              - generic [ref=e434]:
+                - generic [ref=e436]: 입장권 ・ 경기도
+                - heading "[용인] 에버랜드 종일이용권 (~26/05/31)" [level=3] [ref=e437]:
+                  - generic [ref=e438]: "[용인] 에버랜드 종일이용권 (~26/05/31)"
+                - generic [ref=e439]:
+                  - generic [ref=e441]:
+                    - generic [ref=e442]:
+                      - img [ref=e443]
+                      - img [ref=e445]
+                      - img [ref=e447]
+                      - img [ref=e449]
+                      - img [ref=e451]
+                    - text: "224"
+                  - generic [ref=e453]:
+                    - generic [ref=e454]: 53,000원
+                    - text: / 1인
+              - generic [ref=e457]:
+                - img [ref=e459]
+                - generic [ref=e462]: "1592"
+            - link "즉시확정 입장권 ・ 서울 [★당일가능] 서울랜드 어린이 종일 자유이용권 172 28,900원 / 1인 1316" [ref=e463] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/99316
+              - generic [ref=e468]: 즉시확정
+              - generic [ref=e469]:
+                - generic [ref=e471]: 입장권 ・ 서울
+                - heading "[★당일가능] 서울랜드 어린이 종일 자유이용권" [level=3] [ref=e472]:
+                  - generic [ref=e473]: "[★당일가능] 서울랜드 어린이 종일 자유이용권"
+                - generic [ref=e474]:
+                  - generic [ref=e476]:
+                    - generic [ref=e477]:
+                      - img [ref=e478]
+                      - img [ref=e480]
+                      - img [ref=e482]
+                      - img [ref=e484]
+                      - img [ref=e486]
+                    - text: "172"
+                  - generic [ref=e488]:
+                    - generic [ref=e489]: 28,900원
+                    - text: / 1인
+              - generic [ref=e492]:
+                - img [ref=e494]
+                - generic [ref=e497]: "1316"
+            - link "즉시확정 입장권 ・ 서울 [★당일가능] 서울랜드 AFTER4 오후권 자유이용권 44 28,900원 / 1인 367" [ref=e498] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/99315
+              - generic [ref=e503]: 즉시확정
+              - generic [ref=e504]:
+                - generic [ref=e506]: 입장권 ・ 서울
+                - heading "[★당일가능] 서울랜드 AFTER4 오후권 자유이용권" [level=3] [ref=e507]:
+                  - generic [ref=e508]: "[★당일가능] 서울랜드 AFTER4 오후권 자유이용권"
+                - generic [ref=e509]:
+                  - generic [ref=e511]:
+                    - generic [ref=e512]:
+                      - img [ref=e513]
+                      - img [ref=e515]
+                      - img [ref=e517]
+                      - img [ref=e519]
+                      - img [ref=e521]
+                    - text: "44"
+                  - generic [ref=e523]:
+                    - generic [ref=e524]: 28,900원
+                    - text: / 1인
+              - generic [ref=e527]:
+                - img [ref=e529]
+                - generic [ref=e532]: "367"
+            - link "즉시확정 입장권 ・ 과천 [경기] 과천 그라운드플래닛 2 10,000원 / 1인 41" [ref=e533] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/167397
+              - generic [ref=e538]: 즉시확정
+              - generic [ref=e539]:
+                - generic [ref=e541]: 입장권 ・ 과천
+                - heading "[경기] 과천 그라운드플래닛" [level=3] [ref=e542]:
+                  - generic [ref=e543]: "[경기] 과천 그라운드플래닛"
+                - generic [ref=e544]:
+                  - generic [ref=e546]:
+                    - generic [ref=e547]:
+                      - img [ref=e548]
+                      - img [ref=e550]
+                      - img [ref=e552]
+                      - img [ref=e554]
+                      - img [ref=e556]
+                    - text: "2"
+                  - generic [ref=e558]:
+                    - generic [ref=e559]: 10,000원
+                    - text: / 1인
+              - generic [ref=e562]:
+                - img [ref=e564]
+                - generic [ref=e567]: "41"
+            - link "즉시확정 입장권 ・ 과천 [경기 과천] 서울랜드 AFTER6 파크이용권 35 14,900원 / 1인 252" [ref=e568] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/99314
+              - generic [ref=e573]: 즉시확정
+              - generic [ref=e574]:
+                - generic [ref=e576]: 입장권 ・ 과천
+                - heading "[경기 과천] 서울랜드 AFTER6 파크이용권" [level=3] [ref=e577]:
+                  - generic [ref=e578]: "[경기 과천] 서울랜드 AFTER6 파크이용권"
+                - generic [ref=e579]:
+                  - generic [ref=e581]:
+                    - generic [ref=e582]:
+                      - img [ref=e583]
+                      - img [ref=e585]
+                      - img [ref=e587]
+                      - img [ref=e589]
+                      - img [ref=e591]
+                    - text: "35"
+                  - generic [ref=e593]:
+                    - generic [ref=e594]: 14,900원
+                    - text: / 1인
+              - generic [ref=e597]:
+                - img [ref=e599]
+                - generic [ref=e602]: "252"
+            - link "즉시확정 입장권 ・ 김포 [김포] 오키드 키즈카페 2 12,400원 / 1인 65" [ref=e603] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/116717
+              - generic [ref=e608]: 즉시확정
+              - generic [ref=e609]:
+                - generic [ref=e611]: 입장권 ・ 김포
+                - heading "[김포] 오키드 키즈카페" [level=3] [ref=e612]:
+                  - generic [ref=e613]: "[김포] 오키드 키즈카페"
+                - generic [ref=e614]:
+                  - generic [ref=e616]:
+                    - generic [ref=e617]:
+                      - img [ref=e618]
+                      - img [ref=e620]
+                      - img [ref=e622]
+                      - img [ref=e624]
+                      - img [ref=e626]
+                    - text: "2"
+                  - generic [ref=e630]:
+                    - generic [ref=e631]: 12,400원
+                    - text: / 1인
+              - generic [ref=e634]:
+                - img [ref=e636]
+                - generic [ref=e639]: "65"
+            - link "5월 특가 입장권 ・ 경기도 [특가] 플레이월드 미사점 주중 종일권 (5월) 5,000원 / 1인 14" [ref=e640] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/166279
+              - generic [ref=e645]: 5월 특가
+              - generic [ref=e646]:
+                - generic [ref=e648]: 입장권 ・ 경기도
+                - heading "[특가] 플레이월드 미사점 주중 종일권 (5월)" [level=3] [ref=e649]:
+                  - generic [ref=e650]: "[특가] 플레이월드 미사점 주중 종일권 (5월)"
+                - generic [ref=e652]:
+                  - generic [ref=e653]: 5,000원
+                  - text: / 1인
+              - generic [ref=e656]:
+                - img [ref=e658]
+                - generic [ref=e661]: "14"
+            - link "즉시확정 입장권 ・ 경기도 [동탄] 아르티스테마파크 입장권 4 6,900원 / 1인 20" [ref=e662] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/103228
+              - generic [ref=e667]: 즉시확정
+              - generic [ref=e668]:
+                - generic [ref=e670]: 입장권 ・ 경기도
+                - heading "[동탄] 아르티스테마파크 입장권" [level=3] [ref=e671]:
+                  - generic [ref=e672]: "[동탄] 아르티스테마파크 입장권"
+                - generic [ref=e673]:
+                  - generic [ref=e675]:
+                    - generic [ref=e676]:
+                      - img [ref=e677]
+                      - img [ref=e679]
+                      - img [ref=e681]
+                      - img [ref=e683]
+                      - img [ref=e685]
+                    - text: "4"
+                  - generic [ref=e689]:
+                    - generic [ref=e690]: 6,900원
+                    - text: / 1인
+              - generic [ref=e693]:
+                - img [ref=e695]
+                - generic [ref=e698]: "20"
+          - button "Next slide" [ref=e699] [cursor=pointer]:
+            - img "next" [ref=e700]
+      - paragraph [ref=e702]: "상품번호: 148276"
+  - contentinfo [ref=e704]:
+    - generic [ref=e705]:
+      - generic [ref=e706]:
+        - generic [ref=e707]:
+          - text: 고객지원실 운영안내
+          - list [ref=e708]:
+            - listitem [ref=e709]: 채팅상담 연중무휴 24시간 유선상담 연중무휴 09:00-18:00
+            - listitem [ref=e710]: 대표번호 1670-8208
+          - button "고객지원실" [ref=e712] [cursor=pointer]:
+            - button "고객지원실" [ref=e713]:
+              - generic [ref=e714]: 고객지원실
+        - generic [ref=e715]:
+          - generic [ref=e716]:
+            - text: 소개
+            - list [ref=e717]:
+              - listitem [ref=e718]:
+                - link "회사소개" [ref=e719] [cursor=pointer]:
+                  - /url: https://about.myrealtrip.com
+              - listitem [ref=e720]:
+                - link "채용" [ref=e721] [cursor=pointer]:
+                  - /url: https://careers.myrealtrip.com
+              - listitem [ref=e722]:
+                - link "공고" [ref=e723] [cursor=pointer]:
+                  - /url: https://www.myrealtrip.com/announcement
+          - generic [ref=e724]:
+            - text: 파트너
+            - list [ref=e725]:
+              - listitem [ref=e726]:
+                - link "파트너 홈" [ref=e727] [cursor=pointer]:
+                  - /url: https://partner.myrealtrip.com/welcome
+              - listitem [ref=e728]:
+                - link "제휴 문의" [ref=e729] [cursor=pointer]:
+                  - /url: "mailto: partnership@myrealtrip.com"
+              - listitem [ref=e730]:
+                - link "광고 문의" [ref=e731] [cursor=pointer]:
+                  - /url: "mailto: ad@myrealtrip.com"
+          - generic [ref=e732]:
+            - text: 지원
+            - list [ref=e733]:
+              - listitem [ref=e734]:
+                - link "공지사항" [ref=e735] [cursor=pointer]:
+                  - /url: https://support.myrealtrip.com/notice
+              - listitem [ref=e736]:
+                - link "문의내역" [ref=e737] [cursor=pointer]:
+                  - /url: https://support.myrealtrip.com/inquiry
+              - listitem [ref=e738]:
+                - link "최저가 보장제" [ref=e739] [cursor=pointer]:
+                  - /url: https://www.myrealtrip.com/best_price
+      - generic [ref=e740]:
+        - generic [ref=e741]:
+          - generic [ref=e742]:
+            - link "이용 약관" [ref=e744] [cursor=pointer]:
+              - /url: https://auth.myrealtrip.com/terms/policyAgreement
+            - link "개인정보 처리방침" [ref=e746] [cursor=pointer]:
+              - /url: https://auth.myrealtrip.com/terms/common/privacy
+            - link "취소 및 환불 정책" [ref=e748] [cursor=pointer]:
+              - /url: https://auth.myrealtrip.com/terms/common/cancel
+          - generic [ref=e749]:
+            - generic [ref=e750]:
+              - link "icon 페이스북으로 이동하기" [ref=e752] [cursor=pointer]:
+                - /url: https://www.facebook.com/myRealTrip
+                - img "icon" [ref=e753]
+                - generic [ref=e754]: 페이스북으로 이동하기
+              - link "icon 네이버 블로그로 이동하기" [ref=e756] [cursor=pointer]:
+                - /url: https://blog.naver.com/myrealtrip
+                - img "icon" [ref=e757]
+                - generic [ref=e758]: 네이버 블로그로 이동하기
+              - link "icon 인스타그램으로 이동하기" [ref=e760] [cursor=pointer]:
+                - /url: https://instagram.com/myrealtrip
+                - img "icon" [ref=e761]
+                - generic [ref=e762]: 인스타그램으로 이동하기
+              - link "icon 유투브로 이동하기" [ref=e764] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC2oeFByIBQjkKXmQjE0U5rQ
+                - img "icon" [ref=e765]
+                - generic [ref=e766]: 유투브로 이동하기
+            - generic [ref=e768]:
+              - link "icon" [ref=e770] [cursor=pointer]:
+                - /url: https://itunes.apple.com/app/id1141745032
+                - img "icon" [ref=e771]
+              - link "icon" [ref=e773] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.mrt.ducati
+                - img "icon" [ref=e774]
+          - button "icon 한국어 icon" [ref=e777] [cursor=pointer]:
+            - img "icon" [ref=e778]
+            - generic [ref=e779]: 한국어
+            - img "icon" [ref=e780]
+        - generic [ref=e781]:
+          - paragraph [ref=e783]:
+            - text: 상호명 (주)마이리얼트립 | 대표 이동건 | 개인정보보호책임자 김형석 | 사업자등록번호 209-81-55339
+            - link "사업자정보확인" [ref=e784] [cursor=pointer]:
+              - /url: https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2098155339
+            - text: "| 통신판매업신고번호 2019-서울서초-0260 | 관광사업등록번호 : 제2019-3호"
+            - text: 주소 서울특별시 서초구 강남대로 311, 18층 1729호(서초동, 한화생명보험빌딩) | 이메일 help@myrealtrip.com | 입점 문의 partnership@myrealtrip.com
+            - text: "마케팅파트너/크리에이터 문의 marketing_partner@myrealtrip.com | 마케팅 문의 marketing@myrealtrip.com | 호스팅 서비스 제공자 : (주)마이리얼트립"
+            - text: "자사는 서울특별시관광협회 공제영업보증보험에 가입되어 있습니다. 영업보증보험: 1.5억원 / 기획여행보증: 2억원"
+            - text: 마이리얼트립은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 상품·거래정보 및 거래에 대하여 책임을 지지않습니다.
+            - text: 부득이한 사정에 의해 확정된 여행일정이 변경되는 경우 여행자의 사전 동의를 받습니다.
+            - text: (주)마이리얼트립이 소유, 운영, 관리하는 웹사이트 및 앱 내의 상품, 판매자 정보, 이벤트 정보, 디자인, UI 등을 포함한 일체의 콘텐츠에 대한 무단 복제, 배포, 전송, 스크래핑 등의 행위는 저작권법 등 관련 법령에 의하여 엄격히 금지됩니다.
+          - button "ISMS-P" [ref=e786] [cursor=pointer]:
+            - img "ISMS-P" [ref=e787]
+  - button "마이리얼트립 상담 버튼" [ref=e789]:
+    - generic [ref=e790] [cursor=pointer]:
+      - generic [ref=e791]: 마이리얼트립 상담 버튼
+      - img [ref=e793]

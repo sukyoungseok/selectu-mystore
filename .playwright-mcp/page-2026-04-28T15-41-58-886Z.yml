@@ -1,0 +1,674 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - link "myrealtrip" [ref=e6] [cursor=pointer]:
+        - /url: https://www.myrealtrip.com
+        - img "myrealtrip" [ref=e7]
+      - generic [ref=e10]:
+        - img "icon" [ref=e12] [cursor=pointer]
+        - textbox "\"가장자리펜션\" 최저가 5만원대~" [ref=e13]
+      - generic [ref=e15]:
+        - button "파트너 로그인" [ref=e17] [cursor=pointer]
+        - button "로그인 및 회원가입" [ref=e19] [cursor=pointer]
+    - navigation [ref=e21]:
+      - generic [ref=e22]:
+        - link "홈" [ref=e24] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com
+          - generic [ref=e25]: 홈
+        - link "할인" [ref=e27] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/promotions/benefit
+          - generic [ref=e28]: 할인
+        - link "항공" [ref=e30] [cursor=pointer]:
+          - /url: https://flights.myrealtrip.com/
+          - generic [ref=e31]: 항공
+        - link "해외 숙소" [ref=e33] [cursor=pointer]:
+          - /url: https://accommodation.myrealtrip.com/union?isDomestic=false&exposureSubCategory=HOTEL_RESORT
+          - generic [ref=e34]: 해외 숙소
+        - link "국내 숙소" [ref=e36] [cursor=pointer]:
+          - /url: https://accommodation.myrealtrip.com/union?isDomestic=true&exposureSubCategory=HOTEL_RESORT
+          - generic [ref=e37]: 국내 숙소
+        - link "패키지" [ref=e39] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/promotions/package_home
+          - generic [ref=e40]: 패키지
+        - link "한인민박" [ref=e42] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/promotions/hanin
+          - generic [ref=e43]: 한인민박
+        - link "투어·티켓" [ref=e45] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/experiences/
+          - generic [ref=e46]: 투어·티켓
+        - generic [ref=e47]:
+          - link "유럽열차" [ref=e48] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/transportation
+            - generic [ref=e49]: 유럽열차
+          - img "icon" [ref=e50]
+        - button "더보기 icon" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: 더보기
+          - img "icon" [ref=e54]
+  - main [ref=e55]:
+    - generic [ref=e57]:
+      - navigation [ref=e62]:
+        - generic [ref=e64]:
+          - button "예약하기" [ref=e65] [cursor=pointer]
+          - button "상품 소개" [ref=e66] [cursor=pointer]
+          - button "상품 정보" [ref=e67] [cursor=pointer]
+          - button "이용 안내" [ref=e68] [cursor=pointer]
+          - button "환불 안내" [ref=e69] [cursor=pointer]
+          - button "후기" [ref=e70] [cursor=pointer]
+      - generic [ref=e72]:
+        - article [ref=e73]:
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - link "일본" [ref=e76] [cursor=pointer]:
+                - /url: /search?q=일본
+              - link "오키나와" [ref=e78] [cursor=pointer]:
+                - /url: /search?q=오키나와
+            - heading "오키나와 이시가키 야이마무라 입장권" [level=1] [ref=e79]
+            - button "4.6 (21)" [ref=e82] [cursor=pointer]:
+              - generic [ref=e83]:
+                - img [ref=e84]
+                - img [ref=e86]
+                - img [ref=e88]
+                - img [ref=e90]
+                - img [ref=e92]
+              - generic [ref=e94]: "4.6"
+              - generic [ref=e95]: (21)
+          - list [ref=e96]:
+            - listitem [ref=e97]:
+              - img "즉시확정" [ref=e98]
+              - strong [ref=e99]: 즉시확정
+              - text: 구매 즉시 예약 확정 (일부 상품 이용일 추가 예약 필요)
+            - listitem [ref=e100]:
+              - img "최대 12개월 무이자 할부 가능" [ref=e101]
+              - strong [ref=e102]: 최대 12개월 무이자 할부 가능
+              - link [ref=e103] [cursor=pointer]:
+                - /url: https://www.myrealtrip.com/order/installment
+                - img [ref=e104]
+            - listitem [ref=e106]:
+              - img "득템위크특가" [ref=e107]
+              - strong [ref=e108]: 득템위크특가
+              - text: 기간 한정, 일본 여행 필수품
+          - list [ref=e109]:
+            - listitem [ref=e110]:
+              - img "eticket" [ref=e111]
+              - text: e-ticket
+            - listitem [ref=e112]:
+              - img "calendar" [ref=e113]
+              - text: 유효기간(~2026.05.26) 내 사용
+            - listitem [ref=e114]:
+              - img "language" [ref=e115]
+              - text: 일본어, 영어
+          - button "( magnifier 크게 보기" [ref=e120] [cursor=pointer]:
+            - list [ref=e121]:
+              - listitem [ref=e122]:
+                - button "( magnifier 크게 보기" [ref=e123]:
+                  - text: (
+                  - generic [ref=e124]:
+                    - img "magnifier" [ref=e125]
+                    - paragraph [ref=e126]: 크게 보기
+              - listitem [ref=e128]:
+                - button [ref=e129]
+                - button [ref=e132]
+                - button [ref=e135]
+          - generic [ref=e139]:
+            - heading "예약하기" [level=2] [ref=e140]
+            - generic [ref=e146]:
+              - generic [ref=e147]:
+                - generic [ref=e148]:
+                  - heading "성인 (만 12세 이상)" [level=3] [ref=e149]
+                  - generic:
+                    - list
+                - generic [ref=e150]:
+                  - generic [ref=e152]: 1명11,155원
+                  - generic [ref=e154]:
+                    - button "1만큼 감소" [disabled] [ref=e155]:
+                      - img "1만큼 감소" [ref=e156]
+                    - generic [ref=e157]: "0"
+                    - button "1만큼 증가" [ref=e158] [cursor=pointer]:
+                      - img "1만큼 증가" [ref=e159]
+              - generic [ref=e160]:
+                - generic [ref=e161]:
+                  - heading "어린이 (만 3-12세)" [level=3] [ref=e162]
+                  - generic:
+                    - list
+                - generic [ref=e163]:
+                  - generic [ref=e165]: 1명5,577원
+                  - generic [ref=e167]:
+                    - button "1만큼 감소" [disabled] [ref=e168]:
+                      - img "1만큼 감소" [ref=e169]
+                    - generic [ref=e170]: "0"
+                    - button "1만큼 증가" [ref=e171] [cursor=pointer]:
+                      - img "1만큼 증가" [ref=e172]
+          - generic [ref=e174]:
+            - heading "생생히 살아 숨 쉬는 오키나와 역사를 체험해요!" [level=2] [ref=e175]
+            - paragraph [ref=e180]: "[이 티켓의 매력 포인트!] • 복잡한 도시를 떠나 조용한 힐링을 원한다면 나구라만이 내려다보이는 이시가키 야이마 마을에 방문해 보는 걸 추천해요. • 일본 남부에서 놓쳐서는 안 될 관광지인 야이마 마을은 주변의 환상적인 자연과 어우러진 잊지 못할 장관을 자랑합니다. • 귀여운 다람쥐원숭이를 만나볼 수 있는데요, 먹이를 주거나 함께 사진을 찍을 수도 있어요. 오키나와 이시가키섬의 전통문화와 자연을 함께 체험할 수 있는 민속 테마파크입니다. 이시가키섬의 명소인 나구라만이 한눈에 내려다보이는 언덕에 위치해 있으며, 풍요로운 자연 속에 옛 야에야마 지역의 전통 가옥들이 재현되어 있어 전통문화를 생생하게 느낄 수 있습니다. 더불어 맹그로브 숲 산책 및 다람쥐원숭이 등 귀여운 동물들과도 만나볼 수 있습니다. 야이마무라에는 60마리 이상의 다람쥐원숭이가 살고 있으며, 먹이주기 체험도 가능하여 가까이서 볼 수 있습니다! [예약 전 확인해 주세요!] • 만 2세 이하는 무료로 입장 가능합니다. • 만 12세의 경우 초등학생은 아동 요금, 중학생은 성인 요금으로 구매해 주세요."
+          - generic [ref=e183]:
+            - generic [ref=e185]: 1/20
+            - generic [ref=e187]:
+              - img "advertisement-banner-offer_detail-3675" [ref=e191] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5840" [ref=e195] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5477" [ref=e199] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5905" [ref=e205] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5959" [ref=e211] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5535" [ref=e217] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5426" [ref=e223] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5898" [ref=e229] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-3790" [ref=e235] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-3632" [ref=e241] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5908" [ref=e247] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-3462" [ref=e253] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-4370" [ref=e259] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-4882" [ref=e265] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5541" [ref=e271] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5512" [ref=e277] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5464" [ref=e283] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5561" [ref=e289] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-1878" [ref=e295] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5706" [ref=e301] [cursor=pointer]
+          - generic [ref=e305]:
+            - generic [ref=e306]:
+              - paragraph [ref=e307]: "4.6"
+              - generic [ref=e308]:
+                - generic [ref=e309]:
+                  - img [ref=e310]
+                  - img [ref=e312]
+                  - img [ref=e314]
+                  - img [ref=e316]
+                  - img [ref=e318]
+                - paragraph [ref=e320]: 후기 21개
+            - generic [ref=e321]:
+              - generic [ref=e323]:
+                - img [ref=e324]
+                - img [ref=e326]
+                - img [ref=e328]
+                - img [ref=e330]
+                - img [ref=e332]
+              - paragraph [ref=e334]: 손**
+              - generic [ref=e336]:
+                - text: 30대
+                - text: 2026-03-28
+              - generic [ref=e339]: 원숭이 너무 작고 귀여워요
+              - button "후기 21개 전체 보기더보기" [ref=e340] [cursor=pointer]:
+                - text: 후기 21개 전체 보기
+                - img "더보기" [ref=e341]
+          - generic [ref=e343]:
+            - heading "상품 정보" [level=2] [ref=e344]
+            - generic [ref=e346]:
+              - heading "포함 사항" [level=3] [ref=e347]
+              - paragraph [ref=e351]: • 오키나와 이시가키 야이마무라 입장권
+          - generic [ref=e353]:
+            - heading "이용 안내" [level=2] [ref=e354]
+            - generic [ref=e355]:
+              - generic [ref=e356]:
+                - heading "이용 시간" [level=3] [ref=e357]
+                - paragraph [ref=e359]: "[운영 시간] 09:00~17:30 (최종 입장 17:00) • 영업 시간 및 휴관일을 사전에 공식 홈페이지에서 확인해 주세요. • 운영시간 내에 자유롭게 입장이 가능합니다."
+              - generic [ref=e360]:
+                - heading "위치 안내" [level=3] [ref=e361]
+                - generic [ref=e362]:
+                  - paragraph [ref=e363]:
+                    - paragraph [ref=e365]: 오키나와 이시가키 야이마무라
+                  - link "지도" [ref=e367] [cursor=pointer]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=24.40491,124.14441
+                    - img "지도" [ref=e368]
+              - generic [ref=e369]:
+                - heading "사용 방법" [level=3] [ref=e370]
+                - generic [ref=e371]:
+                  - paragraph [ref=e374]:
+                    - text: "• 예약 확정 후 마이리얼트립 앱 - '내 여행' - 예약 상세 페이지 클릭시 바우처를 확인하실 수 있습니다. • 이용 방법 : 모바일 또는 출력본 바우처(e-티켓) 제시 후 바로 이용 • 유효기간 : 유효기간 내 사용 (구매일 포함 28일 이내 사용) [만나는장소 추가안내] • 주소 : 〒907-0021 沖縄県石垣市名蔵967-1 • 공식 홈페이지 :"
+                    - link "https://www.yaimamura.com/" [ref=e375] [cursor=pointer]:
+                      - /url: https://www.yaimamura.com/
+                    - text: • 이시가키 공항에서 차로 20분 • 노선버스 이용 시 모토나구라(元名蔵)에서 하차 후 도보 1분 • 노선버스 이용 시 야이마무라 이리구치(やいま村入口)에서 하차 후 도보 7분 [원숭이 숲 이용시 주의사항] • 원숭이 숲에 들어가실 때에는 짐을 들고 들어가실 수 없습니다. 입장 전 선반에 보관하신 뒤 입장하셔야 하며, 지갑 및 스마트폰 등의 귀중품은 직접 소지해 주세요. • 주머니는 되도록 아무것도 넣지 말아주세요. 주머니에 손을 집어넣는 경우가 있습니다. • 손이나 어깨 등에 올라타는 경우가 있습니다. • 옷이 더러워질 수 있습니다. 특히 비 올 때 주의해 주세요. • 원숭이를 쫓아가거나, 잡거나 하지 말아주세요. 원숭이가 가까이 다가오길 바라며 기다려 주세요. [유의사항] • 예약 확정 후 '내 여행' 바우처에서 만나는 시간과 장소를 반드시 재확인해주세요. • 상품페이지와 바우처 상의 정보가 다를 경우, 반드시 바우처 상의 정보를 확인 부탁드립니다. • 이 티켓은 유효기간 내 다른 날 이용이 가능합니다. • 예약 확정 이후 상세한 유효기간은 바우처에서 확인해 주세요. • 악천후 등으로 인해 노선버스의 운행이 중지될 경우 임시 휴관 될 수 있습니다. • 원숭이숲 먹이주기 체험은 날씨 및 다람지원숭이의 건강상태에 따라 운영이 중단되는 경우가 있습니다. [기타 안내] • 여행자 보험에 가입 후 진행할 것을 권장합니다.
+                  - link "더 보기" [ref=e378] [cursor=pointer]:
+                    - /url: ""
+          - generic [ref=e380]:
+            - heading "취소 및 환불 규정" [level=2] [ref=e381]
+            - paragraph [ref=e386]:
+              - text: ※ 해당 상품은 상품 특성상 아래의 취소 환불 규정이 적용됩니다.
+              - text: "- 확정 이후 환불 및 변경이 불가하오니 신중한 구매 부탁 드립니다."
+          - generic [ref=e389]:
+            - generic [ref=e390]:
+              - link "JTR WEB JTR WEB" [ref=e391] [cursor=pointer]:
+                - /url: /guides/6973
+                - img "JTR WEB" [ref=e392]
+                - paragraph [ref=e393]: JTR WEB
+              - button "파트너 정보" [ref=e396] [cursor=pointer]:
+                - button "파트너 정보" [ref=e397]:
+                  - generic [ref=e398]:
+                    - img [ref=e399]
+                    - text: 파트너 정보
+            - paragraph [ref=e404]: 전세계의 다양한 투어 & 액티비티 및 교통패스, 입장권을 다양하게 소개 및 판매합니다. 현지에서 줄 설 필요없이 쉽고 간편하게 예약하고, 현지에서 잊지못할 체험들을 경험 해 보세요!
+          - generic [ref=e406]:
+            - heading "여행자 후기 사진" [level=2] [ref=e407]
+            - button "+2" [ref=e412] [cursor=pointer]:
+              - list [ref=e413]:
+                - listitem [ref=e414]:
+                  - button [ref=e415]
+                  - button [ref=e418]
+                  - button "+2" [ref=e421]:
+                    - paragraph [ref=e423]: "+2"
+          - generic [ref=e428]:
+            - heading "후기21" [level=4] [ref=e430]
+            - generic [ref=e431]:
+              - generic [ref=e432]:
+                - paragraph [ref=e433]: "4.6"
+                - generic [ref=e434]:
+                  - img [ref=e435]
+                  - img [ref=e437]
+                  - img [ref=e439]
+                  - img [ref=e441]
+                  - img [ref=e443]
+              - generic [ref=e445]:
+                - paragraph
+                - generic [ref=e446]:
+                  - generic [ref=e447]:
+                    - img [ref=e448]
+                    - img [ref=e450]
+                    - img [ref=e452]
+                    - img [ref=e454]
+                    - img [ref=e456]
+                  - paragraph [ref=e460]: "17"
+                - generic [ref=e461]:
+                  - generic [ref=e462]:
+                    - img [ref=e463]
+                    - img [ref=e465]
+                    - img [ref=e467]
+                    - img [ref=e469]
+                  - paragraph [ref=e473]: "2"
+                - generic [ref=e474]:
+                  - generic [ref=e475]:
+                    - img [ref=e476]
+                    - img [ref=e478]
+                    - img [ref=e480]
+                  - paragraph [ref=e483]: "1"
+                - generic [ref=e484]:
+                  - generic [ref=e485]:
+                    - img [ref=e486]
+                    - img [ref=e488]
+                  - paragraph [ref=e491]: "0"
+                - generic [ref=e492]:
+                  - img [ref=e494]
+                  - paragraph [ref=e497]: "1"
+            - generic [ref=e498]:
+              - generic [ref=e499]:
+                - generic [ref=e500]:
+                  - generic [ref=e501]:
+                    - img [ref=e502]
+                    - img [ref=e504]
+                    - img [ref=e506]
+                    - img [ref=e508]
+                    - img [ref=e510]
+                  - generic [ref=e512]: 고**
+                  - generic [ref=e513]: 2026-04-23
+                  - generic [ref=e515]: 원숭이 체험 넘 신기하고 재밌었어요. 안에도 은근 볼게 많았습니다. 오래전 이시가키섬의 전통 가옥을 볼 수 있었어요.
+                - separator [ref=e516]
+                - generic [ref=e517]:
+                  - generic [ref=e518]:
+                    - img [ref=e519]
+                    - img [ref=e521]
+                    - img [ref=e523]
+                    - img [ref=e525]
+                    - img [ref=e527]
+                  - generic [ref=e529]: 이**
+                  - generic [ref=e530]: 2026-04-06
+                  - generic [ref=e532]: 아이가 진짜 너무좋아하네요 점심지나고갔더니 먹이주는체험은 벌써종료더라구요 먹이 체험 하실분은 일찍 가시는걸 추천합니다
+                - separator [ref=e533]
+                - generic [ref=e534]:
+                  - button [ref=e535] [cursor=pointer]
+                  - generic [ref=e537]:
+                    - img [ref=e538]
+                    - img [ref=e540]
+                    - img [ref=e542]
+                    - img [ref=e544]
+                    - img [ref=e546]
+                  - generic [ref=e548]: 손**
+                  - generic [ref=e549]: 2026-03-28
+                  - generic [ref=e551]: 원숭이 너무 작고 귀여워요
+                - separator [ref=e552]
+              - button "후기 더 보기 arrow-icon" [ref=e555] [cursor=pointer]:
+                - button "후기 더 보기 arrow-icon" [ref=e556]:
+                  - generic [ref=e557]:
+                    - text: 후기 더 보기
+                    - img "arrow-icon" [ref=e558]
+        - complementary [ref=e559]:
+          - list [ref=e560]:
+            - listitem [ref=e561]:
+              - generic [ref=e562]:
+                - generic [ref=e563]:
+                  - generic [ref=e564]:
+                    - generic [ref=e566]:
+                      - generic [ref=e567]: 쿠폰할인가
+                      - strong [ref=e568]: 5,320원
+                      - text: 부터
+                    - button "share" [ref=e570] [cursor=pointer]:
+                      - img "share" [ref=e571]
+                  - generic [ref=e572]:
+                    - generic [ref=e574]:
+                      - button "290" [ref=e575] [cursor=pointer]:
+                        - generic [ref=e577]:
+                          - img [ref=e579]
+                          - generic [ref=e582]: "290"
+                      - button "즉시사용예약하기" [ref=e583] [cursor=pointer]:
+                        - img "즉시사용" [ref=e584]
+                        - text: 예약하기
+                    - paragraph [ref=e585]:
+                      - text: 구매 후 즉시 확정됩니다.
+                      - link "즉시사용":
+                        - /url: /about/instantbooking
+                        - img "즉시사용" [ref=e586] [cursor=pointer]
+                - link "JTR WEB JTR WEB" [ref=e589] [cursor=pointer]:
+                  - /url: /guides/6973
+                  - img "JTR WEB" [ref=e590]
+                  - generic [ref=e591]: JTR WEB
+            - listitem [ref=e592]:
+              - button "[💌득템위크] 일본 인기티켓 5% 쿠폰 받기" [ref=e594] [cursor=pointer]:
+                - generic [ref=e595]:
+                  - generic [ref=e596]: "[💌득템위크] 일본 인기티켓 5% 쿠폰 받기"
+                  - img [ref=e597]
+      - generic [ref=e599]:
+        - paragraph [ref=e602]: "'테마파크 입장권' 인기상품"
+        - generic [ref=e606]:
+          - generic [ref=e608]:
+            - link "즉시확정 입장권 ・ 오키나와 오키나와 나고 파인애플 파크 입장권 53 8,200원 / 1인 1056" [ref=e609] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/55027
+              - generic [ref=e614]: 즉시확정
+              - generic [ref=e615]:
+                - generic [ref=e617]: 입장권 ・ 오키나와
+                - heading "오키나와 나고 파인애플 파크 입장권" [level=3] [ref=e618]:
+                  - generic [ref=e619]: 오키나와 나고 파인애플 파크 입장권
+                - generic [ref=e620]:
+                  - generic [ref=e622]:
+                    - generic [ref=e623]:
+                      - img [ref=e624]
+                      - img [ref=e626]
+                      - img [ref=e628]
+                      - img [ref=e630]
+                      - img [ref=e632]
+                    - text: "53"
+                  - generic [ref=e636]:
+                    - generic [ref=e637]: 8,200원
+                    - text: / 1인
+              - generic [ref=e640]:
+                - img [ref=e642]
+                - generic [ref=e645]: "1056"
+            - link "득템위크특가 입장권 ・ 오키나와 오키나와 월드 입장권(성인/아동) 43 26,390원 / 1인 826" [ref=e646] [cursor=pointer]:
+              - /url: https://experiences.myrealtrip.com/products/5808691
+              - generic [ref=e651]: 득템위크특가
+              - generic [ref=e652]:
+                - generic [ref=e654]: 입장권 ・ 오키나와
+                - heading "오키나와 월드 입장권(성인/아동)" [level=3] [ref=e655]:
+                  - generic [ref=e656]: 오키나와 월드 입장권(성인/아동)
+                - generic [ref=e657]:
+                  - generic [ref=e659]:
+                    - generic [ref=e660]:
+                      - img [ref=e661]
+                      - img [ref=e663]
+                      - img [ref=e665]
+                      - img [ref=e667]
+                      - img [ref=e669]
+                    - text: "43"
+                  - generic [ref=e671]:
+                    - generic [ref=e672]: 26,390원
+                    - text: / 1인
+              - generic [ref=e675]:
+                - img [ref=e677]
+                - generic [ref=e680]: "826"
+            - link "득템위크특가 입장권 ・ 오키나와 오키나와 네오 파크 입장권 8 5,400원 / 1인 181" [ref=e681] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/160042
+              - generic [ref=e686]: 득템위크특가
+              - generic [ref=e687]:
+                - generic [ref=e689]: 입장권 ・ 오키나와
+                - heading "오키나와 네오 파크 입장권" [level=3] [ref=e690]:
+                  - generic [ref=e691]: 오키나와 네오 파크 입장권
+                - generic [ref=e692]:
+                  - generic [ref=e694]:
+                    - generic [ref=e695]:
+                      - img [ref=e696]
+                      - img [ref=e698]
+                      - img [ref=e700]
+                      - img [ref=e702]
+                      - img [ref=e704]
+                    - text: "8"
+                  - generic [ref=e706]:
+                    - generic [ref=e707]: 5,400원
+                    - text: / 1인
+              - generic [ref=e710]:
+                - img [ref=e712]
+                - generic [ref=e715]: "181"
+            - link "즉시확정 입장권 ・ 오키나와 오키나와 월드 입장권 프리패스 17 19,100원 / 1인 262" [ref=e716] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/58098
+              - generic [ref=e721]: 즉시확정
+              - generic [ref=e722]:
+                - generic [ref=e724]: 입장권 ・ 오키나와
+                - heading "오키나와 월드 입장권 프리패스" [level=3] [ref=e725]:
+                  - generic [ref=e726]: 오키나와 월드 입장권 프리패스
+                - generic [ref=e727]:
+                  - generic [ref=e729]:
+                    - generic [ref=e730]:
+                      - img [ref=e731]
+                      - img [ref=e733]
+                      - img [ref=e735]
+                      - img [ref=e737]
+                      - img [ref=e739]
+                    - text: "17"
+                  - generic [ref=e741]:
+                    - generic [ref=e742]: 19,100원
+                    - text: / 1인
+              - generic [ref=e745]:
+                - img [ref=e747]
+                - generic [ref=e750]: "262"
+            - link "즉시확정 입장권 ・ 오키나와 오키나와 류큐무라 민속촌 입장권 10 14,000원 / 1인 141" [ref=e751] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/46103
+              - generic [ref=e756]: 즉시확정
+              - generic [ref=e757]:
+                - generic [ref=e759]: 입장권 ・ 오키나와
+                - heading "오키나와 류큐무라 민속촌 입장권" [level=3] [ref=e760]:
+                  - generic [ref=e761]: 오키나와 류큐무라 민속촌 입장권
+                - generic [ref=e762]:
+                  - generic [ref=e764]:
+                    - generic [ref=e765]:
+                      - img [ref=e766]
+                      - img [ref=e768]
+                      - img [ref=e770]
+                      - img [ref=e772]
+                      - img [ref=e774]
+                    - text: "10"
+                  - generic [ref=e776]:
+                    - generic [ref=e777]: 14,000원
+                    - text: / 1인
+              - generic [ref=e780]:
+                - img [ref=e782]
+                - generic [ref=e785]: "141"
+            - link "득템위크특가 입장권 ・ 오키나와 오키나와 정글리아 입장권 5 28,700원 / 1인 111" [ref=e786] [cursor=pointer]:
+              - /url: https://experiences.myrealtrip.com/products/4723632
+              - generic [ref=e791]: 득템위크특가
+              - generic [ref=e792]:
+                - generic [ref=e794]: 입장권 ・ 오키나와
+                - heading "오키나와 정글리아 입장권" [level=3] [ref=e795]:
+                  - generic [ref=e796]: 오키나와 정글리아 입장권
+                - generic [ref=e797]:
+                  - generic [ref=e799]:
+                    - generic [ref=e800]:
+                      - img [ref=e801]
+                      - img [ref=e803]
+                      - img [ref=e805]
+                      - img [ref=e807]
+                      - img [ref=e811]
+                    - text: "5"
+                  - generic [ref=e813]:
+                    - generic [ref=e814]: 28,700원
+                    - text: / 1인
+              - generic [ref=e817]:
+                - img [ref=e819]
+                - generic [ref=e822]: "111"
+            - link "즉시확정 입장권 ・ 오키나와 류큐무라 민속촌 입장권 (오키나와) 5 5,515원 / 1인 95" [ref=e823] [cursor=pointer]:
+              - /url: https://experiences.myrealtrip.com/products/5542051
+              - generic [ref=e828]: 즉시확정
+              - generic [ref=e829]:
+                - generic [ref=e831]: 입장권 ・ 오키나와
+                - heading "류큐무라 민속촌 입장권 (오키나와)" [level=3] [ref=e832]:
+                  - generic [ref=e833]: 류큐무라 민속촌 입장권 (오키나와)
+                - generic [ref=e834]:
+                  - generic [ref=e836]:
+                    - generic [ref=e837]:
+                      - img [ref=e838]
+                      - img [ref=e840]
+                      - img [ref=e842]
+                      - img [ref=e844]
+                      - img [ref=e848]
+                    - text: "5"
+                  - generic [ref=e850]:
+                    - generic [ref=e851]: 5,515원
+                    - text: / 1인
+              - generic [ref=e854]:
+                - img [ref=e856]
+                - generic [ref=e859]: "95"
+            - link "득템위크특가 입장권 ・ 오키나와 [즉시확정] 오키나와 류큐무라 민속촌 (전통이 살아있는 현지문화 체험공간) 7 4,979원 / 1인 142" [ref=e860] [cursor=pointer]:
+              - /url: https://experiences.myrealtrip.com/products/5808690
+              - generic [ref=e865]: 득템위크특가
+              - generic [ref=e866]:
+                - generic [ref=e868]: 입장권 ・ 오키나와
+                - heading "[즉시확정] 오키나와 류큐무라 민속촌 (전통이 살아있는 현지문화 체험공간)" [level=3] [ref=e869]:
+                  - generic [ref=e870]: "[즉시확정] 오키나와 류큐무라 민속촌 (전통이 살아있는 현지문화 체험공간)"
+                - generic [ref=e871]:
+                  - generic [ref=e873]:
+                    - generic [ref=e874]:
+                      - img [ref=e875]
+                      - img [ref=e877]
+                      - img [ref=e879]
+                      - img [ref=e881]
+                      - img [ref=e883]
+                    - text: "7"
+                  - generic [ref=e887]:
+                    - generic [ref=e888]: 4,979원
+                    - text: / 1인
+              - generic [ref=e891]:
+                - img [ref=e893]
+                - generic [ref=e896]: "142"
+            - link "즉시확정 입장권 ・ 오키나와 오키나와 DINO 공룡파크 입장권 4 5,400원 / 1인 104" [ref=e897] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/58799
+              - generic [ref=e902]: 즉시확정
+              - generic [ref=e903]:
+                - generic [ref=e905]: 입장권 ・ 오키나와
+                - heading "오키나와 DINO 공룡파크 입장권" [level=3] [ref=e906]:
+                  - generic [ref=e907]: 오키나와 DINO 공룡파크 입장권
+                - generic [ref=e908]:
+                  - generic [ref=e910]:
+                    - generic [ref=e911]:
+                      - img [ref=e912]
+                      - img [ref=e914]
+                      - img [ref=e916]
+                      - img [ref=e918]
+                      - img [ref=e920]
+                    - text: "4"
+                  - generic [ref=e922]:
+                    - generic [ref=e923]: 5,400원
+                    - text: / 1인
+              - generic [ref=e926]:
+                - img [ref=e928]
+                - generic [ref=e931]: "104"
+          - button "Next slide" [ref=e932] [cursor=pointer]:
+            - img "next" [ref=e933]
+      - paragraph [ref=e935]: "상품번호: 170571"
+  - contentinfo [ref=e937]:
+    - generic [ref=e938]:
+      - generic [ref=e939]:
+        - generic [ref=e940]:
+          - text: 고객지원실 운영안내
+          - list [ref=e941]:
+            - listitem [ref=e942]: 채팅상담 연중무휴 24시간 유선상담 연중무휴 09:00-18:00
+            - listitem [ref=e943]: 대표번호 1670-8208
+          - button "고객지원실" [ref=e945] [cursor=pointer]:
+            - button "고객지원실" [ref=e946]:
+              - generic [ref=e947]: 고객지원실
+        - generic [ref=e948]:
+          - generic [ref=e949]:
+            - text: 소개
+            - list [ref=e950]:
+              - listitem [ref=e951]:
+                - link "회사소개" [ref=e952] [cursor=pointer]:
+                  - /url: https://about.myrealtrip.com
+              - listitem [ref=e953]:
+                - link "채용" [ref=e954] [cursor=pointer]:
+                  - /url: https://careers.myrealtrip.com
+              - listitem [ref=e955]:
+                - link "공고" [ref=e956] [cursor=pointer]:
+                  - /url: https://www.myrealtrip.com/announcement
+          - generic [ref=e957]:
+            - text: 파트너
+            - list [ref=e958]:
+              - listitem [ref=e959]:
+                - link "파트너 홈" [ref=e960] [cursor=pointer]:
+                  - /url: https://partner.myrealtrip.com/welcome
+              - listitem [ref=e961]:
+                - link "제휴 문의" [ref=e962] [cursor=pointer]:
+                  - /url: "mailto: partnership@myrealtrip.com"
+              - listitem [ref=e963]:
+                - link "광고 문의" [ref=e964] [cursor=pointer]:
+                  - /url: "mailto: ad@myrealtrip.com"
+          - generic [ref=e965]:
+            - text: 지원
+            - list [ref=e966]:
+              - listitem [ref=e967]:
+                - link "공지사항" [ref=e968] [cursor=pointer]:
+                  - /url: https://support.myrealtrip.com/notice
+              - listitem [ref=e969]:
+                - link "문의내역" [ref=e970] [cursor=pointer]:
+                  - /url: https://support.myrealtrip.com/inquiry
+              - listitem [ref=e971]:
+                - link "최저가 보장제" [ref=e972] [cursor=pointer]:
+                  - /url: https://www.myrealtrip.com/best_price
+      - generic [ref=e973]:
+        - generic [ref=e974]:
+          - generic [ref=e975]:
+            - link "이용 약관" [ref=e977] [cursor=pointer]:
+              - /url: https://auth.myrealtrip.com/terms/policyAgreement
+            - link "개인정보 처리방침" [ref=e979] [cursor=pointer]:
+              - /url: https://auth.myrealtrip.com/terms/common/privacy
+            - link "취소 및 환불 정책" [ref=e981] [cursor=pointer]:
+              - /url: https://auth.myrealtrip.com/terms/common/cancel
+          - generic [ref=e982]:
+            - generic [ref=e983]:
+              - link "icon 페이스북으로 이동하기" [ref=e985] [cursor=pointer]:
+                - /url: https://www.facebook.com/myRealTrip
+                - img "icon" [ref=e986]
+                - generic [ref=e987]: 페이스북으로 이동하기
+              - link "icon 네이버 블로그로 이동하기" [ref=e989] [cursor=pointer]:
+                - /url: https://blog.naver.com/myrealtrip
+                - img "icon" [ref=e990]
+                - generic [ref=e991]: 네이버 블로그로 이동하기
+              - link "icon 인스타그램으로 이동하기" [ref=e993] [cursor=pointer]:
+                - /url: https://instagram.com/myrealtrip
+                - img "icon" [ref=e994]
+                - generic [ref=e995]: 인스타그램으로 이동하기
+              - link "icon 유투브로 이동하기" [ref=e997] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC2oeFByIBQjkKXmQjE0U5rQ
+                - img "icon" [ref=e998]
+                - generic [ref=e999]: 유투브로 이동하기
+            - generic [ref=e1001]:
+              - link "icon" [ref=e1003] [cursor=pointer]:
+                - /url: https://itunes.apple.com/app/id1141745032
+                - img "icon" [ref=e1004]
+              - link "icon" [ref=e1006] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.mrt.ducati
+                - img "icon" [ref=e1007]
+          - button "icon 한국어 icon" [ref=e1010] [cursor=pointer]:
+            - img "icon" [ref=e1011]
+            - generic [ref=e1012]: 한국어
+            - img "icon" [ref=e1013]
+        - generic [ref=e1014]:
+          - paragraph [ref=e1016]:
+            - text: 상호명 (주)마이리얼트립 | 대표 이동건 | 개인정보보호책임자 김형석 | 사업자등록번호 209-81-55339
+            - link "사업자정보확인" [ref=e1017] [cursor=pointer]:
+              - /url: https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2098155339
+            - text: "| 통신판매업신고번호 2019-서울서초-0260 | 관광사업등록번호 : 제2019-3호"
+            - text: 주소 서울특별시 서초구 강남대로 311, 18층 1729호(서초동, 한화생명보험빌딩) | 이메일 help@myrealtrip.com | 입점 문의 partnership@myrealtrip.com
+            - text: "마케팅파트너/크리에이터 문의 marketing_partner@myrealtrip.com | 마케팅 문의 marketing@myrealtrip.com | 호스팅 서비스 제공자 : (주)마이리얼트립"
+            - text: "자사는 서울특별시관광협회 공제영업보증보험에 가입되어 있습니다. 영업보증보험: 1.5억원 / 기획여행보증: 2억원"
+            - text: 마이리얼트립은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 상품·거래정보 및 거래에 대하여 책임을 지지않습니다.
+            - text: 부득이한 사정에 의해 확정된 여행일정이 변경되는 경우 여행자의 사전 동의를 받습니다.
+            - text: (주)마이리얼트립이 소유, 운영, 관리하는 웹사이트 및 앱 내의 상품, 판매자 정보, 이벤트 정보, 디자인, UI 등을 포함한 일체의 콘텐츠에 대한 무단 복제, 배포, 전송, 스크래핑 등의 행위는 저작권법 등 관련 법령에 의하여 엄격히 금지됩니다.
+          - button "ISMS-P" [ref=e1019] [cursor=pointer]:
+            - img "ISMS-P" [ref=e1020]
+  - button "마이리얼트립 상담 버튼" [ref=e1022]:
+    - generic [ref=e1023] [cursor=pointer]:
+      - generic [ref=e1024]: 마이리얼트립 상담 버튼
+      - img [ref=e1026]

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: "Pretendard", -apple-system, sans-serif;
+      margin: 0; padding: 16px; color: #212529; font-size: 12px;
+    }
+    h3 { margin: 0 0 4px; font-size: 13px; font-weight: 700; }
+    p.desc { margin: 0 0 12px; color: #868e96; line-height: 1.6; }
+    p.desc b { color: #212529; }
+    input[type="file"] {
+      width: 100%; font-size: 12px; font-family: inherit;
+      border: 1px dashed #ced4da; border-radius: 6px; padding: 16px 8px;
+    }
+    button {
+      width: 100%; margin-top: 10px; padding: 9px;
+      border: none; border-radius: 6px;
+      background: #51abf3; color: #fff;
+      font-family: inherit; font-size: 12px; font-weight: 700; cursor: pointer;
+    }
+    button:hover { background: #3d9ae6; }
+    button:disabled { background: #c8d6e0; cursor: default; }
+    #status { margin-top: 10px; min-height: 16px; line-height: 1.6; }
+    #status.ok { color: #33b893; }
+    #status.err { color: #fa5b4a; }
+    #status.run { color: #868e96; }
+    #log { margin-top: 8px; color: #868e96; line-height: 1.6; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <h3>쿠폰페이지 크리에이터 자동화</h3>
+  <p class="desc">
+    프로필 이미지 파일들을 선택하세요. 파일명 형식은
+    <b>{닉네임}__{인스타핸들}.jpg</b> 입니다 (예: <b>허니블링__honey_veling.jpg</b>).
+    각 파일마다 <b>마스터세트</b>를 복제하고 텍스트·프로필·추천인 코드를 채웁니다.<br />
+    <span style="color:#adb5bd">사진은 먼저
+    <b>fetch_instagram_profiles.py --with-handle</b>로 받아두세요
+    (assets/profiles/).</span>
+  </p>
+  <input type="file" id="files" multiple accept="image/jpeg,image/png,image/webp" />
+  <button id="run">복제 + 텍스트 + 프로필 사진 실행</button>
+  <div id="status"></div>
+  <div id="log"></div>
+
+  <script>
+    var runBtn = document.getElementById("run");
+    var statusEl = document.getElementById("status");
+    var logEl = document.getElementById("log");
+
+    function setStatus(text, cls) {
+      statusEl.textContent = text;
+      statusEl.className = cls || "";
+    }
+
+    function readFileBytes(file) {
+      return new Promise(function (resolve, reject) {
+        var reader = new FileReader();
+        reader.onload = function () { resolve(new Uint8Array(reader.result)); };
+        reader.onerror = function () { reject(reader.error); };
+        reader.readAsArrayBuffer(file);
+      });
+    }
+
+    runBtn.onclick = async function () {
+      var files = document.getElementById("files").files;
+      if (!files || files.length === 0) {
+        setStatus("프로필 이미지 파일을 선택해주세요.", "err");
+        return;
+      }
+      runBtn.disabled = true;
+      logEl.textContent = "";
+      setStatus(files.length + "개 파일 처리 중...", "run");
+
+      var creators = [];
+      var missingHandle = [];
+      for (var i = 0; i < files.length; i++) {
+        var f = files[i];
+        var nameWithoutExt = f.name.replace(/\.(jpe?g|png|webp)$/i, "");
+        // {닉네임}__{핸들} 형식 — 핸들에 __ 들어가는 경우 대비해 첫 __ 만 split
+        var idx = nameWithoutExt.indexOf("__");
+        var nickname, instagramId;
+        if (idx >= 0) {
+          nickname = nameWithoutExt.substring(0, idx);
+          instagramId = nameWithoutExt.substring(idx + 2);
+        } else {
+          nickname = nameWithoutExt;
+          instagramId = "";
+          missingHandle.push(f.name);
+        }
+        var bytes = await readFileBytes(f);
+        creators.push({ nickname: nickname, instagramId: instagramId, imageBytes: bytes });
+      }
+      if (missingHandle.length) {
+        logEl.textContent = "⚠️ 핸들 누락 (#인스타아이디 미적용):\n  " + missingHandle.join("\n  ") + "\n\n";
+      }
+      parent.postMessage({ pluginMessage: { type: "run", creators: creators } }, "*");
+    };
+
+    onmessage = function (e) {
+      var msg = e.data.pluginMessage;
+      if (!msg) return;
+
+      if (msg.type === "progress") {
+        logEl.textContent += "· " + msg.nickname + " (" + msg.done + "/" + msg.total + ")\n";
+      } else if (msg.type === "done") {
+        runBtn.disabled = false;
+        var okText = 0, okPhotos = 0, okHandles = 0, fails = [];
+        msg.result.forEach(function (r) {
+          okText += r.textReplaced;
+          okPhotos += r.photosApplied;
+          okHandles += r.handleReplaced || 0;
+          if (r.note) fails.push(r.nickname + ": " + r.note);
+        });
+        setStatus(
+          "완료! " + msg.result.length + "세트 / 텍스트 " + okText + "곳 / 사진 " + okPhotos + "곳 / 핸들 " + okHandles + "곳",
+          "ok"
+        );
+        if (fails.length) logEl.textContent += "\n⚠️ " + fails.join("\n⚠️ ");
+      } else if (msg.type === "error") {
+        runBtn.disabled = false;
+        setStatus("오류: " + msg.message, "err");
+      }
+    };
+  </script>
+</body>
+</html>

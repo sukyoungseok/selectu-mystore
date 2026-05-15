@@ -1,0 +1,429 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img "menu" [ref=e7]
+        - img "logo_mrt_v2_web" [ref=e8]
+        - text: 매니저
+      - menu [ref=e10]:
+        - menuitem "주문/예약/상담" [ref=e11] [cursor=pointer]:
+          - generic [ref=e12]: 주문/예약/상담
+        - menuitem "상품" [ref=e13] [cursor=pointer]:
+          - generic [ref=e14]: 상품
+        - menuitem "회원(여행자)" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]: 회원(여행자)
+        - menuitem "회원(파트너)" [expanded] [ref=e17] [cursor=pointer]:
+          - generic [ref=e18]: 회원(파트너)
+        - menu [ref=e19]:
+          - menuitem "파트너" [ref=e20] [cursor=pointer]:
+            - link "파트너" [ref=e22]:
+              - /url: /crm/partner
+          - menuitem "파트너 정보 조회" [ref=e23] [cursor=pointer]:
+            - link "파트너 정보 조회" [ref=e25]:
+              - /url: /manage-user-partner/partner-info
+          - menuitem "제휴 파트너와 여행자 연동" [ref=e26] [cursor=pointer]:
+            - link "제휴 파트너와 여행자 연동" [ref=e28]:
+              - /url: /manage-user-partner/link-partnership
+          - menuitem "프로모션/팝업 관리" [ref=e29] [cursor=pointer]:
+            - link "프로모션/팝업 관리" [ref=e31]:
+              - /url: /crm/partner-popup
+          - menuitem "우수파트너 관리" [ref=e32] [cursor=pointer]:
+            - link "우수파트너 관리" [ref=e34]:
+              - /url: /crm/premium-partner
+          - menuitem "2차 인증" [ref=e35] [cursor=pointer]:
+            - link "2차 인증" [ref=e37]:
+              - /url: /manage-user-partner/two-factor-auth
+        - menuitem "정산" [ref=e38] [cursor=pointer]:
+          - generic [ref=e39]: 정산
+        - menuitem "제휴사 정산" [ref=e40] [cursor=pointer]:
+          - generic [ref=e41]: 제휴사 정산
+        - menuitem "결제" [ref=e42] [cursor=pointer]:
+          - generic [ref=e43]: 결제
+        - menuitem "네이버쇼핑 (EP)" [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: 네이버쇼핑 (EP)
+        - menuitem "인바운드" [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]: 인바운드
+        - menuitem "구매혜택(쿠폰/포인트/결제혜택)" [ref=e48] [cursor=pointer]:
+          - generic [ref=e49]: 구매혜택(쿠폰/포인트/결제혜택)
+        - menuitem "마리특" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]: 마리특
+        - menuitem "프로모션" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: 프로모션
+        - menuitem "커뮤니티" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]: 커뮤니티
+        - menuitem "광고" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]: 광고
+        - menuitem "버티컬홈" [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]: 버티컬홈
+        - menuitem "인앱메시지" [ref=e60] [cursor=pointer]:
+          - generic [ref=e61]: 인앱메시지
+        - menuitem "노티라우터(발송)" [ref=e62] [cursor=pointer]:
+          - generic [ref=e63]: 노티라우터(발송)
+        - menuitem "메신저" [ref=e64] [cursor=pointer]:
+          - generic [ref=e65]: 메신저
+        - menuitem "후기" [ref=e66] [cursor=pointer]:
+          - generic [ref=e67]: 후기
+        - menuitem "검색추천" [ref=e68] [cursor=pointer]:
+          - generic [ref=e69]: 검색추천
+        - menuitem "카테고리" [ref=e70] [cursor=pointer]:
+          - generic [ref=e71]: 카테고리
+        - menuitem "자주 쓰는 2.0 매니저" [ref=e72] [cursor=pointer]:
+          - generic [ref=e73]: 자주 쓰는 2.0 매니저
+        - menuitem "소셜" [ref=e74] [cursor=pointer]:
+          - generic [ref=e75]: 소셜
+        - menuitem "교통" [ref=e76] [cursor=pointer]:
+          - generic [ref=e77]: 교통
+        - menuitem "온디맨드" [ref=e78] [cursor=pointer]:
+          - generic [ref=e79]: 온디맨드
+        - menuitem "마이팩" [ref=e80] [cursor=pointer]:
+          - generic [ref=e81]: 마이팩
+        - menuitem "패키지" [ref=e82] [cursor=pointer]:
+          - generic [ref=e83]: 패키지
+        - menuitem "라이브 방송" [ref=e84] [cursor=pointer]:
+          - generic [ref=e85]: 라이브 방송
+        - menuitem "약관 관리" [ref=e86] [cursor=pointer]:
+          - generic [ref=e87]: 약관 관리
+        - menuitem "리셀마켓" [ref=e88] [cursor=pointer]:
+          - generic [ref=e89]: 리셀마켓
+        - menuitem "프라이싱" [ref=e90] [cursor=pointer]:
+          - generic [ref=e91]: 프라이싱
+        - menuitem "취소 추천 관리" [ref=e92] [cursor=pointer]:
+          - generic [ref=e93]: 취소 추천 관리
+        - menuitem "시스템" [ref=e94] [cursor=pointer]:
+          - generic [ref=e95]: 시스템
+  - generic [ref=e96]:
+    - generic [ref=e98]:
+      - generic [ref=e99]: 58:40
+      - link "공지사항" [ref=e100] [cursor=pointer]:
+        - /url: https://www.myrealtrip.com/manager/crm/guide_notices
+    - main [ref=e103]:
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - heading "파트너" [level=2] [ref=e107]
+            - heading "파트너 관리" [level=2] [ref=e108]
+          - generic [ref=e109]:
+            - generic [ref=e110] [cursor=pointer]:
+              - generic [ref=e111]:
+                - combobox [ref=e113]
+                - generic "파트너 ID" [ref=e114]
+              - generic:
+                - img:
+                  - img
+            - generic [ref=e116]:
+              - textbox "검색어를 입력해주세요." [active] [ref=e117]
+              - button "search" [ref=e119] [cursor=pointer]:
+                - img "search" [ref=e120]:
+                  - img [ref=e121]
+        - generic [ref=e123]:
+          - generic [ref=e124]:
+            - generic [ref=e125] [cursor=pointer]:
+              - generic [ref=e126]:
+                - combobox [ref=e128]
+                - generic "파트너 유형 전체" [ref=e129]
+              - generic:
+                - img:
+                  - img
+            - generic [ref=e130] [cursor=pointer]:
+              - generic [ref=e131]:
+                - combobox [ref=e133]
+                - generic "상태 전체" [ref=e134]
+              - generic:
+                - img:
+                  - img
+            - generic [ref=e135]: or
+            - generic [ref=e136] [cursor=pointer]:
+              - generic [ref=e137]:
+                - combobox [ref=e139]
+                - generic "별도 상태 전체" [ref=e140]
+              - generic:
+                - img:
+                  - img
+            - generic [ref=e141] [cursor=pointer]:
+              - generic [ref=e142]:
+                - combobox [ref=e144]
+                - generic "사업자 타입" [ref=e145]
+              - generic:
+                - img:
+                  - img
+            - generic [ref=e146] [cursor=pointer]:
+              - generic [ref=e147]:
+                - combobox [ref=e149]
+                - generic "우수파트너 전체" [ref=e150]
+              - generic:
+                - img:
+                  - img
+          - button "법인제휴 파트너 가입" [ref=e152] [cursor=pointer]:
+            - generic [ref=e153]: 법인제휴 파트너 가입
+        - generic [ref=e154]:
+          - table [ref=e161]:
+            - rowgroup [ref=e163]:
+              - row "상태 별도 상태 파트너 유형 파트너 ID 파트너 활동명 우수파트너 타입 연락처 이메일" [ref=e164]:
+                - columnheader "상태" [ref=e165]
+                - columnheader "별도 상태" [ref=e166]
+                - columnheader "파트너 유형" [ref=e167]
+                - columnheader "파트너 ID" [ref=e168]
+                - columnheader "파트너 활동명" [ref=e169]
+                - columnheader "우수파트너" [ref=e170]
+                - columnheader "타입" [ref=e171]
+                - columnheader "연락처" [ref=e172]
+                - columnheader "이메일" [ref=e173]
+            - rowgroup [ref=e174]:
+              - row "정보 입력 중 입점 파트너 159787 N gt************@naver.com" [ref=e186]:
+                - cell "정보 입력 중" [ref=e187]:
+                  - generic [ref=e188]: 정보 입력 중
+                - cell [ref=e189]
+                - cell "입점 파트너" [ref=e190]
+                - cell "159787" [ref=e191]
+                - cell [ref=e192]
+                - cell "N" [ref=e193]
+                - cell [ref=e194]
+                - cell [ref=e195]
+                - cell "gt************@naver.com" [ref=e196]
+              - row "정보 입력 중 입점 파트너 159786 모토판다 N le*@istayteam.com" [ref=e197]:
+                - cell "정보 입력 중" [ref=e198]:
+                  - generic [ref=e199]: 정보 입력 중
+                - cell [ref=e200]
+                - cell "입점 파트너" [ref=e201]
+                - cell "159786" [ref=e202]
+                - cell "모토판다" [ref=e203]
+                - cell "N" [ref=e204]
+                - cell [ref=e205]
+                - cell [ref=e206]
+                - cell "le*@istayteam.com" [ref=e207]
+              - row "정보 입력 중 입점 파트너 159785 N rs**@hojoincheon.com" [ref=e208]:
+                - cell "정보 입력 중" [ref=e209]:
+                  - generic [ref=e210]: 정보 입력 중
+                - cell [ref=e211]
+                - cell "입점 파트너" [ref=e212]
+                - cell "159785" [ref=e213]
+                - cell [ref=e214]
+                - cell "N" [ref=e215]
+                - cell [ref=e216]
+                - cell [ref=e217]
+                - cell "rs**@hojoincheon.com" [ref=e218]
+              - row "정보 입력 중 입점 파트너 159784 Uniline N as**@uniline.hr" [ref=e219]:
+                - cell "정보 입력 중" [ref=e220]:
+                  - generic [ref=e221]: 정보 입력 중
+                - cell [ref=e222]
+                - cell "입점 파트너" [ref=e223]
+                - cell "159784" [ref=e224]
+                - cell "Uniline" [ref=e225]
+                - cell "N" [ref=e226]
+                - cell [ref=e227]
+                - cell [ref=e228]
+                - cell "as**@uniline.hr" [ref=e229]
+              - row "활동중 활동 대기 마케팅 파트너 159783 N 개인 010****0173 jy***@naver.com" [ref=e230]:
+                - cell "활동중" [ref=e231]:
+                  - generic [ref=e232]: 활동중
+                - cell "활동 대기" [ref=e233]:
+                  - generic [ref=e234]: 활동 대기
+                - cell "마케팅 파트너" [ref=e235]
+                - cell "159783" [ref=e236]
+                - cell [ref=e237]
+                - cell "N" [ref=e238]
+                - cell "개인" [ref=e239]
+                - cell "010****0173" [ref=e240]
+                - cell "jy***@naver.com" [ref=e241]
+              - row "활동중 활동 대기 수정 요청 마케팅 파트너 159782 N 개인 010****1505 he****@naver.com" [ref=e242]:
+                - cell "활동중" [ref=e243]:
+                  - generic [ref=e244]: 활동중
+                - cell "활동 대기 수정 요청" [ref=e245]:
+                  - generic [ref=e246]: 활동 대기
+                  - generic [ref=e247]: 수정 요청
+                - cell "마케팅 파트너" [ref=e248]
+                - cell "159782" [ref=e249]
+                - cell [ref=e250]
+                - cell "N" [ref=e251]
+                - cell "개인" [ref=e252]
+                - cell "010****1505" [ref=e253]
+                - cell "he****@naver.com" [ref=e254]
+              - row "정보 입력 중 입점 파트너 159781 N mo*******************@gmail.com" [ref=e255]:
+                - cell "정보 입력 중" [ref=e256]:
+                  - generic [ref=e257]: 정보 입력 중
+                - cell [ref=e258]
+                - cell "입점 파트너" [ref=e259]
+                - cell "159781" [ref=e260]
+                - cell [ref=e261]
+                - cell "N" [ref=e262]
+                - cell [ref=e263]
+                - cell [ref=e264]
+                - cell "mo*******************@gmail.com" [ref=e265]
+              - row "가입 승인 요청 입점 파트너 159780 벨르네이쳐 N 기업 010****5325 be**********@naver.com" [ref=e266]:
+                - cell "가입 승인 요청" [ref=e267]:
+                  - generic [ref=e268]: 가입 승인 요청
+                - cell [ref=e269]
+                - cell "입점 파트너" [ref=e270]
+                - cell "159780" [ref=e271]
+                - cell "벨르네이쳐" [ref=e272]
+                - cell "N" [ref=e273]
+                - cell "기업" [ref=e274]
+                - cell "010****5325" [ref=e275]
+                - cell "be**********@naver.com" [ref=e276]
+              - row "가입 승인 요청 입점 파트너 159779 WIM센터 N 기업 010****0472 wi********@gmail.com" [ref=e277]:
+                - cell "가입 승인 요청" [ref=e278]:
+                  - generic [ref=e279]: 가입 승인 요청
+                - cell [ref=e280]
+                - cell "입점 파트너" [ref=e281]
+                - cell "159779" [ref=e282]
+                - cell "WIM센터" [ref=e283]
+                - cell "N" [ref=e284]
+                - cell "기업" [ref=e285]
+                - cell "010****0472" [ref=e286]
+                - cell "wi********@gmail.com" [ref=e287]
+              - row "활동중 활동 대기 마케팅 파트너 159778 N 개인 010****9741 he*********@naver.com" [ref=e288]:
+                - cell "활동중" [ref=e289]:
+                  - generic [ref=e290]: 활동중
+                - cell "활동 대기" [ref=e291]:
+                  - generic [ref=e292]: 활동 대기
+                - cell "마케팅 파트너" [ref=e293]
+                - cell "159778" [ref=e294]
+                - cell [ref=e295]
+                - cell "N" [ref=e296]
+                - cell "개인" [ref=e297]
+                - cell "010****9741" [ref=e298]
+                - cell "he*********@naver.com" [ref=e299]
+              - row "정보 입력 중 입점 파트너 159777 N ym*********@samsung.com" [ref=e300]:
+                - cell "정보 입력 중" [ref=e301]:
+                  - generic [ref=e302]: 정보 입력 중
+                - cell [ref=e303]
+                - cell "입점 파트너" [ref=e304]
+                - cell "159777" [ref=e305]
+                - cell [ref=e306]
+                - cell "N" [ref=e307]
+                - cell [ref=e308]
+                - cell [ref=e309]
+                - cell "ym*********@samsung.com" [ref=e310]
+              - row "정보 입력 중 입점 파트너 159776 N in*****@naver.com" [ref=e311]:
+                - cell "정보 입력 중" [ref=e312]:
+                  - generic [ref=e313]: 정보 입력 중
+                - cell [ref=e314]
+                - cell "입점 파트너" [ref=e315]
+                - cell "159776" [ref=e316]
+                - cell [ref=e317]
+                - cell "N" [ref=e318]
+                - cell [ref=e319]
+                - cell [ref=e320]
+                - cell "in*****@naver.com" [ref=e321]
+              - row "활동중 활동 대기 마케팅 파트너 159775 N 개인 010****6603 th*******@gmail.com" [ref=e322]:
+                - cell "활동중" [ref=e323]:
+                  - generic [ref=e324]: 활동중
+                - cell "활동 대기" [ref=e325]:
+                  - generic [ref=e326]: 활동 대기
+                - cell "마케팅 파트너" [ref=e327]
+                - cell "159775" [ref=e328]
+                - cell [ref=e329]
+                - cell "N" [ref=e330]
+                - cell "개인" [ref=e331]
+                - cell "010****6603" [ref=e332]
+                - cell "th*******@gmail.com" [ref=e333]
+              - row "가입 승인 요청 입점 파트너 159774 Kadek uri swastika N 개인 0838****9582 ka*******@gmail.com" [ref=e334]:
+                - cell "가입 승인 요청" [ref=e335]:
+                  - generic [ref=e336]: 가입 승인 요청
+                - cell [ref=e337]
+                - cell "입점 파트너" [ref=e338]
+                - cell "159774" [ref=e339]
+                - cell "Kadek uri swastika" [ref=e340]
+                - cell "N" [ref=e341]
+                - cell "개인" [ref=e342]
+                - cell "0838****9582" [ref=e343]
+                - cell "ka*******@gmail.com" [ref=e344]
+              - row "활동중 활동 대기 수정 요청 마케팅 파트너 159773 N 개인 010****3251 th********@naver.com" [ref=e345]:
+                - cell "활동중" [ref=e346]:
+                  - generic [ref=e347]: 활동중
+                - cell "활동 대기 수정 요청" [ref=e348]:
+                  - generic [ref=e349]: 활동 대기
+                  - generic [ref=e350]: 수정 요청
+                - cell "마케팅 파트너" [ref=e351]
+                - cell "159773" [ref=e352]
+                - cell [ref=e353]
+                - cell "N" [ref=e354]
+                - cell "개인" [ref=e355]
+                - cell "010****3251" [ref=e356]
+                - cell "th********@naver.com" [ref=e357]
+              - row "활동중 활동 대기 입점 파트너 159772 랜턴 부티크 호이안 N 기업 1***8208 mr************@gmail.com" [ref=e358]:
+                - cell "활동중" [ref=e359]:
+                  - generic [ref=e360]: 활동중
+                - cell "활동 대기" [ref=e361]:
+                  - generic [ref=e362]: 활동 대기
+                - cell "입점 파트너" [ref=e363]
+                - cell "159772" [ref=e364]
+                - cell "랜턴 부티크 호이안" [ref=e365]
+                - cell "N" [ref=e366]
+                - cell "기업" [ref=e367]
+                - cell "1***8208" [ref=e368]
+                - cell "mr************@gmail.com" [ref=e369]
+              - row "활동중 활동 대기 수정 요청 마케팅 파트너 159771 N 개인 010****8823 dh*******@naver.com" [ref=e370]:
+                - cell "활동중" [ref=e371]:
+                  - generic [ref=e372]: 활동중
+                - cell "활동 대기 수정 요청" [ref=e373]:
+                  - generic [ref=e374]: 활동 대기
+                  - generic [ref=e375]: 수정 요청
+                - cell "마케팅 파트너" [ref=e376]
+                - cell "159771" [ref=e377]
+                - cell [ref=e378]
+                - cell "N" [ref=e379]
+                - cell "개인" [ref=e380]
+                - cell "010****8823" [ref=e381]
+                - cell "dh*******@naver.com" [ref=e382]
+              - row "활동중 활동 대기 마케팅 파트너 159770 N 개인 010****4881 hw********@naver.com" [ref=e383]:
+                - cell "활동중" [ref=e384]:
+                  - generic [ref=e385]: 활동중
+                - cell "활동 대기" [ref=e386]:
+                  - generic [ref=e387]: 활동 대기
+                - cell "마케팅 파트너" [ref=e388]
+                - cell "159770" [ref=e389]
+                - cell [ref=e390]
+                - cell "N" [ref=e391]
+                - cell "개인" [ref=e392]
+                - cell "010****4881" [ref=e393]
+                - cell "hw********@naver.com" [ref=e394]
+              - row "정보 입력 중 마케팅 파트너 159769 N ju******@naver.com" [ref=e395]:
+                - cell "정보 입력 중" [ref=e396]:
+                  - generic [ref=e397]: 정보 입력 중
+                - cell [ref=e398]
+                - cell "마케팅 파트너" [ref=e399]
+                - cell "159769" [ref=e400]
+                - cell [ref=e401]
+                - cell "N" [ref=e402]
+                - cell [ref=e403]
+                - cell [ref=e404]
+                - cell "ju******@naver.com" [ref=e405]
+              - row "활동중 활동 대기 마케팅 파트너 159768 N 개인 010****5758 bo*******@naver.com" [ref=e406]:
+                - cell "활동중" [ref=e407]:
+                  - generic [ref=e408]: 활동중
+                - cell "활동 대기" [ref=e409]:
+                  - generic [ref=e410]: 활동 대기
+                - cell "마케팅 파트너" [ref=e411]
+                - cell "159768" [ref=e412]
+                - cell [ref=e413]
+                - cell "N" [ref=e414]
+                - cell "개인" [ref=e415]
+                - cell "010****5758" [ref=e416]
+                - cell "bo*******@naver.com" [ref=e417]
+          - list [ref=e419]:
+            - listitem "Previous Page" [ref=e420]:
+              - button "left" [disabled] [ref=e421]:
+                - img "left" [ref=e422]:
+                  - img [ref=e423]
+            - listitem "1" [ref=e425] [cursor=pointer]:
+              - generic [ref=e426]: "1"
+            - listitem "2" [ref=e427] [cursor=pointer]:
+              - generic [ref=e428]: "2"
+            - listitem "3" [ref=e429] [cursor=pointer]:
+              - generic [ref=e430]: "3"
+            - listitem "4" [ref=e431] [cursor=pointer]:
+              - generic [ref=e432]: "4"
+            - listitem "5" [ref=e433] [cursor=pointer]:
+              - generic [ref=e434]: "5"
+            - listitem "Next 5 Pages" [ref=e435] [cursor=pointer]:
+              - generic [ref=e437]:
+                - img "double-right" [ref=e438]:
+                  - img [ref=e439]
+                - generic [ref=e441]: •••
+            - listitem "2625" [ref=e442] [cursor=pointer]:
+              - generic [ref=e443]: "2625"
+            - listitem "Next Page" [ref=e444] [cursor=pointer]:
+              - button "right" [ref=e445]:
+                - img "right" [ref=e446]:
+                  - img [ref=e447]

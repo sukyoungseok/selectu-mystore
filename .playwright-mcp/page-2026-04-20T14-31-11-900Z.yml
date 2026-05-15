@@ -1,0 +1,571 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e7]:
+          - img "MyRealTrip" [ref=e8]
+          - heading "개발자센터" [level=1] [ref=e9]
+        - generic [ref=e10]:
+          - link "API" [ref=e11] [cursor=pointer]:
+            - /url: "#/api/intro"
+          - link "문의·지원" [ref=e12] [cursor=pointer]:
+            - /url: "#/api/contact/glossary"
+    - generic [ref=e13]:
+      - complementary [ref=e14]:
+        - generic [ref=e18]:
+          - link "홈" [ref=e19] [cursor=pointer]:
+            - /url: "#/api/intro"
+            - img [ref=e20]
+            - generic [ref=e23]: 홈
+          - link "시작하기" [ref=e24] [cursor=pointer]:
+            - /url: "#/api/getting-started"
+            - img [ref=e25]
+            - generic [ref=e27]: 시작하기
+          - link "API 키" [ref=e28] [cursor=pointer]:
+            - /url: "#/api/api-key"
+            - img [ref=e29]
+            - generic [ref=e33]: API 키
+          - link "인증 및 헤더" [ref=e34] [cursor=pointer]:
+            - /url: "#/api/auth"
+            - img [ref=e35]
+            - generic [ref=e38]: 인증 및 헤더
+          - link "보안" [ref=e39] [cursor=pointer]:
+            - /url: "#/api/security"
+            - img [ref=e40]
+            - generic [ref=e42]: 보안
+          - link "에러 코드" [ref=e43] [cursor=pointer]:
+            - /url: "#/api/errors"
+            - img [ref=e44]
+            - generic [ref=e46]: 에러 코드
+          - generic [ref=e47]:
+            - button "파트너 API" [ref=e48] [cursor=pointer]:
+              - img [ref=e49]
+              - generic [ref=e51]: 파트너 API
+            - generic [ref=e53]:
+              - link "마이 링크" [ref=e54] [cursor=pointer]:
+                - /url: "#/api/partner-api/마이-링크"
+                - generic [ref=e55]: 마이 링크
+              - link "수익 현황" [ref=e56] [cursor=pointer]:
+                - /url: "#/api/partner-api/수익-현황"
+                - generic [ref=e57]: 수익 현황
+              - link "예약 내역" [ref=e58] [cursor=pointer]:
+                - /url: "#/api/partner-api/예약-내역"
+                - generic [ref=e59]: 예약 내역
+              - link "헬스 체크" [ref=e60] [cursor=pointer]:
+                - /url: "#/api/partner-api/헬스-체크"
+                - generic [ref=e61]: 헬스 체크
+          - generic [ref=e62]:
+            - button "서비스 API" [ref=e63] [cursor=pointer]:
+              - img [ref=e64]
+              - generic [ref=e66]: 서비스 API
+            - generic [ref=e68]:
+              - link "항공권 조회" [active] [ref=e69] [cursor=pointer]:
+                - /url: "#/api/service-api/항공권-조회"
+                - generic [ref=e70]: 항공권 조회
+              - link "숙소 조회" [ref=e71] [cursor=pointer]:
+                - /url: "#/api/service-api/숙소-조회"
+                - generic [ref=e72]: 숙소 조회
+              - link "투어티켓 조회" [ref=e73] [cursor=pointer]:
+                - /url: "#/api/service-api/투어티켓-조회"
+                - generic [ref=e74]: 투어티켓 조회
+          - generic [ref=e75]:
+            - button "MCP" [ref=e76] [cursor=pointer]:
+              - img [ref=e77]
+              - generic [ref=e79]: MCP
+            - generic [ref=e81]:
+              - link "개요" [ref=e82] [cursor=pointer]:
+                - /url: "#/api/mcp/overview"
+                - generic [ref=e83]: 개요
+              - link "제공 도구" [ref=e84] [cursor=pointer]:
+                - /url: "#/api/mcp/tools"
+                - generic [ref=e85]: 제공 도구
+              - link "연결 가이드" [ref=e86] [cursor=pointer]:
+                - /url: "#/api/mcp/setup"
+                - generic [ref=e87]: 연결 가이드
+      - main [ref=e88]:
+        - generic [ref=e177]:
+          - generic [ref=e178]:
+            - heading "항공권 조회" [level=1] [ref=e179]
+            - paragraph [ref=e180]: 출발지/목적지별 최저가 캘린더 데이터를 조회합니다.
+          - generic [ref=e182]:
+            - generic [ref=e183]:
+              - link "캘린더 최저가 조회" [ref=e184] [cursor=pointer]:
+                - /url: /#/api/service-api/항공권-조회#캘린더-최저가-조회
+                - text: 캘린더 최저가 조회
+                - img [ref=e185]
+              - generic [ref=e188]:
+                - generic [ref=e189]: POST
+                - code [ref=e190]: /v1/products/flight/calendar
+              - paragraph [ref=e191]: 특정 출발지-도착지의 캘린더 최저가를 조회합니다. 지정한 기간(startDate~endDate) 내 날짜별 최저가 항공권 정보를 반환합니다.
+            - generic [ref=e192]:
+              - heading "Path 파라미터" [level=3] [ref=e193]
+              - generic [ref=e195]:
+                - generic [ref=e196]:
+                  - generic [ref=e197]:
+                    - code [ref=e198]: startDate
+                    - generic [ref=e199]: 필수
+                    - generic [ref=e200]: · string
+                  - paragraph [ref=e201]: 조회 시작일 (yyyy-MM-dd)
+                  - paragraph [ref=e202]:
+                    - text: "예시:"
+                    - code [ref=e203]: 2026-04-01
+                - generic [ref=e204]:
+                  - generic [ref=e205]:
+                    - code [ref=e206]: endDate
+                    - generic [ref=e207]: 필수
+                    - generic [ref=e208]: · string
+                  - paragraph [ref=e209]: 조회 종료일 (yyyy-MM-dd, startDate보다 이후여야 함)
+                  - paragraph [ref=e210]:
+                    - text: "예시:"
+                    - code [ref=e211]: 2026-04-30
+                - generic [ref=e212]:
+                  - generic [ref=e213]:
+                    - code [ref=e214]: arrCityCd
+                    - generic [ref=e215]: 필수
+                    - generic [ref=e216]: · string
+                  - paragraph [ref=e217]: 도착 도시 코드
+                  - paragraph [ref=e218]:
+                    - text: "예시:"
+                    - code [ref=e219]: BKK
+                - generic [ref=e220]:
+                  - generic [ref=e221]:
+                    - code [ref=e222]: depCityCd
+                    - generic [ref=e223]: 필수
+                    - generic [ref=e224]: · string
+                  - paragraph [ref=e225]: 출발 도시 코드
+                  - paragraph [ref=e226]:
+                    - text: "예시:"
+                    - code [ref=e227]: ICN
+                - generic [ref=e228]:
+                  - generic [ref=e229]:
+                    - code [ref=e230]: period
+                    - generic [ref=e231]: 필수
+                    - generic [ref=e232]: · integer
+                  - paragraph [ref=e233]: 여행 기간(일) (3~7)
+                  - paragraph [ref=e234]:
+                    - text: "예시:"
+                    - code [ref=e235]: "5"
+            - generic [ref=e236]:
+              - heading "요청 예제" [level=3] [ref=e237]
+              - generic [ref=e238]:
+                - tablist [ref=e239]:
+                  - tab "cURL" [selected] [ref=e240] [cursor=pointer]
+                  - tab "Try it" [ref=e241] [cursor=pointer]
+                - tabpanel "cURL" [ref=e242]:
+                  - generic [ref=e246]:
+                    - code [ref=e248]: "curl --request POST \\ --url https://partner-ext-api.myrealtrip.com/v1/products/flight/calendar \\ --header 'Authorization: Bearer YOUR_API_KEY' \\ --header 'Content-Type: application/json' \\ --data '{\"depCityCd\":\"ICN\",\"arrCityCd\":\"BKK\",\"period\":5,\"startDate\":\"2026-04-01\",\"endDate\":\"2026-04-30\"}'"
+                    - button [ref=e249] [cursor=pointer]:
+                      - img
+            - generic [ref=e250]:
+              - heading "응답 필드" [level=3] [ref=e251]
+              - generic [ref=e253]:
+                - generic [ref=e254]:
+                  - generic [ref=e255]:
+                    - code [ref=e256]: departureDate
+                    - generic [ref=e257]: "*"
+                    - generic [ref=e258]: · string (date)
+                  - paragraph [ref=e259]: 출발일
+                - generic [ref=e260]:
+                  - generic [ref=e261]:
+                    - code [ref=e262]: fromCity
+                    - generic [ref=e263]: "*"
+                    - generic [ref=e264]: · string
+                  - paragraph [ref=e265]: 출발 도시 코드
+                - generic [ref=e266]:
+                  - generic [ref=e267]:
+                    - code [ref=e268]: toCity
+                    - generic [ref=e269]: "*"
+                    - generic [ref=e270]: · string
+                  - paragraph [ref=e271]: 도착 도시 코드
+                - generic [ref=e272]:
+                  - generic [ref=e273]:
+                    - code [ref=e274]: totalPrice
+                    - generic [ref=e275]: "*"
+                    - generic [ref=e276]: · integer (int64)
+                  - paragraph [ref=e277]: 최저가(원)
+                - generic [ref=e278]:
+                  - generic [ref=e279]:
+                    - code [ref=e280]: airline
+                    - generic [ref=e281]: · string
+                  - paragraph [ref=e282]: 항공사 코드
+                - generic [ref=e283]:
+                  - generic [ref=e284]:
+                    - code [ref=e285]: averagePrice
+                    - generic [ref=e286]: · integer (int64)
+                  - paragraph [ref=e287]: 평균가(원)
+                - generic [ref=e288]:
+                  - generic [ref=e289]:
+                    - code [ref=e290]: period
+                    - generic [ref=e291]: · integer
+                  - paragraph [ref=e292]: 여행 기간(일)
+                - generic [ref=e293]:
+                  - generic [ref=e294]:
+                    - code [ref=e295]: returnDate
+                    - generic [ref=e296]: · string (date)
+                  - paragraph [ref=e297]: 귀국일
+                - generic [ref=e298]:
+                  - generic [ref=e299]:
+                    - code [ref=e300]: transfer
+                    - generic [ref=e301]: · integer
+                  - paragraph [ref=e302]: "경유 횟수 (0: 직항)"
+            - generic [ref=e303]:
+              - heading "응답 예제" [level=3] [ref=e304]
+              - generic [ref=e307]:
+                - heading "성공 응답" [level=4] [ref=e308]
+                - paragraph [ref=e309]: 요청이 성공하면 다음과 같은 형식으로 데이터가 반환됩니다.
+                - generic [ref=e311]:
+                  - code [ref=e313]: "{ \"data\": [ { \"fromCity\": \"ICN\", \"toCity\": \"BKK\", \"period\": null, \"departureDate\": \"2026-03-25\", \"returnDate\": null, \"totalPrice\": 809900, \"airline\": \"OZ\", \"transfer\": null, \"averagePrice\": null }, { \"fromCity\": \"ICN\", \"toCity\": \"BKK\", \"period\": null, \"departureDate\": \"2026-03-26\", \"returnDate\": null, \"totalPrice\": 478300, \"airline\": \"7C\", \"transfer\": null, \"averagePrice\": null }, { \"fromCity\": \"ICN\", \"toCity\": \"BKK\", \"period\": null, \"departureDate\": \"2026-03-27\", \"returnDate\": null, \"totalPrice\": 468300, \"airline\": \"7C\", \"transfer\": null, \"averagePrice\": null } ], \"meta\": { \"totalCount\": 6 }, \"result\": { \"status\": 200, \"message\": \"SUCCESS\", \"code\": \"success\" } }"
+                  - button [ref=e314] [cursor=pointer]:
+                    - img
+            - paragraph [ref=e317]:
+              - text: 요청 실패 시 400, 401, 429 등의 에러가 발생할 수 있습니다.
+              - link "에러 코드 가이드 →" [ref=e318] [cursor=pointer]:
+                - /url: "#/api/errors"
+          - generic [ref=e320]:
+            - generic [ref=e321]:
+              - link "캘린더 윈도우 최저가 조회" [ref=e322] [cursor=pointer]:
+                - /url: /#/api/service-api/항공권-조회#캘린더-윈도우-최저가-조회
+                - text: 캘린더 윈도우 최저가 조회
+                - img [ref=e323]
+              - generic [ref=e326]:
+                - generic [ref=e327]: POST
+                - code [ref=e328]: /v1/products/flight/calendar/window
+              - paragraph [ref=e329]:
+                - text: 180일간 슬라이딩 윈도우 최저가를 조회합니다.
+                - strong [ref=e330]: 국제선만 지원합니다.
+            - generic [ref=e331]:
+              - heading "Path 파라미터" [level=3] [ref=e332]
+              - generic [ref=e334]:
+                - generic [ref=e335]:
+                  - generic [ref=e336]:
+                    - code [ref=e337]: arrCityCd
+                    - generic [ref=e338]: 필수
+                    - generic [ref=e339]: · string
+                  - paragraph [ref=e340]: 도착 도시 코드
+                  - paragraph [ref=e341]:
+                    - text: "예시:"
+                    - code [ref=e342]: BKK
+                - generic [ref=e343]:
+                  - generic [ref=e344]:
+                    - code [ref=e345]: depCityCd
+                    - generic [ref=e346]: 필수
+                    - generic [ref=e347]: · string
+                  - paragraph [ref=e348]: 출발 도시 코드
+                  - paragraph [ref=e349]:
+                    - text: "예시:"
+                    - code [ref=e350]: ICN
+                - generic [ref=e351]:
+                  - generic [ref=e352]:
+                    - code [ref=e353]: period
+                    - generic [ref=e354]: 필수
+                    - generic [ref=e355]: · integer
+                  - paragraph [ref=e356]: 여행 기간(일) (3~7)
+                  - paragraph [ref=e357]:
+                    - text: "예시:"
+                    - code [ref=e358]: "5"
+            - generic [ref=e359]:
+              - heading "요청 예제" [level=3] [ref=e360]
+              - generic [ref=e361]:
+                - tablist [ref=e362]:
+                  - tab "cURL" [selected] [ref=e363] [cursor=pointer]
+                  - tab "Try it" [ref=e364] [cursor=pointer]
+                - tabpanel "cURL" [ref=e365]:
+                  - generic [ref=e369]:
+                    - code [ref=e371]: "curl --request POST \\ --url https://partner-ext-api.myrealtrip.com/v1/products/flight/calendar/window \\ --header 'Authorization: Bearer YOUR_API_KEY' \\ --header 'Content-Type: application/json' \\ --data '{\"depCityCd\":\"ICN\",\"arrCityCd\":\"BKK\",\"period\":5}'"
+                    - button [ref=e372] [cursor=pointer]:
+                      - img
+            - generic [ref=e373]:
+              - heading "응답 필드" [level=3] [ref=e374]
+              - generic [ref=e376]:
+                - generic [ref=e377]:
+                  - generic [ref=e378]:
+                    - code [ref=e379]: departureDate
+                    - generic [ref=e380]: "*"
+                    - generic [ref=e381]: · string (date)
+                  - paragraph [ref=e382]: 출발일
+                - generic [ref=e383]:
+                  - generic [ref=e384]:
+                    - code [ref=e385]: fromCity
+                    - generic [ref=e386]: "*"
+                    - generic [ref=e387]: · string
+                  - paragraph [ref=e388]: 출발 도시 코드
+                - generic [ref=e389]:
+                  - generic [ref=e390]:
+                    - code [ref=e391]: toCity
+                    - generic [ref=e392]: "*"
+                    - generic [ref=e393]: · string
+                  - paragraph [ref=e394]: 도착 도시 코드
+                - generic [ref=e395]:
+                  - generic [ref=e396]:
+                    - code [ref=e397]: totalPrice
+                    - generic [ref=e398]: "*"
+                    - generic [ref=e399]: · integer (int64)
+                  - paragraph [ref=e400]: 최저가(원)
+                - generic [ref=e401]:
+                  - generic [ref=e402]:
+                    - code [ref=e403]: airline
+                    - generic [ref=e404]: · string
+                  - paragraph [ref=e405]: 항공사 코드
+                - generic [ref=e406]:
+                  - generic [ref=e407]:
+                    - code [ref=e408]: averagePrice
+                    - generic [ref=e409]: · integer (int64)
+                  - paragraph [ref=e410]: 평균가(원)
+                - generic [ref=e411]:
+                  - generic [ref=e412]:
+                    - code [ref=e413]: period
+                    - generic [ref=e414]: · integer
+                  - paragraph [ref=e415]: 여행 기간(일)
+                - generic [ref=e416]:
+                  - generic [ref=e417]:
+                    - code [ref=e418]: returnDate
+                    - generic [ref=e419]: · string (date)
+                  - paragraph [ref=e420]: 귀국일
+                - generic [ref=e421]:
+                  - generic [ref=e422]:
+                    - code [ref=e423]: transfer
+                    - generic [ref=e424]: · integer
+                  - paragraph [ref=e425]: "경유 횟수 (0: 직항)"
+            - generic [ref=e426]:
+              - heading "응답 예제" [level=3] [ref=e427]
+              - generic [ref=e430]:
+                - heading "성공 응답" [level=4] [ref=e431]
+                - paragraph [ref=e432]: 요청이 성공하면 다음과 같은 형식으로 데이터가 반환됩니다.
+                - generic [ref=e434]:
+                  - code [ref=e436]: "{ \"data\": [ { \"fromCity\": \"ICN\", \"toCity\": \"BKK\", \"period\": 5, \"departureDate\": \"2026-03-25\", \"returnDate\": \"2026-03-29\", \"totalPrice\": 524630, \"airline\": \"TW\", \"transfer\": null, \"averagePrice\": null }, { \"fromCity\": \"ICN\", \"toCity\": \"BKK\", \"period\": 5, \"departureDate\": \"2026-03-26\", \"returnDate\": \"2026-03-30\", \"totalPrice\": 588100, \"airline\": \"SL\", \"transfer\": null, \"averagePrice\": null }, { \"fromCity\": \"ICN\", \"toCity\": \"BKK\", \"period\": 5, \"departureDate\": \"2026-03-27\", \"returnDate\": \"2026-03-31\", \"totalPrice\": 2275700, \"airline\": \"TG\", \"transfer\": null, \"averagePrice\": null } ], \"meta\": { \"totalCount\": 180 }, \"result\": { \"status\": 200, \"message\": \"SUCCESS\", \"code\": \"success\" } }"
+                  - button [ref=e437] [cursor=pointer]:
+                    - img
+            - paragraph [ref=e440]:
+              - text: 요청 실패 시 400, 401, 429 등의 에러가 발생할 수 있습니다.
+              - link "에러 코드 가이드 →" [ref=e441] [cursor=pointer]:
+                - /url: "#/api/errors"
+          - generic [ref=e443]:
+            - generic [ref=e444]:
+              - link "다중 목적지 최저가 조회" [ref=e445] [cursor=pointer]:
+                - /url: /#/api/service-api/항공권-조회#다중-목적지-최저가-조회
+                - text: 다중 목적지 최저가 조회
+                - img [ref=e446]
+              - generic [ref=e449]:
+                - generic [ref=e450]: POST
+                - code [ref=e451]: /v1/products/flight/calendar/lowest
+              - paragraph [ref=e452]:
+                - text: 다중 목적지(최대 50개)의 최저가를 조회합니다.
+                - strong [ref=e453]: 국제선만 지원합니다.
+            - generic [ref=e454]:
+              - heading "Path 파라미터" [level=3] [ref=e455]
+              - generic [ref=e457]:
+                - generic [ref=e458]:
+                  - generic [ref=e459]:
+                    - code [ref=e460]: arrCityCds
+                    - generic [ref=e461]: 필수
+                    - generic [ref=e462]: · array
+                  - paragraph [ref=e463]: 도착 도시 코드 목록 (최대 50개)
+                  - paragraph [ref=e464]:
+                    - text: "예시:"
+                    - code [ref=e465]: "[\"BKK\", \"NRT\", \"TYO\"]"
+                - generic [ref=e466]:
+                  - generic [ref=e467]:
+                    - code [ref=e468]: depCityCd
+                    - generic [ref=e469]: 필수
+                    - generic [ref=e470]: · string
+                  - paragraph [ref=e471]: 출발 도시 코드
+                  - paragraph [ref=e472]:
+                    - text: "예시:"
+                    - code [ref=e473]: ICN
+                - generic [ref=e474]:
+                  - generic [ref=e475]:
+                    - code [ref=e476]: period
+                    - generic [ref=e477]: 필수
+                    - generic [ref=e478]: · integer
+                  - paragraph [ref=e479]: 여행 기간(일) (3~7)
+                  - paragraph [ref=e480]:
+                    - text: "예시:"
+                    - code [ref=e481]: "5"
+            - generic [ref=e482]:
+              - heading "요청 예제" [level=3] [ref=e483]
+              - generic [ref=e484]:
+                - tablist [ref=e485]:
+                  - tab "cURL" [selected] [ref=e486] [cursor=pointer]
+                  - tab "Try it" [ref=e487] [cursor=pointer]
+                - tabpanel "cURL" [ref=e488]:
+                  - generic [ref=e492]:
+                    - code [ref=e494]: "curl --request POST \\ --url https://partner-ext-api.myrealtrip.com/v1/products/flight/calendar/lowest \\ --header 'Authorization: Bearer YOUR_API_KEY' \\ --header 'Content-Type: application/json' \\ --data '{\"depCityCd\":\"ICN\",\"arrCityCds\":[\"BKK\",\"NRT\",\"TYO\"],\"period\":5}'"
+                    - button [ref=e495] [cursor=pointer]:
+                      - img
+            - generic [ref=e496]:
+              - heading "응답 필드" [level=3] [ref=e497]
+              - generic [ref=e499]:
+                - generic [ref=e500]:
+                  - generic [ref=e501]:
+                    - code [ref=e502]: departureDate
+                    - generic [ref=e503]: "*"
+                    - generic [ref=e504]: · string (date)
+                  - paragraph [ref=e505]: 출발일
+                - generic [ref=e506]:
+                  - generic [ref=e507]:
+                    - code [ref=e508]: fromCity
+                    - generic [ref=e509]: "*"
+                    - generic [ref=e510]: · string
+                  - paragraph [ref=e511]: 출발 도시 코드
+                - generic [ref=e512]:
+                  - generic [ref=e513]:
+                    - code [ref=e514]: toCity
+                    - generic [ref=e515]: "*"
+                    - generic [ref=e516]: · string
+                  - paragraph [ref=e517]: 도착 도시 코드
+                - generic [ref=e518]:
+                  - generic [ref=e519]:
+                    - code [ref=e520]: totalPrice
+                    - generic [ref=e521]: "*"
+                    - generic [ref=e522]: · integer (int64)
+                  - paragraph [ref=e523]: 최저가(원)
+                - generic [ref=e524]:
+                  - generic [ref=e525]:
+                    - code [ref=e526]: airline
+                    - generic [ref=e527]: · string
+                  - paragraph [ref=e528]: 항공사 코드
+                - generic [ref=e529]:
+                  - generic [ref=e530]:
+                    - code [ref=e531]: averagePrice
+                    - generic [ref=e532]: · integer (int64)
+                  - paragraph [ref=e533]: 평균가(원)
+                - generic [ref=e534]:
+                  - generic [ref=e535]:
+                    - code [ref=e536]: period
+                    - generic [ref=e537]: · integer
+                  - paragraph [ref=e538]: 여행 기간(일)
+                - generic [ref=e539]:
+                  - generic [ref=e540]:
+                    - code [ref=e541]: returnDate
+                    - generic [ref=e542]: · string (date)
+                  - paragraph [ref=e543]: 귀국일
+                - generic [ref=e544]:
+                  - generic [ref=e545]:
+                    - code [ref=e546]: transfer
+                    - generic [ref=e547]: · integer
+                  - paragraph [ref=e548]: "경유 횟수 (0: 직항)"
+            - generic [ref=e549]:
+              - heading "응답 예제" [level=3] [ref=e550]
+              - generic [ref=e553]:
+                - heading "성공 응답" [level=4] [ref=e554]
+                - paragraph [ref=e555]: 요청이 성공하면 다음과 같은 형식으로 데이터가 반환됩니다.
+                - generic [ref=e557]:
+                  - code [ref=e559]: "{ \"data\": [ { \"fromCity\": \"ICN\", \"toCity\": \"NRT\", \"period\": 5, \"departureDate\": \"2026-08-28\", \"returnDate\": \"2026-09-01\", \"totalPrice\": 266500, \"airline\": \"LJ\", \"transfer\": null, \"averagePrice\": null }, { \"fromCity\": \"ICN\", \"toCity\": \"BKK\", \"period\": 5, \"departureDate\": \"2026-09-06\", \"returnDate\": \"2026-09-10\", \"totalPrice\": 326300, \"airline\": \"7C\", \"transfer\": null, \"averagePrice\": null }, { \"fromCity\": \"ICN\", \"toCity\": \"TYO\", \"period\": 5, \"departureDate\": \"2026-08-20\", \"returnDate\": \"2026-08-24\", \"totalPrice\": 266500, \"airline\": \"LJ\", \"transfer\": null, \"averagePrice\": null } ], \"meta\": { \"totalCount\": 3 }, \"result\": { \"status\": 200, \"message\": \"SUCCESS\", \"code\": \"success\" } }"
+                  - button [ref=e560] [cursor=pointer]:
+                    - img
+            - paragraph [ref=e563]:
+              - text: 요청 실패 시 400, 401, 429 등의 에러가 발생할 수 있습니다.
+              - link "에러 코드 가이드 →" [ref=e564] [cursor=pointer]:
+                - /url: "#/api/errors"
+          - generic [ref=e566]:
+            - generic [ref=e567]:
+              - link "전체 목적지 최저가 조회" [ref=e568] [cursor=pointer]:
+                - /url: /#/api/service-api/항공권-조회#전체-목적지-최저가-조회
+                - text: 전체 목적지 최저가 조회
+                - img [ref=e569]
+              - generic [ref=e572]:
+                - generic [ref=e573]: POST
+                - code [ref=e574]: /v1/products/flight/calendar/bulk-lowest
+              - paragraph [ref=e575]:
+                - text: 전체 목적지의 최저가를 대량 조회합니다.
+                - strong [ref=e576]: 국제선만 지원합니다.
+            - generic [ref=e577]:
+              - heading "Path 파라미터" [level=3] [ref=e578]
+              - generic [ref=e580]:
+                - generic [ref=e581]:
+                  - generic [ref=e582]:
+                    - code [ref=e583]: depCityCd
+                    - generic [ref=e584]: 필수
+                    - generic [ref=e585]: · string
+                  - paragraph [ref=e586]: 출발 도시 코드
+                  - paragraph [ref=e587]:
+                    - text: "예시:"
+                    - code [ref=e588]: ICN
+                - generic [ref=e589]:
+                  - generic [ref=e590]:
+                    - code [ref=e591]: period
+                    - generic [ref=e592]: 필수
+                    - generic [ref=e593]: · integer
+                  - paragraph [ref=e594]: 여행 기간(일) (3~7)
+                  - paragraph [ref=e595]:
+                    - text: "예시:"
+                    - code [ref=e596]: "5"
+            - generic [ref=e597]:
+              - heading "요청 예제" [level=3] [ref=e598]
+              - generic [ref=e599]:
+                - tablist [ref=e600]:
+                  - tab "cURL" [selected] [ref=e601] [cursor=pointer]
+                  - tab "Try it" [ref=e602] [cursor=pointer]
+                - tabpanel "cURL" [ref=e603]:
+                  - generic [ref=e607]:
+                    - code [ref=e609]: "curl --request POST \\ --url https://partner-ext-api.myrealtrip.com/v1/products/flight/calendar/bulk-lowest \\ --header 'Authorization: Bearer YOUR_API_KEY' \\ --header 'Content-Type: application/json' \\ --data '{\"depCityCd\":\"ICN\",\"period\":5}'"
+                    - button [ref=e610] [cursor=pointer]:
+                      - img
+            - generic [ref=e611]:
+              - heading "응답 필드" [level=3] [ref=e612]
+              - generic [ref=e614]:
+                - generic [ref=e615]:
+                  - generic [ref=e616]:
+                    - code [ref=e617]: departureDate
+                    - generic [ref=e618]: "*"
+                    - generic [ref=e619]: · string (date)
+                  - paragraph [ref=e620]: 출발일
+                - generic [ref=e621]:
+                  - generic [ref=e622]:
+                    - code [ref=e623]: fromCity
+                    - generic [ref=e624]: "*"
+                    - generic [ref=e625]: · string
+                  - paragraph [ref=e626]: 출발 도시 코드
+                - generic [ref=e627]:
+                  - generic [ref=e628]:
+                    - code [ref=e629]: toCity
+                    - generic [ref=e630]: "*"
+                    - generic [ref=e631]: · string
+                  - paragraph [ref=e632]: 도착 도시 코드
+                - generic [ref=e633]:
+                  - generic [ref=e634]:
+                    - code [ref=e635]: totalPrice
+                    - generic [ref=e636]: "*"
+                    - generic [ref=e637]: · integer (int64)
+                  - paragraph [ref=e638]: 최저가(원)
+                - generic [ref=e639]:
+                  - generic [ref=e640]:
+                    - code [ref=e641]: airline
+                    - generic [ref=e642]: · string
+                  - paragraph [ref=e643]: 항공사 코드
+                - generic [ref=e644]:
+                  - generic [ref=e645]:
+                    - code [ref=e646]: averagePrice
+                    - generic [ref=e647]: · integer (int64)
+                  - paragraph [ref=e648]: 평균가(원)
+                - generic [ref=e649]:
+                  - generic [ref=e650]:
+                    - code [ref=e651]: period
+                    - generic [ref=e652]: · integer
+                  - paragraph [ref=e653]: 여행 기간(일)
+                - generic [ref=e654]:
+                  - generic [ref=e655]:
+                    - code [ref=e656]: returnDate
+                    - generic [ref=e657]: · string (date)
+                  - paragraph [ref=e658]: 귀국일
+                - generic [ref=e659]:
+                  - generic [ref=e660]:
+                    - code [ref=e661]: transfer
+                    - generic [ref=e662]: · integer
+                  - paragraph [ref=e663]: "경유 횟수 (0: 직항)"
+            - generic [ref=e664]:
+              - heading "응답 예제" [level=3] [ref=e665]
+              - generic [ref=e668]:
+                - heading "성공 응답" [level=4] [ref=e669]
+                - paragraph [ref=e670]: 요청이 성공하면 다음과 같은 형식으로 데이터가 반환됩니다.
+                - generic [ref=e672]:
+                  - code [ref=e674]: "{ \"data\": [ { \"fromCity\": \"ICN\", \"toCity\": \"ADD\", \"period\": 5, \"departureDate\": \"2026-05-02\", \"returnDate\": \"2026-05-06\", \"totalPrice\": 1573500, \"airline\": null, \"transfer\": null, \"averagePrice\": 1846253 }, { \"fromCity\": \"ICN\", \"toCity\": \"AKL\", \"period\": 5, \"departureDate\": \"2026-05-24\", \"returnDate\": \"2026-05-28\", \"totalPrice\": 1137000, \"airline\": null, \"transfer\": null, \"averagePrice\": 1501637 }, { \"fromCity\": \"ICN\", \"toCity\": \"BKK\", \"period\": 5, \"departureDate\": \"2026-09-06\", \"returnDate\": \"2026-09-10\", \"totalPrice\": 326300, \"airline\": null, \"transfer\": null, \"averagePrice\": 549671 } ], \"meta\": { \"totalCount\": 694 }, \"result\": { \"status\": 200, \"message\": \"SUCCESS\", \"code\": \"success\" } }"
+                  - button [ref=e675] [cursor=pointer]:
+                    - img
+            - paragraph [ref=e678]:
+              - text: 요청 실패 시 400, 401, 429 등의 에러가 발생할 수 있습니다.
+              - link "에러 코드 가이드 →" [ref=e679] [cursor=pointer]:
+                - /url: "#/api/errors"

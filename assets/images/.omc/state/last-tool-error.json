@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd /Users/sukyoung-seok/mystore-mockup/assets/images\\n\\n# 확보된 이미지 다운로드\\ndeclare -A IMGS\\nIMGS[neulchanmam-hero]=\\\"https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/669636696_93170183...",
+  "error": "Exit code 1\n(eval):10: bad substitution",
+  "timestamp": "2026-04-30T00:55:32.204Z",
+  "retry_count": 1
+}

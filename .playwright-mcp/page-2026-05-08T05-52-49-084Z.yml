@@ -1,0 +1,1921 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - status [ref=e4]:
+      - generic [ref=e6] [cursor=pointer]:
+        - generic [ref=e8]: 5% 쿠폰 다운 받기
+        - img [ref=e10]
+    - banner [ref=e13]:
+      - navigation [ref=e14]:
+        - button "myrealtrip" [ref=e16] [cursor=pointer]:
+          - img "myrealtrip" [ref=e17]
+        - generic [ref=e20]:
+          - img "icon" [ref=e22] [cursor=pointer]
+          - textbox "\"결제혜택\" 검색하고 추가 할인 받기!" [ref=e23]:
+            - /placeholder: "\"결제혜택\" 검색하고 추가 할인 받기! "
+        - generic [ref=e25]:
+          - button "파트너 로그인" [ref=e27] [cursor=pointer]
+          - button "로그인 및 회원가입" [ref=e29] [cursor=pointer]
+      - navigation [ref=e31]:
+        - generic [ref=e32]:
+          - link "홈" [ref=e34] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com
+            - generic [ref=e35]: 홈
+          - link "할인" [ref=e37] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/promotions/benefit
+            - generic [ref=e38]: 할인
+          - link "항공" [ref=e40] [cursor=pointer]:
+            - /url: https://flights.myrealtrip.com/
+            - generic [ref=e41]: 항공
+          - link "국내 숙소" [ref=e43] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=domestic
+            - generic [ref=e44]: 국내 숙소
+          - link "해외 숙소" [ref=e46] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=overseas
+            - generic [ref=e47]: 해외 숙소
+          - link "해외여행보험" [ref=e49] [cursor=pointer]:
+            - /url: https://direct.samsungfire.com/vd/overture_index.jsp?OTK=F2511AF0514
+            - generic [ref=e50]: 해외여행보험
+          - link "패키지" [ref=e52] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/pkc
+            - generic [ref=e53]: 패키지
+          - link "한인민박" [ref=e55] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=minbak
+            - generic [ref=e56]: 한인민박
+          - link "투어·티켓" [ref=e58] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/experiences
+            - generic [ref=e59]: 투어·티켓
+          - button "더보기 icon" [ref=e61] [cursor=pointer]:
+            - generic [ref=e62]: 더보기
+            - img "icon" [ref=e63]
+    - main [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e67]:
+          - generic [ref=e69]:
+            - button [ref=e71] [cursor=pointer]:
+              - img [ref=e72]
+            - button [ref=e75] [cursor=pointer]:
+              - img [ref=e76]
+          - generic [ref=e81]: LA디즈니랜드 캘리포니아 1일권 입장권 (+라이트닝 멀티패스 & 파크호퍼)
+          - generic [ref=e83]:
+            - button [ref=e85] [cursor=pointer]:
+              - img [ref=e86]
+            - img [ref=e92] [cursor=pointer]
+            - button [ref=e95] [cursor=pointer]:
+              - img [ref=e96]
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - generic [ref=e100]:
+              - button "미국" [ref=e101] [cursor=pointer]
+              - img [ref=e102]
+              - button "로스엔젤레스" [ref=e104] [cursor=pointer]
+            - heading "LA디즈니랜드 캘리포니아 1일권 입장권 (+라이트닝 멀티패스 & 파크호퍼)" [level=1] [ref=e105]
+            - generic [ref=e106]:
+              - generic [ref=e107]:
+                - img "icons" [ref=e108]
+                - img "icons" [ref=e109]
+                - img "icons" [ref=e110]
+                - img "icons" [ref=e111]
+                - img "icons" [ref=e112]
+              - generic [ref=e113]: 4.8 ·
+              - generic [ref=e114] [cursor=pointer]: 후기 310개
+          - generic [ref=e118]:
+            - button "저장" [ref=e123] [cursor=pointer]:
+              - img [ref=e127]
+              - generic [ref=e129]: 저장
+            - button "문의" [ref=e133] [cursor=pointer]:
+              - generic [ref=e134]: 문의
+            - button "이용방법" [ref=e138] [cursor=pointer]:
+              - generic [ref=e139]: 이용방법
+            - button "포함·불포함사항" [ref=e143] [cursor=pointer]:
+              - generic [ref=e144]: 포함·불포함사항
+            - button "운영시간" [ref=e148] [cursor=pointer]:
+              - generic [ref=e149]: 운영시간
+            - button "이용장소" [ref=e153] [cursor=pointer]:
+              - generic [ref=e154]: 이용장소
+            - button "자주묻는질문" [ref=e158] [cursor=pointer]:
+              - generic [ref=e159]: 자주묻는질문
+            - button "환불정책" [ref=e163] [cursor=pointer]:
+              - generic [ref=e164]: 환불정책
+            - button "공유" [ref=e168] [cursor=pointer]:
+              - generic [ref=e169]: 공유
+          - generic [ref=e173]:
+            - generic [ref=e186] [cursor=pointer]: 후기사진
+            - generic [ref=e194]:
+              - img "Placeholder Thumbnail" [ref=e198] [cursor=pointer]
+              - generic [ref=e199] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e202]
+                - generic [ref=e203]: 후기사진
+            - img "Placeholder Thumbnail" [ref=e210] [cursor=pointer]
+            - generic [ref=e213]:
+              - generic [ref=e214] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e217]
+                - generic [ref=e218]: 후기사진
+              - generic [ref=e219] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e222]
+                - generic [ref=e223]: 후기사진
+            - generic [ref=e227] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e230]
+              - generic [ref=e231]: 후기사진
+            - generic [ref=e234]:
+              - generic [ref=e235] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e238]
+                - generic [ref=e239]: 후기사진
+              - generic [ref=e240] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e243]
+                - generic [ref=e244]: 후기사진
+            - generic [ref=e248] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e251]
+              - generic [ref=e252]: 후기사진
+            - generic [ref=e255]:
+              - generic [ref=e256] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e259]
+                - generic [ref=e260]: 후기사진
+              - generic [ref=e261] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e264]
+                - generic [ref=e265]: 후기사진
+            - generic [ref=e269] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e272]
+              - generic [ref=e273]: 후기사진
+            - generic [ref=e276]:
+              - generic [ref=e277] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e280]
+                - generic [ref=e281]: 후기사진
+              - generic [ref=e282] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e285]
+                - generic [ref=e286]: 후기사진
+            - generic [ref=e290] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e293]
+              - generic [ref=e294]: 후기사진
+            - generic [ref=e297]:
+              - generic [ref=e298] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e301]
+                - generic [ref=e302]: 후기사진
+              - generic [ref=e303] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e306]
+                - generic [ref=e307]: 후기사진
+            - generic [ref=e311] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e314]
+              - generic [ref=e315]: 후기사진
+            - generic [ref=e318]:
+              - generic [ref=e319] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e322]
+                - generic [ref=e323]: 후기사진
+              - generic [ref=e324] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e327]
+                - generic [ref=e328]: 후기사진
+            - generic [ref=e332] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e335]
+              - generic [ref=e336]: 후기사진
+            - generic [ref=e339]:
+              - generic [ref=e340] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e343]
+                - generic [ref=e344]: 후기사진
+              - generic [ref=e345] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e348]
+                - generic [ref=e349]: 후기사진
+            - generic [ref=e353] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e356]
+              - generic [ref=e357]: 후기사진
+            - generic [ref=e360]:
+              - generic [ref=e361] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e364]
+                - generic [ref=e365]: 후기사진
+              - generic [ref=e366] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e369]
+                - generic [ref=e370]: 후기사진
+            - generic [ref=e374] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e377]
+              - generic [ref=e378]: 후기사진
+            - generic [ref=e381]:
+              - generic [ref=e382] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e385]
+                - generic [ref=e386]: 후기사진
+              - generic [ref=e387] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e390]
+                - generic [ref=e391]: 후기사진
+            - generic [ref=e395] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e398]
+              - generic [ref=e399]: 후기사진
+            - generic [ref=e402]:
+              - generic [ref=e403] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e406]
+                - generic [ref=e407]: 후기사진
+              - generic [ref=e408] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e411]
+                - generic [ref=e412]: 후기사진
+            - generic [ref=e416] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e419]
+              - generic [ref=e420]: 후기사진
+            - generic [ref=e423]:
+              - generic [ref=e424] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e427]
+                - generic [ref=e428]: 후기사진
+              - generic [ref=e429] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e432]
+                - generic [ref=e433]: 후기사진
+            - generic [ref=e437] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e440]
+              - generic [ref=e441]: 후기사진
+            - generic [ref=e444]:
+              - generic [ref=e445] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e448]
+                - generic [ref=e449]: 후기사진
+              - generic [ref=e450] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e453]
+                - generic [ref=e454]: 후기사진
+            - generic [ref=e458] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e461]
+              - generic [ref=e462]: 후기사진
+            - generic [ref=e465]:
+              - generic [ref=e466] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e469]
+                - generic [ref=e470]: 후기사진
+              - generic [ref=e471] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e474]
+                - generic [ref=e475]: 후기사진
+            - generic [ref=e479] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e482]
+              - generic [ref=e483]: 후기사진
+            - generic [ref=e486]:
+              - generic [ref=e487] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e490]
+                - generic [ref=e491]: 후기사진
+              - generic [ref=e492] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e495]
+                - generic [ref=e496]: 후기사진
+            - generic [ref=e500] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e503]
+              - generic [ref=e504]: 후기사진
+            - generic [ref=e507]:
+              - generic [ref=e508] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e511]
+                - generic [ref=e512]: 후기사진
+              - generic [ref=e513] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e516]
+                - generic [ref=e517]: 후기사진
+            - generic [ref=e521] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e524]
+              - generic [ref=e525]: 후기사진
+            - generic [ref=e528]:
+              - generic [ref=e529] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e532]
+                - generic [ref=e533]: 후기사진
+              - generic [ref=e534] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e537]
+                - generic [ref=e538]: 후기사진
+            - generic [ref=e542] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e545]
+              - generic [ref=e546]: 후기사진
+            - generic [ref=e549]:
+              - generic [ref=e550] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e553]
+                - generic [ref=e554]: 후기사진
+              - generic [ref=e555] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e558]
+                - generic [ref=e559]: 후기사진
+            - generic [ref=e563] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e566]
+              - generic [ref=e567]: 후기사진
+            - generic [ref=e570]:
+              - generic [ref=e571] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e574]
+                - generic [ref=e575]: 후기사진
+              - generic [ref=e576] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e579]
+                - generic [ref=e580]: 후기사진
+            - generic [ref=e584] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e587]
+              - generic [ref=e588]: 후기사진
+            - generic [ref=e591]:
+              - generic [ref=e592] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e595]
+                - generic [ref=e596]: 후기사진
+              - generic [ref=e597] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e600]
+                - generic [ref=e601]: 후기사진
+            - generic [ref=e605] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e608]
+              - generic [ref=e609]: 후기사진
+            - generic [ref=e612]:
+              - generic [ref=e613] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e616]
+                - generic [ref=e617]: 후기사진
+              - generic [ref=e618] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e621]
+                - generic [ref=e622]: 후기사진
+            - generic [ref=e626] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e629]
+              - generic [ref=e630]: 후기사진
+            - generic [ref=e633]:
+              - generic [ref=e634] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e637]
+                - generic [ref=e638]: 후기사진
+              - generic [ref=e639] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e642]
+                - generic [ref=e643]: 후기사진
+            - generic [ref=e647] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e650]
+              - generic [ref=e651]: 후기사진
+            - generic [ref=e654]:
+              - generic [ref=e655] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e658]
+                - generic [ref=e659]: 후기사진
+              - generic [ref=e660] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e663]
+                - generic [ref=e664]: 후기사진
+            - generic [ref=e668] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e671]
+              - generic [ref=e672]: 후기사진
+          - generic [ref=e673]:
+            - generic [ref=e676]: 즉시확정
+            - generic [ref=e679]: 얼리버드 할인
+            - generic [ref=e682]: 5월 특가
+            - generic [ref=e685]: 구매 후 사전 예약
+        - generic [ref=e686]:
+          - generic [ref=e689] [cursor=pointer]: 상품소개
+          - generic [ref=e693] [cursor=pointer]: 포함·불포함
+          - generic [ref=e696] [cursor=pointer]: 이용안내
+          - generic [ref=e699] [cursor=pointer]: 필수확인사항
+          - generic [ref=e702] [cursor=pointer]: 취소·환불
+          - generic [ref=e705] [cursor=pointer]: 후기
+          - generic [ref=e708] [cursor=pointer]: FAQ
+        - generic [ref=e709]:
+          - generic [ref=e712]:
+            - generic [ref=e713]:
+              - generic [ref=e714]:
+                - img "LA 디즈니랜드 (마이리얼트립)" [ref=e715] [cursor=pointer]
+                - generic [ref=e716]:
+                  - button "LA 디즈니랜드 (마이리얼트립)" [ref=e718] [cursor=pointer]:
+                    - generic [ref=e719]: LA 디즈니랜드 (마이리얼트립)
+                  - button "LA 디즈니랜드 리조트는 LA 근교 애너하임에 위치한 테마파크입니다. 1955년 7월 17일 개장하여 세계적인 명소와 신나는 라이브 쇼를 갖춘 지구 상 가장 행복한 장소인 LA 디즈니랜드로 초대합니다." [ref=e720] [cursor=pointer]:
+                    - generic [ref=e721]: LA 디즈니랜드 리조트는 LA 근교 애너하임에 위치한 테마파크입니다. 1955년 7월 17일 개장하여 세계적인 명소와 신나는 라이브 쇼를 갖춘 지구 상 가장 행복한 장소인 LA 디즈니랜드로 초대합니다.
+                  - button "판매자 정보" [ref=e722] [cursor=pointer]:
+                    - generic [ref=e723]: 판매자 정보
+              - button "문의하기" [ref=e724] [cursor=pointer]:
+                - generic [ref=e725]: 문의하기
+            - generic [ref=e732]:
+              - generic [ref=e735]: 📣 이용 안내
+              - generic [ref=e738]:
+                - generic [ref=e740]:
+                  - text: "📢 판매자 정보의 이메일(ladl@myrealtrip.com)로는 문의를 받지 않고 있습니다. '문의하기'로 문의해주시면, 정성을 다해 답변 드리겠습니다. 문의는 '문의하기'를 통해서만 가능하다고 작성 부탁 드립니다. 📢 선택하시는 날짜마다 티켓 가격이 상이한 점 참고해주세요. 📢 티켓 구매 전 원하는 날짜의 ✅파크예약현황✅ 확인 필수! 📢 파크 방문 전, 반드시 공식 예약 링크를 통해 🚨사전 예약🚨을 진행해주셔야 합니다. 📢 사전 예약 진행 시 파크호퍼 티켓의 경우 [Select the park you'll visit first] 부분에서 그 날 먼저 방문하실 파크를 선택해주시면 됩니다. 📢 여행일은 최초 방문일로 지정해주세요! ✔ 파크 예약 현황:"
+                  - link "https://disneyland.disney.go.com/availability-calendar/?segments=ticket" [ref=e741] [cursor=pointer]:
+                    - /url: https://disneyland.disney.go.com/availability-calendar/?segments=ticket
+                  - text: "(PC로 캘린더 조회 불가 시 모바일로 접속부탁드립니다.) ✔ 공식 사전 예약 링크 :"
+                  - link "https://disneyland.disney.go.com/links/tickets-passes" [ref=e742] [cursor=pointer]:
+                    - /url: https://disneyland.disney.go.com/links/tickets-passes
+                  - text: (PC로 캘린더 조회 불가 시 모바일로 접속부탁드립니다.) 🚨사전 예약 진행 시 시차로 인해 날짜가 잘못 표기되는 경우가 있어 앱말고 웹사이트에서 진행하시는 것을 권장 드립니다. - 사전 예약 링크를 통해 계정을 생성하신 후, 바우처의 예약확정 코드와 계정을 연동해주세요. - multi-day 티켓을 구매하신 경우, 방문하시는 날짜에 맞게 모두 사전 방문 예약을 해주셔야 합니다. (2일권인 경우, 방문일 2회 지정 예약 필수) - 파크 방문 시, e티켓과 사전 예약후 전달받으신 예약 확인증을 모두 지참해주세요. ※ 사전 예약을 하지 않고 파크에 방문하실 경우, 이용이 불가할 수 있습니다. ※ APAC 여권 소지자만 이용 가능합니다. - 자세한 사항은 공식 홈페이지를 참고하시기 바랍니다
+                  - link "https://disneyland.disney.go.com/" [ref=e743] [cursor=pointer]:
+                    - /url: https://disneyland.disney.go.com/
+                  - text: 📢 지니플러스의 명칭이 '라이트닝레인 멀티패스'로 변경되었습니다.
+                - button "... 더보기" [ref=e744] [cursor=pointer]
+          - generic [ref=e745]:
+            - heading "결제 혜택" [level=2] [ref=e746]
+            - generic [ref=e747]:
+              - generic [ref=e748]:
+                - generic [ref=e750] [cursor=pointer]:
+                  - generic [ref=e752]: KB국민카드
+                  - generic [ref=e753]: KB할인팩 결제일 할인 (최대 3만원 할인)
+                  - img [ref=e754]
+                - generic [ref=e758] [cursor=pointer]:
+                  - generic [ref=e760]: 카카오페이
+                  - generic [ref=e761]: 머니 / 삼성카드 최대 6만원 즉시할인
+                  - img [ref=e762]
+                - generic [ref=e766] [cursor=pointer]:
+                  - generic [ref=e768]: 삼성카드
+                  - generic [ref=e769]: 최대 5만원 결제일 할인
+                  - img [ref=e770]
+                - generic [ref=e774] [cursor=pointer]:
+                  - generic [ref=e776]: 현대카드
+                  - generic [ref=e777]: M포인트 10% 사용가능 (최대 15,000 M포인트)
+                  - img [ref=e778]
+                - generic [ref=e782] [cursor=pointer]:
+                  - generic [ref=e784]: 롯데카드
+                  - generic [ref=e785]: 최대 4만원 청구할인
+                  - img [ref=e786]
+                - generic [ref=e790] [cursor=pointer]:
+                  - generic [ref=e792]: 우리카드
+                  - generic [ref=e793]: 꾹 혜택 - 6만원 청구 할인
+                  - img [ref=e794]
+                - generic [ref=e798] [cursor=pointer]:
+                  - generic [ref=e800]: 토스페이
+                  - generic [ref=e801]: 최대 12만원 즉시할인
+                  - img [ref=e802]
+                - generic [ref=e806] [cursor=pointer]:
+                  - generic [ref=e808]: 네이버페이
+                  - generic [ref=e809]: 네이버페이 포인트 최대 5,000원 적립
+                  - img [ref=e810]
+                - generic [ref=e814] [cursor=pointer]:
+                  - generic [ref=e816]: 무이자할부
+                  - generic [ref=e817]: 최대 24개월 무이자 할부 가능
+                  - img [ref=e818]
+              - button "혜택 더보기" [ref=e822] [cursor=pointer]:
+                - generic [ref=e823]: 혜택 더보기
+          - generic [ref=e824]:
+            - heading "상품 소개" [level=2] [ref=e825]
+            - generic [ref=e826]:
+              - separator [ref=e827]
+              - generic [ref=e828]:
+                - generic:
+                  - figure:
+                    - img "Placeholder Thumbnail" [ref=e830]
+                  - figure:
+                    - img "Placeholder Thumbnail" [ref=e832]
+            - button "상품 소개 더보기" [ref=e835] [cursor=pointer]:
+              - generic [ref=e836]: 상품 소개 더보기
+          - generic [ref=e840]:
+            - generic [ref=e842]: "'얼리버드 할인' 인기 상품"
+            - generic [ref=e850] [cursor=pointer]:
+              - generic [ref=e851]:
+                - img "Placeholder Thumbnail" [ref=e854]
+                - img [ref=e859]
+              - generic [ref=e861]:
+                - generic [ref=e862]: LA 유니버설 스튜디오 할리우드 입장권 (1일권, 1+1 2일권, 익스프레스, VIP)
+                - generic [ref=e863]:
+                  - img [ref=e864]
+                  - generic [ref=e866]: "4.8"
+                  - generic [ref=e867]: (1691)
+                - generic [ref=e868]:
+                  - generic [ref=e869]: 10%
+                  - generic [ref=e870]: 107,460원
+                - generic [ref=e871]: 입장권
+                - generic [ref=e873]: 얼리버드 할인
+          - generic [ref=e874]:
+            - heading "포함 · 불포함 사항" [level=2] [ref=e875]
+            - generic [ref=e877]:
+              - generic [ref=e878]:
+                - heading "포함되어 있어요" [level=3] [ref=e879]
+                - generic [ref=e882]:
+                  - img "icon" [ref=e883]
+                  - paragraph [ref=e885]: LA디즈니랜드 1일권 입장권
+              - generic [ref=e886]:
+                - heading "불포함되어 있어요" [level=3] [ref=e887]
+                - generic [ref=e890]:
+                  - img "icon" [ref=e891]
+                  - paragraph [ref=e893]: 그 외 부가 서비스
+          - generic [ref=e894]:
+            - heading "이용 안내" [level=2] [ref=e895]
+            - generic [ref=e897]:
+              - generic [ref=e898]:
+                - heading "이용 방법" [level=3] [ref=e899]
+                - generic [ref=e900]:
+                  - generic [ref=e902]:
+                    - img "icon" [ref=e903]
+                    - paragraph [ref=e905]: 구매 후 사전 예약
+                  - generic [ref=e907]:
+                    - img "icon" [ref=e908]
+                    - paragraph [ref=e910]:
+                      - text: "• 티켓 확인 방법 : 마이리얼트립 앱 내여행 > 예약 상세 보기 > e - 티켓 클릭 • 파크 방문 전, 반드시 아래 링크를 통해 사전 예약을 진행해주셔야 합니다. - 예약 링크 :"
+                      - link "https://disneyland.disney.go.com/links/tickets-passes" [ref=e911] [cursor=pointer]:
+                        - /url: https://disneyland.disney.go.com/links/tickets-passes
+              - generic [ref=e912]:
+                - heading "운영시간" [level=3] [ref=e913]
+                - paragraph [ref=e918]:
+                  - text: 시즌 별로 디즈니랜드 운영 시간이 달라질 수 있습니다. 자세한 사항은 공식 홈페이지를 참고하시기 바랍니다
+                  - link "https://disneyland.disney.go.com/" [ref=e919] [cursor=pointer]:
+                    - /url: https://disneyland.disney.go.com/
+              - generic [ref=e920]:
+                - heading "이용장소" [level=3] [ref=e921]
+                - generic [ref=e922]:
+                  - generic [ref=e923]:
+                    - paragraph [ref=e925]: 디즈니랜드®
+                    - paragraph [ref=e927]: LA 디즈니랜드 (미국 92802 California, Anaheim)
+                  - button "지도 보기" [ref=e928] [cursor=pointer]:
+                    - generic [ref=e929]: 지도 보기
+          - generic [ref=e930]:
+            - heading "필수 확인 사항" [level=2] [ref=e931]
+            - generic [ref=e935]:
+              - generic [ref=e937]:
+                - img "icon" [ref=e938]
+                - paragraph [ref=e940]:
+                  - text: "[유의 사항] - 만 3-9세 손님은 아동권을 이용해주세요. 만 10세 이상의 손님부터는 성인권 요금이 적용됩니다. - 만 0-13세 영유아 및 아동은 반드시 만 14세 이상을 동반해야 디즈니랜드 파크 및 디즈니 캘리포니아 어드벤처 파크를 이용할 수 있습니다. - 재판매를 위해 구매한 예약건에 대해서는 사전 통보없이 예약취소처리 될 수 있습니다. - QR코드를 스캔하여 바로 입장할 수 있으며, 여권을 지참해주시기 바랍니다. - 자세한 사항은 공식 홈페이지를 참고하시기 바랍니다 :"
+                  - link "https://disneyland.disney.go.com/" [ref=e941] [cursor=pointer]:
+                    - /url: https://disneyland.disney.go.com/
+              - generic [ref=e943]:
+                - img "icon" [ref=e944]
+                - paragraph [ref=e946]: "[기타 안내] - 악천후의 경우 안전 상의 이유로 놀이기구가 일시적 또는 부분 폐쇄될 수 있으며, 공연이 취소될 수 있습니다. - 당일 내용에 변경이 있을 시, 당일 공지를 기준으로 합니다. 어트랙션에 이상이 있는 경우 갑작스러운 지연이 발생할 수 있습니다. 또한 정기적으로 일 점검, 주간 점검, 월간 점검 및 연간 유지 보수, 어트랙션 관련 수리 작업이 있으니 운행이 중단될 수 있습니다. 자세한 사항은 현장에서 확인하실 수 있습니다. - 여행자 보험에 가입 후 투어를 진행할 것을 권장합니다."
+            - button "필수 확인 사항 모두 보기" [ref=e949] [cursor=pointer]:
+              - generic [ref=e950]: 필수 확인 사항 모두 보기
+          - generic [ref=e951]:
+            - heading "취소/환불 규정" [level=2] [ref=e952]
+            - generic [ref=e958]:
+              - img "icon" [ref=e959]
+              - paragraph [ref=e961]: 사용/교환하지 않은 티켓/바우처는 전액 환불이 가능합니다. - 티켓/바우처의 사용 및 교환/변경된 경우, 환불이 불가능합니다. - 유효기간이 만료된 경우, 환불이 불가능합니다.
+          - generic [ref=e970]:
+            - generic [ref=e971]:
+              - img "AI" [ref=e972]
+              - generic [ref=e973]: AI가 요약한 74개의 후기
+              - generic [ref=e974]: (최근 12개월)
+            - generic [ref=e975]:
+              - generic [ref=e976]:
+                - generic [ref=e977]:
+                  - img "AI" [ref=e978]
+                  - generic [ref=e979]: 저렴한 가격·편리한 예약·즐거운 경험·편리한 입장
+                - paragraph [ref=e980]:
+                  - generic [ref=e981]:
+                    - button "더보기" [ref=e982] [cursor=pointer]
+                    - text: 아래 후기는 여러 리뷰 중에서 긍정적으로 평가된 내용을 중심으로 정리한 것입니다. - '예약 편하고 좋았습니다' - '디즈니랜드 입장권이 다른 사이트보다 저렴해요!' - '자주 갈 수 없는 분들은 파크호퍼 + 멀티패스 완전 추천입니다 ㅎㅎ' - '7살 아이와 방문했고, 여행 중 가장 기억에 남는 경험이었어요!' - '바우처만 가져가면 될 줄 알았는데 디즈니앱에서 예약을 해야합니다.' - '구입후 어플통해 예약해야하는 번거로움이 있지만 (예약날짜가 안보이는 경우가 생겨서 네이버 검색해서 휴대폰설정에서 언어를 영어로만 해야 되더라구요..)' - '입장이 간편했어요..' - '정말 즐거운 시간이었어요^^' - '즐거운 경험이었습니다.' - '디즈니랜드 최고..ㅠㅠ 나중에 아기 생기면 또 가고 싶어용' - '바우처 등록하여 아주 잘 이용하였습니다.' - '정말 즐겁고 시나는 하루 였습니다' - '기다림 없이 바로 입장 가능이 너무 편리 했어요' - '너무 재미있었습니다!' - '너무 즐겁게 잘 다녀왔습니다!😃'
+              - generic [ref=e983]:
+                - generic [ref=e984]:
+                  - img "AI" [ref=e985]
+                  - generic [ref=e986]: 예약 과정 불편·줄 길이·가격 비싼 편
+                - paragraph [ref=e987]:
+                  - generic [ref=e988]:
+                    - button "더보기" [ref=e989] [cursor=pointer]
+                    - text: 전반적으로 좋은 평가가 많지만, 아래는 일부 이용자가 남긴 부정적인 의견입니다. - '구매할때 최저가격제 적용된다는건 모르고 구매한게 실수입니다. 더 저렴하게 구매할 수 있는 곳이 있었는데 늦게 알아버려서 아쉬웠습니다.' - '금요일이라서 그런지 줄서는게 너무 힘들었어요.ㅠㅠㅠ 다음번엔 돈 더 주고 바로 입장 할 수 있게 표를 구매할 것 같네요.' - '등록을 하셔야 하는데 이메일로 온 설명서대로 하시면 돼요. 근데!! 홈페이지에서 날짜 등록할 때 안되는 경우가 있어요.' - '바우처만 가져가면 될 줄 알았는데 디즈니앱에서 예약을 해야합니다.' - '바우처 받고 디즈니랜드 파크에 그거 등록하면 바로 입장 할 수 있어서 너무 좋아요' - '구입후 어플통해 예약해야하는 번거로움이 있지만 (예약날짜가 안보이는 경우가 생겨서 네이버 검색해서 휴대폰설정에서 언어를 영어로만 해야 되더라구요..)' - '바우처만 가져가면 될 줄 알았는데 디즈니앱에서 예약을 해야합니다.' - '바우처 받고 디즈니랜드 파크에 그거 등록하면 바로 입장 할 수 있어서 너무 좋아요' - '구입후 어플통해 예약해야하는 번거로움이 있지만 (예약날짜가 안보이는 경우가 생겨서 네이버 검색해서 휴대폰설정에서 언어를 영어로만 해야 되더라구요..)'
+          - generic [ref=e994]:
+            - generic [ref=e995]:
+              - img [ref=e996]
+              - generic [ref=e998]: 4.8 · 후기 310개
+            - generic [ref=e1002]:
+              - generic [ref=e1005]:
+                - generic [ref=e1006]:
+                  - generic [ref=e1007]:
+                    - img [ref=e1008]
+                    - img [ref=e1010]
+                    - img [ref=e1012]
+                    - img [ref=e1014]
+                    - img [ref=e1016]
+                  - generic [ref=e1018]: 2달 전
+                - generic [ref=e1019]:
+                  - generic [ref=e1020]: 구매하고 앱에 등록을 해야하는 과정이 어려웠습니다 ㅜㅜ 무조건 라이트닝 패스하셔야 다 탈 수 있습니다 티어 0때 평일에 가서 사람이 많지는 않았지만 인기 어트랙션은 한시간반은 기다려야합니다!! 무조건 라이트닝 패스 추천드립니다 놀이동산애서 디즈니 캐릭터랑 찍으면 전문 카메라로도 무료로 찍어줍니자
+                  - generic [ref=e1021]:
+                    - img "Placeholder Thumbnail" [ref=e1024]
+                    - generic [ref=e1026]: "10"
+                - generic [ref=e1027]: 사진과 동일해요 · 방문하기 편해요 · 관광지와 가까워요 · 바로 입장이 가능해요 · 깨끗해요
+                - generic [ref=e1028]: 공*윤
+              - generic [ref=e1031]:
+                - generic [ref=e1032]:
+                  - generic [ref=e1033]:
+                    - img [ref=e1034]
+                    - img [ref=e1036]
+                    - img [ref=e1038]
+                    - img [ref=e1040]
+                    - img [ref=e1042]
+                  - generic [ref=e1044]: 2달 전
+                - generic [ref=e1045]:
+                  - generic [ref=e1046]: 7살 아이와 방문했고, 여행 중 가장 기억에 남는 경험이었어요! 코드로 바로 입장이 가능했고, 라이트닝 래인을 구매한게 정말 좋았어요. 티어 1이었는데도 사람이 많아서 정말 잘 활용했습니다.
+                  - generic [ref=e1047]:
+                    - img "Placeholder Thumbnail" [ref=e1050]
+                    - generic [ref=e1052]: "3"
+                - generic [ref=e1053]: 관리가 잘 되어 있어요 · 위치가 찾기 쉬워요 · 바로 입장이 가능해요
+                - generic [ref=e1054]: 김*주
+              - generic [ref=e1057]:
+                - generic [ref=e1058]:
+                  - generic [ref=e1059]:
+                    - img [ref=e1060]
+                    - img [ref=e1062]
+                    - img [ref=e1064]
+                    - img [ref=e1066]
+                    - img [ref=e1068]
+                  - generic [ref=e1070]: 4달 전
+                - generic [ref=e1071]:
+                  - generic [ref=e1072]: 바우처만 가져가면 될 줄 알았는데 디즈니앱에서 예약을 해야합니다. 친절하게 알려주셔서 들어 갈 수 있었습니다. 어차피 어트랙션 타려면 앱을 깔아서 움직이는게 좋아서 앱 깔고 꼭 레저베이션하고 가셔요^^ 뒤에 줄 서 있는데 괜히 죄송하드라고요. 너무 즐겁게 잘 놀다가 왔습니다. 아이들이 어려서 어드벤처 안하고 호퍼로 안하고 파크만 선택해서 다녀온게 좋았습니다. 티어0때 맞춰 간거라 가격도 저렴했고, 하루만에 거의 다 타고 나와서 너무 즐겁더라구요. 아이들 크면 파크하루, 어드벤처 하루씩 여유있게 다녀오심 좋을 것 같아요. 저렴하게 잘 다녀왔습니다!
+                  - generic [ref=e1073]:
+                    - img "Placeholder Thumbnail" [ref=e1076]
+                    - generic [ref=e1078]: "2"
+                - generic [ref=e1079]: 위치가 찾기 쉬워요 · 친절해요 · 관리가 잘 되어 있어요
+                - generic [ref=e1080]: 박*아
+              - generic [ref=e1083]:
+                - generic [ref=e1084]:
+                  - generic [ref=e1085]:
+                    - img [ref=e1086]
+                    - img [ref=e1088]
+                    - img [ref=e1090]
+                    - img [ref=e1092]
+                    - img [ref=e1094]
+                  - generic [ref=e1096]: 3달 전
+                - generic [ref=e1097]:
+                  - generic [ref=e1098]: 디즈니랜드 멀티패스로 이용했고, 오픈직전까지 비가와서 걱정했지만 다행히 오픈 동시에 비가 그쳤습니다. 티어0이어도 사람이 꽤 있더라구요. 멀티패스, 일반 줄서기 적절히 분배해서 메인 놀이기구들 다 탔고, 12시간동안 16개 놀이기구 타기 성공했습니다….! 여러분들도 파이팅!!!
+                  - img "Placeholder Thumbnail" [ref=e1102]
+                - generic [ref=e1103]: 김*수
+              - generic [ref=e1106]:
+                - generic [ref=e1107]:
+                  - generic [ref=e1108]:
+                    - img [ref=e1109]
+                    - img [ref=e1111]
+                    - img [ref=e1113]
+                    - img [ref=e1115]
+                    - img [ref=e1117]
+                  - generic [ref=e1119]: 2달 전
+                - generic [ref=e1121]: 자주 갈 수 없는 분들은 파크호퍼 + 멀티패스 완전 추천입니다 ㅎㅎ 티어0이였는데도 사람이 없는 편이 아니더라고요..?? 멀티패스 굉장히 유용했어요.. 대신 티어0은 불꽃놀이 안 할 수도 있으니 어플에서 스케쥴 꼭 확인하고 예매하세요! 어드벤처 파크부터 먼저 가서 놀고 다른 파크로 옮겨가서 디즈니성 보는걸 추천드립니다!
+                - generic [ref=e1122]: 사진과 동일해요 · 친절해요 · 위치가 찾기 쉬워요 · 관리가 잘 되어 있어요 · 바로 입장이 가능해요
+                - generic [ref=e1123]: 황*연
+              - generic [ref=e1126]:
+                - generic [ref=e1127]:
+                  - generic [ref=e1128]:
+                    - img [ref=e1129]
+                    - img [ref=e1131]
+                    - img [ref=e1133]
+                    - img [ref=e1135]
+                    - img [ref=e1137]
+                  - generic [ref=e1139]: 8달 전
+                - generic [ref=e1140]:
+                  - generic [ref=e1141]: 왜!! 안유명한지 모르겠는,, 포지타노보다 더 아름다웠던- 카탈리나 섬 여행! 제이 가이드님 덕분에 열배는 더 행복했슘니다.. 들려주신 역사 이야기들 덕분에 "스토리가 있는" 여행이었어요. 아는 만큼 보인다구, 혼자갔으면 모르고 지나갔을 포인트들이 다 눈에 들어왔어요. 특히 섬 곳곳의 보석같은 숨은 명소들도 소개해주시고 스냅사진같은 인생샷도 건져주셨어요! 덕분에 카탈리나를 사랑하게 되었어요 꼭 다시와보고 싶은 여행지. 좋은 추억 만들어주셔서 감사합니다.
+                  - generic [ref=e1142]:
+                    - img "Placeholder Thumbnail" [ref=e1145]
+                    - generic [ref=e1147]: "8"
+                - generic [ref=e1148]: 친절해요 · 예약이 편해요 · 사진과 동일해요 · 깨끗해요 · 관리가 잘 되어 있어요
+                - generic [ref=e1149]: 전*린
+              - generic [ref=e1152]:
+                - generic [ref=e1153]:
+                  - generic [ref=e1154]:
+                    - img [ref=e1155]
+                    - img [ref=e1157]
+                    - img [ref=e1159]
+                    - img [ref=e1161]
+                    - img [ref=e1163]
+                  - generic [ref=e1165]: 2달 전
+                - generic [ref=e1166]:
+                  - generic [ref=e1167]: 결제하면 끝이 아니라 디즈니앱에서 등록도 해야하니까 조금 미리 준비해놓으면 좋아요.
+                  - img "Placeholder Thumbnail" [ref=e1171]
+                - generic [ref=e1172]: 사진과 동일해요 · 바로 입장이 가능해요 · 관리가 잘 되어 있어요
+                - generic [ref=e1173]: 김*훈
+              - generic [ref=e1176]:
+                - generic [ref=e1177]:
+                  - generic [ref=e1178]:
+                    - img [ref=e1179]
+                    - img [ref=e1181]
+                    - img [ref=e1183]
+                    - img [ref=e1185]
+                    - img [ref=e1187]
+                  - generic [ref=e1189]: 3달 전
+                - generic [ref=e1190]:
+                  - generic [ref=e1191]: 입장이 간편했어요..
+                  - img "Placeholder Thumbnail" [ref=e1195]
+                - generic [ref=e1196]: 예약이 편해요
+                - generic [ref=e1197]: 박*민
+              - generic [ref=e1200]:
+                - generic [ref=e1201]:
+                  - generic [ref=e1202]:
+                    - img [ref=e1203]
+                    - img [ref=e1205]
+                    - img [ref=e1207]
+                    - img [ref=e1209]
+                    - img [ref=e1211]
+                  - generic [ref=e1213]: 9달 전
+                - generic [ref=e1214]:
+                  - generic [ref=e1215]: "--- **\\[디즈니랜드 티어 6 방문 후기 – 기대 이상으로 알찼던 하루!]** 어제 LA 디즈니랜드에 다녀왔는데, 알고 보니 **티어 6** 날이더라고요. 사람이 많을 걸 걱정했지만, 생각보다 훨씬 원활하게 하루를 보낼 수 있어서 너무 만족스러웠어요. 아침 일찍 오픈 시간에 맞춰 입장했는데, 초반에는 대기 시간도 짧고 인기 어트랙션들도 꽤 여유롭게 탈 수 있었어요. \\*\\*Genie+\\*\\*를 활용해서 주요 라이드들—예를 들면 **인디아나 존스, 스페이스 마운틴, 맥스패스 대체 라이드들**—을 무난하게 소화했답니다. 모바일 앱에서 실시간 대기시간 확인하고 라이드 동선 잘 짜니까 확실히 효율적으로 움직일 수 있었어요. 점심시간쯤부터는 사람들이 확실히 몰리긴 했지만, 쇼핑도 하고 퍼레이드도 즐기면서 중간중간 휴식도 할 수 있어서 크게 지치지 않았고요. 밤에는 불꽃놀이까지 완벽하게 마무리! 🏰🎆 원래 티어 6라서 엄청 붐빌까봐 걱정했는데, **미리 계획 세우고 부지런히 움직이면 충분히 알차게 즐길 수 있다**는 걸 느꼈어요. 오픈부터 마감까지 정말 하루가 어떻게 지나갔는지도 모르게 꽉 찬 시간이었어요. 다음에 또 간다면, 비슷한 방식으로 더 여유 있게 스케줄 짜서 즐겨볼 생각이에요! 디즈니 매직은 티어를 넘어서네요 무조건 파크호퍼 및 라인레이트닝 멀티패스!! 혼자가면 싱글라이더 까지 전부 이용하시면 좋아요!! 덕분에 알찬 하루 보냈습니다!!"
+                  - generic [ref=e1216]:
+                    - img "Placeholder Thumbnail" [ref=e1219]
+                    - generic [ref=e1221]: "5"
+                - generic [ref=e1222]: 바로 입장이 가능해요 · 예약이 편해요 · 사용이 편해요
+                - generic [ref=e1223]: 윤*단
+              - generic [ref=e1226]:
+                - generic [ref=e1227]:
+                  - generic [ref=e1228]:
+                    - img [ref=e1229]
+                    - img [ref=e1231]
+                    - img [ref=e1233]
+                    - img [ref=e1235]
+                    - img [ref=e1237]
+                  - generic [ref=e1239]: 21일 전
+                - generic [ref=e1241]: 파크호퍼하면 둘 다 다 타기는 힘들어요. 그래도 왔다갔다 할 수 있는 게 좋은 거 같아요 ㅎㅎ
+                - generic [ref=e1242]: 관광지와 가까워요
+                - generic [ref=e1243]: 이*주
+              - generic [ref=e1246]:
+                - generic [ref=e1247]:
+                  - generic [ref=e1248]:
+                    - img [ref=e1249]
+                    - img [ref=e1251]
+                    - img [ref=e1253]
+                    - img [ref=e1255]
+                    - img [ref=e1257]
+                  - generic [ref=e1259]: 22일 전
+                - generic [ref=e1261]: 예약 편하고 좋았습니다
+                - generic [ref=e1262]: 사용이 편해요 · 예약이 편해요 · 바로 입장이 가능해요 · 친절해요 · 저렴해요
+                - generic [ref=e1263]: 김*환
+              - generic [ref=e1266]:
+                - generic [ref=e1267]:
+                  - generic [ref=e1268]:
+                    - img [ref=e1269]
+                    - img [ref=e1271]
+                    - img [ref=e1273]
+                    - img [ref=e1275]
+                    - img [ref=e1277]
+                  - generic [ref=e1279]: 2달 전
+                - generic [ref=e1281]: 디즈니랜드 입장권이 다른 사이트보다 저렴해요! 호퍼 입장권이 인당 이십만 원이 훨씬 넘는 가격이라 악착같이 저렴한 곳을 찾아봤는데 여기가 가장 저렴하더라고요! 단, 이용권 구매 후 사용 방법 안내가 조금 더 면밀했으면 좋겠어요. 당일 아침 미리 어플에 바코드를 등록했고 혹시 몰라 입장권을 프린트한 것도 들고 갔는데 입장이 안 됐습니다. 알고 보니 입장권이 어드벤처와 파크 두 곳 중 선입장할 곳을 먼저 선택해야 하더라고요. 저는 이걸 몰랐고 게이트 직원들도 몰랐나 봐요ㅋ 직원들이 이 티켓 오늘 못 써. 이거 해봐. 저거 해봐. 안 되네. 나도 몰라. 오늘 입장 못 해. 미안. 입장 못 해. 뒷사람 먼저 받을게 이러기만 하다가 아예 없는 사람 취급을 하더라고요. 열받아서 정말 미친 듯이 따졌습니다. 미국 여행 중 제일 열받은 순간이었어요. 다시 생각하니 또 화나네요 왜 너는 계속 안 된다고만 말하냐. 나는 이미 바코드 입력했다. 이 어플을 봐라. 날짜도 확인해라. 이게 이용불가능한 것이라면 이 바코드는 어떻게 이 어플에 입력이 됐겠냐. 누가 나를 도와줄 수 있냐. 그 사람을 부르거나 도움을 받을 수 있는 장소를 알려 달라. 그제서야!^^ 다른 직원을 불러줬고 너무나도 쉽게^^^^^! 금방 해결돼서 입장했습니다. 진짜 그 순간을 다시 생각하면 개빡치네여 후 디즈니랜드 직원의 응대도 잘못됐지믄 애시당초 근본적 원인으로 인한 이런 해프닝이 없었으면 좋았겠죠 그쵸?
+                - generic [ref=e1282]: 오*정
+              - generic [ref=e1285]:
+                - generic [ref=e1286]:
+                  - generic [ref=e1287]:
+                    - img [ref=e1288]
+                    - img [ref=e1290]
+                    - img [ref=e1292]
+                    - img [ref=e1294]
+                    - img [ref=e1296]
+                  - generic [ref=e1298]: 2달 전
+                - generic [ref=e1300]: 금요일이라 사람이 덜 있었는데 인기 놀이기구 카는 90분 정도 기다림 ㅜ ㅜ 넓어서 2일 돌아다니면 좋을 듯 그치만 뽕뽑기 그걸 해내죠
+                - generic [ref=e1301]: 사용이 편해요 · 관리가 잘 되어 있어요
+                - generic [ref=e1302]: 고*음
+              - generic [ref=e1305]:
+                - generic [ref=e1306]:
+                  - generic [ref=e1307]:
+                    - img [ref=e1308]
+                    - img [ref=e1310]
+                    - img [ref=e1312]
+                    - img [ref=e1314]
+                    - img [ref=e1316]
+                  - generic [ref=e1318]: 3달 전
+                - generic [ref=e1320]: 금요일이라서 그런지 줄서는게 너무 힘들었어요.ㅠㅠㅠ 다음번엔 돈 더 주고 바로 입장 할 수 있게 표를 구매할 것 같네요.
+                - generic [ref=e1321]: 김*선
+              - generic [ref=e1324]:
+                - generic [ref=e1325]:
+                  - generic [ref=e1326]:
+                    - img [ref=e1327]
+                    - img [ref=e1329]
+                    - img [ref=e1331]
+                    - img [ref=e1333]
+                    - img [ref=e1335]
+                  - generic [ref=e1337]: 3달 전
+                - generic [ref=e1339]: 부모님께 최고의 선물이었습니다. 디즈니가 어린이들만의 디즈니가 아닙니다.
+                - generic [ref=e1340]: 예약이 편해요 · 바로 입장이 가능해요
+                - generic [ref=e1341]: 최*정
+              - generic [ref=e1344]:
+                - generic [ref=e1345]:
+                  - generic [ref=e1346]:
+                    - img [ref=e1347]
+                    - img [ref=e1349]
+                    - img [ref=e1351]
+                    - img [ref=e1353]
+                    - img [ref=e1355]
+                  - generic [ref=e1357]: 3달 전
+                - generic [ref=e1359]: 재미있게 잘 다녀왔습니다! 다음에는 더 잘 파악하고 더 뽀개기 하려구요. 가디언즈 대박쓰!!!
+                - generic [ref=e1360]: 사진과 동일해요 · 관리가 잘 되어 있어요 · 바로 입장이 가능해요 · 위치가 찾기 쉬워요 · 예약이 편해요
+                - generic [ref=e1361]: 예*
+              - generic [ref=e1364]:
+                - generic [ref=e1365]:
+                  - generic [ref=e1366]:
+                    - img [ref=e1367]
+                    - img [ref=e1369]
+                    - img [ref=e1371]
+                    - img [ref=e1373]
+                    - img [ref=e1375]
+                  - generic [ref=e1377]: 3달 전
+                - generic [ref=e1379]: 티켓구매하시고 디즈니 공홈에 계정만드셔서 티켓등록하고 방문날짜 입력해야 패스나옵니다. 저렴하게 잘 이용하고 갑니다!!
+                - generic [ref=e1380]: 사진과 동일해요 · 저렴해요 · 예약이 편해요 · 방문하기 편해요
+                - generic [ref=e1381]: 나*원
+              - generic [ref=e1384]:
+                - generic [ref=e1385]:
+                  - generic [ref=e1386]:
+                    - img [ref=e1387]
+                    - img [ref=e1389]
+                    - img [ref=e1391]
+                    - img [ref=e1393]
+                    - img [ref=e1395]
+                  - generic [ref=e1397]: 3달 전
+                - generic [ref=e1399]: 등록을 하셔야 하는데 이메일로 온 설명서대로 하시면 돼요. 근데!!! 홈페이지에서 날짜 등록할 때 안되는 경우가 있어요. 내 폰에서 시간대를 현지시간대로 바꿔주시고, 주언어도 영어로 바꿔주서야 해요. 잘 등록하셔서 재밌게 다녀오세요~
+                - generic [ref=e1400]: 최*희
+              - generic [ref=e1403]:
+                - generic [ref=e1404]:
+                  - generic [ref=e1405]:
+                    - img [ref=e1406]
+                    - img [ref=e1408]
+                    - img [ref=e1410]
+                    - img [ref=e1412]
+                    - img [ref=e1414]
+                  - generic [ref=e1416]: 3달 전
+                - generic [ref=e1418]: 디즈니랜드 티켓 라이트닝레인 파크호퍼로 구매했는데 막힘없이 잘 들어갔습니다! 구매후 홈페이지 내 사전등록을 몰랐다가 어차피 티어0이라 어렵지 않게 그대로 등록후 입장 잘 해서 하루 내내 잘 놀았습니다🫶
+                - generic [ref=e1419]: 친절해요 · 예약이 편해요 · 바로 입장이 가능해요 · 사용이 편해요
+                - generic [ref=e1420]: 박*희
+              - generic [ref=e1423]:
+                - generic [ref=e1424]:
+                  - generic [ref=e1425]:
+                    - img [ref=e1426]
+                    - img [ref=e1428]
+                    - img [ref=e1430]
+                    - img [ref=e1432]
+                    - img [ref=e1434]
+                  - generic [ref=e1436]: 5달 전
+                - generic [ref=e1437]:
+                  - generic [ref=e1438]: 앱 등록해서 얼굴도 등록하는건가봐요,,??? 입장권만 등록했다가 직원분이 해주셨어요 아주 재밌게 놀앗어요 월요일에 갔는데 무조건 오픈런입니다
+                  - generic [ref=e1439]:
+                    - img "Placeholder Thumbnail" [ref=e1442]
+                    - generic [ref=e1444]: "4"
+                - generic [ref=e1445]: 사용이 편해요 · 바로 입장이 가능해요
+                - generic [ref=e1446]: 정*경
+            - button "후기 모두 보기" [ref=e1448] [cursor=pointer]:
+              - generic [ref=e1449]: 후기 모두 보기
+          - generic [ref=e1450]:
+            - heading "자주 묻는 질문" [level=2] [ref=e1451]
+            - generic [ref=e1453]:
+              - heading "마이리얼트립에서 예약한 후에 받은 바우처 파일로 입장이 가능한가요?" [level=3] [ref=e1455]:
+                - button "마이리얼트립에서 예약한 후에 받은 바우처 파일로 입장이 가능한가요?" [ref=e1456] [cursor=pointer]:
+                  - generic [ref=e1457]: 마이리얼트립에서 예약한 후에 받은 바우처 파일로 입장이 가능한가요?
+                  - img [ref=e1459]
+              - heading "그럼 디즈니랜드 입장 시에는 어떤 것을 준비해야하나요?" [level=3] [ref=e1462]:
+                - button "그럼 디즈니랜드 입장 시에는 어떤 것을 준비해야하나요?" [ref=e1463] [cursor=pointer]:
+                  - generic [ref=e1464]: 그럼 디즈니랜드 입장 시에는 어떤 것을 준비해야하나요?
+                  - img [ref=e1466]
+          - generic [ref=e1468]:
+            - generic [ref=e1470]:
+              - generic [ref=e1471]:
+                - generic [ref=e1473]: 다른 여행자가 함께 본 상품
+                - generic [ref=e1476]:
+                  - generic [ref=e1481] [cursor=pointer]:
+                    - generic [ref=e1482]:
+                      - img "Placeholder Thumbnail" [ref=e1485]
+                      - img [ref=e1490]
+                    - generic [ref=e1492]:
+                      - generic [ref=e1493]: LA디즈니랜드 캘리포니아 2일권 입장권 (+라이트닝 멀티패스 & 파크호퍼)
+                      - generic [ref=e1494]:
+                        - img [ref=e1495]
+                        - generic [ref=e1497]: "4.8"
+                        - generic [ref=e1498]: (131)
+                      - generic [ref=e1499]:
+                        - generic [ref=e1500]: 5%
+                        - generic [ref=e1501]: 399,403원
+                      - generic [ref=e1502]: 입장권
+                      - generic [ref=e1504]: 최저가보장제
+                  - generic [ref=e1509] [cursor=pointer]:
+                    - generic [ref=e1510]:
+                      - img "Placeholder Thumbnail" [ref=e1513]
+                      - img [ref=e1518]
+                    - generic [ref=e1520]:
+                      - generic [ref=e1521]: LA 유니버설 스튜디오 할리우드 입장권 (1일권, 1+1 2일권, 익스프레스, VIP)
+                      - generic [ref=e1522]:
+                        - img [ref=e1523]
+                        - generic [ref=e1525]: "4.8"
+                        - generic [ref=e1526]: (1691)
+                      - generic [ref=e1527]:
+                        - generic [ref=e1528]: 10%
+                        - generic [ref=e1529]: 107,460원
+                      - generic [ref=e1530]: 입장권
+                      - generic [ref=e1532]: 즉시 확정
+                  - generic [ref=e1537] [cursor=pointer]:
+                    - generic [ref=e1538]:
+                      - img "Placeholder Thumbnail" [ref=e1541]
+                      - img [ref=e1546]
+                    - generic [ref=e1548]:
+                      - generic [ref=e1549]: LA디즈니랜드 캘리포니아 3일권 입장권 (+라이트닝 멀티패스 & 파크호퍼)
+                      - generic [ref=e1550]:
+                        - img [ref=e1551]
+                        - generic [ref=e1553]: "5"
+                        - generic [ref=e1554]: (3)
+                      - generic [ref=e1555]:
+                        - generic [ref=e1556]: 5%
+                        - generic [ref=e1557]: 513,304원
+                      - generic [ref=e1558]: 입장권
+                      - generic [ref=e1560]: 최저가보장제
+                  - generic [ref=e1565] [cursor=pointer]:
+                    - generic [ref=e1566]:
+                      - img "Placeholder Thumbnail" [ref=e1569]
+                      - img [ref=e1574]
+                    - generic [ref=e1576]:
+                      - generic [ref=e1577]: "[공식판매처] LAFC 2026 시즌 공식 티켓"
+                      - generic [ref=e1578]:
+                        - img [ref=e1579]
+                        - generic [ref=e1581]: "4.6"
+                        - generic [ref=e1582]: (10)
+                      - generic [ref=e1584]: 103,390원
+                      - generic [ref=e1585]: 입장권
+                  - generic [ref=e1590] [cursor=pointer]:
+                    - generic [ref=e1591]:
+                      - img "Placeholder Thumbnail" [ref=e1594]
+                      - img [ref=e1599]
+                    - generic [ref=e1601]:
+                      - generic [ref=e1602]: 레고랜드 캘리포니아 1 Day 티켓 - 성인/어린이 공통
+                      - generic [ref=e1604]: 179,631원
+                      - generic [ref=e1605]: 입장권
+                      - generic [ref=e1607]: 즉시 확정
+                  - generic [ref=e1612] [cursor=pointer]:
+                    - generic [ref=e1613]:
+                      - img "Placeholder Thumbnail" [ref=e1616]
+                      - img [ref=e1621]
+                    - generic [ref=e1623]:
+                      - generic [ref=e1624]: 워너브라더스 스튜디오 투어 (로스앤젤레스)
+                      - generic [ref=e1625]:
+                        - img [ref=e1626]
+                        - generic [ref=e1628]: "4.8"
+                        - generic [ref=e1629]: (22)
+                      - generic [ref=e1631]: 74,100원
+                      - generic [ref=e1632]: 입장권
+                      - generic [ref=e1634]: 즉시 확정
+                  - generic [ref=e1639] [cursor=pointer]:
+                    - generic [ref=e1640]:
+                      - img "Placeholder Thumbnail" [ref=e1643]
+                      - img [ref=e1648]
+                    - generic [ref=e1650]:
+                      - generic [ref=e1651]: 로스앤젤레스 카운티 자연사 박물관 입장권
+                      - generic [ref=e1652]:
+                        - img [ref=e1653]
+                        - generic [ref=e1655]: "5"
+                        - generic [ref=e1656]: (1)
+                      - generic [ref=e1658]: 10,649원
+                      - generic [ref=e1659]: 입장권
+                      - generic [ref=e1661]: 즉시 확정
+                  - generic [ref=e1666] [cursor=pointer]:
+                    - generic [ref=e1667]:
+                      - img "Placeholder Thumbnail" [ref=e1670]
+                      - img [ref=e1675]
+                    - generic [ref=e1677]:
+                      - generic [ref=e1678]: "[로스앤젤레스] 워너브라더스 스튜디오 투어 + 프렌즈 센트럴 퍼크 세트 체험"
+                      - generic [ref=e1679]:
+                        - img [ref=e1680]
+                        - generic [ref=e1682]: "4.7"
+                        - generic [ref=e1683]: (150)
+                      - generic [ref=e1685]: 116,974원
+                      - generic [ref=e1686]: 입장권
+                      - generic [ref=e1688]: 즉시 확정
+                  - generic [ref=e1693] [cursor=pointer]:
+                    - generic [ref=e1694]:
+                      - img "Placeholder Thumbnail" [ref=e1697]
+                      - img [ref=e1702]
+                    - generic [ref=e1704]:
+                      - generic [ref=e1705]: "[로스앤젤레스] 레이커스 NBA 홈경기 티켓 — 크립토닷컴 아레나 현장 관람"
+                      - generic [ref=e1706]:
+                        - img [ref=e1707]
+                        - generic [ref=e1709]: "4.8"
+                        - generic [ref=e1710]: (34)
+                      - generic [ref=e1711]:
+                        - generic [ref=e1712]: 10%
+                        - generic [ref=e1713]: 193,964원
+                      - generic [ref=e1714]: 입장권
+                      - generic [ref=e1716]: 즉시 확정
+                  - generic [ref=e1721] [cursor=pointer]:
+                    - generic [ref=e1722]:
+                      - img "Placeholder Thumbnail" [ref=e1725]
+                      - img [ref=e1730]
+                    - generic [ref=e1732]:
+                      - generic [ref=e1733]: LA 다저스 야구 경기 관람 다저스 스타디움 티켓 (김혜성, 오타니)
+                      - generic [ref=e1734]:
+                        - img [ref=e1735]
+                        - generic [ref=e1737]: "4.3"
+                        - generic [ref=e1738]: (45)
+                      - generic [ref=e1739]:
+                        - generic [ref=e1740]: 10%
+                        - generic [ref=e1741]: 166,382원
+                      - generic [ref=e1742]: 입장권
+                      - generic [ref=e1744]: 즉시 확정
+                  - generic [ref=e1749] [cursor=pointer]:
+                    - generic [ref=e1750]:
+                      - img "Placeholder Thumbnail" [ref=e1753]
+                      - img [ref=e1758]
+                    - generic [ref=e1760]:
+                      - generic [ref=e1761]: 샌디에이고 파드리스 야구 경기 티켓 (펫코 파크 구장)
+                      - generic [ref=e1762]:
+                        - generic [ref=e1763]: 10%
+                        - generic [ref=e1764]: 119,722원
+                      - generic [ref=e1765]: 입장권
+                      - generic [ref=e1767]: 즉시 확정
+                  - generic [ref=e1772] [cursor=pointer]:
+                    - generic [ref=e1773]:
+                      - img "Placeholder Thumbnail" [ref=e1776]
+                      - img [ref=e1781]
+                    - generic [ref=e1783]:
+                      - generic [ref=e1784]: 퍼시픽 아쿠아리움 입장권 (로스앤젤레스)
+                      - generic [ref=e1785]:
+                        - img [ref=e1786]
+                        - generic [ref=e1788]: "4"
+                        - generic [ref=e1789]: (1)
+                      - generic [ref=e1791]: 46,335원
+                      - generic [ref=e1792]: 입장권
+                      - generic [ref=e1794]: 즉시 확정
+                  - generic [ref=e1799] [cursor=pointer]:
+                    - generic [ref=e1800]:
+                      - img "Placeholder Thumbnail" [ref=e1803]
+                      - img [ref=e1808]
+                    - generic [ref=e1810]:
+                      - generic [ref=e1811]: "[로스앤젤레스] 피터슨 자동차 박물관 입장권 :: 1880년대부터 현재까지 120년 자동차 역사"
+                      - generic [ref=e1812]:
+                        - img [ref=e1813]
+                        - generic [ref=e1815]: "4.7"
+                        - generic [ref=e1816]: (122)
+                      - generic [ref=e1818]: 17,035원
+                      - generic [ref=e1819]: 입장권
+                      - generic [ref=e1821]: 즉시 확정
+                  - generic [ref=e1826] [cursor=pointer]:
+                    - generic [ref=e1827]:
+                      - img "Placeholder Thumbnail" [ref=e1830]
+                      - img [ref=e1835]
+                    - generic [ref=e1837]:
+                      - generic [ref=e1838]: LA 다저스 경기 티켓 (MLB) - 김혜성 & 오타니 직관
+                      - generic [ref=e1839]:
+                        - generic [ref=e1840]: 10%
+                        - generic [ref=e1841]: 136,921원
+                      - generic [ref=e1842]: 입장권
+                      - generic [ref=e1844]: 즉시 확정
+                  - generic [ref=e1849] [cursor=pointer]:
+                    - generic [ref=e1850]:
+                      - img "Placeholder Thumbnail" [ref=e1853]
+                      - img [ref=e1858]
+                    - generic [ref=e1860]:
+                      - generic [ref=e1861]: "[할리우드] 마담 투소 밀랍인형 박물관 입장권 + 7D 로봇 게임 체험"
+                      - generic [ref=e1862]:
+                        - img [ref=e1863]
+                        - generic [ref=e1865]: "4.6"
+                        - generic [ref=e1866]: (119)
+                      - generic [ref=e1868]: 45,407원
+                      - generic [ref=e1869]: 입장권
+                      - generic [ref=e1871]: 즉시 확정
+                  - generic [ref=e1876] [cursor=pointer]:
+                    - generic [ref=e1877]:
+                      - img "Placeholder Thumbnail" [ref=e1880]
+                      - img [ref=e1885]
+                    - generic [ref=e1887]:
+                      - generic [ref=e1888]: 레고랜드 캘리포니아 입장권+SEA LIFE+워터파크 2 입장권(1일 구매시 2번째날 무료) - 대소공통
+                      - generic [ref=e1890]: 169,703원
+                      - generic [ref=e1891]: 입장권
+                      - generic [ref=e1893]: 즉시 확정
+                  - generic [ref=e1898] [cursor=pointer]:
+                    - generic [ref=e1899]:
+                      - img "Placeholder Thumbnail" [ref=e1902]
+                      - img [ref=e1907]
+                    - generic [ref=e1909]:
+                      - generic [ref=e1910]: 로스앤젤레스 에인절스 야구 경기 티켓
+                      - generic [ref=e1912]: 23,298원
+                      - generic [ref=e1913]: 입장권
+                      - generic [ref=e1915]: 즉시 확정
+                  - generic [ref=e1920] [cursor=pointer]:
+                    - generic [ref=e1921]:
+                      - img "Placeholder Thumbnail" [ref=e1924]
+                      - img [ref=e1929]
+                    - generic [ref=e1931]:
+                      - generic [ref=e1932]: "[타미스] LA 카탈리나 짚라인 에코 투어"
+                      - generic [ref=e1933]:
+                        - generic [ref=e1934]: 3%
+                        - generic [ref=e1935]: 241,640원
+                      - generic [ref=e1936]: 입장권
+                  - generic [ref=e1941] [cursor=pointer]:
+                    - generic [ref=e1942]:
+                      - img "Placeholder Thumbnail" [ref=e1945]
+                      - img [ref=e1950]
+                    - generic [ref=e1952]:
+                      - generic [ref=e1953]: 유령 사냥 체험이 가능한 중세 고문 박물관 입장권 (로스앤젤레스)
+                      - generic [ref=e1955]: 46,629원
+                      - generic [ref=e1956]: 입장권
+                      - generic [ref=e1958]: 즉시 확정
+                  - generic [ref=e1963] [cursor=pointer]:
+                    - generic [ref=e1964]:
+                      - img "Placeholder Thumbnail" [ref=e1967]
+                      - img [ref=e1972]
+                    - generic [ref=e1974]:
+                      - generic [ref=e1975]: 할리우드 마담 투소 박물관 입장권 (로스앤젤레스)
+                      - generic [ref=e1976]:
+                        - img [ref=e1977]
+                        - generic [ref=e1979]: "5"
+                        - generic [ref=e1980]: (1)
+                      - generic [ref=e1982]: 31,332원
+                      - generic [ref=e1983]: 입장권
+                      - generic [ref=e1985]: 즉시 확정
+              - generic [ref=e1986]:
+                - generic [ref=e1988]: 비슷한 상품과 비교해보세요
+                - generic [ref=e1991]:
+                  - generic [ref=e1996] [cursor=pointer]:
+                    - generic [ref=e1997]:
+                      - img "Placeholder Thumbnail" [ref=e2000]
+                      - img [ref=e2005]
+                    - generic [ref=e2007]:
+                      - generic [ref=e2008]: 싱가포르 오셔너리움 티켓 (1일권/애니멀&인사이더&오션체험권)
+                      - generic [ref=e2010]: 31,884원
+                      - generic [ref=e2011]: 티켓·입장권
+                      - generic [ref=e2013]: 즉시 확정
+                  - generic [ref=e2018] [cursor=pointer]:
+                    - generic [ref=e2019]:
+                      - img "Placeholder Thumbnail" [ref=e2022]
+                      - img [ref=e2027]
+                    - generic [ref=e2029]:
+                      - generic [ref=e2030]: 아리바 OV-데이 티켓 대중교통패스 1일권 (프리슬란트 & 그로닝겐)
+                      - generic [ref=e2032]: 14,557원
+                      - generic [ref=e2033]: 이동·교통
+                      - generic [ref=e2035]: 즉시 확정
+                  - generic [ref=e2040] [cursor=pointer]:
+                    - generic [ref=e2041]:
+                      - img "Placeholder Thumbnail" [ref=e2044]
+                      - img [ref=e2049]
+                    - generic [ref=e2051]:
+                      - generic [ref=e2052]: 유리카모메 1일 승차권 + 도쿄 조이폴리스 어트랙션 1회 이용권 (입장권 포함)
+                      - generic [ref=e2054]: 26,243원
+                      - generic [ref=e2055]: 입장권
+                      - generic [ref=e2057]: 즉시 확정
+                  - generic [ref=e2062] [cursor=pointer]:
+                    - generic [ref=e2063]:
+                      - img "Placeholder Thumbnail" [ref=e2066]
+                      - img [ref=e2071]
+                    - generic [ref=e2073]:
+                      - generic [ref=e2074]: "[공식판매처] 올랜도 유니버설스튜디오 파크 투 파크 1일 입장권(어트랙션 2곳) + 에픽 유니버스 1일 입장권"
+                      - generic [ref=e2075]:
+                        - generic [ref=e2076]: 4%
+                        - generic [ref=e2077]: 1,104,680원
+                      - generic [ref=e2078]: 입장권
+                      - generic [ref=e2080]: 즉시 확정
+                  - generic [ref=e2085] [cursor=pointer]:
+                    - generic [ref=e2086]:
+                      - img "Placeholder Thumbnail" [ref=e2089]
+                      - img [ref=e2094]
+                    - generic [ref=e2096]:
+                      - generic [ref=e2097]: 상하이 레고 디스커버리 센터 가족 입장권 (성인 1명 + 어린이 1명)
+                      - generic [ref=e2099]: 56,358원
+                      - generic [ref=e2100]: 티켓·입장권
+                      - generic [ref=e2102]: 즉시 확정
+                  - generic [ref=e2107] [cursor=pointer]:
+                    - generic [ref=e2108]:
+                      - img "Placeholder Thumbnail" [ref=e2111]
+                      - img [ref=e2116]
+                    - generic [ref=e2118]:
+                      - generic [ref=e2119]: 도쿄 스카이트리 전망대 입장권 & 스카이홉버스 1일권 (도쿄)
+                      - generic [ref=e2121]: 55,955원
+                      - generic [ref=e2122]: 입장권
+                      - generic [ref=e2124]: 즉시 확정
+                  - generic [ref=e2129] [cursor=pointer]:
+                    - generic [ref=e2130]:
+                      - img "Placeholder Thumbnail" [ref=e2133]
+                      - img [ref=e2138]
+                    - generic [ref=e2140]:
+                      - generic [ref=e2141]: 상하이 디즈니랜드 1일권 + 프리미어 액세스 8개 - 시니어
+                      - generic [ref=e2143]: 312,022원
+                      - generic [ref=e2144]: 티켓·입장권
+                      - generic [ref=e2146]: 즉시 확정
+                  - generic [ref=e2151] [cursor=pointer]:
+                    - generic [ref=e2152]:
+                      - img "Placeholder Thumbnail" [ref=e2155]
+                      - img [ref=e2160]
+                    - generic [ref=e2162]:
+                      - generic [ref=e2163]: "[베니돔] 아쿠아 나투라 워터파크 1일 입장권 + 바다사자 쇼"
+                      - generic [ref=e2164]:
+                        - img [ref=e2165]
+                        - generic [ref=e2167]: "4.2"
+                        - generic [ref=e2168]: (167)
+                      - generic [ref=e2170]: 30,252원
+                      - generic [ref=e2171]: 입장권
+                      - generic [ref=e2173]: 즉시 확정
+              - generic [ref=e2174]:
+                - generic [ref=e2176]: 여행자님을 위한 추천 상품
+                - generic [ref=e2179]:
+                  - generic [ref=e2184] [cursor=pointer]:
+                    - generic [ref=e2185]:
+                      - img "Placeholder Thumbnail" [ref=e2188]
+                      - img [ref=e2193]
+                    - generic [ref=e2195]:
+                      - generic [ref=e2196]: 숙소(호텔)에서 도쿄디즈니랜드/디즈니씨 이동서비스(왕복) 2명부터 예약가능~
+                      - generic [ref=e2197]:
+                        - img [ref=e2198]
+                        - generic [ref=e2200]: "5"
+                        - generic [ref=e2201]: (7)
+                      - generic [ref=e2203]: 81,650원
+                      - generic [ref=e2204]: 이동/교통편의
+                      - generic [ref=e2206]: 즉시 확정
+                  - generic [ref=e2211] [cursor=pointer]:
+                    - generic [ref=e2212]:
+                      - img "Placeholder Thumbnail" [ref=e2215]
+                      - img [ref=e2220]
+                    - generic [ref=e2222]:
+                      - generic [ref=e2223]: "[도쿄 디즈니랜드·디즈니씨] 단독 차량 – 편안하고 안전한 이동!"
+                      - generic [ref=e2225]: 100,000원
+                      - generic [ref=e2226]: 이동/교통편의
+                      - generic [ref=e2228]: 즉시 확정
+                  - generic [ref=e2233] [cursor=pointer]:
+                    - generic [ref=e2234]:
+                      - img "Placeholder Thumbnail" [ref=e2237]
+                      - img [ref=e2242]
+                    - generic [ref=e2244]:
+                      - generic [ref=e2245]: "[좋은 후기 가장 많은] 그로토 스노클링 & 선셋 씨푸드 BBQ디너 :: 사이판"
+                      - generic [ref=e2246]:
+                        - img [ref=e2247]
+                        - generic [ref=e2249]: "4.9"
+                        - generic [ref=e2250]: (640)
+                      - generic [ref=e2251]:
+                        - generic [ref=e2252]: 7%
+                        - generic [ref=e2253]: 47,566원
+                      - generic [ref=e2254]: 액티비티
+                  - generic [ref=e2259] [cursor=pointer]:
+                    - generic [ref=e2260]:
+                      - img "Placeholder Thumbnail" [ref=e2263]
+                      - img [ref=e2268]
+                    - generic [ref=e2270]:
+                      - generic [ref=e2271]: 사이판 포토그래퍼와 함께하는 별빛투어 (인생샷/야경별빛/은하수/픽드랍/스냅)
+                      - generic [ref=e2272]:
+                        - img [ref=e2273]
+                        - generic [ref=e2275]: "4.7"
+                        - generic [ref=e2276]: (115)
+                      - generic [ref=e2278]: 27,900원
+                      - generic [ref=e2279]: 투어
+                  - generic [ref=e2284] [cursor=pointer]:
+                    - generic [ref=e2285]:
+                      - img "Placeholder Thumbnail" [ref=e2288]
+                      - img [ref=e2293]
+                    - generic [ref=e2295]:
+                      - generic [ref=e2296]: 도쿄 해브 펀 1주일 패스
+                      - generic [ref=e2298]: 55,078원
+                      - generic [ref=e2299]: 입장권
+                      - generic [ref=e2301]: 즉시 확정
+                  - generic [ref=e2306] [cursor=pointer]:
+                    - generic [ref=e2307]:
+                      - img "Placeholder Thumbnail" [ref=e2310]
+                      - img [ref=e2315]
+                    - generic [ref=e2317]:
+                      - generic [ref=e2318]: 워너 브라더스 스튜디오 투어 도쿄 - 더 메이킹 오브 해리 포터 티켓 (Bic Camera 면세 쿠폰 혜택)
+                      - generic [ref=e2319]:
+                        - img [ref=e2320]
+                        - generic [ref=e2322]: "4.7"
+                        - generic [ref=e2323]: (221)
+                      - generic [ref=e2325]: 34,672원
+                      - generic [ref=e2326]: 입장권
+                      - generic [ref=e2328]: 즉시 확정
+                  - generic [ref=e2333] [cursor=pointer]:
+                    - generic [ref=e2334]:
+                      - img "Placeholder Thumbnail" [ref=e2337]
+                      - img [ref=e2342]
+                    - generic [ref=e2344]:
+                      - generic [ref=e2345]: 사이판 그로토 세계 3대 다이빙포인트 그로토 스노클링 투어 (가자)
+                      - generic [ref=e2346]:
+                        - img [ref=e2347]
+                        - generic [ref=e2349]: "4.9"
+                        - generic [ref=e2350]: (64)
+                      - generic [ref=e2352]: 42,900원
+                      - generic [ref=e2353]: 액티비티
+                  - generic [ref=e2358] [cursor=pointer]:
+                    - generic [ref=e2359]:
+                      - img "Placeholder Thumbnail" [ref=e2362]
+                      - img [ref=e2367]
+                    - generic [ref=e2369]:
+                      - generic [ref=e2370]: 별빛스냅투어
+                      - generic [ref=e2371]:
+                        - img [ref=e2372]
+                        - generic [ref=e2374]: "4.7"
+                        - generic [ref=e2375]: (40)
+                      - generic [ref=e2377]: 40,000원
+                      - generic [ref=e2378]: 투어
+                      - generic [ref=e2380]: 무료취소
+                  - generic [ref=e2385] [cursor=pointer]:
+                    - generic [ref=e2386]:
+                      - img "Placeholder Thumbnail" [ref=e2389]
+                      - img [ref=e2394]
+                    - generic [ref=e2396]:
+                      - generic [ref=e2397]: "[도쿄 KURUMA] 도쿄디즈니리조트 왕복 이동서비스 단독차량 고급밴"
+                      - generic [ref=e2398]:
+                        - img [ref=e2399]
+                        - generic [ref=e2401]: "5"
+                        - generic [ref=e2402]: (10)
+                      - generic [ref=e2404]: 55,000원
+                      - generic [ref=e2405]: 이동/교통편의
+                  - generic [ref=e2410] [cursor=pointer]:
+                    - generic [ref=e2411]:
+                      - img "Placeholder Thumbnail" [ref=e2414]
+                      - img [ref=e2419]
+                    - generic [ref=e2421]:
+                      - generic [ref=e2422]: 단독차량 일본 도쿄23구 디즈니랜드 요코하마 가마쿠라 하코네 후지산 픽업 이동 서비스 편도
+                      - generic [ref=e2423]:
+                        - img [ref=e2424]
+                        - generic [ref=e2426]: "5"
+                        - generic [ref=e2427]: (13)
+                      - generic [ref=e2429]: 10,000원
+                      - generic [ref=e2430]: 이동/교통편의
+                      - generic [ref=e2432]: 즉시 확정
+                  - generic [ref=e2437] [cursor=pointer]:
+                    - generic [ref=e2438]:
+                      - img "Placeholder Thumbnail" [ref=e2441]
+                      - img [ref=e2446]
+                    - generic [ref=e2448]:
+                      - generic [ref=e2449]: "[걸어서 세계속으로 현지 코디업체]사이판 촬영시 진행하는 그르또 스노클링,체험 프리다이빙"
+                      - generic [ref=e2450]:
+                        - img [ref=e2451]
+                        - generic [ref=e2453]: "5"
+                        - generic [ref=e2454]: (20)
+                      - generic [ref=e2456]: 45,000원
+                      - generic [ref=e2457]: 액티비티
+                  - generic [ref=e2462] [cursor=pointer]:
+                    - generic [ref=e2463]:
+                      - img "Placeholder Thumbnail" [ref=e2466]
+                      - img [ref=e2471]
+                    - generic [ref=e2473]:
+                      - generic [ref=e2474]: "[사이판타지] 사진으로 증명하는 사이판 별빛투어"
+                      - generic [ref=e2475]:
+                        - img [ref=e2476]
+                        - generic [ref=e2478]: "4.8"
+                        - generic [ref=e2479]: (42)
+                      - generic [ref=e2481]: 31,800원
+                      - generic [ref=e2482]: 투어
+                      - generic [ref=e2484]: 무료취소
+                  - generic [ref=e2489] [cursor=pointer]:
+                    - generic [ref=e2490]:
+                      - img "Placeholder Thumbnail" [ref=e2493]
+                      - img [ref=e2498]
+                    - generic [ref=e2500]:
+                      - generic [ref=e2501]: "[즉시 확정] 산리오 퓨로랜드 입장(도쿄)"
+                      - generic [ref=e2502]:
+                        - img [ref=e2503]
+                        - generic [ref=e2505]: "4.5"
+                        - generic [ref=e2506]: (84)
+                      - generic [ref=e2507]:
+                        - generic [ref=e2508]: 14%
+                        - generic [ref=e2509]: 30,800원
+                      - generic [ref=e2510]: 입장권
+                      - generic [ref=e2512]: 즉시 확정
+                  - generic [ref=e2517] [cursor=pointer]:
+                    - generic [ref=e2518]:
+                      - img "Placeholder Thumbnail" [ref=e2521]
+                      - img [ref=e2526]
+                    - generic [ref=e2528]:
+                      - generic [ref=e2529]: 도쿄 디즈니랜드 픽업 및 오다이바 야경투어
+                      - generic [ref=e2530]:
+                        - img [ref=e2531]
+                        - generic [ref=e2533]: "5"
+                        - generic [ref=e2534]: (4)
+                      - generic [ref=e2536]: 79,000원
+                      - generic [ref=e2537]: 투어
+                  - generic [ref=e2542] [cursor=pointer]:
+                    - generic [ref=e2543]:
+                      - img "Placeholder Thumbnail" [ref=e2546]
+                      - img [ref=e2551]
+                    - generic [ref=e2553]:
+                      - generic [ref=e2554]: 사이판 마나가하 데이투어 & 그로토 스노클링 패키지 (픽업 제공)
+                      - generic [ref=e2555]:
+                        - img [ref=e2556]
+                        - generic [ref=e2558]: "5"
+                        - generic [ref=e2559]: (5)
+                      - generic [ref=e2561]: 74,900원
+                      - generic [ref=e2562]: 투어
+                      - generic [ref=e2564]: 최저가보장제
+                  - generic [ref=e2569] [cursor=pointer]:
+                    - generic [ref=e2570]:
+                      - img "Placeholder Thumbnail" [ref=e2573]
+                      - img [ref=e2578]
+                    - generic [ref=e2580]:
+                      - generic [ref=e2581]: "[프라이빗별빛투어/최대 2팀] 사이판 유명 스냅작가와의 프라이빗 별빛투어+ 동화스냅"
+                      - generic [ref=e2582]:
+                        - img [ref=e2583]
+                        - generic [ref=e2585]: "5"
+                        - generic [ref=e2586]: (71)
+                      - generic [ref=e2587]:
+                        - generic [ref=e2588]: 50%
+                        - generic [ref=e2589]: 49,500원
+                      - generic [ref=e2590]: 투어
+                  - generic [ref=e2595] [cursor=pointer]:
+                    - generic [ref=e2596]:
+                      - img "Placeholder Thumbnail" [ref=e2599]
+                      - img [ref=e2604]
+                    - generic [ref=e2606]:
+                      - generic [ref=e2607]: "[가자도쿄] 디즈니 리조트 - 픽업/샌딩(왕복)서비스 [한국인가이드/단독차량]"
+                      - generic [ref=e2608]:
+                        - img [ref=e2609]
+                        - generic [ref=e2611]: "5"
+                        - generic [ref=e2612]: (10)
+                      - generic [ref=e2614]: 77,800원
+                      - generic [ref=e2615]: 이동/교통편의
+                  - generic [ref=e2620] [cursor=pointer]:
+                    - generic [ref=e2621]:
+                      - img "Placeholder Thumbnail" [ref=e2624]
+                      - img [ref=e2629]
+                    - generic [ref=e2631]:
+                      - generic [ref=e2632]: 도쿄 마리오카트 (고카트) 체험
+                      - generic [ref=e2633]:
+                        - img [ref=e2634]
+                        - generic [ref=e2636]: "5"
+                        - generic [ref=e2637]: (4)
+                      - generic [ref=e2639]: 138,429원
+                      - generic [ref=e2640]: 입장권
+                      - generic [ref=e2642]: 즉시 확정
+                  - generic [ref=e2647] [cursor=pointer]:
+                    - generic [ref=e2648]:
+                      - img "Placeholder Thumbnail" [ref=e2651]
+                      - img [ref=e2656]
+                    - generic [ref=e2658]:
+                      - generic [ref=e2659]: 사이판 세계3대 다이빙포인트그로토 스노클링 & 프리다이빙 체험 교육
+                      - generic [ref=e2660]:
+                        - img [ref=e2661]
+                        - generic [ref=e2663]: "5"
+                        - generic [ref=e2664]: (1)
+                      - generic [ref=e2666]: 76,960원
+                      - generic [ref=e2667]: 액티비티
+                  - generic [ref=e2672] [cursor=pointer]:
+                    - generic [ref=e2673]:
+                      - img "Placeholder Thumbnail" [ref=e2676]
+                      - img [ref=e2681]
+                    - generic [ref=e2683]:
+                      - generic [ref=e2684]: "[좋은후기가장많은] 프리미엄 마나가하 투어 (페러세일링, 거북이호핑 등)::사이판"
+                      - generic [ref=e2685]:
+                        - img [ref=e2686]
+                        - generic [ref=e2688]: "4.6"
+                        - generic [ref=e2689]: (1086)
+                      - generic [ref=e2690]:
+                        - generic [ref=e2691]: 7%
+                        - generic [ref=e2692]: 20,698원
+                      - generic [ref=e2693]: 투어
+                      - generic [ref=e2695]: 최저가보장제
+              - generic [ref=e2696]:
+                - generic [ref=e2698]: 로스앤젤레스 BEST 상품
+                - generic [ref=e2701]:
+                  - generic [ref=e2706] [cursor=pointer]:
+                    - generic [ref=e2707]:
+                      - img "Placeholder Thumbnail" [ref=e2710]
+                      - img [ref=e2715]
+                    - generic [ref=e2717]:
+                      - generic [ref=e2718]: "[2박3일] LA출발 라스베가스+그랜드캐년 포함 핵심 캐년/관광지+미국 맛집+편안한 호텔"
+                      - generic [ref=e2719]:
+                        - img [ref=e2720]
+                        - generic [ref=e2722]: "5"
+                        - generic [ref=e2723]: (1664)
+                      - generic [ref=e2724]:
+                        - generic [ref=e2725]: 5%
+                        - generic [ref=e2726]: 676,074원
+                      - generic [ref=e2727]: 그랜드캐년
+                      - generic [ref=e2729]: 최저가보장제
+                  - generic [ref=e2734] [cursor=pointer]:
+                    - generic [ref=e2735]:
+                      - img "Placeholder Thumbnail" [ref=e2738]
+                      - img [ref=e2743]
+                    - generic [ref=e2745]:
+                      - generic [ref=e2746]: "[5월 한정 $120] LA 베스트셀러 11시간 올인원 투어 (정가 $158)"
+                      - generic [ref=e2747]:
+                        - img [ref=e2748]
+                        - generic [ref=e2750]: "4.9"
+                        - generic [ref=e2751]: (1431)
+                      - generic [ref=e2753]: 174,932원
+                      - generic [ref=e2754]: 투어
+                      - generic [ref=e2756]: 최저가보장제
+                  - generic [ref=e2761] [cursor=pointer]:
+                    - generic [ref=e2762]:
+                      - img "Placeholder Thumbnail" [ref=e2765]
+                      - img [ref=e2770]
+                    - generic [ref=e2772]:
+                      - generic [ref=e2773]: "[모아트립] 조슈아트리 어드벤쳐 1일(매일출발, 베스트상품)"
+                      - generic [ref=e2774]:
+                        - img [ref=e2775]
+                        - generic [ref=e2777]: "4.9"
+                        - generic [ref=e2778]: (681)
+                      - generic [ref=e2779]:
+                        - generic [ref=e2780]: 5%
+                        - generic [ref=e2781]: 221,434원
+                      - generic [ref=e2782]: 투어
+                      - generic [ref=e2784]: 최저가보장제
+                  - generic [ref=e2789] [cursor=pointer]:
+                    - generic [ref=e2790]:
+                      - img "Placeholder Thumbnail" [ref=e2793]
+                      - img [ref=e2798]
+                    - generic [ref=e2800]:
+                      - generic [ref=e2801]: "[2030 미서부 세미패키지]샌프란시스코+라스베가스+LA 포함 9박11일 (금 출발)"
+                      - generic [ref=e2802]:
+                        - img [ref=e2803]
+                        - generic [ref=e2805]: "5"
+                        - generic [ref=e2806]: (290)
+                      - generic [ref=e2807]:
+                        - generic [ref=e2808]: 5%
+                        - generic [ref=e2809]: 2,242,015원
+                      - generic [ref=e2810]: 투어
+                      - generic [ref=e2812]: 마리트 최초
+                  - generic [ref=e2817] [cursor=pointer]:
+                    - generic [ref=e2818]:
+                      - img "Placeholder Thumbnail" [ref=e2821]
+                      - img [ref=e2826]
+                    - generic [ref=e2828]:
+                      - generic [ref=e2829]: 솔직한 LA 여행가이드ㅣ리뷰 5.0ㅣ도슨트ㅣ사진미슐랭 ㅣ프리미엄 차량
+                      - generic [ref=e2830]:
+                        - img [ref=e2831]
+                        - generic [ref=e2833]: "5"
+                        - generic [ref=e2834]: (519)
+                      - generic [ref=e2835]:
+                        - generic [ref=e2836]: 7%
+                        - generic [ref=e2837]: 181,682원
+                      - generic [ref=e2838]: 투어
+                      - generic [ref=e2840]: 최저가보장제
+                  - generic [ref=e2845] [cursor=pointer]:
+                    - generic [ref=e2846]:
+                      - img "Placeholder Thumbnail" [ref=e2849]
+                      - img [ref=e2854]
+                    - generic [ref=e2856]:
+                      - generic [ref=e2857]: /2026 베스트/ 여구가 LA 하루 꼭 투어, 이 투어 하나로 LA끝내기
+                      - generic [ref=e2858]:
+                        - img [ref=e2859]
+                        - generic [ref=e2861]: "5"
+                        - generic [ref=e2862]: (1041)
+                      - generic [ref=e2863]:
+                        - generic [ref=e2864]: 7%
+                        - generic [ref=e2865]: 180,191원
+                      - generic [ref=e2866]: 투어
+                      - generic [ref=e2868]: 최저가보장제
+                  - generic [ref=e2873] [cursor=pointer]:
+                    - generic [ref=e2874]:
+                      - img "Placeholder Thumbnail" [ref=e2877]
+                      - img [ref=e2882]
+                    - generic [ref=e2884]:
+                      - generic [ref=e2885]: "[봇짐] 가방, 짐 보관 서비스 (공항 픽업 드랍 무료, 가격 비교 필수!!)"
+                      - generic [ref=e2886]:
+                        - img [ref=e2887]
+                        - generic [ref=e2889]: "4.8"
+                        - generic [ref=e2890]: (148)
+                      - generic [ref=e2892]: 14,568원
+                      - generic [ref=e2893]: 여행편의/대여
+                      - generic [ref=e2895]: 무료취소
+                  - generic [ref=e2900] [cursor=pointer]:
+                    - generic [ref=e2901]:
+                      - img "Placeholder Thumbnail" [ref=e2904]
+                      - img [ref=e2909]
+                    - generic [ref=e2911]:
+                      - generic [ref=e2912]: /2026 베스트/여구가 조슈아트리 별멍투어, 대자연속 BBQ 스테이크와 별사진
+                      - generic [ref=e2913]:
+                        - img [ref=e2914]
+                        - generic [ref=e2916]: "4.9"
+                        - generic [ref=e2917]: (442)
+                      - generic [ref=e2918]:
+                        - generic [ref=e2919]: 7%
+                        - generic [ref=e2920]: 216,772원
+                      - generic [ref=e2921]: 투어
+                      - generic [ref=e2923]: 최저가보장제
+                  - generic [ref=e2928] [cursor=pointer]:
+                    - generic [ref=e2929]:
+                      - img "Placeholder Thumbnail" [ref=e2932]
+                      - img [ref=e2937]
+                    - generic [ref=e2939]:
+                      - generic [ref=e2940]: "[공식판매처] LAFC 2026 시즌 공식 티켓"
+                      - generic [ref=e2941]:
+                        - img [ref=e2942]
+                        - generic [ref=e2944]: "4.6"
+                        - generic [ref=e2945]: (10)
+                      - generic [ref=e2947]: 103,390원
+                      - generic [ref=e2948]: 입장권
+                  - generic [ref=e2953] [cursor=pointer]:
+                    - generic [ref=e2954]:
+                      - img "Placeholder Thumbnail" [ref=e2957]
+                      - img [ref=e2962]
+                    - generic [ref=e2964]:
+                      - generic [ref=e2965]: "[해피 힐링] 조슈아트리와 바위들, 석양과 별 그리고 인생사진 투어!"
+                      - generic [ref=e2966]:
+                        - img [ref=e2967]
+                        - generic [ref=e2969]: "5"
+                        - generic [ref=e2970]: (731)
+                      - generic [ref=e2971]:
+                        - generic [ref=e2972]: 5%
+                        - generic [ref=e2973]: 221,212원
+                      - generic [ref=e2974]: 투어
+                      - generic [ref=e2976]: 최저가보장제
+                  - generic [ref=e2981] [cursor=pointer]:
+                    - generic [ref=e2982]:
+                      - img "Placeholder Thumbnail" [ref=e2985]
+                      - img [ref=e2990]
+                    - generic [ref=e2992]:
+                      - generic [ref=e2993]: LA출도착 압도적일정 2박3일*라스베가스+그랜드캐년,엔털롭등 핵심캐년*호탤숙박+바베큐+별밤
+                      - generic [ref=e2994]:
+                        - img [ref=e2995]
+                        - generic [ref=e2997]: "5"
+                        - generic [ref=e2998]: (1012)
+                      - generic [ref=e2999]:
+                        - generic [ref=e3000]: 7%
+                        - generic [ref=e3001]: 669,297원
+                      - generic [ref=e3002]: 그랜드캐년
+                      - generic [ref=e3004]: 최저가보장제
+                  - generic [ref=e3009] [cursor=pointer]:
+                    - generic [ref=e3010]:
+                      - img "Placeholder Thumbnail" [ref=e3013]
+                      - img [ref=e3018]
+                    - generic [ref=e3020]:
+                      - generic [ref=e3021]: "[베스트후기] LA 일일투어ㅣ게티센터 전문 도슨트 ㅣ사진 맛집"
+                      - generic [ref=e3022]:
+                        - img [ref=e3023]
+                        - generic [ref=e3025]: "5"
+                        - generic [ref=e3026]: (603)
+                      - generic [ref=e3027]:
+                        - generic [ref=e3028]: 3%
+                        - generic [ref=e3029]: 170,985원
+                      - generic [ref=e3030]: 투어
+                      - generic [ref=e3032]: 최저가보장제
+              - generic [ref=e3033]:
+                - generic [ref=e3035]: 다른 여행자가 같이 구매한 상품
+                - generic [ref=e3038]:
+                  - generic [ref=e3043] [cursor=pointer]:
+                    - generic [ref=e3044]:
+                      - img "Placeholder Thumbnail" [ref=e3047]
+                      - img [ref=e3052]
+                    - generic [ref=e3054]:
+                      - generic [ref=e3055]: "[공식판매처] LAFC 2026 시즌 공식 티켓"
+                      - generic [ref=e3056]:
+                        - img [ref=e3057]
+                        - generic [ref=e3059]: "4.6"
+                        - generic [ref=e3060]: (10)
+                      - generic [ref=e3062]: 103,390원
+                      - generic [ref=e3063]: 입장권
+                  - generic [ref=e3068] [cursor=pointer]:
+                    - generic [ref=e3069]:
+                      - img "Placeholder Thumbnail" [ref=e3072]
+                      - img [ref=e3077]
+                    - generic [ref=e3079]:
+                      - generic [ref=e3080]: 로스앤젤레스 카운티 자연사 박물관 입장권
+                      - generic [ref=e3081]:
+                        - img [ref=e3082]
+                        - generic [ref=e3084]: "5"
+                        - generic [ref=e3085]: (1)
+                      - generic [ref=e3087]: 10,649원
+                      - generic [ref=e3088]: 입장권
+                      - generic [ref=e3090]: 즉시 확정
+                  - generic [ref=e3095] [cursor=pointer]:
+                    - generic [ref=e3096]:
+                      - img "Placeholder Thumbnail" [ref=e3099]
+                      - img [ref=e3104]
+                    - generic [ref=e3106]:
+                      - generic [ref=e3107]: LA 다저스 야구 경기 관람 다저스 스타디움 티켓 (김혜성, 오타니)
+                      - generic [ref=e3108]:
+                        - img [ref=e3109]
+                        - generic [ref=e3111]: "4.3"
+                        - generic [ref=e3112]: (45)
+                      - generic [ref=e3113]:
+                        - generic [ref=e3114]: 10%
+                        - generic [ref=e3115]: 166,382원
+                      - generic [ref=e3116]: 입장권
+                      - generic [ref=e3118]: 즉시 확정
+                  - generic [ref=e3123] [cursor=pointer]:
+                    - generic [ref=e3124]:
+                      - img "Placeholder Thumbnail" [ref=e3127]
+                      - img [ref=e3132]
+                    - generic [ref=e3134]:
+                      - generic [ref=e3135]: "[로스앤젤레스] 워너브라더스 스튜디오 투어 + 프렌즈 센트럴 퍼크 세트 체험"
+                      - generic [ref=e3136]:
+                        - img [ref=e3137]
+                        - generic [ref=e3139]: "4.7"
+                        - generic [ref=e3140]: (150)
+                      - generic [ref=e3142]: 116,974원
+                      - generic [ref=e3143]: 입장권
+                      - generic [ref=e3145]: 즉시 확정
+                  - generic [ref=e3150] [cursor=pointer]:
+                    - generic [ref=e3151]:
+                      - img "Placeholder Thumbnail" [ref=e3154]
+                      - img [ref=e3159]
+                    - generic [ref=e3161]:
+                      - generic [ref=e3162]: 워너브라더스 스튜디오 투어 (로스앤젤레스)
+                      - generic [ref=e3163]:
+                        - img [ref=e3164]
+                        - generic [ref=e3166]: "4.8"
+                        - generic [ref=e3167]: (22)
+                      - generic [ref=e3169]: 74,100원
+                      - generic [ref=e3170]: 입장권
+                      - generic [ref=e3172]: 즉시 확정
+                  - generic [ref=e3177] [cursor=pointer]:
+                    - generic [ref=e3178]:
+                      - img "Placeholder Thumbnail" [ref=e3181]
+                      - img [ref=e3186]
+                    - generic [ref=e3188]:
+                      - generic [ref=e3189]: "[로스앤젤레스] 레이커스 NBA 홈경기 티켓 — 크립토닷컴 아레나 현장 관람"
+                      - generic [ref=e3190]:
+                        - img [ref=e3191]
+                        - generic [ref=e3193]: "4.8"
+                        - generic [ref=e3194]: (34)
+                      - generic [ref=e3195]:
+                        - generic [ref=e3196]: 10%
+                        - generic [ref=e3197]: 193,964원
+                      - generic [ref=e3198]: 입장권
+                      - generic [ref=e3200]: 즉시 확정
+                  - generic [ref=e3205] [cursor=pointer]:
+                    - generic [ref=e3206]:
+                      - img "Placeholder Thumbnail" [ref=e3209]
+                      - img [ref=e3214]
+                    - generic [ref=e3216]:
+                      - generic [ref=e3217]: LA 다저스 경기 티켓 (MLB) - 김혜성 & 오타니 직관
+                      - generic [ref=e3218]:
+                        - generic [ref=e3219]: 10%
+                        - generic [ref=e3220]: 136,921원
+                      - generic [ref=e3221]: 입장권
+                      - generic [ref=e3223]: 즉시 확정
+                  - generic [ref=e3228] [cursor=pointer]:
+                    - generic [ref=e3229]:
+                      - img "Placeholder Thumbnail" [ref=e3232]
+                      - img [ref=e3237]
+                    - generic [ref=e3239]:
+                      - generic [ref=e3240]: "[로스앤젤레스] 피터슨 자동차 박물관 입장권 :: 1880년대부터 현재까지 120년 자동차 역사"
+                      - generic [ref=e3241]:
+                        - img [ref=e3242]
+                        - generic [ref=e3244]: "4.7"
+                        - generic [ref=e3245]: (122)
+                      - generic [ref=e3247]: 17,035원
+                      - generic [ref=e3248]: 입장권
+                      - generic [ref=e3250]: 즉시 확정
+                  - generic [ref=e3255] [cursor=pointer]:
+                    - generic [ref=e3256]:
+                      - img "Placeholder Thumbnail" [ref=e3259]
+                      - img [ref=e3264]
+                    - generic [ref=e3266]:
+                      - generic [ref=e3267]: 퍼시픽 아쿠아리움 입장권 (로스앤젤레스)
+                      - generic [ref=e3268]:
+                        - img [ref=e3269]
+                        - generic [ref=e3271]: "4"
+                        - generic [ref=e3272]: (1)
+                      - generic [ref=e3274]: 46,335원
+                      - generic [ref=e3275]: 입장권
+                      - generic [ref=e3277]: 즉시 확정
+                  - generic [ref=e3282] [cursor=pointer]:
+                    - generic [ref=e3283]:
+                      - img "Placeholder Thumbnail" [ref=e3286]
+                      - img [ref=e3291]
+                    - generic [ref=e3293]:
+                      - generic [ref=e3294]: "[할리우드] 마담 투소 밀랍인형 박물관 입장권 + 7D 로봇 게임 체험"
+                      - generic [ref=e3295]:
+                        - img [ref=e3296]
+                        - generic [ref=e3298]: "4.6"
+                        - generic [ref=e3299]: (119)
+                      - generic [ref=e3301]: 45,407원
+                      - generic [ref=e3302]: 입장권
+                      - generic [ref=e3304]: 즉시 확정
+                  - generic [ref=e3309] [cursor=pointer]:
+                    - generic [ref=e3310]:
+                      - img "Placeholder Thumbnail" [ref=e3313]
+                      - img [ref=e3318]
+                    - generic [ref=e3320]:
+                      - generic [ref=e3321]: 레고랜드 캘리포니아 1 Day 티켓 - 성인/어린이 공통
+                      - generic [ref=e3323]: 179,631원
+                      - generic [ref=e3324]: 입장권
+                      - generic [ref=e3326]: 즉시 확정
+                  - generic [ref=e3331] [cursor=pointer]:
+                    - generic [ref=e3332]:
+                      - img "Placeholder Thumbnail" [ref=e3335]
+                      - img [ref=e3340]
+                    - generic [ref=e3342]:
+                      - generic [ref=e3343]: 샌디에이고 파드리스 야구 경기 티켓 (펫코 파크 구장)
+                      - generic [ref=e3344]:
+                        - generic [ref=e3345]: 10%
+                        - generic [ref=e3346]: 119,722원
+                      - generic [ref=e3347]: 입장권
+                      - generic [ref=e3349]: 즉시 확정
+                  - generic [ref=e3354] [cursor=pointer]:
+                    - generic [ref=e3355]:
+                      - img "Placeholder Thumbnail" [ref=e3358]
+                      - img [ref=e3363]
+                    - generic [ref=e3365]:
+                      - generic [ref=e3366]: USS 아이오와호 입장권 (로스엔젤레스)
+                      - generic [ref=e3368]: 43,946원
+                      - generic [ref=e3369]: 입장권
+                      - generic [ref=e3371]: 즉시 확정
+                  - generic [ref=e3376] [cursor=pointer]:
+                    - generic [ref=e3377]:
+                      - img "Placeholder Thumbnail" [ref=e3380]
+                      - img [ref=e3385]
+                    - generic [ref=e3387]:
+                      - generic [ref=e3388]: 로스엔젤레스 톨러런스 박물관 일반 입장권
+                      - generic [ref=e3390]: 30,109원
+                      - generic [ref=e3391]: 입장권
+                      - generic [ref=e3393]: 즉시 확정
+                  - generic [ref=e3398] [cursor=pointer]:
+                    - generic [ref=e3399]:
+                      - img "Placeholder Thumbnail" [ref=e3402]
+                      - img [ref=e3407]
+                    - generic [ref=e3409]:
+                      - generic [ref=e3410]: 로스앤젤레스 레이커스 농구 경기 티켓
+                      - generic [ref=e3412]: 196,269원
+                      - generic [ref=e3413]: 입장권
+                      - generic [ref=e3415]: 즉시 확정
+                  - generic [ref=e3420] [cursor=pointer]:
+                    - generic [ref=e3421]:
+                      - img "Placeholder Thumbnail" [ref=e3424]
+                      - img [ref=e3429]
+                    - generic [ref=e3431]:
+                      - generic [ref=e3432]: "[로스앤젤레스] 전함 USS 아이오와 박물관 입장권 + 모바일 앱 가이드"
+                      - generic [ref=e3433]:
+                        - img [ref=e3434]
+                        - generic [ref=e3436]: "4.8"
+                        - generic [ref=e3437]: (79)
+                      - generic [ref=e3439]: 42,517원
+                      - generic [ref=e3440]: 입장권
+                      - generic [ref=e3442]: 즉시 확정
+                  - generic [ref=e3447] [cursor=pointer]:
+                    - generic [ref=e3448]:
+                      - img "Placeholder Thumbnail" [ref=e3451]
+                      - img [ref=e3456]
+                    - generic [ref=e3458]:
+                      - generic [ref=e3459]: "[타미스] LA 카탈리나 짚라인 에코 투어"
+                      - generic [ref=e3460]:
+                        - generic [ref=e3461]: 3%
+                        - generic [ref=e3462]: 241,640원
+                      - generic [ref=e3463]: 입장권
+                  - generic [ref=e3468] [cursor=pointer]:
+                    - generic [ref=e3469]:
+                      - img "Placeholder Thumbnail" [ref=e3472]
+                      - img [ref=e3477]
+                    - generic [ref=e3479]:
+                      - generic [ref=e3480]: 레고랜드 캘리포니아 입장권+SEA LIFE+워터파크 2 입장권(1일 구매시 2번째날 무료) - 대소공통
+                      - generic [ref=e3482]: 169,703원
+                      - generic [ref=e3483]: 입장권
+                      - generic [ref=e3485]: 즉시 확정
+                  - generic [ref=e3490] [cursor=pointer]:
+                    - generic [ref=e3491]:
+                      - img "Placeholder Thumbnail" [ref=e3494]
+                      - img [ref=e3499]
+                    - generic [ref=e3501]:
+                      - generic [ref=e3502]: "[모바일티켓] 퍼시픽 수족관 우선 입장권"
+                      - generic [ref=e3504]: 52,456원
+                      - generic [ref=e3505]: 입장권
+                      - generic [ref=e3507]: 즉시 확정
+                  - generic [ref=e3512] [cursor=pointer]:
+                    - generic [ref=e3513]:
+                      - img "Placeholder Thumbnail" [ref=e3516]
+                      - img [ref=e3521]
+                    - generic [ref=e3523]:
+                      - generic [ref=e3524]: "[로스앤젤레스] 유니버설 스튜디오 할리우드 일반 입장권 + 익스프레스 패스 옵션"
+                      - generic [ref=e3525]:
+                        - img [ref=e3526]
+                        - generic [ref=e3528]: "4.8"
+                        - generic [ref=e3529]: (108)
+                      - generic [ref=e3531]: 168,922원
+                      - generic [ref=e3532]: 입장권
+                      - generic [ref=e3534]: 즉시 확정
+            - generic [ref=e3536]: "상품 번호 : 3924498"
+        - generic [ref=e3538]:
+          - generic [ref=e3539]:
+            - generic [ref=e3540]:
+              - generic [ref=e3541]: 쿠폰할인가
+              - generic [ref=e3542]: 132,000원~
+            - generic [ref=e3543]:
+              - generic [ref=e3544]: 5%
+              - generic [ref=e3545]: 125,400원~
+          - button "옵션 선택" [ref=e3546] [cursor=pointer]:
+            - generic [ref=e3547]: 옵션 선택
+    - contentinfo [ref=e3549]:
+      - generic [ref=e3550]:
+        - generic [ref=e3551]:
+          - generic [ref=e3552]:
+            - text: 고객지원실 운영안내
+            - list [ref=e3553]:
+              - listitem [ref=e3554]: 채팅상담 연중무휴 24시간 유선상담 연중무휴 09:00-18:00
+              - listitem [ref=e3555]: 유선상담 1670-8208
+            - button "고객지원실" [ref=e3557]:
+              - button "고객지원실" [ref=e3558] [cursor=pointer]:
+                - generic [ref=e3559]: 고객지원실
+          - generic [ref=e3560]:
+            - generic [ref=e3561]:
+              - text: 소개
+              - list [ref=e3562]:
+                - listitem [ref=e3563]:
+                  - link "회사소개" [ref=e3564] [cursor=pointer]:
+                    - /url: https://about.myrealtrip.com
+                - listitem [ref=e3565]:
+                  - link "채용" [ref=e3566] [cursor=pointer]:
+                    - /url: https://career.myrealtrip.com
+                - listitem [ref=e3567]:
+                  - link "공고" [ref=e3568] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/announcement
+            - generic [ref=e3569]:
+              - text: 파트너
+              - list [ref=e3570]:
+                - listitem [ref=e3571]:
+                  - link "파트너 홈" [ref=e3572] [cursor=pointer]:
+                    - /url: https://partner.myrealtrip.com/welcome
+                - listitem [ref=e3573]:
+                  - link "제휴 문의" [ref=e3574] [cursor=pointer]:
+                    - /url: mailto:partnership@myrealtrip.com
+                - listitem [ref=e3575]:
+                  - link "광고 문의" [ref=e3576] [cursor=pointer]:
+                    - /url: mailto:ad@myrealtrip.com
+            - generic [ref=e3577]:
+              - text: 지원
+              - list [ref=e3578]:
+                - listitem [ref=e3579]:
+                  - link "공지사항" [ref=e3580] [cursor=pointer]:
+                    - /url: https://support.myrealtrip.com/notice
+                - listitem [ref=e3581]:
+                  - link "문의내역" [ref=e3582] [cursor=pointer]:
+                    - /url: https://support.myrealtrip.com/inquiry
+                - listitem [ref=e3583]:
+                  - link "최저가 보장제" [ref=e3584] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/best_price
+        - generic [ref=e3585]:
+          - generic [ref=e3586]:
+            - generic [ref=e3587]:
+              - link "이용 약관" [ref=e3589] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/policyAgreement
+              - link "개인정보 처리방침" [ref=e3591] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/common/privacy
+              - link "취소 및 환불 정책" [ref=e3593] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/common/cancel
+              - link "개발자 센터" [ref=e3595] [cursor=pointer]:
+                - /url: https://docs.myrealtrip.com/#/api/intro
+            - generic [ref=e3596]:
+              - generic [ref=e3597]:
+                - link "icon 페이스북으로 이동하기" [ref=e3599] [cursor=pointer]:
+                  - /url: https://www.facebook.com/myRealTrip
+                  - img "icon" [ref=e3600]
+                  - generic [ref=e3601]: 페이스북으로 이동하기
+                - link "icon 네이버 블로그로 이동하기" [ref=e3603] [cursor=pointer]:
+                  - /url: https://blog.naver.com/myrealtrip
+                  - img "icon" [ref=e3604]
+                  - generic [ref=e3605]: 네이버 블로그로 이동하기
+                - link "icon 인스타그램으로 이동하기" [ref=e3607] [cursor=pointer]:
+                  - /url: https://instagram.com/myrealtrip
+                  - img "icon" [ref=e3608]
+                  - generic [ref=e3609]: 인스타그램으로 이동하기
+                - link "icon 유투브로 이동하기" [ref=e3611] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UC2oeFByIBQjkKXmQjE0U5rQ
+                  - img "icon" [ref=e3612]
+                  - generic [ref=e3613]: 유투브로 이동하기
+              - generic [ref=e3615]:
+                - link "icon" [ref=e3617] [cursor=pointer]:
+                  - /url: https://itunes.apple.com/app/id1141745032
+                  - img "icon" [ref=e3618]
+                - link "icon" [ref=e3620] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.mrt.ducati
+                  - img "icon" [ref=e3621]
+            - button "icon 한국어 icon" [ref=e3623] [cursor=pointer]:
+              - img "icon" [ref=e3624]
+              - generic [ref=e3625]: 한국어
+              - img "icon" [ref=e3626]
+          - generic [ref=e3627]:
+            - paragraph [ref=e3629]:
+              - text: 상호명 (주)마이리얼트립 | 대표 이동건 | 개인정보보호책임자 김형석 | 사업자등록번호 209-81-55339
+              - link "사업자정보확인" [ref=e3631] [cursor=pointer]:
+                - /url: https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2098155339
+              - text: "| 통신판매업신고번호 2019-서울서초-0260 | 관광사업등록번호 : 제2019-3호"
+              - text: 주소 서울특별시 서초구 강남대로 311, 18층 1729호(서초동, 한화생명보험빌딩)
+              - text: 이메일 help@myrealtrip.com | 입점 문의 partnership@myrealtrip.com
+              - text: "마케팅파트너/크리에이터 문의 marketing_partner@myrealtrip.com | 마케팅 문의 marketing@myrealtrip.com | 호스팅 서비스 제공자 : (주)마이리얼트립"
+              - text: "자사는 서울특별시관광협회 공제영업보증보험에 가입되어 있습니다. 영업보증보험: 1.5억원 / 기획여행보증: 2억원"
+              - text: 마이리얼트립은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 상품·거래정보 및 거래에 대하여 책임을 지지않습니다.
+              - text: 부득이한 사정에 의해 확정된 여행일정이 변경되는 경우 여행자의 사전 동의를 받습니다.
+              - text: (주)마이리얼트립이 소유, 운영, 관리하는 웹사이트 및 앱 내의 상품, 판매자 정보, 이벤트 정보, 디자인, UI 등을 포함한 일체의 콘텐츠에 대한 무단 복제, 배포, 전송, 스크래핑 등의 행위는 저작권법 등 관련 법령에 의하여 엄격히 금지됩니다.
+            - button "ISMS-P" [ref=e3633] [cursor=pointer]:
+              - img "ISMS-P" [ref=e3634]
+  - dialog
+  - alert [ref=e3635]

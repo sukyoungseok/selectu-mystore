@@ -1,0 +1,156 @@
+- application [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - iframe [ref=e3]:
+    
+  - banner "메뉴 바" [ref=e4]:
+    - generic [ref=e7]:
+      - link "스프레드시트 홈" [ref=e9] [cursor=pointer]:
+        - /url: https://docs.google.com/spreadsheets/u/0/?authuser=0&usp=sheets_web
+      - generic [ref=e16]:
+        - generic "마이스토어 베타테스터 모집(응답)" [ref=e18]:
+          - generic [ref=e19]:
+            - generic: 마이스토어 베타테스터 모집(응답)
+            - textbox "이름 바꾸기" [ref=e21]: 마이스토어 베타테스터 모집(응답)
+          - generic [ref=e22]:
+            - checkbox "별표" [ref=e24] [cursor=pointer]
+            - button "Drive에 바로가기 추가" [ref=e28] [cursor=pointer]
+            - 'button "문서 상태: 드라이브에 저장됨" [ref=e32]':
+              - generic [ref=e466] [cursor=pointer]: 드라이브에 저장됨
+        - generic [ref=e40]:
+          - button "몇 초 전에 마지막으로 수정했습니다." [ref=e467] [cursor=pointer]
+          - button "모든 댓글 보기" [ref=e46] [cursor=pointer]
+          - button "여기에서 통화에 참여하거나 통화에서 이 탭 발표" [ref=e50] [cursor=pointer]
+          - generic [ref=e55]:
+            - button "공유하기. myRealTrip. 이 그룹에서 링크가 있는 모든 사용자가 열 수 있습니다." [ref=e56] [cursor=pointer]: 공유
+            - button "빠른 공유 작업" [ref=e58] [cursor=pointer]
+          - generic [ref=e61]:
+            - generic:
+              - button "Gemini에 질문" [ref=e64] [cursor=pointer]:
+                - img [ref=e67]
+              - tooltip [ref=e70]: Gemini에 질문
+          - 'button "Google 계정: 석수경 (sukyoung.seok@myrealtrip.com)" [ref=e73] [cursor=pointer]':
+            - img [ref=e74]
+    - generic [ref=e75]:
+      - menubar [ref=e77]:
+        - menuitem "파일" [ref=e78] [cursor=pointer]
+        - menuitem "수정" [ref=e79] [cursor=pointer]
+        - menuitem "보기" [ref=e80] [cursor=pointer]
+        - menuitem "삽입" [ref=e81] [cursor=pointer]
+        - menuitem "서식" [ref=e82] [cursor=pointer]
+        - menuitem "데이터" [ref=e83] [cursor=pointer]
+        - menuitem "도구" [ref=e84] [cursor=pointer]
+        - menuitem "Gemini" [ref=e85] [cursor=pointer]
+        - menuitem "확장 프로그램" [ref=e86] [cursor=pointer]
+        - menuitem "도움말" [ref=e87] [cursor=pointer]
+        - menuitem "접근성" [ref=e88] [cursor=pointer]
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - toolbar "메뉴 검색 (옵션+/)" [ref=e91]:
+            - combobox "메뉴" [ref=e93]
+          - toolbar "기본" [ref=e94]:
+            - button "실행취소 (⌘Z)" [ref=e95] [cursor=pointer]
+            - button "재실행 (⌘Y)" [ref=e100] [cursor=pointer]
+            - button "인쇄 (⌘P)" [ref=e105] [cursor=pointer]
+            - button "서식 복사" [ref=e110] [cursor=pointer]
+            - combobox "확대/축소" [ref=e115] [cursor=pointer]:
+              - option "확대/축소 목록입니다. 100%(이)가 선택되었습니다." [selected] [ref=e118]:
+                - textbox "확대/축소" [ref=e119]: 100%
+            - separator [disabled] [ref=e123]
+            - button "통화 형식" [ref=e124] [cursor=pointer]:
+              - generic [ref=e126]: ₩
+            - button "퍼센트 형식" [ref=e127] [cursor=pointer]:
+              - generic [ref=e129]: "%"
+            - button "소수점 이하 자릿수 감소" [ref=e130] [cursor=pointer]
+            - button "소수점 이하 자릿수 증가" [ref=e135] [cursor=pointer]
+            - button "서식 더보기" [ref=e140] [cursor=pointer]:
+              - generic [ref=e143]: "123"
+            - separator [disabled] [ref=e144]
+            - listbox "글꼴" [ref=e145] [cursor=pointer]:
+              - option "글꼴 목록입니다. 기본값 (Arial)(이)가 선택되었습니다." [selected] [ref=e148]: 기본값 (Arial)
+            - separator [disabled] [ref=e152]
+            - button "글꼴 크기 작게 (⌘+Shift+쉼표)" [ref=e153] [cursor=pointer]
+            - combobox "글꼴 크기" [ref=e158] [cursor=pointer]:
+              - option "글꼴 크기 목록입니다. 10(이)가 선택되었습니다." [selected] [ref=e161]:
+                - textbox "글꼴 크기" [ref=e162]: "10"
+            - button "글꼴 크기 크게 (⌘+Shift+마침표)" [ref=e163] [cursor=pointer]
+            - separator [disabled] [ref=e168]
+            - button "굵게 (⌘B)" [ref=e169] [cursor=pointer]
+            - button "기울임 (⌘I)" [ref=e174] [cursor=pointer]
+            - button "취소선 (⌘+Shift+X)" [ref=e179] [cursor=pointer]
+            - button "텍스트 색상" [ref=e184] [cursor=pointer]
+            - separator [disabled] [ref=e191]
+            - button "채우기 색상" [ref=e192] [cursor=pointer]
+            - button "테두리" [ref=e199] [cursor=pointer]
+            - button "셀 병합" [disabled] [ref=e205]
+            - button "병합 유형 선택" [disabled] [ref=e210]
+            - separator [disabled] [ref=e216]
+            - button "가로 맞춤" [ref=e217] [cursor=pointer]
+            - button "세로 맞춤" [ref=e226] [cursor=pointer]
+            - button "텍스트 줄바꿈" [ref=e235] [cursor=pointer]
+            - button "텍스트 회전" [ref=e244] [cursor=pointer]
+            - separator [disabled] [ref=e253]
+            - button "링크 삽입 (⌘K)" [ref=e254] [cursor=pointer]
+            - button "댓글 삽입 (⌘+옵션+M)" [ref=e259] [cursor=pointer]
+            - button "차트 삽입" [ref=e264] [cursor=pointer]
+            - button "필터 만들기" [ref=e468] [cursor=pointer]
+            - button "필터 보기" [ref=e274] [cursor=pointer]
+            - button "함수" [ref=e283] [cursor=pointer]
+            - separator [disabled] [ref=e289]
+            - button "입력 도구 (⌘+Shift+K)" [ref=e290] [cursor=pointer]
+            - button "입력 도구 선택 (⌘+옵션+Shift+K)" [ref=e295] [cursor=pointer]
+        - toolbar "모드 및 보기" [ref=e301]:
+          - button "메뉴 숨기기 (Ctrl+Shift+F)" [ref=e302] [cursor=pointer]
+    - generic [ref=e307]:
+      - complementary "측면 패널" [ref=e308]:
+        - tablist [ref=e310]:
+          - tab "Calendar"
+          - tab "Keep"
+          - tab "할 일 목록"
+          - tab "주소록"
+          - tab "지도"
+          - separator [disabled] [ref=e316]
+          - tab "부가기능 설치하기"
+      - generic:
+        - button "측면 패널 숨기기":
+          - img [ref=e319] [cursor=pointer]
+    - generic [ref=e324]:
+      - generic "이름 상자 (⌘ + J)" [ref=e325]:
+        - textbox [ref=e326]: A1
+        - button "이름 상자 메뉴 버튼입니다. 메뉴 항목 중 하나를 선택하여 해당하는 이름이 지정된 범위로 이동하세요." [ref=e328] [cursor=pointer]
+      - textbox [ref=e341]
+  - navigation "시트 탭 바" [ref=e387]:
+    - toolbar [ref=e388]:
+      - button "시트 추가" [ref=e389] [cursor=pointer]
+      - button "모든 시트" [ref=e394] [cursor=pointer]
+    - toolbar [ref=e401]:
+      - button "신청 현황" [ref=e502] [cursor=pointer]:
+        - generic [ref=e508]: 신청 현황
+      - button "시트5" [ref=e512]:
+        - generic [ref=e516]: 시트5
+      - button "컨택 현황" [ref=e520] [cursor=pointer]:
+        - generic [ref=e524]: 컨택 현황
+      - button "최종 리스트" [ref=e528] [cursor=pointer]:
+        - generic [ref=e532]: 최종 리스트
+      - button "마이링크 현황" [ref=e536] [cursor=pointer]:
+        - generic [ref=e540]: 마이링크 현황
+      - button "마이링크 코드 추출" [ref=e544] [cursor=pointer]:
+        - generic [ref=e548]: 마이링크 코드 추출
+      - button "데이터 원본 추출" [ref=e552] [cursor=pointer]:
+        - generic [ref=e556]: 데이터 원본 추출
+    - toolbar [ref=e452]
+  - generic [ref=e453]:
+    - textbox [active]
+  - textbox [ref=e454]
+  - region
+  - region [ref=e455]:
+    - generic [ref=e456]: 스크린 리더 지원이 사용 설정되었습니다.
+    - generic [ref=e457]: 6개의 표시되는 시트입니다. 첫 3개의 시트는 신청 현황, 컨택 현황, 최종 리스트입니다
+    - generic [ref=e458]: 이 데이터에 Gemini 요약을 사용할 수 있습니다. 확인하려면 Control + Command + S를 누르세요.
+    - generic [ref=e459]: 타임스탬프 필터 드롭다운 있음 셀 A1
+    - generic [ref=e460]: 필터링된 영역 A1부터 M48까지에 들어갔습니다.
+    - generic [ref=e461]: 고정된 행 내부
+    - generic [ref=e560]: 시트5 시트가 활성화됨. 1000개 행, 26개 열
+    - generic [ref=e561]: 이 데이터에 사용할 수 있는 Gemini 요약이 없습니다.
+    - generic [ref=e562]: 표 미리보기가 닫혔습니다.
+    - generic [ref=e563]: 시트 시트5(이)가 추가되었습니다.

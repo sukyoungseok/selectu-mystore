@@ -1,0 +1,2 @@
+[     953ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://www.myrealtrip.com/main/experiences?city=%EB%A1%9C%EB%A7%88&category=all:0
+[    2456ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://o249654.ingest.us.sentry.io/api/4509320389394432/envelope/?sentry_key=a591a199589fcbf52039831040ab2905&sentry_version=7&sentry_client=sentry.javascript.nextjs%2F7.102.1:0

@@ -1,0 +1,15 @@
+{
+  "active": false,
+  "current_phase": "completed",
+  "interview_id": "di-mystore-referral-2026-05-13",
+  "final_ambiguity": "0.20",
+  "spec_path": ".omc/specs/deep-interview-mystore-referral.md",
+  "rounds_completed": "7",
+  "status": "PASSED",
+  "_meta": {
+    "mode": "deep-interview",
+    "sessionId": null,
+    "updatedAt": "2026-05-13T09:18:24.759Z",
+    "updatedBy": "state_write_tool"
+  }
+}

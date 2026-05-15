@@ -1,0 +1,81 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - banner [ref=e7]:
+        - button [ref=e10] [cursor=pointer]:
+          - img [ref=e11]
+        - button [ref=e16] [cursor=pointer]:
+          - img [ref=e17]
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - heading "𓊆ྀི❤︎𓊇ྀི - 나연 1amny 의 특가 정보방" [level=1] [ref=e25]
+          - paragraph [ref=e26]:
+            - text: 여행 정보 외에도 할인 프로모션, 엄선된 마켓,
+            - text: 이벤트 신청, 특가 공유 등등 알려드리는 곳이에오 ..*.｡
+        - generic [ref=e27]:
+          - link [ref=e28] [cursor=pointer]:
+            - /url: https://instagram.com/1amny
+            - img [ref=e29]
+          - link [ref=e31] [cursor=pointer]:
+            - /url: mailto:travelnayeon@naver.com
+            - img [ref=e32]
+        - button "비즈니스 제안" [ref=e35] [cursor=pointer]:
+          - img [ref=e36]
+          - generic [ref=e39]: 비즈니스 제안
+      - generic [ref=e40]:
+        - generic [ref=e42]:
+          - textbox "검색어를 입력해주세요." [ref=e43]
+          - img [ref=e45]
+        - link "사비 이벤트 파크 하얏트 부산 X 나연 마켓 구매자 전용 이벤트 신청서" [ref=e49] [cursor=pointer]:
+          - /url: https://naver.me/GjyFkuXi
+          - generic [ref=e51]:
+            - generic [ref=e54]: 사비 이벤트
+            - paragraph [ref=e55]: 파크 하얏트 부산 X 나연 마켓 구매자 전용 이벤트 신청서
+        - paragraph [ref=e59]: 🎫 여행 티켓 • 투어 예약 링크
+        - link "여행정보•꿀팁 광고X 해외여행 각종 할인 • 투어 • 티켓 예약하기" [ref=e62] [cursor=pointer]:
+          - /url: https://myrealt.rip/SQE915
+          - generic [ref=e64]:
+            - generic [ref=e65]:
+              - generic [ref=e67]: 여행정보•꿀팁
+              - generic [ref=e69]: 광고X
+            - paragraph [ref=e70]: 해외여행 각종 할인 • 투어 • 티켓 예약하기
+        - link "할인코드 AMNY3 에어알로 해외 이심 할인받고 구매하기" [ref=e73] [cursor=pointer]:
+          - /url: https://try.airalo.com/amny3
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - generic [ref=e78]: 할인코드
+              - generic [ref=e80]: AMNY3
+            - paragraph [ref=e81]: 에어알로 해외 이심 할인받고 구매하기
+        - paragraph [ref=e85]: 📔여행 총정리 파일
+        - link "방콕 여행 정보 총정리 가이드북 A to Z 무료배포 바로열람가능 방콕 여행 정보 총정리 가이드북" [ref=e88] [cursor=pointer]:
+          - /url: https://www.notion.so/A-to-Z-2c9a396f5f77800c96e4e3c63373a26a?source=copy_link
+          - generic [ref=e89]:
+            - img "방콕 여행 정보 총정리 가이드북" [ref=e91]
+            - generic [ref=e92]:
+              - generic [ref=e93]:
+                - generic [ref=e95]: A to Z
+                - generic [ref=e97]: 무료배포
+                - generic [ref=e99]: 바로열람가능
+              - paragraph [ref=e100]: 방콕 여행 정보 총정리 가이드북
+        - paragraph [ref=e104]: 📂 마켓 구매 이후 고객센터 CS 문의
+        - link "구매자전용 삿포로 마켓 CS 문의 링크" [ref=e107] [cursor=pointer]:
+          - /url: https://myrealtrip.channel.io/home?fbclid=PAVERFWAO8L-BleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAad7H9bdOXROPfSNreLJyfhxh48V_6MxuBjOUBvnFVqora6fPyEqzsiRH7rHcQ_aem_hZ4HLBoz2RslWI-Lm0T4lw
+          - generic [ref=e109]:
+            - generic [ref=e112]: 구매자전용
+            - paragraph [ref=e113]: 삿포로 마켓 CS 문의 링크
+        - link "구매자전용 방콕 CS 문의 링크" [ref=e116] [cursor=pointer]:
+          - /url: https://mweb.prizm.co.kr/cs/faq?sectionId=&type=&orderId=&optionId=&exportId=
+          - generic [ref=e118]:
+            - generic [ref=e121]: 구매자전용
+            - paragraph [ref=e122]: 방콕 CS 문의 링크
+        - link "구매자전용 호텔나루 CS 문의 링크" [ref=e125] [cursor=pointer]:
+          - /url: https://myrealtrip.channel.io/home?fbclid=PAVERFWAO8L-BleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAad7H9bdOXROPfSNreLJyfhxh48V_6MxuBjOUBvnFVqora6fPyEqzsiRH7rHcQ_aem_hZ4HLBoz2RslWI-Lm0T4lw
+          - generic [ref=e127]:
+            - generic [ref=e130]: 구매자전용
+            - paragraph [ref=e131]: 호텔나루 CS 문의 링크
+        - paragraph [ref=e143]: "🏷️ 협업 제안 : travelnayeon@naver.com"
+    - generic:
+      - generic:
+        - img
+      - generic: 모바일로 보기
+  - alert [ref=e144]

@@ -1,0 +1,112 @@
+[     114ms] [WARNING]  [33m[1m⚠[22m[39m Runtime config is deprecated and will be removed in Next.js 16. Please remove the usage of "next/config" from your project. @ https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:29
+[     162ms] [WARNING] Failed to encode session data: InvalidCharacterError: Failed to execute 'btoa' on 'Window': The string to be encoded contains characters outside of the Latin1 range.
+    at https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:1:75779
+    at a (https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:1:75914)
+    at j (https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:30:490104)
+    at af (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:66395)
+    at i (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:127255)
+    at uR (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:106932)
+    at uM (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:106802)
+    at uw (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:101875)
+    at x (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:138634)
+    at MessagePort.L (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:139164) @ https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:0
+[     162ms] [WARNING] Failed to encode session data: InvalidCharacterError: Failed to execute 'btoa' on 'Window': The string to be encoded contains characters outside of the Latin1 range.
+    at https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:1:75779
+    at a (https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:1:75914)
+    at x (https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:13:861924)
+    at af (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:66395)
+    at i (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:127255)
+    at uR (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:106932)
+    at uM (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:106802)
+    at uw (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:101875)
+    at x (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:138634)
+    at MessagePort.L (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:139164) @ https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:0
+[     173ms] [WARNING] Failed to encode session data: InvalidCharacterError: Failed to execute 'btoa' on 'Window': The string to be encoded contains characters outside of the Latin1 range.
+    at https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:1:75779
+    at a (https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:1:75914)
+    at j (https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:30:490104)
+    at af (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:66395)
+    at of (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:80690)
+    at i (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:128150)
+    at uR (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:106932)
+    at uM (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:106802)
+    at uw (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:101875)
+    at x (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:138634) @ https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:0
+[     173ms] [WARNING] Failed to encode session data: InvalidCharacterError: Failed to execute 'btoa' on 'Window': The string to be encoded contains characters outside of the Latin1 range.
+    at https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:1:75779
+    at a (https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:1:75914)
+    at x (https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:13:861924)
+    at af (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:66395)
+    at of (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:80690)
+    at i (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:128150)
+    at uR (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:106932)
+    at uM (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:106802)
+    at uw (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:101875)
+    at x (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:138634) @ https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:0
+[     176ms] [WARNING] Failed to encode session data: InvalidCharacterError: Failed to execute 'btoa' on 'Window': The string to be encoded contains characters outside of the Latin1 range.
+    at https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:1:75779
+    at a (https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:1:75914)
+    at j (https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:30:490104)
+    at af (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:66395)
+    at of (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:80690)
+    at i (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:128150)
+    at uR (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:106932)
+    at uM (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:106802)
+    at uw (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:101875)
+    at x (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:138634) @ https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:0
+[     177ms] [WARNING] Failed to encode session data: InvalidCharacterError: Failed to execute 'btoa' on 'Window': The string to be encoded contains characters outside of the Latin1 range.
+    at https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:1:75779
+    at a (https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:1:75914)
+    at x (https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:13:861924)
+    at af (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:66395)
+    at of (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:80690)
+    at i (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:128150)
+    at uR (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:106932)
+    at uM (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:106802)
+    at uw (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:101875)
+    at x (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:138634) @ https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:0
+[     180ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://ciam.linktr.ee/v1/auth/try-refresh?dcs=f&dcr=f:0
+[     183ms] [WARNING] Failed to encode session data: InvalidCharacterError: Failed to execute 'btoa' on 'Window': The string to be encoded contains characters outside of the Latin1 range.
+    at https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:1:75779
+    at a (https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:1:75914)
+    at j (https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:30:490104)
+    at af (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:66395)
+    at of (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:80690)
+    at i (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:128150)
+    at uR (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:106932)
+    at uM (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:106802)
+    at uw (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:101875)
+    at x (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:138634) @ https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:0
+[     184ms] [WARNING] Failed to encode session data: InvalidCharacterError: Failed to execute 'btoa' on 'Window': The string to be encoded contains characters outside of the Latin1 range.
+    at https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:1:75779
+    at a (https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:1:75914)
+    at x (https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:13:861924)
+    at af (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:66395)
+    at of (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:80690)
+    at i (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:128150)
+    at uR (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:106932)
+    at uM (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:106802)
+    at uw (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:101875)
+    at x (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:138634) @ https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:0
+[     186ms] [WARNING] Failed to encode session data: InvalidCharacterError: Failed to execute 'btoa' on 'Window': The string to be encoded contains characters outside of the Latin1 range.
+    at https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:1:75779
+    at a (https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:1:75914)
+    at j (https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:30:490104)
+    at af (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:66395)
+    at of (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:80690)
+    at i (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:128150)
+    at uR (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:106932)
+    at uM (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:106802)
+    at uw (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:101875)
+    at x (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:138634) @ https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:0
+[     186ms] [WARNING] Failed to encode session data: InvalidCharacterError: Failed to execute 'btoa' on 'Window': The string to be encoded contains characters outside of the Latin1 range.
+    at https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:1:75779
+    at a (https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:1:75914)
+    at x (https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:13:861924)
+    at af (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:66395)
+    at of (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:80690)
+    at i (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:128150)
+    at uR (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:106932)
+    at uM (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:106802)
+    at uw (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:101875)
+    at x (https://assets.production.linktr.ee/profiles/_next/static/chunks/framework-2278e184321f6976.js:1:138634) @ https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:0

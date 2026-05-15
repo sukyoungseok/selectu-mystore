@@ -1,0 +1,16 @@
+[     451ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://dffoxz5he03rp.cloudfront.net/partner-build/production/js/mrt-partner.32724011d5d76811.js:13595
+[     543ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.googleapis.com/maps/api/js?key=AIzaSyBt57Q2gXP1BbvXLP5EcMba8n1rqrM-IWw&libraries=places&callback=Function.prototype:1520
+[  331625ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://api3-backoffice.myrealtrip.com/partner/v1/partners:0
+[  332001ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://api3-backoffice.myrealtrip.com/partner/v1/document:0
+[  332002ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://api3-backoffice.myrealtrip.com/partner/v1/marketing/announcements:0
+[  332025ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://api3-backoffice.myrealtrip.com/partner/v1/sign-in/available-partners:0
+[  332025ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://api3-backoffice.myrealtrip.com/settle-v2/api/v1/partner/settlement-configs:0
+[53606553ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://dffoxz5he03rp.cloudfront.net/partner-build/production/js/mrt-partner.32724011d5d76811.js:13595
+[53672919ms] [ERROR] Error during sign out: MrtAxiosException: Network Error
+    at d.onerror (https://dffoxz5he03rp.cloudfront.net/partner-build/production/js/mrt-partner.32724011d5d76811.js:14110:53691)
+    at XMLHttpRequest.a (https://dffoxz5he03rp.cloudfront.net/partner-build/production/js/mrt-partner.32724011d5d76811.js:13580:70717) @ https://dffoxz5he03rp.cloudfront.net/partner-build/production/js/mrt-partner.32724011d5d76811.js:13595
+[53672920ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://api3-backoffice.myrealtrip.com/partner/v1/sign-out:0
+[53673061ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://api3-backoffice.myrealtrip.com/popup-v1/partners:0
+[53673143ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://api3-backoffice.myrealtrip.com/partner/v1/partners:0
+[53708951ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.googleapis.com/maps/api/js?key=AIzaSyBt57Q2gXP1BbvXLP5EcMba8n1rqrM-IWw&libraries=places&callback=Function.prototype:1526
+[53709390ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://partner.myrealtrip.com/signin?return_to=%2Fpartnership-marketing%2Flink-generator:0

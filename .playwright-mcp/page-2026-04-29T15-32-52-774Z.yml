@@ -1,0 +1,465 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - link "본문 바로가기":
+      - /url: "#ct"
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - heading "블로그" [level=1] [ref=e4]:
+        - link "블로그" [ref=e5] [cursor=pointer]:
+          - /url: /Recommendation.naver
+          - generic [ref=e6]: 블로그
+      - heading "카테고리 이동 스마일리의 여행비법노트" [level=2] [ref=e7]:
+        - generic [ref=e8]:
+          - link "카테고리 이동" [ref=e10] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e11]: 카테고리 이동
+          - link "스마일리의 여행비법노트" [ref=e13] [cursor=pointer]:
+            - /url: /PostList.naver?blogId=smilelee_design
+            - generic [ref=e14]: 스마일리의 여행비법노트
+    - generic [ref=e15]:
+      - link "검색" [ref=e16] [cursor=pointer]:
+        - /url: /PostSearchList.naver?blogId=smilelee_design
+        - generic [ref=e17]: 검색
+      - button "MY메뉴 열기" [ref=e18] [cursor=pointer]:
+        - generic [ref=e19]: MY메뉴 열기
+  - main [ref=e21]:
+    - generic [ref=e24]:
+      - generic [ref=e27]:
+        - link "[블챌] 스페셜 포토덤프" [ref=e29] [cursor=pointer]:
+          - /url: /PostList.naver?blogId=smilelee_design&categoryNo=27&logCode=0&categoryName=%5B%EB%B8%94%EC%B1%8C%5D+%EC%8A%A4%ED%8E%98%EC%85%9C+%ED%8F%AC%ED%86%A0%EB%8D%A4%ED%94%84#postlist_block
+        - paragraph [ref=e31]:
+          - generic [ref=e32]: 나트랑 4박5일 전체일정 공유
+        - generic [ref=e33]:
+          - link "프로필" [ref=e34] [cursor=pointer]:
+            - /url: /PostList.naver?blogId=smilelee_design
+            - img "프로필" [ref=e36]
+          - generic [ref=e37]:
+            - link "smileLEE" [ref=e39] [cursor=pointer]:
+              - /url: /PostList.naver?blogId=smilelee_design
+              - strong [ref=e40]: smileLEE
+            - paragraph [ref=e41]: 2024. 10. 10. 8:35
+        - generic [ref=e42]:
+          - link "이웃추가" [ref=e43] [cursor=pointer]:
+            - /url: "#"
+            - text: 이웃추가
+          - button "본문 기타 기능" [ref=e46] [cursor=pointer]:
+            - generic [ref=e47]: 본문 기타 기능
+      - link "위치 냐짱" [ref=e50] [cursor=pointer]:
+        - /url: https://www.google.com/maps/search/?api=1&query=냐짱&query_place_id=ChIJb4jMEXhncDERudweqAq8S1w
+        - generic [ref=e51]: 위치
+        - text: 냐짱
+      - generic [ref=e52]:
+        - link [ref=e57] [cursor=pointer]:
+          - /url: "#"
+        - generic [ref=e61]:
+          - paragraph [ref=e62]:
+            - generic [ref=e63]: 나트랑 여행준비
+          - paragraph [ref=e64]:
+            - generic [ref=e65]: 4박5일 일정공유
+          - paragraph [ref=e66]: "< 글, 사진 : SmileLee >"
+          - paragraph [ref=e67]
+          - paragraph [ref=e68]: 한국인이 가장 사랑하는 휴양지 1위에 선정된 나트랑
+          - paragraph [ref=e69]: 오죽하면 경기도 나트랑시라고 할정도로
+          - paragraph [ref=e70]: 여행지 곳곳마다 한국인들이 많았어요
+          - paragraph [ref=e71]
+          - paragraph [ref=e72]: 4박5일 동안 일정을 꼼꼼히 계획하면서
+          - paragraph [ref=e73]: 실제로 좋았던 점이나 아쉬웠던 점
+          - paragraph [ref=e74]: 솔직한 후기로 알려드릴게요
+          - paragraph [ref=e75]
+          - paragraph [ref=e76]:
+            - text: 오늘은
+            - generic [ref=e78]: 나트랑 4박5일 전체일정
+          - paragraph [ref=e79]: 관련 자세한 정보 알려드릴게요!
+          - paragraph [ref=e80]
+        - separator [ref=e85]
+        - paragraph [ref=e90]:
+          - generic [ref=e91]: ✏️오늘의 여행지
+        - link [ref=e96] [cursor=pointer]:
+          - /url: "#"
+        - generic [ref=e100]:
+          - paragraph [ref=e101]: 📌
+          - paragraph [ref=e102]: 나트랑 | 일정공유
+          - paragraph [ref=e103]:
+            - generic [ref=e104]: 4박5일 전체일정
+        - link [ref=e109] [cursor=pointer]:
+          - /url: "#"
+        - blockquote [ref=e113]:
+          - paragraph [ref=e115]: 전체일정 간략소개
+        - generic [ref=e119]:
+          - link [ref=e121] [cursor=pointer]:
+            - /url: "#"
+          - link [ref=e123] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e127]:
+          - link [ref=e129] [cursor=pointer]:
+            - /url: "#"
+          - link [ref=e131] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e135]:
+          - paragraph [ref=e136]:
+            - generic [ref=e137]: 전체일정
+          - paragraph [ref=e138]
+          - paragraph [ref=e139]:
+            - generic [ref=e140]: ✔️1일차
+          - list [ref=e141]:
+            - listitem [ref=e142]:
+              - paragraph [ref=e143]: 인천국제공항 비엣젯항공 출발 (06:15 ~ 09:10)
+            - listitem [ref=e144]:
+              - paragraph [ref=e145]: 판랑사막투어 (10:00 ~ 19:00)
+            - listitem [ref=e146]:
+              - paragraph [ref=e147]: 아미아나리조트 체크인
+            - listitem [ref=e148]:
+              - paragraph [ref=e149]: 그랩 배달로 저녁
+            - listitem [ref=e150]:
+              - paragraph [ref=e151]: 아미아나리조트 산책
+          - paragraph [ref=e152]
+          - paragraph [ref=e153]:
+            - generic [ref=e154]: ✔️2일차
+          - list [ref=e155]:
+            - listitem [ref=e156]:
+              - paragraph [ref=e157]: 아미아나리조트 조식
+            - listitem [ref=e158]:
+              - paragraph [ref=e159]: 아미아나리조트 수영 & 스노쿨링
+            - listitem [ref=e160]:
+              - paragraph [ref=e161]: 김청&김빈 현지환전
+            - listitem [ref=e162]:
+              - paragraph [ref=e163]: 안토이 점심
+            - listitem [ref=e164]:
+              - paragraph [ref=e165]: 나트랑대성당
+            - listitem [ref=e166]:
+              - paragraph [ref=e167]: 롱선사
+            - listitem [ref=e168]:
+              - paragraph [ref=e169]: 웰스파 마사지
+            - listitem [ref=e170]:
+              - paragraph [ref=e171]: CCCP 카페
+            - listitem [ref=e172]:
+              - paragraph [ref=e173]: 침향탑 및 야시장 구경
+            - listitem [ref=e174]:
+              - paragraph [ref=e175]: 아미아나리조트 저녁 그랩배달
+          - paragraph [ref=e176]
+          - paragraph [ref=e177]:
+            - generic [ref=e178]: ✔️3일차
+          - list [ref=e179]:
+            - listitem [ref=e180]:
+              - paragraph [ref=e181]: 아미아나리조트 조식
+            - listitem [ref=e182]:
+              - paragraph [ref=e183]: 아미아나리조트 스노쿨링
+            - listitem [ref=e184]:
+              - paragraph [ref=e185]: 아미아나리조트 머드스파
+            - listitem [ref=e186]:
+              - paragraph [ref=e187]: 씀모이가든 점심
+            - listitem [ref=e188]:
+              - paragraph [ref=e189]: 담시장
+            - listitem [ref=e190]:
+              - paragraph [ref=e191]: 포나가르 사원
+            - listitem [ref=e192]:
+              - paragraph [ref=e193]: 혼총곶
+            - listitem [ref=e194]:
+              - paragraph [ref=e195]: 미아리조트 체크인
+            - listitem [ref=e196]:
+              - paragraph [ref=e197]: 미아리조트 저녁 레스토랑
+          - paragraph [ref=e198]
+          - paragraph [ref=e199]:
+            - generic [ref=e200]: ✔️4일차
+          - list [ref=e201]:
+            - listitem [ref=e202]:
+              - paragraph [ref=e203]: 미아리조트 조식
+            - listitem [ref=e204]:
+              - paragraph [ref=e205]: 빈원더스 테마파크 온종일
+            - listitem [ref=e206]:
+              - paragraph [ref=e207]: 미아리조트 룸서비스 저녁
+          - paragraph [ref=e208]
+          - paragraph [ref=e209]:
+            - generic [ref=e210]: ✔️5일차
+          - list [ref=e211]:
+            - listitem [ref=e212]:
+              - paragraph [ref=e213]: 미아리조트 조식
+            - listitem [ref=e214]:
+              - paragraph [ref=e215]: 미아리조트 나트랑이발관
+            - listitem [ref=e216]:
+              - paragraph [ref=e217]: 롯데마트 골드코스트
+            - listitem [ref=e218]:
+              - paragraph [ref=e219]: 깜란공항 저녁
+            - listitem [ref=e220]:
+              - paragraph [ref=e221]: 깜란공항 비엣젯항공 출발
+          - paragraph [ref=e222]
+          - paragraph [ref=e223]
+          - paragraph [ref=e224]
+        - blockquote [ref=e228]:
+          - paragraph [ref=e230]: 개별일정 간략소개
+        - generic [ref=e234]:
+          - link [ref=e236] [cursor=pointer]:
+            - /url: "#"
+          - link [ref=e238] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e242]:
+          - link [ref=e244] [cursor=pointer]:
+            - /url: "#"
+          - link [ref=e246] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e250]:
+          - paragraph [ref=e251]:
+            - generic [ref=e252]: 판랑사막투어
+          - paragraph [ref=e253]
+          - paragraph [ref=e254]: 나트랑에서 진행할 수 있는 사막투어는 총 2가지
+          - paragraph [ref=e255]:
+            - generic [ref=e256]: 판랑사막투어와 무이네사막투어가 있다
+          - paragraph [ref=e257]
+          - paragraph [ref=e258]: 무이네사막은 나트랑 시내에서 편도 4시간 거리,
+          - paragraph [ref=e259]:
+            - generic [ref=e261]: 판랑사막은 편도 2시간 거리
+            - text: 에 위치해있다
+          - paragraph [ref=e262]: 사막의 규모 자체는 무이네가 크지만
+          - paragraph [ref=e263]: 체력소모가 크기 때문에 판랑사막을 선택했다
+          - paragraph [ref=e264]
+          - paragraph [ref=e265]: 판랑사막투어라고 해서 사막만 가는 것은 아니고
+          - paragraph [ref=e266]: 가는 동선에 여러 관광지를 비치하여
+          - paragraph [ref=e267]: 여행의 '지루함'을 어느정도 해소시켰다
+          - paragraph [ref=e268]
+        - link [ref=e273] [cursor=pointer]:
+          - /url: "#"
+        - generic [ref=e277]:
+          - paragraph [ref=e278]: 투어의 코스는 여행사마다 다르겠지만
+          - paragraph [ref=e279]: 비슷하게 진행이 되는 것 같았다
+          - paragraph [ref=e280]
+          - paragraph [ref=e281]: 가이드분이 스냅사진도 열심히 찍어주시고
+          - paragraph [ref=e282]: 간식과 음료도 틈틈히 챙겨주셔서 좋았다
+          - paragraph [ref=e283]: 혹시, 투어사가 궁금하신 분들은 댓글로!
+          - paragraph [ref=e284]
+          - paragraph [ref=e285]
+        - link [ref=e290] [cursor=pointer]:
+          - /url: "#"
+        - generic [ref=e294]:
+          - link [ref=e296] [cursor=pointer]:
+            - /url: "#"
+          - link [ref=e298] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e302]:
+          - paragraph [ref=e303]:
+            - generic [ref=e304]: 아미아나리조트
+          - paragraph [ref=e305]
+          - paragraph [ref=e306]: 아미아나리조트를 선택한 이유는 총 3가지이다
+          - paragraph [ref=e307]
+          - paragraph [ref=e308]:
+            - generic [ref=e309]: ✔️첫번째는 대규모 조식 레스토랑
+          - paragraph [ref=e310]: 넓은 규모의 레스토랑이라 쾌적하고
+          - paragraph [ref=e311]: 베트남 전통음식과 동,서양 다양한 종류의 음식
+          - paragraph [ref=e312]: 무한리필 생과일주스와 베트남 커피를 즐길 수 있다
+          - paragraph [ref=e313]
+          - paragraph [ref=e314]:
+            - generic [ref=e315]: ✔️두번째는 수영장과 스노쿨링
+          - paragraph [ref=e316]: 아미아나리조트는 담수 2개, 해수 1개의 수영장이 있다
+          - paragraph [ref=e317]: 게다가 리조트 앞에 스노쿨링 할 수 있는 바다가 있어
+          - paragraph [ref=e318]: 물고기와 유영을 즐겨주면 된다
+          - paragraph [ref=e319]
+        - generic [ref=e323]:
+          - link [ref=e325] [cursor=pointer]:
+            - /url: "#"
+          - link [ref=e327] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e331]:
+          - paragraph [ref=e332]:
+            - generic [ref=e333]: ✔️세번째는 프라이빗 머드스파
+          - paragraph [ref=e334]: 리조트 내에 예약제로 이용가능한 머드스파로 프라이빗하게 이용할 수 있다.
+          - paragraph [ref=e335]: 웰컴티와 과자, 샤워실도 구비되어 있어 이색적인 체험을 좋아하는 분들이라면 강추!
+          - paragraph [ref=e336]
+          - paragraph [ref=e337]
+        - link [ref=e342] [cursor=pointer]:
+          - /url: "#"
+        - link [ref=e347] [cursor=pointer]:
+          - /url: "#"
+        - generic [ref=e351]:
+          - paragraph [ref=e352]:
+            - generic [ref=e353]: 미아리조트
+          - paragraph [ref=e354]
+          - paragraph [ref=e355]: 아미아나리조트가 한국인으로 가득했다면
+          - paragraph [ref=e356]: 미아리조트는 한국인이 거의 없는 리조트였다
+          - paragraph [ref=e357]
+          - paragraph [ref=e358]: 시내에서도 제법 떨어진 거리에 위치해있어
+          - paragraph [ref=e359]: 리조트 내 휴양만을 원할 때 좋은 선택지가 될 수 있다
+          - paragraph [ref=e360]
+          - paragraph [ref=e361]: 아미아나리조트에 비해
+          - paragraph [ref=e362]: 조식의 규모와 퀄리티도 아쉬웠고
+          - paragraph [ref=e363]: 가든뷰 객실도 조명이나 방음 부문에서 실망스러웠다
+          - paragraph [ref=e364]
+          - paragraph [ref=e365]: 개인적으로 미아리조트는
+          - paragraph [ref=e366]: 가든뷰보단 무조건 오션뷰 객실을 추천한다
+          - paragraph [ref=e367]
+          - paragraph [ref=e368]
+        - generic [ref=e372]:
+          - link [ref=e374] [cursor=pointer]:
+            - /url: "#"
+          - link [ref=e376] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e380]:
+          - paragraph [ref=e381]:
+            - generic [ref=e382]: 시내환전
+          - paragraph [ref=e383]
+          - paragraph [ref=e384]:
+            - text: 나트랑 현지 환전으로 유명한
+            - generic [ref=e385]: 김청과 김빈
+          - paragraph [ref=e386]: 5만원권보다는 달러가 환전에 유리했다
+          - paragraph [ref=e387]
+          - paragraph [ref=e388]: 김청과 김빈 방문하는 날에따라
+          - paragraph [ref=e389]: 환율이 다르기 때문에 꼭 비교필수
+          - paragraph [ref=e390]:
+            - generic [ref=e392]: 별차이는 없고 100달러당 1000동 차이난다
+          - paragraph [ref=e393]: 길하나 건너편에 두고있어 자매결연 아닌가싶기도..
+          - paragraph [ref=e394]
+          - paragraph [ref=e395]: 한국에서 환전하는 것에 비해서는
+          - paragraph [ref=e396]: 현지 환전이 금액을 더 잘쳐주지만
+          - paragraph [ref=e397]: 유의해야할 사항이 있다
+          - paragraph [ref=e398]
+          - paragraph [ref=e399]:
+            - generic [ref=e400]: 김청과 김빈은 환전소가 아닌 금은방
+            - text: 으로
+          - paragraph [ref=e401]: 베트남 정부에서 공식적으로 인정한 환전소가 아니다
+          - paragraph [ref=e402]: 현장적발 시 금액이 적으면 경고조치로 끝이나
+          - paragraph [ref=e403]: 금액이 많으면 벌금을 내야하는 상황이 올 수도있음
+          - paragraph [ref=e404]: "* 금액의 기준은 1,000달러"
+          - paragraph [ref=e405]
+          - paragraph [ref=e406]: 그럼에도 불구하고 많은 관광객들이
+          - paragraph [ref=e407]: 환전을 하고 있으며
+          - paragraph [ref=e408]: 마침 달러가 있어, 현지에서 환전해갔다ㅎㅎ
+          - paragraph [ref=e409]
+          - paragraph [ref=e410]
+        - generic [ref=e414]:
+          - link [ref=e416] [cursor=pointer]:
+            - /url: "#"
+          - link [ref=e418] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e422]:
+          - link [ref=e424] [cursor=pointer]:
+            - /url: "#"
+          - link [ref=e426] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e430]:
+          - paragraph [ref=e431]:
+            - generic [ref=e432]: 맛집정복
+          - paragraph [ref=e433]
+          - paragraph [ref=e434]: 나트랑 물가가 비교적 저렴하기때문에
+          - paragraph [ref=e435]: 맛있는거 왕창 먹고 와야 이득!
+          - paragraph [ref=e436]
+          - paragraph [ref=e437]: 바닷가에 위치한 포시즌레스토랑부터
+          - paragraph [ref=e438]: 시내 맛집 안토이, 씀모이가든
+          - paragraph [ref=e439]: 미아리조트 저녁 레스토랑 등등
+          - paragraph [ref=e440]
+          - paragraph [ref=e441]: 베트남을 여러번 다녀와서 체득한거지만
+          - paragraph [ref=e442]:
+            - generic [ref=e443]: 시내에 위치한 식당들이 저렴하고 오히려 더 맛있다
+          - paragraph [ref=e444]: 구글 지도에서 평점이랑 리뷰 많은 곳들
+          - paragraph [ref=e445]: 왠만하면 다 맛있으니 폭풍 탐색 고고
+          - paragraph [ref=e446]
+          - paragraph [ref=e447]:
+            - text: 또한
+            - generic [ref=e449]: 베트남은 그랩 배달이 워낙 활성화
+            - text: 되어있어서
+          - paragraph [ref=e450]: 리조트 내에서 배달시켜먹는 사람들도 많다
+          - paragraph [ref=e451]
+          - paragraph [ref=e452]
+        - generic [ref=e456]:
+          - link [ref=e458] [cursor=pointer]:
+            - /url: "#"
+          - link [ref=e460] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e464]:
+          - link [ref=e466] [cursor=pointer]:
+            - /url: "#"
+          - link [ref=e468] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e472]:
+          - paragraph [ref=e473]:
+            - generic [ref=e474]: 종교적 명소
+          - paragraph [ref=e475]
+          - paragraph [ref=e476]: 나트랑은 다양한 종교와 관련 중요한 명소가 있는데
+          - paragraph [ref=e477]: 역사와 문화를 체험할 수 있어 만족스러웠다
+          - paragraph [ref=e478]
+          - paragraph [ref=e479]:
+            - text: ✔️참족 문화의 영향을 받은
+            - generic [ref=e480]: 포글롱자라이 사원
+          - paragraph [ref=e481]:
+            - text: ✔️고딕 건축양식이 아름다운
+            - generic [ref=e482]: 나트랑 대성당
+          - paragraph [ref=e483]:
+            - text: ✔️나트랑에서 가장 유명한 불교사찰
+            - generic [ref=e484]: 롱선사
+          - paragraph [ref=e485]:
+            - text: ✔️시내와 인접해있는
+            - generic [ref=e486]: 포나가르사원
+          - paragraph [ref=e487]
+          - paragraph [ref=e488]: 입장료는 무료이거나 한화 3,000원 정도이며
+          - paragraph [ref=e489]: 포나가르사원의 경우 전통 춤공연도 볼 수 있었다
+          - paragraph [ref=e490]
+          - paragraph [ref=e491]
+        - generic [ref=e495]:
+          - link [ref=e497] [cursor=pointer]:
+            - /url: "#"
+          - link [ref=e499] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e503]:
+          - paragraph [ref=e504]:
+            - generic [ref=e505]: 웰스파&이발관
+          - paragraph [ref=e506]
+          - paragraph [ref=e507]: 시내에 위치한 웰스파와 나트랑이발관을 다녀왔다
+          - paragraph [ref=e508]
+          - paragraph [ref=e509]: 웰스파는 1호점과 2호점이 있는데
+          - paragraph [ref=e510]: 각종 카페회원을 인증하면 10% 할인을 해줬다
+          - paragraph [ref=e511]: 시설도 깔끔하고 직원분 실력도 좋아서 만족스러웠다
+          - paragraph [ref=e512]
+          - paragraph [ref=e513]: 많은 분들이 로컬 마사지에대한 환상이 있는데
+          - paragraph [ref=e514]: 위생적인 측면에서 검증이 안되어있다 생각해서
+          - paragraph [ref=e515]: 깔끔한 대형 마사지샵을 선호하는 편이다
+          - paragraph [ref=e516]
+          - paragraph [ref=e517]: 나트랑이발관은 이색적이라 한번 다녀왔는데
+          - paragraph [ref=e518]: 마사지와 세면, 면도 등의 코스가 들어있었다
+          - paragraph [ref=e519]: 생각보다 괜찮았지만 마사지는 살짝 아쉬운 느낌이다
+          - paragraph [ref=e520]
+          - paragraph [ref=e521]
+        - generic [ref=e525]:
+          - link [ref=e527] [cursor=pointer]:
+            - /url: "#"
+          - link [ref=e529] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e533]:
+          - paragraph [ref=e534]:
+            - generic [ref=e535]: 롯데마트
+          - paragraph [ref=e536]
+          - paragraph [ref=e537]: 귀국전 쇼핑하기 위해 들른 롯데마트 골드코스트점
+          - paragraph [ref=e538]: 캐리어도 무료로 맡길 수 있어 편리했다
+          - paragraph [ref=e539]
+          - paragraph [ref=e540]: 뭐뭐 살지 리스트를 적어왔기때문에
+          - paragraph [ref=e541]: 속전속결로 쇼핑할 수 있었다
+          - paragraph [ref=e542]
+          - paragraph [ref=e543]: 한국음식도 많고 베트남 음식도 많아서
+          - paragraph [ref=e544]: 구경하는 재미가 있었고
+          - paragraph [ref=e545]: 과자나 커피류가 제일 사오기 좋았다
+          - paragraph [ref=e546]
+          - paragraph [ref=e547]
+        - link [ref=e552] [cursor=pointer]:
+          - /url: "#"
+        - generic [ref=e555] [cursor=pointer]:
+          - link "냐짱 베트남 칸호아 냐짱" [ref=e558]:
+            - /url: "#"
+            - strong [ref=e559]: 냐짱
+            - paragraph [ref=e560]: 베트남 칸호아 냐짱
+          - generic [ref=e561]:
+            - button "이 블로그의 체크인" [ref=e562]
+            - button "이 장소의 다른 글" [ref=e563]:
+              - generic [ref=e564]: 이 장소의 다른 글
+        - generic [ref=e568]:
+          - paragraph [ref=e569]
+          - paragraph [ref=e570]: 이웃추가는 사랑입니다 💛
+        - link [ref=e575] [cursor=pointer]:
+          - /url: "#"
+        - paragraph [ref=e580]: + 나트랑 여행준비 도움정보
+        - generic [ref=e584] [cursor=pointer]:
+          - link [ref=e585]:
+            - /url: https://blog.naver.com/smilelee_design/223523677799?trackingCode=blog_bloghome_searchlist
+          - 'link "나트랑 자유여행 4박5일 예산 경비 환전 총정리 나트랑 자유여행 예산정리 < 글, 사진 : SmileLee > 나트랑 자유여행으로 4박 5일 다녀왔어요 항공... blog.naver.com" [ref=e586]':
+            - /url: https://blog.naver.com/smilelee_design/223523677799?trackingCode=blog_bloghome_searchlist
+            - generic [ref=e587]:
+              - strong [ref=e588]: 나트랑 자유여행 4박5일 예산 경비 환전 총정리
+              - paragraph [ref=e589]: "나트랑 자유여행 예산정리 < 글, 사진 : SmileLee > 나트랑 자유여행으로 4박 5일 다녀왔어요 항공..."
+              - paragraph [ref=e590]: blog.naver.com
+        - paragraph [ref=e595]
+  - img

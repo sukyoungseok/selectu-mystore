@@ -1,0 +1,60 @@
+- generic [ref=e9]:
+  - generic [ref=e11]:
+    - button [ref=e12] [cursor=pointer]:
+      - img [ref=e13]
+    - button [ref=e16] [cursor=pointer]:
+      - img [ref=e17]
+  - generic [ref=e20]:
+    - img [ref=e23]
+    - generic [ref=e24]:
+      - heading "Hongdadak (홍다닥)" [level=1] [ref=e26]
+      - heading "클룩 5% 할인코드 = 3HONGDADAK 🏨 전세계 숙소 3% 할인코드 트립닷컴 접속후 = 3HAHOTEL4 (할인 적용 아래 링크 클릭 후 사용가능)" [level=2] [ref=e27]
+  - generic [ref=e29]:
+    - link "세일리 eSIM 15% 할인 코드 = hongdadak" [ref=e32] [cursor=pointer]:
+      - /url: https://saily.com/hongdadak
+      - heading "세일리 eSIM 15% 할인 코드 = hongdadak" [level=2] [ref=e34]
+    - link "여기어때 최저가 바로가기 (할인쿠폰팩)" [ref=e37] [cursor=pointer]:
+      - /url: https://3ha.in/r/165275
+      - heading "여기어때 최저가 바로가기 (할인쿠폰팩)" [level=2] [ref=e39]
+    - link "전세계 최저가 항공권 예약 ✈️ (트립닷컴)" [ref=e42] [cursor=pointer]:
+      - /url: https://3ha.in/r/100094
+      - heading "전세계 최저가 항공권 예약 ✈️ (트립닷컴)" [level=2] [ref=e44]
+    - link "전세계 최저가 호텔 예약 🏨 (트립닷컴)" [ref=e47] [cursor=pointer]:
+      - /url: https://3ha.in/r/184088
+      - heading "전세계 최저가 호텔 예약 🏨 (트립닷컴)" [level=2] [ref=e49]
+    - link "전세계 최저가 투어 액티비티 🚘 (클룩)" [ref=e52] [cursor=pointer]:
+      - /url: https://3ha.in/r/100127
+      - heading "전세계 최저가 투어 액티비티 🚘 (클룩)" [level=2] [ref=e54]
+    - link "전세계 디즈니랜드 최저가 🎡" [ref=e57] [cursor=pointer]:
+      - /url: https://3ha.in/r/100118
+      - heading "전세계 디즈니랜드 최저가 🎡" [level=2] [ref=e59]
+    - link "전세계 유니버셜스튜디오 최저가 🎢" [ref=e62] [cursor=pointer]:
+      - /url: https://3ha.in/r/100120
+      - heading "전세계 유니버셜스튜디오 최저가 🎢" [level=2] [ref=e64]
+    - link "네이버 홍다닥 트래블로그 🌏" [ref=e67] [cursor=pointer]:
+      - /url: https://m.blog.naver.com/jhseee
+      - heading "네이버 홍다닥 트래블로그 🌏" [level=2] [ref=e69]
+    - link "네이버 인플루언서 홍다닥 🙆🏻‍♂️" [ref=e72] [cursor=pointer]:
+      - /url: https://in.naver.com/jhseee
+      - heading "네이버 인플루언서 홍다닥 🙆🏻‍♂️" [level=2] [ref=e74]
+    - heading "협업 & 광고 문의 DM" [level=2] [ref=e78]
+    - generic [ref=e81]:
+      - link [ref=e82] [cursor=pointer]:
+        - /url: https://www.instagram.com/hongdadak?igsh=eXM4a2xldnFneGFp
+        - img [ref=e85]
+      - link [ref=e86] [cursor=pointer]:
+        - /url: https://m.blog.naver.com/jhseee
+        - img [ref=e89]
+      - link [ref=e90] [cursor=pointer]:
+        - /url: https://naver.me/FOMO8csy
+        - img [ref=e93]
+      - link [ref=e94] [cursor=pointer]:
+        - /url: https://kko.to/sY1Sbdn_2q
+        - img [ref=e97]
+      - link [ref=e98] [cursor=pointer]:
+        - /url: https://youtube.com/@hongdadak?si=LRpY_qybP3jxzlt5
+        - img [ref=e101]
+  - button "MY 페이지 무료로 만들기 >" [ref=e104] [cursor=pointer]:
+    - generic [ref=e105]:
+      - img [ref=e106]
+      - generic [ref=e107]: MY 페이지 무료로 만들기 >

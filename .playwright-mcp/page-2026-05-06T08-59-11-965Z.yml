@@ -1,0 +1,265 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img "menu" [ref=e7]
+        - img "logo_mrt_v2_web" [ref=e8]
+        - text: 매니저
+      - menu [ref=e10]:
+        - menuitem "주문/예약/상담" [ref=e11] [cursor=pointer]:
+          - generic [ref=e12]: 주문/예약/상담
+        - menuitem "상품" [ref=e13] [cursor=pointer]:
+          - generic [ref=e14]: 상품
+        - menuitem "회원(여행자)" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]: 회원(여행자)
+        - menuitem "회원(파트너)" [expanded] [ref=e17] [cursor=pointer]:
+          - generic [ref=e18]: 회원(파트너)
+        - menu [ref=e19]:
+          - menuitem "파트너" [ref=e20] [cursor=pointer]:
+            - link "파트너" [ref=e22]:
+              - /url: /crm/partner
+          - menuitem "파트너 정보 조회" [ref=e23] [cursor=pointer]:
+            - link "파트너 정보 조회" [ref=e25]:
+              - /url: /manage-user-partner/partner-info
+          - menuitem "제휴 파트너와 여행자 연동" [ref=e26] [cursor=pointer]:
+            - link "제휴 파트너와 여행자 연동" [ref=e28]:
+              - /url: /manage-user-partner/link-partnership
+          - menuitem "프로모션/팝업 관리" [ref=e29] [cursor=pointer]:
+            - link "프로모션/팝업 관리" [ref=e31]:
+              - /url: /crm/partner-popup
+          - menuitem "우수파트너 관리" [ref=e32] [cursor=pointer]:
+            - link "우수파트너 관리" [ref=e34]:
+              - /url: /crm/premium-partner
+          - menuitem "2차 인증" [ref=e35] [cursor=pointer]:
+            - link "2차 인증" [ref=e37]:
+              - /url: /manage-user-partner/two-factor-auth
+        - menuitem "정산" [ref=e38] [cursor=pointer]:
+          - generic [ref=e39]: 정산
+        - menuitem "제휴사 정산" [ref=e40] [cursor=pointer]:
+          - generic [ref=e41]: 제휴사 정산
+        - menuitem "결제" [ref=e42] [cursor=pointer]:
+          - generic [ref=e43]: 결제
+        - menuitem "네이버쇼핑 (EP)" [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: 네이버쇼핑 (EP)
+        - menuitem "인바운드" [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]: 인바운드
+        - menuitem "구매혜택(쿠폰/포인트/결제혜택)" [ref=e48] [cursor=pointer]:
+          - generic [ref=e49]: 구매혜택(쿠폰/포인트/결제혜택)
+        - menuitem "마리특" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]: 마리특
+        - menuitem "프로모션" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: 프로모션
+        - menuitem "커뮤니티" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]: 커뮤니티
+        - menuitem "광고" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]: 광고
+        - menuitem "버티컬홈" [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]: 버티컬홈
+        - menuitem "인앱메시지" [ref=e60] [cursor=pointer]:
+          - generic [ref=e61]: 인앱메시지
+        - menuitem "노티라우터(발송)" [ref=e62] [cursor=pointer]:
+          - generic [ref=e63]: 노티라우터(발송)
+        - menuitem "메신저" [ref=e64] [cursor=pointer]:
+          - generic [ref=e65]: 메신저
+        - menuitem "후기" [ref=e66] [cursor=pointer]:
+          - generic [ref=e67]: 후기
+        - menuitem "검색추천" [ref=e68] [cursor=pointer]:
+          - generic [ref=e69]: 검색추천
+        - menuitem "카테고리" [ref=e70] [cursor=pointer]:
+          - generic [ref=e71]: 카테고리
+        - menuitem "자주 쓰는 2.0 매니저" [ref=e72] [cursor=pointer]:
+          - generic [ref=e73]: 자주 쓰는 2.0 매니저
+        - menuitem "소셜" [ref=e74] [cursor=pointer]:
+          - generic [ref=e75]: 소셜
+        - menuitem "교통" [ref=e76] [cursor=pointer]:
+          - generic [ref=e77]: 교통
+        - menuitem "온디맨드" [ref=e78] [cursor=pointer]:
+          - generic [ref=e79]: 온디맨드
+        - menuitem "마이팩" [ref=e80] [cursor=pointer]:
+          - generic [ref=e81]: 마이팩
+        - menuitem "패키지" [ref=e82] [cursor=pointer]:
+          - generic [ref=e83]: 패키지
+        - menuitem "라이브 방송" [ref=e84] [cursor=pointer]:
+          - generic [ref=e85]: 라이브 방송
+        - menuitem "약관 관리" [ref=e86] [cursor=pointer]:
+          - generic [ref=e87]: 약관 관리
+        - menuitem "리셀마켓" [ref=e88] [cursor=pointer]:
+          - generic [ref=e89]: 리셀마켓
+        - menuitem "프라이싱" [ref=e90] [cursor=pointer]:
+          - generic [ref=e91]: 프라이싱
+        - menuitem "취소 추천 관리" [ref=e92] [cursor=pointer]:
+          - generic [ref=e93]: 취소 추천 관리
+        - menuitem "시스템" [ref=e94] [cursor=pointer]:
+          - generic [ref=e95]: 시스템
+  - generic [ref=e96]:
+    - generic [ref=e98]:
+      - generic [ref=e99]: 58:8
+      - link "공지사항" [ref=e100] [cursor=pointer]:
+        - /url: https://www.myrealtrip.com/manager/crm/guide_notices
+    - main [ref=e103]:
+      - generic [ref=e104]:
+        - heading "파트너 / 파트너 상세" [level=2] [ref=e105]:
+          - link "파트너" [ref=e106] [cursor=pointer]:
+            - /url: /crm/partner
+          - text: / 파트너 상세
+        - heading "상세" [level=2] [ref=e107]:
+          - heading "상세" [level=3] [ref=e109]
+      - generic [ref=e110]:
+        - tablist [ref=e111]:
+          - generic [ref=e113]:
+            - tab "기본 정보" [selected] [ref=e115] [cursor=pointer]
+            - tab "정산 정보" [ref=e117] [cursor=pointer]
+            - tab "서류 정보" [ref=e119] [cursor=pointer]
+            - tab "변경 내역 관리" [ref=e121] [cursor=pointer]
+            - tab "사이트 정보" [ref=e123] [cursor=pointer]
+          - generic [ref=e125]:
+            - button "파트너 정보수정" [active] [ref=e297] [cursor=pointer]:
+              - generic [ref=e298]: 파트너 정보수정
+            - button "활동정지" [ref=e299] [cursor=pointer]:
+              - generic [ref=e300]: 활동정지
+            - button "휴식" [ref=e301] [cursor=pointer]:
+              - generic [ref=e302]: 휴식
+            - button "권한 관리" [ref=e126] [cursor=pointer]:
+              - generic [ref=e127]: 권한 관리
+            - button "개인정보 마스킹 해제" [ref=e128] [cursor=pointer]:
+              - generic [ref=e129]: 개인정보 마스킹 해제
+            - button "주민등록번호 요청" [ref=e303] [cursor=pointer]:
+              - generic [ref=e304]: 주민등록번호 요청
+        - tabpanel "기본 정보" [ref=e132]:
+          - generic [ref=e133]:
+            - generic [ref=e135]:
+              - generic [ref=e136]:
+                - heading "기본 정보" [level=2] [ref=e137]
+                - button "수정" [ref=e138] [cursor=pointer]:
+                  - generic [ref=e139]: 수정
+              - generic [ref=e140]:
+                - generic [ref=e305]:
+                  - generic [ref=e306]: 상태
+                  - generic [ref=e308]: 활동중
+                - generic [ref=e309]:
+                  - generic [ref=e310]: 별도 상태
+                  - generic [ref=e312]: 활동 대기
+                - generic [ref=e313]:
+                  - generic [ref=e314]: ID
+                  - generic [ref=e315]: "134119"
+                - generic [ref=e150]:
+                  - generic [ref=e151]: 파트너 마스터 계정 이메일
+                  - generic [ref=e316]: min_pic@naver.com
+                - generic [ref=e317]:
+                  - generic [ref=e318]: 파트너 타입
+                  - generic [ref=e319]: 마케팅 파트너
+                - generic [ref=e320]:
+                  - generic [ref=e321]: 사업자 유형
+                  - generic [ref=e322]: 개인파트너
+                - generic [ref=e158]:
+                  - generic [ref=e159]: 판매국가
+                  - generic [ref=e160]: "-"
+                - generic [ref=e162]: 파트너 활동명
+                - generic [ref=e163]:
+                  - generic [ref=e164]: 파트너 마스터 계정 이름
+                  - generic [ref=e323]: 황*민
+                - generic [ref=e166]: 소개
+                - generic [ref=e325]: 생년월일
+                - generic [ref=e327]: 주소
+            - generic [ref=e169]:
+              - generic [ref=e170]:
+                - heading "등록 이미지" [level=2] [ref=e171]
+                - button "수정" [ref=e172] [cursor=pointer]:
+                  - generic [ref=e173]: 수정
+              - generic [ref=e174]:
+                - generic [ref=e175]:
+                  - generic [ref=e176]: 프로필
+                  - generic [ref=e177]: 프로필 사진 없음
+                - generic [ref=e178]:
+                  - generic [ref=e179]: 배경
+                  - generic [ref=e180]: 프로필 배경 사진 없음
+          - generic [ref=e184]:
+            - generic [ref=e185]:
+              - heading "제휴 파트너 정보" [level=2] [ref=e186]
+              - button "수정" [ref=e188] [cursor=pointer]:
+                - generic [ref=e189]: 수정
+            - generic [ref=e190]:
+              - generic [ref=e328]:
+                - generic [ref=e329]: 제휴 파트너 유형
+                - generic [ref=e330]: 마케팅 파트너
+              - generic [ref=e331]:
+                - generic [ref=e332]: 제휴 파트너 코드
+                - generic [ref=e333]: MTujj30
+              - generic [ref=e334]:
+                - generic [ref=e335]: 수익 배분율
+                - generic [ref=e336]:
+                  - text: 제휴사
+                  - text: 50%
+                  - text: 마이리얼트립
+                  - text: 50%
+              - generic [ref=e337]:
+                - generic [ref=e338]: 주민등록번호
+                - generic [ref=e339]: 960418-2******
+              - generic [ref=e340]:
+                - generic [ref=e341]: 활동 SNS URL
+                - listitem [ref=e343]: https://www.instagram.com/min_pic._
+          - generic [ref=e203]:
+            - generic [ref=e204]:
+              - heading "상태 정보" [level=2] [ref=e205]
+              - button "수정" [ref=e206] [cursor=pointer]:
+                - generic [ref=e207]: 수정
+            - generic [ref=e208]:
+              - generic [ref=e209]:
+                - generic [ref=e210]: 월간 예약 확정률
+                - generic [ref=e211]: 0%
+              - generic [ref=e212]:
+                - generic [ref=e213]: 총 여행 수
+                - generic [ref=e214]: "-"
+              - generic [ref=e215]:
+                - generic [ref=e216]: 후기수
+                - generic [ref=e217]: "-"
+              - generic [ref=e344]:
+                - generic [ref=e345]: 신청일/수정일
+                - generic [ref=e346]: 2025-01-13 15:19 / 2025-01-13 15:21
+              - generic [ref=e347]:
+                - generic [ref=e348]: 최초 활동 시작일
+                - generic [ref=e349]: 2025-01-13 15:21
+              - generic [ref=e350]:
+                - generic [ref=e351]: 최근 접속일
+                - generic [ref=e352]: 2025-05-06 20:56
+              - generic [ref=e353]:
+                - generic [ref=e354]: 파트너 권한
+                - list [ref=e356]:
+                  - listitem [ref=e357]: "- 민박 판매자"
+              - generic [ref=e229]:
+                - generic [ref=e230]: 판매 카테고리
+                - generic [ref=e231]: "-"
+              - generic [ref=e358]:
+                - generic [ref=e359]: 문의 설정 여부
+                - generic [ref=e360]: 설정됨
+          - generic [ref=e363]:
+            - generic [ref=e364]:
+              - heading "사업자 정보" [level=2] [ref=e365]
+              - button "수정" [ref=e367] [cursor=pointer]:
+                - generic [ref=e368]: 수정
+            - generic [ref=e369]:
+              - generic [ref=e371]: 대표자명
+              - generic [ref=e373]: 대표 이메일
+          - generic [ref=e262]:
+            - generic [ref=e263]:
+              - heading "담당자 정보" [level=2] [ref=e264]
+              - button "수정" [ref=e374] [cursor=pointer]:
+                - generic [ref=e375]: 수정
+            - table [ref=e275]:
+              - rowgroup [ref=e277]:
+                - row "직책/직함 이름 전화번호 이메일 카카오톡 ID 알림 수신 여부" [ref=e278]:
+                  - columnheader "직책/직함" [ref=e279]
+                  - columnheader "이름" [ref=e280]
+                  - columnheader "전화번호" [ref=e281]
+                  - columnheader "이메일" [ref=e282]
+                  - columnheader "카카오톡 ID" [ref=e283]
+                  - columnheader "알림 수신 여부" [ref=e284]
+              - rowgroup [ref=e285]:
+                - row "대표 황*민 +82-010****3827 mi*****@naver.com 이메일수신,알림톡수신" [ref=e376]:
+                  - cell "대표" [ref=e377]
+                  - cell "황*민" [ref=e378]
+                  - cell "+82-010****3827" [ref=e379]
+                  - cell "mi*****@naver.com" [ref=e380]
+                  - cell [ref=e381]
+                  - cell "이메일수신,알림톡수신" [ref=e382]:
+                    - generic [ref=e383]: 이메일수신,알림톡수신

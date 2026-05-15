@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>마이스토어 가설 구조도</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard', sans-serif;
+    background: #f2f3f7;
+    color: #1a1a2e;
+    padding: 40px 20px 80px;
+    min-height: 100vh;
+  }
+
+  .page-header {
+    text-align: center;
+    margin-bottom: 44px;
+  }
+  .page-header h1 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #1a1a2e;
+    margin-bottom: 6px;
+  }
+  .page-header p { font-size: 13px; color: #999; }
+
+  .hypothesis-goal {
+    display: inline-block;
+    background: #1a1a2e;
+    color: #fff;
+    border-radius: 20px;
+    padding: 7px 20px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+
+  /* ── 가설 카드 ── */
+  .hypotheses {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .hyp-card {
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 2px 14px rgba(0,0,0,0.07);
+  }
+
+  .hyp-header {
+    padding: 20px 24px 16px;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+  }
+  .hyp-num {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 800;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .h1 .hyp-num { background: #e8f0ff; color: #3b5bdb; }
+  .h2 .hyp-num { background: #fff0e8; color: #e07000; }
+
+  .hyp-header-text { flex: 1; }
+  .hyp-tag {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    margin-bottom: 4px;
+  }
+  .h1 .hyp-tag { color: #3b5bdb; }
+  .h2 .hyp-tag { color: #e07000; }
+
+  .hyp-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1a1a2e;
+    line-height: 1.5;
+  }
+
+  /* ── 플로우 ── */
+  .hyp-flow {
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .flow-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    min-width: 80px;
+  }
+  .step-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 13px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .step-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: #444;
+    text-align: center;
+    line-height: 1.4;
+  }
+  .step-sub {
+    font-size: 10px;
+    color: #aaa;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  /* Icon bg colors */
+  .bg-blue  { background: #eef2ff; }
+  .bg-green { background: #e8f4e8; }
+  .bg-orange{ background: #fff4e8; }
+  .bg-yellow{ background: #fffbe6; }
+  .bg-result{ background: #e8f4e8; border: 2px solid #2d7a3a; }
+
+  .flow-arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2px;
+    gap: 2px;
+  }
+  .arrow-icon { color: #ccc; font-size: 16px; }
+  .arrow-label { font-size: 9px; color: #bbb; text-align: center; max-width: 44px; line-height: 1.3; }
+
+  /* ── 전제 & 검증 포인트 ── */
+  .hyp-meta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .meta-box {
+    padding: 14px 20px;
+  }
+  .meta-box:first-child { border-right: 1px solid #f0f0f0; }
+  .meta-title {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: #aaa;
+    margin-bottom: 8px;
+  }
+  .meta-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #444;
+    line-height: 1.5;
+  }
+  .meta-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 5px;
+  }
+  .dot-blue { background: #3b5bdb; }
+  .dot-orange { background: #e07000; }
+  .dot-red { background: #e03030; }
+
+  /* ── 리스크 ── */
+  .hyp-risk {
+    padding: 14px 20px;
+    background: #fafafa;
+  }
+  .risk-title {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: #e03030;
+    margin-bottom: 8px;
+  }
+  .risk-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    font-size: 12px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 4px;
+  }
+
+  /* ── 가설 관계 배너 ── */
+  .relation-banner {
+    max-width: 720px;
+    margin: 0 auto 28px;
+    background: #fff8e8;
+    border: 1.5px solid #f5c842;
+    border-radius: 14px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .banner-icon { font-size: 20px; flex-shrink: 0; }
+  .banner-text { font-size: 13px; color: #7a5800; line-height: 1.7; }
+  .banner-text strong { font-weight: 700; color: #5a4000; }
+
+  /* ── 결론 박스 ── */
+  .conclusion {
+    max-width: 720px;
+    margin: 28px auto 0;
+    background: #1a1a2e;
+    border-radius: 16px;
+    padding: 22px 24px;
+  }
+  .conclusion h3 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #90d4a8;
+    letter-spacing: 0.05em;
+    margin-bottom: 10px;
+  }
+  .conclusion-row {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: #ccd;
+    line-height: 1.7;
+  }
+  .conclusion-row strong { color: #fff; }
+  .step-badge {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 10px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .badge-1 { background: #3b5bdb; color: #fff; }
+  .badge-2 { background: #e07000; color: #fff; }
+
+  @media (max-width: 540px) {
+    .hyp-meta { grid-template-columns: 1fr; }
+    .meta-box:first-child { border-right: none; border-bottom: 1px solid #f0f0f0; }
+    .flow-step { min-width: 64px; }
+    .step-icon { width: 40px; height: 40px; font-size: 17px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <div class="hypothesis-goal">파일럿 목표: 인스타그램에서 거래액 발생</div>
+  <h1>검증해야 하는 가설 구조</h1>
+  <p>2026.05.13 · 영준님 싱크 후 정리</p>
+</div>
+
+<!-- 관계 설명 배너 -->
+<div class="relation-banner">
+  <div class="banner-icon">⚠️</div>
+  <div class="banner-text">
+    <strong>가설 2는 가설 1이 전제로 깔려있어요.</strong><br>
+    루키들이 아무리 많이 모여도, 팔로워(소비자)가 쿠폰팩을 보고 구매하지 않으면 거래액이 발생하지 않아요.<br>
+    가설 1 미검증 상태에서 가설 2를 실행하면 실패 원인을 알 수 없어요.
+  </div>
+</div>
+
+<div class="hypotheses">
+
+  <!-- 가설 1 -->
+  <div class="hyp-card h1">
+    <div class="hyp-header">
+      <div class="hyp-num">1</div>
+      <div class="hyp-header-text">
+        <div class="hyp-tag">소비자 행동 가설</div>
+        <div class="hyp-title">할인율이 큰 쿠폰팩을 주면,<br>소비자가 바로 구매하고 거래액이 발생한다</div>
+      </div>
+    </div>
+
+    <div class="hyp-flow">
+      <div class="flow-step">
+        <div class="step-icon bg-blue">🌟</div>
+        <div class="step-label">메가<br>크리에이터</div>
+        <div class="step-sub">원고료 지급</div>
+      </div>
+      <div class="flow-arrow">
+        <div class="arrow-icon">→</div>
+        <div class="arrow-label">릴스<br>콘텐츠</div>
+      </div>
+      <div class="flow-step">
+        <div class="step-icon bg-blue">📱</div>
+        <div class="step-label">여행코스<br>+ 쿠폰팩</div>
+        <div class="step-sub">댓글 → 자동DM</div>
+      </div>
+      <div class="flow-arrow">
+        <div class="arrow-icon">→</div>
+        <div class="arrow-label">링크<br>전달</div>
+      </div>
+      <div class="flow-step">
+        <div class="step-icon bg-green">✈️</div>
+        <div class="step-label">팔로워<br>(여행자)</div>
+        <div class="step-sub">쿠폰페이지 접속</div>
+      </div>
+      <div class="flow-arrow">
+        <div class="arrow-icon">→</div>
+        <div class="arrow-label">구매<br>결정</div>
+      </div>
+      <div class="flow-step">
+        <div class="step-icon bg-result">💰</div>
+        <div class="step-label">MRT<br>예약</div>
+        <div class="step-sub">거래액 발생</div>
+      </div>
+    </div>
+
+    <div class="hyp-meta">
+      <div class="meta-box">
+        <div class="meta-title">검증 포인트</div>
+        <div class="meta-item"><div class="meta-dot dot-blue"></div>쿠폰팩 DM 수령 후 실제 클릭률</div>
+        <div class="meta-item"><div class="meta-dot dot-blue"></div>쿠폰페이지 → 예약 전환율</div>
+        <div class="meta-item"><div class="meta-dot dot-blue"></div>건당 거래액 (ASP)</div>
+      </div>
+      <div class="meta-box">
+        <div class="meta-title">전제 조건</div>
+        <div class="meta-item"><div class="meta-dot dot-blue"></div>쿠폰 할인율이 충분히 커야 함</div>
+        <div class="meta-item"><div class="meta-dot dot-blue"></div>크리에이터 팔로워가 여행 수요층이어야 함</div>
+        <div class="meta-item"><div class="meta-dot dot-blue"></div>쿠폰페이지가 바로 예약으로 이어지는 UX여야 함</div>
+      </div>
+    </div>
+
+    <div class="hyp-risk">
+      <div class="risk-title">실패 시나리오</div>
+      <div class="risk-item"><div class="meta-dot dot-red" style="margin-top:5px;"></div>쿠폰팩을 받고도 구경만 하고 예약 안 함 → 할인율 문제 or 팔로워 구성 문제</div>
+      <div class="risk-item"><div class="meta-dot dot-red" style="margin-top:5px;"></div>댓글은 달지만 DM 링크 클릭율이 낮음 → 자동DM 메시지 문제</div>
+    </div>
+  </div>
+
+  <!-- 가설 2 -->
+  <div class="hyp-card h2">
+    <div class="hyp-header">
+      <div class="hyp-num">2</div>
+      <div class="hyp-header-text">
+        <div class="hyp-tag">크리에이터 확산 가설</div>
+        <div class="hyp-title">메가가 "루키 전용 쿠폰팩 만들어줌"을 홍보하면,<br>루키들이 신청하고 쿠폰팩이 확산되어 거래액이 발생한다</div>
+      </div>
+    </div>
+
+    <div class="hyp-flow">
+      <div class="flow-step">
+        <div class="step-icon bg-orange">🌟</div>
+        <div class="step-label">메가<br>크리에이터</div>
+        <div class="step-sub">루키 모집 콘텐츠</div>
+      </div>
+      <div class="flow-arrow">
+        <div class="arrow-icon">→</div>
+        <div class="arrow-label">홍보<br>광고</div>
+      </div>
+      <div class="flow-step">
+        <div class="step-icon bg-yellow">🌱</div>
+        <div class="step-label">루키<br>크리에이터</div>
+        <div class="step-sub">신청 & 페이지 생성</div>
+      </div>
+      <div class="flow-arrow">
+        <div class="arrow-icon">→</div>
+        <div class="arrow-label">각자<br>콘텐츠</div>
+      </div>
+      <div class="flow-step">
+        <div class="step-icon bg-green">✈️</div>
+        <div class="step-label">루키<br>팔로워</div>
+        <div class="step-sub">소규모 다수</div>
+      </div>
+      <div class="flow-arrow">
+        <div class="arrow-icon">→</div>
+        <div class="arrow-label">구매<br>결정</div>
+      </div>
+      <div class="flow-step">
+        <div class="step-icon bg-result">💰</div>
+        <div class="step-label">MRT<br>예약</div>
+        <div class="step-sub">거래액 발생</div>
+      </div>
+    </div>
+
+    <div class="hyp-meta">
+      <div class="meta-box">
+        <div class="meta-title">검증 포인트</div>
+        <div class="meta-item"><div class="meta-dot dot-orange"></div>루키 크리에이터 신청률</div>
+        <div class="meta-item"><div class="meta-dot dot-orange"></div>루키 콘텐츠 실제 게시율</div>
+        <div class="meta-item"><div class="meta-dot dot-orange"></div>루키 팔로워 → 예약 전환율</div>
+      </div>
+      <div class="meta-box">
+        <div class="meta-title">전제 조건</div>
+        <div class="meta-item"><div class="meta-dot dot-orange"></div>가설 1이 먼저 성립해야 함</div>
+        <div class="meta-item"><div class="meta-dot dot-orange"></div>루키가 신청 후 실제 콘텐츠를 올려야 함</div>
+        <div class="meta-item"><div class="meta-dot dot-orange"></div>루키 다수의 소규모 도달이 합산되어야 함</div>
+      </div>
+    </div>
+
+    <div class="hyp-risk">
+      <div class="risk-title">실패 시나리오</div>
+      <div class="risk-item"><div class="meta-dot dot-red" style="margin-top:5px;"></div>루키들이 신청은 하지만 콘텐츠를 안 올림 → 기존과 동일한 문제 반복</div>
+      <div class="risk-item"><div class="meta-dot dot-red" style="margin-top:5px;"></div>루키 팔로워 볼륨이 너무 작아 거래액이 의미 없는 수준</div>
+      <div class="risk-item"><div class="meta-dot dot-red" style="margin-top:5px;"></div>실패해도 가설 1 문제인지 가설 2 문제인지 구분 불가</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- 결론 -->
+<div class="conclusion">
+  <h3>검증 순서 제안</h3>
+  <div class="conclusion-row">
+    <span class="step-badge badge-1">STEP 1</span>
+    <span><strong>가설 1 먼저</strong> — 메가 크리에이터 1-2명으로 소비자 구매 반응 확인. 전환율 나오면 다음 단계.</span>
+  </div>
+  <div class="conclusion-row">
+    <span class="step-badge badge-2">STEP 2</span>
+    <span><strong>가설 2는 스케일업 단계</strong> — 가설 1 검증 후 루키 모집 캠페인으로 물량 확대.</span>
+  </div>
+</div>
+
+</body>
+</html>

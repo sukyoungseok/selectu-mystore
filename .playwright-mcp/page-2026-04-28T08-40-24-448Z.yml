@@ -1,0 +1,257 @@
+- generic [ref=e4]:
+  - generic [ref=e9]:
+    - generic [ref=e12]:
+      - link "Instagram" [ref=e17] [cursor=pointer]:
+        - /url: /
+        - img "Instagram" [ref=e22]
+      - generic [ref=e25]:
+        - link "홈" [ref=e30] [cursor=pointer]:
+          - /url: /
+          - img "홈" [ref=e35]
+        - link "릴스" [ref=e40] [cursor=pointer]:
+          - /url: /reels/
+          - img "릴스" [ref=e45]
+        - link "메시지 Direct 메시지 - 새로운 알림 링크 1개" [ref=e52] [cursor=pointer]:
+          - /url: /direct/inbox/
+          - generic [ref=e55]:
+            - img "메시지" [ref=e57]
+            - generic "Direct 메시지 - 새로운 알림 링크 1개" [ref=e60]:
+              - generic [ref=e62]: "1"
+        - link "검색" [ref=e66] [cursor=pointer]:
+          - /url: "#"
+          - img "검색" [ref=e71]
+        - link "탐색 탭" [ref=e77] [cursor=pointer]:
+          - /url: /explore/
+          - img "탐색 탭" [ref=e82]
+        - link "알림" [ref=e91] [cursor=pointer]:
+          - /url: "#"
+          - img "알림" [ref=e96]
+        - link "새로운 게시물" [ref=e104] [cursor=pointer]:
+          - /url: "#"
+          - img "새로운 게시물" [ref=e109]
+        - link "프로페셔널 대시보드" [ref=e114] [cursor=pointer]:
+          - /url: "#"
+          - img "프로페셔널 대시보드" [ref=e119]
+        - link "stone.water_님의 프로필 사진" [ref=e126] [cursor=pointer]:
+          - /url: /stone.water_/
+          - link "stone.water_님의 프로필 사진" [ref=e131]:
+            - img "stone.water_님의 프로필 사진" [ref=e132]
+      - generic [ref=e133]:
+        - link "설정" [ref=e136] [cursor=pointer]:
+          - /url: "#"
+          - img "설정" [ref=e141]
+        - link "Meta의 다른 앱" [ref=e144] [cursor=pointer]:
+          - /url: "#"
+          - img "Meta의 다른 앱" [ref=e149]
+    - generic [ref=e152]:
+      - main [ref=e153]:
+        - generic [ref=e155]:
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - link "yeseulio님의 프로필 사진" [ref=e163] [cursor=pointer]:
+                - /url: /yeseulio/
+                - img "yeseulio님의 프로필 사진" [ref=e164]
+              - generic [ref=e165]:
+                - generic [ref=e166]:
+                  - generic [ref=e167]:
+                    - link "yeseulio" [ref=e169] [cursor=pointer]:
+                      - /url: "#"
+                      - heading "yeseulio" [level=2] [ref=e170]:
+                        - generic [ref=e171]: yeseulio
+                    - button "옵션" [ref=e173] [cursor=pointer]:
+                      - img "옵션" [ref=e175]
+                  - generic [ref=e180]: 김예슬 (YeSeul Kim)
+                  - generic [ref=e181]:
+                    - generic [ref=e183]:
+                      - text: 게시물
+                      - generic [ref=e184]: "128"
+                    - link "팔로워 4004" [ref=e186] [cursor=pointer]:
+                      - /url: /yeseulio/followers/
+                      - generic [ref=e187]:
+                        - text: 팔로워
+                        - generic "4004" [ref=e188]
+                    - link "팔로우 1278" [ref=e190] [cursor=pointer]:
+                      - /url: /yeseulio/following/
+                      - generic [ref=e191]:
+                        - text: 팔로우
+                        - generic [ref=e192]: "1278"
+                - generic [ref=e193]:
+                  - generic [ref=e194]:
+                    - generic [ref=e196]: 개인 블로그
+                    - button "⠀ ✧*｡٩(ˊᗜˋ*)و✧*｡" [ref=e198] [cursor=pointer]:
+                      - generic [ref=e199]:
+                        - text: ⠀
+                        - text: ✧*｡٩(ˊᗜˋ*)و✧*｡
+                  - link "hyxnbinn님, _snow.flower님 외 72명이 팔로우합니다" [ref=e200] [cursor=pointer]:
+                    - /url: /yeseulio/followers/mutualOnly
+                    - generic [ref=e202]:
+                      - generic [ref=e204]:
+                        - button [ref=e205]:
+                          - link [ref=e206]
+                        - button [ref=e207]:
+                          - link [ref=e208]
+                        - button [ref=e209]:
+                          - link [ref=e210]
+                      - generic [ref=e211]: hyxnbinn님, _snow.flower님 외 72명이 팔로우합니다
+            - generic [ref=e216]:
+              - button "팔로잉 아래쪽 V자형 아이콘" [ref=e218] [cursor=pointer]:
+                - generic [ref=e219]:
+                  - generic [ref=e220]: 팔로잉
+                  - img "아래쪽 V자형 아이콘" [ref=e223]
+              - button "메시지 보내기" [ref=e226] [cursor=pointer]
+              - button "비슷한 계정" [ref=e228] [cursor=pointer]:
+                - img "비슷한 계정" [ref=e230]
+            - menu [ref=e234]:
+              - list [ref=e238]:
+                - listitem [ref=e239]
+                - listitem [ref=e240]
+                - listitem [ref=e241]:
+                  - link "운동일기 🏋🏻‍♀️ 하이라이트 보기" [ref=e244] [cursor=pointer]:
+                    - /url: /stories/highlights/18088703881916642/
+                    - button "yeseulio님의 하이라이트 스토리 사진 운동일기 🏋🏻‍♀️" [ref=e245]:
+                      - button "yeseulio님의 하이라이트 스토리 사진" [ref=e246]:
+                        - img "yeseulio님의 하이라이트 스토리 사진" [ref=e249]
+                      - generic [ref=e252]: 운동일기 🏋🏻‍♀️
+                - listitem [ref=e253]:
+                  - link "운전일기🛞 하이라이트 보기" [ref=e256] [cursor=pointer]:
+                    - /url: /stories/highlights/18022285064452979/
+                    - button "yeseulio님의 하이라이트 스토리 사진 운전일기🛞" [ref=e257]:
+                      - button "yeseulio님의 하이라이트 스토리 사진" [ref=e258]:
+                        - img "yeseulio님의 하이라이트 스토리 사진" [ref=e261]
+                      - generic [ref=e264]: 운전일기🛞
+                - listitem [ref=e265]:
+                  - link "달미의 삶✨ 하이라이트 보기" [ref=e268] [cursor=pointer]:
+                    - /url: /stories/highlights/18023944847016819/
+                    - button "yeseulio님의 하이라이트 스토리 사진 달미의 삶✨" [ref=e269]:
+                      - button "yeseulio님의 하이라이트 스토리 사진" [ref=e270]:
+                        - img "yeseulio님의 하이라이트 스토리 사진" [ref=e273]
+                      - generic [ref=e276]: 달미의 삶✨
+          - generic [ref=e277]:
+            - tablist [ref=e278]:
+              - link "게시물" [ref=e280] [cursor=pointer]:
+                - /url: /yeseulio/
+                - img "게시물" [ref=e282]
+              - link "릴스" [ref=e293] [cursor=pointer]:
+                - /url: /yeseulio/reels/
+                - img "릴스" [ref=e295]
+              - link "리포스트" [ref=e298] [cursor=pointer]:
+                - /url: /yeseulio/reposts/
+                - img "리포스트" [ref=e300]
+              - link "태그됨" [ref=e303] [cursor=pointer]:
+                - /url: /yeseulio/tagged/
+                - img "태그됨" [ref=e305]
+            - tabpanel
+          - progressbar [ref=e309]:
+            - img "읽어들이는 중..." [ref=e310]
+      - contentinfo [ref=e323]:
+        - generic [ref=e324]:
+          - generic [ref=e326]:
+            - link "Meta" [ref=e328] [cursor=pointer]:
+              - /url: https://about.meta.com/
+              - generic [ref=e329]: Meta
+            - link "소개" [ref=e331] [cursor=pointer]:
+              - /url: https://about.instagram.com/
+              - generic [ref=e332]: 소개
+            - link "블로그" [ref=e334] [cursor=pointer]:
+              - /url: https://about.instagram.com/blog/
+              - generic [ref=e335]: 블로그
+            - link "채용 정보" [ref=e337] [cursor=pointer]:
+              - /url: https://about.instagram.com/about-us/careers
+              - generic [ref=e338]: 채용 정보
+            - link "도움말" [ref=e340] [cursor=pointer]:
+              - /url: https://help.instagram.com/
+              - generic [ref=e341]: 도움말
+            - link "API" [ref=e343] [cursor=pointer]:
+              - /url: https://developers.facebook.com/docs/instagram
+              - generic [ref=e344]: API
+            - link "개인정보처리방침" [ref=e346] [cursor=pointer]:
+              - /url: /legal/privacy/
+              - generic [ref=e347]: 개인정보처리방침
+            - link "약관" [ref=e349] [cursor=pointer]:
+              - /url: /legal/terms/
+              - generic [ref=e350]: 약관
+            - link "위치" [ref=e352] [cursor=pointer]:
+              - /url: /explore/locations/
+              - generic [ref=e353]: 위치
+            - link "Popular" [ref=e355] [cursor=pointer]:
+              - /url: /popular/
+              - generic [ref=e356]: Popular
+            - link "Instagram Lite" [ref=e358] [cursor=pointer]:
+              - /url: /web/lite/
+              - generic [ref=e359]: Instagram Lite
+            - link "Meta AI" [ref=e361] [cursor=pointer]:
+              - /url: https://www.meta.ai/?utm_source=foa_web_footer
+              - generic [ref=e362]: Meta AI
+            - link "Threads" [ref=e364] [cursor=pointer]:
+              - /url: https://www.threads.com/
+              - generic [ref=e365]: Threads
+            - link "연락처 업로드 & 비사용자" [ref=e367] [cursor=pointer]:
+              - /url: https://www.facebook.com/help/instagram/261704639352628
+              - generic [ref=e368]: 연락처 업로드 & 비사용자
+            - link "Meta Verified" [ref=e370] [cursor=pointer]:
+              - /url: /accounts/meta_verified/?entrypoint=web_footer
+              - generic [ref=e371]: Meta Verified
+          - generic [ref=e372]:
+            - generic [ref=e373] [cursor=pointer]:
+              - generic [ref=e374]:
+                - generic [ref=e375]: 한국어
+                - img "아래쪽 V자형 아이콘" [ref=e378]
+              - combobox "표시 언어 변경" [ref=e380]:
+                - option "Afrikaans"
+                - option "العربية"
+                - option "Čeština"
+                - option "Dansk"
+                - option "Deutsch"
+                - option "Ελληνικά"
+                - option "English"
+                - option "English (UK)"
+                - option "Español (España)"
+                - option "Español"
+                - option "فارسی"
+                - option "Suomi"
+                - option "Français"
+                - option "עברית"
+                - option "Bahasa Indonesia"
+                - option "Italiano"
+                - option "日本語"
+                - option "한국어" [selected]
+                - option "Bahasa Melayu"
+                - option "Norsk"
+                - option "Nederlands"
+                - option "Polski"
+                - option "Português (Brasil)"
+                - option "Português (Portugal)"
+                - option "Русский"
+                - option "Svenska"
+                - option "ภาษาไทย"
+                - option "Filipino"
+                - option "Türkçe"
+                - option "中文(简体)"
+                - option "中文(台灣)"
+                - option "বাংলা"
+                - option "ગુજરાતી"
+                - option "हिन्दी"
+                - option "Hrvatski"
+                - option "Magyar"
+                - option "ಕನ್ನಡ"
+                - option "മലയാളം"
+                - option "मराठी"
+                - option "नेपाली"
+                - option "ਪੰਜਾਬੀ"
+                - option "සිංහල"
+                - option "Slovenčina"
+                - option "தமிழ்"
+                - option "తెలుగు"
+                - option "اردو"
+                - option "Tiếng Việt"
+                - option "中文(香港)"
+                - option "Български"
+                - option "Français (Canada)"
+                - option "Română"
+                - option "Српски"
+                - option "Українська"
+            - generic [ref=e382]: © 2026 Instagram from Meta
+  - button "메시지 메시지" [ref=e384] [cursor=pointer]:
+    - generic [ref=e386]:
+      - img "메시지" [ref=e388]
+      - generic [ref=e391]: 메시지

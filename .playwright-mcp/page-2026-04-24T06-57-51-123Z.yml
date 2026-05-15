@@ -1,0 +1,192 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: A+B 조합
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: Myrealtrip
+        - generic [ref=e7]: 공식 파트너스토어
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - img [ref=e11]
+          - generic [ref=e15]: +
+          - img [ref=e17]
+        - generic [ref=e19]:
+          - img [ref=e20]
+          - text: 파트너 크리에이터 전용
+        - generic [ref=e22]:
+          - text: 여행을 더 저렴하게,
+          - emphasis [ref=e23]: 크리에이터 특별쿠폰
+        - generic [ref=e24]:
+          - text: 구독·팔로우 중인 크리에이터가
+          - text: 마이리얼트립과 함께 준비한 혜택이에요
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - text: 구독자·팔로워 전용
+          - emphasis [ref=e27]: 선착순 투어티켓 할인쿠폰
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - generic [ref=e30]: COUPON
+            - generic [ref=e31]: 1,000원
+            - generic [ref=e32]: 5만원 이상 구매 시
+          - generic [ref=e33]:
+            - generic [ref=e34]: COUPON
+            - generic [ref=e35]: 3,000원
+            - generic [ref=e36]: 10만원 이상 구매 시
+          - generic [ref=e37]:
+            - generic [ref=e38]: COUPON
+            - generic [ref=e39]: 5,000원
+            - generic [ref=e40]: 15만원 이상 구매 시
+          - generic [ref=e41]:
+            - generic [ref=e42]: COUPON
+            - generic [ref=e43]: 15,000원
+            - generic [ref=e44]: 60만원 이상 구매 시
+          - generic [ref=e45]:
+            - generic [ref=e46]: COUPON
+            - generic [ref=e47]: 25,000원
+            - generic [ref=e48]: 100만원 이상 구매 시
+          - generic [ref=e49]:
+            - generic [ref=e50]: COUPON
+            - generic [ref=e51]: 50,000원
+            - generic [ref=e52]: 200만원 이상 구매 시
+        - generic [ref=e53]: ↓ 쿠폰팩 한번에 다운로드
+  - generic [ref=e55]:
+    - generic [ref=e56]: A. 플랫폼 배지형
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - generic [ref=e59]: Myrealtrip
+        - generic [ref=e60]: 공식 파트너스토어
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - img [ref=e64]
+          - generic [ref=e68]: +
+          - img [ref=e70]
+        - generic [ref=e72]:
+          - generic [ref=e73]: 공식 파트너 크리에이터
+          - generic [ref=e74]:
+            - text: 팔로워·구독자를 위한
+            - text: 특별 투어 할인혜택
+          - generic [ref=e75]:
+            - text: 마이리얼트립 파트너 크리에이터 채널에서
+            - text: 제공하는 전용 쿠폰팩이에요
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - text: 구독자·팔로워 전용
+          - emphasis [ref=e78]: 선착순 투어티켓 할인쿠폰
+        - generic [ref=e79]:
+          - generic [ref=e80]:
+            - generic [ref=e81]: COUPON
+            - generic [ref=e82]: 1,000원
+            - generic [ref=e83]: 5만원 이상 구매 시
+          - generic [ref=e84]:
+            - generic [ref=e85]: COUPON
+            - generic [ref=e86]: 3,000원
+            - generic [ref=e87]: 10만원 이상 구매 시
+          - generic [ref=e88]:
+            - generic [ref=e89]: COUPON
+            - generic [ref=e90]: 5,000원
+            - generic [ref=e91]: 15만원 이상 구매 시
+          - generic [ref=e92]:
+            - generic [ref=e93]: COUPON
+            - generic [ref=e94]: 15,000원
+            - generic [ref=e95]: 60만원 이상 구매 시
+          - generic [ref=e96]:
+            - generic [ref=e97]: COUPON
+            - generic [ref=e98]: 25,000원
+            - generic [ref=e99]: 100만원 이상 구매 시
+          - generic [ref=e100]:
+            - generic [ref=e101]: COUPON
+            - generic [ref=e102]: 50,000원
+            - generic [ref=e103]: 200만원 이상 구매 시
+        - generic [ref=e104]: ↓ 쿠폰팩 한번에 다운로드
+  - generic [ref=e106]:
+    - generic [ref=e107]: B. 헤드카피 강조형
+    - generic [ref=e108]:
+      - generic [ref=e109]:
+        - generic [ref=e110]: Myrealtrip
+        - generic [ref=e111]: 공식 파트너스토어
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - img [ref=e114]
+          - text: 파트너 크리에이터 전용
+        - generic [ref=e116]:
+          - text: 여행을 더 저렴하게,
+          - emphasis [ref=e117]: 크리에이터 특별쿠폰
+        - generic [ref=e118]:
+          - text: 구독·팔로우 중인 크리에이터가
+          - text: 마이리얼트립과 함께 준비한 혜택이에요
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - text: 구독자·팔로워 전용
+          - emphasis [ref=e125]: 선착순 투어티켓 할인쿠폰
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - generic [ref=e128]: COUPON
+            - generic [ref=e129]: 1,000원
+            - generic [ref=e130]: 5만원 이상 구매 시
+          - generic [ref=e131]:
+            - generic [ref=e132]: COUPON
+            - generic [ref=e133]: 3,000원
+            - generic [ref=e134]: 10만원 이상 구매 시
+          - generic [ref=e135]:
+            - generic [ref=e136]: COUPON
+            - generic [ref=e137]: 5,000원
+            - generic [ref=e138]: 15만원 이상 구매 시
+          - generic [ref=e139]:
+            - generic [ref=e140]: COUPON
+            - generic [ref=e141]: 15,000원
+            - generic [ref=e142]: 60만원 이상 구매 시
+          - generic [ref=e143]:
+            - generic [ref=e144]: COUPON
+            - generic [ref=e145]: 25,000원
+            - generic [ref=e146]: 100만원 이상 구매 시
+          - generic [ref=e147]:
+            - generic [ref=e148]: COUPON
+            - generic [ref=e149]: 50,000원
+            - generic [ref=e150]: 200만원 이상 구매 시
+        - generic [ref=e151]: ↓ 쿠폰팩 한번에 다운로드
+  - generic [ref=e153]:
+    - generic [ref=e154]: C. MRT 브랜딩형
+    - generic [ref=e155]:
+      - generic [ref=e156]:
+        - generic [ref=e157]: Myrealtrip
+        - generic [ref=e158]: 공식 파트너스토어
+      - generic [ref=e159]:
+        - generic [ref=e160]: M
+        - generic [ref=e161]: 마이리얼트립 공식 인증
+        - generic [ref=e162]:
+          - text: 파트너 크리에이터가
+          - text: 직접 전하는
+          - emphasis [ref=e163]: 특별 혜택
+        - generic [ref=e164]:
+          - text: 구독·팔로우 중인 크리에이터가
+          - text: 마이리얼트립과 함께 준비한 쿠폰이에요
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - text: 구독자·팔로워 전용
+          - emphasis [ref=e167]: 선착순 투어티켓 할인쿠폰
+        - generic [ref=e168]:
+          - generic [ref=e169]:
+            - generic [ref=e170]: COUPON
+            - generic [ref=e171]: 1,000원
+            - generic [ref=e172]: 5만원 이상 구매 시
+          - generic [ref=e173]:
+            - generic [ref=e174]: COUPON
+            - generic [ref=e175]: 3,000원
+            - generic [ref=e176]: 10만원 이상 구매 시
+          - generic [ref=e177]:
+            - generic [ref=e178]: COUPON
+            - generic [ref=e179]: 5,000원
+            - generic [ref=e180]: 15만원 이상 구매 시
+          - generic [ref=e181]:
+            - generic [ref=e182]: COUPON
+            - generic [ref=e183]: 15,000원
+            - generic [ref=e184]: 60만원 이상 구매 시
+          - generic [ref=e185]:
+            - generic [ref=e186]: COUPON
+            - generic [ref=e187]: 25,000원
+            - generic [ref=e188]: 100만원 이상 구매 시
+          - generic [ref=e189]:
+            - generic [ref=e190]: COUPON
+            - generic [ref=e191]: 50,000원
+            - generic [ref=e192]: 200만원 이상 구매 시
+        - generic [ref=e193]: ↓ 쿠폰팩 한번에 다운로드

@@ -1,0 +1,2325 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - navigation [ref=e5]:
+        - button "myrealtrip" [ref=e7] [cursor=pointer]:
+          - img "myrealtrip" [ref=e8]
+        - generic [ref=e11]:
+          - img "icon" [ref=e13] [cursor=pointer]
+          - textbox "\"한마음오션플레이스\" 최저가 8만원대!" [ref=e14]
+        - generic [ref=e16]:
+          - button "파트너 로그인" [ref=e18] [cursor=pointer]
+          - button "로그인 및 회원가입" [ref=e20] [cursor=pointer]
+      - navigation [ref=e22]:
+        - generic [ref=e23]:
+          - link "홈" [ref=e25] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com
+            - generic [ref=e26]: 홈
+          - link "할인" [ref=e28] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/promotions/benefit
+            - generic [ref=e29]: 할인
+          - link "항공" [ref=e31] [cursor=pointer]:
+            - /url: https://flights.myrealtrip.com/
+            - generic [ref=e32]: 항공
+          - link "국내 숙소" [ref=e34] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=domestic
+            - generic [ref=e35]: 국내 숙소
+          - link "해외 숙소" [ref=e37] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=overseas
+            - generic [ref=e38]: 해외 숙소
+          - link "해외여행보험" [ref=e40] [cursor=pointer]:
+            - /url: https://direct.samsungfire.com/vd/overture_index.jsp?OTK=F2511AF0514
+            - generic [ref=e41]: 해외여행보험
+          - link "패키지" [ref=e43] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/pkc
+            - generic [ref=e44]: 패키지
+          - link "한인민박" [ref=e46] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=minbak
+            - generic [ref=e47]: 한인민박
+          - link "투어·티켓" [ref=e49] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/experiences
+            - generic [ref=e50]: 투어·티켓
+          - button "더보기 icon" [ref=e52] [cursor=pointer]:
+            - generic [ref=e53]: 더보기
+            - img "icon" [ref=e54]
+    - main [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e60]:
+            - button [ref=e62] [cursor=pointer]:
+              - img [ref=e63]
+            - button [ref=e66] [cursor=pointer]:
+              - img [ref=e67]
+          - generic [ref=e72]: "[홍콩 별빛든든투어] 피크트램 티켓 포함 / 빅토리아피크 심포니오브라이츠 야경 야시장"
+          - generic [ref=e74]:
+            - button [ref=e76] [cursor=pointer]:
+              - img [ref=e77]
+            - img [ref=e83] [cursor=pointer]
+            - button [ref=e86] [cursor=pointer]:
+              - img [ref=e87]
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - button "홍콩" [ref=e92] [cursor=pointer]
+              - img [ref=e93]
+              - button "홍콩" [ref=e95] [cursor=pointer]
+            - heading "[홍콩 별빛든든투어] 피크트램 티켓 포함 / 빅토리아피크 심포니오브라이츠 야경 야시장" [level=1] [ref=e96]
+            - generic [ref=e97]:
+              - generic [ref=e98]:
+                - img "icons" [ref=e99]
+                - img "icons" [ref=e100]
+                - img "icons" [ref=e101]
+                - img "icons" [ref=e102]
+                - img "icons" [ref=e103]
+              - generic [ref=e104]: 4.8 ·
+              - generic [ref=e105] [cursor=pointer]: 후기 750개
+          - generic [ref=e109]:
+            - button "저장" [ref=e114] [cursor=pointer]:
+              - img [ref=e118]
+              - generic [ref=e120]: 저장
+            - button "문의" [ref=e124] [cursor=pointer]:
+              - generic [ref=e125]: 문의
+            - button "코스" [ref=e129] [cursor=pointer]:
+              - generic [ref=e130]: 코스
+            - button "만나는시간" [ref=e134] [cursor=pointer]:
+              - generic [ref=e135]: 만나는시간
+            - button "만나는장소" [ref=e139] [cursor=pointer]:
+              - generic [ref=e140]: 만나는장소
+            - button "포함·불포함사항" [ref=e144] [cursor=pointer]:
+              - generic [ref=e145]: 포함·불포함사항
+            - button "환불정책" [ref=e149] [cursor=pointer]:
+              - generic [ref=e150]: 환불정책
+            - button "공유" [ref=e154] [cursor=pointer]:
+              - generic [ref=e155]: 공유
+          - generic [ref=e159]:
+            - generic [ref=e172] [cursor=pointer]: 후기사진
+            - generic [ref=e180]:
+              - img "Placeholder Thumbnail" [ref=e184] [cursor=pointer]
+              - generic [ref=e185] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e188]
+                - generic [ref=e189]: 후기사진
+            - img "Placeholder Thumbnail" [ref=e196] [cursor=pointer]
+            - generic [ref=e199]:
+              - img "Placeholder Thumbnail" [ref=e203] [cursor=pointer]
+              - generic [ref=e204] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e207]
+                - generic [ref=e208]: 후기사진
+            - img "Placeholder Thumbnail" [ref=e215] [cursor=pointer]
+            - generic [ref=e218]:
+              - img "Placeholder Thumbnail" [ref=e222] [cursor=pointer]
+              - generic [ref=e223] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e226]
+                - generic [ref=e227]: 후기사진
+            - img "Placeholder Thumbnail" [ref=e234] [cursor=pointer]
+            - generic [ref=e237]:
+              - generic [ref=e238] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e241]
+                - generic [ref=e242]: 후기사진
+              - generic [ref=e243] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e246]
+                - generic [ref=e247]: 후기사진
+            - generic [ref=e251] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e254]
+              - generic [ref=e255]: 후기사진
+            - generic [ref=e258]:
+              - generic [ref=e259] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e262]
+                - generic [ref=e263]: 후기사진
+              - generic [ref=e264] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e267]
+                - generic [ref=e268]: 후기사진
+            - generic [ref=e272] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e275]
+              - generic [ref=e276]: 후기사진
+            - generic [ref=e279]:
+              - generic [ref=e280] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e283]
+                - generic [ref=e284]: 후기사진
+              - generic [ref=e285] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e288]
+                - generic [ref=e289]: 후기사진
+            - generic [ref=e293] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e296]
+              - generic [ref=e297]: 후기사진
+            - generic [ref=e300]:
+              - generic [ref=e301] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e304]
+                - generic [ref=e305]: 후기사진
+              - generic [ref=e306] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e309]
+                - generic [ref=e310]: 후기사진
+            - generic [ref=e314] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e317]
+              - generic [ref=e318]: 후기사진
+            - generic [ref=e321]:
+              - generic [ref=e322] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e325]
+                - generic [ref=e326]: 후기사진
+              - generic [ref=e327] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e330]
+                - generic [ref=e331]: 후기사진
+            - generic [ref=e335] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e338]
+              - generic [ref=e339]: 후기사진
+            - generic [ref=e342]:
+              - generic [ref=e343] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e346]
+                - generic [ref=e347]: 후기사진
+              - generic [ref=e348] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e351]
+                - generic [ref=e352]: 후기사진
+            - generic [ref=e356] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e359]
+              - generic [ref=e360]: 후기사진
+            - generic [ref=e363]:
+              - generic [ref=e364] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e367]
+                - generic [ref=e368]: 후기사진
+              - generic [ref=e369] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e372]
+                - generic [ref=e373]: 후기사진
+            - generic [ref=e377] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e380]
+              - generic [ref=e381]: 후기사진
+            - generic [ref=e384]:
+              - generic [ref=e385] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e388]
+                - generic [ref=e389]: 후기사진
+              - generic [ref=e390] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e393]
+                - generic [ref=e394]: 후기사진
+            - generic [ref=e398] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e401]
+              - generic [ref=e402]: 후기사진
+            - generic [ref=e405]:
+              - generic [ref=e406] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e409]
+                - generic [ref=e410]: 후기사진
+              - generic [ref=e411] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e414]
+                - generic [ref=e415]: 후기사진
+            - generic [ref=e419] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e422]
+              - generic [ref=e423]: 후기사진
+            - generic [ref=e426]:
+              - generic [ref=e427] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e430]
+                - generic [ref=e431]: 후기사진
+              - generic [ref=e432] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e435]
+                - generic [ref=e436]: 후기사진
+            - generic [ref=e440] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e443]
+              - generic [ref=e444]: 후기사진
+            - generic [ref=e447]:
+              - generic [ref=e448] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e451]
+                - generic [ref=e452]: 후기사진
+              - generic [ref=e453] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e456]
+                - generic [ref=e457]: 후기사진
+            - generic [ref=e461] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e464]
+              - generic [ref=e465]: 후기사진
+            - generic [ref=e468]:
+              - generic [ref=e469] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e472]
+                - generic [ref=e473]: 후기사진
+              - generic [ref=e474] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e477]
+                - generic [ref=e478]: 후기사진
+            - generic [ref=e482] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e485]
+              - generic [ref=e486]: 후기사진
+            - generic [ref=e489]:
+              - generic [ref=e490] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e493]
+                - generic [ref=e494]: 후기사진
+              - generic [ref=e495] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e498]
+                - generic [ref=e499]: 후기사진
+            - generic [ref=e503] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e506]
+              - generic [ref=e507]: 후기사진
+            - generic [ref=e510]:
+              - generic [ref=e511] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e514]
+                - generic [ref=e515]: 후기사진
+              - generic [ref=e516] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e519]
+                - generic [ref=e520]: 후기사진
+            - generic [ref=e524] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e527]
+              - generic [ref=e528]: 후기사진
+            - generic [ref=e531]:
+              - generic [ref=e532] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e535]
+                - generic [ref=e536]: 후기사진
+              - generic [ref=e537] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e540]
+                - generic [ref=e541]: 후기사진
+            - generic [ref=e545] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e548]
+              - generic [ref=e549]: 후기사진
+            - generic [ref=e552]:
+              - generic [ref=e553] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e556]
+                - generic [ref=e557]: 후기사진
+              - generic [ref=e558] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e561]
+                - generic [ref=e562]: 후기사진
+            - generic [ref=e566] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e569]
+              - generic [ref=e570]: 후기사진
+            - generic [ref=e573]:
+              - generic [ref=e574] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e577]
+                - generic [ref=e578]: 후기사진
+              - generic [ref=e579] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e582]
+                - generic [ref=e583]: 후기사진
+            - generic [ref=e587] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e590]
+              - generic [ref=e591]: 후기사진
+            - generic [ref=e594]:
+              - generic [ref=e595] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e598]
+                - generic [ref=e599]: 후기사진
+              - generic [ref=e600] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e603]
+                - generic [ref=e604]: 후기사진
+            - generic [ref=e608] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e611]
+              - generic [ref=e612]: 후기사진
+            - generic [ref=e615]:
+              - generic [ref=e616] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e619]
+                - generic [ref=e620]: 후기사진
+              - generic [ref=e621] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e624]
+                - generic [ref=e625]: 후기사진
+            - generic [ref=e629] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e632]
+              - generic [ref=e633]: 후기사진
+            - generic [ref=e636]:
+              - generic [ref=e637] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e640]
+                - generic [ref=e641]: 후기사진
+              - generic [ref=e642] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e645]
+                - generic [ref=e646]: 후기사진
+            - generic [ref=e650] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e653]
+              - generic [ref=e654]: 후기사진
+            - generic [ref=e657]:
+              - generic [ref=e658] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e661]
+                - generic [ref=e662]: 후기사진
+              - generic [ref=e663] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e666]
+                - generic [ref=e667]: 후기사진
+            - generic [ref=e671] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e674]
+              - generic [ref=e675]: 후기사진
+            - generic [ref=e678]:
+              - generic [ref=e679] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e682]
+                - generic [ref=e683]: 후기사진
+              - generic [ref=e684] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e687]
+                - generic [ref=e688]: 후기사진
+            - generic [ref=e692] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e695]
+              - generic [ref=e696]: 후기사진
+            - generic [ref=e699]:
+              - generic [ref=e700] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e703]
+                - generic [ref=e704]: 후기사진
+              - generic [ref=e705] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e708]
+                - generic [ref=e709]: 후기사진
+            - generic [ref=e713] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e716]
+              - generic [ref=e717]: 후기사진
+            - generic [ref=e720]:
+              - generic [ref=e721] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e724]
+                - generic [ref=e725]: 후기사진
+              - generic [ref=e726] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e729]
+                - generic [ref=e730]: 후기사진
+            - generic [ref=e734] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e737]
+              - generic [ref=e738]: 후기사진
+            - generic [ref=e741]:
+              - generic [ref=e742] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e745]
+                - generic [ref=e746]: 후기사진
+              - generic [ref=e747] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e750]
+                - generic [ref=e751]: 후기사진
+            - generic [ref=e755] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e758]
+              - generic [ref=e759]: 후기사진
+            - generic [ref=e762]:
+              - generic [ref=e763] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e766]
+                - generic [ref=e767]: 후기사진
+              - generic [ref=e768] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e771]
+                - generic [ref=e772]: 후기사진
+            - generic [ref=e776] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e779]
+              - generic [ref=e780]: 후기사진
+            - generic [ref=e783]:
+              - generic [ref=e784] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e787]
+                - generic [ref=e788]: 후기사진
+              - generic [ref=e789] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e792]
+                - generic [ref=e793]: 후기사진
+            - generic [ref=e797] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e800]
+              - generic [ref=e801]: 후기사진
+            - generic [ref=e804]:
+              - generic [ref=e805] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e808]
+                - generic [ref=e809]: 후기사진
+              - generic [ref=e810] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e813]
+                - generic [ref=e814]: 후기사진
+            - generic [ref=e818] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e821]
+              - generic [ref=e822]: 후기사진
+            - generic [ref=e825]:
+              - generic [ref=e826] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e829]
+                - generic [ref=e830]: 후기사진
+              - generic [ref=e831] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e834]
+                - generic [ref=e835]: 후기사진
+            - generic [ref=e839] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e842]
+              - generic [ref=e843]: 후기사진
+            - generic [ref=e846]:
+              - generic [ref=e847] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e850]
+                - generic [ref=e851]: 후기사진
+              - generic [ref=e852] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e855]
+                - generic [ref=e856]: 후기사진
+          - generic [ref=e857]:
+            - generic [ref=e860]: 무료취소
+            - generic [ref=e863]: 최소 인원 4명
+            - generic [ref=e866]: 4시간 소요
+            - generic [ref=e869]: 대중교통이동
+            - generic [ref=e872]: 한국어
+        - generic [ref=e873]:
+          - generic [ref=e876] [cursor=pointer]: 상품소개
+          - generic [ref=e880] [cursor=pointer]: 코스
+          - generic [ref=e883] [cursor=pointer]: 포함·불포함
+          - generic [ref=e886] [cursor=pointer]: 이용안내
+          - generic [ref=e889] [cursor=pointer]: 필수확인사항
+          - generic [ref=e892] [cursor=pointer]: 취소·환불
+          - generic [ref=e895] [cursor=pointer]: 후기
+        - generic [ref=e896]:
+          - generic [ref=e899]:
+            - generic [ref=e900]:
+              - generic [ref=e901]:
+                - img "홍콩대장 든든투어" [ref=e902] [cursor=pointer]
+                - generic [ref=e903]:
+                  - button "홍콩대장 든든투어 홍콩대장 (주)든든투어는 40여 명의 전문 라이센스 한국인 가이드를 보유한 홍콩 마카오 전문 여행사입니다. 2015년부터 별빛든든투어와 햇빛든든투어를 운행해온 오랜 경력과 풍부한 경험으로 여러분의 즐겁고 안전한 자유여행을 '든든'하게 책임지겠습니다. 홍콩, 마카오에 오실 땐 언제나 홍콩대장 든든투어를 찾아주세요!" [ref=e904] [cursor=pointer]:
+                    - generic [ref=e905]: 홍콩대장 든든투어
+                    - generic [ref=e906]: 홍콩대장 (주)든든투어는 40여 명의 전문 라이센스 한국인 가이드를 보유한 홍콩 마카오 전문 여행사입니다. 2015년부터 별빛든든투어와 햇빛든든투어를 운행해온 오랜 경력과 풍부한 경험으로 여러분의 즐겁고 안전한 자유여행을 '든든'하게 책임지겠습니다. 홍콩, 마카오에 오실 땐 언제나 홍콩대장 든든투어를 찾아주세요!
+                  - button "판매자 정보" [ref=e907] [cursor=pointer]:
+                    - generic [ref=e908]: 판매자 정보
+              - button "문의하기" [ref=e909] [cursor=pointer]:
+                - generic [ref=e910]: 문의하기
+            - generic [ref=e917]:
+              - generic [ref=e920]: 📌📌 주의사항 & 안내
+              - generic [ref=e923]:
+                - generic [ref=e925]: 👍 피크트램 티켓은 이미 포함되어 있습니다 • 약 15,000원 상당의 피크트램 탑승비가 투어비에 포함된 상품입니다 • 별도로 티켓을 구매하거나, 피크트램 탑승을 위해 옥토퍼스 카드를 준비하실 필요가 없습니다 • 전문 가이드의 안내로 대기 없이 빠르게 탑승합니다 📢 가이드 미팅 안내 • 든든투어는 사전 개별 연락없이 진행됩니다 • 가이드와 미팅 정보는 알림톡으로 발송되는 바우처에 안내됩니다 • 바우처에 기재된 시간과 장소에 맞춰 오시면 가이드를 바로 만나실 수 있습니다 • 바우처 내 <나의 가이드> 메뉴를 클릭하시면 가이드 카카오톡 아이디를 확인하실 수 있으며 • 필요한 경우 고객님께서 직접 연락하실 수 있도록 운영하고 있습니다 • 가이드는 투어 전날 오후에 배정되며, 현지 사정으로 다소 늦을 수도 있습니다 💳 교통비 지불 수단 안내 • 와이파이 표시가 있는 신용카드, 트래블카드, N Pay 카드로 교통비 결제 가능합니다 • 해외결제 카드가 등록된 삼성페이도 가능합니다 • 지하철, 버스, 스타페리 모두 사용 가능합니다 (피크트램 제외) • 한 개의 카드로 한 명만 결제 가능합니다 • 홍콩 교통카드 옥토퍼스 카드를 구입, 충전하셔도 됩니다 • 현금은 불편합니다 - 시내버스는 잔돈을 거슬러 주지 않습니다 - 스타페리 탑승권을 구입하기 위해 별도로 줄을 서야 해서 시간을 낭비하게 됩니다 • 대중교통 이용료는 1인당 약 15HK$ 입니다 • 대중교통은 스타페리 1회, 야시장 행 시내버스 1회 탑승합니다 👨‍👩‍👧‍👦 인원에 따라 팀을 나누어 운영합니다 • 쾌적한 진행을 위해 인원이 많을 경우 팀을 분리합니다 • 최대 4명의 전문 가이드를 투입하여 모든 팀을 책임집니다 • 인원 제한으로 투어 참여가 어려운 일이 없도록 노력하고 있습니다 🚢 마카오 당일 여행객에게 최적의 일정 • 21시 종료로, 마카오에서 홍콩 당일 여행 후 무리 없이 복귀할 수 있습니다 • 14:00~14:30 페리 이용 시 여유롭게 미팅 가능합니다 • 22:30~23:00 페리로 복귀하실 수 있습니 📢 당일 투어 예약 안내 • 투어 당일에 참여 원하시면 메시지로 문의 주세요! • 인원이 마감되었거나, 시간이 너무 늦지 않으면 투어 참가 가능합니다 👌 최소 인원 안내 • 이 투어는 4인 이상 출발 상품입니다. • 1인~3인 예약 고객님은 예약 후 확정까지 잠시만 기다려 주세요 • 이미 확정된 다른 날로 다른 절차 없이 변경하실 수도 있습니다
+                - button "... 더보기" [ref=e926] [cursor=pointer]
+          - generic [ref=e929]:
+            - generic [ref=e930]:
+              - generic [ref=e931]: 확정률 우수
+              - generic [ref=e932]: 최근 예약이 빠르게 확정되었어요.
+            - generic [ref=e933]:
+              - generic [ref=e934]: 당일확정
+              - generic [ref=e935]: 현지 운영시간 기준으로 오늘 안에 확정 여부를 안내해드려요.
+          - generic [ref=e936]:
+            - heading "결제 혜택" [level=2] [ref=e937]
+            - generic [ref=e938]:
+              - generic [ref=e939]:
+                - generic [ref=e941] [cursor=pointer]:
+                  - generic [ref=e943]: KB국민카드
+                  - generic [ref=e944]: KB할인팩 결제일 할인 (최대 3만원 할인)
+                  - img [ref=e945]
+                - generic [ref=e949] [cursor=pointer]:
+                  - generic [ref=e951]: 카카오페이
+                  - generic [ref=e952]: 머니 / 삼성카드 최대 6만원 즉시할인
+                  - img [ref=e953]
+                - generic [ref=e957] [cursor=pointer]:
+                  - generic [ref=e959]: 삼성카드
+                  - generic [ref=e960]: 최대 5만원 결제일 할인
+                  - img [ref=e961]
+                - generic [ref=e965] [cursor=pointer]:
+                  - generic [ref=e967]: 현대카드
+                  - generic [ref=e968]: M포인트 50% 사용가능 (최대 50,000 M포인트)
+                  - img [ref=e969]
+                - generic [ref=e973] [cursor=pointer]:
+                  - generic [ref=e975]: 우리카드
+                  - generic [ref=e976]: 꾹 혜택 - 6만원 청구할인
+                  - img [ref=e977]
+                - generic [ref=e981] [cursor=pointer]:
+                  - generic [ref=e983]: 토스페이
+                  - generic [ref=e984]: 최대 6만원 즉시할인
+                  - img [ref=e985]
+                - generic [ref=e989] [cursor=pointer]:
+                  - generic [ref=e991]: 네이버페이
+                  - generic [ref=e992]: 7만원 이상 결제 시 네이버페이포인트 2,000원 적립
+                  - img [ref=e993]
+                - generic [ref=e997] [cursor=pointer]:
+                  - generic [ref=e999]: 무이자할부
+                  - generic [ref=e1000]: 최대 24개월 무이자 할부 가능
+                  - img [ref=e1001]
+              - button "혜택 더보기" [ref=e1005] [cursor=pointer]:
+                - generic [ref=e1006]: 혜택 더보기
+          - generic [ref=e1007]:
+            - heading "상품 소개" [level=2] [ref=e1008]
+            - generic [ref=e1009]:
+              - separator [ref=e1010]
+              - generic [ref=e1014]:
+                - generic [ref=e1016]:
+                  - generic: "드래그: 위치 조정 · 더블클릭: 이미지 변경"
+                  - generic [ref=e1018]:
+                    - generic [ref=e1019]:
+                      - generic [ref=e1020]: ⭐ 4.8 (750개)
+                      - generic [ref=e1021]: 무료취소
+                      - generic [ref=e1022]: 최소 인원 4명
+                    - heading "홍콩 밤 하이라이트 투어" [level=2] [ref=e1023]
+                    - paragraph [ref=e1024]: 피크트램부터 야시장까지 4시간
+                - generic [ref=e1026]:
+                  - heading "홍콩 야경의 모든 것" [level=3] [ref=e1027]
+                  - paragraph [ref=e1028]: 홍콩의 밤을 가장 효율적으로 즐기는 4시간 코스예요. 피크트램 패스트트랙으로 대기 없이 빅토리아 피크에 올라 계절에 따라 다른 홍콩의 전경을 감상할 수 있습니다. 현지 가이드가 센트럴부터 침사추이까지 홍콩의 핵심 야경 포인트를 안내해요.
+                  - paragraph [ref=e1029]: 스타페리를 타고 바다를 건너며 Symphony of Lights도 관람하고, 전용 차량으로 편하게 이동해요. 템플스트리트 야시장에서 자유롭게 저녁을 즐기며 홍콩의 밤을 마무리합니다.
+                - generic [ref=e1030]:
+                  - heading "하이라이트" [level=3] [ref=e1032]
+                  - generic [ref=e1033]:
+                    - generic [ref=e1034]:
+                      - generic [ref=e1035] [cursor=pointer]: 🚋
+                      - generic [ref=e1036]: 피크트램 포함
+                      - generic [ref=e1037]: 15,000원 상당 패스트트랙 제공
+                    - generic [ref=e1038]:
+                      - generic [ref=e1039] [cursor=pointer]: 🌃
+                      - generic [ref=e1040]: 4시간 코스
+                      - generic [ref=e1041]: 17시-21시 핵심만 진행
+                    - generic [ref=e1042]:
+                      - generic [ref=e1043] [cursor=pointer]: 🚐
+                      - generic [ref=e1044]: 전용 차량
+                      - generic [ref=e1045]: 피크 하산 시 편안하게 이동
+                    - generic [ref=e1046]:
+                      - generic [ref=e1047] [cursor=pointer]: 👥
+                      - generic [ref=e1048]: 소그룹 투어
+                      - generic [ref=e1049]: 최소 4명부터 출발 보장
+                    - generic [ref=e1050]:
+                      - generic [ref=e1051] [cursor=pointer]: 🎭
+                      - generic [ref=e1052]: 심포니 오브 라이츠
+                      - generic [ref=e1053]: 세계 최대 규모 레이저쇼 관람
+                    - generic [ref=e1054]:
+                      - generic [ref=e1055] [cursor=pointer]: 🍜
+                      - generic [ref=e1056]: 야시장 자유시간
+                      - generic [ref=e1057]: 템플스트리트에서 저녁 식사
+                - generic [ref=e1058]:
+                  - heading "이런 분께 추천해요" [level=3] [ref=e1060]
+                  - generic [ref=e1061]:
+                    - generic [ref=e1062]:
+                      - generic [ref=e1064] [cursor=pointer]: 👨‍👩‍👧‍👦
+                      - generic [ref=e1065]:
+                        - generic [ref=e1066]: 홍콩 첫 방문 가족
+                        - generic [ref=e1067]: 4시간으로 홍콩 야경의 핵심을 모두 경험해요
+                    - generic [ref=e1068]:
+                      - generic [ref=e1070] [cursor=pointer]: 👫
+                      - generic [ref=e1071]:
+                        - generic [ref=e1072]: 저녁 시간 활용하는 분
+                        - generic [ref=e1073]: 낮엔 마카오, 저녁엔 홍콩 야경 관광 가능
+                    - generic [ref=e1074]:
+                      - generic [ref=e1076] [cursor=pointer]: 🧑‍💼
+                      - generic [ref=e1077]:
+                        - generic [ref=e1078]: 효율적인 여행 원하는 분
+                        - generic [ref=e1079]: 대기 없이 피크트램 탑승, 전용차로 편하게 이동
+                    - generic [ref=e1080]:
+                      - generic [ref=e1082] [cursor=pointer]: 👥
+                      - generic [ref=e1083]:
+                        - generic [ref=e1084]: 현지 이야기 듣고 싶은 분
+                        - generic [ref=e1085]: 현지 가이드의 숨은 홍콩 이야기를 들어요
+                - generic [ref=e1086]:
+                  - heading "가이드 소개" [level=3] [ref=e1088]
+                  - generic [ref=e1090]:
+                    - img "홍콩대장 든든투어" [ref=e1091]
+                    - generic [ref=e1092]:
+                      - heading "홍콩대장 든든투어" [level=3] [ref=e1093]
+                      - paragraph [ref=e1094]: 홍콩 전문 한국어 가이드
+                      - text: 2015년부터 9년 운영
+                      - generic [ref=e1095]:
+                        - generic [ref=e1096]: 40명 라이센스 보유
+                        - generic [ref=e1097]: 현지 전문가
+                        - generic [ref=e1098]: 공식 라이센스
+                      - paragraph [ref=e1099]: 홍콩의 숨은 매력을 찾아드려요. 별빛든든투어로 홍콩의 밤을 가장 알차게 보내실 수 있도록 안전하고 즐거운 여행을 책임지겠습니다.
+                - generic [ref=e1100]:
+                  - heading "당일 일정 한눈에 ⏱ 4시간" [level=2] [ref=e1102]
+                  - generic [ref=e1103]:
+                    - generic [ref=e1104]:
+                      - generic [ref=e1106]: 📍
+                      - generic [ref=e1108]:
+                        - heading "센트럴 미팅" [level=3] [ref=e1109]
+                        - paragraph [ref=e1110]: 16:50 황후상광장 집결 · 17:00 출발
+                        - generic [ref=e1111]: 가이드 투어
+                    - generic [ref=e1112]:
+                      - generic [ref=e1114]: 📍
+                      - generic [ref=e1116]:
+                        - heading "HSBC 빌딩과 성요한 성당" [level=3] [ref=e1117]
+                        - paragraph [ref=e1118]: 사자상과 주변 건물에 얽힌 재밌는 이야기
+                        - generic [ref=e1119]: 가이드 투어
+                    - generic [ref=e1120]:
+                      - generic [ref=e1122]: 📍
+                      - generic [ref=e1124]:
+                        - heading "피크트램 탑승" [level=3] [ref=e1125]
+                        - paragraph [ref=e1126]: 패스트트랙으로 대기 없이 빅토리아 피크행
+                        - generic [ref=e1127]: 이동
+                    - generic [ref=e1128]:
+                      - generic [ref=e1130]: 📍
+                      - generic [ref=e1132]:
+                        - heading "빅토리아 피크" [level=3] [ref=e1133]
+                        - paragraph [ref=e1134]: 홍콩 전경 감상 · 전용차로 하산
+                        - generic [ref=e1135]: 가이드 투어
+                    - generic [ref=e1136]:
+                      - generic [ref=e1138]: 📍
+                      - generic [ref=e1140]:
+                        - heading "스타페리" [level=3] [ref=e1141]
+                        - paragraph [ref=e1142]: 바다 위에서 야경 감상 · 침사추이 이동
+                        - generic [ref=e1143]: 이동
+                    - generic [ref=e1144]:
+                      - generic [ref=e1146]: 📍
+                      - generic [ref=e1148]:
+                        - heading "심포니 오브 라이츠" [level=3] [ref=e1149]
+                        - paragraph [ref=e1150]: 세계 최대 레이저쇼 관람 · 백만불 야경
+                        - generic [ref=e1151]: 가이드 투어
+                    - generic [ref=e1152]:
+                      - generic [ref=e1154]: 📍
+                      - generic [ref=e1155]:
+                        - heading "템플스트리트 야시장" [level=3] [ref=e1156]
+                        - paragraph [ref=e1157]: 21:00 도착 · 자유롭게 저녁 식사
+                        - generic [ref=e1158]: 자유 일정
+                - generic [ref=e1159]:
+                  - heading "투어 코스" [level=2] [ref=e1161]
+                  - generic [ref=e1162]:
+                    - generic [ref=e1163]:
+                      - heading "HSBC 빌딩과 성요한 성당" [level=3] [ref=e1164]
+                      - paragraph [ref=e1165]: 홍콩 센트럴의 상징인 HSBC 빌딩은 홍콩의 랜드마크 중 하나에요. 건물 앞 홍콩 지폐 모델인 사자상그리고 주변 건물에 얽힌 재미있는 이야기를 들을 수 있습니다. 그리고 홍콩에서 가장 오래된 예쁘고 아담한 성요한 성당도 빼놓을 수 없어요.
+                      - generic:
+                        - img "HSBC 빌딩과 성요한 성당"
+                    - generic [ref=e1166]:
+                      - heading "빅토리아 피크" [level=3] [ref=e1167]
+                      - paragraph [ref=e1168]: 해발 552m 전망대에서 홍콩 전경을 한눈에 담아요. 시간대별로 다른 매력을 보여주는 이곳에서 석양부터 야경까지 감상하며 인생 사진도 남길 수 있어요.
+                      - generic:
+                        - img "빅토리아 피크"
+                    - generic [ref=e1169]:
+                      - heading "스타페리" [level=3] [ref=e1170]
+                      - paragraph [ref=e1171]: 침사추이로 향하는 홍콩의 대중교통 수단이에요. 홍콩 영화 속 장면처럼 바다 위에서 홍콩의 야경을 가장 여유롭고 낭만적으로 감상할 수 있습니다.
+                      - img "스타페리" [ref=e1173]
+                    - generic [ref=e1174]:
+                      - heading "심포니 오브 라이츠" [level=3] [ref=e1175]
+                      - paragraph [ref=e1176]: 매일 저녁 8시 침사추이 해안에서 펼쳐지는 세계 최대 규모 멀티미디어 쇼예요. 빛과 음악이 어우러져 홍콩 스카이라인을 화려하게 수놓는 장관을 감상해요.
+                      - img "심포니 오브 라이츠" [ref=e1178]
+                    - generic [ref=e1179]:
+                      - heading "템플스트리트 야시장" [level=3] [ref=e1180]
+                      - paragraph [ref=e1181]: 홍콩 최대 야시장에서 현지 먹거리와 쇼핑을 즐겨요. 딤섬부터 시원한 맥주까지, 가이드가 추천하는 맛집에서 홍콩의 밤문화를 만끽할 수 있어요.
+                      - generic:
+                        - img "템플스트리트 야시장"
+                - generic [ref=e1182]:
+                  - heading "포함·불포함" [level=3] [ref=e1184]
+                  - generic [ref=e1186]:
+                    - generic [ref=e1187]:
+                      - generic [ref=e1188]: 포함
+                      - generic [ref=e1189]: ✓ 한국인 가이드
+                      - generic [ref=e1190]: ✓ 피크트램 패스트트랙 탑승비
+                      - generic [ref=e1191]: ✓ 빅토리아피크 하산 전용버스
+                      - generic [ref=e1192]: ✓ 가이드 설명 수신기, 유선 이어폰 대여
+                    - generic [ref=e1193]:
+                      - generic [ref=e1194]: 불포함
+                      - generic [ref=e1195]: ✕ 저녁식사
+                      - generic [ref=e1196]: ✕ 개인비용
+                      - generic [ref=e1197]: ✕ 스타페리·버스 대중교통비 (약 15HKD)
+                - generic [ref=e1198]:
+                  - heading "이용 방법" [level=2] [ref=e1200]
+                  - generic [ref=e1201]:
+                    - generic [ref=e1202]:
+                      - generic [ref=e1203]: "1"
+                      - generic [ref=e1204]:
+                        - heading "예약 확정 확인하기" [level=4] [ref=e1205]
+                        - paragraph [ref=e1206]: 4명 이상 모이면 투어가 확정되고 메시지로 알려드려요
+                    - generic [ref=e1207]:
+                      - generic [ref=e1208]: "2"
+                      - generic [ref=e1209]:
+                        - heading "바우처 받기" [level=4] [ref=e1210]
+                        - paragraph [ref=e1211]: 투어 3~4일 전 알림톡으로 바우처가 발송돼요
+                    - generic [ref=e1212]:
+                      - generic [ref=e1213]: "3"
+                      - generic [ref=e1214]:
+                        - heading "집합 장소로 가기" [level=4] [ref=e1215]
+                        - paragraph [ref=e1216]: 16시 50분까지 센트럴역 K출구 황후상광장으로 오세요
+                    - generic [ref=e1217]:
+                      - generic [ref=e1218]: "4"
+                      - generic [ref=e1219]:
+                        - heading "가이드 만나기" [level=4] [ref=e1220]
+                        - paragraph [ref=e1221]: 잭슨 동상 앞에서 가이드에게 알림톡 보여주세요
+                    - generic [ref=e1222]:
+                      - generic [ref=e1223]: "5"
+                      - generic [ref=e1224]:
+                        - heading "투어 시작하기" [level=4] [ref=e1225]
+                        - paragraph [ref=e1226]: 수신기와 이어폰 받고 17시 정각에 투어를 시작해요
+                - generic [ref=e1228]:
+                  - heading "집합/픽업 안내" [level=3] [ref=e1229]
+                  - paragraph [ref=e1230]: 오후 4시 50분, 홍콩섬 황후상광장 잭슨 동상 앞
+                  - paragraph [ref=e1231]: MTR 센트럴역 K 출구로 나오면 쉽게 찾을 수 있어요
+                  - paragraph [ref=e1232]: 택시 이용 시 기사에게 '皇后像廣場' 보여주세요
+                  - paragraph [ref=e1233]: 오후 5시 정각에 출발하니 늦지 마세요
+                - generic [ref=e1235]:
+                  - heading "취소 및 환불 안내" [level=3] [ref=e1236]
+                  - paragraph [ref=e1237]: 여행일 1일 전 오전 9시까지 100% 환불 가능해요
+                  - paragraph [ref=e1238]: 여행일 1일 전 오전 9시 이후는 취소·환불 불가
+                  - paragraph [ref=e1239]: 당일 예약의 경우에도 당일 취소는 불가합니다
+                  - paragraph [ref=e1240]: 취소 시간은 홍콩 현지 시간 기준이에요
+                - generic [ref=e1242]:
+                  - heading "자주 묻는 질문" [level=3] [ref=e1243]
+                  - generic [ref=e1244]:
+                    - generic [ref=e1245]:
+                      - generic [ref=e1246]:
+                        - generic [ref=e1247]: Q
+                        - generic [ref=e1248]: 피크트램 티켓을 따로 구매해야 하나요?
+                      - generic [ref=e1249]:
+                        - generic [ref=e1250]: A
+                        - generic [ref=e1251]: 아니요, 피크트램 패스트트랙 요금이 투어비에 포함되어 있어요
+                    - generic [ref=e1252]:
+                      - generic [ref=e1253]:
+                        - generic [ref=e1254]: Q
+                        - generic [ref=e1255]: 최소 인원이 모이지 않으면 어떻게 되나요?
+                      - generic [ref=e1256]:
+                        - generic [ref=e1257]: A
+                        - generic [ref=e1258]: 투어 1일 전 오후까지 대기하고, 미달 시 전액 환불해드려요
+                    - generic [ref=e1259]:
+                      - generic [ref=e1260]:
+                        - generic [ref=e1261]: Q
+                        - generic [ref=e1262]: 아이도 같은 요금인가요?
+                      - generic [ref=e1263]:
+                        - generic [ref=e1264]: A
+                        - generic [ref=e1265]: 만 36개월 미만은 무료, 그 이상은 성인과 동일 요금이에요
+                    - generic [ref=e1266]:
+                      - generic [ref=e1267]:
+                        - generic [ref=e1268]: Q
+                        - generic [ref=e1269]: 교통비는 어떻게 결제하나요?
+                      - generic [ref=e1270]:
+                        - generic [ref=e1271]: A
+                        - generic [ref=e1272]: 신용카드나 옥토퍼스 카드로 결제하세요. 현금은 불편해요
+                    - generic [ref=e1273]:
+                      - generic [ref=e1274]:
+                        - generic [ref=e1275]: Q
+                        - generic [ref=e1276]: 비가 와도 진행되나요?
+                      - generic [ref=e1277]:
+                        - generic [ref=e1278]: A
+                        - generic [ref=e1279]: 네, 우천 시에도 진행됩니다. 우산을 준비해주세요
+            - button "상품 소개 더보기" [ref=e1287] [cursor=pointer]:
+              - generic [ref=e1288]: 상품 소개 더보기
+          - generic [ref=e1289]:
+            - heading "코스" [level=2] [ref=e1290]
+            - generic [ref=e1292]:
+              - generic [ref=e1293]:
+                - img [ref=e1296]
+                - generic [ref=e1300]:
+                  - generic [ref=e1301]: 🚩 가이드 미팅
+                  - generic [ref=e1302]:
+                    - generic [ref=e1303]: 10분 소요
+                    - generic [ref=e1304]:
+                      - generic [ref=e1305]: ·
+                      - button "황후상 광장" [ref=e1306] [cursor=pointer]:
+                        - img [ref=e1307]
+                        - generic [ref=e1309]: 황후상 광장
+                  - generic [ref=e1310]: • 오후 4시 50분, 홍콩섬 황후상광장 잭슨 동상 (MTR 센트럴역 K 출구) 앞에서 만나요 • 가이드에게 바우처를 제시해 주세요 • 설명 수신기와 이어폰을 배부해 드립니다 • 투어는 오후 5시 정각에 시작됩니다 • 원활한 진행을 위해 지각 시 기다리지 않습니다 ※ 지하철을 이용하시면 지각하지 않습니다. 센트럴엑서 K출구 안내표지만 보고 가시면 쉽게 찾을 수 있습니다 ※ 어쩔 수 없이 택시를 타신다면 기사에게 한자 지명을 보여주세요. 皇后像廣場
+                  - button "더보기" [ref=e1312] [cursor=pointer]:
+                    - generic [ref=e1313]: 더보기
+              - generic [ref=e1315]:
+                - img [ref=e1318]
+                - generic [ref=e1322]:
+                  - generic [ref=e1323]: ⛪ HSBC 빌딩과 성 요한 성당
+                  - generic [ref=e1324]:
+                    - generic [ref=e1325]: 20분 소요
+                    - generic [ref=e1326]:
+                      - generic [ref=e1327]: ·
+                      - button "HSBC 홍콩 본점 빌딩" [ref=e1328] [cursor=pointer]:
+                        - img [ref=e1329]
+                        - generic [ref=e1331]: HSBC 홍콩 본점 빌딩
+                  - generic [ref=e1332]: • HSBC 빌딩과 사자상 그리고 주변 건물에 얽힌 재미있는 이야기를 들어요 • 예쁘고 아담한 성요한 성당도 빼놓을 수 없어요 • 홍콩대장이 들려주는 재미있는 홍콩 이야기를 놓치지 마세요
+            - button "코스 모두 보기" [ref=e1336] [cursor=pointer]:
+              - generic [ref=e1337]: 코스 모두 보기
+          - generic [ref=e1341]:
+            - generic [ref=e1343]: "'시내투어' 인기 상품"
+            - generic [ref=e1346]:
+              - generic [ref=e1351] [cursor=pointer]:
+                - generic [ref=e1352]:
+                  - img "Placeholder Thumbnail" [ref=e1355]
+                  - img [ref=e1360]
+                - generic [ref=e1362]:
+                  - generic [ref=e1363]: "[홍콩 백만불 야경투어] 피크트램 패스트트랙, 심포니오브라이트 야경, 템플스트리트 야시장!"
+                  - generic [ref=e1364]:
+                    - img [ref=e1365]
+                    - generic [ref=e1367]: "4.9"
+                    - generic [ref=e1368]: (1473)
+                  - generic [ref=e1370]: 49,500원
+                  - generic [ref=e1371]: 투어
+                  - generic [ref=e1373]: 최저가보장제
+              - generic [ref=e1378] [cursor=pointer]:
+                - generic [ref=e1379]:
+                  - img "Placeholder Thumbnail" [ref=e1382]
+                  - img [ref=e1387]
+                - generic [ref=e1389]:
+                  - generic [ref=e1390]: "홍콩이반장의[돋보기투어] 소구룹스토리텔링 대중교통도보#소호미드레벨 #픽트램패스트랙야경"
+                  - generic [ref=e1391]:
+                    - img [ref=e1392]
+                    - generic [ref=e1394]: "5"
+                    - generic [ref=e1395]: (366)
+                  - generic [ref=e1397]: 48,000원
+                  - generic [ref=e1398]: 투어
+                  - generic [ref=e1400]: 무료취소
+              - generic [ref=e1405] [cursor=pointer]:
+                - generic [ref=e1406]:
+                  - img "Placeholder Thumbnail" [ref=e1409]
+                  - img [ref=e1414]
+                - generic [ref=e1416]:
+                  - generic [ref=e1417]: "[홍콩 완전정복투어]스탠리마켓, 리펄스베이, 피크트램 패스트트랙 야경, 스타페리, 침사추이"
+                  - generic [ref=e1418]:
+                    - img [ref=e1419]
+                    - generic [ref=e1421]: "4.9"
+                    - generic [ref=e1422]: (351)
+                  - generic [ref=e1424]: 92,400원
+                  - generic [ref=e1425]: 투어
+                  - generic [ref=e1427]: 최저가보장제
+              - generic [ref=e1432] [cursor=pointer]:
+                - generic [ref=e1433]:
+                  - img "Placeholder Thumbnail" [ref=e1436]
+                  - img [ref=e1441]
+                - generic [ref=e1443]:
+                  - generic [ref=e1444]: 전문 가이드와 함께 하는 홍콩 구석구석 대중교통/도보투어
+                  - generic [ref=e1445]:
+                    - img [ref=e1446]
+                    - generic [ref=e1448]: "5"
+                    - generic [ref=e1449]: (7)
+                  - generic [ref=e1451]: 34,000원
+                  - generic [ref=e1452]: 투어
+                  - generic [ref=e1454]: 무료취소
+              - generic [ref=e1459] [cursor=pointer]:
+                - generic [ref=e1460]:
+                  - img "Placeholder Thumbnail" [ref=e1463]
+                  - img [ref=e1468]
+                - generic [ref=e1470]:
+                  - generic [ref=e1471]: 유럽의 정취를 느끼는 낭만 홍콩 여행
+                  - generic [ref=e1472]:
+                    - img [ref=e1473]
+                    - generic [ref=e1475]: "5"
+                    - generic [ref=e1476]: (85)
+                  - generic [ref=e1478]: 49,500원
+                  - generic [ref=e1479]: 투어
+                  - generic [ref=e1481]: 무료취소
+              - generic [ref=e1486] [cursor=pointer]:
+                - generic [ref=e1487]:
+                  - img "Placeholder Thumbnail" [ref=e1490]
+                  - img [ref=e1495]
+                - generic [ref=e1497]:
+                  - generic [ref=e1498]: 다이나믹 시티 나이트 워킹 투어 (홍콩)
+                  - generic [ref=e1500]: 172,500원
+                  - generic [ref=e1501]: 투어
+                  - generic [ref=e1503]: 즉시 확정
+          - generic [ref=e1504]:
+            - heading "포함 · 불포함 사항" [level=2] [ref=e1505]
+            - generic [ref=e1507]:
+              - generic [ref=e1508]:
+                - heading "포함되어 있어요" [level=3] [ref=e1509]
+                - generic [ref=e1512]:
+                  - img "icon" [ref=e1513]
+                  - paragraph [ref=e1515]: • 한국인 가이드 • 피크트램 패스트트랙(상행 편도) 탑승비 • 빅토리아피크 하산 전용버스 탑승비 • 가이드 설명 수신기, 유선 이어폰 대여
+              - generic [ref=e1516]:
+                - heading "불포함되어 있어요" [level=3] [ref=e1517]
+                - generic [ref=e1520]:
+                  - img "icon" [ref=e1521]
+                  - paragraph [ref=e1523]: "- 저녁식사 - 개인비용 - 스타페리 1회, 버스 1회 대중교통비 (1인 약 15HKD)"
+          - generic [ref=e1526]:
+            - generic [ref=e1527]: 홍콩의 낮과 밤을 한번에 완성하세요
+            - generic [ref=e1538] [cursor=pointer]:
+              - generic [ref=e1539]:
+                - generic [ref=e1540]:
+                  - generic [ref=e1541]: "[홍콩햇빛든든투어] 전용차량/낭만의거리/센트럴/리펄스베이/익청빌딩/완차이 리퉁애비뉴"
+                  - generic [ref=e1542]: 전용차량으로 센트럴부터 리펄스베이까지! 햇빛 아래 만나는 홍콩의 낭만을 즐겨보세요
+                  - generic [ref=e1543]:
+                    - img [ref=e1545]
+                    - generic [ref=e1547]: 여행일 기준 1일 전 오전 9시 0분까지 무료취소
+                - generic [ref=e1548]:
+                  - img "thumbnail" [ref=e1549]
+                  - img "Placeholder Thumbnail" [ref=e1551]
+              - generic [ref=e1554]: 69,900원~
+          - generic [ref=e1555]:
+            - heading "이용 안내" [level=2] [ref=e1556]
+            - generic [ref=e1558]:
+              - generic [ref=e1559]:
+                - heading "만나는시간" [level=3] [ref=e1560]
+                - paragraph [ref=e1565]: 16:50
+              - generic [ref=e1566]:
+                - heading "만나는장소" [level=3] [ref=e1567]
+                - generic [ref=e1568]:
+                  - img "Placeholder Thumbnail" [ref=e1572] [cursor=pointer]
+                  - paragraph [ref=e1575]: 황후상 광장 잭슨 동상 앞 (센트럴역 K 출구)
+          - generic [ref=e1576]:
+            - heading "필수 확인 사항" [level=2] [ref=e1577]
+            - generic [ref=e1583]:
+              - img "icon" [ref=e1584]
+              - paragraph [ref=e1586]: 🚋 교통비 지불 수단 안내 • 신용카드 또는 트래블카드 (뒷면에 와이파이 문양이 있는 컨택리스 카드만 가능) • 홍콩 교통카드인 옥토퍼스 카드 구입 후 충전 (출국 전 잔액 환불) • 신용카드와 옥토퍼스카드는 한 개의 카드로 한 분만 결제 가능합니다 • 현금은 불편합니다 - 시내버스가 잔돈을 거슬러 주지 않습니다 - 스타페리 탑승권을 구입하기 위해 별도로 줄을 서야 해서 시간을 낭비하게 됩니다 • 대중교통 이용료는 1인당 약 15HK$ 입니다 • 대중교통은 스타페리 1회, 야시장 행 시내버스 1회 탑승합니다 📢 꼭 읽어주세요! • 투어 시간은 오후 5시부터 9시로 4시간 동안 진행됩니다. • 투어 출발 최소 인원은 4명입니다 • 1~3인 예약 고객님은 투어 최대 1일 전 오후까지 대기하실 수 있습니다 • 피크트램 패스트트랙 요금이 포함입니다. 따로 피크트램 티켓을 구입하지 마세요 • 투어일 기준으로 만 36개월 미만은 무료이고, 그 이후부터 성인 요금과 동일합니다 • 만 3세 미만 아동에게는 설명 수신기가 지급되지 않습니다 • 10명 미만인 경우 피크 하행 시 택시 또는 시내버스를 이용할 수 있습니다 • 현지 기상, 교통 등의 사정에 따라 여행 동선이 조정될 수 있습니다 • 고객님의 지각 등 개인 사정으로 인한 불참은 환불하지 않습니다 • 가이드 설명 수신기를 훼손 또는 파손 시 HK$400을 변상해야 합니다 • 든든한 가이드가 안내하지만 여행자 보험은 꼭 가입하시기 바랍니다 * 당일 예약의 경우에도 당일 취소는 불가합니다 👌 사용방법 • 4명이 구성되어 투어가 확정되면 마이리얼트립 메시지로 알려드립니다. • 홍콩대장의 알림톡 바우처는 투어 3~4일 전에 발송됩니다 • 가이드에게 알림톡을 보여주세요 • 구매하신 날에만 유효하지만, 투어일 이전에는 날짜 변경 가능하니 연락주세요.
+            - button "필수 확인 사항 모두 보기" [ref=e1589] [cursor=pointer]:
+              - generic [ref=e1590]: 필수 확인 사항 모두 보기
+          - generic [ref=e1591]:
+            - heading "취소/환불 규정" [level=2] [ref=e1592]
+            - generic [ref=e1598]:
+              - img "icon" [ref=e1599]
+              - paragraph [ref=e1601]: "- 여행일 기준 1일 전 오전 9시 이전 통보 시: 여행 요금 100% 전액 환불 - 여행일 기준 1일 전 오전 9시 이후 통보 시 : 취소/환불 불가 *취소 요청 날짜와 시간은 여행 상품이 진행되는 현지 시간을 따릅니다."
+          - generic [ref=e1610]:
+            - generic [ref=e1611]:
+              - img "AI" [ref=e1612]
+              - generic [ref=e1613]: AI가 요약한 174개의 후기
+              - generic [ref=e1614]: (최근 12개월)
+            - generic [ref=e1615]:
+              - generic [ref=e1616]:
+                - generic [ref=e1617]:
+                  - img "AI" [ref=e1618]
+                  - generic [ref=e1619]: 가이드 친절도·투어 구성·홍콩 정보 제공 (5개)
+                - paragraph [ref=e1620]:
+                  - generic [ref=e1621]:
+                    - button "더보기" [ref=e1622] [cursor=pointer]
+                    - text: 여러 리뷰에 따르면 가이드 분들의 친절한 안내와 설명으로 홍콩에 대한 이해도가 높아졌다고 합니다. 또한 효율적인 동선과 알찬 투어 구성으로 짧은 시간 내에 홍콩의 주요 명소를 둘러볼 수 있었다고 합니다. 특히 홍콩의 역사, 문화, 풍수지리 등 다양한 정보를 재미있게 전달해주셔서 좋았다는 평가가 많았습니다.
+              - generic [ref=e1623]:
+                - generic [ref=e1624]:
+                  - img "AI" [ref=e1625]
+                  - generic [ref=e1626]: 없음
+                - paragraph [ref=e1627]: "null"
+          - generic [ref=e1632]:
+            - generic [ref=e1633]:
+              - img [ref=e1634]
+              - generic [ref=e1636]: 4.8 · 후기 750개
+            - generic [ref=e1640]:
+              - generic [ref=e1643]:
+                - generic [ref=e1644]:
+                  - generic [ref=e1645]:
+                    - img [ref=e1646]
+                    - img [ref=e1648]
+                    - img [ref=e1650]
+                    - img [ref=e1652]
+                    - img [ref=e1654]
+                  - generic [ref=e1656]: 3달 전
+                - generic [ref=e1657]:
+                  - generic [ref=e1658]: 홍콩투어는 상품 선택지가 여러 개 있어서 고민 많이 했는데 이 상품 고르기를 정말 잘했습니다! 투어를 마치고 숙소로 돌아가면서 가이드님을 정말 잘 만났다 생각했어요^^ 정재령 가이드님의 현지 경험과 역사적 배경+설명을 들으면서 홍콩 이곳저곳을 여행하니 홍콩에 진하게 사랑에 빠진 기분이었어요. 게다가 피크트램을 패스트트랙으로 아주 편하게 이동해서 더욱 좋았구요. 이동시간에도 송신기를 통해 계속계속 꿀팁 알려주셔서 헷갈리는거 없이 사람많아도 민첩하게 움직일 수 있었습니다.ㅋㅋ 투어시작시간도 딱 좋았어요. 12월 여행이었는데 해가 지는 아름다운 시간에 노을 1번 홍콩야경 1번 두 가지 느낌 사진을 찍을 수 있어서 너무 좋았어요. 심지어 ㅠ 카드를 잃어버렸는데 그마저도 도와주셔서 어찌나 감사했는지요! 가이드님 감사했습니다 ^^ 😀 홍콩생활을 응원합니다!
+                  - generic [ref=e1659]:
+                    - img "Placeholder Thumbnail" [ref=e1662]
+                    - generic [ref=e1664]: "5"
+                - generic [ref=e1665]: 정*령
+              - generic [ref=e1668]:
+                - generic [ref=e1669]:
+                  - generic [ref=e1670]:
+                    - img [ref=e1671]
+                    - img [ref=e1673]
+                    - img [ref=e1675]
+                    - img [ref=e1677]
+                    - img [ref=e1679]
+                  - generic [ref=e1681]: 3달 전
+                - generic [ref=e1682]:
+                  - generic [ref=e1683]: 고경선 가이드님과 함께한 별빛투어! 홍콩여행 다녀오고 사진정리하다가 늦은 후기 작성합니다 7년만?에 친구들과 다시 찾은 홍콩이었는데 자유여행을 즐기지만 역시 투어를 신청하기를 잘했습니다 정말 홍콩에 대해 하나라도 더알려주시려하고 효율적인 동선으로 지치지 않는 에너지를 보여주신 고경선 가이드님 덕분에 홍콩에 대해 더많이 알게되었습니다 저희끼리 다녔다면 모르고 지나쳤을 홍콩의 교통 배경 역사 등을 알려주셔서 너무 재밌었어요 일정상 여행 중반부에 투어를 했지만 역시 초반에 했다면 좋았을 걸 아쉬울 만큼요- 자유여행을 다니면서 이렇게 투어를 하면 아쉬운 부분이 채워지는 것 같아 이번에도 역시 너무 만족합니다 감사합니다
+                  - generic [ref=e1684]:
+                    - img "Placeholder Thumbnail" [ref=e1687]
+                    - generic [ref=e1689]: "4"
+                - generic [ref=e1690]: 체험 거리가 많아요 · 전문적이에요
+                - generic [ref=e1691]: 길*영
+              - generic [ref=e1694]:
+                - generic [ref=e1695]:
+                  - generic [ref=e1696]:
+                    - img [ref=e1697]
+                    - img [ref=e1699]
+                    - img [ref=e1701]
+                    - img [ref=e1703]
+                    - img [ref=e1705]
+                  - generic [ref=e1707]: 3달 전
+                - generic [ref=e1708]:
+                  - generic [ref=e1709]: 대규모 가족으로 인원이 많아서 걱정이 많았는데, 모두들 만족해 했습니다. 이 투어는 홍콩 체험에 매우 핵심적인 곳이 다 있어요 개인적으로는 빠른 응답과 서비스가 너무나 좋았습니다. ^^
+                  - generic [ref=e1710]:
+                    - img "Placeholder Thumbnail" [ref=e1713]
+                    - generic [ref=e1715]: "7"
+                - generic [ref=e1716]: 방문하기 편해요 · 관리가 잘 되어 있어요 · 관광지와 가까워요 · 위치가 찾기 쉬워요 · 전문적이에요
+                - generic [ref=e1717]: 장*실
+              - generic [ref=e1720]:
+                - generic [ref=e1721]:
+                  - generic [ref=e1722]:
+                    - img [ref=e1723]
+                    - img [ref=e1725]
+                    - img [ref=e1727]
+                    - img [ref=e1729]
+                    - img [ref=e1731]
+                  - generic [ref=e1733]: 3달 전
+                - generic [ref=e1734]:
+                  - generic [ref=e1735]: 이동우 가이드님!! 일찍 모인 팀원들에게 감사인사로 시작해주셨어요~^^ 낯선곳에서 한국인 가이드님과 홍콩의 랜드마크를 둘러보며 설명을 들으니 새롭게 보이더라구요. 피크트램도 패스트로 진행해주시고 자리 배치까지 세심하게 안내해주셔서 한층 더 즐길 수 있었어요. 전날 저녁에 도착해서 본 건물들, 홍콩의 과거와 현재를 알게되니 의미있고 재밌어 지더군요. 다 큰 대학생 아이들이 너무 좋다고 예약 잘했다고 칭찬해주었어요. 마지막에 완탕면 현지 맛집까지 직접 안내해주시고 맛있게 먹는 꿀팁까지 주셔서 저렴하고 맛있고 보기드물게 친절한 식당에서 저녁을 먹었답니다. 하나라더 더 유용한 정보를 주시려고 애쓰시고, 궁금한 질문도 시원시원하게 답해주셔서 너무 좋았습니다 ~^^
+                  - generic [ref=e1736]:
+                    - img "Placeholder Thumbnail" [ref=e1739]
+                    - generic [ref=e1741]: "7"
+                - generic [ref=e1742]: 방문하기 편해요 · 친절해요 · 위치가 찾기 쉬워요 · 관광지와 가까워요
+                - generic [ref=e1743]: 최*선
+              - generic [ref=e1746]:
+                - generic [ref=e1747]:
+                  - generic [ref=e1748]:
+                    - img [ref=e1749]
+                    - img [ref=e1751]
+                    - img [ref=e1753]
+                    - img [ref=e1755]
+                    - img [ref=e1757]
+                  - generic [ref=e1759]: 4달 전
+                - generic [ref=e1760]:
+                  - generic [ref=e1761]: 사실 리뷰를 잘 남기는 편은 아닌데 너무 좋은 경험을 공유하고자 글을 작성합니다 첫만남부터 마지막까지 백해정가이드님 덕분에 쉴틈없이 즐긴 하루였습니다. 전문적인 해설과 지루할 틈 없이 알찬 역사적인 내용까지 알고보니 다르게 느껴지는 홍콩의 이모저모를 느끼기 더없이 좋은 일정이었어요. 이동내내 지루할 수도 있던 틈을 역사적인 내용과 실제 현지 꿀팁을 더불어 오디오가 비지 않게 해주셔서 너무 유익했어요. 5시간 가까운 시간을 빈틈없이 채워주신 열정에 너무 감동했어요. 홍콩 N년차인 엄마도 이렇게 유익한 투어는 처음이라며 좋아하셨습니다. 추후 지인에게도 홍콩투어 일정 중 제일 먼저 추천할 것같아요. 자유여행파라 투어는 잘 하지않는 편인데도 이래서 투어가 필요하구나 느낀 계기가 됐어요. 멋진 홍콩의 밤을 선사해주신 백혜정 가이드님께 정말 감사드립니다❣️
+                  - generic [ref=e1762]:
+                    - img "Placeholder Thumbnail" [ref=e1765]
+                    - generic [ref=e1767]: "7"
+                - generic [ref=e1768]: 응답이 빨라요 · 친절해요 · 전문적이에요
+                - generic [ref=e1769]: 채*아
+              - generic [ref=e1772]:
+                - generic [ref=e1773]:
+                  - generic [ref=e1774]:
+                    - img [ref=e1775]
+                    - img [ref=e1777]
+                    - img [ref=e1779]
+                    - img [ref=e1781]
+                    - img [ref=e1783]
+                  - generic [ref=e1785]: 3달 전
+                - generic [ref=e1786]:
+                  - generic [ref=e1787]: 작년 9월에 이용했는데 정말 만족하는 투어였습니다. 우선 가이드님께서 너무 친절하셔서 좋고 전망대에서 전용 버스타고 내려와서 편했습니다. 반나절 투어라서 홍콩 야경보기 너무 좋은 코스였고 홍콩섬 건물들의 이야기를 들으니 재미있었습니다. 추천하는 투어!!
+                  - generic [ref=e1788]:
+                    - img "Placeholder Thumbnail" [ref=e1791]
+                    - generic [ref=e1793]: "5"
+                - generic [ref=e1794]: 방문하기 편해요 · 전문적이에요 · 친절해요 · 위치가 찾기 쉬워요
+                - generic [ref=e1795]: 노*영
+              - generic [ref=e1798]:
+                - generic [ref=e1799]:
+                  - generic [ref=e1800]:
+                    - img [ref=e1801]
+                    - img [ref=e1803]
+                    - img [ref=e1805]
+                    - img [ref=e1807]
+                    - img [ref=e1809]
+                  - generic [ref=e1811]: 3달 전
+                - generic [ref=e1813]: 김승건 가이드님! 감사했습니다.쉽게 후기를 남기지 않는 1인인데 ㅎㅎ 진심을 다해 응원하고 싶어 글을 남깁니다.단순한 관광으로 가볍게 여기고 투어를 시작했는데 홍콩의 정치,경제, 역사,주변국가들과의 관계까지 전문적 지식을 전해 주셔서 회사 동료들과 너무 의미있는 시간을 보내게 되어 감사했습니다.위트와 유머로 지루할 틈 없이 웃다가 보니 오래 알고 지낸 이웃 아저씨처럼 편안했습니다.홍콩 방문시 꼭 한 번만이라도 투어 신청해서 진행 하시는 걸 강추 드립니다.물론 김승건 가이드님을 배정 받는 행운이 있으셔야겠지만~가족들과 재방문 때 또 뵙기를 소망합니다.늘 건강하세요~^^
+                - generic [ref=e1814]: 응답이 빨라요 · 전문적이에요 · 관광지와 가까워요 · 위치가 찾기 쉬워요 · 친절해요
+                - generic [ref=e1815]: 이*숙
+              - generic [ref=e1818]:
+                - generic [ref=e1819]:
+                  - generic [ref=e1820]:
+                    - img [ref=e1821]
+                    - img [ref=e1823]
+                    - img [ref=e1825]
+                    - img [ref=e1827]
+                    - img [ref=e1829]
+                  - generic [ref=e1831]: 3달 전
+                - generic [ref=e1833]: 친구랑 홍콩 여행 왔는데 홍콩의 생활, 문화 등 알고싶어서 신청하게되었습니다. 덤으로 야경이랑 야시장까지 패키지로 되어있는데 선택을 안할수가 없었습니다. 김별 가이드님과 함께 했는데 완전 대만족 했습니다. 짱쨩‘!! 최고!! 설명도 진짜 잘해주시고 가는길 마다 인솔도 조심히 잘해주셔서 덕분에 편하게 잘 다녔습니다. 사진도 잘찍어주세요~! 가이드님 설명 듣고 나선 홍콩을 바라보는 시각이 달라졌어요 길가는마다 여러 생활 풍습이 보이고 더더 풍부하게 여행하는 느낌에요~ 홍콩 여행 첫날 투어 추천합니다. 든든별빛투어 든든해요!!! 정말루!!!
+                - generic [ref=e1834]: 전문적이에요 · 친절해요 · 체험 거리가 많아요 · 관광지와 가까워요 · 위치가 찾기 쉬워요
+                - generic [ref=e1835]: 임*혜
+              - generic [ref=e1838]:
+                - generic [ref=e1839]:
+                  - generic [ref=e1840]:
+                    - img [ref=e1841]
+                    - img [ref=e1843]
+                    - img [ref=e1845]
+                    - img [ref=e1847]
+                    - img [ref=e1849]
+                  - generic [ref=e1851]: 4달 전
+                - generic [ref=e1852]:
+                  - generic [ref=e1853]: 정재령 가이드님과 함께한 별빛든든투어~ 일단 많은 인원이 함께 움직이는데 함께한 분들이 모두 약속을 잘 지켜주셔서 딜레이 없이 순조로운 진행을 할 수 있었습니다~ 역시 한국분들 짱!!! 패키지 여행을 해보지 않았는데 이런 느낌이지 않을까 싶었던~ 가이드님의 자세한 설명들으며 궈궈~ 홍콩에 대해 몰랐던 것들을 알 수 있었고 특히나 가이드님의 찐 생활 리뷰를 들으며 진심 타국에서 열심히 사시는 것에 응원해 드리고 싶습니다. 이 투어를 결정한 이유는 시간 로스 없이 홍콩의 밤을 즐기기 위함이었는데 매우 알차고 새로운 경험이었어요~ 강추합니다!!! 마지막 템플스트리트 야시장 윙팻시푸드에서 스파이시 크랩 먹으며 마무리했는데 사장님이 한국인인걸 아시고 다비치가 다녀간 곳이라고 자랑하심 ㅋ 암튼 좋은 추억 만들고 갑니다~ 정재령 가이드님 앞으로도 많은 한국분들께 좋은 추억 선물해 주세요~^^
+                  - generic [ref=e1854]:
+                    - img "Placeholder Thumbnail" [ref=e1857]
+                    - generic [ref=e1859]: "4"
+                - generic [ref=e1860]: 위치가 찾기 쉬워요 · 체험 거리가 많아요 · 친절해요
+                - generic [ref=e1861]: 허*현
+              - generic [ref=e1864]:
+                - generic [ref=e1865]:
+                  - generic [ref=e1866]:
+                    - img [ref=e1867]
+                    - img [ref=e1869]
+                    - img [ref=e1871]
+                    - img [ref=e1873]
+                    - img [ref=e1875]
+                  - generic [ref=e1877]: 4달 전
+                - generic [ref=e1878]:
+                  - generic [ref=e1879]: 정재령가이드님과 함께 한 홍콩 첫째날 투어였는데 홍콩에서 했던 투어중에 제일 좋았어요! 남편이 화장실이슈로 중간에 빠져서 딜레이가 조금 생겼는데 이해해주신 다른분들과 가이드님께 다시 한번 감사드립니다. 서른명이 넘는 인원이였는데 가족단위로 일일이 사진 다 찍어 주시고 한분도 다치지않고 투어 잘 마쳤습니다. 위트있으면서 홍콩에 대한 부분을 이해하기 쉽게 설명해주시고 중간에 오디오가 비는시간에는 노래도 틀어주셔서 홍콩을 더 잘 느낄 수 있어서 너무 좋았어요. 다음번에 홍콩을 또 오게 된다면 정재령가이드님과 다시 한번 투어 하고 싶네요◡̈
+                  - generic [ref=e1880]:
+                    - img "Placeholder Thumbnail" [ref=e1883]
+                    - generic [ref=e1885]: "3"
+                - generic [ref=e1886]: 체험 거리가 많아요 · 전문적이에요 · 관광지와 가까워요
+                - generic [ref=e1887]: 이*날
+              - generic [ref=e1890]:
+                - generic [ref=e1891]:
+                  - generic [ref=e1892]:
+                    - img [ref=e1893]
+                    - img [ref=e1895]
+                    - img [ref=e1897]
+                    - img [ref=e1899]
+                    - img [ref=e1901]
+                  - generic [ref=e1903]: 5달 전
+                - generic [ref=e1904]:
+                  - generic [ref=e1905]: 자유여행을 선호합니다만, 회사 동료와 다녀온 힐링 여행 일정 중에 신청해서 다녀왔습니다. 가이드님 (이동우)이 너무 친절하시고, 자세히 설명해 주셔서 매우 만족스러웠습니다. 처음 가시는 분이나 가족여행일 경우, 자유여행을 선호하시는 분들 중에 '홍콩'이 처음이신 경우에 짧은 시간에 한바퀴 둘러보는 일정으로 강력 추천 드립니다. 가이드 분이 여행팁, 최신 정보를 알려 주시기에 자유여행 일정에서도 많은 도움이 될 수 있습니다. 이동우 가이드님. 기대하지 않았었는데 너무 만족스럽게 잘 다녀왔습니다. 감사합니다.
+                  - generic [ref=e1906]:
+                    - img "Placeholder Thumbnail" [ref=e1909]
+                    - generic [ref=e1911]: "7"
+                - generic [ref=e1912]: 전문적이에요 · 응답이 빨라요 · 친절해요
+                - generic [ref=e1913]: 김*현
+              - generic [ref=e1916]:
+                - generic [ref=e1917]:
+                  - generic [ref=e1918]:
+                    - img [ref=e1919]
+                    - img [ref=e1921]
+                    - img [ref=e1923]
+                    - img [ref=e1925]
+                    - img [ref=e1927]
+                  - generic [ref=e1929]: 6달 전
+                - generic [ref=e1930]:
+                  - generic [ref=e1931]: 비가 오는 궂은 날씨에도 안현정 가이드님 덕분에 홍콩에 대해 구석구석 좀더 많이 알아가는 알찬 투어 였습니다!!! 진짜 가이드님 말 대로 글자 세개면 식당에서 우리를 처다보는 마법을 보았습니다 ㅋㅋㅋㅋㅋ 투어 끝나고 자세히 들어보면 홍콩 사람들끼리 얘기하는것도 귀가 트이는거 같기도 하고 투어 종료 후에도 너무 친절하시구 최대한 여행자들 질문에 답해 주시는게 좋았어요!
+                  - generic [ref=e1932]:
+                    - img "Placeholder Thumbnail" [ref=e1935]
+                    - generic [ref=e1937]: "7"
+                - generic [ref=e1938]: 전문적이에요 · 위치가 찾기 쉬워요 · 체험 거리가 많아요 · 친절해요
+                - generic [ref=e1939]: 김*희
+              - generic [ref=e1942]:
+                - generic [ref=e1943]:
+                  - generic [ref=e1944]:
+                    - img [ref=e1945]
+                    - img [ref=e1947]
+                    - img [ref=e1949]
+                    - img [ref=e1951]
+                    - img [ref=e1953]
+                  - generic [ref=e1955]: 6달 전
+                - generic [ref=e1956]:
+                  - generic [ref=e1957]: 엄마랑 둘이 다녀왔는데 투어 필수에요ㅎㅎ 일요일 투어라서 복잡한날이라, 가이드분께서 아침부터 미리미리 안내해 주셔서 집결지까지 잘 모였어요! 투어도 전문적이고 통솔도 정말잘해주셨어요! 홍콩 풍수지리 부동산 이런거 어르신분들이 진짜 재미있게 들으시더라구요 ㅋㅋ 현지에 계시면서 느끼신거, 알고계시는 정보 이런게 재미있고 좋은거같아요ㅋㅋㅋ 마지막에 템플스트리트에서 종료하면서 곽준빈 기사식당 나왔다고 하는곳에서 맥주먹고 들어갔어요ㅋㅋㅋ 카드된다고까지 얘기해주셔서 먹고 마무리 잘했어요! 자유여행 오셔서 이렇게 필요한 시간마다 투어 추가해서 다니는걸 정말추천합니다ㅎ
+                  - generic [ref=e1958]:
+                    - img "Placeholder Thumbnail" [ref=e1961]
+                    - generic [ref=e1963]: "3"
+                - generic [ref=e1964]: 윤*영
+              - generic [ref=e1967]:
+                - generic [ref=e1968]:
+                  - generic [ref=e1969]:
+                    - img [ref=e1970]
+                    - img [ref=e1972]
+                    - img [ref=e1974]
+                    - img [ref=e1976]
+                    - img [ref=e1978]
+                  - generic [ref=e1980]: 5시간 전
+                - generic [ref=e1981]:
+                  - generic [ref=e1982]: 홍콩에 대해 많이 알수있는 시간이였습니다 특히 홍콩 여행 처음이나 홍콩에 대해 궁금한게잇음 참여하는게 좋아요!! ㅋㅋ 혼자오신분도 있었음 총 11조 30명이 넘는 투어자들이 모였는데 가이드님이 낙오되지않게 잘챙겨주시고 ㅋㅋㅋㅋㅋ 홍콩 관광지라 어딜가든 사람들이 가득가득이였는데 빨리빨리 안내해주심 너무 열심히 해주셔서 즐거웠던 하루였습니다 추천 추천~~!!!
+                  - generic [ref=e1983]:
+                    - img "Placeholder Thumbnail" [ref=e1986]
+                    - generic [ref=e1988]: "2"
+                - generic [ref=e1989]: 장*하
+              - generic [ref=e1992]:
+                - generic [ref=e1993]:
+                  - generic [ref=e1994]:
+                    - img [ref=e1995]
+                    - img [ref=e1997]
+                    - img [ref=e1999]
+                    - img [ref=e2001]
+                    - img [ref=e2003]
+                  - generic [ref=e2005]: 13일 전
+                - generic [ref=e2006]:
+                  - generic [ref=e2007]: 홍콩 여행 첫 날 투어를 했는데 아주 잘 선택 한 것 같습니다~! 6명이라는 소수 인원에 이동우 가이드님이 가족 같이 다니자며 사진도 찍어주시고 이곳 저곳 자세히 설명해주시고 홍콩여행 팁도 알려주셔서 네 시간이 아주 빨리 지나간 것 같아요 ㅎㅎ! 홍콩의 문화나 특이한 건물 모형들의 의미를 설명해주시는게 재미 있었어요 ~ 홍콩에 오신다면 꼭 야경투어 해보시기를 바랍니다! 열심히 설명해주시고 투어 시켜주신 이동우 가이드님 감사합니다~
+                  - generic [ref=e2008]:
+                    - img "Placeholder Thumbnail" [ref=e2011]
+                    - generic [ref=e2013]: "2"
+                - generic [ref=e2014]: 관광지와 가까워요 · 친절해요 · 전문적이에요 · 위치가 찾기 쉬워요
+                - generic [ref=e2015]: 강*혜
+              - generic [ref=e2018]:
+                - generic [ref=e2019]:
+                  - generic [ref=e2020]:
+                    - img [ref=e2021]
+                    - img [ref=e2023]
+                    - img [ref=e2025]
+                    - img [ref=e2027]
+                    - img [ref=e2029]
+                  - generic [ref=e2031]: 6달 전
+                - generic [ref=e2032]:
+                  - generic [ref=e2033]: 짧은 시간내에, 많은 정보들과 풍경을 감상하면서 투어할수 있었고 설명이 자세하고 알기 쉽습니다. 가이드분도 친절하시고 재밌으셔서 좋은 시간이었습니다
+                  - generic [ref=e2034]:
+                    - img "Placeholder Thumbnail" [ref=e2037]
+                    - generic [ref=e2039]: "10"
+                - generic [ref=e2040]: 친절해요 · 관광지와 가까워요 · 위치가 찾기 쉬워요 · 전문적이에요 · 체험 거리가 많아요
+                - generic [ref=e2041]: 박*영
+              - generic [ref=e2044]:
+                - generic [ref=e2045]:
+                  - generic [ref=e2046]:
+                    - img [ref=e2047]
+                    - img [ref=e2049]
+                    - img [ref=e2051]
+                    - img [ref=e2053]
+                    - img [ref=e2055]
+                  - generic [ref=e2057]: 8일 전
+                - generic [ref=e2058]:
+                  - generic [ref=e2059]: 정재령 가이드님. 투어하면서 설명도 재미있게 잘해주셨고, 피크트램 올라갈때 홍콩노래도 틀어주시고. 좋았습니다. 가족사진도 이쁘게 찍어주셔서 감사합니다. 아동과 함께 투어에 참여했는데 배려도 해주셔서 감사드립니다.
+                  - img "Placeholder Thumbnail" [ref=e2063]
+                - generic [ref=e2064]: 친절해요 · 위치가 찾기 쉬워요
+                - generic [ref=e2065]: 김*현
+              - generic [ref=e2068]:
+                - generic [ref=e2069]:
+                  - generic [ref=e2070]:
+                    - img [ref=e2071]
+                    - img [ref=e2073]
+                    - img [ref=e2075]
+                    - img [ref=e2077]
+                    - img [ref=e2079]
+                  - generic [ref=e2081]: 2달 전
+                - generic [ref=e2082]:
+                  - generic [ref=e2083]: 제일 좋았던건 피크트램이였어요. 중국 춘절기간이라 사람이 정말 정말 너무 많아서 개인으로 트램발권해서 줄섰으면 2-3시간 걸렸을듯한데 저희는 패스트랙으로 금방 올라갔네요. 친정한 가이드님에게 설명도 듣고 주요 명소에서 사진도 찍어주셔서 너무나 유익한 시간이였습니다^^
+                  - img "Placeholder Thumbnail" [ref=e2087]
+                - generic [ref=e2088]: 체험 거리가 많아요 · 친절해요 · 관광지와 가까워요 · 전문적이에요 · 방문하기 편해요
+                - generic [ref=e2089]: 정*성
+              - generic [ref=e2092]:
+                - generic [ref=e2093]:
+                  - generic [ref=e2094]:
+                    - img [ref=e2095]
+                    - img [ref=e2097]
+                    - img [ref=e2099]
+                    - img [ref=e2101]
+                    - img [ref=e2103]
+                  - generic [ref=e2105]: 5달 전
+                - generic [ref=e2106]:
+                  - generic [ref=e2107]: 고경선 가이드님과 함께 너무 만족스러운 투어였습니다! 완전 전문적이시고 홍콩 이야기 재미있게 들려주셔서 유익했어요. 애도기간으로 심포니 오브 라이트는 보지 못했지만 크게 상관 없을만큼 만족스러운 투어였습니다.^^
+                  - generic [ref=e2108]:
+                    - img "Placeholder Thumbnail" [ref=e2111]
+                    - generic [ref=e2113]: "5"
+                - generic [ref=e2114]: 친절해요 · 관광지와 가까워요 · 위치가 찾기 쉬워요 · 전문적이에요 · 방문하기 편해요
+                - generic [ref=e2115]: 이*희
+              - generic [ref=e2118]:
+                - generic [ref=e2119]:
+                  - generic [ref=e2120]:
+                    - img [ref=e2121]
+                    - img [ref=e2123]
+                    - img [ref=e2125]
+                    - img [ref=e2127]
+                    - img [ref=e2129]
+                  - generic [ref=e2131]: 8달 전
+                - generic [ref=e2132]:
+                  - generic [ref=e2133]: 빅토리아 피크 패스트 트랙만 이용 하셔도. 돈 하나도 안아깝습니다. 해외 나가서 1분 1초가 다 돈입니다 .ㅎㅎ 친절하신 안현정 가이드님 황후상 광장에서 화장실도 초동학생 한테 알려 주시는 것처럼 너무 상세히 친절하게 알려 주시고ㅎㅎ 중간 중간 하나라도 홍콩에 대해서 자세히 알려주시느라 수고 많으셨습니다. 개인이 혼자 진행 했으면 하루 종일 걸릴 걸 딱 4시간에 즐길수 있습니다. 소중한 추억 남겨주신 안현정 가이드님께 다시 한번 감사인사 올립니다.^^
+                  - generic [ref=e2134]:
+                    - img "Placeholder Thumbnail" [ref=e2137]
+                    - generic [ref=e2139]: "9"
+                - generic [ref=e2140]: 친절해요 · 위치가 찾기 쉬워요 · 관광지와 가까워요 · 방문하기 편해요 · 체험 거리가 많아요
+                - generic [ref=e2141]: 김*홍
+            - button "후기 모두 보기" [ref=e2143] [cursor=pointer]:
+              - generic [ref=e2144]: 후기 모두 보기
+          - generic [ref=e2145]:
+            - generic [ref=e2147]:
+              - generic [ref=e2148]:
+                - generic [ref=e2150]: 다른 여행자가 함께 본 상품
+                - generic [ref=e2153]:
+                  - generic [ref=e2158] [cursor=pointer]:
+                    - generic [ref=e2159]:
+                      - img "Placeholder Thumbnail" [ref=e2162]
+                      - img [ref=e2167]
+                    - generic [ref=e2169]:
+                      - generic [ref=e2170]: "[홍콩 백만불 야경투어] 피크트램 패스트트랙, 심포니오브라이트 야경, 템플스트리트 야시장!"
+                      - generic [ref=e2171]:
+                        - img [ref=e2172]
+                        - generic [ref=e2174]: "4.9"
+                        - generic [ref=e2175]: (1473)
+                      - generic [ref=e2177]: 49,500원
+                      - generic [ref=e2178]: 투어
+                      - generic [ref=e2180]: 최저가보장제
+                  - generic [ref=e2185] [cursor=pointer]:
+                    - generic [ref=e2186]:
+                      - img "Placeholder Thumbnail" [ref=e2189]
+                      - img [ref=e2194]
+                    - generic [ref=e2196]:
+                      - generic [ref=e2197]: "홍콩이반장의[돋보기투어] 소구룹스토리텔링 대중교통도보#소호미드레벨 #픽트램패스트랙야경"
+                      - generic [ref=e2198]:
+                        - img [ref=e2199]
+                        - generic [ref=e2201]: "5"
+                        - generic [ref=e2202]: (366)
+                      - generic [ref=e2204]: 48,000원
+                      - generic [ref=e2205]: 투어
+                      - generic [ref=e2207]: 무료취소
+                  - generic [ref=e2212] [cursor=pointer]:
+                    - generic [ref=e2213]:
+                      - img "Placeholder Thumbnail" [ref=e2216]
+                      - img [ref=e2221]
+                    - generic [ref=e2223]:
+                      - generic [ref=e2224]: "[홍콩햇빛든든투어] 전용차량/낭만의거리/센트럴/리펄스베이/익청빌딩/완차이 리퉁애비뉴"
+                      - generic [ref=e2225]:
+                        - img [ref=e2226]
+                        - generic [ref=e2228]: "4.4"
+                        - generic [ref=e2229]: (104)
+                      - generic [ref=e2231]: 69,900원
+                      - generic [ref=e2232]: 투어
+                      - generic [ref=e2234]: 무료취소
+                  - generic [ref=e2239] [cursor=pointer]:
+                    - generic [ref=e2240]:
+                      - img "Placeholder Thumbnail" [ref=e2243]
+                      - img [ref=e2248]
+                    - generic [ref=e2250]:
+                      - generic [ref=e2251]: "[홍콩 완전정복투어]스탠리마켓, 리펄스베이, 피크트램 패스트트랙 야경, 스타페리, 침사추이"
+                      - generic [ref=e2252]:
+                        - img [ref=e2253]
+                        - generic [ref=e2255]: "4.9"
+                        - generic [ref=e2256]: (351)
+                      - generic [ref=e2258]: 92,400원
+                      - generic [ref=e2259]: 투어
+                      - generic [ref=e2261]: 최저가보장제
+                  - generic [ref=e2266] [cursor=pointer]:
+                    - generic [ref=e2267]:
+                      - img "Placeholder Thumbnail" [ref=e2270]
+                      - img [ref=e2275]
+                    - generic [ref=e2277]:
+                      - generic [ref=e2278]: 홍콩 올인원 나이트투어 (Hong Kong ALL in 1 Night Tour)
+                      - generic [ref=e2279]:
+                        - img [ref=e2280]
+                        - generic [ref=e2282]: "5"
+                        - generic [ref=e2283]: (27)
+                      - generic [ref=e2285]: 59,000원
+                      - generic [ref=e2286]: 투어
+                      - generic [ref=e2288]: 무료취소
+                  - generic [ref=e2293] [cursor=pointer]:
+                    - generic [ref=e2294]:
+                      - img "Placeholder Thumbnail" [ref=e2297]
+                      - img [ref=e2302]
+                    - generic [ref=e2304]:
+                      - generic [ref=e2305]: 홍콩 빅버스 시티투어 탑승권 (1/2일권, 나이트투어)
+                      - generic [ref=e2306]:
+                        - img [ref=e2307]
+                        - generic [ref=e2309]: "4"
+                        - generic [ref=e2310]: (86)
+                      - generic [ref=e2312]: 50,113원
+                      - generic [ref=e2313]: 투어
+                      - generic [ref=e2315]: 즉시 확정
+                  - generic [ref=e2320] [cursor=pointer]:
+                    - generic [ref=e2321]:
+                      - img "Placeholder Thumbnail" [ref=e2324]
+                      - img [ref=e2329]
+                    - generic [ref=e2331]:
+                      - generic [ref=e2332]: 전문 가이드와 함께 하는 홍콩 구석구석 대중교통/도보투어
+                      - generic [ref=e2333]:
+                        - img [ref=e2334]
+                        - generic [ref=e2336]: "5"
+                        - generic [ref=e2337]: (7)
+                      - generic [ref=e2339]: 34,000원
+                      - generic [ref=e2340]: 투어
+                      - generic [ref=e2342]: 무료취소
+                  - generic [ref=e2347] [cursor=pointer]:
+                    - generic [ref=e2348]:
+                      - img "Placeholder Thumbnail" [ref=e2351]
+                      - img [ref=e2356]
+                    - generic [ref=e2358]:
+                      - generic [ref=e2359]: "[홍콩 로컬문화 + 푸드 투어] 미드레벨 에스컬레이터, 소호거리, 타이쿤, 홍콩 남부까지!"
+                      - generic [ref=e2360]:
+                        - img [ref=e2361]
+                        - generic [ref=e2363]: "4.9"
+                        - generic [ref=e2364]: (114)
+                      - generic [ref=e2366]: 73,000원
+                      - generic [ref=e2367]: 투어
+                      - generic [ref=e2369]: 최저가보장제
+                  - generic [ref=e2374] [cursor=pointer]:
+                    - generic [ref=e2375]:
+                      - img "Placeholder Thumbnail" [ref=e2378]
+                      - img [ref=e2383]
+                    - generic [ref=e2385]:
+                      - generic [ref=e2386]: 홍콩섬 한바퀴 *오전 차량투어* (피크, 리펄스베이, 스탠리, 미드레벨 에스컬레이터)
+                      - generic [ref=e2387]:
+                        - img [ref=e2388]
+                        - generic [ref=e2390]: "4.9"
+                        - generic [ref=e2391]: (122)
+                      - generic [ref=e2393]: 66,600원
+                      - generic [ref=e2394]: 투어
+                      - generic [ref=e2396]: 무료취소
+                  - generic [ref=e2401] [cursor=pointer]:
+                    - generic [ref=e2402]:
+                      - img "Placeholder Thumbnail" [ref=e2405]
+                      - img [ref=e2410]
+                    - generic [ref=e2412]:
+                      - generic [ref=e2413]: "홍콩 이반장의 야경투어 [명절/혹서기 특별판] #소규모#센트럴#소호#피크트램패스트랙"
+                      - generic [ref=e2414]:
+                        - img [ref=e2415]
+                        - generic [ref=e2417]: "5"
+                        - generic [ref=e2418]: (2)
+                      - generic [ref=e2420]: 45,000원
+                      - generic [ref=e2421]: 투어
+                      - generic [ref=e2423]: 즉시 확정
+                  - generic [ref=e2428] [cursor=pointer]:
+                    - generic [ref=e2429]:
+                      - img "Placeholder Thumbnail" [ref=e2432]
+                      - img [ref=e2437]
+                    - generic [ref=e2439]:
+                      - generic [ref=e2440]: 유럽의 정취를 느끼는 낭만 홍콩 여행
+                      - generic [ref=e2441]:
+                        - img [ref=e2442]
+                        - generic [ref=e2444]: "5"
+                        - generic [ref=e2445]: (85)
+                      - generic [ref=e2447]: 49,500원
+                      - generic [ref=e2448]: 투어
+                      - generic [ref=e2450]: 무료취소
+                  - generic [ref=e2455] [cursor=pointer]:
+                    - generic [ref=e2456]:
+                      - img "Placeholder Thumbnail" [ref=e2459]
+                      - img [ref=e2464]
+                    - generic [ref=e2466]:
+                      - generic [ref=e2467]: 야간 개인 프라이빗 투어 (홍콩)
+                      - generic [ref=e2469]: 275,029원
+                      - generic [ref=e2470]: 투어
+                      - generic [ref=e2472]: 즉시 확정
+                  - generic [ref=e2477] [cursor=pointer]:
+                    - generic [ref=e2478]:
+                      - img "Placeholder Thumbnail" [ref=e2481]
+                      - img [ref=e2486]
+                    - generic [ref=e2488]:
+                      - generic [ref=e2489]: "[홍콩섬 남부 이층버스 투어] 빅버스 그린루트 완전정복 (리펄스베이, 스탠리마켓, 완차이)"
+                      - generic [ref=e2490]:
+                        - img [ref=e2491]
+                        - generic [ref=e2493]: "4.8"
+                        - generic [ref=e2494]: (181)
+                      - generic [ref=e2496]: 41,500원
+                      - generic [ref=e2497]: 투어
+                      - generic [ref=e2499]: 최저가보장제
+                  - generic [ref=e2504] [cursor=pointer]:
+                    - generic [ref=e2505]:
+                      - img "Placeholder Thumbnail" [ref=e2508]
+                      - img [ref=e2513]
+                    - generic [ref=e2515]:
+                      - generic [ref=e2516]: 다이나믹 시티 나이트 워킹 투어 (홍콩)
+                      - generic [ref=e2518]: 172,500원
+                      - generic [ref=e2519]: 투어
+                      - generic [ref=e2521]: 즉시 확정
+                  - generic [ref=e2526] [cursor=pointer]:
+                    - generic [ref=e2527]:
+                      - img "Placeholder Thumbnail" [ref=e2530]
+                      - img [ref=e2535]
+                    - generic [ref=e2537]:
+                      - generic [ref=e2538]: Fun Fun 홍콩 로컬 투어(프라이빗 투어) 5월 특급 이벤트!!
+                      - generic [ref=e2539]:
+                        - img [ref=e2540]
+                        - generic [ref=e2542]: "5"
+                        - generic [ref=e2543]: (49)
+                      - generic [ref=e2545]: 48,000원
+                      - generic [ref=e2546]: 투어
+                      - generic [ref=e2548]: 무료취소
+                  - generic [ref=e2553] [cursor=pointer]:
+                    - generic [ref=e2554]:
+                      - img "Placeholder Thumbnail" [ref=e2557]
+                      - img [ref=e2562]
+                    - generic [ref=e2564]:
+                      - generic [ref=e2565]: "홍콩이반장의 [오전핫플돋보기투어] 대중교통도보 #타이쿤 #소호미드레벨#센트럴 #익청빌딩"
+                      - generic [ref=e2566]:
+                        - img [ref=e2567]
+                        - generic [ref=e2569]: "5"
+                        - generic [ref=e2570]: (21)
+                      - generic [ref=e2572]: 38,000원
+                      - generic [ref=e2573]: 투어
+                      - generic [ref=e2575]: 무료취소
+                  - generic [ref=e2580] [cursor=pointer]:
+                    - generic [ref=e2581]:
+                      - img "Placeholder Thumbnail" [ref=e2584]
+                      - img [ref=e2589]
+                    - generic [ref=e2591]:
+                      - generic [ref=e2592]: "[홍콩 침사추이 출발 마카오 전용차량 투어] 세계문화유산 + 천만불 야경까지 몰아보기!!"
+                      - generic [ref=e2593]:
+                        - img [ref=e2594]
+                        - generic [ref=e2596]: "4.9"
+                        - generic [ref=e2597]: (16)
+                      - generic [ref=e2599]: 149,000원
+                      - generic [ref=e2600]: 투어
+                  - generic [ref=e2605] [cursor=pointer]:
+                    - generic [ref=e2606]:
+                      - img "Placeholder Thumbnail" [ref=e2609]
+                      - img [ref=e2614]
+                    - generic [ref=e2616]:
+                      - generic [ref=e2617]: "홍콩이반장team[단독투어] #프라이빗전용차량#백만불야경#우리끼리편안여행"
+                      - generic [ref=e2618]:
+                        - img [ref=e2619]
+                        - generic [ref=e2621]: "5"
+                        - generic [ref=e2622]: (5)
+                      - generic [ref=e2624]: 660,000원
+                      - generic [ref=e2625]: 투어
+                  - generic [ref=e2630] [cursor=pointer]:
+                    - generic [ref=e2631]:
+                      - img "Placeholder Thumbnail" [ref=e2634]
+                      - img [ref=e2639]
+                    - generic [ref=e2641]:
+                      - generic [ref=e2642]: "[홍콩 원데이 프라이빗 차량 투어] 한가족 전용차량으로 일정을 조절하며 편안하게!"
+                      - generic [ref=e2643]:
+                        - img [ref=e2644]
+                        - generic [ref=e2646]: "4.9"
+                        - generic [ref=e2647]: (19)
+                      - generic [ref=e2649]: 1,121,250원
+                      - generic [ref=e2650]: 투어
+                      - generic [ref=e2652]: 최저가보장제
+                  - generic [ref=e2657] [cursor=pointer]:
+                    - generic [ref=e2658]:
+                      - img "Placeholder Thumbnail" [ref=e2661]
+                      - img [ref=e2666]
+                    - generic [ref=e2668]:
+                      - generic [ref=e2669]: 홍콩 사람처럼 먹고 돌아다니고 홍콩의 대표 산업인 보험관련 이야기도 하는 1일 시티투어
+                      - generic [ref=e2671]: 160,000원
+                      - generic [ref=e2672]: 투어
+                      - generic [ref=e2674]: 무료취소
+              - generic [ref=e2675]:
+                - generic [ref=e2677]: 비슷한 상품과 비교해보세요
+                - generic [ref=e2680]:
+                  - generic [ref=e2685] [cursor=pointer]:
+                    - generic [ref=e2686]:
+                      - img "Placeholder Thumbnail" [ref=e2689]
+                      - img [ref=e2694]
+                    - generic [ref=e2696]:
+                      - generic [ref=e2697]: "[홍콩 완전정복투어]스탠리마켓, 리펄스베이, 피크트램 패스트트랙 야경, 스타페리, 침사추이"
+                      - generic [ref=e2698]:
+                        - img [ref=e2699]
+                        - generic [ref=e2701]: "4.9"
+                        - generic [ref=e2702]: (351)
+                      - generic [ref=e2704]: 92,400원
+                      - generic [ref=e2705]: 투어
+                      - generic [ref=e2707]: 최저가보장제
+                  - generic [ref=e2712] [cursor=pointer]:
+                    - generic [ref=e2713]:
+                      - img "Placeholder Thumbnail" [ref=e2716]
+                      - img [ref=e2721]
+                    - generic [ref=e2723]:
+                      - generic [ref=e2724]: "싱가포르 데이투어A (주요코스: 보타닉가든+동물원+술탄모스크&하지레인+차이나타운+센토사섬)"
+                      - generic [ref=e2725]:
+                        - img [ref=e2726]
+                        - generic [ref=e2728]: "4.7"
+                        - generic [ref=e2729]: (18)
+                      - generic [ref=e2731]: 299,900원
+                      - generic [ref=e2732]: 투어
+                  - generic [ref=e2737] [cursor=pointer]:
+                    - generic [ref=e2738]:
+                      - img "Placeholder Thumbnail" [ref=e2741]
+                      - img [ref=e2746]
+                    - generic [ref=e2748]:
+                      - generic [ref=e2749]: "[스티봉여행 / 단독] 뉴질랜드 북섬 핵심투어 (블루스프링, 레드우드, 와이오타푸)"
+                      - generic [ref=e2751]: 522,408원
+                      - generic [ref=e2752]: 투어
+                      - generic [ref=e2754]: 즉시 확정
+                  - generic [ref=e2759] [cursor=pointer]:
+                    - generic [ref=e2760]:
+                      - img "Placeholder Thumbnail" [ref=e2763]
+                      - img [ref=e2768]
+                    - generic [ref=e2770]:
+                      - generic [ref=e2771]: "[우리만] 나트랑 빈원더스(야간) 티켓/케이블카/자유이용권/단독왕복차량"
+                      - generic [ref=e2772]:
+                        - img [ref=e2773]
+                        - generic [ref=e2775]: "5"
+                        - generic [ref=e2776]: (2)
+                      - generic [ref=e2778]: 5,900원
+                      - generic [ref=e2779]: 투어
+                      - generic [ref=e2781]: 즉시 확정
+                  - generic [ref=e2786] [cursor=pointer]:
+                    - generic [ref=e2787]:
+                      - img "Placeholder Thumbnail" [ref=e2790]
+                      - img [ref=e2795]
+                    - generic [ref=e2797]:
+                      - generic [ref=e2798]: "[조인투어] 다낭 바나힐 한국어가이드 종일 투어 (아오자이쇼/영흥사/저녁식사 포함)"
+                      - generic [ref=e2800]: 3,900원
+                      - generic [ref=e2801]: 투어
+                  - generic [ref=e2806] [cursor=pointer]:
+                    - generic [ref=e2807]:
+                      - img "Placeholder Thumbnail" [ref=e2810]
+                      - img [ref=e2815]
+                    - generic [ref=e2817]:
+                      - generic [ref=e2818]: "[단독투어] 다낭 바나힐 한국어가이드 종일 투어 (아오자이쇼/영흥사/저녁식사 포함)"
+                      - generic [ref=e2820]: 3,900원
+                      - generic [ref=e2821]: 투어
+                      - generic [ref=e2823]: 즉시 확정
+                  - generic [ref=e2828] [cursor=pointer]:
+                    - generic [ref=e2829]:
+                      - img "Placeholder Thumbnail" [ref=e2832]
+                      - img [ref=e2837]
+                    - generic [ref=e2839]:
+                      - generic [ref=e2840]: "[단독투어] 방콕 나이트 투어 (차이나타운/카오산/툭툭/야경 감상)"
+                      - generic [ref=e2841]:
+                        - img [ref=e2842]
+                        - generic [ref=e2844]: "3.7"
+                        - generic [ref=e2845]: (7)
+                      - generic [ref=e2847]: 39,000원
+                      - generic [ref=e2848]: 시내투어
+                  - generic [ref=e2853] [cursor=pointer]:
+                    - generic [ref=e2854]:
+                      - img "Placeholder Thumbnail" [ref=e2857]
+                      - img [ref=e2862]
+                    - generic [ref=e2864]:
+                      - generic [ref=e2865]: "[그룹투어] 와이오타푸 방문이 포함된 호비튼 & 로토루아 투어 (오클랜드 출발)"
+                      - generic [ref=e2866]:
+                        - img [ref=e2867]
+                        - generic [ref=e2869]: "5"
+                        - generic [ref=e2870]: (5)
+                      - generic [ref=e2872]: 382,584원
+                      - generic [ref=e2873]: 투어
+                      - generic [ref=e2875]: 즉시 확정
+              - generic [ref=e2876]:
+                - generic [ref=e2878]: 여행자님을 위한 추천 상품
+                - generic [ref=e2881]:
+                  - generic [ref=e2886] [cursor=pointer]:
+                    - generic [ref=e2887]:
+                      - img "Placeholder Thumbnail" [ref=e2890]
+                      - img [ref=e2895]
+                    - generic [ref=e2897]:
+                      - generic [ref=e2898]: 홍콩 오픈탑 시티투어 버스 & 템플 스트리트
+                      - generic [ref=e2899]:
+                        - img [ref=e2900]
+                        - generic [ref=e2902]: "3"
+                        - generic [ref=e2903]: (2)
+                      - generic [ref=e2905]: 28,206원
+                      - generic [ref=e2906]: 투어
+                      - generic [ref=e2908]: 즉시 확정
+                  - generic [ref=e2913] [cursor=pointer]:
+                    - generic [ref=e2914]:
+                      - img "Placeholder Thumbnail" [ref=e2917]
+                      - img [ref=e2922]
+                    - generic [ref=e2924]:
+                      - generic [ref=e2925]: "[홍콩섬 남부 이층버스 투어] 빅버스 그린루트 완전정복 (리펄스베이, 스탠리마켓, 완차이)"
+                      - generic [ref=e2926]:
+                        - img [ref=e2927]
+                        - generic [ref=e2929]: "4.8"
+                        - generic [ref=e2930]: (181)
+                      - generic [ref=e2932]: 41,500원
+                      - generic [ref=e2933]: 투어
+                      - generic [ref=e2935]: 최저가보장제
+                  - generic [ref=e2940] [cursor=pointer]:
+                    - generic [ref=e2941]:
+                      - img "Placeholder Thumbnail" [ref=e2944]
+                      - img [ref=e2949]
+                    - generic [ref=e2951]:
+                      - generic [ref=e2952]: 홍콩 MTR 투어리스트 패스
+                      - generic [ref=e2953]:
+                        - img [ref=e2954]
+                        - generic [ref=e2956]: "5"
+                        - generic [ref=e2957]: (1)
+                      - generic [ref=e2959]: 15,127원
+                      - generic [ref=e2960]: 이동/교통편의
+                      - generic [ref=e2962]: 즉시 확정
+                  - generic [ref=e2967] [cursor=pointer]:
+                    - generic [ref=e2968]:
+                      - img "Placeholder Thumbnail" [ref=e2971]
+                      - img [ref=e2976]
+                    - generic [ref=e2978]:
+                      - generic [ref=e2979]: "[즉시확정] 홍콩 AEL 공항철도 티켓"
+                      - generic [ref=e2980]:
+                        - img [ref=e2981]
+                        - generic [ref=e2983]: "4.8"
+                        - generic [ref=e2984]: (453)
+                      - generic [ref=e2986]: 14,497원
+                      - generic [ref=e2987]: 이동/교통편의
+                      - generic [ref=e2989]: 즉시 확정
+                  - generic [ref=e2994] [cursor=pointer]:
+                    - generic [ref=e2995]:
+                      - img "Placeholder Thumbnail" [ref=e2998]
+                      - img [ref=e3003]
+                    - generic [ref=e3005]:
+                      - generic [ref=e3006]: 몽콕 시티 나이트 투어 (홍콩)
+                      - generic [ref=e3008]: 587,031원
+                      - generic [ref=e3009]: 투어
+                      - generic [ref=e3011]: 즉시 확정
+                  - generic [ref=e3016] [cursor=pointer]:
+                    - generic [ref=e3017]:
+                      - img "Placeholder Thumbnail" [ref=e3020]
+                      - img [ref=e3025]
+                    - generic [ref=e3027]:
+                      - generic [ref=e3028]: 러블리 홍콩 셀프 가이드 오디오 투어
+                      - generic [ref=e3030]: 23,330원
+                      - generic [ref=e3031]: 투어
+                      - generic [ref=e3033]: 즉시 확정
+                  - generic [ref=e3038] [cursor=pointer]:
+                    - generic [ref=e3039]:
+                      - img "Placeholder Thumbnail" [ref=e3042]
+                      - img [ref=e3047]
+                    - generic [ref=e3049]:
+                      - generic [ref=e3050]: "[QR 티켓] 투어리스트 옥토퍼스 카드 - 홍콩 여행의 필수품!"
+                      - generic [ref=e3051]:
+                        - img [ref=e3052]
+                        - generic [ref=e3054]: "5"
+                        - generic [ref=e3055]: (2)
+                      - generic [ref=e3057]: 23,227원
+                      - generic [ref=e3058]: 이동/교통편의
+                  - generic [ref=e3063] [cursor=pointer]:
+                    - generic [ref=e3064]:
+                      - img "Placeholder Thumbnail" [ref=e3067]
+                      - img [ref=e3072]
+                    - generic [ref=e3074]:
+                      - generic [ref=e3075]: 홍콩섬 한바퀴 *오전 차량투어* (피크, 리펄스베이, 스탠리, 미드레벨 에스컬레이터)
+                      - generic [ref=e3076]:
+                        - img [ref=e3077]
+                        - generic [ref=e3079]: "4.9"
+                        - generic [ref=e3080]: (122)
+                      - generic [ref=e3082]: 66,600원
+                      - generic [ref=e3083]: 투어
+                      - generic [ref=e3085]: 무료취소
+                  - generic [ref=e3090] [cursor=pointer]:
+                    - generic [ref=e3091]:
+                      - img "Placeholder Thumbnail" [ref=e3094]
+                      - img [ref=e3099]
+                    - generic [ref=e3101]:
+                      - generic [ref=e3102]: 홍콩 MTR 여행자용 1일 패스권 티켓
+                      - generic [ref=e3103]:
+                        - img [ref=e3104]
+                        - generic [ref=e3106]: "4.1"
+                        - generic [ref=e3107]: (10)
+                      - generic [ref=e3109]: 15,026원
+                      - generic [ref=e3110]: 이동/교통편의
+                      - generic [ref=e3112]: 즉시 확정
+                  - generic [ref=e3117] [cursor=pointer]:
+                    - generic [ref=e3118]:
+                      - img "Placeholder Thumbnail" [ref=e3121]
+                      - img [ref=e3126]
+                    - generic [ref=e3128]:
+                      - generic [ref=e3129]: 홍콩 올인원 나이트투어 (Hong Kong ALL in 1 Night Tour)
+                      - generic [ref=e3130]:
+                        - img [ref=e3131]
+                        - generic [ref=e3133]: "5"
+                        - generic [ref=e3134]: (27)
+                      - generic [ref=e3136]: 59,000원
+                      - generic [ref=e3137]: 투어
+                      - generic [ref=e3139]: 무료취소
+                  - generic [ref=e3144] [cursor=pointer]:
+                    - generic [ref=e3145]:
+                      - img "Placeholder Thumbnail" [ref=e3148]
+                      - img [ref=e3153]
+                    - generic [ref=e3155]:
+                      - generic [ref=e3156]: "[1+1 프로모션] 홍콩 AEL 공항철도 승차권 (편도/왕복)"
+                      - generic [ref=e3157]:
+                        - img [ref=e3158]
+                        - generic [ref=e3160]: "5"
+                        - generic [ref=e3161]: (6)
+                      - generic [ref=e3163]: 8,129원
+                      - generic [ref=e3164]: 이동/교통편의
+                      - generic [ref=e3166]: 즉시 확정
+                  - generic [ref=e3171] [cursor=pointer]:
+                    - generic [ref=e3172]:
+                      - img "Placeholder Thumbnail" [ref=e3175]
+                      - img [ref=e3180]
+                    - generic [ref=e3182]:
+                      - generic [ref=e3183]: "[홍콩 로컬문화 + 푸드 투어] 미드레벨 에스컬레이터, 소호거리, 타이쿤, 홍콩 남부까지!"
+                      - generic [ref=e3184]:
+                        - img [ref=e3185]
+                        - generic [ref=e3187]: "4.9"
+                        - generic [ref=e3188]: (114)
+                      - generic [ref=e3190]: 73,000원
+                      - generic [ref=e3191]: 투어
+                      - generic [ref=e3193]: 최저가보장제
+                  - generic [ref=e3198] [cursor=pointer]:
+                    - generic [ref=e3199]:
+                      - img "Placeholder Thumbnail" [ref=e3202]
+                      - img [ref=e3207]
+                    - generic [ref=e3209]:
+                      - generic [ref=e3210]: 단독차량 홍콩공항 픽업 샌딩 홍콩시내 구룡시내 홍콩섬 신계지 차량이동 프라이빗
+                      - generic [ref=e3211]:
+                        - img [ref=e3212]
+                        - generic [ref=e3214]: "4.6"
+                        - generic [ref=e3215]: (8)
+                      - generic [ref=e3217]: 14,000원
+                      - generic [ref=e3218]: 이동/교통편의
+                      - generic [ref=e3220]: 즉시 확정
+                  - generic [ref=e3225] [cursor=pointer]:
+                    - generic [ref=e3226]:
+                      - img "Placeholder Thumbnail" [ref=e3229]
+                      - img [ref=e3234]
+                    - generic [ref=e3236]:
+                      - generic [ref=e3237]: 홍콩 사람처럼 먹고 돌아다니고 홍콩의 대표 산업인 보험관련 이야기도 하는 1일 시티투어
+                      - generic [ref=e3239]: 160,000원
+                      - generic [ref=e3240]: 투어
+                      - generic [ref=e3242]: 무료취소
+                  - generic [ref=e3247] [cursor=pointer]:
+                    - generic [ref=e3248]:
+                      - img "Placeholder Thumbnail" [ref=e3251]
+                      - img [ref=e3256]
+                    - generic [ref=e3258]:
+                      - generic [ref=e3259]: 홍콩 프라이빗 차량 이동 서비스 (디즈니랜드,오션파크,옹핑,빅토리아 피크)
+                      - generic [ref=e3260]:
+                        - img [ref=e3261]
+                        - generic [ref=e3263]: "3.5"
+                        - generic [ref=e3264]: (2)
+                      - generic [ref=e3266]: 62,682원
+                      - generic [ref=e3267]: 이동/교통편의
+                      - generic [ref=e3269]: 즉시 확정
+                  - generic [ref=e3274] [cursor=pointer]:
+                    - generic [ref=e3275]:
+                      - img "Placeholder Thumbnail" [ref=e3278]
+                      - img [ref=e3283]
+                    - generic [ref=e3285]:
+                      - generic [ref=e3286]: 홍콩 - 마카오 코타이젯 페리 탑승권
+                      - generic [ref=e3287]:
+                        - img [ref=e3288]
+                        - generic [ref=e3290]: "4.7"
+                        - generic [ref=e3291]: (109)
+                      - generic [ref=e3293]: 32,873원
+                      - generic [ref=e3294]: 이동/교통편의
+                      - generic [ref=e3296]: 즉시 확정
+                  - generic [ref=e3301] [cursor=pointer]:
+                    - generic [ref=e3302]:
+                      - img "Placeholder Thumbnail" [ref=e3305]
+                      - img [ref=e3310]
+                    - generic [ref=e3312]:
+                      - generic [ref=e3313]: Fun Fun 홍콩 로컬 투어(프라이빗 투어) 5월 특급 이벤트!!
+                      - generic [ref=e3314]:
+                        - img [ref=e3315]
+                        - generic [ref=e3317]: "5"
+                        - generic [ref=e3318]: (49)
+                      - generic [ref=e3320]: 48,000원
+                      - generic [ref=e3321]: 투어
+                      - generic [ref=e3323]: 무료취소
+                  - generic [ref=e3328] [cursor=pointer]:
+                    - generic [ref=e3329]:
+                      - img "Placeholder Thumbnail" [ref=e3332]
+                      - img [ref=e3337]
+                    - generic [ref=e3339]:
+                      - generic [ref=e3340]: 터보젯 페리 탑승권 (홍콩 섬 → 마카오)
+                      - generic [ref=e3341]:
+                        - img [ref=e3342]
+                        - generic [ref=e3344]: "4.6"
+                        - generic [ref=e3345]: (64)
+                      - generic [ref=e3347]: 36,394원
+                      - generic [ref=e3348]: 이동/교통편의
+                      - generic [ref=e3350]: 즉시 확정
+                  - generic [ref=e3355] [cursor=pointer]:
+                    - generic [ref=e3356]:
+                      - img "Placeholder Thumbnail" [ref=e3359]
+                      - img [ref=e3364]
+                    - generic [ref=e3366]:
+                      - generic [ref=e3367]: 셀프 가이드 오디오 투어 (홍콩)
+                      - generic [ref=e3369]: 8,804원
+                      - generic [ref=e3370]: 투어
+                      - generic [ref=e3372]: 즉시 확정
+                  - generic [ref=e3377] [cursor=pointer]:
+                    - generic [ref=e3378]:
+                      - img "Placeholder Thumbnail" [ref=e3381]
+                      - img [ref=e3386]
+                    - generic [ref=e3388]:
+                      - generic [ref=e3389]: "[홍콩 침사추이 출발 마카오 전용차량 투어] 세계문화유산 + 천만불 야경까지 몰아보기!!"
+                      - generic [ref=e3390]:
+                        - img [ref=e3391]
+                        - generic [ref=e3393]: "4.9"
+                        - generic [ref=e3394]: (16)
+                      - generic [ref=e3396]: 149,000원
+                      - generic [ref=e3397]: 투어
+              - generic [ref=e3398]:
+                - generic [ref=e3400]: 홍콩 BEST 상품
+                - generic [ref=e3403]:
+                  - generic [ref=e3408] [cursor=pointer]:
+                    - generic [ref=e3409]:
+                      - img "Placeholder Thumbnail" [ref=e3412]
+                      - img [ref=e3417]
+                    - generic [ref=e3419]:
+                      - generic [ref=e3420]: "[공식/지정일] 홍콩 디즈니랜드 입장권 (1일권/2일권/패스트패스/조기입장권/밀쿠폰)"
+                      - generic [ref=e3421]:
+                        - img [ref=e3422]
+                        - generic [ref=e3424]: "4.4"
+                        - generic [ref=e3425]: (53)
+                      - generic [ref=e3427]: 87,337원
+                      - generic [ref=e3428]: 입장권
+                      - generic [ref=e3430]: 즉시 확정
+                  - generic [ref=e3435] [cursor=pointer]:
+                    - generic [ref=e3436]:
+                      - img "Placeholder Thumbnail" [ref=e3439]
+                      - img [ref=e3444]
+                    - generic [ref=e3446]:
+                      - generic [ref=e3447]: 홍콩/마카오 이심 eSIM CTM 매일 500MB 무제한 1일 유심사 알림톡
+                      - generic [ref=e3448]:
+                        - img [ref=e3449]
+                        - generic [ref=e3451]: "4.4"
+                        - generic [ref=e3452]: (95)
+                      - generic [ref=e3454]: 1,500원
+                      - generic [ref=e3455]: 유심·와이파이
+                      - generic [ref=e3457]: 무료취소
+                  - generic [ref=e3462] [cursor=pointer]:
+                    - generic [ref=e3463]:
+                      - img "Placeholder Thumbnail" [ref=e3466]
+                      - img [ref=e3471]
+                    - generic [ref=e3473]:
+                      - generic [ref=e3474]: "[공식/오픈티켓] 홍콩 디즈니랜드 입장권 (1일권/2일권/밀쿠폰)"
+                      - generic [ref=e3475]:
+                        - img [ref=e3476]
+                        - generic [ref=e3478]: "4.7"
+                        - generic [ref=e3479]: (5177)
+                      - generic [ref=e3481]: 88,825원
+                      - generic [ref=e3482]: 입장권
+                      - generic [ref=e3484]: 즉시 확정
+                  - generic [ref=e3489] [cursor=pointer]:
+                    - generic [ref=e3490]:
+                      - img "Placeholder Thumbnail" [ref=e3493]
+                      - img [ref=e3498]
+                    - generic [ref=e3500]:
+                      - generic [ref=e3501]: 홍콩섬 한바퀴 *오전 차량투어* (피크, 리펄스베이, 스탠리, 미드레벨 에스컬레이터)
+                      - generic [ref=e3502]:
+                        - img [ref=e3503]
+                        - generic [ref=e3505]: "4.9"
+                        - generic [ref=e3506]: (122)
+                      - generic [ref=e3508]: 66,600원
+                      - generic [ref=e3509]: 투어
+                      - generic [ref=e3511]: 무료취소
+                  - generic [ref=e3516] [cursor=pointer]:
+                    - generic [ref=e3517]:
+                      - img "Placeholder Thumbnail" [ref=e3520]
+                      - img [ref=e3525]
+                    - generic [ref=e3527]:
+                      - generic [ref=e3528]: 홍콩 빅버스 시티투어 탑승권 (1/2일권, 나이트투어)
+                      - generic [ref=e3529]:
+                        - img [ref=e3530]
+                        - generic [ref=e3532]: "4"
+                        - generic [ref=e3533]: (86)
+                      - generic [ref=e3535]: 50,113원
+                      - generic [ref=e3536]: 투어
+                      - generic [ref=e3538]: 즉시 확정
+                  - generic [ref=e3543] [cursor=pointer]:
+                    - generic [ref=e3544]:
+                      - img "Placeholder Thumbnail" [ref=e3547]
+                      - img [ref=e3552]
+                    - generic [ref=e3554]:
+                      - generic [ref=e3555]: "[Ryan 한국인 작가] 홍콩 센트럴, 소호 프라이빗 스냅 촬영"
+                      - generic [ref=e3556]:
+                        - img [ref=e3557]
+                        - generic [ref=e3559]: "5"
+                        - generic [ref=e3560]: (516)
+                      - generic [ref=e3562]: 48,000원
+                      - generic [ref=e3563]: 스냅
+                      - generic [ref=e3565]: 최저가보장제
+                  - generic [ref=e3570] [cursor=pointer]:
+                    - generic [ref=e3571]:
+                      - img "Placeholder Thumbnail" [ref=e3574]
+                      - img [ref=e3579]
+                    - generic [ref=e3581]:
+                      - generic [ref=e3582]: "[Ryan 한국인 작가][30분] 홍콩 몽콕 야경 스냅 촬영 - 단독,우정,커플,가족 촬영"
+                      - generic [ref=e3583]:
+                        - img [ref=e3584]
+                        - generic [ref=e3586]: "5"
+                        - generic [ref=e3587]: (155)
+                      - generic [ref=e3589]: 30,000원
+                      - generic [ref=e3590]: 스냅
+                  - generic [ref=e3595] [cursor=pointer]:
+                    - generic [ref=e3596]:
+                      - img "Placeholder Thumbnail" [ref=e3599]
+                      - img [ref=e3604]
+                    - generic [ref=e3606]:
+                      - generic [ref=e3607]: "[1시간] 한국인 작가 - 홍콩 영화 컨셉으로 촬영 (홍콩 스냅)"
+                      - generic [ref=e3608]:
+                        - img [ref=e3609]
+                        - generic [ref=e3611]: "5"
+                        - generic [ref=e3612]: (367)
+                      - generic [ref=e3614]: 40,000원
+                      - generic [ref=e3615]: 스냅
+                      - generic [ref=e3617]: 최저가보장제
+                  - generic [ref=e3622] [cursor=pointer]:
+                    - generic [ref=e3623]:
+                      - img "Placeholder Thumbnail" [ref=e3626]
+                      - img [ref=e3631]
+                    - generic [ref=e3633]:
+                      - generic [ref=e3634]: "[홍콩 로컬문화 + 푸드 투어] 미드레벨 에스컬레이터, 소호거리, 타이쿤, 홍콩 남부까지!"
+                      - generic [ref=e3635]:
+                        - img [ref=e3636]
+                        - generic [ref=e3638]: "4.9"
+                        - generic [ref=e3639]: (114)
+                      - generic [ref=e3641]: 73,000원
+                      - generic [ref=e3642]: 투어
+                      - generic [ref=e3644]: 최저가보장제
+                  - generic [ref=e3649] [cursor=pointer]:
+                    - generic [ref=e3650]:
+                      - img "Placeholder Thumbnail" [ref=e3653]
+                      - img [ref=e3658]
+                    - generic [ref=e3660]:
+                      - generic [ref=e3661]: "[1시간] 한국인 작가 - 홍콩 여행의 필수, 홍콩 감성 인생샷 (홍콩 스냅)"
+                      - generic [ref=e3662]:
+                        - img [ref=e3663]
+                        - generic [ref=e3665]: "5"
+                        - generic [ref=e3666]: (652)
+                      - generic [ref=e3668]: 40,000원
+                      - generic [ref=e3669]: 스냅
+                      - generic [ref=e3671]: 최저가보장제
+                  - generic [ref=e3676] [cursor=pointer]:
+                    - generic [ref=e3677]:
+                      - img "Placeholder Thumbnail" [ref=e3680]
+                      - img [ref=e3685]
+                    - generic [ref=e3687]:
+                      - generic [ref=e3688]: 홍콩 이심 eSIM 3HK 매일 500MB 무제한 1일 유심사 알림톡
+                      - generic [ref=e3689]:
+                        - img [ref=e3690]
+                        - generic [ref=e3692]: "4.2"
+                        - generic [ref=e3693]: (29)
+                      - generic [ref=e3695]: 1,400원
+                      - generic [ref=e3696]: 유심·와이파이
+                      - generic [ref=e3698]: 무료취소
+                  - generic [ref=e3703] [cursor=pointer]:
+                    - generic [ref=e3704]:
+                      - img "Placeholder Thumbnail" [ref=e3707]
+                      - img [ref=e3712]
+                    - generic [ref=e3714]:
+                      - generic [ref=e3715]: 단독차량 홍콩공항 픽업 샌딩 홍콩시내 구룡시내 홍콩섬 신계지 차량이동 프라이빗
+                      - generic [ref=e3716]:
+                        - img [ref=e3717]
+                        - generic [ref=e3719]: "4.6"
+                        - generic [ref=e3720]: (8)
+                      - generic [ref=e3722]: 14,000원
+                      - generic [ref=e3723]: 이동/교통편의
+                      - generic [ref=e3725]: 즉시 확정
+              - generic [ref=e3726]:
+                - generic [ref=e3728]: 다른 여행자가 같이 구매한 상품
+                - generic [ref=e3731]:
+                  - generic [ref=e3736] [cursor=pointer]:
+                    - generic [ref=e3737]:
+                      - img "Placeholder Thumbnail" [ref=e3740]
+                      - img [ref=e3745]
+                    - generic [ref=e3747]:
+                      - generic [ref=e3748]: "[홍콩 로컬문화 + 푸드 투어] 미드레벨 에스컬레이터, 소호거리, 타이쿤, 홍콩 남부까지!"
+                      - generic [ref=e3749]:
+                        - img [ref=e3750]
+                        - generic [ref=e3752]: "4.9"
+                        - generic [ref=e3753]: (114)
+                      - generic [ref=e3755]: 73,000원
+                      - generic [ref=e3756]: 투어
+                      - generic [ref=e3758]: 최저가보장제
+                  - generic [ref=e3763] [cursor=pointer]:
+                    - generic [ref=e3764]:
+                      - img "Placeholder Thumbnail" [ref=e3767]
+                      - img [ref=e3772]
+                    - generic [ref=e3774]:
+                      - generic [ref=e3775]: 홍콩섬 한바퀴 *오전 차량투어* (피크, 리펄스베이, 스탠리, 미드레벨 에스컬레이터)
+                      - generic [ref=e3776]:
+                        - img [ref=e3777]
+                        - generic [ref=e3779]: "4.9"
+                        - generic [ref=e3780]: (122)
+                      - generic [ref=e3782]: 66,600원
+                      - generic [ref=e3783]: 투어
+                      - generic [ref=e3785]: 무료취소
+                  - generic [ref=e3790] [cursor=pointer]:
+                    - generic [ref=e3791]:
+                      - img "Placeholder Thumbnail" [ref=e3794]
+                      - img [ref=e3799]
+                    - generic [ref=e3801]:
+                      - generic [ref=e3802]: 홍콩 올인원 나이트투어 (Hong Kong ALL in 1 Night Tour)
+                      - generic [ref=e3803]:
+                        - img [ref=e3804]
+                        - generic [ref=e3806]: "5"
+                        - generic [ref=e3807]: (27)
+                      - generic [ref=e3809]: 59,000원
+                      - generic [ref=e3810]: 투어
+                      - generic [ref=e3812]: 무료취소
+                  - generic [ref=e3817] [cursor=pointer]:
+                    - generic [ref=e3818]:
+                      - img "Placeholder Thumbnail" [ref=e3821]
+                      - img [ref=e3826]
+                    - generic [ref=e3828]:
+                      - generic [ref=e3829]: 홍콩 빅버스 시티투어 탑승권 (1/2일권, 나이트투어)
+                      - generic [ref=e3830]:
+                        - img [ref=e3831]
+                        - generic [ref=e3833]: "4"
+                        - generic [ref=e3834]: (86)
+                      - generic [ref=e3836]: 50,113원
+                      - generic [ref=e3837]: 투어
+                      - generic [ref=e3839]: 즉시 확정
+                  - generic [ref=e3844] [cursor=pointer]:
+                    - generic [ref=e3845]:
+                      - img "Placeholder Thumbnail" [ref=e3848]
+                      - img [ref=e3853]
+                    - generic [ref=e3855]:
+                      - generic [ref=e3856]: "홍콩이반장의 [오전핫플돋보기투어] 대중교통도보 #타이쿤 #소호미드레벨#센트럴 #익청빌딩"
+                      - generic [ref=e3857]:
+                        - img [ref=e3858]
+                        - generic [ref=e3860]: "5"
+                        - generic [ref=e3861]: (21)
+                      - generic [ref=e3863]: 38,000원
+                      - generic [ref=e3864]: 투어
+                      - generic [ref=e3866]: 무료취소
+                  - generic [ref=e3871] [cursor=pointer]:
+                    - generic [ref=e3872]:
+                      - img "Placeholder Thumbnail" [ref=e3875]
+                      - img [ref=e3880]
+                    - generic [ref=e3882]:
+                      - generic [ref=e3883]: "[홍콩 침사추이 출발 마카오 전용차량 투어] 세계문화유산 + 천만불 야경까지 몰아보기!!"
+                      - generic [ref=e3884]:
+                        - img [ref=e3885]
+                        - generic [ref=e3887]: "4.9"
+                        - generic [ref=e3888]: (16)
+                      - generic [ref=e3890]: 149,000원
+                      - generic [ref=e3891]: 투어
+                  - generic [ref=e3896] [cursor=pointer]:
+                    - generic [ref=e3897]:
+                      - img "Placeholder Thumbnail" [ref=e3900]
+                      - img [ref=e3905]
+                    - generic [ref=e3907]:
+                      - generic [ref=e3908]: 전문 가이드와 함께 하는 홍콩 구석구석 대중교통/도보투어
+                      - generic [ref=e3909]:
+                        - img [ref=e3910]
+                        - generic [ref=e3912]: "5"
+                        - generic [ref=e3913]: (7)
+                      - generic [ref=e3915]: 34,000원
+                      - generic [ref=e3916]: 투어
+                      - generic [ref=e3918]: 무료취소
+                  - generic [ref=e3923] [cursor=pointer]:
+                    - generic [ref=e3924]:
+                      - img "Placeholder Thumbnail" [ref=e3927]
+                      - img [ref=e3932]
+                    - generic [ref=e3934]:
+                      - generic [ref=e3935]: 유럽의 정취를 느끼는 낭만 홍콩 여행
+                      - generic [ref=e3936]:
+                        - img [ref=e3937]
+                        - generic [ref=e3939]: "5"
+                        - generic [ref=e3940]: (85)
+                      - generic [ref=e3942]: 49,500원
+                      - generic [ref=e3943]: 투어
+                      - generic [ref=e3945]: 무료취소
+                  - generic [ref=e3950] [cursor=pointer]:
+                    - generic [ref=e3951]:
+                      - img "Placeholder Thumbnail" [ref=e3954]
+                      - img [ref=e3959]
+                    - generic [ref=e3961]:
+                      - generic [ref=e3962]: Fun Fun 홍콩 로컬 투어(프라이빗 투어) 5월 특급 이벤트!!
+                      - generic [ref=e3963]:
+                        - img [ref=e3964]
+                        - generic [ref=e3966]: "5"
+                        - generic [ref=e3967]: (49)
+                      - generic [ref=e3969]: 48,000원
+                      - generic [ref=e3970]: 투어
+                      - generic [ref=e3972]: 무료취소
+                  - generic [ref=e3977] [cursor=pointer]:
+                    - generic [ref=e3978]:
+                      - img "Placeholder Thumbnail" [ref=e3981]
+                      - img [ref=e3986]
+                    - generic [ref=e3988]:
+                      - generic [ref=e3989]: "[홍콩 원데이 프라이빗 차량 투어] 한가족 전용차량으로 일정을 조절하며 편안하게!"
+                      - generic [ref=e3990]:
+                        - img [ref=e3991]
+                        - generic [ref=e3993]: "4.9"
+                        - generic [ref=e3994]: (19)
+                      - generic [ref=e3996]: 1,121,250원
+                      - generic [ref=e3997]: 투어
+                      - generic [ref=e3999]: 최저가보장제
+                  - generic [ref=e4004] [cursor=pointer]:
+                    - generic [ref=e4005]:
+                      - img "Placeholder Thumbnail" [ref=e4008]
+                      - img [ref=e4013]
+                    - generic [ref=e4015]:
+                      - generic [ref=e4016]: "[홍콩] 먹고, 보는 힐링투어( 홍콩남부 포함)"
+                      - generic [ref=e4017]:
+                        - img [ref=e4018]
+                        - generic [ref=e4020]: "5"
+                        - generic [ref=e4021]: (23)
+                      - generic [ref=e4023]: 50,000원
+                      - generic [ref=e4024]: 미식
+                      - generic [ref=e4026]: 무료취소
+                  - generic [ref=e4031] [cursor=pointer]:
+                    - generic [ref=e4032]:
+                      - img "Placeholder Thumbnail" [ref=e4035]
+                      - img [ref=e4040]
+                    - generic [ref=e4042]:
+                      - generic [ref=e4043]: "홍콩이반장team[단독투어] #프라이빗전용차량#백만불야경#우리끼리편안여행"
+                      - generic [ref=e4044]:
+                        - img [ref=e4045]
+                        - generic [ref=e4047]: "5"
+                        - generic [ref=e4048]: (5)
+                      - generic [ref=e4050]: 660,000원
+                      - generic [ref=e4051]: 투어
+                  - generic [ref=e4056] [cursor=pointer]:
+                    - generic [ref=e4057]:
+                      - img "Placeholder Thumbnail" [ref=e4060]
+                      - img [ref=e4065]
+                    - generic [ref=e4067]:
+                      - generic [ref=e4068]: "홍콩 이반장의 야경투어 [명절/혹서기 특별판] #소규모#센트럴#소호#피크트램패스트랙"
+                      - generic [ref=e4069]:
+                        - img [ref=e4070]
+                        - generic [ref=e4072]: "5"
+                        - generic [ref=e4073]: (2)
+                      - generic [ref=e4075]: 45,000원
+                      - generic [ref=e4076]: 투어
+                      - generic [ref=e4078]: 즉시 확정
+                  - generic [ref=e4083] [cursor=pointer]:
+                    - generic [ref=e4084]:
+                      - img "Placeholder Thumbnail" [ref=e4087]
+                      - img [ref=e4092]
+                    - generic [ref=e4094]:
+                      - generic [ref=e4095]: "[테마투어] 응답하라 1980 : 홍콩 느와르( Hongkong noir )"
+                      - generic [ref=e4096]:
+                        - img [ref=e4097]
+                        - generic [ref=e4099]: "5"
+                        - generic [ref=e4100]: (2)
+                      - generic [ref=e4102]: 49,500원
+                      - generic [ref=e4103]: 투어
+                      - generic [ref=e4105]: 무료취소
+                  - generic [ref=e4110] [cursor=pointer]:
+                    - generic [ref=e4111]:
+                      - img "Placeholder Thumbnail" [ref=e4114]
+                      - img [ref=e4119]
+                    - generic [ref=e4121]:
+                      - generic [ref=e4122]: 차타고 떠나자 홍콩! 편안하고 색다른 여행
+                      - generic [ref=e4123]:
+                        - img [ref=e4124]
+                        - generic [ref=e4126]: "5"
+                        - generic [ref=e4127]: (5)
+                      - generic [ref=e4129]: 151,400원
+                      - generic [ref=e4130]: 투어
+                  - generic [ref=e4135] [cursor=pointer]:
+                    - generic [ref=e4136]:
+                      - img "Placeholder Thumbnail" [ref=e4139]
+                      - img [ref=e4144]
+                    - generic [ref=e4146]:
+                      - generic [ref=e4147]: 홍콩과 일일 생활권역인 중국 심천 핵심투어(HAC深)-History,Art,Culture
+                      - generic [ref=e4148]:
+                        - img [ref=e4149]
+                        - generic [ref=e4151]: "5"
+                        - generic [ref=e4152]: (1)
+                      - generic [ref=e4154]: 168,000원
+                      - generic [ref=e4155]: 투어
+                      - generic [ref=e4157]: 무료취소
+                  - generic [ref=e4162] [cursor=pointer]:
+                    - generic [ref=e4163]:
+                      - img "Placeholder Thumbnail" [ref=e4166]
+                      - img [ref=e4171]
+                    - generic [ref=e4173]:
+                      - generic [ref=e4174]: 홍콩 사람처럼 먹고 돌아다니고 홍콩의 대표 산업인 보험관련 이야기도 하는 1일 시티투어
+                      - generic [ref=e4176]: 160,000원
+                      - generic [ref=e4177]: 투어
+                      - generic [ref=e4179]: 무료취소
+                  - generic [ref=e4184] [cursor=pointer]:
+                    - generic [ref=e4185]:
+                      - img "Placeholder Thumbnail" [ref=e4188]
+                      - img [ref=e4193]
+                    - generic [ref=e4195]:
+                      - generic [ref=e4196]: 야간 개인 프라이빗 투어 (홍콩)
+                      - generic [ref=e4198]: 275,029원
+                      - generic [ref=e4199]: 투어
+                      - generic [ref=e4201]: 즉시 확정
+                  - generic [ref=e4206] [cursor=pointer]:
+                    - generic [ref=e4207]:
+                      - img "Placeholder Thumbnail" [ref=e4210]
+                      - img [ref=e4215]
+                    - generic [ref=e4217]:
+                      - generic [ref=e4218]: 세계 금융의 중심, 홍콩 금융 전문 가이드 투어(홍콩 특산품) 3시간 일정
+                      - generic [ref=e4219]:
+                        - img [ref=e4220]
+                        - generic [ref=e4222]: "5"
+                        - generic [ref=e4223]: (23)
+                      - generic [ref=e4225]: 399,000원
+                      - generic [ref=e4226]: 투어
+                  - generic [ref=e4231] [cursor=pointer]:
+                    - generic [ref=e4232]:
+                      - img "Placeholder Thumbnail" [ref=e4235]
+                      - img [ref=e4240]
+                    - generic [ref=e4242]:
+                      - generic [ref=e4243]: 맞춤형 프라이빗 도보 투어 (홍콩)
+                      - generic [ref=e4245]: 80,702원
+                      - generic [ref=e4246]: 투어
+                      - generic [ref=e4248]: 즉시 확정
+            - generic [ref=e4250]: "상품 번호 : 3441312"
+        - generic [ref=e4252]:
+          - generic [ref=e4255]: 64,000원~
+          - button "옵션 선택" [ref=e4256] [cursor=pointer]:
+            - generic [ref=e4257]: 옵션 선택
+    - contentinfo [ref=e4259]:
+      - generic [ref=e4260]:
+        - generic [ref=e4261]:
+          - generic [ref=e4262]:
+            - text: 고객지원실 운영안내
+            - list [ref=e4263]:
+              - listitem [ref=e4264]: 채팅상담 연중무휴 24시간 유선상담 연중무휴 09:00-18:00
+              - listitem [ref=e4265]: 유선상담 1670-8208
+            - button "고객지원실" [ref=e4267]:
+              - button "고객지원실" [ref=e4268] [cursor=pointer]:
+                - generic [ref=e4269]: 고객지원실
+          - generic [ref=e4270]:
+            - generic [ref=e4271]:
+              - text: 소개
+              - list [ref=e4272]:
+                - listitem [ref=e4273]:
+                  - link "회사소개" [ref=e4274] [cursor=pointer]:
+                    - /url: https://about.myrealtrip.com
+                - listitem [ref=e4275]:
+                  - link "채용" [ref=e4276] [cursor=pointer]:
+                    - /url: https://career.myrealtrip.com
+                - listitem [ref=e4277]:
+                  - link "공고" [ref=e4278] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/announcement
+            - generic [ref=e4279]:
+              - text: 파트너
+              - list [ref=e4280]:
+                - listitem [ref=e4281]:
+                  - link "파트너 홈" [ref=e4282] [cursor=pointer]:
+                    - /url: https://partner.myrealtrip.com/welcome
+                - listitem [ref=e4283]:
+                  - link "제휴 문의" [ref=e4284] [cursor=pointer]:
+                    - /url: mailto:partnership@myrealtrip.com
+                - listitem [ref=e4285]:
+                  - link "광고 문의" [ref=e4286] [cursor=pointer]:
+                    - /url: mailto:ad@myrealtrip.com
+            - generic [ref=e4287]:
+              - text: 지원
+              - list [ref=e4288]:
+                - listitem [ref=e4289]:
+                  - link "공지사항" [ref=e4290] [cursor=pointer]:
+                    - /url: https://support.myrealtrip.com/notice
+                - listitem [ref=e4291]:
+                  - link "문의내역" [ref=e4292] [cursor=pointer]:
+                    - /url: https://support.myrealtrip.com/inquiry
+                - listitem [ref=e4293]:
+                  - link "최저가 보장제" [ref=e4294] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/best_price
+        - generic [ref=e4295]:
+          - generic [ref=e4296]:
+            - generic [ref=e4297]:
+              - link "이용 약관" [ref=e4299] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/policyAgreement
+              - link "개인정보 처리방침" [ref=e4301] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/common/privacy
+              - link "취소 및 환불 정책" [ref=e4303] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/common/cancel
+              - link "개발자 센터" [ref=e4305] [cursor=pointer]:
+                - /url: https://docs.myrealtrip.com/#/api/intro
+            - generic [ref=e4306]:
+              - generic [ref=e4307]:
+                - link "icon 페이스북으로 이동하기" [ref=e4309] [cursor=pointer]:
+                  - /url: https://www.facebook.com/myRealTrip
+                  - img "icon" [ref=e4310]
+                  - generic [ref=e4311]: 페이스북으로 이동하기
+                - link "icon 네이버 블로그로 이동하기" [ref=e4313] [cursor=pointer]:
+                  - /url: https://blog.naver.com/myrealtrip
+                  - img "icon" [ref=e4314]
+                  - generic [ref=e4315]: 네이버 블로그로 이동하기
+                - link "icon 인스타그램으로 이동하기" [ref=e4317] [cursor=pointer]:
+                  - /url: https://instagram.com/myrealtrip
+                  - img "icon" [ref=e4318]
+                  - generic [ref=e4319]: 인스타그램으로 이동하기
+                - link "icon 유투브로 이동하기" [ref=e4321] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UC2oeFByIBQjkKXmQjE0U5rQ
+                  - img "icon" [ref=e4322]
+                  - generic [ref=e4323]: 유투브로 이동하기
+              - generic [ref=e4325]:
+                - link "icon" [ref=e4327] [cursor=pointer]:
+                  - /url: https://itunes.apple.com/app/id1141745032
+                  - img "icon" [ref=e4328]
+                - link "icon" [ref=e4330] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.mrt.ducati
+                  - img "icon" [ref=e4331]
+            - button "icon 한국어 icon" [ref=e4333] [cursor=pointer]:
+              - img "icon" [ref=e4334]
+              - generic [ref=e4335]: 한국어
+              - img "icon" [ref=e4336]
+          - generic [ref=e4337]:
+            - paragraph [ref=e4339]:
+              - text: 상호명 (주)마이리얼트립 | 대표 이동건 | 개인정보보호책임자 김형석 | 사업자등록번호 209-81-55339
+              - link "사업자정보확인" [ref=e4341] [cursor=pointer]:
+                - /url: https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2098155339
+              - text: "| 통신판매업신고번호 2019-서울서초-0260 | 관광사업등록번호 : 제2019-3호"
+              - text: 주소 서울특별시 서초구 강남대로 311, 18층 1729호(서초동, 한화생명보험빌딩)
+              - text: 이메일 help@myrealtrip.com | 입점 문의 partnership@myrealtrip.com
+              - text: "마케팅파트너/크리에이터 문의 marketing_partner@myrealtrip.com | 마케팅 문의 marketing@myrealtrip.com | 호스팅 서비스 제공자 : (주)마이리얼트립"
+              - text: "자사는 서울특별시관광협회 공제영업보증보험에 가입되어 있습니다. 영업보증보험: 1.5억원 / 기획여행보증: 2억원"
+              - text: 마이리얼트립은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 상품·거래정보 및 거래에 대하여 책임을 지지않습니다.
+              - text: 부득이한 사정에 의해 확정된 여행일정이 변경되는 경우 여행자의 사전 동의를 받습니다.
+              - text: (주)마이리얼트립이 소유, 운영, 관리하는 웹사이트 및 앱 내의 상품, 판매자 정보, 이벤트 정보, 디자인, UI 등을 포함한 일체의 콘텐츠에 대한 무단 복제, 배포, 전송, 스크래핑 등의 행위는 저작권법 등 관련 법령에 의하여 엄격히 금지됩니다.
+            - button "ISMS-P" [ref=e4343] [cursor=pointer]:
+              - img "ISMS-P" [ref=e4344]
+  - dialog
+  - alert [ref=e4345]

@@ -1,0 +1,6 @@
+- main [ref=e4]:
+  - generic [ref=e7]:
+    - img "logo_mrt_v2_web" [ref=e8]
+    - heading "세션 토큰의 유지 시간이 만료되었거나 세션 토큰이 발급되지 않았습니다. 다시 로그인해주세요." [level=3] [ref=e9]
+    - button "매니저 로그인하기" [ref=e11] [cursor=pointer]:
+      - generic [ref=e12]: 매니저 로그인하기

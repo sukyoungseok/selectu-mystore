@@ -1,0 +1,1678 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "가이드" [pressed] [ref=e9] [cursor=pointer]:
+            - generic [ref=e12]:
+              - img
+          - generic [ref=e13]:
+            - link "YouTube 홈" [ref=e14] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e19]:
+                - img
+            - generic [ref=e20]: KR
+          - button "탐색 건너뛰기" [ref=e24] [cursor=pointer]:
+            - generic: 탐색 건너뛰기
+        - generic [ref=e28]:
+          - search [ref=e29]:
+            - generic [ref=e30]:
+              - generic [ref=e31]:
+                - combobox "검색" [expanded] [ref=e33]
+                - button [ref=e36] [cursor=pointer]
+              - button "Search" [ref=e37] [cursor=pointer]:
+                - generic [ref=e40]:
+                  - img
+          - generic [ref=e42]:
+            - button "음성으로 검색" [ref=e44] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+            - tooltip "tooltip"
+        - generic [ref=e49]:
+          - button "설정" [ref=e54] [cursor=pointer]:
+            - generic [ref=e57]:
+              - img
+          - link "로그인" [ref=e60] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%2540mingoose_world%252Fabout&hl=ko&ec=65620
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+            - generic: 로그인
+    - navigation [ref=e64]:
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - generic [ref=e73]:
+            - link "홈" [ref=e75] [cursor=pointer]:
+              - /url: /
+              - link "홈" [ref=e76]:
+                - generic [ref=e79]:
+                  - img
+                - generic [ref=e80]: 홈
+            - link "Shorts" [ref=e82] [cursor=pointer]:
+              - link "Shorts" [ref=e83]:
+                - generic [ref=e86]:
+                  - img
+                - generic [ref=e87]: Shorts
+            - link "구독" [ref=e89] [cursor=pointer]:
+              - /url: /feed/subscriptions
+              - link "구독" [ref=e90]:
+                - generic [ref=e93]:
+                  - img
+                - generic [ref=e94]: 구독
+            - link "내 페이지" [ref=e96] [cursor=pointer]:
+              - /url: /feed/you
+              - link "내 페이지" [ref=e97]:
+                - generic [ref=e100]:
+                  - img
+                - generic [ref=e101]: 내 페이지
+            - link "기록" [ref=e103] [cursor=pointer]:
+              - /url: /feed/history
+              - link "기록" [ref=e104]:
+                - generic [ref=e107]:
+                  - img
+                - generic [ref=e108]: 기록
+          - generic [ref=e109]:
+            - generic [ref=e110]: 로그인하면 동영상에 좋아요를 표시하고 댓글을 달거나 구독할 수 있습니다.
+            - link "로그인" [ref=e113] [cursor=pointer]:
+              - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%2540mingoose_world%252Fabout&hl=ko
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+              - generic: 로그인
+          - generic [ref=e117]:
+            - heading "탐색" [level=3] [ref=e118]:
+              - generic [ref=e119]: 탐색
+            - generic [ref=e120]:
+              - link "쇼핑" [ref=e122] [cursor=pointer]:
+                - /url: /channel/UCkYQyvc_i9hXEo4xic9Hh2g
+                - link "쇼핑" [ref=e123]:
+                  - generic [ref=e126]:
+                    - img
+                  - generic [ref=e127]: 쇼핑
+              - link "음악" [ref=e129] [cursor=pointer]:
+                - /url: /channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ
+                - link "음악" [ref=e130]:
+                  - generic [ref=e133]:
+                    - img
+                  - generic [ref=e134]: 음악
+              - link "영화" [ref=e136] [cursor=pointer]:
+                - /url: /feed/storefront?bp=ogUCKAU%3D
+                - link "영화" [ref=e137]:
+                  - generic [ref=e140]:
+                    - img
+                  - generic [ref=e141]: 영화
+              - button "더보기" [ref=e143]:
+                - link "더보기" [ref=e144] [cursor=pointer]:
+                  - link "더보기" [ref=e145]:
+                    - generic [ref=e148]:
+                      - img
+                    - generic [ref=e149]: 더보기
+          - generic [ref=e150]:
+            - heading "YouTube 더보기" [level=3] [ref=e151]:
+              - generic [ref=e152]: YouTube 더보기
+            - generic [ref=e153]:
+              - link "YouTube Premium" [ref=e155] [cursor=pointer]:
+                - /url: /premium
+                - link "YouTube Premium" [ref=e156]:
+                  - generic [ref=e159]:
+                    - img
+                  - generic [ref=e160]: YouTube Premium
+              - link "YouTube Music" [ref=e162] [cursor=pointer]:
+                - /url: https://music.youtube.com/
+                - link "YouTube Music" [ref=e163]:
+                  - generic [ref=e166]:
+                    - img
+                  - generic [ref=e167]: YouTube Music
+              - link "YouTube Kids" [ref=e169] [cursor=pointer]:
+                - /url: https://www.youtubekids.com/?source=youtube_web
+                - link "YouTube Kids" [ref=e170]:
+                  - generic [ref=e173]:
+                    - img
+                  - generic [ref=e174]: YouTube Kids
+          - link "신고 기록" [ref=e178] [cursor=pointer]:
+            - /url: /reporthistory
+            - link "신고 기록" [ref=e179]:
+              - generic [ref=e182]:
+                - img
+              - generic [ref=e183]: 신고 기록
+        - generic [ref=e184]:
+          - generic [ref=e185]:
+            - link "정보" [ref=e186] [cursor=pointer]:
+              - /url: https://www.youtube.com/about/
+            - link "보도자료" [ref=e187] [cursor=pointer]:
+              - /url: https://www.youtube.com/about/press/
+            - link "저작권" [ref=e188] [cursor=pointer]:
+              - /url: https://www.youtube.com/about/copyright/
+            - link "문의하기" [ref=e189] [cursor=pointer]:
+              - /url: /t/contact_us/
+            - link "크리에이터" [ref=e190] [cursor=pointer]:
+              - /url: https://www.youtube.com/creators/
+            - link "광고" [ref=e191] [cursor=pointer]:
+              - /url: https://www.youtube.com/ads/
+            - link "개발자" [ref=e192] [cursor=pointer]:
+              - /url: https://developers.google.com/youtube
+          - generic [ref=e193]:
+            - link "약관" [ref=e194] [cursor=pointer]:
+              - /url: /t/terms
+            - link "개인정보처리방침" [ref=e195] [cursor=pointer]:
+              - /url: /t/privacy
+            - link "정책 및 안전" [ref=e196] [cursor=pointer]:
+              - /url: https://www.youtube.com/about/policies/
+            - link "YouTube 작동의 원리" [ref=e197] [cursor=pointer]:
+              - /url: https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen
+            - link "새로운 기능 테스트하기" [ref=e198] [cursor=pointer]:
+              - /url: /new
+          - generic [ref=e200]:
+            - text: "© 2026 Google LLC, Sundar Pichai, 1600 Amphitheatre Parkway, Mountain View CA 94043, USA, 0807-882-594 (무료), yt-support-solutions-kr@google.com, 호스팅: Google LLC,"
+            - link "사업자정보" [ref=e201] [cursor=pointer]:
+              - /url: http://www.ftc.go.kr/selectBizOvrCommPop.do?apvPermMgtNo=2022-공정-0001
+            - text: ","
+            - link "불법촬영물 신고" [ref=e202] [cursor=pointer]:
+              - /url: https://support.google.com/youtube?p=korea_report
+            - text: 크리에이터들이 유튜브 상에 게시, 태그 또는 추천한 상품들은 판매자들의 약관에 따라 판매됩니다. 유튜브는 이러한 제품들을 판매하지 않으며, 그에 대한 책임을 지지 않습니다.
+    - generic [ref=e203]:
+      - main [ref=e204]:
+        - generic [ref=e211]:
+          - generic [ref=e227]:
+            - heading "밍구스월드 MINGOOSE WORLD" [level=1] [ref=e229]
+            - generic [ref=e230]:
+              - group [ref=e231]:
+                - generic [ref=e232]: "@mingoose_world"
+              - generic [ref=e233]: •
+              - group [ref=e234]:
+                - generic "구독자 9.72천명" [ref=e235]
+                - generic [ref=e236]: •
+                - generic [ref=e237]: 동영상 234개
+            - generic [ref=e239] [cursor=pointer]:
+              - generic [ref=e240]: 자극적이지 않은 편안한 여행을 추구합니다😊
+              - 'button "설명: 자극적이지 않은 편안한 여행을 추구합니다�... 탭하여 자세히 알아보세요." [ref=e241]':
+                - generic [ref=e242]: ...더보기
+            - generic [ref=e243]:
+              - link "instagram.com/mingoose_world" [ref=e246] [cursor=pointer]:
+                - /url: https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqbkFWQUNyZjkyMkNnVk41UUdxYTVINnpqWkNHQXxBQ3Jtc0tuZWpEZmloTzBtYmZwLWFtcWhDVXZoamxqUjlCSk1Ld3ZBWDBVNmlsUm1QR2cwSVp2WkhmN3dQT2lyajFDWHJKdUQycnVXRjQwdHhUNTBSaGVMNVFHVmZsRm1FTDh6LU9NR2NBejRrYU4xRE5ESEhmWQ&q=https%3A%2F%2Fwww.instagram.com%2Fmingoose_world%2F
+              - button "외 링크 2개" [ref=e249] [cursor=pointer]
+            - button "구독" [ref=e253] [cursor=pointer]:
+              - generic: 구독
+          - tablist [ref=e260]:
+            - tablist [ref=e264]:
+              - tab "홈" [selected] [ref=e265] [cursor=pointer]:
+                - generic [ref=e266]: 홈
+              - tab "동영상" [ref=e267] [cursor=pointer]:
+                - generic [ref=e268]: 동영상
+              - tab "Shorts" [ref=e269] [cursor=pointer]:
+                - generic [ref=e270]: Shorts
+              - tab "재생목록" [ref=e271] [cursor=pointer]:
+                - generic [ref=e272]: 재생목록
+              - tab "게시물" [ref=e273] [cursor=pointer]:
+                - generic [ref=e274]: 게시물
+              - button "검색" [ref=e278] [cursor=pointer]:
+                - generic [ref=e281]:
+                  - img
+        - generic [ref=e288]:
+          - generic [ref=e291]:
+            - generic "YouTube 동영상 플레이어" [ref=e295]:
+              - link "5년만에 온 방콕.. 이렇게 변했다구요?" [ref=e300] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=glnV3YMJHWg
+              - button "더보기" [ref=e302] [cursor=pointer]:
+                - generic [ref=e303]:
+                  - img
+              - generic [ref=e304]:
+                - generic [ref=e305] [cursor=pointer]:
+                  - slider "탐색 슬라이더" [ref=e306]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - slider "세밀한 탐색을 하려면 패널을 클릭하거나 스크롤하세요."
+                - generic [ref=e317]:
+                  - generic [ref=e318]:
+                    - button "일시중지(k)" [ref=e319] [cursor=pointer]:
+                      - img
+                    - generic [ref=e320]:
+                      - button "음소거 해제(m)" [ref=e322] [cursor=pointer]:
+                        - img
+                      - slider "볼륨"
+                    - button "0 분 0 초/37 분 42 초" [ref=e326] [cursor=pointer]: 0:00 / 37:42
+                  - generic [ref=e328]:
+                    - button [ref=e329] [cursor=pointer]:
+                      - img
+                    - button "설정" [ref=e330] [cursor=pointer]:
+                      - img
+            - generic [ref=e331]:
+              - generic [ref=e332]:
+                - heading "5년만에 온 방콕.. 이렇게 변했다구요? 37분" [level=3] [ref=e333]:
+                  - link "5년만에 온 방콕.. 이렇게 변했다구요?" [ref=e334] [cursor=pointer]:
+                    - /url: /watch?v=glnV3YMJHWg
+                - generic [ref=e337]:
+                  - generic [ref=e338]: 조회수 15,217회
+                  - generic [ref=e339]: •13일 전
+              - generic [ref=e340]:
+                - generic [ref=e342]:
+                  - text: 시드니에서 약 16시간만에 도착한 방콕🇹🇭 5년만에 다시 찾은 방콕 현재상황.. 생생하게 전해드릴게요🫢 * 몬티엔 호텔로부터 숙박 제공을 받았습니다
+                  - link "https://montienbangkok.com/" [ref=e343] [cursor=pointer]:
+                    - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbWc4UjZlYlBPMmRhR0h1Z0RoSnItMkRDTVhSUXxBQ3Jtc0tsN1R1YkJueUQxZl9jQnp5LUxIVDFONm9iQlNIalVodllycHpYQXp5TENUamR2ZzgyVENybFFUUzZrOEtjVDY1TGYwUFc4OUdXMTJLa0huM3lNYk9sZlVUZ3JPSEwwV2pXYm5WZDEzenNPNTFXcE1oMA&q=https%3A%2F%2Fmontienbangkok.com%2F
+                  - text: 📍 영상 속 장소 - 몬티엔 호텔 수라웡 방콕(Montien Hotel Surawong Bangkok)
+                  - link "https://maps.app.goo.gl/AYq4Rg11ReMXL..." [ref=e344] [cursor=pointer]:
+                    - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbUVMRWUwempsck9XeGUwcW15YVY4d3RRcGo0UXxBQ3Jtc0tsNUZ3ejB2ekdyWVNpd1o2WmFOX1FPeVcwNDRaaWJlM1duMXBzNXFvOVpmX2QxOW5PUkpPQUlxb0dYd1FtY1d5SU9HeldFYlFva3NOVzA2aWNvZHdCYS1Kc2lHOHVrM1lXUWJqYUdicm5PeEVCc0NYRQ&q=https%3A%2F%2Fmaps.app.goo.gl%2FAYq4Rg11ReMXLeCz9
+                  - text: "- 이글 네스트(EAGLE NEST Rooftop Bar) : 왓아룬 사원뷰 루프탑바"
+                  - link "https://maps.app.goo.gl/YCgkEAdtu5PcK..." [ref=e345] [cursor=pointer]:
+                    - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbUVnYjFMRGQ0WklHVGNYOU0tT1ZESXAzRjR2d3xBQ3Jtc0tuUmxEa2FzYlpCNUJfenBWOVJNR3pBcTdWY05aR1RGTjVQZ3F3Vl95UkNtd1FnNVdPWjVYeFMtRDQtdU1fMXVWcDRhSWNxZDFiQlEzZHFkX0tzSHNtVG53cXc2Wng4dlBXR2VRRnN6S0g5ajBkRk5YYw&q=https%3A%2F%2Fmaps.app.goo.gl%2FYCgkEAdtu5PcKxpn9
+                  - text: "- 팟퐁 야시장"
+                  - link "https://maps.app.goo.gl/71Yt3dLc9hGhn..." [ref=e346] [cursor=pointer]:
+                    - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbjdmOWtneGptay1WMEFkc2d6TVdENnpBeWR3QXxBQ3Jtc0trNHc0M1NjZ1YxUXZfMVVuS3MzdTBBM01wSmFZZUFxTDlXSmtVRk9PN2hqMElCOWdJUGk0ZVRta1AyMzR3VEZUcjBieEtNbFpPeFhSeHBpVjFXVWVsN285d3NBSl9VbFg2MTFpM29OdG52RWgxLVlVcw&q=https%3A%2F%2Fmaps.app.goo.gl%2F71Yt3dLc9hGhn39V8
+                  - text: "- 팟퐁 야시장 근처 코인 세탁소"
+                  - link "https://maps.app.goo.gl/gL8z1RJWfWp77..." [ref=e347] [cursor=pointer]:
+                    - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbmcxVVJHNWY3OW1sNm10SHA3YVlJRWZnSGdCUXxBQ3Jtc0trZzZ4djJzLUpQa0FhMlNFTmJ1LVlQV2Q5Y25KQ1BXU3otS1I4ZldmTFBwX2o1MlRvOEJ3ME0wTjQ4UlY5Ykxnb01kVGJWUDVua1NSQUtRTzdoZDZxcUtYMjhURDFiRWc1R3BUSnNMMzM4aTVNMi1RNA&q=https%3A%2F%2Fmaps.app.goo.gl%2FgL8z1RJWfWp77Nhh7
+                  - text: "- 룸피니 공원"
+                  - link "https://maps.app.goo.gl/ERZWtGkTvFctY..." [ref=e348] [cursor=pointer]:
+                    - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDE1T0RwMTFBYmdJUWhaMUY2b2gyZlAzc3B2Z3xBQ3Jtc0trRm5tdS1NMk0tcXZ0TjhtVzF1TnVnTWVSR19SUmdfaFdWdkxJNGdIYmd6SlNPNmJfR2dXOG5WYmh3VE92Ym5iWTdoWnl4dldYM0F2ZTBTd0Fpdl9qNHZMejYwbm1hd0NYTGFMaTBUYVRXU2dQZUMxUQ&q=https%3A%2F%2Fmaps.app.goo.gl%2FERZWtGkTvFctYA9b7
+                  - text: "좋아요, 댓글은 언제나 힘이 됩니다🩷 📸 인스타그램 :"
+                  - link "https://www.instagram.com/mingoose_wo..." [ref=e349] [cursor=pointer]:
+                    - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa05RRGp1LWU5cE44QWpZSlBkNDRXRVZ6ejZPQXxBQ3Jtc0ttMVdxdDZYRTRXbVdqZXlXWEh1ZlltNE5ucE10LVhSX0NPSHJKd1hOaE9wQk03ckFnaGJaUTY5MG9JNWkwUXRCU3FVUElHejdUMkhOQy1kY3lPZk9YM0RMN3htc1dYSG16QXFyMTRXOW43V3AyUWlObw&q=https%3A%2F%2Fwww.instagram.com%2Fmingoose_world%2F
+                  - text: "💻 블로그 :"
+                  - link "https://blog.naver.com/oming_holic" [ref=e350] [cursor=pointer]:
+                    - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbmZYblYtWmhvdU9haEo5TGN6Yl82Y05VVExid3xBQ3Jtc0tsaVAxdjhmUG9BQkdSQ25MdTVnd3I1RjlRV3EyU2xRdVRkUUtjcmE5T3lSY3RFSjRyUWNFQXJueEc5SnRwZVFySDlHQWF2THNUSUttNDhOR3Q5TF9mVEdtZjZGRzFVN3dNU1ktSXNCVXJRdGFiU3d3NA&q=https%3A%2F%2Fblog.naver.com%2Foming_holic
+                  - text: "💌 문의 : oming_holic@naver.com 🎶 BGM 음원 사이트 : 에피데믹 사운드"
+                  - link "https://share.epidemicsound.com/xtqr7x" [ref=e351] [cursor=pointer]:
+                    - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXlTeTFRZW5Da2ZxMm5LanZJc3hrZWtOVG02Z3xBQ3Jtc0tuZV9WSXpDd3dhZlNJOXotNlZyZnJ1a3g0ZzBBS1hERFMxZTZETkJvYkRiM1F5VGhXSVJBVGlZM09LeHV3VHJwWWhOb1BwX3lvVm5kcGROemNjYnF4Mjc3LVE1UGRETHJRM0Z5RWh6clIwUUZzTV9MUQ&q=https%3A%2F%2Fshare.epidemicsound.com%2Fxtqr7x
+                - button "자세히 알아보기" [ref=e352] [cursor=pointer]:
+                  - link "자세히 알아보기" [ref=e354]:
+                    - /url: /watch?v=glnV3YMJHWg&pp=0gcJCdAaAYcqIYzv
+          - generic [ref=e358]:
+            - heading "밍구스 발리 한달살기🇮🇩 모두 재생" [level=2] [ref=e361]:
+              - link "밍구스 발리 한달살기🇮🇩" [ref=e364] [cursor=pointer]:
+                - /url: /playlist?list=PLGLpuCXNfBOdMtNaZgMrONCdfYJr2qd73
+                - generic [ref=e365]: 밍구스 발리 한달살기🇮🇩
+              - link "모두 재생" [ref=e369] [cursor=pointer]:
+                - /url: /watch?v=VvqiibRT0IM&list=PLGLpuCXNfBOdMtNaZgMrONCdfYJr2qd73
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                - generic: 모두 재생
+            - generic [ref=e374]:
+              - generic [ref=e377]:
+                - generic [ref=e379] [cursor=pointer]:
+                  - link [ref=e380]:
+                    - /url: /watch?v=VvqiibRT0IM
+                    - generic [ref=e387]: 2:19:33
+                  - generic [ref=e389]:
+                    - generic [ref=e390]:
+                      - heading "혼자 있으면 외롭지 않냐구요?🤔 발리 한달살기 몰아보기 [下] 2시간 19분" [level=3] [ref=e391]:
+                        - link "혼자 있으면 외롭지 않냐구요?🤔 발리 한달살기 몰아보기 [下] 2시간 19분" [ref=e392]:
+                          - /url: /watch?v=VvqiibRT0IM
+                          - text: 혼자 있으면 외롭지 않냐구요?🤔 발리 한달살기 몰아보기 [下]
+                      - generic [ref=e394]:
+                        - group [ref=e395]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e398]:
+                            - /url: /@mingoose_world
+                        - group [ref=e399]:
+                          - generic [ref=e400]: 조회수 3.5천회
+                          - generic [ref=e401]: •
+                          - generic [ref=e402]: 8개월 전
+                    - button "추가 작업" [ref=e405]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e410] [cursor=pointer]:
+                  - link [ref=e411]:
+                    - /url: /watch?v=DlXui53qZJw
+                    - generic [ref=e418]: 2:33:59
+                  - generic [ref=e420]:
+                    - generic [ref=e421]:
+                      - heading "낭만 가득 여자 혼자 발리 한달살기 몰아보기 [上] 2시간 33분" [level=3] [ref=e422]:
+                        - link "낭만 가득 여자 혼자 발리 한달살기 몰아보기 [上] 2시간 33분" [ref=e423]:
+                          - /url: /watch?v=DlXui53qZJw
+                          - text: 낭만 가득 여자 혼자 발리 한달살기 몰아보기 [上]
+                      - generic [ref=e425]:
+                        - group [ref=e426]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e429]:
+                            - /url: /@mingoose_world
+                        - group [ref=e430]:
+                          - generic [ref=e431]: 조회수 4.1천회
+                          - generic [ref=e432]: •
+                          - generic [ref=e433]: 8개월 전
+                    - button "추가 작업" [ref=e436]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e441] [cursor=pointer]:
+                  - link [ref=e442]:
+                    - /url: /watch?v=FKgIPxElr4Y
+                    - generic [ref=e449]: 19:29
+                  - generic [ref=e451]:
+                    - generic [ref=e452]:
+                      - heading "19분으로 끝내는 발리 한달살기의 모든 것 19분" [level=3] [ref=e453]:
+                        - link "19분으로 끝내는 발리 한달살기의 모든 것 19분" [ref=e454]:
+                          - /url: /watch?v=FKgIPxElr4Y
+                          - text: 19분으로 끝내는 발리 한달살기의 모든 것
+                      - generic [ref=e456]:
+                        - group [ref=e457]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e460]:
+                            - /url: /@mingoose_world
+                        - group [ref=e461]:
+                          - generic [ref=e462]: 조회수 1.6만회
+                          - generic [ref=e463]: •
+                          - generic [ref=e464]: 10개월 전
+                    - button "추가 작업" [ref=e467]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e472] [cursor=pointer]:
+                  - link [ref=e473]:
+                    - /url: /watch?v=8URPuX2cy6I
+                    - generic [ref=e480]: 18:47
+                  - generic [ref=e482]:
+                    - generic [ref=e483]:
+                      - heading "발리 한달살기 vs 치앙마이 한달살기 전격 비교! [발리 14] 18분" [level=3] [ref=e484]:
+                        - link "발리 한달살기 vs 치앙마이 한달살기 전격 비교! [발리 14] 18분" [ref=e485]:
+                          - /url: /watch?v=8URPuX2cy6I
+                          - text: 발리 한달살기 vs 치앙마이 한달살기 전격 비교! [발리 14]
+                      - generic [ref=e487]:
+                        - group [ref=e488]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e491]:
+                            - /url: /@mingoose_world
+                        - group [ref=e492]:
+                          - generic [ref=e493]: 조회수 7.4천회
+                          - generic [ref=e494]: •
+                          - generic [ref=e495]: 10개월 전
+                    - button "추가 작업" [ref=e498]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e503] [cursor=pointer]:
+                  - link [ref=e504]:
+                    - /url: /watch?v=po_0_t5BwkA
+                    - generic [ref=e511]: 20:03
+                  - generic [ref=e513]:
+                    - generic [ref=e514]:
+                      - heading "현지인 친구와 둘이 떠난 발리 남부여행 [발리 13] 20분" [level=3] [ref=e515]:
+                        - link "현지인 친구와 둘이 떠난 발리 남부여행 [발리 13] 20분" [ref=e516]:
+                          - /url: /watch?v=po_0_t5BwkA
+                          - text: 현지인 친구와 둘이 떠난 발리 남부여행 [발리 13]
+                      - generic [ref=e518]:
+                        - group [ref=e519]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e522]:
+                            - /url: /@mingoose_world
+                        - group [ref=e523]:
+                          - generic [ref=e524]: 조회수 1.4천회
+                          - generic [ref=e525]: •
+                          - generic [ref=e526]: 10개월 전
+                    - button "추가 작업" [ref=e529]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e534] [cursor=pointer]:
+                  - link [ref=e535]:
+                    - /url: /watch?v=9-BNHjSGIl4
+                    - generic [ref=e542]: 10:57
+                  - generic [ref=e544]:
+                    - generic [ref=e545]:
+                      - heading "발리 전통의상 이것보다 더 잘 어울릴 수 있을까요?ㅋㅋㅋ [발리 12] 10분 57초" [level=3] [ref=e546]:
+                        - link "발리 전통의상 이것보다 더 잘 어울릴 수 있을까요?ㅋㅋㅋ [발리 12] 10분 57초" [ref=e547]:
+                          - /url: /watch?v=9-BNHjSGIl4
+                          - text: 발리 전통의상 이것보다 더 잘 어울릴 수 있을까요?ㅋㅋㅋ [발리 12]
+                      - generic [ref=e549]:
+                        - group [ref=e550]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e553]:
+                            - /url: /@mingoose_world
+                        - group [ref=e554]:
+                          - generic [ref=e555]: 조회수 1.3천회
+                          - generic [ref=e556]: •
+                          - generic [ref=e557]: 10개월 전
+                    - button "추가 작업" [ref=e560]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+              - button "다음" [ref=e566] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+          - generic [ref=e573]:
+            - heading "밍구스 치앙마이 한달살기 🇹🇭 모두 재생" [level=2] [ref=e576]:
+              - link "밍구스 치앙마이 한달살기 🇹🇭" [ref=e579] [cursor=pointer]:
+                - /url: /playlist?list=PLGLpuCXNfBOdwTwhv-dipPzkbhF-4Q-Hh
+                - generic [ref=e580]: 밍구스 치앙마이 한달살기 🇹🇭
+              - link "모두 재생" [ref=e584] [cursor=pointer]:
+                - /url: /watch?v=cf8jI3BjZNk&list=PLGLpuCXNfBOdwTwhv-dipPzkbhF-4Q-Hh
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                - generic: 모두 재생
+            - generic [ref=e589]:
+              - generic [ref=e592]:
+                - generic [ref=e594] [cursor=pointer]:
+                  - link [ref=e595]:
+                    - /url: /watch?v=cf8jI3BjZNk
+                    - generic [ref=e602]: 19:07
+                  - generic [ref=e604]:
+                    - generic [ref=e605]:
+                      - heading "[미공개] 현지인처럼 살아보는 치앙마이 한달살기 19분" [level=3] [ref=e606]:
+                        - link "[미공개] 현지인처럼 살아보는 치앙마이 한달살기 19분" [ref=e607]:
+                          - /url: /watch?v=cf8jI3BjZNk
+                          - text: "[미공개] 현지인처럼 살아보는 치앙마이 한달살기"
+                      - generic [ref=e609]:
+                        - group [ref=e610]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e613]:
+                            - /url: /@mingoose_world
+                        - group [ref=e614]:
+                          - generic [ref=e615]: 조회수 3.8만회
+                          - generic [ref=e616]: •
+                          - generic [ref=e617]: 1년 전
+                    - button "추가 작업" [ref=e620]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e625] [cursor=pointer]:
+                  - link [ref=e626]:
+                    - /url: /watch?v=d4MBxkoXON8
+                    - generic [ref=e633]: 1:57:45
+                  - generic [ref=e635]:
+                    - generic [ref=e636]:
+                      - heading "로망이 현실이 된 치앙마이 한달살기 몰아보기 [下] 1시간 57분" [level=3] [ref=e637]:
+                        - link "로망이 현실이 된 치앙마이 한달살기 몰아보기 [下] 1시간 57분" [ref=e638]:
+                          - /url: /watch?v=d4MBxkoXON8
+                          - text: 로망이 현실이 된 치앙마이 한달살기 몰아보기 [下]
+                      - generic [ref=e640]:
+                        - group [ref=e641]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e644]:
+                            - /url: /@mingoose_world
+                        - group [ref=e645]:
+                          - generic [ref=e646]: 조회수 9.6천회
+                          - generic [ref=e647]: •
+                          - generic [ref=e648]: 1년 전
+                    - button "추가 작업" [ref=e651]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e656] [cursor=pointer]:
+                  - link [ref=e657]:
+                    - /url: /watch?v=9wB3qxID2RY
+                    - generic [ref=e664]: 1:50:18
+                  - generic [ref=e666]:
+                    - generic [ref=e667]:
+                      - heading "집 구하기부터 자동차 렌트까지! 낭만 가득 치앙마이 한달살기 몰아보기 [上] 1시간 50분" [level=3] [ref=e668]:
+                        - link "집 구하기부터 자동차 렌트까지! 낭만 가득 치앙마이 한달살기 몰아보기 [上] 1시간 50분" [ref=e669]:
+                          - /url: /watch?v=9wB3qxID2RY
+                          - text: 집 구하기부터 자동차 렌트까지! 낭만 가득 치앙마이 한달살기 몰아보기 [上]
+                      - generic [ref=e671]:
+                        - group [ref=e672]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e675]:
+                            - /url: /@mingoose_world
+                        - group [ref=e676]:
+                          - generic [ref=e677]: 조회수 1.7만회
+                          - generic [ref=e678]: •
+                          - generic [ref=e679]: 1년 전
+                    - button "추가 작업" [ref=e682]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e687] [cursor=pointer]:
+                  - link [ref=e688]:
+                    - /url: /watch?v=UJu1edGob_w
+                    - generic [ref=e695]: 14:02
+                  - generic [ref=e697]:
+                    - generic [ref=e698]:
+                      - heading "14분으로 끝내는 치앙마이 한달살기의 모든 것 14분 2초" [level=3] [ref=e699]:
+                        - link "14분으로 끝내는 치앙마이 한달살기의 모든 것 14분 2초" [ref=e700]:
+                          - /url: /watch?v=UJu1edGob_w
+                          - text: 14분으로 끝내는 치앙마이 한달살기의 모든 것
+                      - generic [ref=e702]:
+                        - group [ref=e703]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e706]:
+                            - /url: /@mingoose_world
+                        - group [ref=e707]:
+                          - generic [ref=e708]: 조회수 5.7만회
+                          - generic [ref=e709]: •
+                          - generic [ref=e710]: 1년 전
+                    - button "추가 작업" [ref=e713]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e718] [cursor=pointer]:
+                  - link [ref=e719]:
+                    - /url: /watch?v=qyPbZzFQm_c&pp=0gcJCd8KAYcqIYzv
+                    - generic [ref=e726]: 22:16
+                  - generic [ref=e728]:
+                    - generic [ref=e729]:
+                      - heading "태국, 라오스, 미얀마 국경지역 골든 트라이앵글에 가다 [치앙마이 12] 22분" [level=3] [ref=e730]:
+                        - link "태국, 라오스, 미얀마 국경지역 골든 트라이앵글에 가다 [치앙마이 12] 22분" [ref=e731]:
+                          - /url: /watch?v=qyPbZzFQm_c&pp=0gcJCd8KAYcqIYzv
+                          - text: 태국, 라오스, 미얀마 국경지역 골든 트라이앵글에 가다 [치앙마이 12]
+                      - generic [ref=e733]:
+                        - group [ref=e734]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e737]:
+                            - /url: /@mingoose_world
+                        - group [ref=e738]:
+                          - generic [ref=e739]: 조회수 6.2천회
+                          - generic [ref=e740]: •
+                          - generic [ref=e741]: 1년 전
+                    - button "추가 작업" [ref=e744]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e749] [cursor=pointer]:
+                  - link [ref=e750]:
+                    - /url: /watch?v=kMmJDN8Hxe0
+                    - generic [ref=e757]: 13:45
+                  - generic [ref=e759]:
+                    - generic [ref=e760]:
+                      - heading "치앙마이 한달살기 하면 뭐하고 살까? [치앙마이 11] 13분 45초" [level=3] [ref=e761]:
+                        - link "치앙마이 한달살기 하면 뭐하고 살까? [치앙마이 11] 13분 45초" [ref=e762]:
+                          - /url: /watch?v=kMmJDN8Hxe0
+                          - text: 치앙마이 한달살기 하면 뭐하고 살까? [치앙마이 11]
+                      - generic [ref=e764]:
+                        - group [ref=e765]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e768]:
+                            - /url: /@mingoose_world
+                        - group [ref=e769]:
+                          - generic [ref=e770]: 조회수 5.2천회
+                          - generic [ref=e771]: •
+                          - generic [ref=e772]: 1년 전
+                    - button "추가 작업" [ref=e775]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+              - button "다음" [ref=e781] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+          - generic [ref=e788]:
+            - heading "밍구스 동남아 여행 🇻🇳🇵🇭🇲🇾 모두 재생" [level=2] [ref=e791]:
+              - link "밍구스 동남아 여행 🇻🇳🇵🇭🇲🇾" [ref=e794] [cursor=pointer]:
+                - /url: /playlist?list=PLGLpuCXNfBOfWUt9sA2Xg7mjS9-6kkoIH
+                - generic [ref=e795]: 밍구스 동남아 여행 🇻🇳🇵🇭🇲🇾
+              - link "모두 재생" [ref=e799] [cursor=pointer]:
+                - /url: /watch?v=dFvIcX005As&list=PLGLpuCXNfBOfWUt9sA2Xg7mjS9-6kkoIH
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                - generic: 모두 재생
+            - generic [ref=e804]:
+              - generic [ref=e807]:
+                - generic [ref=e809] [cursor=pointer]:
+                  - link [ref=e810]:
+                    - /url: /watch?v=dFvIcX005As
+                    - generic [ref=e817]: 30:03
+                  - generic [ref=e819]:
+                    - generic [ref=e820]:
+                      - heading "숨막히는 13시간, 태국 슬리핑 기차 탑승기 30분" [level=3] [ref=e821]:
+                        - link "숨막히는 13시간, 태국 슬리핑 기차 탑승기 30분" [ref=e822]:
+                          - /url: /watch?v=dFvIcX005As
+                          - text: 숨막히는 13시간, 태국 슬리핑 기차 탑승기
+                      - generic [ref=e824]:
+                        - group [ref=e825]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e828]:
+                            - /url: /@mingoose_world
+                        - group [ref=e829]:
+                          - generic [ref=e830]: 조회수 3.6천회
+                          - generic [ref=e831]: •
+                          - generic [ref=e832]: 1일 전
+                    - button "추가 작업" [ref=e835]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e840] [cursor=pointer]:
+                  - link [ref=e841]:
+                    - /url: /watch?v=XvJkRRQC1AI&pp=0gcJCd8KAYcqIYzv
+                    - generic [ref=e848]: 22:06
+                  - generic [ref=e850]:
+                    - generic [ref=e851]:
+                      - heading "카오산로드 갈 바에 앞으로 여기 가겠습니다 22분" [level=3] [ref=e852]:
+                        - link "카오산로드 갈 바에 앞으로 여기 가겠습니다 22분" [ref=e853]:
+                          - /url: /watch?v=XvJkRRQC1AI&pp=0gcJCd8KAYcqIYzv
+                          - text: 카오산로드 갈 바에 앞으로 여기 가겠습니다
+                      - generic [ref=e855]:
+                        - group [ref=e856]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e859]:
+                            - /url: /@mingoose_world
+                        - group [ref=e860]:
+                          - generic [ref=e861]: 조회수 4.9천회
+                          - generic [ref=e862]: •
+                          - generic [ref=e863]: 8일 전
+                    - button "추가 작업" [ref=e866]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e871] [cursor=pointer]:
+                  - link [ref=e872]:
+                    - /url: /watch?v=glnV3YMJHWg
+                    - generic [ref=e879]: 37:43
+                  - generic [ref=e881]:
+                    - generic [ref=e882]:
+                      - heading "5년만에 온 방콕.. 이렇게 변했다구요? 37분" [level=3] [ref=e883]:
+                        - link "5년만에 온 방콕.. 이렇게 변했다구요? 37분" [ref=e884]:
+                          - /url: /watch?v=glnV3YMJHWg
+                          - text: 5년만에 온 방콕.. 이렇게 변했다구요?
+                      - generic [ref=e886]:
+                        - group [ref=e887]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e890]:
+                            - /url: /@mingoose_world
+                        - group [ref=e891]:
+                          - generic [ref=e892]: 조회수 1.5만회
+                          - generic [ref=e893]: •
+                          - generic [ref=e894]: 13일 전
+                    - button "추가 작업" [ref=e897]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e902] [cursor=pointer]:
+                  - link [ref=e903]:
+                    - /url: /watch?v=7mJJeNuwJes&pp=0gcJCd8KAYcqIYzv
+                    - generic [ref=e910]: 10:26
+                  - generic [ref=e912]:
+                    - generic [ref=e913]:
+                      - heading "다낭? 나트랑? 둘 중 고민하고 계신 분들을 위해 준비했습니다 10분 26초" [level=3] [ref=e914]:
+                        - link "다낭? 나트랑? 둘 중 고민하고 계신 분들을 위해 준비했습니다 10분 26초" [ref=e915]:
+                          - /url: /watch?v=7mJJeNuwJes&pp=0gcJCd8KAYcqIYzv
+                          - text: 다낭? 나트랑? 둘 중 고민하고 계신 분들을 위해 준비했습니다
+                      - generic [ref=e917]:
+                        - group [ref=e918]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e921]:
+                            - /url: /@mingoose_world
+                        - group [ref=e922]:
+                          - generic [ref=e923]: 조회수 2.6천회
+                          - generic [ref=e924]: •
+                          - generic [ref=e925]: 1개월 전
+                    - button "추가 작업" [ref=e928]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e933] [cursor=pointer]:
+                  - link [ref=e934]:
+                    - /url: /watch?v=VJz8KzrZIho
+                    - generic [ref=e941]: 20:10
+                  - generic [ref=e943]:
+                    - generic [ref=e944]:
+                      - heading "다낭 여행의 양대산맥! 바나힐 vs 빈원더스! 둘 중에 하나만 갈 수 있다면? 20분" [level=3] [ref=e945]:
+                        - link "다낭 여행의 양대산맥! 바나힐 vs 빈원더스! 둘 중에 하나만 갈 수 있다면? 20분" [ref=e946]:
+                          - /url: /watch?v=VJz8KzrZIho
+                          - text: 다낭 여행의 양대산맥! 바나힐 vs 빈원더스! 둘 중에 하나만 갈 수 있다면?
+                      - generic [ref=e948]:
+                        - group [ref=e949]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e952]:
+                            - /url: /@mingoose_world
+                        - group [ref=e953]:
+                          - generic [ref=e954]: 조회수 4.2천회
+                          - generic [ref=e955]: •
+                          - generic [ref=e956]: 1개월 전
+                    - button "추가 작업" [ref=e959]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e964] [cursor=pointer]:
+                  - link [ref=e965]:
+                    - /url: /watch?v=6-425LwaDUQ
+                    - generic [ref=e972]: 18:58
+                  - generic [ref=e974]:
+                    - generic [ref=e975]:
+                      - heading "솔직히 여기가 다낭보다 더 좋습니다 18분" [level=3] [ref=e976]:
+                        - link "솔직히 여기가 다낭보다 더 좋습니다 18분" [ref=e977]:
+                          - /url: /watch?v=6-425LwaDUQ
+                          - text: 솔직히 여기가 다낭보다 더 좋습니다
+                      - generic [ref=e979]:
+                        - group [ref=e980]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e983]:
+                            - /url: /@mingoose_world
+                        - group [ref=e984]:
+                          - generic [ref=e985]: 조회수 1만회
+                          - generic [ref=e986]: •
+                          - generic [ref=e987]: 1개월 전
+                    - button "추가 작업" [ref=e990]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+              - button "다음" [ref=e996] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+          - generic [ref=e1003]:
+            - heading "밍구스 미국 서부 여행 🌴 모두 재생" [level=2] [ref=e1006]:
+              - link "밍구스 미국 서부 여행 🌴" [ref=e1009] [cursor=pointer]:
+                - /url: /playlist?list=PLGLpuCXNfBOeDlAq6b9gd3GeKpxt6cFOs
+                - generic [ref=e1010]: 밍구스 미국 서부 여행 🌴
+              - link "모두 재생" [ref=e1014] [cursor=pointer]:
+                - /url: /watch?v=AjaiiE5BonY&list=PLGLpuCXNfBOeDlAq6b9gd3GeKpxt6cFOs
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                - generic: 모두 재생
+            - generic [ref=e1019]:
+              - generic [ref=e1022]:
+                - generic [ref=e1024] [cursor=pointer]:
+                  - link [ref=e1025]:
+                    - /url: /watch?v=AjaiiE5BonY
+                    - generic [ref=e1032]: 5:46
+                  - generic [ref=e1034]:
+                    - generic [ref=e1035]:
+                      - heading "에어프레미아 탑승하실 분들 주목! LA 왕복 이코노미 초특가 탑승 후기 5분 46초" [level=3] [ref=e1036]:
+                        - link "에어프레미아 탑승하실 분들 주목! LA 왕복 이코노미 초특가 탑승 후기 5분 46초" [ref=e1037]:
+                          - /url: /watch?v=AjaiiE5BonY
+                          - text: 에어프레미아 탑승하실 분들 주목! LA 왕복 이코노미 초특가 탑승 후기
+                      - generic [ref=e1039]:
+                        - group [ref=e1040]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e1043]:
+                            - /url: /@mingoose_world
+                        - group [ref=e1044]:
+                          - generic [ref=e1045]: 조회수 4.6만회
+                          - generic [ref=e1046]: •
+                          - generic [ref=e1047]: 2년 전
+                    - button "추가 작업" [ref=e1050]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e1055] [cursor=pointer]:
+                  - link [ref=e1056]:
+                    - /url: /watch?v=oW94wC3O6YU
+                    - generic [ref=e1063]: 6:31
+                  - generic [ref=e1065]:
+                    - generic [ref=e1066]:
+                      - heading "여자 혼자 미국 여행 마약에 찌든 샌프란시스코 치안 현지 모습 공개 6분 31초" [level=3] [ref=e1067]:
+                        - link "여자 혼자 미국 여행 마약에 찌든 샌프란시스코 치안 현지 모습 공개 6분 31초" [ref=e1068]:
+                          - /url: /watch?v=oW94wC3O6YU
+                          - text: 여자 혼자 미국 여행 마약에 찌든 샌프란시스코 치안 현지 모습 공개
+                      - generic [ref=e1070]:
+                        - group [ref=e1071]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e1074]:
+                            - /url: /@mingoose_world
+                        - group [ref=e1075]:
+                          - generic [ref=e1076]: 조회수 1.1만회
+                          - generic [ref=e1077]: •
+                          - generic [ref=e1078]: 2년 전
+                    - button "추가 작업" [ref=e1081]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e1086] [cursor=pointer]:
+                  - link [ref=e1087]:
+                    - /url: /watch?v=4k32Ge1ZwbA
+                    - generic [ref=e1094]: 14:45
+                  - generic [ref=e1096]:
+                    - generic [ref=e1097]:
+                      - heading "여자 둘이 미국 렌트카 여행 LA에서 라스베가스까지 450km 내달리기 [미국 서부 1] 14분 45초" [level=3] [ref=e1098]:
+                        - link "여자 둘이 미국 렌트카 여행 LA에서 라스베가스까지 450km 내달리기 [미국 서부 1] 14분 45초" [ref=e1099]:
+                          - /url: /watch?v=4k32Ge1ZwbA
+                          - text: 여자 둘이 미국 렌트카 여행 LA에서 라스베가스까지 450km 내달리기 [미국 서부 1]
+                      - generic [ref=e1101]:
+                        - group [ref=e1102]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e1105]:
+                            - /url: /@mingoose_world
+                        - group [ref=e1106]:
+                          - generic [ref=e1107]: 조회수 3.9만회
+                          - generic [ref=e1108]: •
+                          - generic [ref=e1109]: 2년 전
+                    - button "추가 작업" [ref=e1112]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e1117] [cursor=pointer]:
+                  - link [ref=e1118]:
+                    - /url: /watch?v=igvQitYhG6I
+                    - generic [ref=e1125]: 17:40
+                  - generic [ref=e1127]:
+                    - generic [ref=e1128]:
+                      - heading "반나절이면 끝나는 당일치기 라스베가스 여행 [미국 서부 2] 17분" [level=3] [ref=e1129]:
+                        - link "반나절이면 끝나는 당일치기 라스베가스 여행 [미국 서부 2] 17분" [ref=e1130]:
+                          - /url: /watch?v=igvQitYhG6I
+                          - text: 반나절이면 끝나는 당일치기 라스베가스 여행 [미국 서부 2]
+                      - generic [ref=e1132]:
+                        - group [ref=e1133]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e1136]:
+                            - /url: /@mingoose_world
+                        - group [ref=e1137]:
+                          - generic [ref=e1138]: 조회수 1.4만회
+                          - generic [ref=e1139]: •
+                          - generic [ref=e1140]: 2년 전
+                    - button "추가 작업" [ref=e1143]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e1148] [cursor=pointer]:
+                  - link [ref=e1149]:
+                    - /url: /watch?v=p5Q1_TMPwXc
+                    - generic [ref=e1156]: 9:12
+                  - generic [ref=e1158]:
+                    - generic [ref=e1159]:
+                      - heading "미국 한인마트에서 장을 보면 얼마가 나올까? [미국 서부 3] 9분 12초" [level=3] [ref=e1160]:
+                        - link "미국 한인마트에서 장을 보면 얼마가 나올까? [미국 서부 3] 9분 12초" [ref=e1161]:
+                          - /url: /watch?v=p5Q1_TMPwXc
+                          - text: 미국 한인마트에서 장을 보면 얼마가 나올까? [미국 서부 3]
+                      - generic [ref=e1163]:
+                        - group [ref=e1164]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e1167]:
+                            - /url: /@mingoose_world
+                        - group [ref=e1168]:
+                          - generic [ref=e1169]: 조회수 6.7천회
+                          - generic [ref=e1170]: •
+                          - generic [ref=e1171]: 2년 전
+                    - button "추가 작업" [ref=e1174]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e1179] [cursor=pointer]:
+                  - link [ref=e1180]:
+                    - /url: /watch?v=CjdH0luR2Ys
+                    - generic [ref=e1187]: 17:01
+                  - generic [ref=e1189]:
+                    - generic [ref=e1190]:
+                      - heading "25달러로 즐기는 높이 1200m 그랜드캐년 레스토랑 [미국 서부 4] 17분" [level=3] [ref=e1191]:
+                        - link "25달러로 즐기는 높이 1200m 그랜드캐년 레스토랑 [미국 서부 4] 17분" [ref=e1192]:
+                          - /url: /watch?v=CjdH0luR2Ys
+                          - text: 25달러로 즐기는 높이 1200m 그랜드캐년 레스토랑 [미국 서부 4]
+                      - generic [ref=e1194]:
+                        - group [ref=e1195]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e1198]:
+                            - /url: /@mingoose_world
+                        - group [ref=e1199]:
+                          - generic [ref=e1200]: 조회수 6.6천회
+                          - generic [ref=e1201]: •
+                          - generic [ref=e1202]: 2년 전
+                    - button "추가 작업" [ref=e1205]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+              - button "다음" [ref=e1211] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+          - generic [ref=e1218]:
+            - heading "밍구스 국내 여행 🇰🇷 모두 재생" [level=2] [ref=e1221]:
+              - link "밍구스 국내 여행 🇰🇷" [ref=e1224] [cursor=pointer]:
+                - /url: /playlist?list=PLGLpuCXNfBOcnxJawN7I6MO4SQZLQu_HN
+                - generic [ref=e1225]: 밍구스 국내 여행 🇰🇷
+              - link "모두 재생" [ref=e1229] [cursor=pointer]:
+                - /url: /watch?v=56TTO0iDWfU&list=PLGLpuCXNfBOcnxJawN7I6MO4SQZLQu_HN
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                - generic: 모두 재생
+            - generic [ref=e1234]:
+              - generic [ref=e1237]:
+                - generic [ref=e1239] [cursor=pointer]:
+                  - link [ref=e1240]:
+                    - /url: /watch?v=56TTO0iDWfU
+                    - generic [ref=e1247]: 27:52
+                  - generic [ref=e1249]:
+                    - generic [ref=e1250]:
+                      - heading "2인플레이 가능한 골프장 사우스링스 영암 CC로 1박 2일 국내 골프여행｜간 김에 목포 또간집&나혼자산다 맛집 제대로 뿌시기 27분" [level=3] [ref=e1251]:
+                        - link "2인플레이 가능한 골프장 사우스링스 영암 CC로 1박 2일 국내 골프여행｜간 김에 목포 또간집&나혼자산다 맛집 제대로 뿌시기 27분" [ref=e1252]:
+                          - /url: /watch?v=56TTO0iDWfU
+                          - text: 2인플레이 가능한 골프장 사우스링스 영암 CC로 1박 2일 국내 골프여행｜간 김에 목포 또간집&나혼자산다 맛집 제대로 뿌시기
+                      - generic [ref=e1254]:
+                        - group [ref=e1255]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e1258]:
+                            - /url: /@mingoose_world
+                        - group [ref=e1259]:
+                          - generic [ref=e1260]: 조회수 3.3만회
+                          - generic [ref=e1261]: •
+                          - generic [ref=e1262]: 2년 전
+                    - button "추가 작업" [ref=e1265]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e1270] [cursor=pointer]:
+                  - link [ref=e1271]:
+                    - /url: /watch?v=toeBmoUikdo
+                    - generic [ref=e1278]: 15:01
+                  - generic [ref=e1280]:
+                    - generic [ref=e1281]:
+                      - heading "영하 11도 날씨에 텐트들고 대책 없이 급 떠난 강원도 겨울 캠핑 [인제 갯골 자연휴양림] 15분" [level=3] [ref=e1282]:
+                        - link "영하 11도 날씨에 텐트들고 대책 없이 급 떠난 강원도 겨울 캠핑 [인제 갯골 자연휴양림] 15분" [ref=e1283]:
+                          - /url: /watch?v=toeBmoUikdo
+                          - text: 영하 11도 날씨에 텐트들고 대책 없이 급 떠난 강원도 겨울 캠핑 [인제 갯골 자연휴양림]
+                      - generic [ref=e1285]:
+                        - group [ref=e1286]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e1289]:
+                            - /url: /@mingoose_world
+                        - group [ref=e1290]:
+                          - generic [ref=e1291]: 조회수 4.4천회
+                          - generic [ref=e1292]: •
+                          - generic [ref=e1293]: 2년 전
+                    - button "추가 작업" [ref=e1296]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e1301] [cursor=pointer]:
+                  - link [ref=e1302]:
+                    - /url: /watch?v=hdrk_HD2bXA
+                    - generic [ref=e1309]: 15:32
+                  - generic [ref=e1311]:
+                    - generic [ref=e1312]:
+                      - heading "비행기보다 낭만 있는 배 타고 제주도 가는 방법! 일반실 vs 특실 비교 15분" [level=3] [ref=e1313]:
+                        - link "비행기보다 낭만 있는 배 타고 제주도 가는 방법! 일반실 vs 특실 비교 15분" [ref=e1314]:
+                          - /url: /watch?v=hdrk_HD2bXA
+                          - text: 비행기보다 낭만 있는 배 타고 제주도 가는 방법! 일반실 vs 특실 비교
+                      - generic [ref=e1316]:
+                        - group [ref=e1317]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e1320]:
+                            - /url: /@mingoose_world
+                        - group [ref=e1321]:
+                          - generic [ref=e1322]: 조회수 1.7만회
+                          - generic [ref=e1323]: •
+                          - generic [ref=e1324]: 2년 전
+                    - button "추가 작업" [ref=e1327]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e1332] [cursor=pointer]:
+                  - link [ref=e1333]:
+                    - /url: /watch?v=j_2PudGe3a8
+                    - generic [ref=e1340]: 12:54
+                  - generic [ref=e1342]:
+                    - generic [ref=e1343]:
+                      - heading "제주도 폭설 후 올라간 겨울 한라산! 왕복 7시간 여정을 13분으로 압축했습니다 12분 54초" [level=3] [ref=e1344]:
+                        - link "제주도 폭설 후 올라간 겨울 한라산! 왕복 7시간 여정을 13분으로 압축했습니다 12분 54초" [ref=e1345]:
+                          - /url: /watch?v=j_2PudGe3a8
+                          - text: 제주도 폭설 후 올라간 겨울 한라산! 왕복 7시간 여정을 13분으로 압축했습니다
+                      - generic [ref=e1347]:
+                        - group [ref=e1348]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e1351]:
+                            - /url: /@mingoose_world
+                        - group [ref=e1352]:
+                          - generic [ref=e1353]: 조회수 4.9천회
+                          - generic [ref=e1354]: •
+                          - generic [ref=e1355]: 2년 전
+                    - button "추가 작업" [ref=e1358]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e1363] [cursor=pointer]:
+                  - link [ref=e1364]:
+                    - /url: /watch?v=skAt4VTbffk
+                    - generic [ref=e1371]: 29:58
+                  - generic [ref=e1373]:
+                    - generic [ref=e1374]:
+                      - heading "100만원 받으면서 충주 일주일살기 하는 법 [충주 1] 29분" [level=3] [ref=e1375]:
+                        - link "100만원 받으면서 충주 일주일살기 하는 법 [충주 1] 29분" [ref=e1376]:
+                          - /url: /watch?v=skAt4VTbffk
+                          - text: 100만원 받으면서 충주 일주일살기 하는 법 [충주 1]
+                      - generic [ref=e1378]:
+                        - group [ref=e1379]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e1382]:
+                            - /url: /@mingoose_world
+                        - group [ref=e1383]:
+                          - generic [ref=e1384]: 조회수 3.7천회
+                          - generic [ref=e1385]: •
+                          - generic [ref=e1386]: 2년 전
+                    - button "추가 작업" [ref=e1389]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e1394] [cursor=pointer]:
+                  - link [ref=e1395]:
+                    - /url: /watch?v=3uqxJlpEIB4
+                    - generic [ref=e1402]: 16:07
+                  - generic [ref=e1404]:
+                    - generic [ref=e1405]:
+                      - heading "린가드 FC서울 홈경기 데뷔 개막전 직관하고 왔습니다!! (vs 인천 유나이티드) 16분" [level=3] [ref=e1406]:
+                        - link "린가드 FC서울 홈경기 데뷔 개막전 직관하고 왔습니다!! (vs 인천 유나이티드) 16분" [ref=e1407]:
+                          - /url: /watch?v=3uqxJlpEIB4
+                          - text: 린가드 FC서울 홈경기 데뷔 개막전 직관하고 왔습니다!! (vs 인천 유나이티드)
+                      - generic [ref=e1409]:
+                        - group [ref=e1410]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e1413]:
+                            - /url: /@mingoose_world
+                        - group [ref=e1414]:
+                          - generic [ref=e1415]: 조회수 6.2천회
+                          - generic [ref=e1416]: •
+                          - generic [ref=e1417]: 2년 전
+                    - button "추가 작업" [ref=e1420]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+              - button "다음" [ref=e1426] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+          - generic [ref=e1433]:
+            - heading "밍구스 일본 여행 🇯🇵 모두 재생" [level=2] [ref=e1436]:
+              - link "밍구스 일본 여행 🇯🇵" [ref=e1439] [cursor=pointer]:
+                - /url: /playlist?list=PLGLpuCXNfBOefFTNCiecZhRXOb6pejxcT
+                - generic [ref=e1440]: 밍구스 일본 여행 🇯🇵
+              - link "모두 재생" [ref=e1444] [cursor=pointer]:
+                - /url: /watch?v=A4yWOot7lAE&list=PLGLpuCXNfBOefFTNCiecZhRXOb6pejxcT
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                - generic: 모두 재생
+            - generic [ref=e1449]:
+              - generic [ref=e1452]:
+                - generic [ref=e1454] [cursor=pointer]:
+                  - link [ref=e1455]:
+                    - /url: /watch?v=A4yWOot7lAE
+                    - generic [ref=e1462]: 53:24
+                  - generic [ref=e1464]:
+                    - generic [ref=e1465]:
+                      - heading "미쳐버린 물가 속 여자 혼자 도쿄 여행 몰아보기 53분" [level=3] [ref=e1466]:
+                        - link "미쳐버린 물가 속 여자 혼자 도쿄 여행 몰아보기 53분" [ref=e1467]:
+                          - /url: /watch?v=A4yWOot7lAE
+                          - text: 미쳐버린 물가 속 여자 혼자 도쿄 여행 몰아보기
+                      - generic [ref=e1469]:
+                        - group [ref=e1470]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e1473]:
+                            - /url: /@mingoose_world
+                        - group [ref=e1474]:
+                          - generic [ref=e1475]: 조회수 1.3천회
+                          - generic [ref=e1476]: •
+                          - generic [ref=e1477]: 1개월 전
+                    - button "추가 작업" [ref=e1480]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e1485] [cursor=pointer]:
+                  - link [ref=e1486]:
+                    - /url: /watch?v=Cg9sIsT3Ejc&pp=0gcJCd8KAYcqIYzv
+                    - generic [ref=e1493]: 57:43
+                  - generic [ref=e1495]:
+                    - generic [ref=e1496]:
+                      - heading "경비 아끼는 법부터 현지 맛집까지! 오사카 교토 여행 몰아보기 57분" [level=3] [ref=e1497]:
+                        - link "경비 아끼는 법부터 현지 맛집까지! 오사카 교토 여행 몰아보기 57분" [ref=e1498]:
+                          - /url: /watch?v=Cg9sIsT3Ejc&pp=0gcJCd8KAYcqIYzv
+                          - text: 경비 아끼는 법부터 현지 맛집까지! 오사카 교토 여행 몰아보기
+                      - generic [ref=e1500]:
+                        - group [ref=e1501]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e1504]:
+                            - /url: /@mingoose_world
+                        - group [ref=e1505]:
+                          - generic [ref=e1506]: 조회수 2.4천회
+                          - generic [ref=e1507]: •
+                          - generic [ref=e1508]: 2개월 전
+                    - button "추가 작업" [ref=e1511]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e1516] [cursor=pointer]:
+                  - link [ref=e1517]:
+                    - /url: /watch?v=nTFFhOimNKg
+                    - generic [ref=e1524]: 20:13
+                  - generic [ref=e1526]:
+                    - generic [ref=e1527]:
+                      - heading "치솟는 엔화.. 알뜰하게 쓰고 온 도쿄 여행 경비 알려드릴게요! 20분" [level=3] [ref=e1528]:
+                        - link "치솟는 엔화.. 알뜰하게 쓰고 온 도쿄 여행 경비 알려드릴게요! 20분" [ref=e1529]:
+                          - /url: /watch?v=nTFFhOimNKg
+                          - text: 치솟는 엔화.. 알뜰하게 쓰고 온 도쿄 여행 경비 알려드릴게요!
+                      - generic [ref=e1531]:
+                        - group [ref=e1532]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e1535]:
+                            - /url: /@mingoose_world
+                        - group [ref=e1536]:
+                          - generic [ref=e1537]: 조회수 2.4천회
+                          - generic [ref=e1538]: •
+                          - generic [ref=e1539]: 4개월 전
+                    - button "추가 작업" [ref=e1542]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e1547] [cursor=pointer]:
+                  - link [ref=e1548]:
+                    - /url: /watch?v=hONwBlc-6MU
+                    - generic [ref=e1555]: 17:34
+                  - generic [ref=e1557]:
+                    - generic [ref=e1558]:
+                      - heading "도쿄에서 1시간 거리! 1만원에 즐기는 사이타마 온천 여행 🇯🇵 17분" [level=3] [ref=e1559]:
+                        - link "도쿄에서 1시간 거리! 1만원에 즐기는 사이타마 온천 여행 🇯🇵 17분" [ref=e1560]:
+                          - /url: /watch?v=hONwBlc-6MU
+                          - text: 도쿄에서 1시간 거리! 1만원에 즐기는 사이타마 온천 여행 🇯🇵
+                      - generic [ref=e1562]:
+                        - group [ref=e1563]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e1566]:
+                            - /url: /@mingoose_world
+                        - group [ref=e1567]:
+                          - generic [ref=e1568]: 조회수 746회
+                          - generic [ref=e1569]: •
+                          - generic [ref=e1570]: 4개월 전
+                    - button "추가 작업" [ref=e1573]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e1578] [cursor=pointer]:
+                  - link [ref=e1579]:
+                    - /url: /watch?v=h-ETpAbZjLs
+                    - generic [ref=e1586]: 17:14
+                  - generic [ref=e1588]:
+                    - generic [ref=e1589]:
+                      - heading "올해 최고의 도쿄 크리스마스 마켓은? 17분" [level=3] [ref=e1590]:
+                        - link "올해 최고의 도쿄 크리스마스 마켓은? 17분" [ref=e1591]:
+                          - /url: /watch?v=h-ETpAbZjLs
+                          - text: 올해 최고의 도쿄 크리스마스 마켓은?
+                      - generic [ref=e1593]:
+                        - group [ref=e1594]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e1597]:
+                            - /url: /@mingoose_world
+                        - group [ref=e1598]:
+                          - generic [ref=e1599]: 조회수 2.3천회
+                          - generic [ref=e1600]: •
+                          - generic [ref=e1601]: 4개월 전
+                    - button "추가 작업" [ref=e1604]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                - generic [ref=e1609] [cursor=pointer]:
+                  - link [ref=e1610]:
+                    - /url: /watch?v=69PUIrJaOmM
+                    - generic [ref=e1617]: 22:51
+                  - generic [ref=e1619]:
+                    - generic [ref=e1620]:
+                      - heading "어디서부터 잘못된 걸까요..? 도쿄로 가는 길이 너무 험난하네요.. 22분" [level=3] [ref=e1621]:
+                        - link "어디서부터 잘못된 걸까요..? 도쿄로 가는 길이 너무 험난하네요.. 22분" [ref=e1622]:
+                          - /url: /watch?v=69PUIrJaOmM
+                          - text: 어디서부터 잘못된 걸까요..? 도쿄로 가는 길이 너무 험난하네요..
+                      - generic [ref=e1624]:
+                        - group [ref=e1625]:
+                          - link "밍구스월드 MINGOOSE WORLD" [ref=e1628]:
+                            - /url: /@mingoose_world
+                        - group [ref=e1629]:
+                          - generic [ref=e1630]: 조회수 1.7천회
+                          - generic [ref=e1631]: •
+                          - generic [ref=e1632]: 5개월 전
+                    - button "추가 작업" [ref=e1635]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+              - button "다음" [ref=e1641] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+          - generic [ref=e1648]:
+            - heading "게시물" [level=2] [ref=e1651]:
+              - link "게시물" [ref=e1654] [cursor=pointer]:
+                - /url: /channel/UCvWDJX0ahguQcFYmJjAB4PA/posts
+                - generic [ref=e1655]: 게시물
+            - generic [ref=e1657]:
+              - generic [ref=e1660]:
+                - link "밍구스월드 MINGOOSE WORLD • 2개월 전 안녕하세요. 밍구스월드 입니다💛 설 연휴 잘 보내고 계신가요~?? 설날 연휴를 맞아 첫 구독자 이벤트를 진행하고 있어요!!🎉 이번에 제가 진짜 잘 쓰고 온 여행용 목베개인데 이벤트 참여해주신 분들 중 다섯분 뽑아 선물로 드려요🫶 아래 영상에 ‘같이 여행 가고 싶은 사람’을 댓글로 달면 참여 완료!👌👌 ⬇️ 이벤트 참여하기 (~2/22까지) ⬇️ https://youtube.com/shorts/nZQ4swt0Lb... 꼭 참여하셔서 선물 받아가시고 새해 복 많이 받으세요😍 나와 사용자 23명이 이 게시물을 좋아함 tooltip 좋아요 23개 이 게시물에 싫어요 표시 tooltip 공유 tooltip 댓글 tooltip" [ref=e1662] [cursor=pointer]:
+                  - generic [ref=e1663]:
+                    - link [ref=e1665]:
+                      - /url: /@mingoose_world
+                    - link "밍구스월드 MINGOOSE WORLD" [ref=e1668]:
+                      - /url: /@mingoose_world
+                    - generic [ref=e1669]: •
+                    - link "2개월 전" [ref=e1671]:
+                      - /url: /post/Ugkx9azTe9kxvS91WRtXhteG1fM532PGbtxs
+                  - generic [ref=e1672]:
+                    - generic [ref=e1674]:
+                      - text: 안녕하세요. 밍구스월드 입니다💛 설 연휴 잘 보내고 계신가요~?? 설날 연휴를 맞아 첫 구독자 이벤트를 진행하고 있어요!!🎉 이번에 제가 진짜 잘 쓰고 온 여행용 목베개인데 이벤트 참여해주신 분들 중 다섯분 뽑아 선물로 드려요🫶 아래 영상에 ‘같이 여행 가고 싶은 사람’을 댓글로 달면 참여 완료!👌👌 ⬇️ 이벤트 참여하기 (~2/22까지) ⬇️
+                      - link "https://youtube.com/shorts/nZQ4swt0Lb..." [ref=e1675]:
+                        - /url: /shorts/nZQ4swt0Lbs
+                      - text: 꼭 참여하셔서 선물 받아가시고 새해 복 많이 받으세요😍
+                    - generic [ref=e1676]:
+                      - generic [ref=e1683]:
+                        - img
+                      - group
+                  - generic [ref=e1686]:
+                    - generic [ref=e1687]:
+                      - link "나와 사용자 23명이 이 게시물을 좋아함" [ref=e1689]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3D%252F&hl=ko
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic "좋아요 23개" [ref=e1693]: "23"
+                    - generic [ref=e1694]:
+                      - link "이 게시물에 싫어요 표시" [ref=e1696]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3D%252F&hl=ko
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1701]:
+                      - button "공유" [ref=e1703]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1708]:
+                      - link "댓글" [ref=e1710]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3D%252Fpost%252FUgkx9azTe9kxvS91WRtXhteG1fM532PGbtxs&hl=ko
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                - link "밍구스월드 MINGOOSE WORLD • 8개월 전 안녕하세요 여러분! 밍구스월드입니다🫶 요새 날이 정말 정말 덥네요💦 저는 더위를 먹었는지 요 며칠 골골대고 있답니다🥲 구독자님들 모두 몸보신 음식 챙겨드시면서 건강 관리 잘하시길 바래요! (참고로 TMI지만 저는 요새 제가 만든 콩국수에 빠졌어요..!ㅋㅋ) 잠시 컨디션 회복기간이 필요할 것 같아 당분간은 재충전의 의미로 잠시 쉬어가도록 하겠습니다🙏 그동안은 몰아보기로 찾아뵐 예정이니 많이 시청해주세요오😍 여러분 그럼 건강 조심, 또 조심하세요💛 나와 사용자 22명이 이 게시물을 좋아함 tooltip 좋아요 22개 이 게시물에 싫어요 표시 tooltip 공유 tooltip 댓글 8개 tooltip" [ref=e1715] [cursor=pointer]:
+                  - generic [ref=e1716]:
+                    - link [ref=e1718]:
+                      - /url: /@mingoose_world
+                    - link "밍구스월드 MINGOOSE WORLD" [ref=e1721]:
+                      - /url: /@mingoose_world
+                    - generic [ref=e1722]: •
+                    - link "8개월 전" [ref=e1724]:
+                      - /url: /post/UgkxsrEvidGnkCfK0ssyZniK6yilO0AB2neA
+                  - generic [ref=e1725]:
+                    - generic [ref=e1727]: 안녕하세요 여러분! 밍구스월드입니다🫶 요새 날이 정말 정말 덥네요💦 저는 더위를 먹었는지 요 며칠 골골대고 있답니다🥲 구독자님들 모두 몸보신 음식 챙겨드시면서 건강 관리 잘하시길 바래요! (참고로 TMI지만 저는 요새 제가 만든 콩국수에 빠졌어요..!ㅋㅋ) 잠시 컨디션 회복기간이 필요할 것 같아 당분간은 재충전의 의미로 잠시 쉬어가도록 하겠습니다🙏 그동안은 몰아보기로 찾아뵐 예정이니 많이 시청해주세요오😍 여러분 그럼 건강 조심, 또 조심하세요💛
+                    - generic [ref=e1728]:
+                      - generic [ref=e1735]:
+                        - img
+                      - group
+                  - generic [ref=e1738]:
+                    - generic [ref=e1739]:
+                      - link "나와 사용자 22명이 이 게시물을 좋아함" [ref=e1741]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3D%252F&hl=ko
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic "좋아요 22개" [ref=e1745]: "22"
+                    - generic [ref=e1746]:
+                      - link "이 게시물에 싫어요 표시" [ref=e1748]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3D%252F&hl=ko
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1753]:
+                      - button "공유" [ref=e1755]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1760]:
+                      - link "댓글 8개" [ref=e1762]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3D%252Fpost%252FUgkxsrEvidGnkCfK0ssyZniK6yilO0AB2neA&hl=ko
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                        - generic: "8"
+                      - tooltip "tooltip"
+                - 'link "밍구스월드 MINGOOSE WORLD • 1년 전 안녕하세요 여러분! 밍구스월드 입니다😊 즐거운 연휴 잘 보내고 계신가요~?? 오늘은 좋은 소식이 있어서 인사를 드리게 되었는데요. 제가 무려!! \"클룩 크리에이터\"로 활동하게 되었답니다💛 클룩은 전 세계 호텔, 렌터카, 입장권, 투어, 액티비티를 예약할 수 있는 플랫폼으로 여행을 좋아하신다면 한번쯤 들어보셨을텐데요! 밍구스월드 구독자님들을 위한 전용 할인코드가 발급되었어요!🙌 여행 계획 있으시다면 결제하실 때 할인코드 등록하셔서 더 알찬 여행 다녀오시길 바래요🙏 ✅ 밍구스월드 클룩 할인코드 : MINGOOSEWORLD 👉 쿠폰 적용 상품 : 투어, 액티비티, 렌터카 👉 할인 혜택: 결제 예정 금액의 5% 할인 👉 사용 조건: 5만원 이상 구매 시 최대 2만원 할인 추가로 저의 근황을 말씀드리자면 저는 곧 또 다른 여행을 앞두고 있어요! 약 9일 정도 짧고 굵게 다녀올 예정으로 당분간은 몰아보기와 숏츠로 인사드릴게요❤️ 항상 재밌게 시청해주시는 구독자님들 너무 감사드립니다🥰 다음 컨텐츠도 많이 많이 기대해주세요!!🙏 나와 사용자 20명이 이 게시물을 좋아함 tooltip 좋아요 20개 이 게시물에 싫어요 표시 tooltip 공유 tooltip 댓글 6개 tooltip" [ref=e1767] [cursor=pointer]':
+                  - generic [ref=e1768]:
+                    - link [ref=e1770]:
+                      - /url: /@mingoose_world
+                    - link "밍구스월드 MINGOOSE WORLD" [ref=e1773]:
+                      - /url: /@mingoose_world
+                    - generic [ref=e1774]: •
+                    - link "1년 전" [ref=e1776]:
+                      - /url: /post/UgkxLDwl5WFxIpGUrEaTb_Soxkje1SDhTHyi
+                  - generic [ref=e1777]:
+                    - generic [ref=e1779]: "안녕하세요 여러분! 밍구스월드 입니다😊 즐거운 연휴 잘 보내고 계신가요~?? 오늘은 좋은 소식이 있어서 인사를 드리게 되었는데요. 제가 무려!! \"클룩 크리에이터\"로 활동하게 되었답니다💛 클룩은 전 세계 호텔, 렌터카, 입장권, 투어, 액티비티를 예약할 수 있는 플랫폼으로 여행을 좋아하신다면 한번쯤 들어보셨을텐데요! 밍구스월드 구독자님들을 위한 전용 할인코드가 발급되었어요!🙌 여행 계획 있으시다면 결제하실 때 할인코드 등록하셔서 더 알찬 여행 다녀오시길 바래요🙏 ✅ 밍구스월드 클룩 할인코드 : MINGOOSEWORLD 👉 쿠폰 적용 상품 : 투어, 액티비티, 렌터카 👉 할인 혜택: 결제 예정 금액의 5% 할인 👉 사용 조건: 5만원 이상 구매 시 최대 2만원 할인 추가로 저의 근황을 말씀드리자면 저는 곧 또 다른 여행을 앞두고 있어요! 약 9일 정도 짧고 굵게 다녀올 예정으로 당분간은 몰아보기와 숏츠로 인사드릴게요❤️ 항상 재밌게 시청해주시는 구독자님들 너무 감사드립니다🥰 다음 컨텐츠도 많이 많이 기대해주세요!!🙏"
+                    - generic [ref=e1780]:
+                      - group
+                  - generic [ref=e1786]:
+                    - generic [ref=e1787]:
+                      - link "나와 사용자 20명이 이 게시물을 좋아함" [ref=e1789]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3D%252F&hl=ko
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic "좋아요 20개" [ref=e1793]: "20"
+                    - generic [ref=e1794]:
+                      - link "이 게시물에 싫어요 표시" [ref=e1796]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3D%252F&hl=ko
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1801]:
+                      - button "공유" [ref=e1803]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1808]:
+                      - link "댓글 6개" [ref=e1810]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3D%252Fpost%252FUgkxLDwl5WFxIpGUrEaTb_Soxkje1SDhTHyi&hl=ko
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                        - generic: "6"
+                      - tooltip "tooltip"
+                - link "밍구스월드 MINGOOSE WORLD • 1년 전 안녕하세요 여러분! 밍구스월드입니다😊 새해 첫 주말 잘보내셨나요~?? 늦었지만 새해 복 많이 받으세요🩷 저는 지금 파리에 있는데요. 시차적응을 하다보니 구독자 6천명이 된 걸 이제서야 확인했네요! 항상 재밌게 시청해주시고 댓글 달아주시는 분들 한분 한분 모두 기억하고 있답니다! 너무 너무 감사드려요🙏 올 한해도 더욱 더 재밌고 좋은 컨텐츠로 찾아뵐게요! 월요일 화이팅 하시고 다시 한번 새해 복 많이 많이 받으세요😍 나와 사용자 33명이 이 게시물을 좋아함 tooltip 좋아요 33개 이 게시물에 싫어요 표시 tooltip 공유 tooltip 댓글 14개 tooltip" [ref=e1815] [cursor=pointer]:
+                  - generic [ref=e1816]:
+                    - link [ref=e1818]:
+                      - /url: /@mingoose_world
+                    - link "밍구스월드 MINGOOSE WORLD" [ref=e1821]:
+                      - /url: /@mingoose_world
+                    - generic [ref=e1822]: •
+                    - link "1년 전" [ref=e1824]:
+                      - /url: /post/UgkxjnENiXWcsEjdy_2MBxSMttkAcW_cWgfK
+                  - generic [ref=e1825]:
+                    - generic [ref=e1827]: 안녕하세요 여러분! 밍구스월드입니다😊 새해 첫 주말 잘보내셨나요~?? 늦었지만 새해 복 많이 받으세요🩷 저는 지금 파리에 있는데요. 시차적응을 하다보니 구독자 6천명이 된 걸 이제서야 확인했네요! 항상 재밌게 시청해주시고 댓글 달아주시는 분들 한분 한분 모두 기억하고 있답니다! 너무 너무 감사드려요🙏 올 한해도 더욱 더 재밌고 좋은 컨텐츠로 찾아뵐게요! 월요일 화이팅 하시고 다시 한번 새해 복 많이 많이 받으세요😍
+                    - generic [ref=e1828]:
+                      - generic [ref=e1835]:
+                        - img
+                      - group
+                  - generic [ref=e1838]:
+                    - generic [ref=e1839]:
+                      - link "나와 사용자 33명이 이 게시물을 좋아함" [ref=e1841]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3D%252F&hl=ko
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic "좋아요 33개" [ref=e1845]: "33"
+                    - generic [ref=e1846]:
+                      - link "이 게시물에 싫어요 표시" [ref=e1848]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3D%252F&hl=ko
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1853]:
+                      - button "공유" [ref=e1855]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1860]:
+                      - link "댓글 14개" [ref=e1862]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3D%252Fpost%252FUgkxjnENiXWcsEjdy_2MBxSMttkAcW_cWgfK&hl=ko
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                        - generic: "14"
+                      - tooltip "tooltip"
+                - link "밍구스월드 MINGOOSE WORLD • 1년 전 2024.12.29 무안국제공항 여객기 사고로 인한 179명 희생자분들의 명복을 빕니다 사고 희생자분들과 유가족분들께 깊은 애도와 조의를 표합니다. 국가 애도기간에 맞추어 금주 업로드 될 예정이었던 컨텐츠는 잠시 연기하도록 하겠습니다. 나와 사용자 18명이 이 게시물을 좋아함 tooltip 좋아요 18개 이 게시물에 싫어요 표시 tooltip 공유 tooltip 댓글 1개 tooltip" [ref=e1867] [cursor=pointer]:
+                  - generic [ref=e1868]:
+                    - link [ref=e1870]:
+                      - /url: /@mingoose_world
+                    - link "밍구스월드 MINGOOSE WORLD" [ref=e1873]:
+                      - /url: /@mingoose_world
+                    - generic [ref=e1874]: •
+                    - link "1년 전" [ref=e1876]:
+                      - /url: /post/UgkxFUqf2vUifNJfRgftPMeUMIIYtHez04bM
+                  - generic [ref=e1877]:
+                    - generic [ref=e1879]: 2024.12.29 무안국제공항 여객기 사고로 인한 179명 희생자분들의 명복을 빕니다 사고 희생자분들과 유가족분들께 깊은 애도와 조의를 표합니다. 국가 애도기간에 맞추어 금주 업로드 될 예정이었던 컨텐츠는 잠시 연기하도록 하겠습니다.
+                    - generic:
+                      - group
+                  - generic [ref=e1882]:
+                    - generic [ref=e1883]:
+                      - link "나와 사용자 18명이 이 게시물을 좋아함" [ref=e1885]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3D%252F&hl=ko
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic "좋아요 18개" [ref=e1889]: "18"
+                    - generic [ref=e1890]:
+                      - link "이 게시물에 싫어요 표시" [ref=e1892]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3D%252F&hl=ko
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1897]:
+                      - button "공유" [ref=e1899]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1904]:
+                      - link "댓글 1개" [ref=e1906]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3D%252Fpost%252FUgkxFUqf2vUifNJfRgftPMeUMIIYtHez04bM&hl=ko
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                        - generic: "1"
+                      - tooltip "tooltip"
+                - link "밍구스월드 MINGOOSE WORLD • 2년 전 안녕하세요 여러분! 밍구스월드입니다😊 저는 지금 삿포로인데요. 좋은 소식이 있어서 인사드려요! 오늘 방송된 KBS2 ‘무엇이든 물어보세요’에 제가 나왔어요👏 해외라 스트리밍으로 급하게 보고 사진찍느라 엉망이지만 그래도 따끈따끈한 소식을 전해드리고 싶었어요🩷 유튜브를 1년 정도 하다보니 이런 일도 생기고 너무 신기해요! 제가 촬영한 컨텐츠를 전문PD님께서 편집해주신 것도 신기하고 생각보다 방송 분량이 많은 점도 너무 신기했어요!! 앞으로 더 힘내서 재밌게 컨텐츠를 만들어야겠다는 생각을 한번 더 하게 되는 경험인 것 같아요! 방송 섭외 및 뒷이야기는 별도 컨텐츠로 조만간 찾아오겠습니다! 마지막은 삿포로 TV타워 사진으로 마무리 하겠습니다😀 여러분 그럼 오늘도 좋은 하루 보내세요!😍 나와 사용자 23명이 이 게시물을 좋아함 tooltip 좋아요 23개 이 게시물에 싫어요 표시 tooltip 공유 tooltip 댓글 4개 tooltip" [ref=e1911] [cursor=pointer]:
+                  - generic [ref=e1912]:
+                    - link [ref=e1914]:
+                      - /url: /@mingoose_world
+                    - link "밍구스월드 MINGOOSE WORLD" [ref=e1917]:
+                      - /url: /@mingoose_world
+                    - generic [ref=e1918]: •
+                    - link "2년 전" [ref=e1920]:
+                      - /url: /post/Ugkx5MnX7zIqQvcFdyBXoKAJZVI6iiJFfXJ1
+                  - generic [ref=e1921]:
+                    - generic [ref=e1923]: 안녕하세요 여러분! 밍구스월드입니다😊 저는 지금 삿포로인데요. 좋은 소식이 있어서 인사드려요! 오늘 방송된 KBS2 ‘무엇이든 물어보세요’에 제가 나왔어요👏 해외라 스트리밍으로 급하게 보고 사진찍느라 엉망이지만 그래도 따끈따끈한 소식을 전해드리고 싶었어요🩷 유튜브를 1년 정도 하다보니 이런 일도 생기고 너무 신기해요! 제가 촬영한 컨텐츠를 전문PD님께서 편집해주신 것도 신기하고 생각보다 방송 분량이 많은 점도 너무 신기했어요!! 앞으로 더 힘내서 재밌게 컨텐츠를 만들어야겠다는 생각을 한번 더 하게 되는 경험인 것 같아요! 방송 섭외 및 뒷이야기는 별도 컨텐츠로 조만간 찾아오겠습니다! 마지막은 삿포로 TV타워 사진으로 마무리 하겠습니다😀 여러분 그럼 오늘도 좋은 하루 보내세요!😍
+                    - generic [ref=e1924]:
+                      - generic [ref=e1931]:
+                        - img
+                      - group
+                  - generic [ref=e1934]:
+                    - generic [ref=e1935]:
+                      - link "나와 사용자 23명이 이 게시물을 좋아함" [ref=e1937]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3D%252F&hl=ko
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic "좋아요 23개" [ref=e1941]: "23"
+                    - generic [ref=e1942]:
+                      - link "이 게시물에 싫어요 표시" [ref=e1944]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3D%252F&hl=ko
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1949]:
+                      - button "공유" [ref=e1951]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1956]:
+                      - link "댓글 4개" [ref=e1958]:
+                        - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3D%252Fpost%252FUgkx5MnX7zIqQvcFdyBXoKAJZVI6iiJFfXJ1&hl=ko
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                        - generic: "4"
+                      - tooltip "tooltip"
+              - button "다음" [ref=e1964] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+      - text: •
+  - dialog [active] [ref=e1968]:
+    - generic [ref=e1969]:
+      - generic [ref=e1972]:
+        - heading "밍구스월드 MINGOOSE WORLD" [level=2] [ref=e1974]:
+          - generic "밍구스월드 MINGOOSE WORLD" [ref=e1975]
+        - button "닫기" [ref=e1979] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+      - generic [ref=e1989]:
+        - generic [ref=e1991]: 설명
+        - generic [ref=e1992]: 자극적이지 않은 편안한 여행을 추구합니다😊
+        - generic [ref=e1993]:
+          - generic [ref=e1995]: 링크
+          - generic [ref=e1996]:
+            - generic [ref=e1998]:
+              - generic [ref=e1999]: instagram
+              - link "instagram.com/mingoose_world" [ref=e2001] [cursor=pointer]:
+                - /url: https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbDIycGRtNm5yS0RHR01Nc1JXMHl3S1ZFR0VEUXxBQ3Jtc0tsbjFxc2NjTXlpYmpJanZfRHpoZUFoVzlvNU1RWk8yZGhnZ09yZXBjSzl0TnRuM0daYzU4UGg5QUpkSVNKUXE3VmNNQTRrQkxjR1lvbS1acXhXRmVQcjFjLWJ3NmtRZ201bHF4YndfNl9RWVR0MGZpQQ&q=https%3A%2F%2Fwww.instagram.com%2Fmingoose_world%2F
+            - generic [ref=e2003]:
+              - generic [ref=e2004]: blog
+              - link "blog.naver.com/oming_holic" [ref=e2006] [cursor=pointer]:
+                - /url: https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqa1dYMDF4aE5tV2Z5QkNKLXBya0MwYnZmLXI2d3xBQ3Jtc0tuWm95MDhuc1NHdGNhMlZtb2xoVjJFZENCVEVTM2VxbjNqeDdJcE55VTFRUkx3eFNjRlB2bjFfR2pNejA2VlZVUEs1aWhGRGNXSWstckNaaWFIaVpMRGY1OE92NGk2Wk1hS2dTLTRmckU2SUdoaXhyMA&q=https%3A%2F%2Fblog.naver.com%2Foming_holic
+            - generic [ref=e2008]:
+              - generic [ref=e2009]: contact
+              - link "linktube.me/ask/mingooseworld" [ref=e2011] [cursor=pointer]:
+                - /url: https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbHVzRDJwS1lELS1PTkllNEJSQkFwWDE2VUZCUXxBQ3Jtc0tralY0RDVPMEt4UWJqVGktaGtMUExTMVNESlkxUmZQWU5sWmFVX0dVX05ncjM3QzQzN1Fwdm1UcG5qQm9oWTRUVG82SWZHVEFqNzh3anBpbmJTTkZ5MVVtR19KM0swX0MzZ0FMU0Z0MlFvOTBSTmJ6Yw&q=https%3A%2F%2Flinktube.me%2Fask%2Fmingooseworld
+        - generic [ref=e2012]:
+          - generic [ref=e2014]: 추가 정보
+          - table [ref=e2015]:
+            - rowgroup [ref=e2016]:
+              - row "이메일 주소를 보려면 로그인하세요." [ref=e2017]:
+                - cell [ref=e2018]
+                - cell "이메일 주소를 보려면 로그인하세요." [ref=e2020]:
+                  - generic [ref=e2023]:
+                    - text: 이메일 주소를 보려면
+                    - link "로그인" [ref=e2024] [cursor=pointer]:
+                      - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3D%252F%2540mingoose_world&hl=ko
+                    - text: 하세요.
+              - row "www.youtube.com/@mingoose_world" [ref=e2025]:
+                - cell [ref=e2026]
+                - cell "www.youtube.com/@mingoose_world" [ref=e2028]:
+                  - link "www.youtube.com/@mingoose_world" [ref=e2029] [cursor=pointer]:
+                    - /url: http://www.youtube.com/@mingoose_world
+              - row "대한민국" [ref=e2030]:
+                - cell [ref=e2031]
+                - cell "대한민국" [ref=e2033]
+              - 'row "가입일: 2023. 3. 1." [ref=e2034]':
+                - cell [ref=e2035]
+                - 'cell "가입일: 2023. 3. 1." [ref=e2037]':
+                  - generic [ref=e2039]: "가입일: 2023. 3. 1."
+              - row "구독자 9.72천명" [ref=e2040]:
+                - cell [ref=e2041]
+                - cell "구독자 9.72천명" [ref=e2043]
+              - row "동영상 234개" [ref=e2044]:
+                - cell [ref=e2045]:
+                  - generic [ref=e2048]:
+                    - img
+                - cell "동영상 234개" [ref=e2049]
+              - row "조회수 7,510,840회" [ref=e2050]:
+                - cell [ref=e2051]
+                - cell "조회수 7,510,840회" [ref=e2053]
+        - button "채널 공유" [ref=e2058] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+          - generic: 채널 공유

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>프로모션 페이지 자동화 파이프라인</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard', sans-serif;
+    background: #f2f3f7;
+    padding: 40px 24px 48px;
+  }
+
+  .header { text-align: center; margin-bottom: 32px; }
+  .header h1 { font-size: 19px; font-weight: 800; color: #1a1a2e; margin-bottom: 6px; }
+  .header p { font-size: 13px; color: #888; }
+
+  .flow {
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .step {
+    flex: 1;
+    background: #fff;
+    border-radius: 14px;
+    padding: 22px 18px 20px;
+    box-shadow: 0 2px 14px rgba(0,0,0,0.07);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .step-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px; height: 26px;
+    border-radius: 8px;
+    font-size: 13px; font-weight: 800;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+  .step-1 .step-badge { background: #3b5bdb; }
+  .step-2 .step-badge { background: #2d7a3a; }
+  .step-3 .step-badge { background: #7b2d8b; }
+
+  .step-tool {
+    font-size: 12px; font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .step-1 .step-tool { color: #3b5bdb; }
+  .step-2 .step-tool { color: #2d7a3a; }
+  .step-3 .step-tool { color: #7b2d8b; }
+
+  .step-title { font-size: 15px; font-weight: 800; color: #1a1a2e; margin-bottom: 10px; line-height: 1.35; }
+  .step-desc { font-size: 12px; color: #666; line-height: 1.6; }
+  .step-desc b { color: #1a1a2e; font-weight: 700; }
+
+  .arrow {
+    display: flex;
+    align-items: center;
+    padding: 0 6px;
+    color: #c0c2cc;
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .result {
+    max-width: 940px;
+    margin: 22px auto 0;
+    background: #fff;
+    border-radius: 14px;
+    padding: 20px 24px;
+    box-shadow: 0 2px 14px rgba(0,0,0,0.07);
+    border-left: 4px solid #1a1a2e;
+  }
+  .result-label { font-size: 12px; font-weight: 700; color: #888; margin-bottom: 8px; }
+  .result-row { font-size: 13px; color: #1a1a2e; line-height: 1.9; }
+  .result-row b { font-weight: 700; }
+  .result-row .link { color: #3b5bdb; }
+  .result-note { font-size: 12px; color: #888; margin-top: 10px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>프로모션 페이지 베리에이션 자동화 파이프라인</h1>
+  <p>크리에이터별 쿠폰페이지 생성 → MRT 프로모션 CMS 발행 (3단계 자동화)</p>
+</div>
+
+<div class="flow">
+
+  <div class="step step-1">
+    <span class="step-badge">1</span>
+    <div class="step-tool">Python</div>
+    <div class="step-title">프로필 사진 수집</div>
+    <div class="step-desc">
+      인스타그램 API로 크리에이터<br>
+      <b>프로필 사진(고화질)</b>을 자동 수집
+    </div>
+  </div>
+
+  <div class="arrow">›</div>
+
+  <div class="step step-2">
+    <span class="step-badge">2</span>
+    <div class="step-tool">Figma 플러그인</div>
+    <div class="step-title">디자인 베리에이션</div>
+    <div class="step-desc">
+      마스터 디자인을 복제하고<br>
+      <b>닉네임 · 프로필 사진</b>을<br>
+      크리에이터별로 자동 교체
+    </div>
+  </div>
+
+  <div class="arrow">›</div>
+
+  <div class="step step-3">
+    <span class="step-badge">3</span>
+    <div class="step-tool">Playwright</div>
+    <div class="step-title">CMS 자동 발행</div>
+    <div class="step-desc">
+      MRT 프로모션 CMS에<br>
+      페이지 복제 · 정보 입력 ·<br>
+      이미지 업로드 · <b>발행</b>까지 자동
+    </div>
+  </div>
+
+</div>
+
+<div class="result">
+  <div class="result-label">RESULT — 생성·발행된 프로모션 페이지</div>
+  <div class="result-row">
+    <b>허니블링 · 수블리 · 다은</b> &nbsp;3명 공개 발행 완료
+    <span style="color:#999;">(+ 류랑 페이지 제작 완료, 컨택 논의 중)</span>
+  </div>
+  <div class="result-note">→ 생성된 링크는 마이링크로 감싸 크리에이터에게 전달 · 감싸기 단계도 자동화 예정</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+[      61ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/insta.png:0
+[      63ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/IMG_7595.jpg:0
+[     117ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/youtube.png:0
+[     118ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/blog.png:0
+[     118ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/insta.png:0
+[     118ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/IMG_7595.jpg:0
+[     210ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/api/prices/osaka?directOnly=false:0
+[     210ms] [WARNING] TripSignal osaka 로드 실패 (기본값 유지): Error: HTTP 404
+    at loadCityBudget (http://localhost:8765/mockup.html:4948:40) @ http://localhost:8765/mockup.html:5004
+[     210ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/api/prices/tokyo?directOnly=false:0
+[     210ms] [WARNING] TripSignal tokyo 로드 실패 (기본값 유지): Error: HTTP 404
+    at loadCityBudget (http://localhost:8765/mockup.html:4948:40) @ http://localhost:8765/mockup.html:5004
+[     210ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/api/prices/bangkok?directOnly=false:0
+[     210ms] [WARNING] TripSignal bangkok 로드 실패 (기본값 유지): Error: HTTP 404
+    at loadCityBudget (http://localhost:8765/mockup.html:4948:40) @ http://localhost:8765/mockup.html:5004
+[     210ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/api/prices/taipei?directOnly=false:0
+[     210ms] [WARNING] TripSignal taipei 로드 실패 (기본값 유지): Error: HTTP 404
+    at loadCityBudget (http://localhost:8765/mockup.html:4948:40) @ http://localhost:8765/mockup.html:5004
+[     223ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/IMG_7595.jpg:0
+[     240ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/favicon.ico:0

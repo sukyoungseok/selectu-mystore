@@ -1,0 +1,1441 @@
+- generic [ref=e86]:
+  - banner [ref=e62]:
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - button "가이드" [ref=e67] [cursor=pointer]:
+          - generic [ref=e88]:
+            - img
+        - generic [ref=e69]:
+          - link "YouTube 홈" [ref=e89] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e94]:
+              - img
+          - generic [ref=e95]: KR
+        - button "탐색 건너뛰기" [ref=e99] [cursor=pointer]:
+          - generic: 탐색 건너뛰기
+      - generic [ref=e70]:
+        - search [ref=e71]:
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - combobox "검색" [expanded] [ref=e103]
+              - button [ref=e78] [cursor=pointer]
+            - button "Search" [ref=e79] [cursor=pointer]:
+              - generic [ref=e105]:
+                - img
+        - generic [ref=e107]:
+          - button "음성으로 검색" [ref=e109] [cursor=pointer]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+          - tooltip "tooltip"
+      - generic [ref=e113]:
+        - button "설정" [ref=e118] [cursor=pointer]:
+          - generic [ref=e121]:
+            - img
+        - link "로그인" [ref=e124] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fsi%253DwBn_m6T92AHiBYNq%2526v%253D0_triXHSoGY%2526feature%253Dyoutu.be&hl=ko&ec=65620
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+          - generic: 로그인
+  - main [ref=e129]:
+    - generic [ref=e130]:
+      - generic [ref=e132]:
+        - complementary [ref=e139]:
+          - generic "YouTube 동영상 플레이어" [ref=e5]:
+            - generic [ref=e10]:
+              - generic [ref=e11] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                - slider "탐색 슬라이더" [ref=e12]
+                - generic:
+                  - generic:
+                    - generic:
+                      - slider "세밀한 탐색을 하려면 패널을 클릭하거나 스크롤하세요."
+              - generic [ref=e21]:
+                - generic [ref=e22]:
+                  - button "일시중지(k)" [ref=e23] [cursor=pointer]:
+                    - img
+                  - generic [ref=e24]:
+                    - button "음소거(m)" [ref=e26] [cursor=pointer]:
+                      - img
+                    - slider "볼륨"
+                  - button "0 분 2 초/2 시간 0 분 5 초" [ref=e163] [cursor=pointer]: 0:02 / 2:00:05
+                  - button "설레는오사카" [ref=e165] [cursor=pointer]:
+                    - generic "설레는오사카" [ref=e166]
+                    - generic [ref=e167]:
+                      - img
+                - generic [ref=e31]:
+                  - generic [ref=e32]:
+                    - button "자동재생 사용 설정" [ref=e168] [cursor=pointer]
+                    - button "자막 사용 불가" [ref=e33] [cursor=pointer]:
+                      - generic [ref=e34]:
+                        - img
+                    - button "설정" [ref=e35] [cursor=pointer]:
+                      - img
+                  - generic [ref=e36]:
+                    - button "영화관 모드(t)" [ref=e37] [cursor=pointer]:
+                      - img
+                    - button "전체 화면(f)" [ref=e38] [cursor=pointer]:
+                      - img
+        - generic [ref=e171]:
+          - generic [ref=e173]:
+            - heading "오사카 교토 여행 몰아보기🔥주유패스, 숙소, 구글맵, 필수코스와 현지인 맛집까지 가득담은 브이로그 | 10박11일 나혼자 오사카 교토 배낭여행vlog 통합본" [level=1] [ref=e175]
+            - generic [ref=e176]:
+              - generic [ref=e177]:
+                - generic [ref=e178]:
+                  - link [ref=e179] [cursor=pointer]:
+                    - /url: /@Sookohaseyo
+                  - generic [ref=e181]:
+                    - generic "sookoh 수코" [ref=e185]:
+                      - link "sookoh 수코" [ref=e186] [cursor=pointer]:
+                        - /url: /@Sookohaseyo
+                    - generic "구독자 20.5만명" [ref=e187]
+                - generic [ref=e191]:
+                  - button "sookoh 수코을(를) 구독합니다." [ref=e193] [cursor=pointer]:
+                    - generic: 구독
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                    - generic:
+                      - img
+              - generic [ref=e200]:
+                - generic [ref=e201]:
+                  - generic [ref=e205]:
+                    - button "다른 사용자 4,487명과 함께 이 동영상에 좋아요 표시" [ref=e209] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                      - generic: 4.4천
+                    - button "동영상에 싫어요 표시" [ref=e216] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                  - button "공유" [ref=e222] [cursor=pointer]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                    - generic: 공유
+                - button "재생목록에 저장" [ref=e229] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                  - generic: 저장
+                - button "추가 작업" [ref=e234] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+            - generic [ref=e240] [cursor=pointer]:
+              - generic [ref=e241]:
+                - generic [ref=e243]:
+                  - text: 조회수 65만회 2년 전
+                  - link "#교토" [ref=e244]:
+                    - /url: /hashtag/%EA%B5%90%ED%86%A0
+                  - link "#kyoto" [ref=e245]:
+                    - /url: /hashtag/kyoto
+                  - link "#교토여행" [ref=e246]:
+                    - /url: /hashtag/%EA%B5%90%ED%86%A0%EC%97%AC%ED%96%89
+                - tooltip "tooltip"
+              - generic [ref=e247]:
+                - generic [ref=e248]:
+                  - generic [ref=e251]:
+                    - text: 👇구글맵링크는 아래 각 여행 편 더보기란에
+                    - 'link "Instagram Channel Link: sookohaseyo" [ref=e254]':
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbjhvSGJ2c2tKRFd3VHBkbEVBcHQza3hhZ3M0UXxBQ3Jtc0tsTzZ0LVctNWFqdW5nOUU2NTNhY1J2OHlXU2pBUGJSRVJCTVlUeXVtLTV3RGxza0ZyNWFnTXJaSENtV1ViU2VBT2xZMFl4UU5QbGZ0WUpuakRCRUhnN09kY2NncUE1VFhVMm1EaGdmNDFNRGJnMVZoQQ&q=https%3A%2F%2Fwww.instagram.com%2Fsookohaseyo%2F&v=0_triXHSoGY
+                      - text: / sookohaseyo
+                  - generic: …
+                - button "...더보기" [ref=e256]
+          - text: •
+          - generic [ref=e258]:
+            - generic [ref=e260]:
+              - generic [ref=e261]:
+                - heading "댓글 115개" [level=2] [ref=e263]:
+                  - generic [ref=e264]: 댓글 115개
+                - generic [ref=e267]:
+                  - tooltip "tooltip"
+                  - group [ref=e269]:
+                    - button "댓글 정렬" [ref=e271] [cursor=pointer]:
+                      - generic [ref=e274]:
+                        - img
+                      - generic [ref=e275]: 정렬 기준
+              - generic [ref=e277]:
+                - img "기본 프로필 사진" [ref=e279]
+                - textbox [ref=e281]
+            - generic [ref=e282]:
+              - generic [ref=e287]:
+                - button "@TV-hochimino" [ref=e289] [cursor=pointer]
+                - generic [ref=e291]:
+                  - generic [ref=e293]:
+                    - heading "@TV-hochimino" [level=3] [ref=e294]:
+                      - link "@TV-hochimino" [ref=e295] [cursor=pointer]:
+                        - /url: /@TV-hochimino
+                    - link "2년 전" [ref=e297] [cursor=pointer]:
+                      - /url: /watch?v=0_triXHSoGY&lc=Ugwd0M-mYyFpMPz3fbZ4AaABAg&pp=0gcJCSIANpG00pGi
+                  - generic [ref=e301]:
+                    - text: 와우.. 2시간3분.. 편집하느라 힘드셨을텐데.. 수고 많으셨습니다~ 덕분에 비오는 날에 힐링되는 영상 잘 봤습니다~^^ 감사합니다
+                    - img "🎉" [ref=e303]
+                    - img "🎉" [ref=e305]
+                    - img "🎉" [ref=e307]
+                    - img "🎉" [ref=e309]
+                    - img "🎉" [ref=e311]
+                  - generic [ref=e313]:
+                    - generic [ref=e314]:
+                      - button "나와 사용자 33명이 이 댓글을 좋아함" [ref=e316] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e320]: "33"
+                    - generic [ref=e321]:
+                      - button "댓글 싫어요 표시" [ref=e323] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e328]:
+                      - generic [ref=e329]:
+                        - button "하트" [disabled]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - button "답글" [ref=e332] [cursor=pointer]:
+                      - generic: 답글
+              - generic [ref=e340]:
+                - button "@이상민-u9d5e" [ref=e342] [cursor=pointer]
+                - generic [ref=e344]:
+                  - generic [ref=e346]:
+                    - heading "@이상민-u9d5e" [level=3] [ref=e347]:
+                      - link "@이상민-u9d5e" [ref=e348] [cursor=pointer]:
+                        - /url: /@%EC%9D%B4%EC%83%81%EB%AF%BC-u9d5e
+                    - link "2년 전" [ref=e350] [cursor=pointer]:
+                      - /url: /watch?v=0_triXHSoGY&lc=UgyOAOKQohOtx61ZvTx4AaABAg
+                  - generic [ref=e353]: 교토 여행 영상 중 최고.
+                  - generic [ref=e355]:
+                    - generic [ref=e356]:
+                      - button "나와 사용자 15명이 이 댓글을 좋아함" [ref=e358] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e362]: "15"
+                    - generic [ref=e363]:
+                      - button "댓글 싫어요 표시" [ref=e365] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e370]:
+                      - generic [ref=e371]:
+                        - button "하트" [disabled]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - button "답글" [ref=e374] [cursor=pointer]:
+                      - generic: 답글
+              - generic [ref=e382]:
+                - button "@ssamuna" [ref=e384] [cursor=pointer]
+                - generic [ref=e386]:
+                  - generic [ref=e388]:
+                    - heading "@ssamuna" [level=3] [ref=e389]:
+                      - link "@ssamuna" [ref=e390] [cursor=pointer]:
+                        - /url: /@ssamuna
+                    - link "2년 전" [ref=e392] [cursor=pointer]:
+                      - /url: /watch?v=0_triXHSoGY&lc=UgxTQf2iAQx7E8j8TN14AaABAg&pp=0gcJCSIANpG00pGi
+                  - generic [ref=e395]: 정성스런 영상 감사합니다. 이번에 부모님 모시고 가는데 많은 도움이 될 것 같네요 ㅎㅎ
+                  - generic [ref=e397]:
+                    - generic [ref=e398]:
+                      - button "나와 사용자 11명이 이 댓글을 좋아함" [ref=e400] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e404]: "11"
+                    - generic [ref=e405]:
+                      - button "댓글 싫어요 표시" [ref=e407] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e412]:
+                      - generic [ref=e413]:
+                        - button "하트" [disabled]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - button "답글" [ref=e416] [cursor=pointer]:
+                      - generic: 답글
+              - generic [ref=e424]:
+                - button "@hwangsoon" [ref=e426] [cursor=pointer]
+                - generic [ref=e428]:
+                  - generic [ref=e430]:
+                    - heading "@hwangsoon" [level=3] [ref=e431]:
+                      - link "@hwangsoon" [ref=e432] [cursor=pointer]:
+                        - /url: /@hwangsoon
+                    - link "1년 전" [ref=e434] [cursor=pointer]:
+                      - /url: /watch?v=0_triXHSoGY&lc=UgwXL4SOCA55K0G4tFd4AaABAg
+                  - generic [ref=e437]: 교토갔다온 후유증?으로 여러영상 찾아보다가 보게된 단연 최고로 잼있고 유익하고 아름답고 웃긴? 영상입니다. 잘 봤습니다..
+                  - generic [ref=e439]:
+                    - generic [ref=e440]:
+                      - button "나와 사용자 2명이 이 댓글을 좋아함" [ref=e442] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e446]: "2"
+                    - generic [ref=e447]:
+                      - button "댓글 싫어요 표시" [ref=e449] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e454]:
+                      - generic [ref=e455]:
+                        - button "하트" [disabled]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - button "답글" [ref=e458] [cursor=pointer]:
+                      - generic: 답글
+              - generic [ref=e462]:
+                - generic [ref=e466]:
+                  - button "@땡-h8b" [ref=e468] [cursor=pointer]
+                  - generic [ref=e472]:
+                    - generic [ref=e474]:
+                      - heading "@땡-h8b" [level=3] [ref=e475]:
+                        - link "@땡-h8b" [ref=e476] [cursor=pointer]:
+                          - /url: /@%EB%95%A1-h8b
+                      - link "1년 전" [ref=e478] [cursor=pointer]:
+                        - /url: /watch?v=0_triXHSoGY&lc=UgwxpuWbCpZvloU4gad4AaABAg&pp=0gcJCSIANpG00pGi
+                    - generic [ref=e482]:
+                      - text: 와..봤던 브이로그중에 제일 정보가 알찼어요 :) 덕분에 여행일정 짜는데 많은 도움 받았습니당! 감사해요🫶
+                      - img "🏻" [ref=e484]
+                    - generic [ref=e486]:
+                      - generic [ref=e487]:
+                        - button "나와 사용자 18명이 이 댓글을 좋아함" [ref=e489] [cursor=pointer]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                        - tooltip "tooltip"
+                      - generic [ref=e493]: "18"
+                      - generic [ref=e494]:
+                        - button "댓글 싫어요 표시" [ref=e496] [cursor=pointer]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                        - tooltip "tooltip"
+                      - generic [ref=e501]:
+                        - generic [ref=e502]:
+                          - button "하트" [disabled]:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                        - tooltip "tooltip"
+                      - button "답글" [ref=e505] [cursor=pointer]:
+                        - generic: 답글
+                - generic [ref=e517]:
+                  - img "sookoh 수코" [ref=e520] [cursor=pointer]
+                  - generic [ref=e521]: ·
+                  - button "답글 1개" [ref=e524] [cursor=pointer]:
+                    - generic: 답글 1개
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+              - generic [ref=e533]:
+                - button "@천정현-h2o" [ref=e535] [cursor=pointer]
+                - generic [ref=e537]:
+                  - generic [ref=e539]:
+                    - heading "@천정현-h2o" [level=3] [ref=e540]:
+                      - link "@천정현-h2o" [ref=e541] [cursor=pointer]:
+                        - /url: /@%EC%B2%9C%EC%A0%95%ED%98%84-h2o
+                    - link "2년 전" [ref=e543] [cursor=pointer]:
+                      - /url: /watch?v=0_triXHSoGY&lc=UgzlvAc1035AMphUsTZ4AaABAg
+                  - generic [ref=e546]: 정리 너무 잘해주셔서 감사해요><
+                  - generic [ref=e548]:
+                    - generic [ref=e549]:
+                      - button "나와 사용자 16명이 이 댓글을 좋아함" [ref=e551] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e555]: "16"
+                    - generic [ref=e556]:
+                      - button "댓글 싫어요 표시" [ref=e558] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e563]:
+                      - generic [ref=e564]:
+                        - button "하트" [disabled]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - button "답글" [ref=e567] [cursor=pointer]:
+                      - generic: 답글
+              - generic [ref=e575]:
+                - button "@JIJI010" [ref=e577] [cursor=pointer]
+                - generic [ref=e579]:
+                  - generic [ref=e581]:
+                    - heading "@JIJI010" [level=3] [ref=e582]:
+                      - link "@JIJI010" [ref=e583] [cursor=pointer]:
+                        - /url: /@JIJI010
+                    - link "1년 전" [ref=e585] [cursor=pointer]:
+                      - /url: /watch?v=0_triXHSoGY&lc=UgxYckV7CdFc8QxRGAF4AaABAg
+                  - generic [ref=e589]:
+                    - text: 알고리즘에 떠서 보게 되었는데 정보 자세하게 적어주시고, 특히 사람들의 얼굴이 모자이크 처리되어 있어서 편안하고 좋았어요
+                    - img "♥" [ref=e1843]
+                  - generic [ref=e592]:
+                    - generic [ref=e593]:
+                      - button "나와 사용자 3명이 이 댓글을 좋아함" [ref=e595] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e599]: "3"
+                    - generic [ref=e600]:
+                      - button "댓글 싫어요 표시" [ref=e602] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e607]:
+                      - generic [ref=e608]:
+                        - button "하트" [disabled]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - button "답글" [ref=e611] [cursor=pointer]:
+                      - generic: 답글
+              - generic [ref=e619]:
+                - button "@유튜브용-r7z" [ref=e621] [cursor=pointer]
+                - generic [ref=e623]:
+                  - generic [ref=e625]:
+                    - heading "@유튜브용-r7z" [level=3] [ref=e626]:
+                      - link "@유튜브용-r7z" [ref=e627] [cursor=pointer]:
+                        - /url: /@%EC%9C%A0%ED%8A%9C%EB%B8%8C%EC%9A%A9-r7z
+                    - link "1년 전" [ref=e629] [cursor=pointer]:
+                      - /url: /watch?v=0_triXHSoGY&lc=UgzN0mrkxHHLLP_syc94AaABAg
+                  - generic [ref=e632]: 목소리가 차분해서 좋네요
+                  - generic [ref=e634]:
+                    - generic [ref=e635]:
+                      - button "나와 사용자 3명이 이 댓글을 좋아함" [ref=e637] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e641]: "3"
+                    - generic [ref=e642]:
+                      - button "댓글 싫어요 표시" [ref=e644] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - button "답글" [ref=e650] [cursor=pointer]:
+                      - generic: 답글
+              - generic [ref=e658]:
+                - button "@박선희-u5y" [ref=e660] [cursor=pointer]
+                - generic [ref=e662]:
+                  - generic [ref=e664]:
+                    - heading "@박선희-u5y" [level=3] [ref=e665]:
+                      - link "@박선희-u5y" [ref=e666] [cursor=pointer]:
+                        - /url: /@%EB%B0%95%EC%84%A0%ED%9D%AC-u5y
+                    - link "2년 전" [ref=e668] [cursor=pointer]:
+                      - /url: /watch?v=0_triXHSoGY&lc=UgxJkSJ1p1kfK1OskeV4AaABAg
+                  - generic [ref=e671]: 애정하는영상입니다,영화보듯꺼내봅니다
+                  - generic [ref=e673]:
+                    - generic [ref=e674]:
+                      - button "나와 사용자 4명이 이 댓글을 좋아함" [ref=e676] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e680]: "4"
+                    - generic [ref=e681]:
+                      - button "댓글 싫어요 표시" [ref=e683] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e688]:
+                      - generic [ref=e689]:
+                        - button "하트" [disabled]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - button "답글" [ref=e692] [cursor=pointer]:
+                      - generic: 답글
+              - generic [ref=e700]:
+                - button "@북극곰-c7b" [ref=e702] [cursor=pointer]
+                - generic [ref=e704]:
+                  - generic [ref=e706]:
+                    - heading "@북극곰-c7b" [level=3] [ref=e707]:
+                      - link "@북극곰-c7b" [ref=e708] [cursor=pointer]:
+                        - /url: /@%EB%B6%81%EA%B7%B9%EA%B3%B0-c7b
+                    - link "5개월 전" [ref=e710] [cursor=pointer]:
+                      - /url: /watch?v=0_triXHSoGY&lc=UgwFB-foSvHdGTgDRol4AaABAg
+                  - generic [ref=e714]:
+                    - text: 알 수 없는 알고리즘에 이끌려 무심코 영상을 보다 지갑 잃어버리시는 거 보고 예전에 이미 본 적 있는 브이로그란 걸 기억해냈어요
+                    - img "😂" [ref=e1844]
+                    - text: 덕분에 교토 여행 잘 다녀왔고 오사카 공항에서 잃어버린 목도리도 찾을 수 있는 지혜를 얻었습니다 따로 드릴 건 없고 감사한 마음 담아 구독 꾸욱 누릅니다
+                  - generic [ref=e717]:
+                    - generic [ref=e718]:
+                      - button "나와 사용자 1명이 이 댓글을 좋아함" [ref=e720] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e724]: "1"
+                    - generic [ref=e725]:
+                      - button "댓글 싫어요 표시" [ref=e727] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - button "답글" [ref=e733] [cursor=pointer]:
+                      - generic: 답글
+              - generic [ref=e741]:
+                - button "@figgy.3" [ref=e743] [cursor=pointer]
+                - generic [ref=e745]:
+                  - generic [ref=e747]:
+                    - heading "@figgy.3" [level=3] [ref=e748]:
+                      - link "@figgy.3" [ref=e749] [cursor=pointer]:
+                        - /url: /@figgy.3
+                    - link "1년 전" [ref=e751] [cursor=pointer]:
+                      - /url: /watch?v=0_triXHSoGY&lc=UgwwYR_6Imm-XPwj4YB4AaABAg
+                  - generic [ref=e754]: 수코님 덕에 방구석에서 일본도 다녀오고 넘 좋네요
+                  - generic [ref=e756]:
+                    - generic [ref=e757]:
+                      - button "나와 사용자 2명이 이 댓글을 좋아함" [ref=e759] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e763]: "2"
+                    - generic [ref=e764]:
+                      - button "댓글 싫어요 표시" [ref=e766] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e771]:
+                      - generic [ref=e772]:
+                        - button "하트" [disabled]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - button "답글" [ref=e775] [cursor=pointer]:
+                      - generic: 답글
+              - generic [ref=e783]:
+                - button "@rain_bow_six_sis" [ref=e785] [cursor=pointer]
+                - generic [ref=e787]:
+                  - generic [ref=e789]:
+                    - heading "@rain_bow_six_sis" [level=3] [ref=e790]:
+                      - link "@rain_bow_six_sis" [ref=e791] [cursor=pointer]:
+                        - /url: /@rain_bow_six_sis
+                    - link "2년 전" [ref=e793] [cursor=pointer]:
+                      - /url: /watch?v=0_triXHSoGY&lc=Ugx7IvZS6j5oRDQM0eF4AaABAg
+                  - generic [ref=e796]: 영상 잘 만드셨네요 존경합니다…
+                  - generic [ref=e798]:
+                    - generic [ref=e799]:
+                      - button "나와 사용자 3명이 이 댓글을 좋아함" [ref=e801] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e805]: "3"
+                    - generic [ref=e806]:
+                      - button "댓글 싫어요 표시" [ref=e808] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e813]:
+                      - generic [ref=e814]:
+                        - button "하트" [disabled]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - button "답글" [ref=e817] [cursor=pointer]:
+                      - generic: 답글
+              - generic [ref=e825]:
+                - button "@vmay0611" [ref=e827] [cursor=pointer]
+                - generic [ref=e829]:
+                  - generic [ref=e831]:
+                    - heading "@vmay0611" [level=3] [ref=e832]:
+                      - link "@vmay0611" [ref=e833] [cursor=pointer]:
+                        - /url: /@vmay0611
+                    - link "2개월 전" [ref=e835] [cursor=pointer]:
+                      - /url: /watch?v=0_triXHSoGY&lc=UgwYqYvzMfHju9EraKJ4AaABAg
+                  - generic [ref=e839]: 수코님 영상 보면서 즐거운 여행 계획을 늘 세웁니다~ 고마워요~
+                  - generic [ref=e842]:
+                    - generic [ref=e843]:
+                      - button "나와 사용자 0명이 이 댓글을 좋아함" [ref=e845] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e849]:
+                      - button "댓글 싫어요 표시" [ref=e851] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e856]:
+                      - generic [ref=e857]:
+                        - button "하트" [disabled]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - button "답글" [ref=e860] [cursor=pointer]:
+                      - generic: 답글
+              - generic [ref=e868]:
+                - button "@yeon-p3m" [ref=e870] [cursor=pointer]
+                - generic [ref=e872]:
+                  - generic [ref=e874]:
+                    - heading "@yeon-p3m" [level=3] [ref=e875]:
+                      - link "@yeon-p3m" [ref=e876] [cursor=pointer]:
+                        - /url: /@yeon-p3m
+                    - link "8개월 전" [ref=e878] [cursor=pointer]:
+                      - /url: /watch?v=0_triXHSoGY&lc=UgyQzCMf2eiPMrQLtw14AaABAg
+                  - generic [ref=e882]: 수코님 덕분에 요즘 유산소 잘 타고 있어요
+                  - generic [ref=e885]:
+                    - generic [ref=e886]:
+                      - button "나와 사용자 1명이 이 댓글을 좋아함" [ref=e888] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e892]: "1"
+                    - generic [ref=e893]:
+                      - button "댓글 싫어요 표시" [ref=e895] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - button "답글" [ref=e901] [cursor=pointer]:
+                      - generic: 답글
+              - generic [ref=e905]:
+                - generic [ref=e909]:
+                  - button "@onefineday6981" [ref=e911] [cursor=pointer]
+                  - generic [ref=e915]:
+                    - generic [ref=e917]:
+                      - heading "@onefineday6981" [level=3] [ref=e918]:
+                        - link "@onefineday6981" [ref=e919] [cursor=pointer]:
+                          - /url: /@onefineday6981
+                      - link "1년 전" [ref=e921] [cursor=pointer]:
+                        - /url: /watch?v=0_triXHSoGY&lc=UgyT5xIGN4SE7LTXYRN4AaABAg&pp=0gcJCSIANpG00pGi
+                    - generic [ref=e924]: 교토 오자마자 카드지갑을 흘렸는데ㅠㅠㅠ 이 영상 보고 혹시 싶어서 경찰서 분실물 센터 가서 찾았어요ㅠㅠㅠ 영상 안봤다면 경찰서 가볼 생각 안해봤을텐데ㅠㅠ 감사합니다!!! 항상 지도로 보여주시니 알기 편하고 영상 자체도 너무 재밌어요. 최고!!
+                    - generic [ref=e926]:
+                      - generic [ref=e927]:
+                        - button "나와 사용자 5명이 이 댓글을 좋아함" [ref=e929] [cursor=pointer]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                        - tooltip "tooltip"
+                      - generic [ref=e933]: "5"
+                      - generic [ref=e934]:
+                        - button "댓글 싫어요 표시" [ref=e936] [cursor=pointer]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                        - tooltip "tooltip"
+                      - generic [ref=e941]:
+                        - generic [ref=e942]:
+                          - button "하트" [disabled]:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                        - tooltip "tooltip"
+                      - button "답글" [ref=e945] [cursor=pointer]:
+                        - generic: 답글
+                - generic [ref=e957]:
+                  - generic [ref=e960]: ·
+                  - button "답글 1개" [ref=e963] [cursor=pointer]:
+                    - generic: 답글 1개
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+              - generic [ref=e972]:
+                - button "@songsong_log" [ref=e974] [cursor=pointer]
+                - generic [ref=e976]:
+                  - generic [ref=e978]:
+                    - heading "@songsong_log" [level=3] [ref=e979]:
+                      - link "@songsong_log" [ref=e980] [cursor=pointer]:
+                        - /url: /@songsong_log
+                    - link "1년 전" [ref=e982] [cursor=pointer]:
+                      - /url: /watch?v=0_triXHSoGY&lc=Ugwhjvamd6TmPgfrdEl4AaABAg
+                  - generic [ref=e986]: 보고보고또봐도 수코님 여행이 제일좋고 그 중 일본여행이 최애입니다
+                  - generic [ref=e989]:
+                    - generic [ref=e990]:
+                      - button "나와 사용자 1명이 이 댓글을 좋아함" [ref=e992] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e996]: "1"
+                    - generic [ref=e997]:
+                      - button "댓글 싫어요 표시" [ref=e999] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - button "답글" [ref=e1005] [cursor=pointer]:
+                      - generic: 답글
+              - generic [ref=e1013]:
+                - button "@-leopard700" [ref=e1015] [cursor=pointer]
+                - generic [ref=e1017]:
+                  - generic [ref=e1019]:
+                    - heading "@-leopard700" [level=3] [ref=e1020]:
+                      - link "@-leopard700" [ref=e1021] [cursor=pointer]:
+                        - /url: /@-leopard700
+                    - link "2개월 전(수정됨)" [ref=e1023] [cursor=pointer]:
+                      - /url: /watch?v=0_triXHSoGY&lc=UgwnAfBFTQcNT_gO4iB4AaABAg
+                  - generic [ref=e1027]:
+                    - link "1:41:31" [ref=e1029] [cursor=pointer]:
+                      - /url: /watch?v=0_triXHSoGY&t=6091s
+                    - text: 저도 날음식을 거의 못먹는 사람인데 수코님 브이로그에는 다른 브이로그에서 거의 볼 수 없었던 제가 먹을 수 있는 음식들이 다양하게 나와서 넘 좋아요ㅠㅠㅠ (며칠전 우연히 수코님 영상 접하고 너무 좋아서 바로 구독 누르고 여러 영상들 잘 보고 있습니다. 짱!)
+                  - generic [ref=e1031]:
+                    - generic [ref=e1032]:
+                      - button "나와 사용자 1명이 이 댓글을 좋아함" [ref=e1034] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1038]: "1"
+                    - generic [ref=e1039]:
+                      - button "댓글 싫어요 표시" [ref=e1041] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - button "답글" [ref=e1047] [cursor=pointer]:
+                      - generic: 답글
+              - generic [ref=e1055]:
+                - button "@PSheeee" [ref=e1057] [cursor=pointer]
+                - generic [ref=e1059]:
+                  - generic [ref=e1061]:
+                    - heading "@PSheeee" [level=3] [ref=e1062]:
+                      - link "@PSheeee" [ref=e1063] [cursor=pointer]:
+                        - /url: /@PSheeee
+                    - link "3개월 전" [ref=e1065] [cursor=pointer]:
+                      - /url: /watch?v=0_triXHSoGY&lc=Ugx-DDlDF3q7JfanIeB4AaABAg
+                  - generic [ref=e1068]: 이렇게 다시보니 제가 간곳들 다시 복습하는 기분 ㅎㅎ
+                  - generic [ref=e1070]:
+                    - generic [ref=e1071]:
+                      - button "나와 사용자 0명이 이 댓글을 좋아함" [ref=e1073] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1077]:
+                      - button "댓글 싫어요 표시" [ref=e1079] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - button "답글" [ref=e1085] [cursor=pointer]:
+                      - generic: 답글
+              - generic [ref=e1093]:
+                - button "@jee_vv" [ref=e1095] [cursor=pointer]
+                - generic [ref=e1097]:
+                  - generic [ref=e1099]:
+                    - heading "@jee_vv" [level=3] [ref=e1100]:
+                      - link "@jee_vv" [ref=e1101] [cursor=pointer]:
+                        - /url: /@jee_vv
+                    - link "1년 전" [ref=e1103] [cursor=pointer]:
+                      - /url: /watch?v=0_triXHSoGY&lc=UgxXa6FimArOxc-3BNl4AaABAg
+                  - generic [ref=e1106]: 와ㅜㅜ 정보 잘 얻어갑니다 감사해요🩶🩶🩶
+                  - generic [ref=e1108]:
+                    - generic [ref=e1109]:
+                      - button "나와 사용자 1명이 이 댓글을 좋아함" [ref=e1111] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1115]: "1"
+                    - generic [ref=e1116]:
+                      - button "댓글 싫어요 표시" [ref=e1118] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1123]:
+                      - generic [ref=e1124]:
+                        - button "하트" [disabled]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - button "답글" [ref=e1127] [cursor=pointer]:
+                      - generic: 답글
+              - generic [ref=e1135]:
+                - button "@Judyshappylife" [ref=e1137] [cursor=pointer]
+                - generic [ref=e1139]:
+                  - generic [ref=e1141]:
+                    - heading "@Judyshappylife" [level=3] [ref=e1142]:
+                      - link "@Judyshappylife" [ref=e1143] [cursor=pointer]:
+                        - /url: /@Judyshappylife
+                    - link "5개월 전" [ref=e1145] [cursor=pointer]:
+                      - /url: /watch?v=0_triXHSoGY&lc=Ugx6XbB0nYRP_6HN8kR4AaABAg
+                  - generic [ref=e1148]: 교토 여행 진짜 오래전에 다녀왔는데, 기억이 가물가물... 영상보니 옛기억이 새록새록 나고 좋은데요^^
+                  - generic [ref=e1150]:
+                    - generic [ref=e1151]:
+                      - button "나와 사용자 0명이 이 댓글을 좋아함" [ref=e1153] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - generic [ref=e1157]:
+                      - button "댓글 싫어요 표시" [ref=e1159] [cursor=pointer]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                      - tooltip "tooltip"
+                    - button "답글" [ref=e1165] [cursor=pointer]:
+                      - generic: 답글
+      - generic [ref=e1234]:
+        - generic [ref=e1236] [cursor=pointer]:
+          - link [ref=e1237]:
+            - /url: /watch?v=g6WXq_PNbu0
+            - generic [ref=e1244]: 1:05:27
+          - generic [ref=e1246]:
+            - generic [ref=e1247]:
+              - heading "왕복 18만원!🍣혼자 떠난 후쿠오카 3박 4일 여행 브이로그 몰아보기 • 숙소, 맛집, 관광지, 카페, 재즈바, 마트까지 알찬코스! 1시간 5분" [level=3] [ref=e1248]:
+                - link "왕복 18만원!🍣혼자 떠난 후쿠오카 3박 4일 여행 브이로그 몰아보기 • 숙소, 맛집, 관광지, 카페, 재즈바, 마트까지 알찬코스! 1시간 5분" [ref=e1249]:
+                  - /url: /watch?v=g6WXq_PNbu0
+                  - text: 왕복 18만원!🍣혼자 떠난 후쿠오카 3박 4일 여행 브이로그 몰아보기 • 숙소, 맛집, 관광지, 카페, 재즈바, 마트까지 알찬코스!
+              - generic [ref=e1251]:
+                - group [ref=e1252]:
+                  - generic [ref=e1253]: sookoh 수코
+                - group [ref=e1254]:
+                  - generic [ref=e1255]: 조회수 86만회
+                  - generic [ref=e1256]: •
+                  - generic [ref=e1257]: 1년 전
+            - button "추가 작업" [ref=e1260]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+        - generic [ref=e1265] [cursor=pointer]:
+          - link [ref=e1266]:
+            - /url: /watch?v=CjFPJw3mR_k
+            - generic [ref=e1273]: 2:01:29
+          - generic [ref=e1275]:
+            - generic [ref=e1276]:
+              - heading "나혼자 오사카 교토 여행 몰아보기🔥 몇끼를 먹은거야 대체,, 맛있는 곳, 예쁜 곳 쇼핑 다함! 웨이팅 꿀팁 2시간 1분" [level=3] [ref=e1277]:
+                - link "나혼자 오사카 교토 여행 몰아보기🔥 몇끼를 먹은거야 대체,, 맛있는 곳, 예쁜 곳 쇼핑 다함! 웨이팅 꿀팁 2시간 1분" [ref=e1278]:
+                  - /url: /watch?v=CjFPJw3mR_k
+                  - text: 나혼자 오사카 교토 여행 몰아보기🔥 몇끼를 먹은거야 대체,, 맛있는 곳, 예쁜 곳 쇼핑 다함! 웨이팅 꿀팁
+              - generic [ref=e1280]:
+                - group [ref=e1281]:
+                  - generic [ref=e1282]: 인영 forever young
+                - group [ref=e1283]:
+                  - generic [ref=e1284]: 조회수 19만회
+                  - generic [ref=e1285]: •
+                  - generic [ref=e1286]: 1년 전
+            - button "추가 작업" [ref=e1289]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+        - generic [ref=e1294] [cursor=pointer]:
+          - link [ref=e1295]:
+            - /url: /watch?v=iZCG9f3O6GE
+            - generic [ref=e1302]: 1:38:22
+          - generic [ref=e1304]:
+            - generic [ref=e1305]:
+              - heading "4박5일 나혼자 대만여행 몰아보기🔥숙소, 구글맵, 필수코스와 현지인 맛집까지 가득담은 브이로그 1시간 38분" [level=3] [ref=e1306]:
+                - link "4박5일 나혼자 대만여행 몰아보기🔥숙소, 구글맵, 필수코스와 현지인 맛집까지 가득담은 브이로그 1시간 38분" [ref=e1307]:
+                  - /url: /watch?v=iZCG9f3O6GE
+                  - text: 4박5일 나혼자 대만여행 몰아보기🔥숙소, 구글맵, 필수코스와 현지인 맛집까지 가득담은 브이로그
+              - generic [ref=e1309]:
+                - group [ref=e1310]:
+                  - generic [ref=e1311]: sookoh 수코
+                - group [ref=e1312]:
+                  - generic [ref=e1313]: 조회수 51만회
+                  - generic [ref=e1314]: •
+                  - generic [ref=e1315]: 1년 전
+            - button "추가 작업" [ref=e1318]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+        - generic [ref=e1323] [cursor=pointer]:
+          - link [ref=e1324]:
+            - /url: /watch?v=zAMlDhgGwM4
+            - generic [ref=e1331]: 30:42
+          - generic [ref=e1333]:
+            - generic [ref=e1334]:
+              - heading "나혼자 후쿠오카 여행vlog🍜혼자 놀기 좋은 도시 • 숙소, 명소, 맛집 그리고 재즈바 | 텐진, 모모치 해변, 후쿠오카 타워, 오호리공원 | 일본 후쿠오카 여행(1) 30분" [level=3] [ref=e1335]:
+                - link "나혼자 후쿠오카 여행vlog🍜혼자 놀기 좋은 도시 • 숙소, 명소, 맛집 그리고 재즈바 | 텐진, 모모치 해변, 후쿠오카 타워, 오호리공원 | 일본 후쿠오카 여행(1) 30분" [ref=e1336]:
+                  - /url: /watch?v=zAMlDhgGwM4
+                  - text: 나혼자 후쿠오카 여행vlog🍜혼자 놀기 좋은 도시 • 숙소, 명소, 맛집 그리고 재즈바 | 텐진, 모모치 해변, 후쿠오카 타워, 오호리공원 | 일본 후쿠오카 여행(1)
+              - generic [ref=e1338]:
+                - group [ref=e1339]:
+                  - generic [ref=e1340]: sookoh 수코
+                - group [ref=e1341]:
+                  - generic [ref=e1342]: 조회수 20만회
+                  - generic [ref=e1343]: •
+                  - generic [ref=e1344]: 2년 전
+            - button "추가 작업" [ref=e1347]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+        - generic [ref=e1352] [cursor=pointer]:
+          - link [ref=e1353]:
+            - /url: /watch?v=oTiR5EQ6ekM
+            - generic [ref=e1360]: 1:00:05
+          - generic [ref=e1362]:
+            - generic [ref=e1363]:
+              - heading "4박5일 나 혼자 홍콩여행 몰아보기🇭🇰이대로 가게 되는 그런 브이로그 • 딤섬,토마토 라면,밀크티,에그타르트,트램,전망대,푸딩빵,재즈바,2층버스,한국인 국룰 숙소를 다 냠념뇸 1시간" [level=3] [ref=e1364]:
+                - link "4박5일 나 혼자 홍콩여행 몰아보기🇭🇰이대로 가게 되는 그런 브이로그 • 딤섬,토마토 라면,밀크티,에그타르트,트램,전망대,푸딩빵,재즈바,2층버스,한국인 국룰 숙소를 다 냠념뇸 1시간" [ref=e1365]:
+                  - /url: /watch?v=oTiR5EQ6ekM
+                  - text: 4박5일 나 혼자 홍콩여행 몰아보기🇭🇰이대로 가게 되는 그런 브이로그 • 딤섬,토마토 라면,밀크티,에그타르트,트램,전망대,푸딩빵,재즈바,2층버스,한국인 국룰 숙소를 다 냠념뇸
+              - generic [ref=e1367]:
+                - group [ref=e1368]:
+                  - generic [ref=e1369]: sookoh 수코
+                - group [ref=e1370]:
+                  - generic [ref=e1371]: 조회수 47만회
+                  - generic [ref=e1372]: •
+                  - generic [ref=e1373]: 11개월 전
+            - button "추가 작업" [ref=e1376]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+        - generic [ref=e1381] [cursor=pointer]:
+          - link [ref=e1382]:
+            - /url: /watch?v=1fBpwYSCTnw
+            - generic [ref=e1389]: 38:01
+          - generic [ref=e1391]:
+            - generic [ref=e1392]:
+              - heading "나혼자 대만여행🥭망고먹으러 대만 또 감! 대만최고의 우육면? | 여행준비,숙소,구글맵 | 기차타고 망고빙수 먹으러 가는 브이로그 | 타이베이→가오슝 • 대만(1) 38분" [level=3] [ref=e1393]:
+                - link "나혼자 대만여행🥭망고먹으러 대만 또 감! 대만최고의 우육면? | 여행준비,숙소,구글맵 | 기차타고 망고빙수 먹으러 가는 브이로그 | 타이베이→가오슝 • 대만(1) 38분" [ref=e1394]:
+                  - /url: /watch?v=1fBpwYSCTnw
+                  - text: 나혼자 대만여행🥭망고먹으러 대만 또 감! 대만최고의 우육면? | 여행준비,숙소,구글맵 | 기차타고 망고빙수 먹으러 가는 브이로그 | 타이베이→가오슝 • 대만(1)
+              - generic [ref=e1396]:
+                - group [ref=e1397]:
+                  - generic [ref=e1398]: sookoh 수코
+                - group [ref=e1399]:
+                  - generic [ref=e1400]: 조회수 80만회
+                  - generic [ref=e1401]: •
+                  - generic [ref=e1402]: 1년 전
+            - button "추가 작업" [ref=e1405]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+        - generic [ref=e1410] [cursor=pointer]:
+          - link [ref=e1411]:
+            - /url: /watch?v=dKbSRdjn_hc
+            - generic [ref=e1418]: 3:18:22
+          - generic [ref=e1420]:
+            - generic [ref=e1421]:
+              - heading "당신은 치앙마이에 가고싶어 질 것이다🍤나혼자 치앙마이 보름살기 몰아보기 (숙소, 맛집, 선데이마켓, 동네추천, 여행코스) 3시간 18분" [level=3] [ref=e1422]:
+                - link "당신은 치앙마이에 가고싶어 질 것이다🍤나혼자 치앙마이 보름살기 몰아보기 (숙소, 맛집, 선데이마켓, 동네추천, 여행코스) 3시간 18분" [ref=e1423]:
+                  - /url: /watch?v=dKbSRdjn_hc
+                  - text: 당신은 치앙마이에 가고싶어 질 것이다🍤나혼자 치앙마이 보름살기 몰아보기 (숙소, 맛집, 선데이마켓, 동네추천, 여행코스)
+              - generic [ref=e1425]:
+                - group [ref=e1426]:
+                  - generic [ref=e1427]: sookoh 수코
+                - group [ref=e1428]:
+                  - generic [ref=e1429]: 조회수 23만회
+                  - generic [ref=e1430]: •
+                  - generic [ref=e1431]: 9개월 전
+            - button "추가 작업" [ref=e1434]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+        - generic [ref=e1439] [cursor=pointer]:
+          - link [ref=e1440]:
+            - /url: /watch?v=emr0KJQvFQc
+            - generic [ref=e1447]: 1:07:09
+          - generic [ref=e1449]:
+            - generic [ref=e1450]:
+              - heading "뚜벅이도 간다! 나혼자 오키나와 몰아보기💃숙소, 맛집, 카페, 이자카야, 국제거리, 아메리칸빌리지 | 4박5일 일본 오키나와 여행 브이로그 1시간 7분" [level=3] [ref=e1451]:
+                - link "뚜벅이도 간다! 나혼자 오키나와 몰아보기💃숙소, 맛집, 카페, 이자카야, 국제거리, 아메리칸빌리지 | 4박5일 일본 오키나와 여행 브이로그 1시간 7분" [ref=e1452]:
+                  - /url: /watch?v=emr0KJQvFQc
+                  - text: 뚜벅이도 간다! 나혼자 오키나와 몰아보기💃숙소, 맛집, 카페, 이자카야, 국제거리, 아메리칸빌리지 | 4박5일 일본 오키나와 여행 브이로그
+              - generic [ref=e1454]:
+                - group [ref=e1455]:
+                  - generic [ref=e1456]: sookoh 수코
+                - group [ref=e1457]:
+                  - generic [ref=e1458]: 조회수 16만회
+                  - generic [ref=e1459]: •
+                  - generic [ref=e1460]: 3개월 전
+            - button "추가 작업" [ref=e1463]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+        - generic [ref=e1468] [cursor=pointer]:
+          - link [ref=e1469]:
+            - /url: /watch?v=TOZH-GlvGLY
+            - generic [ref=e1476]: 56:08
+          - generic [ref=e1478]:
+            - generic [ref=e1479]:
+              - heading "나혼자 교토 여행🇯🇵이대로만 가면 성공함❤️‍🔥찐맛집.호텔추천.강추그릇샵.멋진로컬카페.란덴열차.아라시야마.소우소우.모츠나베.편의점간식.치쿠린.이치조지.후르츠산도.Kyoto 56분" [level=3] [ref=e1480]:
+                - link "나혼자 교토 여행🇯🇵이대로만 가면 성공함❤️‍🔥찐맛집.호텔추천.강추그릇샵.멋진로컬카페.란덴열차.아라시야마.소우소우.모츠나베.편의점간식.치쿠린.이치조지.후르츠산도.Kyoto 56분" [ref=e1481]:
+                  - /url: /watch?v=TOZH-GlvGLY
+                  - text: 나혼자 교토 여행🇯🇵이대로만 가면 성공함❤️‍🔥찐맛집.호텔추천.강추그릇샵.멋진로컬카페.란덴열차.아라시야마.소우소우.모츠나베.편의점간식.치쿠린.이치조지.후르츠산도.Kyoto
+              - generic [ref=e1483]:
+                - group [ref=e1484]:
+                  - generic [ref=e1485]: 보리코 Boriko
+                - group [ref=e1486]:
+                  - generic [ref=e1487]: 조회수 42만회
+                  - generic [ref=e1488]: •
+                  - generic [ref=e1489]: 1년 전
+            - button "추가 작업" [ref=e1492]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+        - generic [ref=e1497] [cursor=pointer]:
+          - link [ref=e1498]:
+            - /url: /watch?v=8ghiprhUFXw
+            - generic [ref=e1505]: 30:54
+          - generic [ref=e1507]:
+            - generic [ref=e1508]:
+              - heading "나혼자 나고야 10끼🍚나고야에서 꼭 먹어야 하는 것들 (나고야 여행 브이로그) 30분" [level=3] [ref=e1509]:
+                - link "나혼자 나고야 10끼🍚나고야에서 꼭 먹어야 하는 것들 (나고야 여행 브이로그) 30분" [ref=e1510]:
+                  - /url: /watch?v=8ghiprhUFXw
+                  - text: 나혼자 나고야 10끼🍚나고야에서 꼭 먹어야 하는 것들 (나고야 여행 브이로그)
+              - generic [ref=e1512]:
+                - group [ref=e1513]:
+                  - generic [ref=e1514]: sookoh 수코
+                - group [ref=e1515]:
+                  - generic [ref=e1516]: 조회수 9.4만회
+                  - generic [ref=e1517]: •
+                  - generic [ref=e1518]: 6일 전
+                - group [ref=e1519]:
+                  - generic [ref=e1523]: 새 동영상
+            - button "추가 작업" [ref=e1526]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+        - generic [ref=e1531] [cursor=pointer]:
+          - link [ref=e1532]:
+            - /url: /watch?v=p1aJ4pGpWho
+            - generic [ref=e1539]: 1:25:11
+          - generic [ref=e1541]:
+            - generic [ref=e1542]:
+              - heading "나혼자 다낭 몰아보기🇻🇳숙소,한시장, 환전,다낭맛집,롯데마트,소원배 • 베트남 다낭 호이안 여행 브이로그 1시간 25분" [level=3] [ref=e1543]:
+                - link "나혼자 다낭 몰아보기🇻🇳숙소,한시장, 환전,다낭맛집,롯데마트,소원배 • 베트남 다낭 호이안 여행 브이로그 1시간 25분" [ref=e1544]:
+                  - /url: /watch?v=p1aJ4pGpWho
+                  - text: 나혼자 다낭 몰아보기🇻🇳숙소,한시장, 환전,다낭맛집,롯데마트,소원배 • 베트남 다낭 호이안 여행 브이로그
+              - generic [ref=e1546]:
+                - group [ref=e1547]:
+                  - generic [ref=e1548]: sookoh 수코
+                - group [ref=e1549]:
+                  - generic [ref=e1550]: 조회수 11만회
+                  - generic [ref=e1551]: •
+                  - generic [ref=e1552]: 2개월 전
+            - button "추가 작업" [ref=e1555]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+        - generic [ref=e1560] [cursor=pointer]:
+          - link [ref=e1561]:
+            - /url: /watch?v=BbLorHjsuoY
+            - generic [ref=e1568]: 2:12:44
+          - generic [ref=e1570]:
+            - generic [ref=e1571]:
+              - heading "대만여행 몰아보기🥭제일 맛있는 우육면과 망고빙수(맛집, 숙소, 카페, 관광, 까르푸, 기념품) 타이베이, 가오슝, 단수이 • 나혼자 대만 여행 브이로그 2시간 12분" [level=3] [ref=e1572]:
+                - link "대만여행 몰아보기🥭제일 맛있는 우육면과 망고빙수(맛집, 숙소, 카페, 관광, 까르푸, 기념품) 타이베이, 가오슝, 단수이 • 나혼자 대만 여행 브이로그 2시간 12분" [ref=e1573]:
+                  - /url: /watch?v=BbLorHjsuoY
+                  - text: 대만여행 몰아보기🥭제일 맛있는 우육면과 망고빙수(맛집, 숙소, 카페, 관광, 까르푸, 기념품) 타이베이, 가오슝, 단수이 • 나혼자 대만 여행 브이로그
+              - generic [ref=e1575]:
+                - group [ref=e1576]:
+                  - generic [ref=e1577]: sookoh 수코
+                - group [ref=e1578]:
+                  - generic [ref=e1579]: 조회수 15만회
+                  - generic [ref=e1580]: •
+                  - generic [ref=e1581]: 6개월 전
+            - button "추가 작업" [ref=e1584]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+        - generic [ref=e1589] [cursor=pointer]:
+          - link [ref=e1590]:
+            - /url: /watch?v=5PepxxW_AZY
+            - generic [ref=e1597]: 56:38
+          - generic [ref=e1599]:
+            - generic [ref=e1600]:
+              - heading "나혼자 양꼬치에 칭다오 먹으러가는 여행 브이로그 56분" [level=3] [ref=e1601]:
+                - link "나혼자 양꼬치에 칭다오 먹으러가는 여행 브이로그 56분" [ref=e1602]:
+                  - /url: /watch?v=5PepxxW_AZY
+                  - text: 나혼자 양꼬치에 칭다오 먹으러가는 여행 브이로그
+              - generic [ref=e1604]:
+                - group [ref=e1605]:
+                  - generic [ref=e1606]: sookoh 수코
+                - group [ref=e1607]:
+                  - generic [ref=e1608]: 조회수 23만회
+                  - generic [ref=e1609]: •
+                  - generic [ref=e1610]: 3개월 전
+            - button "추가 작업" [ref=e1613]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+        - generic [ref=e1618] [cursor=pointer]:
+          - link [ref=e1619]:
+            - /url: /watch?v=t0O1hT7V7vc
+            - generic [ref=e1626]: 31:51
+          - generic [ref=e1628]:
+            - generic [ref=e1629]:
+              - heading "나혼자 나고야 🍢도착하면 이대로~!(잘찾은 숙소, 재즈바, 여행코스, 맛집, 카페, 라무치이) 3박4일 나고야 여행 브이로그 31분" [level=3] [ref=e1630]:
+                - link "나혼자 나고야 🍢도착하면 이대로~!(잘찾은 숙소, 재즈바, 여행코스, 맛집, 카페, 라무치이) 3박4일 나고야 여행 브이로그 31분" [ref=e1631]:
+                  - /url: /watch?v=t0O1hT7V7vc
+                  - text: 나혼자 나고야 🍢도착하면 이대로~!(잘찾은 숙소, 재즈바, 여행코스, 맛집, 카페, 라무치이) 3박4일 나고야 여행 브이로그
+              - generic [ref=e1633]:
+                - group [ref=e1634]:
+                  - generic [ref=e1635]: sookoh 수코
+                - group [ref=e1636]:
+                  - generic [ref=e1637]: 조회수 12만회
+                  - generic [ref=e1638]: •
+                  - generic [ref=e1639]: 13일 전
+            - button "추가 작업" [ref=e1642]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+        - generic [ref=e1647] [cursor=pointer]:
+          - link [ref=e1648]:
+            - /url: /watch?v=fVAVb1S3NfI&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=e1655]: 47:58
+          - generic [ref=e1657]:
+            - generic [ref=e1658]:
+              - 'heading "나혼자 부산여행 몰아보기🦑혼자 요트 타고, 항정살 돼지국밥! • 영도정복 : 태종대, 흰여울마을 | 전포 커피투어, 광안리 • 부산여행 브이로그 통합본 47분" [level=3] [ref=e1659]':
+                - 'link "나혼자 부산여행 몰아보기🦑혼자 요트 타고, 항정살 돼지국밥! • 영도정복 : 태종대, 흰여울마을 | 전포 커피투어, 광안리 • 부산여행 브이로그 통합본 47분" [ref=e1660]':
+                  - /url: /watch?v=fVAVb1S3NfI&pp=ugUEEgJrbw%3D%3D
+                  - text: "나혼자 부산여행 몰아보기🦑혼자 요트 타고, 항정살 돼지국밥! • 영도정복 : 태종대, 흰여울마을 | 전포 커피투어, 광안리 • 부산여행 브이로그 통합본"
+              - generic [ref=e1662]:
+                - group [ref=e1663]:
+                  - generic [ref=e1664]: sookoh 수코
+                - group [ref=e1665]:
+                  - generic [ref=e1666]: 조회수 31만회
+                  - generic [ref=e1667]: •
+                  - generic [ref=e1668]: 1년 전
+            - button "추가 작업" [ref=e1671]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+        - generic [ref=e1676] [cursor=pointer]:
+          - link [ref=e1677]:
+            - /url: /watch?v=fEU-oUapqbo&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=e1684]: 31:25
+          - generic [ref=e1686]:
+            - generic [ref=e1687]:
+              - heading "나혼자 전주여행vlog🍙오원집vs진미집 • 맛집과 관광 꽉잡은 코스 | 위치좋은 숙소 | 비빔밥도 16첩인 1박2일 전라도 여행 (길거리아 맛있음) 31분" [level=3] [ref=e1688]:
+                - link "나혼자 전주여행vlog🍙오원집vs진미집 • 맛집과 관광 꽉잡은 코스 | 위치좋은 숙소 | 비빔밥도 16첩인 1박2일 전라도 여행 (길거리아 맛있음) 31분" [ref=e1689]:
+                  - /url: /watch?v=fEU-oUapqbo&pp=ugUEEgJrbw%3D%3D
+                  - text: 나혼자 전주여행vlog🍙오원집vs진미집 • 맛집과 관광 꽉잡은 코스 | 위치좋은 숙소 | 비빔밥도 16첩인 1박2일 전라도 여행 (길거리아 맛있음)
+              - generic [ref=e1691]:
+                - group [ref=e1692]:
+                  - generic [ref=e1693]: sookoh 수코
+                - group [ref=e1694]:
+                  - generic [ref=e1695]: 조회수 44만회
+                  - generic [ref=e1696]: •
+                  - generic [ref=e1697]: 1년 전
+            - button "추가 작업" [ref=e1700]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+        - generic [ref=e1705] [cursor=pointer]:
+          - link [ref=e1706]:
+            - /url: /watch?v=ak4eZw5rmv4&pp=ugUEEgJrb9IHCQnTCgGHKiGM7w%3D%3D
+            - generic [ref=e1713]: 30:09
+          - generic [ref=e1715]:
+            - generic [ref=e1716]:
+              - heading "나혼자 오키나와 뚜벅이여행🌈완전 내스타일인 여행지를 찾았다 (숙소대만족, 아메리칸빌리지, 국제거리) 4박5일 일본 오키나와 여행vlog1 30분" [level=3] [ref=e1717]:
+                - link "나혼자 오키나와 뚜벅이여행🌈완전 내스타일인 여행지를 찾았다 (숙소대만족, 아메리칸빌리지, 국제거리) 4박5일 일본 오키나와 여행vlog1 30분" [ref=e1718]:
+                  - /url: /watch?v=ak4eZw5rmv4&pp=ugUEEgJrb9IHCQnTCgGHKiGM7w%3D%3D
+                  - text: 나혼자 오키나와 뚜벅이여행🌈완전 내스타일인 여행지를 찾았다 (숙소대만족, 아메리칸빌리지, 국제거리) 4박5일 일본 오키나와 여행vlog1
+              - generic [ref=e1720]:
+                - group [ref=e1721]:
+                  - generic [ref=e1722]: sookoh 수코
+                - group [ref=e1723]:
+                  - generic [ref=e1724]: 조회수 46만회
+                  - generic [ref=e1725]: •
+                  - generic [ref=e1726]: 1년 전
+            - button "추가 작업" [ref=e1729]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+        - generic [ref=e1734] [cursor=pointer]:
+          - link [ref=e1735]:
+            - /url: /watch?v=7QbJwqSbPXU
+            - generic [ref=e1742]: 1:09:19
+          - generic [ref=e1744]:
+            - generic [ref=e1745]:
+              - heading "다낭여행 몰아보기🔥숙소,맛집,한시장 꽉꽉담은 • 7박7일! 베트남 다낭 여행 브이로그 통합본 1시간 9분" [level=3] [ref=e1746]:
+                - link "다낭여행 몰아보기🔥숙소,맛집,한시장 꽉꽉담은 • 7박7일! 베트남 다낭 여행 브이로그 통합본 1시간 9분" [ref=e1747]:
+                  - /url: /watch?v=7QbJwqSbPXU
+                  - text: 다낭여행 몰아보기🔥숙소,맛집,한시장 꽉꽉담은 • 7박7일! 베트남 다낭 여행 브이로그 통합본
+              - generic [ref=e1749]:
+                - group [ref=e1750]:
+                  - generic [ref=e1751]: sookoh 수코
+                - group [ref=e1752]:
+                  - generic [ref=e1753]: 조회수 41만회
+                  - generic [ref=e1754]: •
+                  - generic [ref=e1755]: 1년 전
+            - button "추가 작업" [ref=e1758]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+        - generic [ref=e1763] [cursor=pointer]:
+          - link [ref=e1764]:
+            - /url: /watch?v=LEA1NgIP0qo&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=e1771]: 32:04
+          - generic [ref=e1773]:
+            - generic [ref=e1774]:
+              - heading "나혼자 부산🔥국내 최대 온천과 백화양곱창 • 부산 맛집 먹킷리스트 뿌시기 / 부산여행vlog 32분" [level=3] [ref=e1775]:
+                - link "나혼자 부산🔥국내 최대 온천과 백화양곱창 • 부산 맛집 먹킷리스트 뿌시기 / 부산여행vlog 32분" [ref=e1776]:
+                  - /url: /watch?v=LEA1NgIP0qo&pp=ugUEEgJrbw%3D%3D
+                  - text: 나혼자 부산🔥국내 최대 온천과 백화양곱창 • 부산 맛집 먹킷리스트 뿌시기 / 부산여행vlog
+              - generic [ref=e1778]:
+                - group [ref=e1779]:
+                  - generic [ref=e1780]: sookoh 수코
+                - group [ref=e1781]:
+                  - generic [ref=e1782]: 조회수 53만회
+                  - generic [ref=e1783]: •
+                  - generic [ref=e1784]: 2개월 전
+            - button "추가 작업" [ref=e1787]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+        - generic [ref=e1792] [cursor=pointer]:
+          - link [ref=e1793]:
+            - /url: /watch?v=WmmA_rSoXmg
+            - generic [ref=e1800]: 34:19
+          - generic [ref=e1802]:
+            - generic [ref=e1803]:
+              - heading "나혼자 속초😎속초중앙시장! 전설의 술빵 • 설악산뷰의 진짜좋은카페 | 수영장있는 숙소 | 이상한 꿀팁 가득 2박3일 속초여행vlog 34분" [level=3] [ref=e1804]:
+                - link "나혼자 속초😎속초중앙시장! 전설의 술빵 • 설악산뷰의 진짜좋은카페 | 수영장있는 숙소 | 이상한 꿀팁 가득 2박3일 속초여행vlog 34분" [ref=e1805]:
+                  - /url: /watch?v=WmmA_rSoXmg
+                  - text: 나혼자 속초😎속초중앙시장! 전설의 술빵 • 설악산뷰의 진짜좋은카페 | 수영장있는 숙소 | 이상한 꿀팁 가득 2박3일 속초여행vlog
+              - generic [ref=e1807]:
+                - group [ref=e1808]:
+                  - generic [ref=e1809]: sookoh 수코
+                - group [ref=e1810]:
+                  - generic [ref=e1811]: 조회수 45만회
+                  - generic [ref=e1812]: •
+                  - generic [ref=e1813]: 9개월 전
+            - button "추가 작업" [ref=e1816]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img

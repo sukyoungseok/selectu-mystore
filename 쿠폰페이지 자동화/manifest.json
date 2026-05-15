@@ -1,0 +1,8 @@
+{
+  "name": "쿠폰페이지 크리에이터 자동화",
+  "id": "mystore-coupon-creator-automation",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "editorType": ["figma"]
+}
