@@ -1,0 +1,7 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - heading "404" [level=2] [ref=e6]
+      - paragraph [ref=e7]: 해당 요청이나 데이터를 찾을 수 없습니다.
+    - img "Lighthouse" [ref=e8]
+  - alert [ref=e9]

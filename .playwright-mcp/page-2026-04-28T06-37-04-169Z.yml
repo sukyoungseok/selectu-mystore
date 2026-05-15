@@ -1,0 +1,380 @@
+- generic [active] [ref=e1]:
+  - text:                      
+  - generic [ref=e4]:
+    - link "판다투어-중국현지여행사" [ref=e6] [cursor=pointer]:
+      - /url: https://www.pandatour.co.kr/index.php
+      - img "판다투어-중국현지여행사" [ref=e7]
+    - navigation "主导航" [ref=e8]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "회사소개" [ref=e11] [cursor=pointer]:
+            - /url: https://www.pandatour.co.kr/theme/pandatour_v2/html/company/01.php
+        - listitem [ref=e12]:
+          - link "여행코스" [ref=e13] [cursor=pointer]:
+            - /url: "#none"
+        - listitem [ref=e14]:
+          - link "여행정보" [ref=e15] [cursor=pointer]:
+            - /url: "#none"
+        - listitem [ref=e16]:
+          - link "테마여행" [ref=e17] [cursor=pointer]:
+            - /url: https://www.pandatour.co.kr/theme/pandatour_v2/html/cate/01.php
+        - listitem [ref=e18]:
+          - link "온라인문의" [ref=e19] [cursor=pointer]:
+            - /url: https://www.pandatour.co.kr/bbs/board.php?bo_table=online
+        - listitem [ref=e20]:
+          - link "고객센터" [ref=e21] [cursor=pointer]:
+            - /url: https://www.pandatour.co.kr/bbs/board.php?bo_table=news
+    - generic [ref=e23]:
+      - link "로그인" [ref=e24] [cursor=pointer]:
+        - /url: https://www.pandatour.co.kr/bbs/login.php?ru=https%3A%2F%2Fwww.pandatour.co.kr%2Ftheme%2Fpandatour_v2%2Fhtml%2Fbusiness%2F02.php%3Fcate%3D1%26tg_id%3D145
+      - link "회원가입" [ref=e25] [cursor=pointer]:
+        - /url: https://www.pandatour.co.kr/bbs/register.php
+  - generic [ref=e29]:
+    - generic [ref=e32]:
+      - link [ref=e34] [cursor=pointer]:
+        - /url: https://www.pandatour.co.kr/index.php
+        - generic [ref=e35]: 
+      - list [ref=e36]:
+        - listitem [ref=e37]:
+          - generic [ref=e38] [cursor=pointer]: 여행코스
+      - list [ref=e39]:
+        - listitem [ref=e40]:
+          - generic [ref=e41] [cursor=pointer]: 장가계
+      - list [ref=e42]:
+        - listitem [ref=e43]:
+          - generic [ref=e44] [cursor=pointer]: 장가계 4박5일
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - listitem [ref=e47]:
+          - link [ref=e48] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e51]: 여행코스
+        - listitem [ref=e52]: 장가계
+      - generic [ref=e53]: 여행코스
+    - generic [ref=e54]:
+      - paragraph [ref=e56]:
+        - emphasis [ref=e57]: 4박5일
+        - text: 코스
+      - paragraph [ref=e58]: 장가계 4박5일 코스를 안내해드립니다.
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - generic [ref=e62]: 포인트 1
+          - generic [ref=e63]:
+            - heading "우리끼리 단독투어" [level=5] [ref=e64]
+            - paragraph [ref=e65]: 2명부터 투어 취소없이 진행가능
+        - generic [ref=e66]:
+          - generic [ref=e67]: 포인트 2
+          - generic [ref=e68]:
+            - heading "현지맛집" [level=5] [ref=e69]
+            - paragraph [ref=e70]: 단체식당이 아닌 현지맛집 이용
+        - generic [ref=e71]:
+          - generic [ref=e72]: 포인트 3
+          - generic [ref=e73]:
+            - heading "내맘대로 패키지" [level=5] [ref=e74]
+            - paragraph [ref=e75]: 도착시간과 기후에 맞게 일정조율
+        - generic [ref=e76]:
+          - generic [ref=e77]: 포인트 4
+          - generic [ref=e78]:
+            - heading "대형 고급세단" [level=5] [ref=e79]
+            - paragraph [ref=e80]: BMW I5(5인승),ONVO L90(6인승)
+      - paragraph
+      - link "Free weather widget" [ref=e84] [cursor=pointer]:
+        - /url: https://weatherwidget.org/
+      - paragraph
+      - list [ref=e86]:
+        - generic [ref=e87] [cursor=pointer]: 장가계 4박5일코스 온라인예약
+        - generic [ref=e88] [cursor=pointer]: 장가계 4박5일코스 온라인예약
+        - generic [ref=e89] [cursor=pointer]: 장가계 4박5일코스 온라인예약
+        - generic [ref=e90] [cursor=pointer]: 장가계 4박5일코스 온라인예약
+        - generic [ref=e91] [cursor=pointer]: 장가계 4박5일코스 온라인예약
+        - paragraph [ref=e92]: "* 상기 일정은 항공 및 현지사정으로 인하여 다소 변경 될수 있습니다."
+        - generic [ref=e93]:
+          - paragraph [ref=e94]:
+            - emphasis [ref=e95]: 판다투어
+            - text: 장가계 제휴호텔
+          - paragraph [ref=e96]: 중국 명절기간 5월1일~5월5일,10월1일~10월7일,구정기간 가격인상이 되므로 미리 문의주시기 바랍니다.
+          - list [ref=e98]:
+            - listitem [ref=e99]:
+              - img "센추리 플래티넘 호텔" [ref=e100]
+              - strong [ref=e101]: 센추리 플래티넘 호텔 Century Platinum
+              - generic [ref=e102]: 2022년 오픈 전화:+86-744-8329999
+            - listitem [ref=e103]:
+              - img "센추리 플래티넘 호텔 트윈베드룸" [ref=e104]
+              - strong [ref=e105]: 트윈베드룸
+              - generic [ref=e106]: 36–40㎡ | 8-15F | 1.35M 침대 * 2개
+            - listitem [ref=e107]:
+              - img "센추리 플래티넘 호텔 더블베드룸" [ref=e108]
+              - strong [ref=e109]: 더블 베드룸
+              - generic [ref=e110]: 36–40㎡ | 8-15F | 1.8M 침대 * 1개
+          - list [ref=e112]:
+            - listitem [ref=e113]:
+              - img "Orange 호텔(장가계 톈먼산 케이블카역）" [ref=e114]
+              - strong [ref=e115]: Orange 호텔(장가계 톈먼산 케이블카역）
+              - generic [ref=e116]: 2024년 6월 오픈 전화:+86-744-8885888
+            - listitem [ref=e117]:
+              - img "Orange 호텔(장가계 톈먼산 케이블카역） 트윈베드룸" [ref=e118]
+              - strong [ref=e119]: 트윈베드룸
+              - generic [ref=e120]: 30–35㎡ | 8-15F | 1.35M 침대 * 2개
+            - listitem [ref=e121]:
+              - img "Orange 호텔(장가계 톈먼산 케이블카역） 더블베드룸" [ref=e122]
+              - strong [ref=e123]: 더블 베드룸
+              - generic [ref=e124]: 30–35㎡ | 8-15F | 1.8M 침대 * 1개
+          - list [ref=e126]:
+            - listitem [ref=e127]:
+              - img "장가계 JI Hotel(Tianmen Mountain Cableway Tianmen Road)" [ref=e128]
+              - strong [ref=e129]: JI Hotel(Tianmen Mountain Cableway Tianmen Road)
+              - generic [ref=e130]: 2025년 5월 오픈 업그레이드시 5천원/인/일 비용추가
+            - listitem [ref=e131]:
+              - img "JI Hotel(Tianmen Mountain Cableway Tianmen Road) 트위베드룸" [ref=e132]
+              - strong [ref=e133]: 트윈베드룸
+              - generic [ref=e134]: 32㎡ | 5-25F | 1.8M 침대 * 1개
+            - listitem [ref=e135]:
+              - img "JI Hotel(Tianmen Mountain Cableway Tianmen Road) 더블베드룸" [ref=e136]
+              - strong [ref=e137]: 더블 베드룸
+              - generic [ref=e138]: 30–35㎡ | 8-15F | 1.8M 침대 * 1개
+          - list [ref=e140]:
+            - listitem [ref=e141]:
+              - img "장가계 힐튼호텔" [ref=e142]
+              - strong [ref=e143]: 햄튼 바이 힐튼/Hampton by Hilton
+              - generic [ref=e144]: 2020년 오픈 업그레이드시 2만5천원/인/일 비용추가
+            - listitem [ref=e145]:
+              - img "힐튼호텔 트위베드룸" [ref=e146]
+              - strong [ref=e147]: 트윈베드룸
+              - generic [ref=e148]: 30–35㎡ | 4-11F | 1.3M 침대 * 2개
+            - listitem [ref=e149]:
+              - img "힐튼호텔 더블베드룸" [ref=e150]
+              - strong [ref=e151]: 더블 베드룸
+              - generic [ref=e152]: 30㎡ | 6-8F | 1.8M 침대 * 1개
+        - generic [ref=e153]:
+          - paragraph [ref=e154]:
+            - emphasis [ref=e155]: 판다투어
+            - text: 차량
+          - paragraph [ref=e156]: 투어인원수에 따라서 차량이 배정 됩니다.
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - img "판다투어 차량" [ref=e161]
+            - generic [ref=e162]:
+              - heading "4인이하/5인승" [level=2] [ref=e163]
+              - paragraph [ref=e164]: BMW528,혼다 Accord,토요타 Camry,폭스바겐 Magotan등 랜덤배정
+          - generic [ref=e165]:
+            - img "판다투어 차량" [ref=e166]
+            - generic [ref=e167]:
+              - heading "4~6인/7인승" [level=2] [ref=e168]
+              - paragraph [ref=e169]: ONVO L90,Buick GL8,Legendary M8 랜덤배정
+          - generic [ref=e170]:
+            - img "판다투어 차량" [ref=e171]
+            - generic [ref=e172]:
+              - heading "6~12명/14인승" [level=2] [ref=e173]
+              - paragraph [ref=e174]: Futian Tuyanuo 9인승/14인승,전용기사동행
+          - generic [ref=e175]:
+            - img "판다투어 차량" [ref=e176]
+            - generic [ref=e177]:
+              - heading "12명이상/대형버스" [level=2] [ref=e178]
+              - paragraph [ref=e179]: YUTONG 24인승~45인승 투어버스,전용기사동행,보조가이드동행
+        - generic [ref=e180]:
+          - paragraph [ref=e181]:
+            - emphasis [ref=e182]: 판다투어
+            - text: 장가계 식사
+          - paragraph [ref=e183]: 단체식당이 아닌 현지맛집으로 (한식,현지식,양꼬치,샤브샤브등)모셔드립니다.
+        - generic [ref=e186]:
+          - generic [ref=e187]:
+            - img "판다투어 식사" [ref=e188]
+            - generic [ref=e189]:
+              - heading "한식당" [level=2] [ref=e190]
+              - paragraph [ref=e191]: 명동관,사랑찬,고향정,종가네,한상궁 등 한식전문집으로 이용
+          - generic [ref=e192]:
+            - img "판다투어 식사" [ref=e193]
+            - generic [ref=e194]:
+              - heading "현지식" [level=2] [ref=e195]
+              - paragraph [ref=e196]: 북방요리,스촨요리,호남요리 중국 각 지방 특색요리 전문점 이용
+          - generic [ref=e197]:
+            - img "판다투어 차량" [ref=e198]
+            - generic [ref=e199]:
+              - heading "양꼬치" [level=2] [ref=e200]
+              - paragraph [ref=e201]: 태산양꼬치,스미다,맛있다 등 양꼬치 전문점 이용
+          - generic [ref=e202]:
+            - img "판다투어 차량" [ref=e203]
+            - generic [ref=e204]:
+              - heading "샤브샤브" [level=2] [ref=e205]
+              - paragraph [ref=e206]: 중국 샤브샤브의 고장 청두에서 오신 사장님이 운영하는 맛집 이용
+        - generic [ref=e207]:
+          - paragraph [ref=e208]:
+            - emphasis [ref=e209]: 판다투어
+            - text: 장가계 경로할인
+          - paragraph [ref=e210]: 장가계 관광지에서 적용하는 할인혜택 그대로 적용
+          - list [ref=e212]:
+            - listitem [ref=e213]:
+              - img "판다투어 장가계 할인" [ref=e214]
+            - listitem [ref=e215]:
+              - img "판다투어 장가계 할인룸" [ref=e216]
+            - listitem [ref=e217]:
+              - img "판다투어 장가계 할인" [ref=e218]
+        - generic [ref=e219]:
+          - paragraph [ref=e220]
+          - paragraph [ref=e221]:
+            - emphasis [ref=e222]: 판다투어
+            - text: VS 타사패키지
+          - paragraph [ref=e223]: 꼼꼼히 비교해보시고 즐거운 여행 되십시오.
+          - generic [ref=e224]:
+            - generic [ref=e225]: 판다투어
+            - generic [ref=e226]: 타사패키지
+        - generic [ref=e231]:
+          - generic [ref=e232]:
+            - text: 쇼핑점 방문 0회
+            - text: 여유롭게 관광
+          - generic [ref=e233]:
+            - text: 쇼핑점3~6회 방문
+            - text: 10시간 이상 낭비
+        - generic [ref=e237]:
+          - generic [ref=e238]:
+            - generic [ref=e239]:
+              - text: 강제옵션 없음
+              - text: 추가할시 실제가격으로 진행
+            - generic [ref=e240]:
+              - text: 10배 뻥튀기 옵션 400불
+              - text: 거절시 분위기 험악해짐
+          - generic [ref=e244]:
+            - generic [ref=e245]:
+              - generic [ref=e246]: 우리끼리 단독투어
+              - generic [ref=e247]: 여러팀 합류
+            - generic [ref=e251]:
+              - generic [ref=e252]:
+                - generic [ref=e253]: 커피 무한 제공
+                - generic [ref=e254]: 생수 무한 제공
+              - generic [ref=e258]:
+                - generic [ref=e259]:
+                  - generic [ref=e260]:
+                    - text: 8시 기상 (꿀잠)
+                    - text: 여유있게 출발
+                  - generic [ref=e261]:
+                    - text: 5시30분 기상
+                    - text: 쇼핑점 가자고 닦달
+                - generic [ref=e265]:
+                  - generic [ref=e266]:
+                    - generic [ref=e267]: 넥 밴드 선풍기
+                    - generic [ref=e268]: 아날로그 부채
+                  - generic [ref=e272]:
+                    - generic [ref=e273]:
+                      - generic [ref=e274]: 자외선 차단 스프레이
+                      - generic [ref=e275]: 앗~!! 뜨거
+                    - paragraph
+                    - paragraph [ref=e276]:
+                      - strong [ref=e277]: 중국/장가계 여행시 꼭 확인하세요!
+                    - paragraph [ref=e278]:
+                      - strong [ref=e279]: 출발 전 안내
+                      - text: 1. 출발 1~2일 전 공항 미팅 시간/장소/호텔/가이드 등 여행 관련 내용은 MMS 문자 또는 전화로 안내 드립니다.
+                      - text: 2. 여행 당일 출발 3시간 전까지 공항에 도착하시기 바랍니다
+                      - text: 3. 사전 안내 드린 미팅 장소로 오시면 전자 항공권과 확정서 등을 받으실 수 있습니다.
+                      - text: 4. 그룹 항공권도 개별로 출국 수속이 가능하며, 좌석은 당일 선착순으로 배정됩니다.
+                    - paragraph [ref=e280]:
+                      - strong [ref=e281]: 호텔안내
+                      - text: 1. 호텔 객실은 2인 1실(성인) 기준이며, 싱글 침대가 두 개 있는 트윈룸 또는 큰 사이즈 침대 한 개가 있는 더블룸 형태가 일반적입니다.
+                      - text: 호텔 선호 사항(베드 타입/뷰 타입/층 수 등)은 호텔 고유의 권한으로 체크인 시 확인 가능합니다.
+                      - text: 2.고객님의 선호 사항을 최대한 요청하고 있으나 불가할 수 있는 점 양해 부탁 드립니다.
+                      - text: 3. 1인 객실을 사용하실 경우 추가 금액이 발생되며, 별도 문의 바랍니다.
+                      - text: ※ 현재 국제적으로 통용되는 호텔 등급의 표기 기준은 없으며 일부 국가에서는 자국의 기준에 따라 등급 표기를 하는 경우가 있습니다.
+                      - text: 당사 일정표 및 호텔 정보에 표기되는 호텔의 등급 표기는 현지 호텔 측이 정한 것으로 국제적으로 통용되는 등급은 아니며, 고객님 선택의 편의를 위함입니다.
+                      - text: 본 상품의 호텔 이미지는 전반적인 안내를 위한 것이며, 실제로 사용하시는 시설과는 다를 수 있습니다.
+                    - paragraph [ref=e282]:
+                      - strong [ref=e283]: 패키지여행 유의사항 안내
+                      - text: 1. 현지 사정에 따라 일정 및 식사, 현지 관광이 다소 변경될 수 있습니다.
+                      - text: (국외여행표준약관 제12조 참조)
+                      - text: 2. 자유시간 포함 여행 일정 중 고객님의 안전을 위해 가이드의 안내사항 및 안전 수칙을 준수하시고 모든 안전사고에 유의하시기 바랍니다.
+                      - text: 개별 일정 진행 중 발생된 사고는 당사의 책임 범위가 아님을 알려드립니다.
+                      - text: 3. 선택관광은 안전사고에 유의하여 개인의 건강 상태와 예상되는 위험 등을 고려해 참여 여부를 결정해 주시기 바랍니다.
+                      - text: 4. 단체 패키지 여행 상품의 특성상 선택하지 않는 경우도 대기 시간이 발생될 수 있습니다.
+                      - text: 5. 본 상품은 단체관광 목적으로 하는 고객을 위한 패키지 상품으로 일정 중 개별 활동 및 타 국적자의 현지 합류가 불가한 상품입니다.
+                      - text: (국외여행표준약관 제12조 6항 참조)
+                    - paragraph [ref=e284]:
+                      - strong [ref=e285]: 액체 및 젤류 기내 반입 제한
+                      - text: 항공기 이용 시 용기당 100ml 초과 액체류 (화장품, 치약류, 젤 등) 물품 기내 반입 제한됩니다.
+                      - text: (단, 탁송수하물은 제한 없음) 액체 분무 젤류에 해당하는 제품을 기내로 가지고 가시려면 100ml 이하(내용물의 잔여량과 관계없이 개별 용기 용량 기준)로 투명한 지퍼백(20cmX20cm)에 넣어 닫은 상태로 1인 1리터 이하 지퍼백 1개만 기내 소지 가능합니다.
+                      - text: 면세점에서 구입한 액체, 젤류 및 에어로졸 제품은 STEB 봉투에 영수증을 동봉하고 봉인된 상태로 기내 반입 가능합니다.
+                      - text: ※ 예외사항
+                      - text: 1. 비행 중 필요한 유아용 유동식
+                      - text: 2. 비행 중 필요한 처방약
+                    - paragraph [ref=e286]:
+                      - strong [ref=e287]: 사전 좌석배정 안내
+                      - text: "- 발권 후 탑승하실 항공사 홈페이지에서 사전 좌석 배정 가능합니다."
+                      - text: "- 항공사 규정에 따라 사전 좌석배정이 불가할 수 있습니다."
+                      - text: "- 패키지 상품의 경우 탑승 당일 해당 항공사 카운터에서 선착순으로 좌석 배정이 가능합니다."
+                      - text: 일행과 좌석이 분리될 수 있음을 양해부탁드립니다.
+                    - paragraph [ref=e288]:
+                      - strong [ref=e289]: 마일리지 적립 및 기내서비스 신청 안내
+                      - text: 1.항공사 마일리지 적립
+                      - text: "- 항공사 마일리지 적립 가능/불가 여부는 항공사의 규정에 따라 달라질 수 있으니 예약하신 상품의 해당 항공사로 확인하여 주시기 바랍니다."
+                      - text: "- 탑승 후 마일리지 적립 시 전자 항공권과 탑승권 원본을 소지하고 계셔야 적립 가능합니다."
+                      - text: 2. 기내 특별식(아동식 및 종교식 등) 신청은 담당자에게 문의하시기 바랍니다.
+                      - text: "- 무료 위탁수하물은 1인 15kg 이하의 가방 한 개 입니다."
+                    - paragraph [ref=e290]:
+                      - strong [ref=e291]: 여행자보험 안내
+                      - text: ※ 보험 청구 시 필요 서류 -현지에서 또는 공항에서 발급 필요
+                      - text: "1. 현지 병원 이용 : 진단서, 진료비세부내역서, 진료비계산서, 처방전과 일자 별 약제비계산서(카드 결제영수증은 사용불가)"
+                      - text: "2. 도난 사고 : 현지 경찰서에서 발급 된 도난신고 사실확인서, 피해물품 영수증(피해 입증자료) 필요"
+                      - text: "3. 항공사 수하물 관련 사고 : 항공사 보상관련 확인서, 파손 시 수리 견적서 및 영수증 또는 수리불가 확인서 필요"
+                      - text: "- 일정 종료 후 보험기간의 개별 연장은 불가하며, 보장기간은 종료일로부터 90일 이내"
+                      - text: "- 상세 내용은 보험회사를 통해 확인해 주시기 바랍니다."
+                    - paragraph [ref=e292]:
+                      - strong [ref=e293]: 장가계 여행 팁
+                      - text: 1.시차는 우리나라보다 1시간 느립니다.
+                      - text: 2.음식물 섭취에도 주의 부탁 드립니다.
+                      - text: 3.음료수는 꼭 구매하셔서 드시기 바랍니다. 중국은 전통적으로 물이 좋지 않아, 생수를 이용하거나 중국인들처럼 차를 마시는 것이 좋습니다.
+                      - text: 4.일정 중 걷는 일정이 포함되어 있습니다. 편안한 운동화를 준비해 주시기 바랍니다.
+                      - text: 5.관광지 내 화장실에 휴지가 없는 경우가 많습니다. 휴대용 티슈 챙겨주시기 바랍니다.
+                      - text: 6.비가 자주 오는 지역이기 때문에 우산 또는 우비 준비해 주시기 바랍니다. 비가 오면 길이 많이 미끄러우니 조심하여 주시고, 정해진 등산로 외에는 위험하오니 가지 말고 특히 난간에 기대지 말아주십시오.
+                      - text: 7.호텔 욕조에 들어갈 때는 반드시 지지대를 짚고 들어가시고, 고객님들의 안전을 위해 앉아서 하실 것을 권해 드립니다.(욕조 깔판 사용 권장)
+                      - text: 8.식사 메뉴 현지식은 중국식이다 보니 약간은 기름지고 향신료가 들어갑니다. 처음 드시는 고객 중에 입맛에 안맞는 분들이 많으니 볶음고추장, 마른반찬, 김 등의 음식을 준비하시면 좋습니다.
+                      - text: 9.호텔 객실 내에 전기포트가 있기 때문에 커피믹스나 컵라면을 가져가시면 좋습니다.
+                      - text: 10.중국 내 한식당에서는 반찬 추가 요청 시 한국과 달리 무료로 추가제공이 안되고 추가요금 발생하니, 이점 양해 부탁 드립니다.
+                      - text: 11.비상 상비약 준비해주시기 바랍니다. (감기약, 소화제, 지사제 등)
+                      - text: 12.개인용 라이터/성냥은 일체 반입(위탁/휴대) 불가합니다
+                    - paragraph [ref=e294]:
+                      - strong [ref=e295]: 장가계 여행 주의사항
+                      - text: 1.해외여행자 보험 꼭 가입하기
+                      - text: 2. 여권유효기간이 출발일 기준 6개월 이상 남아있는지 확인하기
+                      - text: 3. 공항에서 트렁크 및 수하물은 본인이 직접 관리하고 아무리 친분이 있는 내/외국인이어도 "가방/짐을 해외로 전달해달라"거나 공항에서 "물건을 맡아달라"는 등의 부탁을 하면 반드시 거절하기
+                      - text: 4.여권원본 잃어버리지 않기
+                      - text: 5.상비약 챙기기
+                      - text: 6.파파고번역기 설치하기
+                      - text: 7.투어도중 안전에 꼭 조심하고 난간에 기대지 않기
+                      - text: 8.현지인 문화를 존중하고 도발행동 금지
+                      - text: 9.중식때 술 금지
+                      - text: 중국에서 비행기 탑승시 중국 필수 인증 (CCC) 마크가 없거나 표시가 불분명한 보조배터리는 기내 반입 금지이니 확인 하시고 지참하세요.
+                      - text: 그리고 중국도착후 와이파이 연결해도 한국사이트 접속 일체 안되니 로밍 혹은 유심 만들어서 오시길 추천 합니다
+  - contentinfo [ref=e296]:
+    - generic [ref=e297]:
+      - paragraph [ref=e300]:
+        - link "이용약관" [ref=e301] [cursor=pointer]:
+          - /url: https://www.pandatour.co.kr/bbs/content.php?co_id=provision
+        - link "개인정보처리방침" [ref=e302] [cursor=pointer]:
+          - /url: https://www.pandatour.co.kr/bbs/content.php?co_id=privacy
+        - link "인플루언서 모집" [ref=e303] [cursor=pointer]:
+          - /url: https://www.pandatour.co.kr/theme/pandatour_v2/html/company/influencer.php
+        - link "해외여행보험" [ref=e304] [cursor=pointer]:
+          - /url: https://www.pandatour.co.kr/theme/pandatour_v2/html/business/insurance.php
+      - paragraph [ref=e307]:
+        - generic [ref=e308]: 판다투어
+        - generic [ref=e309]: "대표 : 이종화"
+        - generic [ref=e310]: "주소 : 중국.장가계 신성인터내셔널 트래블빌딩 19F"
+        - generic [ref=e311]: "한국 : 070-76607363(국내요금)"
+        - generic [ref=e312]: "중국 : +86 131.5628.2085(위챗)"
+        - generic [ref=e313]: "카카오톡 : pandatour"
+        - generic [ref=e314]: "개인정보책임관리자 : 이종화"
+        - generic [ref=e315]: "이메일 : pandatour1000@naver.com"
+        - generic [ref=e316]: Copyright 2018 판다투어 All Rights Reserved.
+  - list [ref=e318]:
+    - listitem [ref=e319] [cursor=pointer]:
+      - generic "카톡상담" [ref=e320]:
+        - img [ref=e321]
+    - listitem [ref=e322] [cursor=pointer]:
+      - link "카톡상담" [ref=e323]:
+        - /url: https://open.kakao.com/o/s57SrRji
+        - img [ref=e324]
+    - listitem [ref=e325] [cursor=pointer]:
+      - link "" [ref=e326]:
+        - /url: https://www.pandatour.co.kr/bbs/board.php?bo_table=online
+        - generic [ref=e327]: 
+    - listitem [ref=e328] [cursor=pointer]:
+      - link "" [ref=e329]:
+        - /url: tel:07076607363
+        - generic [ref=e330]: 

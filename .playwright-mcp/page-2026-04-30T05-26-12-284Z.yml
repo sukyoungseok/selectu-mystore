@@ -1,0 +1,85 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - button "Linktree" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+      - button "Share profile" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+    - generic [ref=e21]:
+      - generic [ref=e24]:
+        - generic [ref=e26]:
+          - generic "Profile avatar" [ref=e27]
+          - generic "Profile title" [ref=e28]:
+            - heading "@henriuniverse" [level=1] [ref=e30]: "@henriuniverse"
+          - generic "Profile description" [ref=e31]:
+            - heading "헨리의 여행플랜🚀 세계여행 크리에이터 💌비즈니스 문의 hjs8756@naver.com" [level=2] [ref=e33]
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - heading "상하이 디카샵 위치 정보" [level=3] [ref=e39]
+            - generic [ref=e42]:
+              - link "surl.amap.com surl.amap.com" [ref=e43] [cursor=pointer]:
+                - /url: https://surl.amap.com/hpWdkX8wg1G
+                - generic [ref=e45]:
+                  - img "surl.amap.com" [ref=e47]
+                  - generic [ref=e48]: surl.amap.com
+              - button "surl.amap.com" [ref=e49] [cursor=pointer]:
+                - img "surl.amap.com" [ref=e50]
+          - heading "파워 J가 말아주는 여행 꿀팁" [level=3] [ref=e53]
+          - generic [ref=e56]:
+            - link "네이버 블로그 (오늘도 헨리플랜) 네이버 블로그 (오늘도 헨리플랜)" [ref=e57] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/hjs8756?tab=1
+              - generic [ref=e59]:
+                - img "네이버 블로그 (오늘도 헨리플랜)" [ref=e61]
+                - generic [ref=e62]: 네이버 블로그 (오늘도 헨리플랜)
+            - button "네이버 블로그 (오늘도 헨리플랜)" [ref=e63] [cursor=pointer]:
+              - img "네이버 블로그 (오늘도 헨리플랜)" [ref=e64]
+          - generic [ref=e69]:
+            - link "대마도 배편 예약 1박 2일 후기 💙 대마도 배편 예약 1박 2일 후기 💙" [ref=e70] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/hjs8756/224136785300?trackingCode=blog_bloghome_searchlist
+              - generic [ref=e72]:
+                - img "대마도 배편 예약 1박 2일 후기 💙" [ref=e74]
+                - generic [ref=e75]: 대마도 배편 예약 1박 2일 후기 💙
+            - button "대마도 배편 예약 1박 2일 후기 💙" [ref=e76] [cursor=pointer]:
+              - img "대마도 배편 예약 1박 2일 후기 💙" [ref=e77]
+          - heading "✅ 헨리 팔로워 전용 할인 페이지" [level=3] [ref=e80]
+          - generic [ref=e83]:
+            - link "나트랑 판랑사막투어 2천원 즉시할인코드 (DB9AF6260F)" [ref=e84] [cursor=pointer]:
+              - /url: https://www.pieceofcreative.com/fit/11873
+              - generic [ref=e91]: 나트랑 판랑사막투어 2천원 즉시할인코드 (DB9AF6260F)
+            - button "나트랑 판랑사막투어 2천원 즉시할인코드 (DB9AF6260F)" [ref=e92] [cursor=pointer]:
+              - img "나트랑 판랑사막투어 2천원 즉시할인코드 (DB9AF6260F)" [ref=e93]
+          - generic [ref=e97]:
+            - link "유심사 이심 20% 추가 할인 유심사 이심 20% 추가 할인" [ref=e98] [cursor=pointer]:
+              - /url: https://3ha.in/r/173171
+              - generic [ref=e100]:
+                - img "유심사 이심 20% 추가 할인" [ref=e102]
+                - generic [ref=e103]: 유심사 이심 20% 추가 할인
+            - button "유심사 이심 20% 추가 할인" [ref=e104] [cursor=pointer]:
+              - img "유심사 이심 20% 추가 할인" [ref=e105]
+          - generic [ref=e109]:
+            - link "클룩(Klook) 2월 최대 7천원 할인쿠폰 클룩(Klook) 2월 최대 7천원 할인쿠폰" [ref=e110] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/hjs8756/224166369602?trackingCode=blog_bloghome_searchlist
+              - generic [ref=e112]:
+                - img "클룩(Klook) 2월 최대 7천원 할인쿠폰" [ref=e114]
+                - generic [ref=e115]: 클룩(Klook) 2월 최대 7천원 할인쿠폰
+            - button "클룩(Klook) 2월 최대 7천원 할인쿠폰" [ref=e116] [cursor=pointer]:
+              - img "클룩(Klook) 2월 최대 7천원 할인쿠폰" [ref=e117]
+          - generic [ref=e121]:
+            - link "마이리얼트립 할인 쿠폰팩 받고 예약하러 가기" [ref=e122] [cursor=pointer]:
+              - /url: https://myrealt.rip/TcxB22
+              - generic [ref=e125]: 마이리얼트립 할인 쿠폰팩 받고 예약하러 가기
+            - button "마이리얼트립 할인 쿠폰팩 받고 예약하러 가기" [ref=e126] [cursor=pointer]:
+              - img "마이리얼트립 할인 쿠폰팩 받고 예약하러 가기" [ref=e127]
+      - generic [ref=e130]:
+        - link "Linktree에서 hwangdaebal님과 함께하세요" [ref=e134] [cursor=pointer]:
+          - /url: https://linktr.ee/?utm_source=linktree&utm_medium=profile&utm_campaign=footer_logo_cta&utm_content=hwangdaebal
+          - generic [ref=e136]: Linktree에서 hwangdaebal님과 함께하세요
+        - generic [ref=e139]:
+          - button "Cookie Preferences" [ref=e140] [cursor=pointer]
+          - generic [ref=e141]: •
+          - link "Report" [ref=e142] [cursor=pointer]:
+            - /url: https://linktr.ee/s/about/trust-center/report/?field86145911=https%3A%2F%2Flinktr.ee%2Fhwangdaebal
+          - generic [ref=e143]: •
+          - link "Privacy" [ref=e144] [cursor=pointer]:
+            - /url: https://linktr.ee/privacy
+  - alert [ref=e145]

@@ -1,0 +1,1659 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - navigation [ref=e5]:
+        - button "myrealtrip" [ref=e7] [cursor=pointer]:
+          - img "myrealtrip" [ref=e8]
+        - generic [ref=e11]:
+          - img "icon" [ref=e13] [cursor=pointer]
+          - textbox "판교 호캉스 \"루프탑 콘서트\" 한정 오픈!" [ref=e14]:
+            - /placeholder: "판교 호캉스 \"루프탑 콘서트\" 한정 오픈! "
+        - generic [ref=e16]:
+          - button "파트너 로그인" [ref=e18] [cursor=pointer]
+          - button "로그인 및 회원가입" [ref=e20] [cursor=pointer]
+      - navigation [ref=e22]:
+        - generic [ref=e23]:
+          - link "홈" [ref=e25] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com
+            - generic [ref=e26]: 홈
+          - link "할인" [ref=e28] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/promotions/benefit
+            - generic [ref=e29]: 할인
+          - link "항공" [ref=e31] [cursor=pointer]:
+            - /url: https://flights.myrealtrip.com/
+            - generic [ref=e32]: 항공
+          - link "국내 숙소" [ref=e34] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=domestic
+            - generic [ref=e35]: 국내 숙소
+          - link "해외 숙소" [ref=e37] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=overseas
+            - generic [ref=e38]: 해외 숙소
+          - link "해외여행보험" [ref=e40] [cursor=pointer]:
+            - /url: https://direct.samsungfire.com/vd/overture_index.jsp?OTK=F2511AF0514
+            - generic [ref=e41]: 해외여행보험
+          - link "패키지" [ref=e43] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/pkc
+            - generic [ref=e44]: 패키지
+          - link "한인민박" [ref=e46] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=minbak
+            - generic [ref=e47]: 한인민박
+          - link "투어·티켓" [ref=e49] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/experiences
+            - generic [ref=e50]: 투어·티켓
+          - button "더보기 icon" [ref=e52] [cursor=pointer]:
+            - generic [ref=e53]: 더보기
+            - img "icon" [ref=e54]
+    - main [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e60]:
+            - button [ref=e62] [cursor=pointer]:
+              - img [ref=e63]
+            - button [ref=e66] [cursor=pointer]:
+              - img [ref=e67]
+          - generic [ref=e72]: "[공식/오픈티켓] 홍콩 디즈니랜드 입장권 (1일권/2일권/밀쿠폰)"
+          - generic [ref=e74]:
+            - img [ref=e79] [cursor=pointer]
+            - button [ref=e82] [cursor=pointer]:
+              - img [ref=e83]
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - button "홍콩" [ref=e88] [cursor=pointer]
+              - img [ref=e89]
+              - button "홍콩" [ref=e91] [cursor=pointer]
+            - heading "[공식/오픈티켓] 홍콩 디즈니랜드 입장권 (1일권/2일권/밀쿠폰)" [level=1] [ref=e92]
+            - generic [ref=e93]:
+              - generic [ref=e94]:
+                - img "icons" [ref=e95]
+                - img "icons" [ref=e96]
+                - img "icons" [ref=e97]
+                - img "icons" [ref=e98]
+                - img "icons" [ref=e99]
+              - generic [ref=e100]: 4.7 ·
+              - generic [ref=e101] [cursor=pointer]: 후기 5,177개
+          - generic [ref=e105]:
+            - button "저장" [ref=e110] [cursor=pointer]:
+              - img [ref=e114]
+              - generic [ref=e116]: 저장
+            - button "이용방법" [ref=e120] [cursor=pointer]:
+              - generic [ref=e121]: 이용방법
+            - button "포함·불포함사항" [ref=e125] [cursor=pointer]:
+              - generic [ref=e126]: 포함·불포함사항
+            - button "운영시간" [ref=e130] [cursor=pointer]:
+              - generic [ref=e131]: 운영시간
+            - button "이용장소" [ref=e135] [cursor=pointer]:
+              - generic [ref=e136]: 이용장소
+            - button "환불정책" [ref=e140] [cursor=pointer]:
+              - generic [ref=e141]: 환불정책
+            - button "공유" [ref=e145] [cursor=pointer]:
+              - generic [ref=e146]: 공유
+          - generic [ref=e150]:
+            - generic [ref=e163] [cursor=pointer]: 후기사진
+            - generic [ref=e171]:
+              - img "Placeholder Thumbnail" [ref=e175] [cursor=pointer]
+              - generic [ref=e176] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e179]
+                - generic [ref=e180]: 후기사진
+            - img "Placeholder Thumbnail" [ref=e187] [cursor=pointer]
+            - generic [ref=e190]:
+              - img "Placeholder Thumbnail" [ref=e194] [cursor=pointer]
+              - generic [ref=e195] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e198]
+                - generic [ref=e199]: 후기사진
+            - img "Placeholder Thumbnail" [ref=e206] [cursor=pointer]
+            - generic [ref=e209]:
+              - img "Placeholder Thumbnail" [ref=e213] [cursor=pointer]
+              - generic [ref=e214] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e217]
+                - generic [ref=e218]: 후기사진
+            - img "Placeholder Thumbnail" [ref=e225] [cursor=pointer]
+            - generic [ref=e228]:
+              - img "Placeholder Thumbnail" [ref=e232] [cursor=pointer]
+              - generic [ref=e233] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e236]
+                - generic [ref=e237]: 후기사진
+            - img "Placeholder Thumbnail" [ref=e244] [cursor=pointer]
+            - generic [ref=e247]:
+              - generic [ref=e248] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e251]
+                - generic [ref=e252]: 후기사진
+              - generic [ref=e253] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e256]
+                - generic [ref=e257]: 후기사진
+            - generic [ref=e261] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e264]
+              - generic [ref=e265]: 후기사진
+            - generic [ref=e268]:
+              - generic [ref=e269] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e272]
+                - generic [ref=e273]: 후기사진
+              - generic [ref=e274] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e277]
+                - generic [ref=e278]: 후기사진
+            - generic [ref=e282] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e285]
+              - generic [ref=e286]: 후기사진
+            - generic [ref=e289]:
+              - generic [ref=e290] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e293]
+                - generic [ref=e294]: 후기사진
+              - generic [ref=e295] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e298]
+                - generic [ref=e299]: 후기사진
+            - generic [ref=e303] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e306]
+              - generic [ref=e307]: 후기사진
+            - generic [ref=e310]:
+              - generic [ref=e311] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e314]
+                - generic [ref=e315]: 후기사진
+              - generic [ref=e316] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e319]
+                - generic [ref=e320]: 후기사진
+            - generic [ref=e324] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e327]
+              - generic [ref=e328]: 후기사진
+            - generic [ref=e331]:
+              - generic [ref=e332] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e335]
+                - generic [ref=e336]: 후기사진
+              - generic [ref=e337] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e340]
+                - generic [ref=e341]: 후기사진
+            - generic [ref=e345] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e348]
+              - generic [ref=e349]: 후기사진
+            - generic [ref=e352]:
+              - generic [ref=e353] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e356]
+                - generic [ref=e357]: 후기사진
+              - generic [ref=e358] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e361]
+                - generic [ref=e362]: 후기사진
+            - generic [ref=e366] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e369]
+              - generic [ref=e370]: 후기사진
+            - generic [ref=e373]:
+              - generic [ref=e374] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e377]
+                - generic [ref=e378]: 후기사진
+              - generic [ref=e379] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e382]
+                - generic [ref=e383]: 후기사진
+            - generic [ref=e387] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e390]
+              - generic [ref=e391]: 후기사진
+            - generic [ref=e394]:
+              - generic [ref=e395] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e398]
+                - generic [ref=e399]: 후기사진
+              - generic [ref=e400] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e403]
+                - generic [ref=e404]: 후기사진
+            - generic [ref=e408] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e411]
+              - generic [ref=e412]: 후기사진
+            - generic [ref=e415]:
+              - generic [ref=e416] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e419]
+                - generic [ref=e420]: 후기사진
+              - generic [ref=e421] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e424]
+                - generic [ref=e425]: 후기사진
+            - generic [ref=e429] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e432]
+              - generic [ref=e433]: 후기사진
+            - generic [ref=e436]:
+              - generic [ref=e437] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e440]
+                - generic [ref=e441]: 후기사진
+              - generic [ref=e442] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e445]
+                - generic [ref=e446]: 후기사진
+            - generic [ref=e450] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e453]
+              - generic [ref=e454]: 후기사진
+            - generic [ref=e457]:
+              - generic [ref=e458] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e461]
+                - generic [ref=e462]: 후기사진
+              - generic [ref=e463] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e466]
+                - generic [ref=e467]: 후기사진
+            - generic [ref=e471] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e474]
+              - generic [ref=e475]: 후기사진
+            - generic [ref=e478]:
+              - generic [ref=e479] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e482]
+                - generic [ref=e483]: 후기사진
+              - generic [ref=e484] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e487]
+                - generic [ref=e488]: 후기사진
+            - generic [ref=e492] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e495]
+              - generic [ref=e496]: 후기사진
+            - generic [ref=e499]:
+              - generic [ref=e500] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e503]
+                - generic [ref=e504]: 후기사진
+              - generic [ref=e505] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e508]
+                - generic [ref=e509]: 후기사진
+            - generic [ref=e513] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e516]
+              - generic [ref=e517]: 후기사진
+            - generic [ref=e521] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e524]
+              - generic [ref=e525]: 후기사진
+          - generic [ref=e529]: 즉시확정
+        - generic [ref=e530]:
+          - generic [ref=e533] [cursor=pointer]: 상품소개
+          - generic [ref=e537] [cursor=pointer]: 포함·불포함
+          - generic [ref=e540] [cursor=pointer]: 이용안내
+          - generic [ref=e543] [cursor=pointer]: 필수확인사항
+          - generic [ref=e546] [cursor=pointer]: 취소·환불
+          - generic [ref=e549] [cursor=pointer]: 후기
+        - generic [ref=e550]:
+          - generic [ref=e553]:
+            - generic [ref=e555]:
+              - img "홍콩디즈니랜드" [ref=e556] [cursor=pointer]
+              - generic [ref=e557]:
+                - button "홍콩디즈니랜드" [ref=e559] [cursor=pointer]:
+                  - generic [ref=e560]: 홍콩디즈니랜드
+                - button "디즈니 테마 파크 – 오랜 시간 이어져 온 모두를 위한 즐거움 모든 연령의 가족과 친구들이 함께 모여 즐거운 시간을 보낼 수 있는 마법의 공간을 소개합니다. 월트디즈니사의 창업주인 월트 디즈니(Walt Disney)는 기존의 놀이동산보다 더 흥미로운 그 무언가를 꿈꾸었습니다. “우리 딸들이 아주 어렸을 때 토요일은 항상 ‘아빠의 날’이었어요. 난 아이들과 함께 회전목마를 타러 가거나 다른 장소들을 방문하곤 했지요. 아이들이 회전목마를 타는 동안 앉아 기다리면서 생각했어요. 부모와 아이들이 함께 즐길 수 있는 무언가를 세워야겠다고 말이죠. 이러한 생각이 진화를 거듭해서 지금 여러분이 보고 있는 디즈니랜드의 모습이 되었습니다. 이 모든 것은 두 명의 딸아이와 조그마한 즐거움이라도 함께 공유할 수 있는 장소로 가고 싶었던 아빠로부터 시작된 것이지요.” 디즈니 테마 파크는 행복과 순수함을 일깨우고 기억을 공유합니다. 특히 홍콩 디즈니랜드 리조트는 눈앞에 이국적인 박물관 유물이 펼쳐지는 미스틱 매너와 같은 몰입형 어트랙션, 현실과 다른 세상의 경험을 제공하는 판타지랜드 및 토이 스토리 랜드와 같은 테마 공간을 통해 새롭고 고유한 방식으로 전통을 이어가고 있습니다. 홍콩 디즈니랜드 리조트에서 살아 숨쉬고 있는 월트디즈니사의 유산은 없어서는 안 되는 중요한 가치입니다. 홍콩 디즈니랜드 리조트는 지구상의 다른 디즈니 호텔과는 달리 모든 연령대의 투숙객을 대상으로 다양하고 문화적으로 독특한 디즈니 경험을 제공하는 것에 자부심을 갖고 있습니다. 이 모든 것은 “부모와 자녀가 함께 즐길 수 있는 패밀리 파크”라는 월트의 아이디어에서 시작되었습니다. 이제 당신이 이 즐거움에 동참할 차례입니다!" [ref=e561] [cursor=pointer]:
+                  - generic [ref=e562]: 디즈니 테마 파크 – 오랜 시간 이어져 온 모두를 위한 즐거움 모든 연령의 가족과 친구들이 함께 모여 즐거운 시간을 보낼 수 있는 마법의 공간을 소개합니다. 월트디즈니사의 창업주인 월트 디즈니(Walt Disney)는 기존의 놀이동산보다 더 흥미로운 그 무언가를 꿈꾸었습니다. “우리 딸들이 아주 어렸을 때 토요일은 항상 ‘아빠의 날’이었어요. 난 아이들과 함께 회전목마를 타러 가거나 다른 장소들을 방문하곤 했지요. 아이들이 회전목마를 타는 동안 앉아 기다리면서 생각했어요. 부모와 아이들이 함께 즐길 수 있는 무언가를 세워야겠다고 말이죠. 이러한 생각이 진화를 거듭해서 지금 여러분이 보고 있는 디즈니랜드의 모습이 되었습니다. 이 모든 것은 두 명의 딸아이와 조그마한 즐거움이라도 함께 공유할 수 있는 장소로 가고 싶었던 아빠로부터 시작된 것이지요.” 디즈니 테마 파크는 행복과 순수함을 일깨우고 기억을 공유합니다. 특히 홍콩 디즈니랜드 리조트는 눈앞에 이국적인 박물관 유물이 펼쳐지는 미스틱 매너와 같은 몰입형 어트랙션, 현실과 다른 세상의 경험을 제공하는 판타지랜드 및 토이 스토리 랜드와 같은 테마 공간을 통해 새롭고 고유한 방식으로 전통을 이어가고 있습니다. 홍콩 디즈니랜드 리조트에서 살아 숨쉬고 있는 월트디즈니사의 유산은 없어서는 안 되는 중요한 가치입니다. 홍콩 디즈니랜드 리조트는 지구상의 다른 디즈니 호텔과는 달리 모든 연령대의 투숙객을 대상으로 다양하고 문화적으로 독특한 디즈니 경험을 제공하는 것에 자부심을 갖고 있습니다. 이 모든 것은 “부모와 자녀가 함께 즐길 수 있는 패밀리 파크”라는 월트의 아이디어에서 시작되었습니다. 이제 당신이 이 즐거움에 동참할 차례입니다!
+                - button "판매자 정보" [ref=e563] [cursor=pointer]:
+                  - generic [ref=e564]: 판매자 정보
+            - generic [ref=e571]:
+              - generic [ref=e574]: 꼭 확인해주세요 !
+              - generic [ref=e577]:
+                - generic [ref=e579]:
+                  - text: ✅ 오픈 티켓으로 e-바우처 내 표시된 유효기간 내에서, 동일 시즌에 자유롭게 사용 가능합니다. (e-바우처 내 유효기간을 반드시 확인해주세요!) ✅방문 전, 입장권 예약 필수입니다. 반드시 방문 전 아래 링크에서 예약을 진행해주세요. (식사 쿠폰은 별도 예약이 필요하지 않습니다.)
+                  - link "https://www.hongkongdisneyland.com/reservation/landing/#park-visit" [ref=e580] [cursor=pointer]:
+                    - /url: https://www.hongkongdisneyland.com/reservation/landing/#park-visit
+                  - text: ✅일반 티켓 시즌 (TIER) 선택 안내 • 공식 웹사이트에서 티어를(시즌) 확인하세요.
+                  - link "https://www.hongkongdisneyland.com/new-day-calendar/" [ref=e581] [cursor=pointer]:
+                    - /url: https://www.hongkongdisneyland.com/new-day-calendar/
+                  - text: "• 캘린더에서 여행 예정 일자를 선택한 후 예약해주세요. • 옵션에 안내된 방문 날짜에 맞춰 해당하는 TIER 티켓을 선택해주세요. 표시되지 않은 일자는 미운영 일자입니다. (캘린더는 조회 일자 기준 +3개월까지 조회 가능) ✅연령에 맞는 옵션을 선택해주세요! • 어린이 : 만 3-11세 • 성인 : 만 12-59세 • 노인 : 만 60세 이상 • 만 0~2세 어린이는 무료 입장 가능합니다. ✅구매 확정 후 취소/환불 불가능합니다. 🎁 추가 혜택 & 옵션 ✅매달 한정으로 진행되는 결제 할인 혜택을 확인해보세요!"
+                  - link "https://www.myrealtrip.com/promotions/checkout" [ref=e582] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/promotions/checkout
+                - button "... 더보기" [ref=e583] [cursor=pointer]
+          - generic [ref=e584]:
+            - heading "결제 혜택" [level=2] [ref=e585]
+            - generic [ref=e586]:
+              - generic [ref=e587]:
+                - generic [ref=e589] [cursor=pointer]:
+                  - generic [ref=e591]: KB국민카드
+                  - generic [ref=e592]: KB할인팩 결제일 할인 (최대 3만원 할인)
+                  - img [ref=e593]
+                - generic [ref=e597] [cursor=pointer]:
+                  - generic [ref=e599]: 카카오페이
+                  - generic [ref=e600]: 머니 / 삼성카드 최대 6만원 즉시할인
+                  - img [ref=e601]
+                - generic [ref=e605] [cursor=pointer]:
+                  - generic [ref=e607]: 삼성카드
+                  - generic [ref=e608]: 최대 5만원 결제일 할인
+                  - img [ref=e609]
+                - generic [ref=e613] [cursor=pointer]:
+                  - generic [ref=e615]: 현대카드
+                  - generic [ref=e616]: M포인트 10% 사용가능 (최대 15,000 M포인트)
+                  - img [ref=e617]
+                - generic [ref=e621] [cursor=pointer]:
+                  - generic [ref=e623]: 롯데카드
+                  - generic [ref=e624]: 최대 4만원 청구할인
+                  - img [ref=e625]
+                - generic [ref=e629] [cursor=pointer]:
+                  - generic [ref=e631]: 우리카드
+                  - generic [ref=e632]: 꾹 혜택 - 6만원 청구 할인
+                  - img [ref=e633]
+                - generic [ref=e637] [cursor=pointer]:
+                  - generic [ref=e639]: 토스페이
+                  - generic [ref=e640]: 최대 12만원 즉시할인
+                  - img [ref=e641]
+                - generic [ref=e645] [cursor=pointer]:
+                  - generic [ref=e647]: 네이버페이
+                  - generic [ref=e648]: 네이버페이 포인트 최대 5,000원 적립
+                  - img [ref=e649]
+                - generic [ref=e653] [cursor=pointer]:
+                  - generic [ref=e655]: 무이자할부
+                  - generic [ref=e656]: 최대 24개월 무이자 할부 가능
+                  - img [ref=e657]
+              - button "혜택 더보기" [ref=e661] [cursor=pointer]:
+                - generic [ref=e662]: 혜택 더보기
+          - generic [ref=e663]:
+            - heading "상품 소개" [level=2] [ref=e664]
+            - generic [ref=e665]:
+              - separator [ref=e666]
+              - generic [ref=e668]:
+                - figure:
+                  - img "Placeholder Thumbnail" [ref=e670]
+                - figure:
+                  - img "Placeholder Thumbnail" [ref=e673]
+                - figure:
+                  - img "Placeholder Thumbnail" [ref=e675]
+                - figure:
+                  - img "Placeholder Thumbnail" [ref=e677]
+                - figure:
+                  - img "Placeholder Thumbnail" [ref=e679]
+            - button "상품 소개 더보기" [ref=e682] [cursor=pointer]:
+              - generic [ref=e683]: 상품 소개 더보기
+          - generic [ref=e687]:
+            - generic [ref=e689]: "'테마파크 입장권' 인기 상품"
+            - generic [ref=e692]:
+              - generic [ref=e697] [cursor=pointer]:
+                - generic [ref=e698]:
+                  - img "Placeholder Thumbnail" [ref=e701]
+                  - img [ref=e706]
+                - generic [ref=e708]:
+                  - generic [ref=e709]: "[공식/지정일] 홍콩 디즈니랜드 입장권 (1일권/2일권/패스트패스/조기입장권/밀쿠폰)"
+                  - generic [ref=e710]:
+                    - img [ref=e711]
+                    - generic [ref=e713]: "4.4"
+                    - generic [ref=e714]: (54)
+                  - generic [ref=e716]: 87,337원
+                  - generic [ref=e717]: 입장권
+                  - generic [ref=e719]: 즉시 확정
+              - generic [ref=e724] [cursor=pointer]:
+                - generic [ref=e725]:
+                  - img "Placeholder Thumbnail" [ref=e728]
+                  - img [ref=e733]
+                - generic [ref=e735]:
+                  - generic [ref=e736]: 오션 파크 홍콩
+                  - generic [ref=e737]:
+                    - img [ref=e738]
+                    - generic [ref=e740]: "4.7"
+                    - generic [ref=e741]: (40)
+                  - generic [ref=e743]: 18,026원
+                  - generic [ref=e744]: 입장권
+                  - generic [ref=e746]: 즉시 확정
+              - generic [ref=e751] [cursor=pointer]:
+                - generic [ref=e752]:
+                  - img "Placeholder Thumbnail" [ref=e755]
+                  - img [ref=e760]
+                - generic [ref=e762]:
+                  - generic [ref=e763]: "[겨울왕국 얼리버드] 홍콩 디즈니랜드 조기 입장권 (얼리 파크인)"
+                  - generic [ref=e764]:
+                    - img [ref=e765]
+                    - generic [ref=e767]: "4.8"
+                    - generic [ref=e768]: (11)
+                  - generic [ref=e770]: 38,190원
+                  - generic [ref=e771]: 입장권
+                  - generic [ref=e773]: 즉시 확정
+              - generic [ref=e778] [cursor=pointer]:
+                - generic [ref=e779]:
+                  - img "Placeholder Thumbnail" [ref=e782]
+                  - img [ref=e787]
+                - generic [ref=e789]:
+                  - generic [ref=e790]: 오션파크 입장권 티켓 (홍콩)
+                  - generic [ref=e791]:
+                    - img [ref=e792]
+                    - generic [ref=e794]: "4.5"
+                    - generic [ref=e795]: (16)
+                  - generic [ref=e797]: 17,696원
+                  - generic [ref=e798]: 입장권
+                  - generic [ref=e800]: 즉시 확정
+              - generic [ref=e805] [cursor=pointer]:
+                - generic [ref=e806]:
+                  - img "Placeholder Thumbnail" [ref=e809]
+                  - img [ref=e814]
+                - generic [ref=e816]:
+                  - generic [ref=e817]: 홍콩 노아의 방주 입장권
+                  - generic [ref=e818]:
+                    - img [ref=e819]
+                    - generic [ref=e821]: "5"
+                    - generic [ref=e822]: (2)
+                  - generic [ref=e824]: 18,907원
+                  - generic [ref=e825]: 입장권
+                  - generic [ref=e827]: 즉시 확정
+              - generic [ref=e832] [cursor=pointer]:
+                - generic [ref=e833]:
+                  - img "Placeholder Thumbnail" [ref=e836]
+                  - img [ref=e841]
+                - generic [ref=e843]:
+                  - generic [ref=e844]: 홍콩 레고랜드 디스커버리 센터
+                  - generic [ref=e845]:
+                    - img [ref=e846]
+                    - generic [ref=e848]: "5"
+                    - generic [ref=e849]: (1)
+                  - generic [ref=e851]: 45,325원
+                  - generic [ref=e852]: 입장권
+                  - generic [ref=e854]: 즉시 확정
+              - generic [ref=e859] [cursor=pointer]:
+                - generic [ref=e860]:
+                  - img "Placeholder Thumbnail" [ref=e863]
+                  - img [ref=e868]
+                - generic [ref=e870]:
+                  - generic [ref=e871]: "[QR 티켓] 홍콩 디즈니랜드 입장권"
+                  - generic [ref=e873]: 93,633원
+                  - generic [ref=e874]: 입장권
+              - generic [ref=e879] [cursor=pointer]:
+                - generic [ref=e880]:
+                  - img "Placeholder Thumbnail" [ref=e883]
+                  - img [ref=e888]
+                - generic [ref=e890]:
+                  - generic [ref=e891]: "[조기입장무료] 홍콩 디즈니랜드 패밀리 티켓 (성인1+아동/시니어1)"
+                  - generic [ref=e893]: 208,097원
+                  - generic [ref=e894]: 입장권
+                  - generic [ref=e896]: 4월 특가
+              - generic [ref=e901] [cursor=pointer]:
+                - generic [ref=e902]:
+                  - img "Placeholder Thumbnail" [ref=e905]
+                  - img [ref=e910]
+                - generic [ref=e912]:
+                  - generic [ref=e913]: 홍콩 모노폴리 드림즈 입장권
+                  - generic [ref=e915]: 9,895원
+                  - generic [ref=e916]: 입장권
+                  - generic [ref=e918]: 즉시 확정
+          - generic [ref=e919]:
+            - heading "포함 · 불포함 사항" [level=2] [ref=e920]
+            - generic [ref=e922]:
+              - generic [ref=e923]:
+                - heading "포함되어 있어요" [level=3] [ref=e924]
+                - generic [ref=e927]:
+                  - img "icon" [ref=e928]
+                  - paragraph [ref=e930]: 상품 설명을 참고해주세요.
+              - generic [ref=e931]:
+                - heading "불포함되어 있어요" [level=3] [ref=e932]
+                - generic [ref=e935]:
+                  - img "icon" [ref=e936]
+                  - paragraph [ref=e938]: 상품 설명을 참고해주세요.
+          - generic [ref=e939]:
+            - heading "이용 안내" [level=2] [ref=e940]
+            - generic [ref=e942]:
+              - generic [ref=e943]:
+                - heading "이용 방법" [level=3] [ref=e944]
+                - generic [ref=e945]:
+                  - generic [ref=e947]:
+                    - img "icon" [ref=e948]
+                    - paragraph [ref=e950]: 기타
+                  - generic [ref=e952]:
+                    - img "icon" [ref=e953]
+                    - paragraph [ref=e955]:
+                      - text: • 오픈 티켓으로 e-바우처 내 표시된 유효기간 내에서, 동일 시즌에 자유롭게 사용 가능합니다. • e-바우처 내 유효기간을 반드시 확인해주세요. • 방문 전, 입장권 예약 필수입니다. 반드시 방문 전 아래 링크에서 예약을 진행해주세요. (식사 쿠폰은 별도 예약이 필요하지 않습니다.)
+                      - link "https://www.hongkongdisneyland.com/reservation/landing/#park-visit" [ref=e956] [cursor=pointer]:
+                        - /url: https://www.hongkongdisneyland.com/reservation/landing/#park-visit
+                      - text: • 예약 확정 시 전달된 e-티켓/바우처 내 QR코드로 바로 입장이 가능합니다. • 데이터 환경이 좋지 않을 수 있으므로 미리 다운로드 혹은 프린트하는 것을 추천해요.
+              - generic [ref=e957]:
+                - heading "운영시간" [level=3] [ref=e958]
+                - paragraph [ref=e963]:
+                  - text: • 구매 전 날짜를 확인해주세요. 티켓의 종류에 따라 입장 가능일이 상이합니다. • 공식 웹사이트에서 티어를(시즌) 확인 후 구매해주세요.
+                  - link "https://www.hongkongdisneyland.com/new-day-calendar/" [ref=e964] [cursor=pointer]:
+                    - /url: https://www.hongkongdisneyland.com/new-day-calendar/
+                  - text: • 운영 시간(10:30 am — 08:30 pm)내에 자유롭게 입장이 가능합니다.
+              - generic [ref=e965]:
+                - heading "이용장소" [level=3] [ref=e966]
+                - paragraph [ref=e970]: Hong Kong Disneyland, Lantau Island, Hong Kong
+          - generic [ref=e971]:
+            - heading "필수 확인 사항" [level=2] [ref=e972]
+            - generic [ref=e976]:
+              - generic [ref=e978]:
+                - img "icon" [ref=e979]
+                - paragraph [ref=e981]:
+                  - text: ✅1일 입장권 • 날짜별로 시즌에 따라 Tier 1-4로 구분되어 있으며, 가격이 상이합니다. Tier1 (비수기) / Tier2 (준성수기) / Tier3 (성수기) / Tier4(극성수기) • 공식 웹사이트에서 티어를(시즌) 확인하세요.
+                  - link "https://www.hongkongdisneyland.com/new-day-calendar/" [ref=e982] [cursor=pointer]:
+                    - /url: https://www.hongkongdisneyland.com/new-day-calendar/
+                  - text: ✅2일 입장권 • 2일 입장이 가능한 티켓으로, 첫번째 방문일 이후 6일 이내 두번째 방문을 해야 합니다. ✅각 입장권 티켓은 티켓당 지정된 1명만 사용할 수 있습니다. ✅유의사항 • 오픈 티켓으로 e-바우처 내 표시된 유효기간 내에서, 동일 시즌에 자유롭게 사용 가능합니다. • e-바우처 내 유효기간을 반드시 확인해주세요. • 방문 전, 입장권 예약 필수입니다. 반드시 방문 전 아래 링크에서 예약을 진행해주세요. (식사 쿠폰은 별도 예약이 필요하지 않습니다.)
+                  - link "https://www.hongkongdisneyland.com/reservation/landing/#park-visit" [ref=e983] [cursor=pointer]:
+                    - /url: https://www.hongkongdisneyland.com/reservation/landing/#park-visit
+                  - text: ✅기타 안내사항 • 각 입장권 티켓은 티켓당 지정된 1명만 사용할 수 있습니다. • 바우처 교환 시, 신분증 제시가 요구될 수 있으므로 이를 지참해주시기 바랍니다. • 1인당 각 옵션별 최대 4장까지 구매하실 수 있습니다. (재판매 금지) • 재판매를 위해 구매한 예약건에 대해서는 사전 통보없이 예약취소처리 될 수 있습니다. • 자세한 사항은 공식 홈페이지를 참고하시기 바랍니다. (
+                  - link "https://www.hongkongdisneyland.com/ko/" [ref=e984] [cursor=pointer]:
+                    - /url: https://www.hongkongdisneyland.com/ko/
+                  - text: ) • 네트워크 환경이 좋지 않은 경우 앱에서 바우처가 열리지 않을 수 있으니 미리 프린트 해가시길 권장드립니다. • 식사 쿠폰 사용 가능 식당은 블로그를 참고해보세요! (
+                  - link "https://blog.naver.com/myrealtrip/221496881642" [ref=e985] [cursor=pointer]:
+                    - /url: https://blog.naver.com/myrealtrip/221496881642
+                  - text: )
+              - generic [ref=e987]:
+                - img "icon" [ref=e988]
+                - paragraph [ref=e990]:
+                  - text: "✅이용 방법 • 티켓 형태 : e-티켓 • 티켓 확인 방법 : 마이리얼트립 앱 내여행 > 예약 상세 보기 > e - 티켓 클릭 • 바우처 제시 방법 : 모바일 또는 출력본 바우처(e-티켓) 제시 후 바로 이용 • 파크 방문 전, 반드시 아래 링크를 통해 사전 예약을 진행해주셔야 합니다."
+                  - link "https://www.hongkongdisneyland.com/reservation/landing" [ref=e991] [cursor=pointer]:
+                    - /url: https://www.hongkongdisneyland.com/reservation/landing
+            - button "필수 확인 사항 모두 보기" [ref=e994] [cursor=pointer]:
+              - generic [ref=e995]: 필수 확인 사항 모두 보기
+          - generic [ref=e996]:
+            - heading "취소/환불 규정" [level=2] [ref=e997]
+            - generic [ref=e1003]:
+              - img "icon" [ref=e1004]
+              - paragraph [ref=e1006]: 시설사 정책에 따라 확정 후 취소 및 환불이 불가능합니다.
+          - generic [ref=e1015]:
+            - generic [ref=e1016]:
+              - img "AI" [ref=e1017]
+              - generic [ref=e1018]: AI가 요약한 36개의 후기
+              - generic [ref=e1019]: (최근 12개월)
+            - generic [ref=e1020]:
+              - generic [ref=e1021]:
+                - generic [ref=e1022]:
+                  - img "AI" [ref=e1023]
+                  - generic [ref=e1024]: 편리성 (10개)·즐거움 (8개)·가성비 (5개)
+                - paragraph [ref=e1025]:
+                  - generic [ref=e1026]:
+                    - button "더보기" [ref=e1027] [cursor=pointer]
+                    - text: 아래 후기는 여러 리뷰 중에서 긍정적으로 평가된 내용을 중심으로 정리한 것입니다. '편하게 이용했습니다', '너무 즐거운 여행이었습니다', '미리 예약을 해서 넘 잘이용했어요' 등 편리성과 즐거움이 높게 평가되었습니다. 또한 '가격을 비교해 보니 아주 작은 인형모자같은 머리핀을 주면서 저렴해서 이걸 이용 했어요' 등 가성비에 대한 긍정적인 의견도 있었습니다.
+              - generic [ref=e1028]:
+                - generic [ref=e1029]:
+                  - img "AI" [ref=e1030]
+                  - generic [ref=e1031]: 혼잡 (3개)·비싼 식사 (2개)
+                - paragraph [ref=e1032]:
+                  - generic [ref=e1033]:
+                    - button "더보기" [ref=e1034] [cursor=pointer]
+                    - text: 전반적으로 좋은 평가가 많지만, 아래는 일부 이용자가 남긴 부정적인 의견입니다. '사람이 많지 않았어요', '극성수였음에도 불구하고 사람이 많지 않았어요' 등 혼잡도에 대한 불편함이 있었습니다. 또한 '음식이 비싼거 빼구요', '디즈니랜드 밀쿠폰을 쓰면 약간이나마 저렴하게 식사를 할 수 있습니다' 등 식사 가격에 대한 불만도 있었습니다.
+          - generic [ref=e1039]:
+            - generic [ref=e1040]:
+              - img [ref=e1041]
+              - generic [ref=e1043]: 4.7 · 후기 5177개
+            - generic [ref=e1047]:
+              - generic [ref=e1050]:
+                - generic [ref=e1051]:
+                  - generic [ref=e1052]:
+                    - img [ref=e1053]
+                    - img [ref=e1055]
+                    - img [ref=e1057]
+                    - img [ref=e1059]
+                    - img [ref=e1061]
+                  - generic [ref=e1063]: 4달 전
+                - generic [ref=e1064]:
+                  - generic [ref=e1065]: 홍콩 여행 세번째인데 디즈니랜드는 이번에 처음 다녀왔어요 :) 연말이라서 크리스마스 분위기도 느껴지고 날씨도 딱 좋아요!!! 홍콩 여행은 3월까지 다녀오기 좋다고 하던데 진짜 그랬어요 :) 퍼레이드 공연도 멋있었고 놀이기구도 재밌는거 많았는데 저는 그중에서 겨울왕국이 가장 기억에 남아요, 식사는 되도록이면 (?) 퍼레이드 끝나기 5분 전? 웨이팅해서 드시는 것 추천드릴게요- 늦게 가면 사람 많아져서 일찍 줄 서는 것이 중요하더라고요 ✨ 기념품샵에 예쁜 굿즈들도 많으니까 일찍 방문해서 여유롭게 굿즈 구매도 하시고 예쁜 사진도 많이 남겨보시길 바라요~~!
+                  - generic [ref=e1066]:
+                    - img "Placeholder Thumbnail" [ref=e1069]
+                    - generic [ref=e1071]: "10"
+                - generic [ref=e1072]: 저렴해요 · 친절해요 · 사용이 편해요 · 예약이 편해요 · 바로 입장이 가능해요
+                - generic [ref=e1073]: 오*현
+              - generic [ref=e1076]:
+                - generic [ref=e1077]:
+                  - generic [ref=e1078]:
+                    - img [ref=e1079]
+                    - img [ref=e1081]
+                    - img [ref=e1083]
+                    - img [ref=e1085]
+                    - img [ref=e1087]
+                  - generic [ref=e1089]: 4달 전
+                - generic [ref=e1091]: 이용권 자체를 쉽게 예약하고 사용할 수 있어서 좋았어요! 디즈니 홈페이지에 따로 들어가서 예약해야 되긴 하지만 그닥 어렵진 않았습니다 11월 말 방문했는데 홍콩 화재참사로 불꽃놀이는 취소되었지만 크리스마스 장식도 예뻤고 해지니 인공눈도 뿌려주고 좋았어요(이 기간에 방문한 사람은 6개월 이내 재방문 가능하다고 함) 옛날에 디즈니랜드 방문했을 땐 어플이 활성화되지 않았었는데 요샌 어플로 어트랙션 대기시간 확인할 수 있고 캐릭터들 언제 만날 수 있는지, 퍼레이드랑 공연은 몇시에 하는지 다 확인할 수 있으니 편하네요 ! 개인적으론 라이언킹 공연이 제일제일 만족스러웠슴다
+                - generic [ref=e1092]: 예약이 편해요 · 깨끗해요 · 방문하기 편해요 · 사용이 편해요
+                - generic [ref=e1093]: 김*은
+              - generic [ref=e1096]:
+                - generic [ref=e1097]:
+                  - generic [ref=e1098]:
+                    - img [ref=e1099]
+                    - img [ref=e1101]
+                    - img [ref=e1103]
+                    - img [ref=e1105]
+                    - img [ref=e1107]
+                  - generic [ref=e1109]: 2달 전
+                - generic [ref=e1110]:
+                  - generic [ref=e1111]: QR찍고 바로 입장 가능하고 가격도 저렴하게 잘 샀습니다~
+                  - img "Placeholder Thumbnail" [ref=e1115]
+                - generic [ref=e1116]: 깨끗해요 · 예약이 편해요 · 바로 입장이 가능해요
+                - generic [ref=e1117]: 김*윤
+              - generic [ref=e1120]:
+                - generic [ref=e1121]:
+                  - generic [ref=e1122]:
+                    - img [ref=e1123]
+                    - img [ref=e1125]
+                    - img [ref=e1127]
+                    - img [ref=e1129]
+                    - img [ref=e1131]
+                  - generic [ref=e1133]: 4달 전
+                - generic [ref=e1134]:
+                  - generic [ref=e1135]: 가족과 함께 하기 너무 좋아요 음식이 비싼거 빼구요
+                  - generic [ref=e1136]:
+                    - img "Placeholder Thumbnail" [ref=e1139]
+                    - generic [ref=e1141]: "5"
+                - generic [ref=e1142]: 사진과 동일해요 · 예약이 편해요 · 위치가 찾기 쉬워요
+                - generic [ref=e1143]: 선*
+              - generic [ref=e1146]:
+                - generic [ref=e1147]:
+                  - generic [ref=e1148]:
+                    - img [ref=e1149]
+                    - img [ref=e1151]
+                    - img [ref=e1153]
+                    - img [ref=e1155]
+                    - img [ref=e1157]
+                  - generic [ref=e1159]: 1달 전
+                - generic [ref=e1161]: 편하게 이용했습니다^^
+                - generic [ref=e1162]: 깨끗해요 · 바로 입장이 가능해요 · 관광지와 가까워요 · 위치가 찾기 쉬워요 · 예약이 편해요
+                - generic [ref=e1163]: 손*엽
+              - generic [ref=e1166]:
+                - generic [ref=e1167]:
+                  - generic [ref=e1168]:
+                    - img [ref=e1169]
+                    - img [ref=e1171]
+                    - img [ref=e1173]
+                    - img [ref=e1175]
+                    - img [ref=e1177]
+                  - generic [ref=e1179]: 2달 전
+                - generic [ref=e1181]: 너무좋아요!! 또 이용할래요
+                - generic [ref=e1182]: 깨끗해요 · 위치가 찾기 쉬워요 · 예약이 편해요
+                - generic [ref=e1183]: 정*정
+              - generic [ref=e1186]:
+                - generic [ref=e1187]:
+                  - generic [ref=e1188]:
+                    - img [ref=e1189]
+                    - img [ref=e1191]
+                    - img [ref=e1193]
+                    - img [ref=e1195]
+                    - img [ref=e1197]
+                  - generic [ref=e1199]: 2달 전
+                - generic [ref=e1201]: 사용이 편해요^^ 일요일인데 생각보다 사람이없어서 DPA 샀는데 거의 안쓰고 와서 아깝네요ㅠ
+                - generic [ref=e1202]: 바로 입장이 가능해요 · 친절해요 · 저렴해요 · 예약이 편해요 · 사용이 편해요
+                - generic [ref=e1203]: 김*윤
+              - generic [ref=e1206]:
+                - generic [ref=e1207]:
+                  - generic [ref=e1208]:
+                    - img [ref=e1209]
+                    - img [ref=e1211]
+                    - img [ref=e1213]
+                    - img [ref=e1215]
+                    - img [ref=e1217]
+                  - generic [ref=e1219]: 2달 전
+                - generic [ref=e1221]: 너무 즐거운 여행이었습니다.
+                - generic [ref=e1222]: 방문하기 편해요
+                - generic [ref=e1223]: 유*민
+              - generic [ref=e1226]:
+                - generic [ref=e1227]:
+                  - generic [ref=e1228]:
+                    - img [ref=e1229]
+                    - img [ref=e1231]
+                    - img [ref=e1233]
+                    - img [ref=e1235]
+                    - img [ref=e1237]
+                  - generic [ref=e1239]: 2달 전
+                - generic [ref=e1241]: 좋았어요! 다시 또 가고 싶어요 :)
+                - generic [ref=e1242]: 위치가 찾기 쉬워요 · 관리가 잘 되어 있어요 · 깨끗해요 · 관광지와 가까워요 · 방문하기 편해요
+                - generic [ref=e1243]: 오*힘
+              - generic [ref=e1246]:
+                - generic [ref=e1247]:
+                  - generic [ref=e1248]:
+                    - img [ref=e1249]
+                    - img [ref=e1251]
+                    - img [ref=e1253]
+                    - img [ref=e1255]
+                    - img [ref=e1257]
+                  - generic [ref=e1259]: 2달 전
+                - generic [ref=e1261]: 미리 예약을 해서 넘 잘이용했어요
+                - generic [ref=e1262]: 깨끗해요 · 관리가 잘 되어 있어요 · 예약이 편해요 · 위치가 찾기 쉬워요 · 바로 입장이 가능해요
+                - generic [ref=e1263]: 최*정
+              - generic [ref=e1266]:
+                - generic [ref=e1267]:
+                  - generic [ref=e1268]:
+                    - img [ref=e1269]
+                    - img [ref=e1271]
+                    - img [ref=e1273]
+                    - img [ref=e1275]
+                    - img [ref=e1277]
+                  - generic [ref=e1279]: 3달 전
+                - generic [ref=e1281]: 구매하기에는 복잡했지만 입장시 쉽고빠르게했네요.
+                - generic [ref=e1282]: 사용이 편해요
+                - generic [ref=e1283]: 김*주
+              - generic [ref=e1286]:
+                - generic [ref=e1287]:
+                  - generic [ref=e1288]:
+                    - img [ref=e1289]
+                    - img [ref=e1291]
+                    - img [ref=e1293]
+                    - img [ref=e1295]
+                    - img [ref=e1297]
+                  - generic [ref=e1299]: 3달 전
+                - generic [ref=e1301]: 디즈니랜드 밀쿠폰을 쓰면 약간이나마 저렴하게 식사를 할 수 있습니다. (그러나 기본적인 식사 메뉴는 밀쿠폰보다 약가 싼편이라 비싼 메뉴를 시켜야만 이득인 아이러니가 있습니다.) 간식으로 소형 아이스크림과 팝콘을 살 수 있는데, 되도록 일찍 사서 드시길 추천합니다. 일몰 이후에는 매점이 철수를 해서 쓸 수가 없어요.
+                - generic [ref=e1302]: 친절해요 · 관광지와 가까워요 · 깨끗해요
+                - generic [ref=e1303]: 김*욱
+              - generic [ref=e1306]:
+                - generic [ref=e1307]:
+                  - generic [ref=e1308]:
+                    - img [ref=e1309]
+                    - img [ref=e1311]
+                    - img [ref=e1313]
+                    - img [ref=e1315]
+                    - img [ref=e1317]
+                  - generic [ref=e1319]: 3달 전
+                - generic [ref=e1321]: 극성수였음에도 불구하고 사람이 많지 않았어요 시부모님들도 즐거워하시고 다섯살 아이에겐 천국이죠. 넓지않아 체력적으로 괜찮았어요 첫디즈니랜드로 홍콩이 좋은것같아요 식사시간때 식당이 많이 분비고 간식으로 요기하시거나 빵같은거 챙겨가는게 좋은것같아요
+                - generic [ref=e1322]: 예약이 편해요 · 바로 입장이 가능해요 · 방문하기 편해요
+                - generic [ref=e1323]: 최*경
+              - generic [ref=e1326]:
+                - generic [ref=e1327]:
+                  - generic [ref=e1328]:
+                    - img [ref=e1329]
+                    - img [ref=e1331]
+                    - img [ref=e1333]
+                    - img [ref=e1335]
+                    - img [ref=e1337]
+                  - generic [ref=e1339]: 6달 전
+                - generic [ref=e1340]:
+                  - generic [ref=e1341]: Qr입장으로 편하게 방문했어요. 사람도 없어서 놀이동산 잘 즐기고 왔습니드.
+                  - generic [ref=e1342]:
+                    - img "Placeholder Thumbnail" [ref=e1345]
+                    - generic [ref=e1347]: "2"
+                - generic [ref=e1348]: 위치가 찾기 쉬워요 · 바로 입장이 가능해요 · 예약이 편해요 · 깨끗해요
+                - generic [ref=e1349]: 이*진
+              - generic [ref=e1352]:
+                - generic [ref=e1353]:
+                  - generic [ref=e1354]:
+                    - img [ref=e1355]
+                    - img [ref=e1357]
+                    - img [ref=e1359]
+                    - img [ref=e1361]
+                    - img [ref=e1363]
+                  - generic [ref=e1365]: 8달 전
+                - generic [ref=e1366]:
+                  - generic [ref=e1367]: 바로 입장이 가능해 편리했고, 아이들과 함께 기대 이상으로 즐거웠습니다.
+                  - generic [ref=e1368]:
+                    - img "Placeholder Thumbnail" [ref=e1371]
+                    - generic [ref=e1373]: "6"
+                - generic [ref=e1374]: 바로 입장이 가능해요 · 관리가 잘 되어 있어요 · 사진과 동일해요 · 방문하기 편해요 · 예약이 편해요
+                - generic [ref=e1375]: 최*진
+              - generic [ref=e1378]:
+                - generic [ref=e1379]:
+                  - generic [ref=e1380]:
+                    - img [ref=e1381]
+                    - img [ref=e1383]
+                    - img [ref=e1385]
+                    - img [ref=e1387]
+                    - img [ref=e1389]
+                  - generic [ref=e1391]: 1년 전
+                - generic [ref=e1392]:
+                  - generic [ref=e1393]: 디즈니랜드 방문일 :2024.12.24 눈치게임 성공!! 사람 많을거라는 예상은 빗나갔고 작아서 볼거 없을거라는 생각도 틀렸다 정말 재미있었고 알찼고 하루동안 다 둘러볼수가 없다 2일권은 필수인듯 ! 사람이 에버랜드보다 훨씬 적어서 보통 기다리는게 20분 이내고, 헬기낙하산은 40분 정도로 제일 오래 기다렸던 놀이기구였다. 디즈니성에서 나오는 빛 쇼는 9:30에 시작하는데 볼만했다 올랜도에 있는 디즈니월드, 파리 디즈니랜드에 이어 세번째 홍콩 디즈니랜드인데 다른곳에 비해 작아서 아이들하고 돌아다니고, 웨이팅 없이 놀이기구 라이딩하기 제일 좋았다!! 아동 동반해서 오기 가장 좋은 곳!!!!
+                  - generic [ref=e1394]:
+                    - img "Placeholder Thumbnail" [ref=e1397]
+                    - generic [ref=e1399]: "10"
+                - generic [ref=e1400]: 위치가 찾기 쉬워요 · 바로 입장이 가능해요 · 깨끗해요 · 방문하기 편해요
+                - generic [ref=e1401]: 이*라
+              - generic [ref=e1404]:
+                - generic [ref=e1405]:
+                  - generic [ref=e1406]:
+                    - img [ref=e1407]
+                    - img [ref=e1409]
+                    - img [ref=e1411]
+                    - img [ref=e1413]
+                    - img [ref=e1415]
+                  - generic [ref=e1417]: 4달 전
+                - generic [ref=e1418]:
+                  - generic [ref=e1419]: 디즈니랜드 가고싶었던 곳이였는데 방문해서 끝날때까지 넘 즐거웠어요! 기억에 꽤 오래 남아있네요~
+                  - img "Placeholder Thumbnail" [ref=e1423]
+                - generic [ref=e1424]: 바로 입장이 가능해요 · 사진과 동일해요 · 위치가 찾기 쉬워요
+                - generic [ref=e1425]: 성*주
+              - generic [ref=e1428]:
+                - generic [ref=e1429]:
+                  - generic [ref=e1430]:
+                    - img [ref=e1431]
+                    - img [ref=e1433]
+                    - img [ref=e1435]
+                    - img [ref=e1437]
+                    - img [ref=e1439]
+                  - generic [ref=e1441]: 3달 전
+                - generic [ref=e1443]: 디즈니랜드 재밌어요 마지막 불꽃놀이가 최고
+                - generic [ref=e1444]: 이*선
+              - generic [ref=e1447]:
+                - generic [ref=e1448]:
+                  - generic [ref=e1449]:
+                    - img [ref=e1450]
+                    - img [ref=e1452]
+                    - img [ref=e1454]
+                    - img [ref=e1456]
+                    - img [ref=e1458]
+                  - generic [ref=e1460]: 3달 전
+                - generic [ref=e1462]: 25 년도에 사용 했고 가격을 비교해 보니 아주 작은 인형모자같은 머리핀을 주면서 저렴해서 이걸 이용 했어요
+                - generic [ref=e1463]: 위치가 찾기 쉬워요 · 깨끗해요 · 예약이 편해요
+                - generic [ref=e1464]: 김*실
+              - generic [ref=e1467]:
+                - generic [ref=e1468]:
+                  - generic [ref=e1469]:
+                    - img [ref=e1470]
+                    - img [ref=e1472]
+                    - img [ref=e1474]
+                    - img [ref=e1476]
+                    - img [ref=e1478]
+                  - generic [ref=e1480]: 3달 전
+                - generic [ref=e1482]: 표 찾을 필요도 없이 큐알코드 바로 찍고 들어가서 편했습니다.
+                - generic [ref=e1483]: 바로 입장이 가능해요 · 사용이 편해요
+                - generic [ref=e1484]: 정*정
+            - button "후기 모두 보기" [ref=e1486] [cursor=pointer]:
+              - generic [ref=e1487]: 후기 모두 보기
+          - generic [ref=e1488]:
+            - generic [ref=e1490]:
+              - generic [ref=e1491]:
+                - generic [ref=e1493]: 다른 여행자가 함께 본 상품
+                - generic [ref=e1496]:
+                  - generic [ref=e1501] [cursor=pointer]:
+                    - generic [ref=e1502]:
+                      - img "Placeholder Thumbnail" [ref=e1505]
+                      - img [ref=e1510]
+                    - generic [ref=e1512]:
+                      - generic [ref=e1513]: "[공식/지정일] 홍콩 디즈니랜드 입장권 (1일권/2일권/패스트패스/조기입장권/밀쿠폰)"
+                      - generic [ref=e1514]:
+                        - img [ref=e1515]
+                        - generic [ref=e1517]: "4.4"
+                        - generic [ref=e1518]: (54)
+                      - generic [ref=e1520]: 87,337원
+                      - generic [ref=e1521]: 입장권
+                      - generic [ref=e1523]: 즉시 확정
+                  - generic [ref=e1528] [cursor=pointer]:
+                    - generic [ref=e1529]:
+                      - img "Placeholder Thumbnail" [ref=e1532]
+                      - img [ref=e1537]
+                    - generic [ref=e1539]:
+                      - generic [ref=e1540]: "[QR 티켓] 홍콩 디즈니랜드 입장권"
+                      - generic [ref=e1542]: 93,633원
+                      - generic [ref=e1543]: 입장권
+                  - generic [ref=e1548] [cursor=pointer]:
+                    - generic [ref=e1549]:
+                      - img "Placeholder Thumbnail" [ref=e1552]
+                      - img [ref=e1557]
+                    - generic [ref=e1559]:
+                      - generic [ref=e1560]: "[겨울왕국 얼리버드] 홍콩 디즈니랜드 조기 입장권 (얼리 파크인)"
+                      - generic [ref=e1561]:
+                        - img [ref=e1562]
+                        - generic [ref=e1564]: "4.8"
+                        - generic [ref=e1565]: (11)
+                      - generic [ref=e1567]: 38,190원
+                      - generic [ref=e1568]: 입장권
+                      - generic [ref=e1570]: 즉시 확정
+                  - generic [ref=e1575] [cursor=pointer]:
+                    - generic [ref=e1576]:
+                      - img "Placeholder Thumbnail" [ref=e1579]
+                      - img [ref=e1584]
+                    - generic [ref=e1586]:
+                      - generic [ref=e1587]: "[1시간] 한국인 작가 - 홍콩 디즈니랜드에서 인생샷 남기기 (홍콩 디즈니 스냅)"
+                      - generic [ref=e1588]:
+                        - img [ref=e1589]
+                        - generic [ref=e1591]: "5"
+                        - generic [ref=e1592]: (25)
+                      - generic [ref=e1594]: 30,000원
+                      - generic [ref=e1595]: 입장권
+                      - generic [ref=e1597]: 최저가보장제
+                  - generic [ref=e1602] [cursor=pointer]:
+                    - generic [ref=e1603]:
+                      - img "Placeholder Thumbnail" [ref=e1606]
+                      - img [ref=e1611]
+                    - generic [ref=e1613]:
+                      - generic [ref=e1614]: 오션 파크 홍콩
+                      - generic [ref=e1615]:
+                        - img [ref=e1616]
+                        - generic [ref=e1618]: "4.7"
+                        - generic [ref=e1619]: (40)
+                      - generic [ref=e1621]: 18,026원
+                      - generic [ref=e1622]: 입장권
+                      - generic [ref=e1624]: 즉시 확정
+                  - generic [ref=e1629] [cursor=pointer]:
+                    - generic [ref=e1630]:
+                      - img "Placeholder Thumbnail" [ref=e1633]
+                      - img [ref=e1638]
+                    - generic [ref=e1640]:
+                      - generic [ref=e1641]: "[조기입장무료] 홍콩 디즈니랜드 패밀리 티켓 (성인1+아동/시니어1)"
+                      - generic [ref=e1643]: 208,097원
+                      - generic [ref=e1644]: 입장권
+                      - generic [ref=e1646]: 즉시 확정
+                  - generic [ref=e1651] [cursor=pointer]:
+                    - generic [ref=e1652]:
+                      - img "Placeholder Thumbnail" [ref=e1655]
+                      - img [ref=e1660]
+                    - generic [ref=e1662]:
+                      - generic [ref=e1663]: "[2시간] 한국인 작가 - 홍콩 디즈니 랜드에서 인생샷 남기기 (홍콩 디즈니 스냅)"
+                      - generic [ref=e1664]:
+                        - img [ref=e1665]
+                        - generic [ref=e1667]: "4.9"
+                        - generic [ref=e1668]: (12)
+                      - generic [ref=e1670]: 43,000원
+                      - generic [ref=e1671]: 입장권
+                      - generic [ref=e1673]: 최저가보장제
+                  - generic [ref=e1678] [cursor=pointer]:
+                    - generic [ref=e1679]:
+                      - img "Placeholder Thumbnail" [ref=e1682]
+                      - img [ref=e1687]
+                    - generic [ref=e1689]:
+                      - generic [ref=e1690]: 홍콩 빅토리아 피크 피크트램 & 스카이 테라스428 입장권 티켓
+                      - generic [ref=e1691]:
+                        - img [ref=e1692]
+                        - generic [ref=e1694]: "4.4"
+                        - generic [ref=e1695]: (113)
+                      - generic [ref=e1697]: 9,829원
+                      - generic [ref=e1698]: 입장권
+                      - generic [ref=e1700]: 즉시 확정
+                  - generic [ref=e1705] [cursor=pointer]:
+                    - generic [ref=e1706]:
+                      - img "Placeholder Thumbnail" [ref=e1709]
+                      - img [ref=e1714]
+                    - generic [ref=e1716]:
+                      - generic [ref=e1717]: 오션파크 입장권 티켓 (홍콩)
+                      - generic [ref=e1718]:
+                        - img [ref=e1719]
+                        - generic [ref=e1721]: "4.5"
+                        - generic [ref=e1722]: (16)
+                      - generic [ref=e1724]: 17,696원
+                      - generic [ref=e1725]: 입장권
+                      - generic [ref=e1727]: 즉시 확정
+                  - generic [ref=e1732] [cursor=pointer]:
+                    - generic [ref=e1733]:
+                      - img "Placeholder Thumbnail" [ref=e1736]
+                      - img [ref=e1741]
+                    - generic [ref=e1743]:
+                      - generic [ref=e1744]: "[QR코드 바로입장] 홍콩 빅토리아 피크 피크트램 & 스카이 테라스 428 입장권 티켓"
+                      - generic [ref=e1745]:
+                        - img [ref=e1746]
+                        - generic [ref=e1748]: "4.3"
+                        - generic [ref=e1749]: (219)
+                      - generic [ref=e1751]: 9,308원
+                      - generic [ref=e1752]: 입장권
+                      - generic [ref=e1754]: 즉시 확정
+                  - generic [ref=e1759] [cursor=pointer]:
+                    - generic [ref=e1760]:
+                      - img "Placeholder Thumbnail" [ref=e1763]
+                      - img [ref=e1768]
+                    - generic [ref=e1770]:
+                      - generic [ref=e1771]: 홍콩 레고랜드 디스커버리 센터
+                      - generic [ref=e1772]:
+                        - img [ref=e1773]
+                        - generic [ref=e1775]: "5"
+                        - generic [ref=e1776]: (1)
+                      - generic [ref=e1778]: 45,325원
+                      - generic [ref=e1779]: 입장권
+                      - generic [ref=e1781]: 즉시 확정
+                  - generic [ref=e1786] [cursor=pointer]:
+                    - generic [ref=e1787]:
+                      - img "Placeholder Thumbnail" [ref=e1790]
+                      - img [ref=e1795]
+                    - generic [ref=e1797]:
+                      - generic [ref=e1798]: 홍콩 노아의 방주 입장권
+                      - generic [ref=e1799]:
+                        - img [ref=e1800]
+                        - generic [ref=e1802]: "5"
+                        - generic [ref=e1803]: (2)
+                      - generic [ref=e1805]: 18,907원
+                      - generic [ref=e1806]: 입장권
+                      - generic [ref=e1808]: 즉시 확정
+                  - generic [ref=e1813] [cursor=pointer]:
+                    - generic [ref=e1814]:
+                      - img "Placeholder Thumbnail" [ref=e1817]
+                      - img [ref=e1822]
+                    - generic [ref=e1824]:
+                      - generic [ref=e1825]: 홍콩 빅버스 시티투어 버스 탑승권
+                      - generic [ref=e1826]:
+                        - img [ref=e1827]
+                        - generic [ref=e1829]: "4.2"
+                        - generic [ref=e1830]: (62)
+                      - generic [ref=e1832]: 60,801원
+                      - generic [ref=e1833]: 입장권
+                      - generic [ref=e1835]: 즉시 확정
+                  - generic [ref=e1840] [cursor=pointer]:
+                    - generic [ref=e1841]:
+                      - img "Placeholder Thumbnail" [ref=e1844]
+                      - img [ref=e1849]
+                    - generic [ref=e1851]:
+                      - generic [ref=e1852]: 홍콩 M+ 뮤지엄 티켓
+                      - generic [ref=e1853]:
+                        - img [ref=e1854]
+                        - generic [ref=e1856]: "5"
+                        - generic [ref=e1857]: (8)
+                      - generic [ref=e1859]: 20,459원
+                      - generic [ref=e1860]: 입장권
+                      - generic [ref=e1862]: 즉시 확정
+                  - generic [ref=e1867] [cursor=pointer]:
+                    - generic [ref=e1868]:
+                      - img "Placeholder Thumbnail" [ref=e1871]
+                      - img [ref=e1876]
+                    - generic [ref=e1878]:
+                      - generic [ref=e1879]: 홍콩 옹핑 360 케이블카 티켓
+                      - generic [ref=e1880]:
+                        - img [ref=e1881]
+                        - generic [ref=e1883]: "4.4"
+                        - generic [ref=e1884]: (341)
+                      - generic [ref=e1886]: 16,508원
+                      - generic [ref=e1887]: 입장권
+                      - generic [ref=e1889]: 즉시 확정
+                  - generic [ref=e1894] [cursor=pointer]:
+                    - generic [ref=e1895]:
+                      - img "Placeholder Thumbnail" [ref=e1898]
+                      - img [ref=e1903]
+                    - generic [ref=e1905]:
+                      - generic [ref=e1906]: 홍콩 레고랜드 디스커버리 센터 입장권
+                      - generic [ref=e1908]: 40,541원
+                      - generic [ref=e1909]: 입장권
+                      - generic [ref=e1911]: 즉시 확정
+                  - generic [ref=e1916] [cursor=pointer]:
+                    - generic [ref=e1917]:
+                      - img "Placeholder Thumbnail" [ref=e1920]
+                      - img [ref=e1925]
+                    - generic [ref=e1927]:
+                      - generic [ref=e1928]: MTR 패스 & 옹핑 케이블카 & 빅 부다 투어 (홍콩)
+                      - generic [ref=e1930]: 108,681원
+                      - generic [ref=e1931]: 입장권
+                      - generic [ref=e1933]: 즉시 확정
+                  - generic [ref=e1938] [cursor=pointer]:
+                    - generic [ref=e1939]:
+                      - img "Placeholder Thumbnail" [ref=e1942]
+                      - img [ref=e1947]
+                    - generic [ref=e1949]:
+                      - generic [ref=e1950]: "[QR티켓] 홍콩 오션파크 입장권"
+                      - generic [ref=e1952]: 51,705원
+                      - generic [ref=e1953]: 입장권
+                      - generic [ref=e1955]: 즉시 확정
+                  - generic [ref=e1960] [cursor=pointer]:
+                    - generic [ref=e1961]:
+                      - img "Placeholder Thumbnail" [ref=e1964]
+                      - img [ref=e1969]
+                    - generic [ref=e1971]:
+                      - generic [ref=e1972]: 홍콩 고궁박물관 티켓
+                      - generic [ref=e1973]:
+                        - img [ref=e1974]
+                        - generic [ref=e1976]: "4.7"
+                        - generic [ref=e1977]: (3)
+                      - generic [ref=e1979]: 7,010원
+                      - generic [ref=e1980]: 입장권
+                      - generic [ref=e1982]: 즉시 확정
+                  - generic [ref=e1987] [cursor=pointer]:
+                    - generic [ref=e1988]:
+                      - img "Placeholder Thumbnail" [ref=e1991]
+                      - img [ref=e1996]
+                    - generic [ref=e1998]:
+                      - generic [ref=e1999]: "[QR티켓] 홍콩 피크 트램 & 스카이 테라스428"
+                      - generic [ref=e2000]:
+                        - img [ref=e2001]
+                        - generic [ref=e2003]: "5"
+                        - generic [ref=e2004]: (1)
+                      - generic [ref=e2006]: 18,384원
+                      - generic [ref=e2007]: 입장권
+                      - generic [ref=e2009]: 즉시 확정
+              - generic [ref=e2010]:
+                - generic [ref=e2012]: 비슷한 상품과 비교해보세요
+                - generic [ref=e2015]:
+                  - generic [ref=e2020] [cursor=pointer]:
+                    - generic [ref=e2021]:
+                      - img "Placeholder Thumbnail" [ref=e2024]
+                      - img [ref=e2029]
+                    - generic [ref=e2031]:
+                      - generic [ref=e2032]: 푸꾸옥 빈원더스 & 사파리 콤보 티켓 [ 1일권 / 2일권 ]
+                      - generic [ref=e2034]: 68,700원
+                      - generic [ref=e2035]: 입장권
+                  - generic [ref=e2040] [cursor=pointer]:
+                    - generic [ref=e2041]:
+                      - img "Placeholder Thumbnail" [ref=e2044]
+                      - img [ref=e2049]
+                    - generic [ref=e2051]:
+                      - generic [ref=e2052]: 홍콩 빅버스 시티투어 탑승권 (1/2일권, 나이트투어)
+                      - generic [ref=e2053]:
+                        - img [ref=e2054]
+                        - generic [ref=e2056]: "4"
+                        - generic [ref=e2057]: (86)
+                      - generic [ref=e2059]: 56,862원
+                      - generic [ref=e2060]: 투어
+                      - generic [ref=e2062]: 즉시 확정
+                  - generic [ref=e2067] [cursor=pointer]:
+                    - generic [ref=e2068]:
+                      - img "Placeholder Thumbnail" [ref=e2071]
+                      - img [ref=e2076]
+                    - generic [ref=e2078]:
+                      - generic [ref=e2079]: 바르셀로나 시티 투어 버스 티켓 (1일권/2일권)
+                      - generic [ref=e2080]:
+                        - img [ref=e2081]
+                        - generic [ref=e2083]: "4.7"
+                        - generic [ref=e2084]: (6)
+                      - generic [ref=e2086]: 55,919원
+                      - generic [ref=e2087]: 이동·교통
+                      - generic [ref=e2089]: 즉시 확정
+                  - generic [ref=e2094] [cursor=pointer]:
+                    - generic [ref=e2095]:
+                      - img "Placeholder Thumbnail" [ref=e2098]
+                      - img [ref=e2103]
+                    - generic [ref=e2105]:
+                      - generic [ref=e2106]: 싱가포르 빅버스 시티투어 버스 탑승권 (1/2일권, 나이트투어)
+                      - generic [ref=e2107]:
+                        - img [ref=e2108]
+                        - generic [ref=e2110]: "4.5"
+                        - generic [ref=e2111]: (84)
+                      - generic [ref=e2113]: 59,529원
+                      - generic [ref=e2114]: 투어
+                      - generic [ref=e2116]: 즉시 확정
+                  - generic [ref=e2121] [cursor=pointer]:
+                    - generic [ref=e2122]:
+                      - img "Placeholder Thumbnail" [ref=e2125]
+                      - img [ref=e2130]
+                    - generic [ref=e2132]:
+                      - generic [ref=e2133]: "[즉시확정] 도쿄 스카이 홉온홉오프 버스 1일권/2일권 (아사쿠사/도쿄타워/신주쿠 노선)"
+                      - generic [ref=e2134]:
+                        - img [ref=e2135]
+                        - generic [ref=e2137]: "4.6"
+                        - generic [ref=e2138]: (5)
+                      - generic [ref=e2140]: 24,056원
+                      - generic [ref=e2141]: 이동/교통편의
+                      - generic [ref=e2143]: 즉시 확정
+                  - generic [ref=e2148] [cursor=pointer]:
+                    - generic [ref=e2149]:
+                      - img "Placeholder Thumbnail" [ref=e2152]
+                      - img [ref=e2157]
+                    - generic [ref=e2159]:
+                      - generic [ref=e2160]: "[공식판매★] 베이징 유니버셜 스튜디오 입장권 (성인 2인 + 아동 1인)"
+                      - generic [ref=e2162]: 197,568원
+                      - generic [ref=e2163]: 티켓·입장권
+                      - generic [ref=e2165]: 즉시 확정
+                  - generic [ref=e2170] [cursor=pointer]:
+                    - generic [ref=e2171]:
+                      - img "Placeholder Thumbnail" [ref=e2174]
+                      - img [ref=e2179]
+                    - generic [ref=e2181]:
+                      - generic [ref=e2182]: 유니버셜 스튜디오 싱가포르 (1일권/익스프레스패스/VIP투어/콤보)
+                      - generic [ref=e2183]:
+                        - img [ref=e2184]
+                        - generic [ref=e2186]: "4.7"
+                        - generic [ref=e2187]: (4849)
+                      - generic [ref=e2189]: 91,253원
+                      - generic [ref=e2190]: 티켓·입장권
+                      - generic [ref=e2192]: 즉시 확정
+                  - generic [ref=e2197] [cursor=pointer]:
+                    - generic [ref=e2198]:
+                      - img "Placeholder Thumbnail" [ref=e2201]
+                      - img [ref=e2206]
+                    - generic [ref=e2208]:
+                      - generic [ref=e2209]: 하이리페움 온천사우나(스파) 이용권(1인/쿠폰)
+                      - generic [ref=e2211]: 5,400원
+                      - generic [ref=e2212]: 입장권
+                      - generic [ref=e2214]: 즉시 확정
+              - generic [ref=e2215]:
+                - generic [ref=e2217]: 홍콩 BEST 상품
+                - generic [ref=e2220]:
+                  - generic [ref=e2225] [cursor=pointer]:
+                    - generic [ref=e2226]:
+                      - img "Placeholder Thumbnail" [ref=e2229]
+                      - img [ref=e2234]
+                    - generic [ref=e2236]:
+                      - generic [ref=e2237]: "[홍콩 백만불 야경투어] 피크트램 패스트트랙, 심포니오브라이트 야경, 템플스트리트 야시장!"
+                      - generic [ref=e2238]:
+                        - img [ref=e2239]
+                        - generic [ref=e2241]: "4.9"
+                        - generic [ref=e2242]: (1478)
+                      - generic [ref=e2244]: 49,500원
+                      - generic [ref=e2245]: 투어
+                      - generic [ref=e2247]: 최저가보장제
+                  - generic [ref=e2252] [cursor=pointer]:
+                    - generic [ref=e2253]:
+                      - img "Placeholder Thumbnail" [ref=e2256]
+                      - img [ref=e2261]
+                    - generic [ref=e2263]:
+                      - generic [ref=e2264]: "[홍콩 별빛든든투어] 피크트램 티켓 포함 / 빅토리아피크 심포니오브라이츠 야경 야시장"
+                      - generic [ref=e2265]:
+                        - img [ref=e2266]
+                        - generic [ref=e2268]: "4.8"
+                        - generic [ref=e2269]: (754)
+                      - generic [ref=e2271]: 64,000원
+                      - generic [ref=e2272]: 투어
+                      - generic [ref=e2274]: 무료취소
+                  - generic [ref=e2279] [cursor=pointer]:
+                    - generic [ref=e2280]:
+                      - img "Placeholder Thumbnail" [ref=e2283]
+                      - img [ref=e2288]
+                    - generic [ref=e2290]:
+                      - generic [ref=e2291]: "[홍콩 완전정복투어]스탠리마켓, 리펄스베이, 피크트램 패스트트랙 야경, 스타페리, 침사추이"
+                      - generic [ref=e2292]:
+                        - img [ref=e2293]
+                        - generic [ref=e2295]: "4.9"
+                        - generic [ref=e2296]: (353)
+                      - generic [ref=e2298]: 92,400원
+                      - generic [ref=e2299]: 투어
+                      - generic [ref=e2301]: 최저가보장제
+                  - generic [ref=e2306] [cursor=pointer]:
+                    - generic [ref=e2307]:
+                      - img "Placeholder Thumbnail" [ref=e2310]
+                      - img [ref=e2315]
+                    - generic [ref=e2317]:
+                      - generic [ref=e2318]: 홍콩/마카오 이심 eSIM CTM 매일 500MB 무제한 1일 유심사 알림톡
+                      - generic [ref=e2319]:
+                        - img [ref=e2320]
+                        - generic [ref=e2322]: "4.4"
+                        - generic [ref=e2323]: (95)
+                      - generic [ref=e2325]: 1,500원
+                      - generic [ref=e2326]: 유심·와이파이
+                      - generic [ref=e2328]: 무료취소
+                  - generic [ref=e2333] [cursor=pointer]:
+                    - generic [ref=e2334]:
+                      - img "Placeholder Thumbnail" [ref=e2337]
+                      - img [ref=e2342]
+                    - generic [ref=e2344]:
+                      - generic [ref=e2345]: 홍콩섬 한바퀴 *오전 차량투어* (피크, 리펄스베이, 스탠리, 미드레벨 에스컬레이터)
+                      - generic [ref=e2346]:
+                        - img [ref=e2347]
+                        - generic [ref=e2349]: "4.9"
+                        - generic [ref=e2350]: (123)
+                      - generic [ref=e2352]: 66,600원
+                      - generic [ref=e2353]: 투어
+                      - generic [ref=e2355]: 무료취소
+                  - generic [ref=e2360] [cursor=pointer]:
+                    - generic [ref=e2361]:
+                      - img "Placeholder Thumbnail" [ref=e2364]
+                      - img [ref=e2369]
+                    - generic [ref=e2371]:
+                      - generic [ref=e2372]: "[Ryan 한국인 작가] 홍콩 센트럴, 소호 프라이빗 스냅 촬영"
+                      - generic [ref=e2373]:
+                        - img [ref=e2374]
+                        - generic [ref=e2376]: "5"
+                        - generic [ref=e2377]: (519)
+                      - generic [ref=e2379]: 48,000원
+                      - generic [ref=e2380]: 스냅
+                      - generic [ref=e2382]: 최저가보장제
+                  - generic [ref=e2387] [cursor=pointer]:
+                    - generic [ref=e2388]:
+                      - img "Placeholder Thumbnail" [ref=e2391]
+                      - img [ref=e2396]
+                    - generic [ref=e2398]:
+                      - generic [ref=e2399]: "[Ryan 한국인 작가][30분] 홍콩 몽콕 야경 스냅 촬영 - 단독,우정,커플,가족 촬영"
+                      - generic [ref=e2400]:
+                        - img [ref=e2401]
+                        - generic [ref=e2403]: "5"
+                        - generic [ref=e2404]: (157)
+                      - generic [ref=e2406]: 30,000원
+                      - generic [ref=e2407]: 스냅
+                  - generic [ref=e2412] [cursor=pointer]:
+                    - generic [ref=e2413]:
+                      - img "Placeholder Thumbnail" [ref=e2416]
+                      - img [ref=e2421]
+                    - generic [ref=e2423]:
+                      - generic [ref=e2424]: "홍콩이반장의[돋보기투어] 소구룹스토리텔링 대중교통도보#소호미드레벨 #픽트램패스트랙야경"
+                      - generic [ref=e2425]:
+                        - img [ref=e2426]
+                        - generic [ref=e2428]: "5"
+                        - generic [ref=e2429]: (366)
+                      - generic [ref=e2431]: 48,000원
+                      - generic [ref=e2432]: 투어
+                      - generic [ref=e2434]: 무료취소
+                  - generic [ref=e2439] [cursor=pointer]:
+                    - generic [ref=e2440]:
+                      - img "Placeholder Thumbnail" [ref=e2443]
+                      - img [ref=e2448]
+                    - generic [ref=e2450]:
+                      - generic [ref=e2451]: "[1시간] 한국인 작가 - 홍콩 영화 컨셉으로 촬영 (홍콩 스냅)"
+                      - generic [ref=e2452]:
+                        - img [ref=e2453]
+                        - generic [ref=e2455]: "5"
+                        - generic [ref=e2456]: (369)
+                      - generic [ref=e2458]: 40,000원
+                      - generic [ref=e2459]: 스냅
+                      - generic [ref=e2461]: 최저가보장제
+                  - generic [ref=e2466] [cursor=pointer]:
+                    - generic [ref=e2467]:
+                      - img "Placeholder Thumbnail" [ref=e2470]
+                      - img [ref=e2475]
+                    - generic [ref=e2477]:
+                      - generic [ref=e2478]: "[홍콩 로컬문화 + 푸드 투어] 미드레벨 에스컬레이터, 소호거리, 타이쿤, 홍콩 남부까지!"
+                      - generic [ref=e2479]:
+                        - img [ref=e2480]
+                        - generic [ref=e2482]: "4.9"
+                        - generic [ref=e2483]: (114)
+                      - generic [ref=e2485]: 73,000원
+                      - generic [ref=e2486]: 투어
+                      - generic [ref=e2488]: 최저가보장제
+                  - generic [ref=e2493] [cursor=pointer]:
+                    - generic [ref=e2494]:
+                      - img "Placeholder Thumbnail" [ref=e2497]
+                      - img [ref=e2502]
+                    - generic [ref=e2504]:
+                      - generic [ref=e2505]: "[홍콩섬 남부 이층버스 투어] 빅버스 그린루트 완전정복 (리펄스베이, 스탠리마켓, 완차이)"
+                      - generic [ref=e2506]:
+                        - img [ref=e2507]
+                        - generic [ref=e2509]: "4.8"
+                        - generic [ref=e2510]: (182)
+                      - generic [ref=e2512]: 41,500원
+                      - generic [ref=e2513]: 투어
+                      - generic [ref=e2515]: 최저가보장제
+                  - generic [ref=e2520] [cursor=pointer]:
+                    - generic [ref=e2521]:
+                      - img "Placeholder Thumbnail" [ref=e2524]
+                      - img [ref=e2529]
+                    - generic [ref=e2531]:
+                      - generic [ref=e2532]: "[1시간] 한국인 작가 - 홍콩 여행의 필수, 홍콩 감성 인생샷 (홍콩 스냅)"
+                      - generic [ref=e2533]:
+                        - img [ref=e2534]
+                        - generic [ref=e2536]: "4.9"
+                        - generic [ref=e2537]: (654)
+                      - generic [ref=e2539]: 40,000원
+                      - generic [ref=e2540]: 스냅
+                      - generic [ref=e2542]: 최저가보장제
+              - generic [ref=e2543]:
+                - generic [ref=e2545]: 다른 여행자가 같이 구매한 상품
+                - generic [ref=e2548]:
+                  - generic [ref=e2553] [cursor=pointer]:
+                    - generic [ref=e2554]:
+                      - img "Placeholder Thumbnail" [ref=e2557]
+                      - img [ref=e2562]
+                    - generic [ref=e2564]:
+                      - generic [ref=e2565]: 홍콩 빅토리아 피크 피크트램 & 스카이 테라스428 입장권 티켓
+                      - generic [ref=e2566]:
+                        - img [ref=e2567]
+                        - generic [ref=e2569]: "4.4"
+                        - generic [ref=e2570]: (113)
+                      - generic [ref=e2572]: 9,829원
+                      - generic [ref=e2573]: 입장권
+                      - generic [ref=e2575]: 즉시 확정
+                  - generic [ref=e2580] [cursor=pointer]:
+                    - generic [ref=e2581]:
+                      - img "Placeholder Thumbnail" [ref=e2584]
+                      - img [ref=e2589]
+                    - generic [ref=e2591]:
+                      - generic [ref=e2592]: "[QR코드 바로입장] 홍콩 빅토리아 피크 피크트램 & 스카이 테라스 428 입장권 티켓"
+                      - generic [ref=e2593]:
+                        - img [ref=e2594]
+                        - generic [ref=e2596]: "4.3"
+                        - generic [ref=e2597]: (219)
+                      - generic [ref=e2599]: 9,308원
+                      - generic [ref=e2600]: 입장권
+                      - generic [ref=e2602]: 즉시 확정
+                  - generic [ref=e2607] [cursor=pointer]:
+                    - generic [ref=e2608]:
+                      - img "Placeholder Thumbnail" [ref=e2611]
+                      - img [ref=e2616]
+                    - generic [ref=e2618]:
+                      - generic [ref=e2619]: 오션 파크 홍콩
+                      - generic [ref=e2620]:
+                        - img [ref=e2621]
+                        - generic [ref=e2623]: "4.7"
+                        - generic [ref=e2624]: (40)
+                      - generic [ref=e2626]: 18,026원
+                      - generic [ref=e2627]: 입장권
+                      - generic [ref=e2629]: 즉시 확정
+                  - generic [ref=e2634] [cursor=pointer]:
+                    - generic [ref=e2635]:
+                      - img "Placeholder Thumbnail" [ref=e2638]
+                      - img [ref=e2643]
+                    - generic [ref=e2645]:
+                      - generic [ref=e2646]: "[1시간] 한국인 작가 - 홍콩 디즈니랜드에서 인생샷 남기기 (홍콩 디즈니 스냅)"
+                      - generic [ref=e2647]:
+                        - img [ref=e2648]
+                        - generic [ref=e2650]: "5"
+                        - generic [ref=e2651]: (25)
+                      - generic [ref=e2653]: 30,000원
+                      - generic [ref=e2654]: 입장권
+                      - generic [ref=e2656]: 최저가보장제
+                  - generic [ref=e2661] [cursor=pointer]:
+                    - generic [ref=e2662]:
+                      - img "Placeholder Thumbnail" [ref=e2665]
+                      - img [ref=e2670]
+                    - generic [ref=e2672]:
+                      - generic [ref=e2673]: 홍콩 옹핑 360 케이블카 티켓
+                      - generic [ref=e2674]:
+                        - img [ref=e2675]
+                        - generic [ref=e2677]: "4.4"
+                        - generic [ref=e2678]: (341)
+                      - generic [ref=e2680]: 16,508원
+                      - generic [ref=e2681]: 입장권
+                      - generic [ref=e2683]: 즉시 확정
+                  - generic [ref=e2688] [cursor=pointer]:
+                    - generic [ref=e2689]:
+                      - img "Placeholder Thumbnail" [ref=e2692]
+                      - img [ref=e2697]
+                    - generic [ref=e2699]:
+                      - generic [ref=e2700]: 오션파크 입장권 티켓 (홍콩)
+                      - generic [ref=e2701]:
+                        - img [ref=e2702]
+                        - generic [ref=e2704]: "4.5"
+                        - generic [ref=e2705]: (16)
+                      - generic [ref=e2707]: 17,696원
+                      - generic [ref=e2708]: 입장권
+                      - generic [ref=e2710]: 즉시 확정
+                  - generic [ref=e2715] [cursor=pointer]:
+                    - generic [ref=e2716]:
+                      - img "Placeholder Thumbnail" [ref=e2719]
+                      - img [ref=e2724]
+                    - generic [ref=e2726]:
+                      - generic [ref=e2727]: 홍콩 M+ 뮤지엄 티켓
+                      - generic [ref=e2728]:
+                        - img [ref=e2729]
+                        - generic [ref=e2731]: "5"
+                        - generic [ref=e2732]: (8)
+                      - generic [ref=e2734]: 20,459원
+                      - generic [ref=e2735]: 입장권
+                      - generic [ref=e2737]: 즉시 확정
+                  - generic [ref=e2742] [cursor=pointer]:
+                    - generic [ref=e2743]:
+                      - img "Placeholder Thumbnail" [ref=e2746]
+                      - img [ref=e2751]
+                    - generic [ref=e2753]:
+                      - generic [ref=e2754]: "[QR티켓] 홍콩 피크 트램 & 스카이 테라스428"
+                      - generic [ref=e2755]:
+                        - img [ref=e2756]
+                        - generic [ref=e2758]: "5"
+                        - generic [ref=e2759]: (1)
+                      - generic [ref=e2761]: 18,384원
+                      - generic [ref=e2762]: 입장권
+                      - generic [ref=e2764]: 즉시 확정
+                  - generic [ref=e2769] [cursor=pointer]:
+                    - generic [ref=e2770]:
+                      - img "Placeholder Thumbnail" [ref=e2773]
+                      - img [ref=e2778]
+                    - generic [ref=e2780]:
+                      - generic [ref=e2781]: "[2시간] 한국인 작가 - 홍콩 디즈니 랜드에서 인생샷 남기기 (홍콩 디즈니 스냅)"
+                      - generic [ref=e2782]:
+                        - img [ref=e2783]
+                        - generic [ref=e2785]: "4.9"
+                        - generic [ref=e2786]: (12)
+                      - generic [ref=e2788]: 43,000원
+                      - generic [ref=e2789]: 입장권
+                      - generic [ref=e2791]: 최저가보장제
+                  - generic [ref=e2796] [cursor=pointer]:
+                    - generic [ref=e2797]:
+                      - img "Placeholder Thumbnail" [ref=e2800]
+                      - img [ref=e2805]
+                    - generic [ref=e2807]:
+                      - generic [ref=e2808]: 홍콩 피크트램 & 스카이패스 & 마담 투소 홍콩 입장권 콤보 티켓
+                      - generic [ref=e2809]:
+                        - img [ref=e2810]
+                        - generic [ref=e2812]: "3.3"
+                        - generic [ref=e2813]: (3)
+                      - generic [ref=e2815]: 64,919원
+                      - generic [ref=e2816]: 입장권
+                      - generic [ref=e2818]: 즉시 확정
+                  - generic [ref=e2823] [cursor=pointer]:
+                    - generic [ref=e2824]:
+                      - img "Placeholder Thumbnail" [ref=e2827]
+                      - img [ref=e2832]
+                    - generic [ref=e2834]:
+                      - generic [ref=e2835]: 홍콩 고궁박물관 티켓
+                      - generic [ref=e2836]:
+                        - img [ref=e2837]
+                        - generic [ref=e2839]: "4.7"
+                        - generic [ref=e2840]: (3)
+                      - generic [ref=e2842]: 7,010원
+                      - generic [ref=e2843]: 입장권
+                      - generic [ref=e2845]: 즉시 확정
+                  - generic [ref=e2850] [cursor=pointer]:
+                    - generic [ref=e2851]:
+                      - img "Placeholder Thumbnail" [ref=e2854]
+                      - img [ref=e2859]
+                    - generic [ref=e2861]:
+                      - generic [ref=e2862]: 홍콩 옹핑 360 란타우섬 타이오 패스 & HK$20 무료 밀쿠폰
+                      - generic [ref=e2863]:
+                        - img [ref=e2864]
+                        - generic [ref=e2866]: "3.9"
+                        - generic [ref=e2867]: (9)
+                      - generic [ref=e2869]: 43,355원
+                      - generic [ref=e2870]: 입장권
+                      - generic [ref=e2872]: 즉시 확정
+                  - generic [ref=e2877] [cursor=pointer]:
+                    - generic [ref=e2878]:
+                      - img "Placeholder Thumbnail" [ref=e2881]
+                      - img [ref=e2886]
+                    - generic [ref=e2888]:
+                      - generic [ref=e2889]: "[QR 즉시입장] 옹핑 360 케이블카 - 크리스탈 캐빈 / 스탠다드 캐빈"
+                      - generic [ref=e2891]: 19,533원
+                      - generic [ref=e2892]: 입장권
+                  - generic [ref=e2897] [cursor=pointer]:
+                    - generic [ref=e2898]:
+                      - img "Placeholder Thumbnail" [ref=e2901]
+                      - img [ref=e2906]
+                    - generic [ref=e2908]:
+                      - generic [ref=e2909]: "[조기입장무료] 홍콩 디즈니랜드 패밀리 티켓 (성인1+아동/시니어1)"
+                      - generic [ref=e2911]: 208,097원
+                      - generic [ref=e2912]: 입장권
+                      - generic [ref=e2914]: 즉시 확정
+                  - generic [ref=e2919] [cursor=pointer]:
+                    - generic [ref=e2920]:
+                      - img "Placeholder Thumbnail" [ref=e2923]
+                      - img [ref=e2928]
+                    - generic [ref=e2930]:
+                      - generic [ref=e2931]: 홍콩 빅버스 시티투어 버스 탑승권
+                      - generic [ref=e2932]:
+                        - img [ref=e2933]
+                        - generic [ref=e2935]: "4.2"
+                        - generic [ref=e2936]: (62)
+                      - generic [ref=e2938]: 60,801원
+                      - generic [ref=e2939]: 입장권
+                      - generic [ref=e2941]: 즉시 확정
+                  - generic [ref=e2946] [cursor=pointer]:
+                    - generic [ref=e2947]:
+                      - img "Placeholder Thumbnail" [ref=e2950]
+                      - img [ref=e2955]
+                    - generic [ref=e2957]:
+                      - generic [ref=e2958]: "[QR티켓] 홍콩 오션파크 입장권"
+                      - generic [ref=e2960]: 51,705원
+                      - generic [ref=e2961]: 입장권
+                      - generic [ref=e2963]: 즉시 확정
+                  - generic [ref=e2968] [cursor=pointer]:
+                    - generic [ref=e2969]:
+                      - img "Placeholder Thumbnail" [ref=e2972]
+                      - img [ref=e2977]
+                    - generic [ref=e2979]:
+                      - generic [ref=e2980]: 홍콩 레고랜드 디스커버리 센터
+                      - generic [ref=e2981]:
+                        - img [ref=e2982]
+                        - generic [ref=e2984]: "5"
+                        - generic [ref=e2985]: (1)
+                      - generic [ref=e2987]: 45,325원
+                      - generic [ref=e2988]: 입장권
+                      - generic [ref=e2990]: 즉시 확정
+                  - generic [ref=e2995] [cursor=pointer]:
+                    - generic [ref=e2996]:
+                      - img "Placeholder Thumbnail" [ref=e2999]
+                      - img [ref=e3004]
+                    - generic [ref=e3006]:
+                      - generic [ref=e3007]: 홍콩 마담 투소 입장권
+                      - generic [ref=e3009]: 43,291원
+                      - generic [ref=e3010]: 입장권
+                      - generic [ref=e3012]: 즉시 확정
+                  - generic [ref=e3017] [cursor=pointer]:
+                    - generic [ref=e3018]:
+                      - img "Placeholder Thumbnail" [ref=e3021]
+                      - img [ref=e3026]
+                    - generic [ref=e3028]:
+                      - generic [ref=e3029]: 홍콩 노아의 방주 입장권
+                      - generic [ref=e3030]:
+                        - img [ref=e3031]
+                        - generic [ref=e3033]: "5"
+                        - generic [ref=e3034]: (2)
+                      - generic [ref=e3036]: 18,907원
+                      - generic [ref=e3037]: 입장권
+                      - generic [ref=e3039]: 즉시 확정
+                  - generic [ref=e3044] [cursor=pointer]:
+                    - generic [ref=e3045]:
+                      - img "Placeholder Thumbnail" [ref=e3048]
+                      - img [ref=e3053]
+                    - generic [ref=e3055]:
+                      - generic [ref=e3056]: 홍콩 모노폴리 드림즈 입장권
+                      - generic [ref=e3058]: 9,895원
+                      - generic [ref=e3059]: 입장권
+                      - generic [ref=e3061]: 즉시 확정
+            - generic [ref=e3063]: "상품 번호 : 5683167"
+        - generic [ref=e3065]:
+          - generic [ref=e3068]: 87,267원~
+          - button "옵션 선택" [ref=e3069] [cursor=pointer]:
+            - generic [ref=e3070]: 옵션 선택
+    - contentinfo [ref=e3072]:
+      - generic [ref=e3073]:
+        - generic [ref=e3074]:
+          - generic [ref=e3075]:
+            - text: 고객지원실 운영안내
+            - list [ref=e3076]:
+              - listitem [ref=e3077]: 채팅상담 연중무휴 24시간 유선상담 연중무휴 09:00-18:00
+              - listitem [ref=e3078]: 유선상담 1670-8208
+            - button "고객지원실" [ref=e3080]:
+              - button "고객지원실" [ref=e3081] [cursor=pointer]:
+                - generic [ref=e3082]: 고객지원실
+          - generic [ref=e3083]:
+            - generic [ref=e3084]:
+              - text: 소개
+              - list [ref=e3085]:
+                - listitem [ref=e3086]:
+                  - link "회사소개" [ref=e3087] [cursor=pointer]:
+                    - /url: https://about.myrealtrip.com
+                - listitem [ref=e3088]:
+                  - link "채용" [ref=e3089] [cursor=pointer]:
+                    - /url: https://career.myrealtrip.com
+                - listitem [ref=e3090]:
+                  - link "공고" [ref=e3091] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/announcement
+            - generic [ref=e3092]:
+              - text: 파트너
+              - list [ref=e3093]:
+                - listitem [ref=e3094]:
+                  - link "파트너 홈" [ref=e3095] [cursor=pointer]:
+                    - /url: https://partner.myrealtrip.com/welcome
+                - listitem [ref=e3096]:
+                  - link "제휴 문의" [ref=e3097] [cursor=pointer]:
+                    - /url: mailto:partnership@myrealtrip.com
+                - listitem [ref=e3098]:
+                  - link "광고 문의" [ref=e3099] [cursor=pointer]:
+                    - /url: mailto:ad@myrealtrip.com
+            - generic [ref=e3100]:
+              - text: 지원
+              - list [ref=e3101]:
+                - listitem [ref=e3102]:
+                  - link "공지사항" [ref=e3103] [cursor=pointer]:
+                    - /url: https://support.myrealtrip.com/notice
+                - listitem [ref=e3104]:
+                  - link "문의내역" [ref=e3105] [cursor=pointer]:
+                    - /url: https://support.myrealtrip.com/inquiry
+                - listitem [ref=e3106]:
+                  - link "최저가 보장제" [ref=e3107] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/best_price
+        - generic [ref=e3108]:
+          - generic [ref=e3109]:
+            - generic [ref=e3110]:
+              - link "이용 약관" [ref=e3112] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/policyAgreement
+              - link "개인정보 처리방침" [ref=e3114] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/common/privacy
+              - link "취소 및 환불 정책" [ref=e3116] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/common/cancel
+              - link "개발자 센터" [ref=e3118] [cursor=pointer]:
+                - /url: https://docs.myrealtrip.com/#/api/intro
+            - generic [ref=e3119]:
+              - generic [ref=e3120]:
+                - link "icon 페이스북으로 이동하기" [ref=e3122] [cursor=pointer]:
+                  - /url: https://www.facebook.com/myRealTrip
+                  - img "icon" [ref=e3123]
+                  - generic [ref=e3124]: 페이스북으로 이동하기
+                - link "icon 네이버 블로그로 이동하기" [ref=e3126] [cursor=pointer]:
+                  - /url: https://blog.naver.com/myrealtrip
+                  - img "icon" [ref=e3127]
+                  - generic [ref=e3128]: 네이버 블로그로 이동하기
+                - link "icon 인스타그램으로 이동하기" [ref=e3130] [cursor=pointer]:
+                  - /url: https://instagram.com/myrealtrip
+                  - img "icon" [ref=e3131]
+                  - generic [ref=e3132]: 인스타그램으로 이동하기
+                - link "icon 유투브로 이동하기" [ref=e3134] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UC2oeFByIBQjkKXmQjE0U5rQ
+                  - img "icon" [ref=e3135]
+                  - generic [ref=e3136]: 유투브로 이동하기
+              - generic [ref=e3138]:
+                - link "icon" [ref=e3140] [cursor=pointer]:
+                  - /url: https://itunes.apple.com/app/id1141745032
+                  - img "icon" [ref=e3141]
+                - link "icon" [ref=e3143] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.mrt.ducati
+                  - img "icon" [ref=e3144]
+            - button "icon 한국어 icon" [ref=e3146] [cursor=pointer]:
+              - img "icon" [ref=e3147]
+              - generic [ref=e3148]: 한국어
+              - img "icon" [ref=e3149]
+          - generic [ref=e3150]:
+            - paragraph [ref=e3152]:
+              - text: 상호명 (주)마이리얼트립 | 대표 이동건 | 개인정보보호책임자 김형석 | 사업자등록번호 209-81-55339
+              - link "사업자정보확인" [ref=e3154] [cursor=pointer]:
+                - /url: https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2098155339
+              - text: "| 통신판매업신고번호 2019-서울서초-0260 | 관광사업등록번호 : 제2019-3호"
+              - text: 주소 서울특별시 서초구 강남대로 311, 18층 1729호(서초동, 한화생명보험빌딩)
+              - text: 이메일 help@myrealtrip.com | 입점 문의 partnership@myrealtrip.com
+              - text: "마케팅파트너/크리에이터 문의 marketing_partner@myrealtrip.com | 마케팅 문의 marketing@myrealtrip.com | 호스팅 서비스 제공자 : (주)마이리얼트립"
+              - text: "자사는 서울특별시관광협회 공제영업보증보험에 가입되어 있습니다. 영업보증보험: 1.5억원 / 기획여행보증: 2억원"
+              - text: 마이리얼트립은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 상품·거래정보 및 거래에 대하여 책임을 지지않습니다.
+              - text: 부득이한 사정에 의해 확정된 여행일정이 변경되는 경우 여행자의 사전 동의를 받습니다.
+              - text: (주)마이리얼트립이 소유, 운영, 관리하는 웹사이트 및 앱 내의 상품, 판매자 정보, 이벤트 정보, 디자인, UI 등을 포함한 일체의 콘텐츠에 대한 무단 복제, 배포, 전송, 스크래핑 등의 행위는 저작권법 등 관련 법령에 의하여 엄격히 금지됩니다.
+            - button "ISMS-P" [ref=e3156] [cursor=pointer]:
+              - img "ISMS-P" [ref=e3157]
+  - dialog
+  - alert [ref=e3158]

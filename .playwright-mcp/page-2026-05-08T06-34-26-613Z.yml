@@ -1,0 +1,899 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - navigation [ref=e5]:
+        - button "myrealtrip" [ref=e7] [cursor=pointer]:
+          - img "myrealtrip" [ref=e8]
+        - generic [ref=e11]:
+          - img "icon" [ref=e13] [cursor=pointer]
+          - textbox "모두가 극찬하는 \"파크로쉬\" 단독 특가" [ref=e14]
+        - generic [ref=e16]:
+          - button "파트너 로그인" [ref=e18] [cursor=pointer]
+          - button "로그인 및 회원가입" [ref=e20] [cursor=pointer]
+      - navigation [ref=e22]:
+        - generic [ref=e23]:
+          - link "홈" [ref=e25] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com
+            - generic [ref=e26]: 홈
+          - link "할인" [ref=e28] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/promotions/benefit
+            - generic [ref=e29]: 할인
+          - link "항공" [ref=e31] [cursor=pointer]:
+            - /url: https://flights.myrealtrip.com/
+            - generic [ref=e32]: 항공
+          - link "국내 숙소" [ref=e34] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=domestic
+            - generic [ref=e35]: 국내 숙소
+          - link "해외 숙소" [ref=e37] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=overseas
+            - generic [ref=e38]: 해외 숙소
+          - link "해외여행보험" [ref=e40] [cursor=pointer]:
+            - /url: https://direct.samsungfire.com/vd/overture_index.jsp?OTK=F2511AF0514
+            - generic [ref=e41]: 해외여행보험
+          - link "패키지" [ref=e43] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/pkc
+            - generic [ref=e44]: 패키지
+          - link "한인민박" [ref=e46] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=minbak
+            - generic [ref=e47]: 한인민박
+          - link "투어·티켓" [ref=e49] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/experiences
+            - generic [ref=e50]: 투어·티켓
+          - button "더보기 icon" [ref=e52] [cursor=pointer]:
+            - generic [ref=e53]: 더보기
+            - img "icon" [ref=e54]
+    - main [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e60]:
+            - button [ref=e62] [cursor=pointer]:
+              - img [ref=e63]
+            - button [ref=e66] [cursor=pointer]:
+              - img [ref=e67]
+          - generic [ref=e72]: (이시가키섬/한국어대응) 환상의 섬 하마지마 상륙&산호초 보트스노클링
+          - generic [ref=e74]:
+            - button [ref=e76] [cursor=pointer]:
+              - img [ref=e77]
+            - img [ref=e83] [cursor=pointer]
+            - button [ref=e86] [cursor=pointer]:
+              - img [ref=e87]
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - button "일본" [ref=e92] [cursor=pointer]
+              - img [ref=e93]
+              - button "이시가키" [ref=e95] [cursor=pointer]
+            - heading "(이시가키섬/한국어대응) 환상의 섬 하마지마 상륙&산호초 보트스노클링" [level=1] [ref=e96]
+          - generic [ref=e100]:
+            - button "저장" [ref=e105] [cursor=pointer]:
+              - img [ref=e109]
+              - generic [ref=e111]: 저장
+            - button "문의" [ref=e115] [cursor=pointer]:
+              - generic [ref=e116]: 문의
+            - button "코스" [ref=e120] [cursor=pointer]:
+              - generic [ref=e121]: 코스
+            - button "만나는시간" [ref=e125] [cursor=pointer]:
+              - generic [ref=e126]: 만나는시간
+            - button "만나는장소" [ref=e130] [cursor=pointer]:
+              - generic [ref=e131]: 만나는장소
+            - button "포함·불포함사항" [ref=e135] [cursor=pointer]:
+              - generic [ref=e136]: 포함·불포함사항
+            - button "자주묻는질문" [ref=e140] [cursor=pointer]:
+              - generic [ref=e141]: 자주묻는질문
+            - button "환불정책" [ref=e145] [cursor=pointer]:
+              - generic [ref=e146]: 환불정책
+            - button "공유" [ref=e150] [cursor=pointer]:
+              - generic [ref=e151]: 공유
+          - generic [ref=e155]:
+            - img "Placeholder Thumbnail" [ref=e169] [cursor=pointer]
+            - img "Placeholder Thumbnail" [ref=e176] [cursor=pointer]
+            - generic [ref=e179]:
+              - img "Placeholder Thumbnail" [ref=e183] [cursor=pointer]
+              - img "Placeholder Thumbnail" [ref=e187] [cursor=pointer]
+            - img "Placeholder Thumbnail" [ref=e194] [cursor=pointer]
+            - img "Placeholder Thumbnail" [ref=e201] [cursor=pointer]
+          - generic [ref=e202]:
+            - generic [ref=e205]: 최소 인원 2명
+            - generic [ref=e208]: 3시간 30분 소요
+            - generic [ref=e211]: 한국어
+        - generic [ref=e212]:
+          - generic [ref=e215] [cursor=pointer]: 상품소개
+          - generic [ref=e219] [cursor=pointer]: 코스
+          - generic [ref=e222] [cursor=pointer]: 포함·불포함
+          - generic [ref=e225] [cursor=pointer]: 이용안내
+          - generic [ref=e228] [cursor=pointer]: 필수확인사항
+          - generic [ref=e231] [cursor=pointer]: 취소·환불
+          - generic [ref=e234] [cursor=pointer]: FAQ
+        - generic [ref=e235]:
+          - generic [ref=e238]:
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - img "주식회사 세루리안블루" [ref=e241] [cursor=pointer]
+                - generic [ref=e242]:
+                  - button "주식회사 세루리안블루" [ref=e244] [cursor=pointer]:
+                    - generic [ref=e245]: 주식회사 세루리안블루
+                  - button "오키나와 현지 옵션 투어 십여년간의 경력과 노하우로 여러분들의 목적과 일정에 맞추어 현지 투어를 안내해 드려요. 스노클링, 다이빙 등 각종 마린스포츠는 물론, 당일치기 섬 투어, 버스투어, 프라이빗 크루저 대절까지! 세루리안 블루와 함께 또 다른 오키나와를 즐겨보세요!!" [ref=e246] [cursor=pointer]:
+                    - generic [ref=e247]: 오키나와 현지 옵션 투어 십여년간의 경력과 노하우로 여러분들의 목적과 일정에 맞추어 현지 투어를 안내해 드려요. 스노클링, 다이빙 등 각종 마린스포츠는 물론, 당일치기 섬 투어, 버스투어, 프라이빗 크루저 대절까지! 세루리안 블루와 함께 또 다른 오키나와를 즐겨보세요!!
+                  - button "판매자 정보" [ref=e248] [cursor=pointer]:
+                    - generic [ref=e249]: 판매자 정보
+              - button "문의하기" [ref=e250] [cursor=pointer]:
+                - generic [ref=e251]: 문의하기
+            - generic [ref=e258]:
+              - generic [ref=e261]: <예약 전 필수숙지사항>
+              - generic [ref=e264]:
+                - generic [ref=e266]: a. 해당 투어는 오키나와본토에서 1시간 가량 비행기를 타고 가야 하는 이시가키섬에서 진행됩니다. 미숙지로 인한 취소 희망 시, 여행자님의 사정에 따른 취소이기 때문에 마이리얼트립 정책에 따른 수수료가 발생합니다. b. 사진 데이터 등은 무료로 진행되는 서비스 사항입니다. 관련 불만이 접수된 경우, 도움을 드리기 어렵습니다. c. 건강한 만 3~59세까지 이용가능합니다. d. 해양 상황에 따라 집합시간 등 스케줄이 변경될 수 있습니다. 전날 안내를 참고해주세요.
+                - button "... 더보기" [ref=e267] [cursor=pointer]
+          - generic [ref=e268]:
+            - heading "결제 혜택" [level=2] [ref=e269]
+            - generic [ref=e270]:
+              - generic [ref=e271]:
+                - generic [ref=e273] [cursor=pointer]:
+                  - generic [ref=e275]: KB국민카드
+                  - generic [ref=e276]: KB할인팩 결제일 할인 (최대 3만원 할인)
+                  - img [ref=e277]
+                - generic [ref=e281] [cursor=pointer]:
+                  - generic [ref=e283]: 카카오페이
+                  - generic [ref=e284]: 머니 / 삼성카드 최대 6만원 즉시할인
+                  - img [ref=e285]
+                - generic [ref=e289] [cursor=pointer]:
+                  - generic [ref=e291]: 삼성카드
+                  - generic [ref=e292]: 최대 5만원 결제일 할인
+                  - img [ref=e293]
+                - generic [ref=e297] [cursor=pointer]:
+                  - generic [ref=e299]: 현대카드
+                  - generic [ref=e300]: M포인트 10% 사용가능 (최대 15,000 M포인트)
+                  - img [ref=e301]
+                - generic [ref=e305] [cursor=pointer]:
+                  - generic [ref=e307]: 롯데카드
+                  - generic [ref=e308]: 최대 4만원 청구할인
+                  - img [ref=e309]
+                - generic [ref=e313] [cursor=pointer]:
+                  - generic [ref=e315]: 우리카드
+                  - generic [ref=e316]: 꾹 혜택 - 6만원 청구 할인
+                  - img [ref=e317]
+                - generic [ref=e321] [cursor=pointer]:
+                  - generic [ref=e323]: 토스페이
+                  - generic [ref=e324]: 최대 12만원 즉시할인
+                  - img [ref=e325]
+                - generic [ref=e329] [cursor=pointer]:
+                  - generic [ref=e331]: 네이버페이
+                  - generic [ref=e332]: 네이버페이 포인트 최대 5,000원 적립
+                  - img [ref=e333]
+                - generic [ref=e337] [cursor=pointer]:
+                  - generic [ref=e339]: 무이자할부
+                  - generic [ref=e340]: 최대 24개월 무이자 할부 가능
+                  - img [ref=e341]
+              - button "혜택 더보기" [ref=e345] [cursor=pointer]:
+                - generic [ref=e346]: 혜택 더보기
+          - generic [ref=e347]:
+            - heading "상품 소개" [level=2] [ref=e348]
+            - generic [ref=e349]:
+              - separator [ref=e350]
+              - generic [ref=e352]:
+                - generic [ref=e353]:
+                  - text: 📌 투어 소개
+                  - text: 이시가키지마에서 만나볼 수 있는 한국어대응 액티비티!
+                - generic [ref=e354]:
+                  - text: 썰물 때에만 나타나는 하마지마에 상륙해 순백의 모래와 푸른 바다의 대비가 멋진 환상의 경치를 즐겨보세요.
+                  - text: 한국어 대응으로 멋진 사진과 함께 소중한 추억을 남기세요!
+                - generic [ref=e356]: "*하마지마란? 조수가 만들어내는 섬으로 그 형태가 변합니다. 섬의 크기는 최대 약 300m 로 새하얀 모래와 바다만이 펼쳐져 있습니다."
+                - generic [ref=e357]:
+                  - text: ⏰ 투어 시간
+                  - text: 약 3.5-4.5시간
+                  - text: 🌟 추천 포인트
+                  - text: 1. 한국어 대응으로 안심!
+                  - text: 2. 투어중에 촬영한 사진 데이터 선물! 강사님이 인생사진을 남겨드립니다.
+                  - text: 3. 초심자도 환영합니다! 보트 스노클링이지만 비교적 얕은 바다(약 1.5~2m)에서 진행해 만 3~59세의 건강한 분이라면 이용가능하니 가족여행에 추천드려요.
+                  - text: ✅ 유의사항
+                  - text: "- 투어는 자동예약확정이 아닙니다."
+                  - text: "- 투어 전날 최종안내를 보내드립니다."
+                  - text: "- 순환계, 호흡기계질환, 고혈압, 중이염, 천식, 당뇨병, 간장장애 등 특별한 질환을 가지시거나 약을 드시는 분, 숙취, 당일 음주하신 분, 임산부는 참가가 불가합니다. 당일 파악된 경우에도 참가 불가, 취소 불가 이니 양해 부탁드립니다."
+                - generic [ref=e358]: "-배로 편도 40분 정도 이동하는 투어이니 멀미약을 미리 복용해주세요."
+                - generic [ref=e359]: "-우천시에도 파도가 높지 않으면 투어가 진행됩니다. 고객님 판단으로 투어 참가를 희망하지 않을 경우 노쇼처리됩니다."
+                - generic [ref=e360]: "-우천시에는 드론촬영이 어려울 수 있습니다. 사진과 영상은 서비스로 이로 인한 환불 등의 대응은 불가합니다."
+            - button "상품 소개 더보기" [ref=e364] [cursor=pointer]:
+              - generic [ref=e365]: 상품 소개 더보기
+          - generic [ref=e366]:
+            - heading "코스" [level=2] [ref=e367]
+            - generic [ref=e368]:
+              - generic [ref=e372]:
+                - generic [ref=e376] [cursor=pointer]: 오전편
+                - generic [ref=e380] [cursor=pointer]: 오후편
+              - generic [ref=e381]:
+                - generic [ref=e382]:
+                  - img [ref=e385]
+                  - generic [ref=e389]:
+                    - generic [ref=e390]: 집합 및 접수 후 출항
+                    - generic [ref=e392]: 50분 소요
+                    - generic [ref=e393]: 07:40 호텔 도요코인 이시가키지마 정문 앞 집합 항구로 도보 이동 접수 및 안전 교육 08:00 출항
+                - generic [ref=e394]:
+                  - img [ref=e397]
+                  - generic [ref=e401]:
+                    - generic [ref=e402]: 환상의 섬 하마지마 도착
+                    - generic [ref=e404]: 40분 소요
+                    - generic [ref=e405]: 08:30 하마지마 상륙 ~산책 및 촬영~
+            - button "코스 모두 보기" [ref=e409] [cursor=pointer]:
+              - generic [ref=e410]: 코스 모두 보기
+          - generic [ref=e414]:
+            - generic [ref=e416]: "'스노클링·다이빙' 인기 상품"
+            - generic [ref=e419]:
+              - generic [ref=e424] [cursor=pointer]:
+                - generic [ref=e425]:
+                  - img "Placeholder Thumbnail" [ref=e428]
+                  - img [ref=e433]
+                - generic [ref=e435]:
+                  - generic [ref=e436]: 이시가키 만타 반나절 보트 투어 스노쿨링
+                  - generic [ref=e437]:
+                    - img [ref=e438]
+                    - generic [ref=e440]: "5"
+                    - generic [ref=e441]: (15)
+                  - generic [ref=e443]: 129,900원
+                  - generic [ref=e444]: 액티비티
+              - generic [ref=e449] [cursor=pointer]:
+                - generic [ref=e450]:
+                  - img "Placeholder Thumbnail" [ref=e453]
+                  - img [ref=e458]
+                - generic [ref=e460]:
+                  - generic [ref=e461]: "[푸른동굴 + 바다거북 스노클링 + 송영]이시가키 푸른동굴 바다거북 스노쿨링 차량/사진포함"
+                  - generic [ref=e462]:
+                    - img [ref=e463]
+                    - generic [ref=e465]: "4.1"
+                    - generic [ref=e466]: (7)
+                  - generic [ref=e468]: 72,900원
+                  - generic [ref=e469]: 액티비티
+                  - generic [ref=e471]: 즉시 확정
+              - generic [ref=e476] [cursor=pointer]:
+                - generic [ref=e477]:
+                  - img "Placeholder Thumbnail" [ref=e480]
+                  - img [ref=e485]
+                - generic [ref=e487]:
+                  - generic [ref=e488]: (이시가키섬/픽업포함) 이시가키 바다거북 스노클링&푸른동굴 투어
+                  - generic [ref=e489]:
+                    - img [ref=e490]
+                    - generic [ref=e492]: "5"
+                    - generic [ref=e493]: (3)
+                  - generic [ref=e495]: 59,012원
+                  - generic [ref=e496]: 액티비티
+              - generic [ref=e501] [cursor=pointer]:
+                - generic [ref=e502]:
+                  - img "Placeholder Thumbnail" [ref=e505]
+                  - img [ref=e510]
+                - generic [ref=e512]:
+                  - generic [ref=e513]: (이시가키섬/픽업포함) 이시가키 푸른동굴 스노클링&카비라베이 SUP or 카누
+                  - generic [ref=e514]:
+                    - img [ref=e515]
+                    - generic [ref=e517]: "5"
+                    - generic [ref=e518]: (2)
+                  - generic [ref=e520]: 137,033원
+                  - generic [ref=e521]: 액티비티
+                  - generic [ref=e523]: 즉시 확정
+              - generic [ref=e528] [cursor=pointer]:
+                - generic [ref=e529]:
+                  - img "Placeholder Thumbnail" [ref=e532]
+                  - img [ref=e537]
+                - generic [ref=e539]:
+                  - generic [ref=e540]: (이시가키섬/픽업포함) 이시가키 환상의 섬 스노클링+맹그로브 SUP or 카누
+                  - generic [ref=e542]: 142,513원
+                  - generic [ref=e543]: 액티비티
+              - generic [ref=e548] [cursor=pointer]:
+                - generic [ref=e549]:
+                  - img "Placeholder Thumbnail" [ref=e552]
+                  - img [ref=e557]
+                - generic [ref=e559]:
+                  - generic [ref=e560]: (이시가키섬) 이시가키지마 만타+바다거북 반나절 스노클링
+                  - generic [ref=e562]: 106,637원
+                  - generic [ref=e563]: 액티비티
+              - generic [ref=e568] [cursor=pointer]:
+                - generic [ref=e569]:
+                  - img "Placeholder Thumbnail" [ref=e572]
+                  - img [ref=e577]
+                - generic [ref=e579]:
+                  - generic [ref=e580]: (이리오모테섬/픽업포함) 기적의 바라스섬 스노클링
+                  - generic [ref=e582]: 75,645원
+                  - generic [ref=e583]: 액티비티
+                  - generic [ref=e585]: 즉시 확정
+              - generic [ref=e590] [cursor=pointer]:
+                - generic [ref=e591]:
+                  - img "Placeholder Thumbnail" [ref=e594]
+                  - img [ref=e599]
+                - generic [ref=e601]:
+                  - generic [ref=e602]: "[이시가키지마] 스쿠버 다이빙 1일 참가 상품 (2DIVE or 3DIVE)"
+                  - generic [ref=e604]: 242,000원
+                  - generic [ref=e605]: 액티비티
+              - generic [ref=e610] [cursor=pointer]:
+                - generic [ref=e611]:
+                  - img "Placeholder Thumbnail" [ref=e614]
+                  - img [ref=e619]
+                - generic [ref=e621]:
+                  - generic [ref=e622]: "[이시가키지마] 환상의 섬 상륙 + 체험 다이빙 반나절 투어"
+                  - generic [ref=e624]: 210,000원
+                  - generic [ref=e625]: 액티비티
+                  - generic [ref=e627]: 무료취소
+              - generic [ref=e632] [cursor=pointer]:
+                - generic [ref=e633]:
+                  - img "Placeholder Thumbnail" [ref=e636]
+                  - img [ref=e641]
+                - generic [ref=e643]:
+                  - generic [ref=e644]: "[이시가키] 카비라만 (패들보드 OR 카누 선택 1) + 블루케이브 스노클링 1일 투어"
+                  - generic [ref=e646]: 180,000원
+                  - generic [ref=e647]: 액티비티
+          - generic [ref=e648]:
+            - heading "포함 · 불포함 사항" [level=2] [ref=e649]
+            - generic [ref=e651]:
+              - generic [ref=e652]:
+                - heading "포함되어 있어요" [level=3] [ref=e653]
+                - generic [ref=e656]:
+                  - img "icon" [ref=e657]
+                  - paragraph [ref=e659]: "- 보트 승선비 - 스노클링 투어 참가비 *오전:2포인트 오후: 1포인트* - 스노클링 장비 렌탈 - 상비약 - 물 - 사진 데이터"
+              - generic [ref=e660]:
+                - heading "불포함되어 있어요" [level=3] [ref=e661]
+                - generic [ref=e664]:
+                  - img "icon" [ref=e665]
+                  - paragraph [ref=e667]: "- 수영복 - 타올 - 젖어도 되는 신발 - 음료 등"
+          - generic [ref=e668]:
+            - heading "이용 안내" [level=2] [ref=e669]
+            - generic [ref=e671]:
+              - generic [ref=e672]:
+                - heading "만나는시간" [level=3] [ref=e673]
+                - paragraph [ref=e678]: 오전편 07:40 집합 오후편 12:40 집합
+              - generic [ref=e679]:
+                - heading "만나는장소" [level=3] [ref=e680]
+                - generic [ref=e681]:
+                  - generic [ref=e682]:
+                    - paragraph [ref=e684]: 토요코인 오키나와 이시가키지마
+                    - paragraph [ref=e686]: 호텔 도요코인 이시가키지마 정문 앞 집합
+                  - button "지도 보기" [ref=e687] [cursor=pointer]:
+                    - generic [ref=e688]: 지도 보기
+          - generic [ref=e689]:
+            - heading "필수 확인 사항" [level=2] [ref=e690]
+            - generic [ref=e696]:
+              - img "icon" [ref=e697]
+              - paragraph [ref=e699]: ※날씨, 해양상황에 따라 중지될 수 있습니다. 중지될 경우 전액 환불 해 드립니다. ※집합시간 및 스케줄은 해양상황에 따라 변경될 수 있습니다. 집합시간 변경시 전날 저녁에 카톡으로 집합시간 연락 드립니다. ※다른팀과 공동으로 진행하는 투어입니다. ※픽업 서비스는 없으며, 현지 집합입니다. ※ 우천시에도 파도가 높지 않은 이상 투어는 진행 되며, 고객님 판단으로 참가 안하시는 경우에는 환불 및 취소가 어렵습니다. ※ 우천시에는 드론 촬영이 어려울 수 있습니다. 사진&영상은 무료 서비스 사항으로 이와 관련해 불만이 접수된 경우, 도움을 드리기 어렵습니다. ※순환계, 호흡기계질환, 고혈압, 중이염, 천식, 당뇨병, 간장장애 등 특별한 질환을 가지시거나 약을 드시는 분, 숙취, 당일 음주하신 분, 임산부 는 참가가 불가합니다. 당일 파악된 경우에도 참가 및 취소가 어려운 점 미리 양해 부탁드립니다. ※배로 편도 40분 정도 이동하는 투어입니다. 멀미약은 미리 챙겨주시기 바랍니다. ※수영복은 미리 입고 집합해 주시고, 타올, 젖어도 되는 신발을 지참해주세요. ※안전을 위해 구명조끼 필착입니다. ※개별 여행자 보험 가입을 권장 드립니다. ※최소 모객 인원 미만 모객 시 투어가 취소 될 수 있습니다.
+            - button "필수 확인 사항 모두 보기" [ref=e702] [cursor=pointer]:
+              - generic [ref=e703]: 필수 확인 사항 모두 보기
+          - generic [ref=e704]:
+            - heading "취소/환불 규정" [level=2] [ref=e705]
+            - generic [ref=e711]:
+              - img "icon" [ref=e712]
+              - paragraph [ref=e714]: "본 상품은 국외여행 표준약관 제6조(특약)에 따라 일반 소비자분쟁해결기준과 다른 취소수수료가 적용됩니다. 예약 전 취소 규정을 반드시 확인해 주세요. - 여행시작 7일 전까지(~7) 통보시 : 여행 요금 전액 환불 - 여행시작 3일 전까지(6~3) 통보시 : 상품 요금의 50% 공제 - 여행시작 당일까지 (2~당일) 통보시 : 취소/환불 불가 ※ 여행일은 현지 시각 기준입니다."
+          - generic [ref=e720]:
+            - heading "자주 묻는 질문" [level=2] [ref=e721]
+            - generic [ref=e723]:
+              - heading "1. 스노클링 해본 적 없는데 괜찮을까요?" [level=3] [ref=e725]:
+                - button "1. 스노클링 해본 적 없는데 괜찮을까요?" [ref=e726] [cursor=pointer]:
+                  - generic [ref=e727]: 1. 스노클링 해본 적 없는데 괜찮을까요?
+                  - img [ref=e729]
+              - heading "2. 장비는 어떤 걸 빌려주시나요?" [level=3] [ref=e732]:
+                - button "2. 장비는 어떤 걸 빌려주시나요?" [ref=e733] [cursor=pointer]:
+                  - generic [ref=e734]: 2. 장비는 어떤 걸 빌려주시나요?
+                  - img [ref=e736]
+              - heading "3. 드론 촬영은 해주시나요?" [level=3] [ref=e739]:
+                - button "3. 드론 촬영은 해주시나요?" [ref=e740] [cursor=pointer]:
+                  - generic [ref=e741]: 3. 드론 촬영은 해주시나요?
+                  - img [ref=e743]
+              - heading "4. 구명조끼는 꼭 착용해야 하나요?" [level=3] [ref=e746]:
+                - button "4. 구명조끼는 꼭 착용해야 하나요?" [ref=e747] [cursor=pointer]:
+                  - generic [ref=e748]: 4. 구명조끼는 꼭 착용해야 하나요?
+                  - img [ref=e750]
+          - generic [ref=e752]:
+            - generic [ref=e754]:
+              - generic [ref=e755]:
+                - generic [ref=e757]: 여행자님을 위한 추천 상품
+                - generic [ref=e760]:
+                  - generic [ref=e765] [cursor=pointer]:
+                    - generic [ref=e766]:
+                      - img "Placeholder Thumbnail" [ref=e769]
+                      - img [ref=e774]
+                    - generic [ref=e776]:
+                      - generic [ref=e777]: "[공식/지정일] 홍콩 디즈니랜드 입장권 (1일권/2일권/패스트패스/조기입장권/밀쿠폰)"
+                      - generic [ref=e778]:
+                        - img [ref=e779]
+                        - generic [ref=e781]: "4.4"
+                        - generic [ref=e782]: (54)
+                      - generic [ref=e784]: 87,337원
+                      - generic [ref=e785]: 입장권
+                      - generic [ref=e787]: 즉시 확정
+                  - generic [ref=e792] [cursor=pointer]:
+                    - generic [ref=e793]:
+                      - img "Placeholder Thumbnail" [ref=e796]
+                      - img [ref=e801]
+                    - generic [ref=e803]:
+                      - generic [ref=e804]: "[QR 티켓] 홍콩 디즈니랜드 입장권"
+                      - generic [ref=e806]: 93,633원
+                      - generic [ref=e807]: 입장권
+                  - generic [ref=e812] [cursor=pointer]:
+                    - generic [ref=e813]:
+                      - img "Placeholder Thumbnail" [ref=e816]
+                      - img [ref=e821]
+                    - generic [ref=e823]:
+                      - generic [ref=e824]: LA디즈니랜드 캘리포니아 1일권 입장권 (+라이트닝 멀티패스 & 파크호퍼)
+                      - generic [ref=e825]:
+                        - img [ref=e826]
+                        - generic [ref=e828]: "4.8"
+                        - generic [ref=e829]: (310)
+                      - generic [ref=e830]:
+                        - generic [ref=e831]: 5%
+                        - generic [ref=e832]: 125,400원
+                      - generic [ref=e833]: 입장권
+                      - generic [ref=e835]: 즉시 확정
+                  - generic [ref=e840] [cursor=pointer]:
+                    - generic [ref=e841]:
+                      - img "Placeholder Thumbnail" [ref=e844]
+                      - img [ref=e849]
+                    - generic [ref=e851]:
+                      - generic [ref=e852]: LA디즈니랜드 캘리포니아 2일권 입장권 (+라이트닝 멀티패스 & 파크호퍼)
+                      - generic [ref=e853]:
+                        - img [ref=e854]
+                        - generic [ref=e856]: "4.8"
+                        - generic [ref=e857]: (131)
+                      - generic [ref=e858]:
+                        - generic [ref=e859]: 5%
+                        - generic [ref=e860]: 399,403원
+                      - generic [ref=e861]: 입장권
+                      - generic [ref=e863]: 최저가보장제
+                  - generic [ref=e868] [cursor=pointer]:
+                    - generic [ref=e869]:
+                      - img "Placeholder Thumbnail" [ref=e872]
+                      - img [ref=e877]
+                    - generic [ref=e879]:
+                      - generic [ref=e880]: "[겨울왕국 얼리버드] 홍콩 디즈니랜드 조기 입장권 (얼리 파크인)"
+                      - generic [ref=e881]:
+                        - img [ref=e882]
+                        - generic [ref=e884]: "4.8"
+                        - generic [ref=e885]: (11)
+                      - generic [ref=e887]: 38,190원
+                      - generic [ref=e888]: 입장권
+                      - generic [ref=e890]: 즉시 확정
+                  - generic [ref=e895] [cursor=pointer]:
+                    - generic [ref=e896]:
+                      - img "Placeholder Thumbnail" [ref=e899]
+                      - img [ref=e904]
+                    - generic [ref=e906]:
+                      - generic [ref=e907]: "[1시간] 한국인 작가 - 홍콩 디즈니랜드에서 인생샷 남기기 (홍콩 디즈니 스냅)"
+                      - generic [ref=e908]:
+                        - img [ref=e909]
+                        - generic [ref=e911]: "5"
+                        - generic [ref=e912]: (25)
+                      - generic [ref=e914]: 30,000원
+                      - generic [ref=e915]: 입장권
+                      - generic [ref=e917]: 최저가보장제
+                  - generic [ref=e922] [cursor=pointer]:
+                    - generic [ref=e923]:
+                      - img "Placeholder Thumbnail" [ref=e926]
+                      - img [ref=e931]
+                    - generic [ref=e933]:
+                      - generic [ref=e934]: "[로스앤젤레스] 유니버설 스튜디오 할리우드 일반 입장 티켓"
+                      - generic [ref=e935]:
+                        - img [ref=e936]
+                        - generic [ref=e938]: "4.4"
+                        - generic [ref=e939]: (126)
+                      - generic [ref=e941]: 142,827원
+                      - generic [ref=e942]: 입장권
+                      - generic [ref=e944]: 즉시 확정
+                  - generic [ref=e949] [cursor=pointer]:
+                    - generic [ref=e950]:
+                      - img "Placeholder Thumbnail" [ref=e953]
+                      - img [ref=e958]
+                    - generic [ref=e960]:
+                      - generic [ref=e961]: LA 유니버설 스튜디오 할리우드 입장권 (1일권, 1+1 2일권, 익스프레스, VIP)
+                      - generic [ref=e962]:
+                        - img [ref=e963]
+                        - generic [ref=e965]: "4.8"
+                        - generic [ref=e966]: (1691)
+                      - generic [ref=e967]:
+                        - generic [ref=e968]: 10%
+                        - generic [ref=e969]: 107,460원
+                      - generic [ref=e970]: 입장권
+                      - generic [ref=e972]: 즉시 확정
+                  - generic [ref=e977] [cursor=pointer]:
+                    - generic [ref=e978]:
+                      - img "Placeholder Thumbnail" [ref=e981]
+                      - img [ref=e986]
+                    - generic [ref=e988]:
+                      - generic [ref=e989]: 오션 파크 홍콩
+                      - generic [ref=e990]:
+                        - img [ref=e991]
+                        - generic [ref=e993]: "4.7"
+                        - generic [ref=e994]: (40)
+                      - generic [ref=e996]: 18,026원
+                      - generic [ref=e997]: 입장권
+                      - generic [ref=e999]: 즉시 확정
+                  - generic [ref=e1004] [cursor=pointer]:
+                    - generic [ref=e1005]:
+                      - img "Placeholder Thumbnail" [ref=e1008]
+                      - img [ref=e1013]
+                    - generic [ref=e1015]:
+                      - generic [ref=e1016]: "[조기입장무료] 홍콩 디즈니랜드 패밀리 티켓 (성인1+아동/시니어1)"
+                      - generic [ref=e1018]: 208,097원
+                      - generic [ref=e1019]: 입장권
+                      - generic [ref=e1021]: 즉시 확정
+                  - generic [ref=e1026] [cursor=pointer]:
+                    - generic [ref=e1027]:
+                      - img "Placeholder Thumbnail" [ref=e1030]
+                      - img [ref=e1035]
+                    - generic [ref=e1037]:
+                      - generic [ref=e1038]: "[로스앤젤레스] 워너브라더스 스튜디오 투어 + 프렌즈 센트럴 퍼크 세트 체험"
+                      - generic [ref=e1039]:
+                        - img [ref=e1040]
+                        - generic [ref=e1042]: "4.7"
+                        - generic [ref=e1043]: (150)
+                      - generic [ref=e1045]: 116,974원
+                      - generic [ref=e1046]: 입장권
+                      - generic [ref=e1048]: 즉시 확정
+                  - generic [ref=e1053] [cursor=pointer]:
+                    - generic [ref=e1054]:
+                      - img "Placeholder Thumbnail" [ref=e1057]
+                      - img [ref=e1062]
+                    - generic [ref=e1064]:
+                      - generic [ref=e1065]: LA디즈니랜드 캘리포니아 3일권 입장권 (+라이트닝 멀티패스 & 파크호퍼)
+                      - generic [ref=e1066]:
+                        - img [ref=e1067]
+                        - generic [ref=e1069]: "5"
+                        - generic [ref=e1070]: (3)
+                      - generic [ref=e1071]:
+                        - generic [ref=e1072]: 5%
+                        - generic [ref=e1073]: 513,304원
+                      - generic [ref=e1074]: 입장권
+                      - generic [ref=e1076]: 최저가보장제
+                  - generic [ref=e1081] [cursor=pointer]:
+                    - generic [ref=e1082]:
+                      - img "Placeholder Thumbnail" [ref=e1085]
+                      - img [ref=e1090]
+                    - generic [ref=e1092]:
+                      - generic [ref=e1093]: "[2시간] 한국인 작가 - 홍콩 디즈니 랜드에서 인생샷 남기기 (홍콩 디즈니 스냅)"
+                      - generic [ref=e1094]:
+                        - img [ref=e1095]
+                        - generic [ref=e1097]: "4.9"
+                        - generic [ref=e1098]: (12)
+                      - generic [ref=e1100]: 43,000원
+                      - generic [ref=e1101]: 입장권
+                      - generic [ref=e1103]: 최저가보장제
+                  - generic [ref=e1108] [cursor=pointer]:
+                    - generic [ref=e1109]:
+                      - img "Placeholder Thumbnail" [ref=e1112]
+                      - img [ref=e1117]
+                    - generic [ref=e1119]:
+                      - generic [ref=e1120]: 홍콩 빅토리아 피크 피크트램 & 스카이 테라스428 입장권 티켓
+                      - generic [ref=e1121]:
+                        - img [ref=e1122]
+                        - generic [ref=e1124]: "4.4"
+                        - generic [ref=e1125]: (113)
+                      - generic [ref=e1127]: 9,829원
+                      - generic [ref=e1128]: 입장권
+                      - generic [ref=e1130]: 즉시 확정
+                  - generic [ref=e1135] [cursor=pointer]:
+                    - generic [ref=e1136]:
+                      - img "Placeholder Thumbnail" [ref=e1139]
+                      - img [ref=e1144]
+                    - generic [ref=e1146]:
+                      - generic [ref=e1147]: "[로스앤젤레스] 유니버설 스튜디오 할리우드 일반 입장권 + 익스프레스 패스 옵션"
+                      - generic [ref=e1148]:
+                        - img [ref=e1149]
+                        - generic [ref=e1151]: "4.8"
+                        - generic [ref=e1152]: (108)
+                      - generic [ref=e1154]: 168,922원
+                      - generic [ref=e1155]: 입장권
+                      - generic [ref=e1157]: 즉시 확정
+                  - generic [ref=e1162] [cursor=pointer]:
+                    - generic [ref=e1163]:
+                      - img "Placeholder Thumbnail" [ref=e1166]
+                      - img [ref=e1171]
+                    - generic [ref=e1173]:
+                      - generic [ref=e1174]: "[공식판매처] LAFC 2026 시즌 공식 티켓"
+                      - generic [ref=e1175]:
+                        - img [ref=e1176]
+                        - generic [ref=e1178]: "4.6"
+                        - generic [ref=e1179]: (10)
+                      - generic [ref=e1181]: 103,390원
+                      - generic [ref=e1182]: 입장권
+                  - generic [ref=e1187] [cursor=pointer]:
+                    - generic [ref=e1188]:
+                      - img "Placeholder Thumbnail" [ref=e1191]
+                      - img [ref=e1196]
+                    - generic [ref=e1198]:
+                      - generic [ref=e1199]: 오션파크 입장권 티켓 (홍콩)
+                      - generic [ref=e1200]:
+                        - img [ref=e1201]
+                        - generic [ref=e1203]: "4.5"
+                        - generic [ref=e1204]: (16)
+                      - generic [ref=e1206]: 17,696원
+                      - generic [ref=e1207]: 입장권
+                      - generic [ref=e1209]: 즉시 확정
+                  - generic [ref=e1214] [cursor=pointer]:
+                    - generic [ref=e1215]:
+                      - img "Placeholder Thumbnail" [ref=e1218]
+                      - img [ref=e1223]
+                    - generic [ref=e1225]:
+                      - generic [ref=e1226]: "[QR코드 바로입장] 홍콩 빅토리아 피크 피크트램 & 스카이 테라스 428 입장권 티켓"
+                      - generic [ref=e1227]:
+                        - img [ref=e1228]
+                        - generic [ref=e1230]: "4.3"
+                        - generic [ref=e1231]: (219)
+                      - generic [ref=e1233]: 9,308원
+                      - generic [ref=e1234]: 입장권
+                      - generic [ref=e1236]: 즉시 확정
+                  - generic [ref=e1241] [cursor=pointer]:
+                    - generic [ref=e1242]:
+                      - img "Placeholder Thumbnail" [ref=e1245]
+                      - img [ref=e1250]
+                    - generic [ref=e1252]:
+                      - generic [ref=e1253]: 레고랜드 캘리포니아 1 Day 티켓 - 성인/어린이 공통
+                      - generic [ref=e1255]: 179,631원
+                      - generic [ref=e1256]: 입장권
+                      - generic [ref=e1258]: 즉시 확정
+                  - generic [ref=e1263] [cursor=pointer]:
+                    - generic [ref=e1264]:
+                      - img "Placeholder Thumbnail" [ref=e1267]
+                      - img [ref=e1272]
+                    - generic [ref=e1274]:
+                      - generic [ref=e1275]: 홍콩 레고랜드 디스커버리 센터
+                      - generic [ref=e1276]:
+                        - img [ref=e1277]
+                        - generic [ref=e1279]: "5"
+                        - generic [ref=e1280]: (1)
+                      - generic [ref=e1282]: 45,325원
+                      - generic [ref=e1283]: 입장권
+                      - generic [ref=e1285]: 즉시 확정
+              - generic [ref=e1286]:
+                - generic [ref=e1288]: 오키나와 BEST 상품
+                - generic [ref=e1291]:
+                  - generic [ref=e1296] [cursor=pointer]:
+                    - generic [ref=e1297]:
+                      - img "Placeholder Thumbnail" [ref=e1300]
+                      - img [ref=e1305]
+                    - generic [ref=e1307]:
+                      - generic [ref=e1308]: "[한국어진행] 오키나와 푸른동굴 보트 스노쿨링 후기 맛집! (사진/영상/먹이주기체험 무료)"
+                      - generic [ref=e1309]:
+                        - img [ref=e1310]
+                        - generic [ref=e1312]: "4.9"
+                        - generic [ref=e1313]: (607)
+                      - generic [ref=e1315]: 46,591원
+                      - generic [ref=e1316]: 액티비티
+                      - generic [ref=e1318]: 최저가보장제
+                  - generic [ref=e1323] [cursor=pointer]:
+                    - generic [ref=e1324]:
+                      - img "Placeholder Thumbnail" [ref=e1327]
+                      - img [ref=e1332]
+                    - generic [ref=e1334]:
+                      - generic [ref=e1335]: "[바다거북서식포인트] 오키나와 케라마제도 체험다이빙/스노클링/액티비티1일 자유투어(한국어)"
+                      - generic [ref=e1336]:
+                        - img [ref=e1337]
+                        - generic [ref=e1339]: "4.8"
+                        - generic [ref=e1340]: (457)
+                      - generic [ref=e1342]: 93,182원
+                      - generic [ref=e1343]: 액티비티
+                      - generic [ref=e1345]: 최저가보장제
+                  - generic [ref=e1350] [cursor=pointer]:
+                    - generic [ref=e1351]:
+                      - img "Placeholder Thumbnail" [ref=e1354]
+                      - img [ref=e1359]
+                    - generic [ref=e1361]:
+                      - generic [ref=e1362]: "[한국어진행] 오키나와 푸른동굴 보트 체험 다이빙 (사진촬영 전송 무료 / 후기 맛집! )"
+                      - generic [ref=e1363]:
+                        - img [ref=e1364]
+                        - generic [ref=e1366]: "4.9"
+                        - generic [ref=e1367]: (339)
+                      - generic [ref=e1369]: 101,568원
+                      - generic [ref=e1370]: 액티비티
+                      - generic [ref=e1372]: 최저가보장제
+                  - generic [ref=e1377] [cursor=pointer]:
+                    - generic [ref=e1378]:
+                      - img "Placeholder Thumbnail" [ref=e1381]
+                      - img [ref=e1386]
+                    - generic [ref=e1388]:
+                      - generic [ref=e1389]: "[1인출발확정]한국어가이드_오키나와 북부 투어 : 츄라우미, 만좌모 (수족관 티켓O)"
+                      - generic [ref=e1390]:
+                        - img [ref=e1391]
+                        - generic [ref=e1393]: "4.8"
+                        - generic [ref=e1394]: (813)
+                      - generic [ref=e1396]: 45,000원
+                      - generic [ref=e1397]: 투어
+                  - generic [ref=e1402] [cursor=pointer]:
+                    - generic [ref=e1403]:
+                      - img "Placeholder Thumbnail" [ref=e1406]
+                      - img [ref=e1411]
+                    - generic [ref=e1413]:
+                      - generic [ref=e1414]: "[1명부터출발확정] 오키나와 북부 일일 버스투어 한국인가이드 츄라우미/만좌모포함 대형버스"
+                      - generic [ref=e1415]:
+                        - img [ref=e1416]
+                        - generic [ref=e1418]: "4.9"
+                        - generic [ref=e1419]: (301)
+                      - generic [ref=e1421]: 45,900원
+                      - generic [ref=e1422]: 투어
+                      - generic [ref=e1424]: 즉시 확정
+                  - generic [ref=e1429] [cursor=pointer]:
+                    - generic [ref=e1430]:
+                      - img "Placeholder Thumbnail" [ref=e1433]
+                      - img [ref=e1438]
+                    - generic [ref=e1440]:
+                      - generic [ref=e1441]: 오키나와 츄라우미 수족관 입장권
+                      - generic [ref=e1442]:
+                        - img [ref=e1443]
+                        - generic [ref=e1445]: "4.8"
+                        - generic [ref=e1446]: (399)
+                      - generic [ref=e1448]: 6,730원
+                      - generic [ref=e1449]: 입장권
+                      - generic [ref=e1451]: 즉시 확정
+                  - generic [ref=e1456] [cursor=pointer]:
+                    - generic [ref=e1457]:
+                      - img "Placeholder Thumbnail" [ref=e1460]
+                      - img [ref=e1465]
+                    - generic [ref=e1467]:
+                      - generic [ref=e1468]: 케라마제도 치비시 바다거북 스노쿨링 & 마린액티비티 (나하시내 픽업/드랍 무료제공)
+                      - generic [ref=e1469]:
+                        - img [ref=e1470]
+                        - generic [ref=e1472]: "4.3"
+                        - generic [ref=e1473]: (38)
+                      - generic [ref=e1475]: 51,250원
+                      - generic [ref=e1476]: 액티비티
+                  - generic [ref=e1481] [cursor=pointer]:
+                    - generic [ref=e1482]:
+                      - img "Placeholder Thumbnail" [ref=e1485]
+                      - img [ref=e1490]
+                    - generic [ref=e1492]:
+                      - generic [ref=e1493]: "[한국인 스텝 상주] 오키나와 민나섬 보트 스노쿨링 & 마린 액티비티 & 파라세일링"
+                      - generic [ref=e1494]:
+                        - img [ref=e1495]
+                        - generic [ref=e1497]: "4"
+                        - generic [ref=e1498]: (29)
+                      - generic [ref=e1500]: 31,449원
+                      - generic [ref=e1501]: 액티비티
+                  - generic [ref=e1506] [cursor=pointer]:
+                    - generic [ref=e1507]:
+                      - img "Placeholder Thumbnail" [ref=e1510]
+                      - img [ref=e1515]
+                    - generic [ref=e1517]:
+                      - generic [ref=e1518]: "[4/11~11/15한정] 케라마제도 스노클링 【반나절】 픽/드랍포함(나하시일부장소한정)"
+                      - generic [ref=e1519]:
+                        - img [ref=e1520]
+                        - generic [ref=e1522]: "4.5"
+                        - generic [ref=e1523]: (103)
+                      - generic [ref=e1525]: 80,000원
+                      - generic [ref=e1526]: 액티비티
+                  - generic [ref=e1531] [cursor=pointer]:
+                    - generic [ref=e1532]:
+                      - img "Placeholder Thumbnail" [ref=e1535]
+                      - img [ref=e1540]
+                    - generic [ref=e1542]:
+                      - generic [ref=e1543]: 일본 이심 5G 소프트뱅크 eSIM 무제한 데이터 핫스팟 e심
+                      - generic [ref=e1544]:
+                        - img [ref=e1545]
+                        - generic [ref=e1547]: "4.6"
+                        - generic [ref=e1548]: (21)
+                      - generic [ref=e1550]: 3,200원
+                      - generic [ref=e1551]: 유심·와이파이
+                      - generic [ref=e1553]: 최저가보장제
+                  - generic [ref=e1558] [cursor=pointer]:
+                    - generic [ref=e1559]:
+                      - img "Placeholder Thumbnail" [ref=e1562]
+                      - img [ref=e1567]
+                    - generic [ref=e1569]:
+                      - generic [ref=e1570]: "[유투어버스] 오키나와 버스투어 북부 1일 츄라우미 티켓포함 아메리칸빌리지 자유여행"
+                      - generic [ref=e1571]:
+                        - img [ref=e1572]
+                        - generic [ref=e1574]: "4.8"
+                        - generic [ref=e1575]: (998)
+                      - generic [ref=e1577]: 49,900원
+                      - generic [ref=e1578]: 투어
+                  - generic [ref=e1583] [cursor=pointer]:
+                    - generic [ref=e1584]:
+                      - img "Placeholder Thumbnail" [ref=e1587]
+                      - img [ref=e1592]
+                    - generic [ref=e1594]:
+                      - generic [ref=e1595]: (나하출발/픽업/한국어대응) 가볍게 떠나는 케라마 반나절 보트 스노클링 투어
+                      - generic [ref=e1596]:
+                        - img [ref=e1597]
+                        - generic [ref=e1599]: "4.6"
+                        - generic [ref=e1600]: (54)
+                      - generic [ref=e1602]: 44,727원
+                      - generic [ref=e1603]: 액티비티
+                      - generic [ref=e1605]: 무료취소
+            - generic [ref=e1607]: "상품 번호 : 4896100"
+        - generic [ref=e1609]:
+          - button "일시적으로 판매가 중지된 상품입니다." [disabled]:
+            - generic: 일시적으로 판매가 중지된 상품입니다.
+    - contentinfo [ref=e1611]:
+      - generic [ref=e1612]:
+        - generic [ref=e1613]:
+          - generic [ref=e1614]:
+            - text: 고객지원실 운영안내
+            - list [ref=e1615]:
+              - listitem [ref=e1616]: 채팅상담 연중무휴 24시간 유선상담 연중무휴 09:00-18:00
+              - listitem [ref=e1617]: 유선상담 1670-8208
+            - button "고객지원실" [ref=e1619]:
+              - button "고객지원실" [ref=e1620] [cursor=pointer]:
+                - generic [ref=e1621]: 고객지원실
+          - generic [ref=e1622]:
+            - generic [ref=e1623]:
+              - text: 소개
+              - list [ref=e1624]:
+                - listitem [ref=e1625]:
+                  - link "회사소개" [ref=e1626] [cursor=pointer]:
+                    - /url: https://about.myrealtrip.com
+                - listitem [ref=e1627]:
+                  - link "채용" [ref=e1628] [cursor=pointer]:
+                    - /url: https://career.myrealtrip.com
+                - listitem [ref=e1629]:
+                  - link "공고" [ref=e1630] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/announcement
+            - generic [ref=e1631]:
+              - text: 파트너
+              - list [ref=e1632]:
+                - listitem [ref=e1633]:
+                  - link "파트너 홈" [ref=e1634] [cursor=pointer]:
+                    - /url: https://partner.myrealtrip.com/welcome
+                - listitem [ref=e1635]:
+                  - link "제휴 문의" [ref=e1636] [cursor=pointer]:
+                    - /url: mailto:partnership@myrealtrip.com
+                - listitem [ref=e1637]:
+                  - link "광고 문의" [ref=e1638] [cursor=pointer]:
+                    - /url: mailto:ad@myrealtrip.com
+            - generic [ref=e1639]:
+              - text: 지원
+              - list [ref=e1640]:
+                - listitem [ref=e1641]:
+                  - link "공지사항" [ref=e1642] [cursor=pointer]:
+                    - /url: https://support.myrealtrip.com/notice
+                - listitem [ref=e1643]:
+                  - link "문의내역" [ref=e1644] [cursor=pointer]:
+                    - /url: https://support.myrealtrip.com/inquiry
+                - listitem [ref=e1645]:
+                  - link "최저가 보장제" [ref=e1646] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/best_price
+        - generic [ref=e1647]:
+          - generic [ref=e1648]:
+            - generic [ref=e1649]:
+              - link "이용 약관" [ref=e1651] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/policyAgreement
+              - link "개인정보 처리방침" [ref=e1653] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/common/privacy
+              - link "취소 및 환불 정책" [ref=e1655] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/common/cancel
+              - link "개발자 센터" [ref=e1657] [cursor=pointer]:
+                - /url: https://docs.myrealtrip.com/#/api/intro
+            - generic [ref=e1658]:
+              - generic [ref=e1659]:
+                - link "icon 페이스북으로 이동하기" [ref=e1661] [cursor=pointer]:
+                  - /url: https://www.facebook.com/myRealTrip
+                  - img "icon" [ref=e1662]
+                  - generic [ref=e1663]: 페이스북으로 이동하기
+                - link "icon 네이버 블로그로 이동하기" [ref=e1665] [cursor=pointer]:
+                  - /url: https://blog.naver.com/myrealtrip
+                  - img "icon" [ref=e1666]
+                  - generic [ref=e1667]: 네이버 블로그로 이동하기
+                - link "icon 인스타그램으로 이동하기" [ref=e1669] [cursor=pointer]:
+                  - /url: https://instagram.com/myrealtrip
+                  - img "icon" [ref=e1670]
+                  - generic [ref=e1671]: 인스타그램으로 이동하기
+                - link "icon 유투브로 이동하기" [ref=e1673] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UC2oeFByIBQjkKXmQjE0U5rQ
+                  - img "icon" [ref=e1674]
+                  - generic [ref=e1675]: 유투브로 이동하기
+              - generic [ref=e1677]:
+                - link "icon" [ref=e1679] [cursor=pointer]:
+                  - /url: https://itunes.apple.com/app/id1141745032
+                  - img "icon" [ref=e1680]
+                - link "icon" [ref=e1682] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.mrt.ducati
+                  - img "icon" [ref=e1683]
+            - button "icon 한국어 icon" [ref=e1685] [cursor=pointer]:
+              - img "icon" [ref=e1686]
+              - generic [ref=e1687]: 한국어
+              - img "icon" [ref=e1688]
+          - generic [ref=e1689]:
+            - paragraph [ref=e1691]:
+              - text: 상호명 (주)마이리얼트립 | 대표 이동건 | 개인정보보호책임자 김형석 | 사업자등록번호 209-81-55339
+              - link "사업자정보확인" [ref=e1693] [cursor=pointer]:
+                - /url: https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2098155339
+              - text: "| 통신판매업신고번호 2019-서울서초-0260 | 관광사업등록번호 : 제2019-3호"
+              - text: 주소 서울특별시 서초구 강남대로 311, 18층 1729호(서초동, 한화생명보험빌딩)
+              - text: 이메일 help@myrealtrip.com | 입점 문의 partnership@myrealtrip.com
+              - text: "마케팅파트너/크리에이터 문의 marketing_partner@myrealtrip.com | 마케팅 문의 marketing@myrealtrip.com | 호스팅 서비스 제공자 : (주)마이리얼트립"
+              - text: "자사는 서울특별시관광협회 공제영업보증보험에 가입되어 있습니다. 영업보증보험: 1.5억원 / 기획여행보증: 2억원"
+              - text: 마이리얼트립은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 상품·거래정보 및 거래에 대하여 책임을 지지않습니다.
+              - text: 부득이한 사정에 의해 확정된 여행일정이 변경되는 경우 여행자의 사전 동의를 받습니다.
+              - text: (주)마이리얼트립이 소유, 운영, 관리하는 웹사이트 및 앱 내의 상품, 판매자 정보, 이벤트 정보, 디자인, UI 등을 포함한 일체의 콘텐츠에 대한 무단 복제, 배포, 전송, 스크래핑 등의 행위는 저작권법 등 관련 법령에 의하여 엄격히 금지됩니다.
+            - button "ISMS-P" [ref=e1695] [cursor=pointer]:
+              - img "ISMS-P" [ref=e1696]
+  - dialog
+  - alert [ref=e1697]

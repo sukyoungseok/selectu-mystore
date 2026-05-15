@@ -1,0 +1,255 @@
+- generic [ref=e4]:
+  - generic [ref=e9]:
+    - generic [ref=e12]:
+      - link "Instagram" [ref=e17] [cursor=pointer]:
+        - /url: /
+        - img "Instagram" [ref=e22]
+      - generic [ref=e25]:
+        - link "홈" [ref=e30] [cursor=pointer]:
+          - /url: /
+          - img "홈" [ref=e35]
+        - link "릴스" [ref=e40] [cursor=pointer]:
+          - /url: /reels/
+          - img "릴스" [ref=e45]
+        - link "메시지 Direct 메시지 - 새로운 알림 링크 1개" [ref=e52] [cursor=pointer]:
+          - /url: /direct/inbox/
+          - generic [ref=e55]:
+            - img "메시지" [ref=e57]
+            - generic "Direct 메시지 - 새로운 알림 링크 1개" [ref=e60]:
+              - generic [ref=e62]: "1"
+        - link "검색" [ref=e66] [cursor=pointer]:
+          - /url: "#"
+          - img "검색" [ref=e71]
+        - link "탐색 탭" [ref=e77] [cursor=pointer]:
+          - /url: /explore/
+          - img "탐색 탭" [ref=e82]
+        - link "알림" [ref=e91] [cursor=pointer]:
+          - /url: "#"
+          - img "알림" [ref=e96]
+        - link "새로운 게시물" [ref=e104] [cursor=pointer]:
+          - /url: "#"
+          - img "새로운 게시물" [ref=e109]
+        - link "프로페셔널 대시보드" [ref=e114] [cursor=pointer]:
+          - /url: "#"
+          - img "프로페셔널 대시보드" [ref=e119]
+        - link "stone.water_님의 프로필 사진" [ref=e126] [cursor=pointer]:
+          - /url: /stone.water_/
+          - link "stone.water_님의 프로필 사진" [ref=e131]:
+            - img "stone.water_님의 프로필 사진" [ref=e132]
+      - generic [ref=e133]:
+        - link "설정" [ref=e136] [cursor=pointer]:
+          - /url: "#"
+          - img "설정" [ref=e141]
+        - link "Meta의 다른 앱" [ref=e144] [cursor=pointer]:
+          - /url: "#"
+          - img "Meta의 다른 앱" [ref=e149]
+    - main [ref=e153]:
+      - generic [active] [ref=e154]:
+        - generic [ref=e157]:
+          - generic [ref=e158]:
+            - generic [ref=e161]:
+              - generic [ref=e164]:
+                - link "uely_님의 릴스" [ref=e165] [cursor=pointer]:
+                  - /url: /uely_/reels/
+                  - link "uely_님의 프로필 사진" [ref=e168]:
+                    - img "uely_님의 프로필 사진" [ref=e169]
+                - generic [ref=e170]:
+                  - generic [ref=e171]:
+                    - link "uely_님의 릴스" [ref=e172] [cursor=pointer]:
+                      - /url: /uely_/reels/
+                      - generic [ref=e173]: uely_
+                    - generic [ref=e175]: •
+                    - button "팔로우" [ref=e176] [cursor=pointer]:
+                      - generic [ref=e177]: 팔로우
+                  - link "오디오 이미지 이광조 · 즐거운 인생" [ref=e182] [cursor=pointer]:
+                    - /url: /reels/audio/875446743547010/
+                    - generic [ref=e183]:
+                      - img "오디오 이미지" [ref=e185]
+                      - generic [ref=e191]: 이광조 · 즐거운 인생
+              - button [ref=e192] [cursor=pointer]:
+                - generic [ref=e194]:
+                  - text: 그대로 가도 되는 🍊 제주여행코스 2박3일
+                  - text: (서쪽 버전🫶🏻)
+                  - text: 해년마다 가고 있는 제주 서쪽코스
+                  - text: 이번에 간 곳과 주변 좋은곳 알려드리는
+                  - text: 제주 서쪽 여행코스🏃🏻‍♀️
+                  - text: ✅ 공유 + 저장 하세요
+                  - text: ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫
+                  - text: 1️⃣일차 (안덕면쪽으로 이동)
+                  - text: 🚘 점심식사 - 금오름(or문도지오름) - 성이시돌 목장 - 용머리해안 - 산방산
+                  - text: 🍯참고사항
+                  - text: ▪️숙소는 안덕이나 중문쪽에
+                  - text: (지난 릴스에 숙소 추천 참고)
+                  - text: ▪️금오름은 비온후에가야좋으니 날씨를 봐서
+                  - text: 말을 볼 수 있는 문도지 오름도 추천
+                  - text: ▪️용머리와 산방산 근처에 사계 해안도 추천 드리는데 간조시간에 가셔야 하니 물떼를 참고
+                  - text: ▪️용머리해안은 인스타를 참고해 오늘 개방하는지 확인하고 가야함
+                  - text: 2️⃣일차 (한경 한림 애월쪽으로 이동)
+                  - text: 🚘아침 - 사계해안 - 도구리알 - 엉알해안 - 신창풍차해안도로(or 싱계물공원) 드라이브 - 애월 한담해안 산책로
+                  - text: 🍯참고사항
+                  - text: ▪️숙소는 애월이나 공항근처로
+                  - text: ▪️이쪽으로 돌땐 근처에 오션뷰나 예쁜 카페가 많으니 카페도 많이 알아보세요!
+                  - text: (지난 릴스 돌고래가 보이는 카페 추천)
+                  - text: ▪️바람이 많이 불 수 있어 옷 신경쓰세요!
+                  - text: 3️⃣일차 (제주공항)
+                  - text: 🚘용마마을 버스정류장 - 도두봉 - 도두 무지개 해안도로 - 이호테우해변
+                  - text: 🍯참고사항
+                  - text: ▪️공항에서 멀지 않은 포토존 여행지들 추천
+                  - text: 🔜다음 피드도 궁금하시다면 팔로우😉
+                  - text: ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫ ̫
+                  - text: 🍯더 많은 예쁜 장소는
+                  - link "@uely_" [ref=e196]:
+                    - /url: /uely_/
+                  - text: 에서 확인 🧚🏻‍♀️
+                  - link "#제주여행" [ref=e197]:
+                    - /url: /explore/tags/%EC%A0%9C%EC%A3%BC%EC%97%AC%ED%96%89/
+                  - link "#제주서쪽여행" [ref=e198]:
+                    - /url: /explore/tags/%EC%A0%9C%EC%A3%BC%EC%84%9C%EC%AA%BD%EC%97%AC%ED%96%89/
+                  - link "#제주서쪽맛집" [ref=e199]:
+                    - /url: /explore/tags/%EC%A0%9C%EC%A3%BC%EC%84%9C%EC%AA%BD%EB%A7%9B%EC%A7%91/
+                  - link "#제주공항맛집" [ref=e200]:
+                    - /url: /explore/tags/%EC%A0%9C%EC%A3%BC%EA%B3%B5%ED%95%AD%EB%A7%9B%EC%A7%91/
+                  - link "#제주공항근처맛집" [ref=e201]:
+                    - /url: /explore/tags/%EC%A0%9C%EC%A3%BC%EA%B3%B5%ED%95%AD%EA%B7%BC%EC%B2%98%EB%A7%9B%EC%A7%91/
+                  - link "#제주여행코스" [ref=e202]:
+                    - /url: /explore/tags/%EC%A0%9C%EC%A3%BC%EC%97%AC%ED%96%89%EC%BD%94%EC%8A%A4/
+                  - link "#제주2박3일" [ref=e203]:
+                    - /url: /explore/tags/%EC%A0%9C%EC%A3%BC2%EB%B0%953%EC%9D%BC/
+            - generic [ref=e204]:
+              - img
+              - group "Video player" [ref=e215]:
+                - generic [ref=e216]:
+                  - button "0" [ref=e217] [cursor=pointer]:
+                    - slider "볼륨 조정" [ref=e218]:
+                      - button "오디오 소리 꺼짐" [ref=e222]:
+                        - img "오디오 소리 꺼짐" [ref=e223]
+                  - button "재생하려면 누르세요" [ref=e228] [cursor=pointer]:
+                    - img "재생 버튼 아이콘" [ref=e230]
+          - generic [ref=e232]:
+            - generic [ref=e233] [cursor=pointer]:
+              - button "좋아요" [ref=e236]:
+                - img "좋아요" [ref=e239]
+              - button "1964" [ref=e241]:
+                - generic [ref=e245]: "1964"
+            - button "댓글 18" [ref=e247] [cursor=pointer]:
+              - generic [ref=e248]:
+                - img "댓글" [ref=e249]
+                - generic [ref=e254]: "18"
+            - generic [ref=e255] [cursor=pointer]:
+              - button "리포스트" [ref=e256]:
+                - img "리포스트" [ref=e257]
+              - button "10" [ref=e259]:
+                - generic [ref=e263]: "10"
+            - button "공유하기" [ref=e265] [cursor=pointer]:
+              - img "공유하기" [ref=e266]
+            - button "저장" [ref=e271] [cursor=pointer]:
+              - button "저장" [ref=e272]:
+                - img "저장" [ref=e274]
+            - button "더 보기" [ref=e277] [cursor=pointer]:
+              - img "더 보기" [ref=e279]
+            - link "오디오 이미지" [ref=e284] [cursor=pointer]:
+              - /url: /reels/audio/875446743547010/
+              - img "오디오 이미지" [ref=e287]
+        - generic [ref=e291]:
+          - generic [ref=e292]:
+            - generic [ref=e295]:
+              - generic [ref=e298]:
+                - link "jihyelism_님의 릴스" [ref=e299] [cursor=pointer]:
+                  - /url: /jihyelism_/reels/
+                  - link "jihyelism_님의 프로필 사진" [ref=e302]:
+                    - img "jihyelism_님의 프로필 사진" [ref=e303]
+                - generic [ref=e304]:
+                  - generic [ref=e305]:
+                    - link "jihyelism_님의 릴스" [ref=e306] [cursor=pointer]:
+                      - /url: /jihyelism_/reels/
+                      - generic [ref=e307]: jihyelism_
+                    - generic [ref=e309]: •
+                    - button "팔로우" [ref=e310] [cursor=pointer]:
+                      - generic [ref=e311]: 팔로우
+                  - link "오디오 이미지 灰澈 · 一春一瞬" [ref=e316] [cursor=pointer]:
+                    - /url: /reels/audio/1086493285803798/
+                    - generic [ref=e317]:
+                      - img "오디오 이미지" [ref=e319]
+                      - generic [ref=e325]: 灰澈 · 一春一瞬
+              - 'button "안녕하세요( ´͈ ᵕ `͈ )◞♡ 영어로 하고 싶었지만 아직은 어색해 조금 섞어봤어요 ❤︎ Ai영상이라고 떠서 3트….째 올립니당 ㅎㅎ 저는 한국에서 태어나 지금은 서울과 뉴욕을 오가며 끊임없는 움직임 속에서 제 삶을 만들어가고 있어요 저는 제가 하는 일을 진심으로 사랑하고,ᰔ 그 덕분에 매일이 더 의미 있게 느껴집니다. 올해는 새로운 시작을 위해 뉴욕으로 이사를 해서 새로운 저를 찾아가려고 해요.ᰔ 앞으로 제 여정의 작은 순간들을 천천히, 솔직하게, 그리고 저만의 방식으로 보여주려 합니다ᰔ Hi, I’m Jihye. Born in Korea, moving between Seoul and New York— living a life shaped by beauty, work, and constant movement. I truly love what I do, and somehow, that love makes every day feel meaningful. This year, I’m taking a step into something new— moving to New York, chasing a different rhythm, a new version of myself. I’ll be sharing little pieces of my journey along the way. Slowly, honestly, and in my own way. #newyork #korea #vlog" [ref=e326] [cursor=pointer]':
+                - generic [ref=e328]:
+                  - text: "안녕하세요( ´͈ ᵕ `͈ )◞♡"
+                  - text: 영어로 하고 싶었지만
+                  - text: 아직은 어색해 조금 섞어봤어요 ❤︎
+                  - text: Ai영상이라고 떠서 3트….째 올립니당 ㅎㅎ
+                  - text: 저는 한국에서 태어나 지금은 서울과 뉴욕을 오가며
+                  - text: 끊임없는 움직임 속에서 제 삶을 만들어가고 있어요
+                  - text: 저는 제가 하는 일을 진심으로 사랑하고,ᰔ
+                  - text: 그 덕분에 매일이 더 의미 있게 느껴집니다.
+                  - text: 올해는 새로운 시작을 위해
+                  - text: 뉴욕으로 이사를 해서
+                  - text: 새로운 저를 찾아가려고 해요.ᰔ
+                  - text: 앞으로
+                  - text: 제 여정의 작은 순간들을
+                  - text: 천천히, 솔직하게,
+                  - text: 그리고 저만의 방식으로 보여주려 합니다ᰔ
+                  - text: Hi, I’m Jihye.
+                  - text: Born in Korea, moving between Seoul and New York—
+                  - text: living a life shaped by beauty, work, and constant movement.
+                  - text: I truly love what I do,
+                  - text: and somehow, that love makes every day feel meaningful.
+                  - text: This year, I’m taking a step into something new—
+                  - text: moving to New York, chasing a different rhythm, a new version of myself.
+                  - text: I’ll be sharing little pieces of my journey along the way.
+                  - text: Slowly, honestly, and in my own way.
+                  - link "#newyork" [ref=e330]:
+                    - /url: /explore/tags/newyork/
+                  - link "#korea" [ref=e331]:
+                    - /url: /explore/tags/korea/
+                  - link "#vlog" [ref=e332]:
+                    - /url: /explore/tags/vlog/
+            - generic [ref=e333]:
+              - img
+              - group "Video player" [ref=e344]:
+                - generic [ref=e345]:
+                  - button "0" [ref=e346] [cursor=pointer]:
+                    - slider "볼륨 조정" [ref=e347]:
+                      - button "오디오 소리 꺼짐" [ref=e351]:
+                        - img "오디오 소리 꺼짐" [ref=e352]
+                  - button "재생하려면 누르세요" [ref=e357] [cursor=pointer]:
+                    - img "재생 버튼 아이콘" [ref=e359]
+          - generic [ref=e361]:
+            - generic [ref=e362] [cursor=pointer]:
+              - button "좋아요" [ref=e365]:
+                - img "좋아요" [ref=e368]
+              - button "164" [ref=e370]:
+                - generic [ref=e374]: "164"
+            - button "댓글 39" [ref=e376] [cursor=pointer]:
+              - generic [ref=e377]:
+                - img "댓글" [ref=e378]
+                - generic [ref=e383]: "39"
+            - generic [ref=e384] [cursor=pointer]:
+              - button "리포스트" [ref=e385]:
+                - img "리포스트" [ref=e386]
+              - button "3" [ref=e388]:
+                - generic [ref=e392]: "3"
+            - button "공유하기" [ref=e394] [cursor=pointer]:
+              - img "공유하기" [ref=e395]
+            - button "저장" [ref=e400] [cursor=pointer]:
+              - button "저장" [ref=e401]:
+                - img "저장" [ref=e403]
+            - button "더 보기" [ref=e406] [cursor=pointer]:
+              - img "더 보기" [ref=e408]
+            - link "오디오 이미지" [ref=e413] [cursor=pointer]:
+              - /url: /reels/audio/1086493285803798/
+              - img "오디오 이미지" [ref=e416]
+        - generic [ref=e423]:
+          - generic [ref=e424]:
+            - status "읽어들이는 중..." [ref=e425]
+            - status "읽어들이는 중..." [ref=e426]
+          - status "읽어들이는 중..." [ref=e427]
+          - status "읽어들이는 중..." [ref=e428]
+      - toolbar "Reels navigation controls" [ref=e430]:
+        - button "이전 릴스로 이동" [ref=e431] [cursor=pointer]:
+          - img [ref=e433]
+        - button "다음 릴스로 이동" [ref=e435] [cursor=pointer]:
+          - img [ref=e437]
+  - button "메시지 메시지" [ref=e440] [cursor=pointer]:
+    - generic [ref=e442]:
+      - img "메시지" [ref=e444]
+      - generic [ref=e447]: 메시지

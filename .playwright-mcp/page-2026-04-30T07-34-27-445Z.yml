@@ -1,0 +1,85 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - banner [ref=e8]:
+        - button [ref=e11] [cursor=pointer]:
+          - img [ref=e12]
+        - button [ref=e17] [cursor=pointer]:
+          - img [ref=e18]
+      - generic [ref=e22]:
+        - img "profile" [ref=e24]
+        - heading "bright.today" [level=1] [ref=e26]
+        - button "비즈니스 제안" [ref=e27] [cursor=pointer]:
+          - img [ref=e28]
+          - generic [ref=e31]: 비즈니스 제안
+      - generic [ref=e32]:
+        - generic [ref=e34]:
+          - textbox "검색어를 입력해주세요." [ref=e35]
+          - img [ref=e37]
+        - 'link "문틀슈로스바 : 이브필라테스 문틀슈로스바 : 이브필라테스" [ref=e41] [cursor=pointer]':
+          - /url: /api/r/33WPU8ChY5UxkwUlzye3A8vcTJ058P1clwAeP_XBxWKsEH3OlMZBKCfDHgh1qxQs_QEW0PdYRviokY0-kkCSBsQxXK5p8LxMa89SNQMOhphzMZCaJxS_cyOZdemMqd5XhcM3b1C3kDOG555Qo1fY-bhqNd9izadm6Kr_mnuAPj9RhdMXxQVB1u35Ylki4418m1MOAYlH5w
+          - generic [ref=e42]:
+            - 'img "문틀슈로스바 : 이브필라테스" [ref=e44]'
+            - paragraph [ref=e46]: "문틀슈로스바 : 이브필라테스"
+        - paragraph [ref=e50]: 다낭 에어텔 4/21 OPEN
+        - link "다낭에어텔(논누억) 다낭에어텔(논누억)" [ref=e53] [cursor=pointer]:
+          - /url: /api/r/k-u_K3XIQvipMzIkRKKOixolGtIWSB8qaNYuMtToyP2OiI5rDYNBibUTDXj4fpQDO-EiJpwfuSfA1lUN4lvdtdVBHlAnBVm10JkWqPaMiI1-Qzg4fNzztt572WHYfj8SM5_-eUFgduxbYWQJj1cJPHhXrZHYVlVrEYBxuWRsBYtWjNyYEmrzqm7Hnldn2BUnh0Sh2K6acOAHUSYm_S7qslhyTyk
+          - generic [ref=e54]:
+            - img "다낭에어텔(논누억)" [ref=e56]
+            - paragraph [ref=e58]: 다낭에어텔(논누억)
+        - link "다낭에어텔(코트야드) 다낭에어텔(코트야드)" [ref=e61] [cursor=pointer]:
+          - /url: /api/r/SHRq8l3f2m2SoSWFrz1dGp_PACQhoUPPLVxX0rccOKp0cB3WFj9owVMviBR7bM6GgJZOdS5RVO5_Ub0aGSsk7-wsODxRThEixwpSrvT59hIcdLzrYHtGCk8xzj8Sajo6pxGULDDY3VchLqBixBmO_MD7ck7rtFafnXCU3bu_-t-hsc89AURB0YL6i-rmodK215S8c2SPHX9lEBL17xs-IgySJw0
+          - generic [ref=e62]:
+            - img "다낭에어텔(코트야드)" [ref=e64]
+            - paragraph [ref=e66]: 다낭에어텔(코트야드)
+        - link "다낭에어텔(신라모노그램) 다낭에어텔(신라모노그램)" [ref=e69] [cursor=pointer]:
+          - /url: /api/r/TJCK2XBdCGp9aL2RWlcZxGcpxE2iuEq2u8jNdA_tmbqwUlElJ_gJYVlA3owHBrCq3-ea1j3kqgpklB8r3E_4pU62q8nKgf4xRYW2KHQ_07vsF8ob8qSdBskTluxnhhzyNA97BQgsuG14dFR6juY30v3HhJ-pIkxaGfn9EbRExxi3pXwnW8A6Mr_De-13-Z4kiLiPewwb45dvlUmsejOK
+          - generic [ref=e70]:
+            - img "다낭에어텔(신라모노그램)" [ref=e72]
+            - paragraph [ref=e74]: 다낭에어텔(신라모노그램)
+        - link "다낭여행 알림방 들어가기 다낭여행 알림방 들어가기" [ref=e77] [cursor=pointer]:
+          - /url: /api/r/RHKgcmWSCEuVwk_27QOqUr6SH60wic-bX4GNQI5JCHSUokV7AmoKY0KC7vFmi9AigFsoPMV7LjuWtYNuGbMGfCoISPiaXpHZWuWbQb-7q61UqE3uVd-5sXmZ3zARauZwhOtlmdh77M-IFL-oxEp-yFGKKkteSSFC5Q865A
+          - generic [ref=e78]:
+            - img "다낭여행 알림방 들어가기" [ref=e80]
+            - paragraph [ref=e82]: 다낭여행 알림방 들어가기
+        - link "다낭 혜택/가격/투어 정리본" [ref=e85] [cursor=pointer]:
+          - /url: /api/r/7DKmu_RMIQ0mSPuwLkhwsMO8jXjAhb8BhVQbcGzTReXg8sflDBqwNgG3GRbosFJ-lwkTk7TQLPYqOgWh_uRCmA9x31XcFQkR_57ddBDW-mMErT_jaubCXiAiSaWrVraz_uSQfhLRcnvPQJjMIJRpqjU21-1pnc_GhuWVQJou2oU-b6hi1gMP9cFd
+          - paragraph [ref=e88]: 다낭 혜택/가격/투어 정리본
+        - link "늘찬맘의 제품, 서비스 문의" [ref=e91] [cursor=pointer]:
+          - /url: /api/r/GsyojY71oHi6LIvyMvO5yJqv0B-31AAKn6AZsuuMxnIrNouWiPec-7VAbt8_MYhuMNsLGCOlLc2cBV1VzibOosF7Qsew-ZeW3ZFEnSNpOWmMd98Uq79ov_1VEMBWii_sVOvxZCONeG4fPNfJ2c0qHy7Ss5BrmpLwXLnuit8
+          - paragraph [ref=e94]: 늘찬맘의 제품, 서비스 문의
+        - img [ref=e98]
+        - paragraph [ref=e102]: 어린이날 선물
+        - paragraph [ref=e106]: 5월 사용가능 티켓
+        - link "배추흰나비키우기 CS 배추흰나비키우기 CS" [ref=e115] [cursor=pointer]:
+          - /url: /api/r/ijWSMKJ0Ogdufm2TE0NVLY5n0L2Dmc8T52SO-z7LZBj7pDhwtrYm6iyEHlQBouuozlHWGQbr2NoTArBYp6_uRzOk4BRk8G7tzlJfd3QXGoKEI9KGiyvz_kR-SLkW3Mp-EIaPrj2p2lvNofoAur-vdtVzVT0F7A2bixrFw0OjM78D9bE
+          - generic [ref=e116]:
+            - img "배추흰나비키우기 CS" [ref=e118]
+            - paragraph [ref=e120]: 배추흰나비키우기 CS
+        - generic [ref=e126]:
+          - generic [ref=e128]: OPEN
+          - generic [ref=e131]:
+            - generic [ref=e132]: 4.27 10시 ~ 4.30 23:59
+            - paragraph [ref=e133]: 문틀슈로스바
+        - link "늘찬맘 공구방🫶 가장빠른 공구오픈!" [ref=e136] [cursor=pointer]:
+          - /url: /api/r/gjPRx4i6Upvyg717li8ebfPpvFHleVzTjgNfqstzn61uPcETEXcTzTLC1OfVvv6-RH5a_vjwRKqUN0eqPq4fW8VXxvjtapCYV_oQRSlIQpylrz_o8TUudW4DYQHlVM5L2VQ71f9X4gnI_LkWR0KGPNHLt7oxXVDoaA
+          - paragraph [ref=e139]: 늘찬맘 공구방🫶 가장빠른 공구오픈!
+        - link "자세한 체험 후기는 블로그✨️ 자세한 체험 후기는 블로그✨️" [ref=e142] [cursor=pointer]:
+          - /url: /api/r/Sx32mN2cegg2Far2m9Z8P1EcKjudC334lETcWUQuiZQBBmnP-QWvaZEYzqguQYEleF_kNa0ooqmjNBD5jkERnoVRlTBDZA6GEsVa7IdQHYVhKi07SzshVfI8gwc3Q1nOGKqCSZlkuu5ANJoQW7NvRjP0yCJImycR6Rzz09Fz
+          - generic [ref=e143]:
+            - img "자세한 체험 후기는 블로그✨️" [ref=e145]
+            - paragraph [ref=e147]: 자세한 체험 후기는 블로그✨️
+      - generic [ref=e148]:
+        - link [ref=e150] [cursor=pointer]:
+          - /url: https://instagram.com/today.brighten
+          - img [ref=e151]
+        - generic "Inpock" [ref=e154] [cursor=pointer]:
+          - button "· 나만의 프로필을 만들어보세요" [ref=e155]:
+            - img [ref=e157]
+            - generic [ref=e159]: ·
+            - generic [ref=e160]: 나만의 프로필을 만들어보세요
+            - img [ref=e162]
+    - generic [ref=e164]:
+      - img [ref=e166]
+      - generic [ref=e169]: 모바일로 보기
+  - alert [ref=e170]

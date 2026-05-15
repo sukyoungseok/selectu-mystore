@@ -1,0 +1,635 @@
+- generic [ref=e11]:
+  - generic [ref=e13]:
+    - link "Instagram" [ref=e16] [cursor=pointer]:
+      - /url: /
+      - img "Instagram" [ref=e19]
+    - generic [ref=e24]:
+      - link "로그인" [ref=e26] [cursor=pointer]:
+        - /url: /accounts/login/?next=%2Freel%2FDMjVlkQzVai%2F&source=desktop_nav
+      - link "가입하기" [ref=e28] [cursor=pointer]:
+        - /url: /accounts/emailsignup/
+  - main [ref=e29]:
+    - generic [ref=e64]:
+      - generic [ref=e66]:
+        - button [ref=e71]:
+          - group [ref=e82]:
+            - button [ref=e84] [cursor=pointer]:
+              - img [ref=e86]
+            - button [ref=e89] [cursor=pointer]:
+              - img [ref=e91]
+        - generic [ref=e94]:
+          - generic [ref=e96]:
+            - button "travel_baek님의 프로필 사진" [disabled] [ref=e98]:
+              - link "travel_baek님의 프로필 사진" [disabled] [ref=e100] [cursor=pointer]:
+                - img "travel_baek님의 프로필 사진" [ref=e101]
+            - generic [ref=e103]:
+              - generic [ref=e104]:
+                - generic [ref=e106]:
+                  - link "travel_baek" [ref=e108] [cursor=pointer]:
+                    - /url: /travel_baek/
+                    - generic [ref=e111]: travel_baek
+                  - img "인증됨" [ref=e113]
+                - generic [ref=e115]:
+                  - generic [ref=e117]: •
+                  - button "팔로우" [ref=e118] [cursor=pointer]
+              - link "H1-KEY • Summer Was You" [ref=e122] [cursor=pointer]:
+                - /url: /reels/audio/1061139918727367/
+                - generic [ref=e125]:
+                  - text: H1-KEY
+                  - generic [ref=e126]: •
+                  - text: Summer Was You
+            - button "옵션 더 보기" [ref=e129] [cursor=pointer]:
+              - img "옵션 더 보기" [ref=e132]
+          - separator [ref=e136]
+          - generic [ref=e138]:
+            - generic [ref=e140]:
+              - link "travel_baek님의 프로필 사진" [ref=e142] [cursor=pointer]:
+                - /url: /travel_baek/
+                - img "travel_baek님의 프로필 사진" [ref=e143]
+              - generic [ref=e147]:
+                - generic [ref=e148]:
+                  - link "travel_baek 인증됨" [ref=e149] [cursor=pointer]:
+                    - /url: /travel_baek/
+                    - generic [ref=e151]:
+                      - generic [ref=e152]: travel_baek
+                      - img "인증됨" [ref=e154]
+                  - generic [ref=e156]: 수정됨
+                  - generic [ref=e157]: •
+                  - time [ref=e159]: 13주
+                - generic [ref=e160]:
+                  - text: 4박6일 나트랑여행코스
+                  - text: ⭐️댓글로 ‘나트랑’ 남겨주시면 영혼을 갈아넣은 여행꿀팁 자료(노션) 전달드려요!
+                  - text: ✅백자매 나트랑 여행일정
+                  - text: 욕심쟁이 4박6일 여행코스를 짰는데요.
+                  - text: 한정된 시간안에
+                  - text: 🎡빈원더스도 가야겠고
+                  - text: 🗺️나트랑 시내투어 해야겠고
+                  - text: 🏖️리조트 휴양까지 포기할 수 없었기때문에
+                  - text: 짜여진 여행코스이니 참고해주세요😉
+                  - text: 1일차
+                  - text: 22:50 입국, 하바나호텔 이동
+                  - text: 2일차
+                  - text: 07:30 김청 환전소
+                  - text: 08:00~20:00 빈 원더스
+                  - text: 22:00~ 하나바 클럽&루프탑야경
+                  - text: 3일차
+                  - text: 08:00 담시장에서 아오자이,동모자 커플룩 구매
+                  - text: 08:40 포나가르사원-혼쫑 곶-롱선사-대성당
+                  - text: 11:30-11:50 엘스토어
+                  - text: 11:50-12:00 남프엉
+                  - text: 12:10-13:20 점심 갓갓
+                  - text: 13:10:14:10 디저트
+                  - text: 14:30-16:10 제이스파 마사지
+                  - text: 16:30-17:20 니에나 네일
+                  - text: 18:00-19:30 저녁
+                  - text: 19:40-20:40 롯데마트 골드코스트
+                  - text: 21:00-22:00 야시장 구경
+                  - text: 22:00 하바나호텔
+                  - text: 4일차
+                  - text: 09:00 하바나 지하통로 해변구경
+                  - text: 09:30-10:00 CCCP카페
+                  - text: 10:00-11:00 P2카페 커피 구매
+                  - text: 11:00-11:30 크록스 구매 *빈산 바로옆 골목
+                  - text: 11:30-12:30 점심 빈산
+                  - text: 12:40- 13:00 하하프루츠, 그릭치킨 포장
+                  - text: 13:00 알마 리조트 이동 *40분소요
+                  - text: 알마리조트 체크인
+                  - text: 5일차
+                  - text: ~17:00 알마리조트 워터파크,수영장,해수욕,유스클럽
+                  - text: 18:00-19:30 저녁식사
+                  - text: 19:40~21:20 마리나스파(픽업/샌딩/짐보관 가능)
+                  - text: 22:00 공항으로 출발
+                  - text: 6일차
+                  - text: 02:00 출국
+                  - text: "*갠적으로 ‘나트랑 도깨비’ 카페, 유튜버 나트랑 하엘이네에서 정보를 많이 참고했어요^^"
+                  - text: 여행일정 짜시면서 궁금한 부분 디엠주셔도 언제든 답 드릴게요💛 (공구아님)
+                  - text: _______________________
+                  - text: 직접 발로 뛰고 진심 담아
+                  - text: 개운하게 알려주는 여행꿀팁✌️
+                  - link "#백자매" [ref=e161] [cursor=pointer]:
+                    - /url: /explore/tags/%EB%B0%B1%EC%9E%90%EB%A7%A4/
+                  - link "#여행크리에이터" [ref=e162] [cursor=pointer]:
+                    - /url: /explore/tags/%EC%97%AC%ED%96%89%ED%81%AC%EB%A6%AC%EC%97%90%EC%9D%B4%ED%84%B0/
+                  - text: ©
+                  - link "@travel_baek" [ref=e163] [cursor=pointer]:
+                    - /url: /travel_baek/
+                  - text: "2025"
+                  - link "#나트랑" [ref=e164] [cursor=pointer]:
+                    - /url: /explore/tags/%EB%82%98%ED%8A%B8%EB%9E%91/
+                  - link "#나트랑가족여행" [ref=e165] [cursor=pointer]:
+                    - /url: /explore/tags/%EB%82%98%ED%8A%B8%EB%9E%91%EA%B0%80%EC%A1%B1%EC%97%AC%ED%96%89/
+                  - link "#나트랑자유여행" [ref=e166] [cursor=pointer]:
+                    - /url: /explore/tags/%EB%82%98%ED%8A%B8%EB%9E%91%EC%9E%90%EC%9C%A0%EC%97%AC%ED%96%89/
+                  - link "#나트랑여행" [ref=e167] [cursor=pointer]:
+                    - /url: /explore/tags/%EB%82%98%ED%8A%B8%EB%9E%91%EC%97%AC%ED%96%89/
+                  - link "#나트랑리조트" [ref=e168] [cursor=pointer]:
+                    - /url: /explore/tags/%EB%82%98%ED%8A%B8%EB%9E%91%EB%A6%AC%EC%A1%B0%ED%8A%B8/
+                  - link "#나짱" [ref=e169] [cursor=pointer]:
+                    - /url: /explore/tags/%EB%82%98%EC%A7%B1/
+                  - link "#베트남여행" [ref=e170] [cursor=pointer]:
+                    - /url: /explore/tags/%EB%B2%A0%ED%8A%B8%EB%82%A8%EC%97%AC%ED%96%89/
+                  - link "#nhatrangtrip" [ref=e171] [cursor=pointer]:
+                    - /url: /explore/tags/nhatrangtrip/
+                  - link "#vietnamtravel" [ref=e172] [cursor=pointer]:
+                    - /url: /explore/tags/vietnamtravel/
+                  - link "#vietnam" [ref=e173] [cursor=pointer]:
+                    - /url: /explore/tags/vietnam/
+            - button "댓글 더 읽어들이기" [ref=e175] [cursor=pointer]:
+              - img "댓글 더 읽어들이기" [ref=e177]
+            - generic [ref=e179]:
+              - generic [ref=e182]:
+                - link "changgonni님의 프로필 사진" [ref=e185] [cursor=pointer]:
+                  - /url: /changgonni/
+                  - img "changgonni님의 프로필 사진" [ref=e186]
+                - generic [ref=e188]:
+                  - generic [ref=e190]:
+                    - generic [ref=e191]:
+                      - link "changgonni" [ref=e193] [cursor=pointer]:
+                        - /url: /changgonni/
+                        - generic [ref=e196]: changgonni
+                      - link "2일" [ref=e198] [cursor=pointer]:
+                        - /url: /p/DMjVlkQzVai/c/18075757805548736/
+                        - time [ref=e199]: 2일
+                    - generic [ref=e201]: 나트랑
+                  - generic [ref=e202]:
+                    - button "좋아요" [ref=e203] [cursor=pointer]:
+                      - generic [ref=e204]: 좋아요
+                    - button "답글 달기" [ref=e205] [cursor=pointer]:
+                      - generic [ref=e207]: 답글 달기
+              - generic [ref=e210]:
+                - link "soo.kko님의 프로필 사진" [ref=e213] [cursor=pointer]:
+                  - /url: /soo.kko/
+                  - img "soo.kko님의 프로필 사진" [ref=e214]
+                - generic [ref=e216]:
+                  - generic [ref=e218]:
+                    - generic [ref=e219]:
+                      - link "soo.kko" [ref=e221] [cursor=pointer]:
+                        - /url: /soo.kko/
+                        - generic [ref=e224]: soo.kko
+                      - link "4일" [ref=e226] [cursor=pointer]:
+                        - /url: /p/DMjVlkQzVai/c/18159538777449525/
+                        - time [ref=e227]: 4일
+                    - generic [ref=e229]: 나트랑
+                  - generic [ref=e230]:
+                    - button "좋아요" [ref=e231] [cursor=pointer]:
+                      - generic [ref=e232]: 좋아요
+                    - button "답글 달기" [ref=e233] [cursor=pointer]:
+                      - generic [ref=e235]: 답글 달기
+              - generic [ref=e238]:
+                - link "riricoco224님의 프로필 사진" [ref=e241] [cursor=pointer]:
+                  - /url: /riricoco224/
+                  - img "riricoco224님의 프로필 사진" [ref=e242]
+                - generic [ref=e244]:
+                  - generic [ref=e246]:
+                    - generic [ref=e247]:
+                      - link "riricoco224" [ref=e249] [cursor=pointer]:
+                        - /url: /riricoco224/
+                        - generic [ref=e252]: riricoco224
+                      - link "1주" [ref=e254] [cursor=pointer]:
+                        - /url: /p/DMjVlkQzVai/c/18173349268399411/
+                        - time [ref=e255]: 1주
+                    - generic [ref=e257]: 나트랑
+                  - generic [ref=e258]:
+                    - button "좋아요" [ref=e259] [cursor=pointer]:
+                      - generic [ref=e260]: 좋아요
+                    - button "답글 달기" [ref=e261] [cursor=pointer]:
+                      - generic [ref=e263]: 답글 달기
+              - generic [ref=e266]:
+                - link "moon.sy님의 프로필 사진" [ref=e269] [cursor=pointer]:
+                  - /url: /moon.sy/
+                  - img "moon.sy님의 프로필 사진" [ref=e270]
+                - generic [ref=e272]:
+                  - generic [ref=e274]:
+                    - generic [ref=e275]:
+                      - link "moon.sy" [ref=e277] [cursor=pointer]:
+                        - /url: /moon.sy/
+                        - generic [ref=e280]: moon.sy
+                      - generic [ref=e281]:
+                        - link "1주" [ref=e282] [cursor=pointer]:
+                          - /url: /p/DMjVlkQzVai/c/17889916995461619/
+                          - time [ref=e283]: 1주
+                        - text: · 수정됨
+                    - generic [ref=e285]: 나트랑
+                  - generic [ref=e286]:
+                    - button "좋아요" [ref=e287] [cursor=pointer]:
+                      - generic [ref=e288]: 좋아요
+                    - button "답글 달기" [ref=e289] [cursor=pointer]:
+                      - generic [ref=e291]: 답글 달기
+              - generic [ref=e294]:
+                - link "dangle_papa님의 프로필 사진" [ref=e297] [cursor=pointer]:
+                  - /url: /dangle_papa/
+                  - img "dangle_papa님의 프로필 사진" [ref=e298]
+                - generic [ref=e300]:
+                  - generic [ref=e302]:
+                    - generic [ref=e303]:
+                      - link "dangle_papa" [ref=e305] [cursor=pointer]:
+                        - /url: /dangle_papa/
+                        - generic [ref=e308]: dangle_papa
+                      - link "2주" [ref=e310] [cursor=pointer]:
+                        - /url: /p/DMjVlkQzVai/c/18076704062174128/
+                        - time [ref=e311]: 2주
+                    - generic [ref=e313]: 나뜨랑 두번째 이번에도 너무 좋았습니다~
+                  - generic [ref=e314]:
+                    - button "좋아요 1개" [ref=e315] [cursor=pointer]:
+                      - generic [ref=e317]: 좋아요 1개
+                    - button "답글 달기" [ref=e318] [cursor=pointer]:
+                      - generic [ref=e320]: 답글 달기
+              - generic [ref=e323]:
+                - link "lovesunnyda님의 프로필 사진" [ref=e326] [cursor=pointer]:
+                  - /url: /lovesunnyda/
+                  - img "lovesunnyda님의 프로필 사진" [ref=e327]
+                - generic [ref=e329]:
+                  - generic [ref=e331]:
+                    - generic [ref=e332]:
+                      - link "lovesunnyda" [ref=e334] [cursor=pointer]:
+                        - /url: /lovesunnyda/
+                        - generic [ref=e337]: lovesunnyda
+                      - link "2주" [ref=e339] [cursor=pointer]:
+                        - /url: /p/DMjVlkQzVai/c/18087088940355233/
+                        - time [ref=e340]: 2주
+                    - generic [ref=e342]: 나트랑
+                  - generic [ref=e343]:
+                    - button "좋아요" [ref=e344] [cursor=pointer]:
+                      - generic [ref=e345]: 좋아요
+                    - button "답글 달기" [ref=e346] [cursor=pointer]:
+                      - generic [ref=e348]: 답글 달기
+              - generic [ref=e351]:
+                - link "m.sun831님의 프로필 사진" [ref=e354] [cursor=pointer]:
+                  - /url: /m.sun831/
+                  - img "m.sun831님의 프로필 사진" [ref=e355]
+                - generic [ref=e357]:
+                  - generic [ref=e359]:
+                    - generic [ref=e360]:
+                      - link "m.sun831" [ref=e362] [cursor=pointer]:
+                        - /url: /m.sun831/
+                        - generic [ref=e365]: m.sun831
+                      - link "2주" [ref=e367] [cursor=pointer]:
+                        - /url: /p/DMjVlkQzVai/c/17858363682586769/
+                        - time [ref=e368]: 2주
+                    - generic [ref=e370]: 나트랑
+                  - generic [ref=e371]:
+                    - button "좋아요" [ref=e372] [cursor=pointer]:
+                      - generic [ref=e373]: 좋아요
+                    - button "답글 달기" [ref=e374] [cursor=pointer]:
+                      - generic [ref=e376]: 답글 달기
+              - generic [ref=e379]:
+                - link "kimna_1022님의 프로필 사진" [ref=e382] [cursor=pointer]:
+                  - /url: /kimna_1022/
+                  - img "kimna_1022님의 프로필 사진" [ref=e383]
+                - generic [ref=e385]:
+                  - generic [ref=e387]:
+                    - generic [ref=e388]:
+                      - link "kimna_1022" [ref=e390] [cursor=pointer]:
+                        - /url: /kimna_1022/
+                        - generic [ref=e393]: kimna_1022
+                      - link "2주" [ref=e395] [cursor=pointer]:
+                        - /url: /p/DMjVlkQzVai/c/18060056468422484/
+                        - time [ref=e396]: 2주
+                    - generic [ref=e398]: 나트랑
+                  - generic [ref=e399]:
+                    - button "좋아요" [ref=e400] [cursor=pointer]:
+                      - generic [ref=e401]: 좋아요
+                    - button "답글 달기" [ref=e402] [cursor=pointer]:
+                      - generic [ref=e404]: 답글 달기
+              - generic [ref=e407]:
+                - link "lovely_wooyou님의 프로필 사진" [ref=e410] [cursor=pointer]:
+                  - /url: /lovely_wooyou/
+                  - img "lovely_wooyou님의 프로필 사진" [ref=e411]
+                - generic [ref=e413]:
+                  - generic [ref=e415]:
+                    - generic [ref=e416]:
+                      - link "lovely_wooyou" [ref=e418] [cursor=pointer]:
+                        - /url: /lovely_wooyou/
+                        - generic [ref=e421]: lovely_wooyou
+                      - link "4주" [ref=e423] [cursor=pointer]:
+                        - /url: /p/DMjVlkQzVai/c/18383921023095150/
+                        - time [ref=e424]: 4주
+                    - generic [ref=e426]: J 마사지 온 식구가 감탄요🤪
+                  - generic [ref=e427]:
+                    - button "좋아요" [ref=e428] [cursor=pointer]:
+                      - generic [ref=e429]: 좋아요
+                    - button "답글 달기" [ref=e430] [cursor=pointer]:
+                      - generic [ref=e432]: 답글 달기
+              - generic [ref=e435]:
+                - link "misoon4155님의 프로필 사진" [ref=e438] [cursor=pointer]:
+                  - /url: /misoon4155/
+                  - img "misoon4155님의 프로필 사진" [ref=e439]
+                - generic [ref=e441]:
+                  - generic [ref=e443]:
+                    - generic [ref=e444]:
+                      - link "misoon4155" [ref=e446] [cursor=pointer]:
+                        - /url: /misoon4155/
+                        - generic [ref=e449]: misoon4155
+                      - link "4주" [ref=e451] [cursor=pointer]:
+                        - /url: /p/DMjVlkQzVai/c/18428425480139140/
+                        - time [ref=e452]: 4주
+                    - generic [ref=e454]: ♡
+                  - generic [ref=e455]:
+                    - button "좋아요" [ref=e456] [cursor=pointer]:
+                      - generic [ref=e457]: 좋아요
+                    - button "답글 달기" [ref=e458] [cursor=pointer]:
+                      - generic [ref=e460]: 답글 달기
+              - generic [ref=e463]:
+                - link "cho_yong_sook님의 프로필 사진" [ref=e466] [cursor=pointer]:
+                  - /url: /cho_yong_sook/
+                  - img "cho_yong_sook님의 프로필 사진" [ref=e467]
+                - generic [ref=e469]:
+                  - generic [ref=e471]:
+                    - generic [ref=e472]:
+                      - link "cho_yong_sook" [ref=e474] [cursor=pointer]:
+                        - /url: /cho_yong_sook/
+                        - generic [ref=e477]: cho_yong_sook
+                      - link "5주" [ref=e479] [cursor=pointer]:
+                        - /url: /p/DMjVlkQzVai/c/17880192096511848/
+                        - time [ref=e480]: 5주
+                    - generic [ref=e482]: 나트랑
+                  - generic [ref=e483]:
+                    - button "좋아요" [ref=e484] [cursor=pointer]:
+                      - generic [ref=e485]: 좋아요
+                    - button "답글 달기" [ref=e486] [cursor=pointer]:
+                      - generic [ref=e488]: 답글 달기
+              - generic [ref=e491]:
+                - link "baekiyeong9님의 프로필 사진" [ref=e494] [cursor=pointer]:
+                  - /url: /baekiyeong9/
+                  - img "baekiyeong9님의 프로필 사진" [ref=e495]
+                - generic [ref=e497]:
+                  - generic [ref=e499]:
+                    - generic [ref=e500]:
+                      - link "baekiyeong9" [ref=e502] [cursor=pointer]:
+                        - /url: /baekiyeong9/
+                        - generic [ref=e505]: baekiyeong9
+                      - link "5주" [ref=e507] [cursor=pointer]:
+                        - /url: /p/DMjVlkQzVai/c/18086619094990211/
+                        - time [ref=e508]: 5주
+                    - generic [ref=e510]: 나트랑
+                  - generic [ref=e511]:
+                    - button "좋아요" [ref=e512] [cursor=pointer]:
+                      - generic [ref=e513]: 좋아요
+                    - button "답글 달기" [ref=e514] [cursor=pointer]:
+                      - generic [ref=e516]: 답글 달기
+              - generic [ref=e519]:
+                - link "ssong130508님의 프로필 사진" [ref=e522] [cursor=pointer]:
+                  - /url: /ssong130508/
+                  - img "ssong130508님의 프로필 사진" [ref=e523]
+                - generic [ref=e525]:
+                  - generic [ref=e527]:
+                    - generic [ref=e528]:
+                      - link "ssong130508" [ref=e530] [cursor=pointer]:
+                        - /url: /ssong130508/
+                        - generic [ref=e533]: ssong130508
+                      - link "6주" [ref=e535] [cursor=pointer]:
+                        - /url: /p/DMjVlkQzVai/c/17852772015635052/
+                        - time [ref=e536]: 6주
+                    - generic [ref=e538]: 나트랑
+                  - generic [ref=e539]:
+                    - button "좋아요" [ref=e540] [cursor=pointer]:
+                      - generic [ref=e541]: 좋아요
+                    - button "답글 달기" [ref=e542] [cursor=pointer]:
+                      - generic [ref=e544]: 답글 달기
+              - generic [ref=e547]:
+                - link "l.naaraaa님의 프로필 사진" [ref=e550] [cursor=pointer]:
+                  - /url: /l.naaraaa/
+                  - img "l.naaraaa님의 프로필 사진" [ref=e551]
+                - generic [ref=e553]:
+                  - generic [ref=e555]:
+                    - generic [ref=e556]:
+                      - link "l.naaraaa" [ref=e558] [cursor=pointer]:
+                        - /url: /l.naaraaa/
+                        - generic [ref=e561]: l.naaraaa
+                      - link "8주" [ref=e563] [cursor=pointer]:
+                        - /url: /p/DMjVlkQzVai/c/18091656590042962/
+                        - time [ref=e564]: 8주
+                    - generic [ref=e566]: 나트랑
+                  - generic [ref=e567]:
+                    - button "좋아요" [ref=e568] [cursor=pointer]:
+                      - generic [ref=e569]: 좋아요
+                    - button "답글 달기" [ref=e570] [cursor=pointer]:
+                      - generic [ref=e572]: 답글 달기
+              - generic [ref=e575]:
+                - link "december_zoo님의 프로필 사진" [ref=e578] [cursor=pointer]:
+                  - /url: /december_zoo/
+                  - img "december_zoo님의 프로필 사진" [ref=e579]
+                - generic [ref=e581]:
+                  - generic [ref=e583]:
+                    - generic [ref=e584]:
+                      - link "december_zoo" [ref=e586] [cursor=pointer]:
+                        - /url: /december_zoo/
+                        - generic [ref=e589]: december_zoo
+                      - link "8주" [ref=e591] [cursor=pointer]:
+                        - /url: /p/DMjVlkQzVai/c/18082164380340026/
+                        - time [ref=e592]: 8주
+                    - generic [ref=e594]: 나트랑
+                  - generic [ref=e595]:
+                    - button "좋아요" [ref=e596] [cursor=pointer]:
+                      - generic [ref=e597]: 좋아요
+                    - button "답글 달기" [ref=e598] [cursor=pointer]:
+                      - generic [ref=e600]: 답글 달기
+              - progressbar [ref=e603]:
+                - img "읽어들이는 중..." [ref=e604]
+          - generic [ref=e617]:
+            - generic [ref=e618]:
+              - generic [ref=e619]:
+                - button "좋아요" [ref=e622] [cursor=pointer]:
+                  - img "좋아요" [ref=e625]
+                - button "631" [ref=e627] [cursor=pointer]
+                - button "댓글 달기" [ref=e629] [cursor=pointer]:
+                  - img "댓글 달기" [ref=e631]
+                - button "357" [ref=e633] [cursor=pointer]
+                - button "공유하기" [ref=e634] [cursor=pointer]:
+                  - img "공유하기" [ref=e635]
+              - button "저장" [ref=e639] [cursor=pointer]:
+                - img "저장" [ref=e641]
+            - link "2025년 7월 25일" [ref=e645] [cursor=pointer]:
+              - /url: /travel_baek/reel/DMjVlkQzVai/
+              - time [ref=e647]: 2025년 7월 25일
+          - generic [ref=e652]:
+            - text: 좋아요 또는 댓글을 남기려면
+            - link "로그인" [ref=e653] [cursor=pointer]:
+              - /url: /accounts/login/?next=%2Freel%2FDMjVlkQzVai%2F&source=post_comment_input
+            - text: .
+      - separator [ref=e655]
+      - generic [ref=e656]:
+        - generic [ref=e658]:
+          - link "travel_baek" [ref=e659] [cursor=pointer]:
+            - /url: /travel_baek/
+          - text: 님의 게시물 더 보기
+        - generic [ref=e662]:
+          - generic [ref=e663]:
+            - link [ref=e665] [cursor=pointer]:
+              - /url: /travel_baek/p/DNvV7gNZq-q/
+              - img [ref=e668]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "슬라이드"
+            - link [ref=e671] [cursor=pointer]:
+              - /url: /travel_baek/p/DI7hmxxzYRB/
+              - img [ref=e674]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "슬라이드"
+            - link [ref=e677] [cursor=pointer]:
+              - /url: /travel_baek/p/DI2aiNTzMp4/
+              - img [ref=e680]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "슬라이드"
+          - generic [ref=e682]:
+            - link [ref=e684] [cursor=pointer]:
+              - /url: /travel_baek/p/DXcBEDlEx-L/
+              - img [ref=e687]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "슬라이드"
+            - 'link "유네스코가 인정한 서해안 최대 갯벌 발견👀 고창 하전 바지락 축제가 5월1일부터 5월 3일까지 열립니다. 현재, 축제기간 조개캐기체험 사전예약은 완료, 현장예약(1일 선착순 200명) 가능해요. ‼️축제기간 아니라도 조개캐기체험은 10월까지 가능해요! ’정보’ 남겨주시면 체험예약방법,비용 정보, 고창반띵여행 신청링크,1박2일 고창여행코스 자동디엠 갑니다! 다만,축제기간에는 할인쿠폰을 제공해주고 다양한 볼거리,체험, 먹거리가 있지요^^ ‼️오류 정정합니다! 갯벌에서 나는 조개는 바지락이 아니라 ‘동죽’이라고 합니다 해당사항 참고하셔서 체험신청 바랍니다🙏 트랙터를 타고 바다 한가운데 들어가서 조개 캐기 체험을 하는데 손만대면 바지락이 자꾸만 나와서 으른이도 너무 신나더라구요 ㅎㅎ 📍고창하전갯벌체험ㅣ전북특별자치도 고창군 심원면 서전길 55-21 하전어촌체험마을 ✅이용금액 : 성인 12,000원 학생(초중고) 8,000원 영유아 6,000원 *축제기간에는 할인쿠폰 제공됨(어른2천원,학생/영유아 1천원) ✅ 기본제공내역 : 갈고리,양파망,장화무료대여 장갑 1천원 구매가능 **고창청보리밭과 30분, 상하농원과 22분거리인데 1박2일로 함께 떠나보세요! _______________________ 울집 최고의 사교육은 여행🚗 여행하며 성장하는 여자 이야기 ©백자매 가족 여행 크리에이터 @travel_baek 2026 #고창군 #고창여행 #갯벌 #바지락축제 #갯벌체험 클립" [ref=e690] [cursor=pointer]':
+              - /url: /travel_baek/reel/DXbb48_k6tk/
+              - 'img "유네스코가 인정한 서해안 최대 갯벌 발견👀 고창 하전 바지락 축제가 5월1일부터 5월 3일까지 열립니다. 현재, 축제기간 조개캐기체험 사전예약은 완료, 현장예약(1일 선착순 200명) 가능해요. ‼️축제기간 아니라도 조개캐기체험은 10월까지 가능해요! ’정보’ 남겨주시면 체험예약방법,비용 정보, 고창반띵여행 신청링크,1박2일 고창여행코스 자동디엠 갑니다! 다만,축제기간에는 할인쿠폰을 제공해주고 다양한 볼거리,체험, 먹거리가 있지요^^ ‼️오류 정정합니다! 갯벌에서 나는 조개는 바지락이 아니라 ‘동죽’이라고 합니다 해당사항 참고하셔서 체험신청 바랍니다🙏 트랙터를 타고 바다 한가운데 들어가서 조개 캐기 체험을 하는데 손만대면 바지락이 자꾸만 나와서 으른이도 너무 신나더라구요 ㅎㅎ 📍고창하전갯벌체험ㅣ전북특별자치도 고창군 심원면 서전길 55-21 하전어촌체험마을 ✅이용금액 : 성인 12,000원 학생(초중고) 8,000원 영유아 6,000원 *축제기간에는 할인쿠폰 제공됨(어른2천원,학생/영유아 1천원) ✅ 기본제공내역 : 갈고리,양파망,장화무료대여 장갑 1천원 구매가능 **고창청보리밭과 30분, 상하농원과 22분거리인데 1박2일로 함께 떠나보세요! _______________________ 울집 최고의 사교육은 여행🚗 여행하며 성장하는 여자 이야기 ©백자매 가족 여행 크리에이터 @travel_baek 2026 #고창군 #고창여행 #갯벌 #바지락축제 #갯벌체험" [ref=e693]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "클립"
+            - 'link "실시간 고창 청보리밭축제 다녀옴🌿 폭싹 속았수다 촬영지로 유명한 고창 청보리밭축제가 4월18일부터 시작되었어요! 카메라만 갖다대면 그냥 그림이에요🥹그저 감탄밖에 안나오는곳. 30만평 대지의 고창 학원농장에서 볼 수 있는 동화같은 풍경을 보러 당장 달리세요! 4월에는 유채꽃이 피어있어 더 예쁜🌼 ⭐️여행경비 50% 환급해주는 ‘고창 반띵여행’ 1차는 마감! 2차는 5월13일(수)부터 신청가능!! 📌‘정보’ 남겨주시면 고창반띵여행 신청링크+네이버 고창여행지도 자동디엠 갑니다! 💚축제현장 정보 가득 게시물 많관부💛 📍고창 청보리밭 축제 ㅣ전북특별자치도 고창군 공음면 학원농장길 154 ▫️기간 : 2026.04.18. (토) ~ 05.10. (일) ▫️주차비 1만원 고창사랑상품권 1만원으로 즉시 지급 *현장 부스에서 먹거리 사먹었어요! ▫️보리밭길-유채꽃밭길 산책로 입장비 : 3천원 *산책로 운영시간 08:30-18:30 , 6세이하 및 고창군민 무료 *반려견동반 가능합니다! 산책로 출입도 가능! 🌱더많은 여행정보는 @visit_gochang ✅고창 여행코스 추천 -상하농원 -세계유산 고인돌박물관 -황윤석도서관 *12월오픈 -구시포해수욕정 일몰 + 서해바다 조개구이&백합칼국수 -선운사 -5월 1일부터 3일 하전갯벌체험장 바지락축제 -고창해변승마클럽 휘게팜 -필베베팜 딸기체험 📸촬영일 : 2026년 4월 18일(토) *드론 원스톱 승인받고 촬영했습니다. _______________________ 울집 최고의 사교육은 여행🚗 여행하며 성장하는 여자 이야기 ©백자매 가족 여행 크리에이터 @travel_baek 2026 #고창청보리밭 #고창청보리밭축제 #폭싹속았수다 #고창여행 #국내여행 슬라이드" [ref=e696] [cursor=pointer]':
+              - /url: /travel_baek/p/DXUT7A_E2S9/
+              - 'img "실시간 고창 청보리밭축제 다녀옴🌿 폭싹 속았수다 촬영지로 유명한 고창 청보리밭축제가 4월18일부터 시작되었어요! 카메라만 갖다대면 그냥 그림이에요🥹그저 감탄밖에 안나오는곳. 30만평 대지의 고창 학원농장에서 볼 수 있는 동화같은 풍경을 보러 당장 달리세요! 4월에는 유채꽃이 피어있어 더 예쁜🌼 ⭐️여행경비 50% 환급해주는 ‘고창 반띵여행’ 1차는 마감! 2차는 5월13일(수)부터 신청가능!! 📌‘정보’ 남겨주시면 고창반띵여행 신청링크+네이버 고창여행지도 자동디엠 갑니다! 💚축제현장 정보 가득 게시물 많관부💛 📍고창 청보리밭 축제 ㅣ전북특별자치도 고창군 공음면 학원농장길 154 ▫️기간 : 2026.04.18. (토) ~ 05.10. (일) ▫️주차비 1만원 고창사랑상품권 1만원으로 즉시 지급 *현장 부스에서 먹거리 사먹었어요! ▫️보리밭길-유채꽃밭길 산책로 입장비 : 3천원 *산책로 운영시간 08:30-18:30 , 6세이하 및 고창군민 무료 *반려견동반 가능합니다! 산책로 출입도 가능! 🌱더많은 여행정보는 @visit_gochang ✅고창 여행코스 추천 -상하농원 -세계유산 고인돌박물관 -황윤석도서관 *12월오픈 -구시포해수욕정 일몰 + 서해바다 조개구이&백합칼국수 -선운사 -5월 1일부터 3일 하전갯벌체험장 바지락축제 -고창해변승마클럽 휘게팜 -필베베팜 딸기체험 📸촬영일 : 2026년 4월 18일(토) *드론 원스톱 승인받고 촬영했습니다. _______________________ 울집 최고의 사교육은 여행🚗 여행하며 성장하는 여자 이야기 ©백자매 가족 여행 크리에이터 @travel_baek 2026 #고창청보리밭 #고창청보리밭축제 #폭싹속았수다 #고창여행 #국내여행" [ref=e699]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "슬라이드"
+          - generic [ref=e701]:
+            - link [ref=e703] [cursor=pointer]:
+              - /url: /travel_baek/reel/DXSwzLlkxKz/
+              - img [ref=e706]
+              - generic:
+                - generic:
+                  - generic:
+                    - img "클립"
+            - 'link "실시간 국내최대 꽃잔디🌸🩷 70%개화했어요. 주말가면 더펴서 더 예쁘겠네요! ✔️20분거리 산청 대명사 꽃잔디도 유명해요. ✔️10분거리 오부 겹벚꽃 드라이브길도 예뻐요! 📌 ‘정보’ 남겨주시면 ‘산청여행지도’ 자동디엠 갑니다. 📍생초국제조각공원 ㅣ 경남 산청군 생초면 산수로 1064 ✔️무료입장,무료주차 📸촬영일 : 2026년 4월 16일 _______________________ 울집 최고의 사교육은 여행🚗 여행하며 성장하는 여자 이야기 ©백자매 가족 여행 크리에이터 @travel_baek 2026 #꽃잔디 #산청 #산청여행 #꽃구경 #국내여행 클립" [ref=e709] [cursor=pointer]':
+              - /url: /travel_baek/reel/DXMUcT_E_Tv/
+              - 'img "실시간 국내최대 꽃잔디🌸🩷 70%개화했어요. 주말가면 더펴서 더 예쁘겠네요! ✔️20분거리 산청 대명사 꽃잔디도 유명해요. ✔️10분거리 오부 겹벚꽃 드라이브길도 예뻐요! 📌 ‘정보’ 남겨주시면 ‘산청여행지도’ 자동디엠 갑니다. 📍생초국제조각공원 ㅣ 경남 산청군 생초면 산수로 1064 ✔️무료입장,무료주차 📸촬영일 : 2026년 4월 16일 _______________________ 울집 최고의 사교육은 여행🚗 여행하며 성장하는 여자 이야기 ©백자매 가족 여행 크리에이터 @travel_baek 2026 #꽃잔디 #산청 #산청여행 #꽃구경 #국내여행" [ref=e712]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "클립"
+            - 'link "1만원으로 1년동안 한가지 소원을 들어주는곳! 지금 삼색 능수도화가 만개해서 분위기가 정말 특별합니다🌸🩷 약15년동안 용탑 스님이 직접 쌓아올린 돌탑이 정말 이국적인 장소인데요. 🌸천불천탑 삼색능수도화축제 4월4일 ~ 4월26일 📌‘정보’ 남겨주시면 합천여행지도&제가직접 다녀와서 만족했던 합천맛집지도 공유드려요! 🚌합천여행코스 1.천불천탑 -> (12분) 로우풀 카페&합천호-> (11분) 영상테마파크 2.황매산 철쭉(5월부터~) -> (16분) 천불천탑 -> (30분) 핫들생태공원 작약꽃밭(5월) 🚌아이와 합천여행코스 1.경상남도안전체험관 -> (5분) 영상테마파크 ->(12분) 일해공원 산책 2.해인사 -> (10분) 대장경테마파크 -> (10분) 가야산독서당정글북(도서관&숙박) 📍천불천탑 ㅣ 경남 합천군 가회면 월계리 산88 입장하려면 1인 1만원의 비용, 단, 1년동안 무료입장 가능해요! -돌탑 속에 앉아 부처가 되어보는 체험 -신령스러운 소원성취 용바위 -자연마애불 -계절마다 피는 꽃들(매화,능수도화,수국 등) _______________________ 울집 최고의 사교육은 여행🚗 여행하며 성장하는 여자 이야기 ©백자매 가족 여행 크리에이터 @travel_baek 2026 #합천 #합천여행 #소원명소 #합천가볼만한곳 #능수도화 클립" [ref=e715] [cursor=pointer]':
+              - /url: /travel_baek/reel/DXB_iWKE-50/
+              - 'img "1만원으로 1년동안 한가지 소원을 들어주는곳! 지금 삼색 능수도화가 만개해서 분위기가 정말 특별합니다🌸🩷 약15년동안 용탑 스님이 직접 쌓아올린 돌탑이 정말 이국적인 장소인데요. 🌸천불천탑 삼색능수도화축제 4월4일 ~ 4월26일 📌‘정보’ 남겨주시면 합천여행지도&제가직접 다녀와서 만족했던 합천맛집지도 공유드려요! 🚌합천여행코스 1.천불천탑 -> (12분) 로우풀 카페&합천호-> (11분) 영상테마파크 2.황매산 철쭉(5월부터~) -> (16분) 천불천탑 -> (30분) 핫들생태공원 작약꽃밭(5월) 🚌아이와 합천여행코스 1.경상남도안전체험관 -> (5분) 영상테마파크 ->(12분) 일해공원 산책 2.해인사 -> (10분) 대장경테마파크 -> (10분) 가야산독서당정글북(도서관&숙박) 📍천불천탑 ㅣ 경남 합천군 가회면 월계리 산88 입장하려면 1인 1만원의 비용, 단, 1년동안 무료입장 가능해요! -돌탑 속에 앉아 부처가 되어보는 체험 -신령스러운 소원성취 용바위 -자연마애불 -계절마다 피는 꽃들(매화,능수도화,수국 등) _______________________ 울집 최고의 사교육은 여행🚗 여행하며 성장하는 여자 이야기 ©백자매 가족 여행 크리에이터 @travel_baek 2026 #합천 #합천여행 #소원명소 #합천가볼만한곳 #능수도화" [ref=e718]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "클립"
+        - generic [ref=e720]:
+          - link "게시물 더 보기" [ref=e722] [cursor=pointer]:
+            - /url: /travel_baek/
+            - generic [ref=e723]: 게시물 더 보기
+          - separator [ref=e724]
+  - contentinfo [ref=e725]:
+    - generic [ref=e726]:
+      - generic [ref=e728]:
+        - link "Meta" [ref=e730] [cursor=pointer]:
+          - /url: https://about.meta.com/
+          - generic [ref=e731]: Meta
+        - link "소개" [ref=e733] [cursor=pointer]:
+          - /url: https://about.instagram.com/
+          - generic [ref=e734]: 소개
+        - link "블로그" [ref=e736] [cursor=pointer]:
+          - /url: https://about.instagram.com/blog/
+          - generic [ref=e737]: 블로그
+        - link "채용 정보" [ref=e739] [cursor=pointer]:
+          - /url: https://about.instagram.com/about-us/careers
+          - generic [ref=e740]: 채용 정보
+        - link "도움말" [ref=e742] [cursor=pointer]:
+          - /url: https://help.instagram.com/
+          - generic [ref=e743]: 도움말
+        - link "API" [ref=e745] [cursor=pointer]:
+          - /url: https://developers.facebook.com/docs/instagram
+          - generic [ref=e746]: API
+        - link "개인정보처리방침" [ref=e748] [cursor=pointer]:
+          - /url: /legal/privacy/
+          - generic [ref=e749]: 개인정보처리방침
+        - link "약관" [ref=e751] [cursor=pointer]:
+          - /url: /legal/terms/
+          - generic [ref=e752]: 약관
+        - link "위치" [ref=e754] [cursor=pointer]:
+          - /url: /explore/locations/
+          - generic [ref=e755]: 위치
+        - link "Popular" [ref=e757] [cursor=pointer]:
+          - /url: /popular/
+          - generic [ref=e758]: Popular
+        - link "Instagram Lite" [ref=e760] [cursor=pointer]:
+          - /url: /web/lite/
+          - generic [ref=e761]: Instagram Lite
+        - link "Meta AI" [ref=e763] [cursor=pointer]:
+          - /url: https://www.meta.ai/?utm_source=foa_web_footer
+          - generic [ref=e764]: Meta AI
+        - link "Threads" [ref=e766] [cursor=pointer]:
+          - /url: https://www.threads.com/
+          - generic [ref=e767]: Threads
+        - link "연락처 업로드 & 비사용자" [ref=e769] [cursor=pointer]:
+          - /url: https://www.facebook.com/help/instagram/261704639352628
+          - generic [ref=e770]: 연락처 업로드 & 비사용자
+        - link "Meta Verified" [ref=e772] [cursor=pointer]:
+          - /url: /accounts/meta_verified/?entrypoint=web_footer
+          - generic [ref=e773]: Meta Verified
+      - generic [ref=e774]:
+        - generic [ref=e775] [cursor=pointer]:
+          - generic [ref=e776]:
+            - generic [ref=e777]: 한국어
+            - img "아래쪽 V자형 아이콘" [ref=e780]
+          - combobox "표시 언어 변경" [ref=e782]:
+            - option "Afrikaans"
+            - option "العربية"
+            - option "Čeština"
+            - option "Dansk"
+            - option "Deutsch"
+            - option "Ελληνικά"
+            - option "English"
+            - option "English (UK)"
+            - option "Español (España)"
+            - option "Español"
+            - option "فارسی"
+            - option "Suomi"
+            - option "Français"
+            - option "עברית"
+            - option "Bahasa Indonesia"
+            - option "Italiano"
+            - option "日本語"
+            - option "한국어" [selected]
+            - option "Bahasa Melayu"
+            - option "Norsk"
+            - option "Nederlands"
+            - option "Polski"
+            - option "Português (Brasil)"
+            - option "Português (Portugal)"
+            - option "Русский"
+            - option "Svenska"
+            - option "ภาษาไทย"
+            - option "Filipino"
+            - option "Türkçe"
+            - option "中文(简体)"
+            - option "中文(台灣)"
+            - option "বাংলা"
+            - option "ગુજરાતી"
+            - option "हिन्दी"
+            - option "Hrvatski"
+            - option "Magyar"
+            - option "ಕನ್ನಡ"
+            - option "മലയാളം"
+            - option "मराठी"
+            - option "नेपाली"
+            - option "ਪੰਜਾਬੀ"
+            - option "සිංහල"
+            - option "Slovenčina"
+            - option "தமிழ்"
+            - option "తెలుగు"
+            - option "اردو"
+            - option "Tiếng Việt"
+            - option "中文(香港)"
+            - option "Български"
+            - option "Français (Canada)"
+            - option "Română"
+            - option "Српски"
+            - option "Українська"
+        - generic [ref=e784]: © 2026 Instagram from Meta

@@ -1,0 +1,122 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img "menu" [ref=e7]
+        - img "logo_mrt_v2_web" [ref=e8]
+        - text: 매니저
+      - region "즐겨찾기" [ref=e10]:
+        - generic [ref=e11]:
+          - button "즐겨찾기 (0/20) caret-down" [expanded] [ref=e12] [cursor=pointer]:
+            - text: 즐겨찾기
+            - generic [ref=e13]: (0/20)
+            - img "caret-down" [ref=e14]:
+              - img [ref=e15]
+          - generic [ref=e17]:
+            - button "즐겨찾기 추가" [ref=e18] [cursor=pointer]:
+              - img "plus" [ref=e19]:
+                - img [ref=e20]
+            - button "즐겨찾기 편집" [ref=e23] [cursor=pointer]:
+              - img "edit" [ref=e24]:
+                - img [ref=e25]
+            - button "즐겨찾기 설정" [ref=e27] [cursor=pointer]:
+              - img "setting" [ref=e28]:
+                - img [ref=e29]
+        - generic [ref=e32]:
+          - text: 아직 등록된 즐겨찾기가 없어요.
+          - generic [ref=e33]: 지금 보고 있는 페이지를 추가하려면 ⌘ + Shift + B
+      - menu [ref=e34]:
+        - menuitem "주문/예약/상담" [ref=e35] [cursor=pointer]:
+          - generic [ref=e36]: 주문/예약/상담
+        - menuitem "상품" [ref=e37] [cursor=pointer]:
+          - generic [ref=e38]: 상품
+        - menuitem "회원(여행자)" [ref=e39] [cursor=pointer]:
+          - generic [ref=e40]: 회원(여행자)
+        - menuitem "회원(파트너)" [expanded] [ref=e41] [cursor=pointer]:
+          - generic [ref=e42]: 회원(파트너)
+        - menu [ref=e43]:
+          - menuitem "파트너" [ref=e44] [cursor=pointer]:
+            - link "파트너" [ref=e46]:
+              - /url: /crm/partner
+          - menuitem "파트너 정보 조회" [ref=e47] [cursor=pointer]:
+            - link "파트너 정보 조회" [ref=e49]:
+              - /url: /manage-user-partner/partner-info
+          - menuitem "제휴 파트너와 여행자 연동" [ref=e50] [cursor=pointer]:
+            - link "제휴 파트너와 여행자 연동" [ref=e52]:
+              - /url: /manage-user-partner/link-partnership
+          - menuitem "프로모션/팝업 관리" [ref=e53] [cursor=pointer]:
+            - link "프로모션/팝업 관리" [ref=e55]:
+              - /url: /crm/partner-popup
+          - menuitem "우수파트너 관리" [ref=e56] [cursor=pointer]:
+            - link "우수파트너 관리" [ref=e58]:
+              - /url: /crm/premium-partner
+          - menuitem "2차 인증" [ref=e59] [cursor=pointer]:
+            - link "2차 인증" [ref=e61]:
+              - /url: /manage-user-partner/two-factor-auth
+          - menuitem "법인 인증 정책" [ref=e62] [cursor=pointer]:
+            - link "법인 인증 정책" [ref=e64]:
+              - /url: /crm/corporate-policy
+        - menuitem "정산" [ref=e65] [cursor=pointer]:
+          - generic [ref=e66]: 정산
+        - menuitem "제휴사 정산" [ref=e67] [cursor=pointer]:
+          - generic [ref=e68]: 제휴사 정산
+        - menuitem "결제" [ref=e69] [cursor=pointer]:
+          - generic [ref=e70]: 결제
+        - menuitem "네이버쇼핑 (EP)" [ref=e71] [cursor=pointer]:
+          - generic [ref=e72]: 네이버쇼핑 (EP)
+        - menuitem "인바운드" [ref=e73] [cursor=pointer]:
+          - generic [ref=e74]: 인바운드
+        - menuitem "구매혜택(쿠폰/포인트/결제혜택)" [ref=e75] [cursor=pointer]:
+          - generic [ref=e76]: 구매혜택(쿠폰/포인트/결제혜택)
+        - menuitem "마리특" [ref=e77] [cursor=pointer]:
+          - generic [ref=e78]: 마리특
+        - menuitem "프로모션" [ref=e79] [cursor=pointer]:
+          - generic [ref=e80]: 프로모션
+        - menuitem "커뮤니티" [ref=e81] [cursor=pointer]:
+          - generic [ref=e82]: 커뮤니티
+        - menuitem "광고" [ref=e83] [cursor=pointer]:
+          - generic [ref=e84]: 광고
+        - menuitem "버티컬홈" [ref=e85] [cursor=pointer]:
+          - generic [ref=e86]: 버티컬홈
+        - menuitem "인앱메시지" [ref=e87] [cursor=pointer]:
+          - generic [ref=e88]: 인앱메시지
+        - menuitem "노티라우터(발송)" [ref=e89] [cursor=pointer]:
+          - generic [ref=e90]: 노티라우터(발송)
+        - menuitem "메신저" [ref=e91] [cursor=pointer]:
+          - generic [ref=e92]: 메신저
+        - menuitem "후기" [ref=e93] [cursor=pointer]:
+          - generic [ref=e94]: 후기
+        - menuitem "검색추천" [ref=e95] [cursor=pointer]:
+          - generic [ref=e96]: 검색추천
+        - menuitem "카테고리" [ref=e97] [cursor=pointer]:
+          - generic [ref=e98]: 카테고리
+        - menuitem "자주 쓰는 2.0 매니저" [ref=e99] [cursor=pointer]:
+          - generic [ref=e100]: 자주 쓰는 2.0 매니저
+        - menuitem "소셜" [ref=e101] [cursor=pointer]:
+          - generic [ref=e102]: 소셜
+        - menuitem "교통" [ref=e103] [cursor=pointer]:
+          - generic [ref=e104]: 교통
+        - menuitem "온디맨드" [ref=e105] [cursor=pointer]:
+          - generic [ref=e106]: 온디맨드
+        - menuitem "마이팩" [ref=e107] [cursor=pointer]:
+          - generic [ref=e108]: 마이팩
+        - menuitem "패키지" [ref=e109] [cursor=pointer]:
+          - generic [ref=e110]: 패키지
+        - menuitem "라이브 방송" [ref=e111] [cursor=pointer]:
+          - generic [ref=e112]: 라이브 방송
+        - menuitem "약관 관리" [ref=e113] [cursor=pointer]:
+          - generic [ref=e114]: 약관 관리
+        - menuitem "리셀마켓" [ref=e115] [cursor=pointer]:
+          - generic [ref=e116]: 리셀마켓
+        - menuitem "프라이싱" [ref=e117] [cursor=pointer]:
+          - generic [ref=e118]: 프라이싱
+        - menuitem "취소 추천 관리" [ref=e119] [cursor=pointer]:
+          - generic [ref=e120]: 취소 추천 관리
+        - menuitem "시스템" [ref=e121] [cursor=pointer]:
+          - generic [ref=e122]: 시스템
+  - generic [ref=e123]:
+    - generic [ref=e125]:
+      - generic [ref=e126]: 59:41
+      - link "공지사항" [ref=e127] [cursor=pointer]:
+        - /url: https://www.myrealtrip.com/manager/crm/guide_notices
+    - main [ref=e130]

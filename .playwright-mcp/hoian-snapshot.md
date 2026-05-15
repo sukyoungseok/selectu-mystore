@@ -1,0 +1,95 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - navigation [ref=e5]:
+        - button "myrealtrip" [ref=e7] [cursor=pointer]
+        - generic [ref=e11]
+        - generic [ref=e16]
+      - navigation [ref=e22]:
+        - generic [ref=e23]
+    - generic [ref=e158]:
+      - generic [ref=e162]:
+        - link "통합" [ref=e163] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/search?q=호이안&extra=
+        - link "해외숙소" [ref=e166] [cursor=pointer]:
+          - /url: https://accommodation.myrealtrip.com/union/products?keyword=%ED%98%B8%EC%9D%B4%EC%95%88&isDomestic=false&mrtKeyName=Hoi an&checkIn=2026-05-17&checkOut=2026-05-18
+        - link "패키지" [ref=e169] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/pkc/search?q=%ED%98%B8%EC%9D%B4%EC%95%88&keyName=Hoi%20an
+        - link "투어·티켓" [ref=e172] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/search?extra=&tab=tour&q=호이안
+        - link "항공권" [ref=e176] [cursor=pointer]:
+          - /url: https://flights.myrealtrip.com
+        - link "여행자보험" [ref=e179] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/event/flight_insurance
+        - link "해외렌터카" [ref=e182] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/rentalcars
+        - link "해외골프" [ref=e185] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/promotions/mrt_tna_golf
+      - generic [ref=e188]:
+        - generic [ref=e190]
+        - button [ref=e242] [cursor=pointer]
+        - button [ref=e246] [cursor=pointer]
+      - region "맞춤 필터" [ref=e250]:
+        - generic [ref=e252]
+        - button [ref=e293] [cursor=pointer]
+        - button [ref=e297] [cursor=pointer]
+        - button "필터" [ref=e302] [cursor=pointer]
+      - generic [ref=e305]:
+        - generic [ref=e310]
+        - generic [ref=e429]
+        - generic [ref=e645]
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 다낭,호이안스냅 최고의 가성비! 한국인작가가 여행의 소중한 추억에 행복을 담아드립니다 580 5.0 (225) 다낭 ∙ 스냅촬영 ∙ 1시간 0분 소요 즉시 확정 21,000원 0.5~1시간 스냅 2시간 이내 한국어 다양한 시작 시간 우정 연인 카메라 스냅 색감보정 의상 교체 가능 원본 이미지 제공" [ref=e732] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3885673
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [🔻5%특가]갓성비~바구니배+호이안야경투어(매일출발/바구니배/망고/호텔픽드랍/조인투어) 4838 4.8 (313) 다낭 ∙ 투어 ∙ 5시간 0분 소요 마리특 최저가보장제 쿠폰할인가 9,900원 5% 9,405원 호이안 당일투어 4~6시간 영어 밴 이동 오후 시작 그룹 (15명 이상)" [ref=e814] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3795284
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [다낭] 호이안 올드타운 단독 투어 (체크아웃 차량10시간 한국어가이드 바구니배 공항드랍) 1769 4.6 (151) 다낭 ∙ 투어 ∙ 10시간 0분 소요 39,000원 호이안 당일투어 6~12시간 한국어 영어 밴 이동 다양한 시작 시간 그룹 (15명 이상)" [ref=e887] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3441470
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [🔻10%특가] 호이안풀코스단독투어(한국어가이드/바구니배/올드타운/야시장/석식/소원초배) 3410 4.7 (175) 다낭 ∙ 투어 ∙ 6시간 0분 소요 마리특 최저가보장제 쿠폰할인가 67,000원 10% 60,300원 호이안 당일투어 4~6시간 한국어 영어 밴 이동 오후 시작 프라이빗" [ref=e957] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3795277
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [특가] 다낭 호이안 에코투어&사진작가 무료 스냅샷 (호이안/오행산 입장료,쿠킹클래스) 3639 4.7 (282) 다낭 ∙ 투어 ∙ 8시간 0분 소요 마리특 최저가보장제 쿠폰할인가 47,000원 10% 42,300원 호이안 당일투어 6~12시간 한국어 밴 이동 다양한 시작 시간 그룹 (15명 이상)" [ref=e1033] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3520254
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [선착순 특가] 호이안 종일 알짜투어 (한국어가이드/올드타운/바구니배/오행산/안방비치) 2746 4.8 (132) 다낭 ∙ 투어 ∙ 24시간 0분 소요 즉시 확정 21,286원 호이안 당일투어 한국어 밴 이동 다양한 시작 시간" [ref=e1111] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/4901275
+        - generic [ref=e1180]
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 다낭-호이안 바구니배 올드타운 단독투어 [공항픽업/공항샌딩무료] 1260 4.7 (89) 다낭 ∙ 투어 ∙ 3시간 0분 소요 최저가보장제 즉시 확정 6,081원 호이안 당일투어 한국어 밴 이동 다양한 시작 시간" [ref=e1417] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/4901314
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [즉시확정/QR] 호이안 깜탄 바구니배 탑승권 티켓 615 4.5 (40) 다낭 ∙ 입장권 ∙ 2시간 0분 소요 즉시 확정 4,487원 기타 티켓" [ref=e1488] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/5542023
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [오픈특가] 다낭 인호이안 스파 마사지 (식사,무료 픽업, 공항 픽업 샌딩) 911 4.7 (32) 다낭 ∙ 스파·마사지 무료취소 2,700원 그외 지역 마사지" [ref=e1548] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3828616
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [QR 티켓/당일 가능] 다낭 남호이안 빈원더스 (빈펄랜드) 입장권 883 4.6 (46) 다낭 ∙ 입장권 ∙ 0시간 0분 소요 즉시 확정 7,624원 빈원더스" [ref=e1608] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/5541479
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 호이안 버기카 투어 (단독, 운전기사 포함) 381 4.9 (19) 다낭 ∙ 투어 ∙ 2시간 0분 소요 마리특 최저가보장제 쿠폰할인가 7,600원 3% 7,372원 호이안 당일투어 2시간 이내 그 외 이동수단 다양한 시작 시간 집중 1코스 프라이빗" [ref=e1668] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3446522
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [단독투어] 바구니배 체험 & 올드타운 야경(소원초)+미노스파(체크아웃투어, 샤워실) 701 4.9 (42) 다낭 ∙ 투어 ∙ 9시간 0분 소요 마리특 최저가보장제 쿠폰할인가 19,000원 5% 18,050원 호이안 당일투어 6~12시간 영어 밴 이동 다양한 시작 시간 알찬 3코스 이상 프라이빗 입장권 포함 음료 포함" [ref=e1746] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3860266
+        - generic [ref=e1833]
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 다낭 메모리즈쇼 관람권 (호이안) 874 4.6 (104) 다낭 ∙ 입장권 즉시 확정 17,515원 공연·뮤지컬" [ref=e2073] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/4901277
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [즉시확정] 다낭 ↔ 호이안 올드타운 왕복 차량 (다낭 출발) (왕복 또는 편도 예약) 1841 4.6 (57) 다낭 ∙ 이동/교통편의 최저가보장제 즉시 확정 42,233원 도시간 이동" [ref=e2133] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/5009868
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 다낭 - 남호이안 빈펄 골프클럽 (무료-중식세트 포함) 103 4.8 (22) 다낭 ∙ 골프 ∙ 5시간 0분 소요 오전티 확보 최저가보장제 151,000원 프리미엄 4~6시간 한국어 영어 다양한 시작 시간" [ref=e2195] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3455303
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [즉시확정] 빈원더스 남호이안 입장권 + 단독 왕복차량 [리버사파리 / 공항픽업 & 샌딩] 517 4.9 (27) 다낭 ∙ 입장권 즉시 확정 25,300원 빈원더스" [ref=e2269] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/4901271
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [배트남 다낭] 고급 리무진 차량 서비스 9인승 (운전기사포함) 183 4.8 (18) 다낭 ∙ 이동/교통편의 125,000원 차량서비스" [ref=e2329] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3881254
+        - 'link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 영흥사 & 오행산 & 올드타운 야경(소원초체험) 투어 #한국어가이드 #체크아웃투어 728 4.7 (12) 다낭 ∙ 투어 ∙ 7시간 30분 소요 49,000원 호이안 당일투어 6~12시간 한국어 영어 밴 이동 다양한 시작 시간 그룹 (15명 이상)" [ref=e2386] [cursor=pointer]':
+          - /url: https://experiences.myrealtrip.com/products/3860253
+        - generic [ref=e2461]
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [다낭] 호이안 렌트카 (안방비치 다낭시내 바구니배 선택가능) 185 4.6 (8) 다낭 ∙ 투어 ∙ 6시간 0분 소요 9,900원 호이안 당일투어 6~12시간 밴 이동 다양한 시작 시간 집중 1코스 프라이빗 픽업 가능 샌딩 가능" [ref=e2628] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3441396
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 호이안 → 후에&바나힐&다낭 프라이빗 이동 서비스 180 4.4 (15) 다낭 ∙ 이동/교통편의 ∙ 0시간 0분 소요 즉시 확정 36,140원 도시간 이동" [ref=e2706] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/5542008
+      - button "저장됨" [ref=e2760] [cursor=pointer]:
+        - img [ref=e2762]
+        - generic [ref=e2765]: 저장됨
+    - contentinfo [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]
+        - generic [ref=e104]
+  - alert [ref=e157]
+  - button "마이리얼트립 상담 버튼" [ref=e2767]:
+    - generic [ref=e2768] [cursor=pointer]:
+      - generic [ref=e2769]: 마이리얼트립 상담 버튼
+      - img [ref=e2771]

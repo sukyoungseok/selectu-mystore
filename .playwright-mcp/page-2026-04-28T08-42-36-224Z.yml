@@ -1,0 +1,295 @@
+- generic [ref=e4]:
+  - generic [ref=e9]:
+    - generic [ref=e12]:
+      - link "Instagram" [ref=e17] [cursor=pointer]:
+        - /url: /
+        - img "Instagram" [ref=e22]
+      - generic [ref=e25]:
+        - link "홈" [ref=e30] [cursor=pointer]:
+          - /url: /
+          - img "홈" [ref=e35]
+        - link "릴스" [ref=e40] [cursor=pointer]:
+          - /url: /reels/
+          - img "릴스" [ref=e45]
+        - link "메시지 Direct 메시지 - 새로운 알림 링크 1개" [ref=e52] [cursor=pointer]:
+          - /url: /direct/inbox/
+          - generic [ref=e55]:
+            - img "메시지" [ref=e57]
+            - generic "Direct 메시지 - 새로운 알림 링크 1개" [ref=e60]:
+              - generic [ref=e62]: "1"
+        - link "검색" [ref=e66] [cursor=pointer]:
+          - /url: "#"
+          - img "검색" [ref=e71]
+        - link "탐색 탭" [ref=e77] [cursor=pointer]:
+          - /url: /explore/
+          - img "탐색 탭" [ref=e82]
+        - link "알림" [ref=e91] [cursor=pointer]:
+          - /url: "#"
+          - img "알림" [ref=e96]
+        - link "새로운 게시물" [ref=e104] [cursor=pointer]:
+          - /url: "#"
+          - img "새로운 게시물" [ref=e109]
+        - link "프로페셔널 대시보드" [ref=e114] [cursor=pointer]:
+          - /url: "#"
+          - img "프로페셔널 대시보드" [ref=e119]
+        - link "stone.water_님의 프로필 사진" [ref=e126] [cursor=pointer]:
+          - /url: /stone.water_/
+          - link "stone.water_님의 프로필 사진" [ref=e131]:
+            - img "stone.water_님의 프로필 사진" [ref=e132]
+      - generic [ref=e133]:
+        - link "설정" [ref=e136] [cursor=pointer]:
+          - /url: "#"
+          - img "설정" [ref=e141]
+        - link "Meta의 다른 앱" [ref=e144] [cursor=pointer]:
+          - /url: "#"
+          - img "Meta의 다른 앱" [ref=e149]
+    - main [ref=e153]:
+      - generic [active] [ref=e154]:
+        - generic [ref=e157]:
+          - generic [ref=e158]:
+            - generic [ref=e161]:
+              - generic [ref=e164]:
+                - link "min_pic._님의 릴스" [ref=e165] [cursor=pointer]:
+                  - /url: /min_pic._/reels/
+                  - link "min_pic._님의 프로필 사진" [ref=e168]:
+                    - img "min_pic._님의 프로필 사진" [ref=e169]
+                - generic [ref=e170]:
+                  - generic [ref=e171]:
+                    - link "min_pic._님의 릴스" [ref=e172] [cursor=pointer]:
+                      - /url: /min_pic._/reels/
+                      - generic [ref=e173]: min_pic._
+                    - generic [ref=e175]: •
+                    - button "팔로우" [ref=e176] [cursor=pointer]:
+                      - generic [ref=e177]: 팔로우
+                  - link "오디오 이미지 Taylor Swift · Cruel Summer" [ref=e182] [cursor=pointer]:
+                    - /url: /reels/audio/679387719214896/
+                    - generic [ref=e183]:
+                      - img "오디오 이미지" [ref=e185]
+                      - generic [ref=e191]: Taylor Swift · Cruel Summer
+              - button [ref=e192] [cursor=pointer]:
+                - generic [ref=e194]:
+                  - text: 360만원으로 이탈리아 한달여행 코스+경비 총정리🇮🇹(+한달여행 구글맵 공유 마감📍)
+                  - text: "*27일간 총 22도시에 방문했어요~!"
+                  - text: "*1박 30-40만원대 뷰 예쁜 숙소 4박도 포함된 비용"
+                  - text: 💫1일차 이탈리아남부
+                  - text: 밤에 바리도착
+                  - text: 💫2일차 이탈리아남부
+                  - text: 바리-폴리냐노아마레-Bontà sotto l'arco-알베로벨로
+                  - text: 💫3일차 이탈리아남부
+                  - text: 알베로벨로-마테라
+                  - text: 🍽️마테라의 뷰가 예쁜 맛집
+                  - text: La Finestra sui Sassi - Kappador
+                  - text: Dulcis In Fundo - FOOD & DRINKS
+                  - text: 💫4일차 중세도시 마테라
+                  - text: 마테라-로마
+                  - text: 💫5일차 로마
+                  - text: 진실의입-정복자 헤라클레스 신전-키르쿠스 막시무스-콘스탄티누스 개선문-콜로세움-Royal Art Café (콜로세움 뷰 카페) -Via dei Fori Imperiali (강추)-조국의제단-루프탑 카페-콜로세움-산티냐치오교회-판테온-트레비분수
+                  - text: 💫6일차 바티칸
+                  - text: 바티칸미술관-시스티나성당(천지창조)-성베드로대성전-올드브릿지(로마 3대 젤라또맛집)
+                  - text: 💫7일차 포지타노
+                  - text: 로마-포지타노
+                  - text: 🏡포지타노 뷰가 예쁜 숙소에서 2박
+                  - text: 🏡포지타노 여름 성수기 숙박비 보통 1박 60~100만원대인데 제가 숙박한숙소는 1박 30후반대
+                  - text: 💫8일차 포지타노
+                  - text: Positano Spiaggia 해변
+                  - text: 💫9일차 포지타노
+                  - text: 포지타노 시내구경-메타
+                  - text: 💫10일차 이탈리아남부
+                  - text: 메타-소렌토-나폴리-피렌체
+                  - text: 🍽️나폴리에서 제일 유명한 피자맛집
+                  - text: L‘Antica Pizzeria Da Michele
+                  - text: 💫11일차 피렌체
+                  - text: 예쁜 두 숙소에서 각 1박
+                  - text: "🏷️예쁜숙소정보: 스토리 하이라이트 유럽 인생숙소모음 참고"
+                  - text: 💫12일차 피렌체
+                  - text: 피사의 사탑 당일치기
+                  - text: 💫13일차 피렌체
+                  - text: 오스테리아 파스텔라(치즈휠파스타)-미켈란젤로광장-볼차노
+                  - text: 💫14일차 돌로미티
+                  - text: 카레짜호수
+                  - text: 💫15일차 돌로미티
+                  - text: 프라그세르 호수
+                  - text: •두 호수 모두 한바퀴 산책 추천
+                  - text: 💫16일차 베네치아
+                  - text: 볼차노-베네치아본섬도착-Spicy Puppa(이탈리아 정통 까르보나라 맛집)-산마르코광장
+                  - text: 💫17일차 베네치아
+                  - text: 산마르코의종탑-카페플로리안(300년전통)
+                  - text: 💫18일차 부라노섬,무라노섬
+                  - text: 부라노섬-무라노섬
+                  - text: 💫19일차 바사노델그라파
+                  - text: 베키오다리와 뷰포인트 구경
+                  - text: 📍뷰포인트
+                  - text: "-Belvedere di Piazza Terraglio"
+                  - text: "-Palazzo Sturm"
+                  - text: 💫20일차 베로나
+                  - text: 베네치아-베로나-베로나 아레나-피에트라다리
+                  - text: 💫21일차 베로나
+                  - text: Castel San Pietro-카스텔베키오 다리-줄리엣의집-에르베 광장-Alcova del Frate (당나귀고기 라구파스타)-제노바
+                  - text: 💫22일차 포르토피노
+                  - text: "*제가 다녀온 이탈리아 바다도시중 제일 예뻤던곳"
+                  - text: 📍뷰포인트
+                  - text: Viewpoint Portofino
+                  - text: 💫23일차 마나롤라
+                  - text: 💫24일차 레이크코모
+                  - text: 제노바-메나지오 Menaggio
+                  - text: "*메나지오에서 숙박"
+                  - text: "*성수기에 페리 미리 온라인 예매 필요x"
+                  - text: 💫25일차 레이크코모
+                  - text: 바레나-Villa Monastero 식물원
+                  - text: 💫26일차 레이크코모
+                  - text: 벨라지오-Famous Street of Bellagio
+                  - text: 💫27일차 밀라노💫
+                  - text: 밀라노대성당-비토리오 에마누엘레 2세 갤러리아
+                  - text: 🏷️이탈리아여행에 대한 더 자세한 정보는 스토리모음 이탈리아편 참고
+                  - text: 💡유럽에서 장기여행시 기차 만원에 탈수있는 꿀팁(댓글고정)
+                  - text: 💸교통비, 숙소, 식비 26박 1인 총 비용 (항공, 기타비용 제외)
+                  - text: ➡️361만원
+                  - text: 🍽️식비 1인 99만원
+                  - text: •외식비 1인 1회당 평균 2만~4만원
+                  - text: 🏡숙박 1인 207만원 (1박당 약 8만원)
+                  - text: 1박 30-40만원대 뷰 예쁜 숙소 4박
+                  - text: 🚃교통비 1인 55만원
+                  - text: •페리, 기차, 시내교통, 버스 등 모든 교통비를 포함
+                  - text: •유레일 이탈리아패스 한달내 6일 비연속권 유스 26만원
+                  - text: 🎫입장권 1인 63000원
+                  - text: 💵기타 35만원
+                  - text: "📆여행시기: 8월초~9월초"
+                  - text: 🌟[신청마감] 이탈리아 한달여행 모든여행지, 뷰포인트, 맛집, 설명포함 구글맵공유🌟
+                  - text: 🔥신청기간 2.17~3.16
+                  - text: 참여방법
+                  - text: "1."
+                  - link "@min_pic._" [ref=e196]:
+                    - /url: /min_pic._/
+                  - text: 팔로우
+                  - text: 2. 좋아요+저장+신청하는댓글
+                  - text: 📍여행지소개
+                  - text: 1 포르토피노
+                  - text: 2,6 피렌체
+                  - text: 3 카레짜호수
+                  - text: 4 폴리냐노아마레
+                  - text: 5 메나지오
+                  - text: 7 바레나
+                  - text: 8 알베로벨로
+                  - text: 9 마나롤라
+                  - text: ’145days trip in Europe'
+                  - text: 예쁜 유럽여행 정보, 숙소정보 및 꿀팁이 필요하시다면 팔로우하시고 정보받아가세요☺️⬇️
+                  - link "@min_pic._" [ref=e197]:
+                    - /url: /min_pic._/
+                  - link "#이탈리아여행" [ref=e198]:
+                    - /url: /explore/tags/%EC%9D%B4%ED%83%88%EB%A6%AC%EC%95%84%EC%97%AC%ED%96%89/
+                  - link "#이탈리아" [ref=e199]:
+                    - /url: /explore/tags/%EC%9D%B4%ED%83%88%EB%A6%AC%EC%95%84/
+                  - link "#유럽여행" [ref=e200]:
+                    - /url: /explore/tags/%EC%9C%A0%EB%9F%BD%EC%97%AC%ED%96%89/
+            - generic [ref=e201]:
+              - img
+              - group "Video player" [ref=e212]:
+                - generic [ref=e213]:
+                  - button "0" [ref=e214] [cursor=pointer]:
+                    - slider "볼륨 조정" [ref=e215]:
+                      - button "오디오 소리 꺼짐" [ref=e219]:
+                        - img "오디오 소리 꺼짐" [ref=e220]
+                  - button "재생하려면 누르세요" [ref=e225] [cursor=pointer]:
+                    - img "재생 버튼 아이콘" [ref=e227]
+          - generic [ref=e229]:
+            - generic [ref=e230] [cursor=pointer]:
+              - button "좋아요" [ref=e233]:
+                - img "좋아요" [ref=e236]
+              - button "9057" [ref=e238]:
+                - generic [ref=e242]: "9057"
+            - button "댓글 2348" [ref=e244] [cursor=pointer]:
+              - generic [ref=e245]:
+                - img "댓글" [ref=e246]
+                - generic [ref=e251]: "2348"
+            - generic [ref=e252] [cursor=pointer]:
+              - button "리포스트" [ref=e253]:
+                - img "리포스트" [ref=e254]
+              - button "56" [ref=e256]:
+                - generic [ref=e260]: "56"
+            - button "공유하기" [ref=e262] [cursor=pointer]:
+              - img "공유하기" [ref=e263]
+            - button "삭제" [ref=e268] [cursor=pointer]:
+              - button "삭제" [ref=e269]:
+                - img "삭제" [ref=e271]
+            - button "더 보기" [ref=e274] [cursor=pointer]:
+              - img "더 보기" [ref=e276]
+            - link "오디오 이미지" [ref=e281] [cursor=pointer]:
+              - /url: /reels/audio/679387719214896/
+              - img "오디오 이미지" [ref=e284]
+        - generic [ref=e288]:
+          - generic [ref=e289]:
+            - generic [ref=e292]:
+              - generic [ref=e295]:
+                - link "whatasoya님의 릴스" [ref=e296] [cursor=pointer]:
+                  - /url: /whatasoya/reels/
+                  - link "whatasoya님의 프로필 사진" [ref=e299]:
+                    - img "whatasoya님의 프로필 사진" [ref=e300]
+                - generic [ref=e302]:
+                  - link "whatasoya님의 릴스" [ref=e303] [cursor=pointer]:
+                    - /url: /whatasoya/reels/
+                    - generic [ref=e304]: whatasoya
+                  - generic [ref=e306]: •
+                  - button "팔로우" [ref=e307] [cursor=pointer]:
+                    - generic [ref=e308]: 팔로우
+              - 'button "not just a library. more like a reset. this is my sanctuary. what’s yours? #library #motivation #digitaldiary" [ref=e309] [cursor=pointer]':
+                - generic [ref=e311]:
+                  - text: not just a library.
+                  - text: more like a reset.
+                  - text: this is my sanctuary.
+                  - text: what’s yours?
+                  - link "#library" [ref=e313]:
+                    - /url: /explore/tags/library/
+                  - link "#motivation" [ref=e314]:
+                    - /url: /explore/tags/motivation/
+                  - link "#digitaldiary" [ref=e315]:
+                    - /url: /explore/tags/digitaldiary/
+            - generic [ref=e316]:
+              - img
+              - group "Video player" [ref=e327]:
+                - generic [ref=e328]:
+                  - button "0" [ref=e329] [cursor=pointer]:
+                    - slider "볼륨 조정" [ref=e330]:
+                      - button "오디오 소리 꺼짐" [ref=e334]:
+                        - img "오디오 소리 꺼짐" [ref=e335]
+                  - button "재생하려면 누르세요" [ref=e340] [cursor=pointer]:
+                    - img "재생 버튼 아이콘" [ref=e342]
+          - generic [ref=e344]:
+            - generic [ref=e345] [cursor=pointer]:
+              - button "좋아요" [ref=e348]:
+                - img "좋아요" [ref=e351]
+              - button "612" [ref=e353]:
+                - generic [ref=e357]: "612"
+            - button "댓글 19" [ref=e359] [cursor=pointer]:
+              - generic [ref=e360]:
+                - img "댓글" [ref=e361]
+                - generic [ref=e366]: "19"
+            - generic [ref=e367] [cursor=pointer]:
+              - button "리포스트" [ref=e368]:
+                - img "리포스트" [ref=e369]
+              - button "37" [ref=e371]:
+                - generic [ref=e375]: "37"
+            - button "공유하기" [ref=e377] [cursor=pointer]:
+              - img "공유하기" [ref=e378]
+            - button "저장" [ref=e383] [cursor=pointer]:
+              - button "저장" [ref=e384]:
+                - img "저장" [ref=e386]
+            - button "더 보기" [ref=e389] [cursor=pointer]:
+              - img "더 보기" [ref=e391]
+            - link "오디오 이미지" [ref=e396] [cursor=pointer]:
+              - /url: /reels/audio/26584137764545925/
+              - img "오디오 이미지" [ref=e399]
+        - generic [ref=e406]:
+          - generic [ref=e407]:
+            - status "읽어들이는 중..." [ref=e408]
+            - status "읽어들이는 중..." [ref=e409]
+          - status "읽어들이는 중..." [ref=e410]
+          - status "읽어들이는 중..." [ref=e411]
+      - toolbar "Reels navigation controls" [ref=e413]:
+        - button "이전 릴스로 이동" [ref=e414] [cursor=pointer]:
+          - img [ref=e416]
+        - button "다음 릴스로 이동" [ref=e418] [cursor=pointer]:
+          - img [ref=e420]
+  - button "메시지 메시지" [ref=e423] [cursor=pointer]:
+    - generic [ref=e425]:
+      - img "메시지" [ref=e427]
+      - generic [ref=e430]: 메시지

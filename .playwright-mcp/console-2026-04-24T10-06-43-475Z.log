@@ -1,0 +1,12 @@
+[     348ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:9001/api/prices/osaka?directOnly=false:0
+[     349ms] [WARNING] TripSignal osaka 로드 실패 (기본값 유지): Error: HTTP 404
+    at loadCityBudget (http://localhost:9001/mystore-mockup/mockup.html:4948:40) @ http://localhost:9001/mystore-mockup/mockup.html:5004
+[     352ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:9001/api/prices/tokyo?directOnly=false:0
+[     352ms] [WARNING] TripSignal tokyo 로드 실패 (기본값 유지): Error: HTTP 404
+    at loadCityBudget (http://localhost:9001/mystore-mockup/mockup.html:4948:40) @ http://localhost:9001/mystore-mockup/mockup.html:5004
+[     353ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:9001/api/prices/bangkok?directOnly=false:0
+[     353ms] [WARNING] TripSignal bangkok 로드 실패 (기본값 유지): Error: HTTP 404
+    at loadCityBudget (http://localhost:9001/mystore-mockup/mockup.html:4948:40) @ http://localhost:9001/mystore-mockup/mockup.html:5004
+[     353ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:9001/api/prices/taipei?directOnly=false:0
+[     353ms] [WARNING] TripSignal taipei 로드 실패 (기본값 유지): Error: HTTP 404
+    at loadCityBudget (http://localhost:9001/mystore-mockup/mockup.html:4948:40) @ http://localhost:9001/mystore-mockup/mockup.html:5004

@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="ko">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5HGL54Q9S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Q5HGL54Q9S');
+</script>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 <title>훵 · 마이스토어</title>
@@ -54,7 +62,8 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
 .trip-carousel::-webkit-scrollbar{display:none}
 .trip-card{flex-shrink:0;width:300px;scroll-snap-align:center;background:#fff;border:1px solid var(--border);border-radius:20px;overflow:hidden;box-shadow:0 6px 18px rgba(24,21,18,.07)}
 .tc-hero{position:relative;height:150px;background-size:cover;background-position:center}
-.tc-hero.nagoya-5d{background:url('../assets/images/hwung-card1.jpg') center/cover no-repeat}
+.tc-hero.nagoya-5d{background:url('../assets/images/hwung-nagoya.jpg') center/cover no-repeat}
+.tc-hero.fukuoka-3d{background:url('../assets/images/hwung-fukuoka.jpg') center/cover no-repeat}
 .tc-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,14,10,.05),rgba(17,14,10,.68))}
 .tc-hero-content{position:absolute;left:16px;right:16px;bottom:14px;z-index:1;color:#fff;display:flex;align-items:center;gap:10px}
 .tc-flag{width:46px;height:46px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0;box-shadow:0 3px 10px rgba(0,0,0,.25)}
@@ -232,7 +241,7 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
       </div>
     </div>
 
-    <a class="coupon-showcase" href="https://www.myrealtrip.com/coupons" target="_blank">
+    <a class="coupon-showcase" href="https://myrealt.rip/ZfXI70" target="_blank">
       <div class="cs-layer cs-l2"></div>
       <div class="cs-layer cs-l3"></div>
       <div class="cs-ticket">
@@ -249,6 +258,30 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
     <div class="trip-carousel-wrap">
       <div class="trip-carousel" id="trip-carousel">
         <div class="trip-card">
+          <div class="tc-hero fukuoka-3d">
+            <div class="tc-hero-content">
+              <div class="tc-flag">🇯🇵</div>
+              <div class="tc-title-col">
+                <div class="tc-badges"><span class="tc-badge">2박 3일</span><span class="tc-badge">훵 강추</span></div>
+                <div class="tc-title">후쿠오카 2박3일</div>
+              </div>
+            </div>
+          </div>
+          <div class="tc-body">
+            <div class="tc-ask">어디부터 볼까요?</div>
+            <div class="tc-choice">
+              <button class="plan" onclick="openCourse('fukuoka')">
+                <div><strong>일정표 보기</strong><span>동선 먼저</span></div>
+                <div class="tc-arr">›</div>
+              </button>
+              <button class="cost" onclick="openExpensePanel('fukuoka')">
+                <div class="tc-c-row1"><strong>상세 경비 보기</strong><div class="tc-c-price"><span class="tc-c-num">70<span class="tc-c-unit">만~</span></span><span class="tc-arr" style="margin-left:0">›</span></div></div>
+                <div class="tc-c-row2"><span class="tc-c-badge">🔥 인기</span><span class="tc-c-sub">항공·숙소·투어 한 번에</span></div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="trip-card">
           <div class="tc-hero nagoya-5d">
             <div class="tc-hero-content">
               <div class="tc-flag">🇯🇵</div>
@@ -261,7 +294,7 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
           <div class="tc-body">
             <div class="tc-ask">어디부터 볼까요?</div>
             <div class="tc-choice">
-              <button class="plan" onclick="openCourse()">
+              <button class="plan" onclick="openCourse('nagoya')">
                 <div><strong>일정표 보기</strong><span>동선 먼저</span></div>
                 <div class="tc-arr">›</div>
               </button>
@@ -273,7 +306,7 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
           </div>
         </div>
       </div>
-      <div class="trip-nav"><div class="trip-dots"><span class="trip-dot on"></span></div></div>
+      <div class="trip-nav"><button class="trip-arrow" id="trip-prev" aria-label="이전" onclick="tripScroll(-1)">‹</button><div class="trip-dots" id="trip-dots"><span class="trip-dot on"></span><span class="trip-dot"></span></div><button class="trip-arrow" id="trip-next" aria-label="다음" onclick="tripScroll(1)">›</button></div>
     </div>
 
     <div class="page-tabs">
@@ -438,7 +471,7 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
   <div id="course-panel">
     <div class="panel-topbar">
       <div class="panel-back" onclick="closeCourse()">←</div>
-      <div><div class="panel-title">나고야 4박 5일 코스</div></div>
+      <div><div class="panel-title" id="course-title-text">나고야 4박 5일 코스</div></div>
       <button class="share-btn" onclick="copyShareLink('course')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/></svg>링크 복사</button>
     </div>
     <div id="map-full"></div>
@@ -455,8 +488,8 @@ body{font-family:"Noto Sans KR",sans-serif;background:#eceae4;min-height:100vh;d
         <button class="share-btn" onclick="copyShareLink('expense')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/></svg>링크 복사</button>
       </div>
       <div class="exp-subtitle" id="exp-subtitle-text">훵 추천 코스 · 1인 기준</div>
-      <div class="exp-item"><div class="exp-emoji">✈️</div><div class="exp-info"><div class="exp-name">항공 <span class="exp-live-tag">최저가</span></div><div class="exp-note" id="exp-flight-note">인천↔나고야 왕복 · 이코노미</div></div><div class="exp-right"><div class="exp-price-val" id="exp-flight">₩280,000</div><button class="exp-book-btn" onclick="window.open('https://www.myrealtrip.com','_blank')">예약 바로가기</button></div></div>
-      <div class="exp-item"><div class="exp-emoji">🏨</div><div class="exp-info"><div class="exp-name">숙소 <span class="exp-live-tag">최저가</span></div><div class="exp-note" id="exp-hotel-note">나고야역 근처 3박 + 료칸 1박</div></div><div class="exp-right"><div class="exp-price-val" id="exp-hotel">₩380,000</div><button class="exp-book-btn" onclick="window.open('https://www.myrealtrip.com','_blank')">예약 바로가기</button></div></div>
+      <div class="exp-item"><div class="exp-emoji">✈️</div><div class="exp-info"><div class="exp-name">항공 <span class="exp-live-tag">최저가</span></div><div class="exp-note" id="exp-flight-note">인천↔나고야 왕복 · 이코노미</div></div><div class="exp-right"><div class="exp-price-val" id="exp-flight">₩280,000</div><button class="exp-book-btn" id="exp-flight-btn" onclick="window.open('https://www.myrealtrip.com','_blank')">예약 바로가기</button></div></div>
+      <div class="exp-item"><div class="exp-emoji">🏨</div><div class="exp-info"><div class="exp-name">숙소 <span class="exp-live-tag">최저가</span></div><div class="exp-note" id="exp-hotel-note">나고야역 근처 3박 + 료칸 1박</div></div><div class="exp-right"><div class="exp-price-val" id="exp-hotel">₩380,000</div><button class="exp-book-btn" id="exp-hotel-btn" onclick="window.open('https://www.myrealtrip.com','_blank')">예약 바로가기</button></div></div>
       <div class="exp-item"><div class="exp-emoji">🍜</div><div class="exp-info"><div class="exp-name">식비 · 현지 경비</div><div class="exp-note" id="exp-food-note">미소카츠·히츠마부시·하브스 포함</div></div><div class="exp-right"><div class="exp-price-val" id="exp-food-price">₩420,000</div></div></div>
       <div id="exp-tours-list"></div>
       <div class="exp-total-row"><div class="exp-total-label">총 경비</div><div class="exp-total-val" id="exp-total">₩1,310,000</div></div>
@@ -492,7 +525,7 @@ const products=[
   {name:"포뮬러 F1 일본 스즈카 그랑프리 2026 (3일권)",price:"₩523,537",tag:"입장권",icon:"🏎️",bg:"#FEF3C7",tagColor:"#E07A38",tagBg:"#FDE8CE",city:"나고야",url:"https://myrealt.rip/ZIsM84",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/03/anhg/LyrujaZtAK.jpg"},
 ];
 
-const days=[
+const CITY_DAYS={"nagoya":[
   {day:1,date:"D1 · 나고야 시내 탐방",dayCost:"약 3~5만원",stops:[
     {time:"점심",place:"야바톤 미소카츠",desc:"나고야 명물 미소카츠의 원조! 진한 된장 소스가 바삭한 돈카츠와 찰떡궁합. 줄 서서 먹을 가치 있음 🥩",cost:"₩1.5만원",product:null},
     {time:"오후",place:"오스상점가 + 오아시스 21",desc:"나고야 최대 쇼핑 거리 오스상점가. 빈티지, 음식점, 기념품 총집합. 오아시스 21 유리 광장에서 인증샷!",cost:"자유",product:null},
@@ -515,32 +548,66 @@ const days=[
     {time:"점심",place:"하브스 본점 밀크레이프",desc:"나고야 본점에서 마시는 진한 밀크레이프! 줄이 길지만 기다릴 가치 100%. 마지막 날 귀국 전 필수 코스 🍰",cost:"₩1.5만원",product:null},
     {time:"오후",place:"중부국제공항(세ント레아) 출발",desc:"나고야 사카에에서 전철 약 30분. 공항 내 쇼핑과 신사도 있으니 여유 있게 출발!",cost:"₩1만원",product:null},
   ]},
-];
+],"fukuoka":[
+  {day:1,date:"D1 · 후쿠오카 도착 + 시내 쇼핑",dayCost:"약 5~7만원",stops:[
+    {time:"7:20 출발",place:"인천국제공항 (ICN)",lat:37.4602,lng:126.4407,pinColor:"amber",pinLabel:"D1",desc:"이스타항공(ZE) 직항으로 후쿠오카행. 약 1시간 30분 비행. 1인 ₩266,200 ✈️",cost:"왕복 ₩266,200",product:null},
+    {time:"8:55 도착",place:"후쿠오카 공항 (FUK)",lat:33.5859,lng:130.4509,pinColor:"amber",pinLabel:"D1",desc:"공항 국제선 터미널에서 하카타역까지 에어포트 버스 편도 약 25분. 지하철보다 짐 옮기기 편해요 🚌",cost:"₩7,514",product:{name:"후쿠오카 공항↔하카타역 에어포트 버스 편도",price:"₩7,514",tag:"교통",tagBg:"#DBEAFE",tagColor:"#1D4ED8",bg:"#DBEAFE",icon:"🚌",city:"후쿠오카",url:"https://myrealt.rip/ZfRf86"}},
+    {time:"점심",place:"가오가오",lat:33.5871,lng:130.3984,pinColor:"amber",pinLabel:"D1",desc:"텐진의 인기 곱창전골집! 도착하자마자 든든하게. 줄 서서 먹을 가치 있음 🍲",cost:"₩2만원",product:null},
+    {time:"오후",place:"모모치 해변",lat:33.5928,lng:130.3585,pinColor:"amber",pinLabel:"D1",desc:"후쿠오카 타워와 함께 인생사진 명소. 인공해변이지만 노을 시간 분위기 최고 🌅",cost:"무료",product:null},
+    {time:"오후",place:"다이묘 거리 쇼핑",lat:33.5891,lng:130.3962,pinColor:"amber",pinLabel:"D1",desc:"빈티지·편집숍 모인 후쿠오카판 가로수길. 시내 1일권으로 여러 코스 다 도는 게 효율적!",cost:"₩23,143 (1일권)",product:{name:"후쿠오카 시내 1일 자유승차권 (그린패스)",price:"₩23,143",tag:"교통",tagBg:"#DCFCE7",tagColor:"#15803D",bg:"#DCFCE7",icon:"🎫",city:"후쿠오카",url:"https://myrealt.rip/ZfRjb3"}},
+    {time:"오후",place:"텐진 지하상가",lat:33.5907,lng:130.3994,pinColor:"amber",pinLabel:"D1",desc:"유럽 골목 컨셉 지하상가. 비 와도 OK! 화장품·잡화·카페까지 한 번에 🛍️",cost:"자유",product:null},
+    {time:"오후",place:"로프트 텐진",lat:33.5907,lng:130.3990,pinColor:"amber",pinLabel:"D1",desc:"문구·라이프스타일 굿즈 천국. 일본 한정 상품과 캐릭터 굿즈 GET!",cost:"자유",product:null},
+    {time:"저녁",place:"야키니쿠사카바 니쿠마루",lat:33.5910,lng:130.4080,pinColor:"amber",pinLabel:"D1",desc:"가성비 야키니쿠 술집. 와규 한 점에 행복해지는 곳 🥩",cost:"₩3만원",product:null},
+  ]},
+  {day:2,date:"D2 · 당일 버스투어",dayCost:"약 15~18만원",stops:[
+    {time:"7:50 출발",place:"유후인 다자이후 벳푸 버스투어",lat:33.5895,lng:130.4203,pinColor:"sage",pinLabel:"D2",desc:"07:50 시작 / 18:30 종료",cost:"₩136,003",product:{name:"라쿠투어 다자이후+유후인+벳푸 버스투어 (모찌증정·입장료 포함)",price:"₩136,003",tag:"강추",tagBg:"#FDE8CE",tagColor:"#E07A38",bg:"#FEF3C7",icon:"🚌",city:"후쿠오카",url:"https://myrealt.rip/ZfRo0b"}},
+    {time:"오전",place:"다자이후 텐만구",lat:33.5316,lng:130.5374,pinColor:"sage",pinLabel:"D2",desc:"학문의 신을 모신 신사. 매화 명소로 유명. 우메가에모찌 꼭 맛볼 것 🌸",cost:"투어 포함",product:null},
+    {time:"오후",place:"유후인 긴린호",lat:33.2627,lng:131.3543,pinColor:"sage",pinLabel:"D2",desc:"신비로운 안개 호수와 유노쓰보 거리. 지브리 감성 가득한 동화 같은 마을 🏡",cost:"투어 포함",product:null},
+    {time:"오후",place:"벳푸 지옥온천",lat:33.2843,lng:131.4904,pinColor:"sage",pinLabel:"D2",desc:"바다지옥(우미지고쿠) 등 색색의 온천 구경. 족욕도 가능! 일본 온천 도시의 진수 ♨️",cost:"투어 포함",product:null},
+    {time:"18:30 복귀",place:"하카타역 도착",lat:33.5895,lng:130.4203,pinColor:"sage",pinLabel:"D2",desc:"버스투어 종료. 시내로 다시 들어와 저녁 일정 시작!",cost:"-",product:null},
+    {time:"저녁",place:"우오덴",lat:33.5910,lng:130.4055,pinColor:"sage",pinLabel:"D2",desc:"나카스의 인기 해산물 이자카야. 신선한 사시미와 사케 한 잔으로 하루 마무리 🍶",cost:"₩3.5만원",product:null},
+    {time:"밤",place:"캐널시티 분수쇼",lat:33.5901,lng:130.4115,pinColor:"sage",pinLabel:"D2",desc:"하카타 대표 복합 쇼핑몰. 시간대별 분수쇼 무료 관람! 라멘 스타디움도 옆에 ⛲",cost:"자유",product:null},
+    {time:"밤",place:"돈키호테 나카스점",lat:33.5915,lng:130.4040,pinColor:"sage",pinLabel:"D2",desc:"기념품·과자·약·뷰티 한방에! 면세 카운터 이용해서 알뜰 쇼핑 🛒",cost:"자유",product:null},
+    {time:"밤",place:"나카스 포장마차 거리",lat:33.5910,lng:130.4080,pinColor:"sage",pinLabel:"D2",desc:"후쿠오카 야경 명소. 분위기만 구경해도 좋고, 한 잔 더 가도 좋고! 🏮",cost:"자유",product:null},
+  ]},
+  {day:3,date:"D3 · 마지막 디저트 투어 + 귀국",dayCost:"약 3~5만원",stops:[
+    {time:"아점",place:"이쿠라 하카타",lat:33.5895,lng:130.4203,pinColor:"blush",pinLabel:"D3",desc:"하카타역 근처 명란젓 정식 맛집. 후쿠오카 명물 명란을 무한리필! 든든하게 시작 🍚",cost:"₩1.8만원",product:null},
+    {time:"디저트",place:"이몬네 디저트",lat:33.5895,lng:130.4203,pinColor:"blush",pinLabel:"D3",desc:"하카타역 인근 디저트 카페. 비주얼·맛 둘 다 잡은 후쿠오카 핫플 🍰",cost:"₩1.2만원",product:null},
+    {time:"오후",place:"킷테 하카타",lat:33.5895,lng:130.4203,pinColor:"blush",pinLabel:"D3",desc:"하카타역 바로 옆 쇼핑몰. 마지막 기념품 쇼핑 + 라스트 라멘 한 그릇 🍜",cost:"자유",product:null},
+    {time:"오후",place:"후쿠오카 공항 이동",lat:33.5859,lng:130.4509,pinColor:"blush",pinLabel:"D3",desc:"하카타역에서 지하철로 단 5분! 일본에서 가장 시내와 가까운 공항. 여유 있게 출발 ✈️",cost:"₩260",product:null},
+    {time:"17:50 출발",place:"후쿠오카 → 인천",lat:33.5859,lng:130.4509,pinColor:"blush",pinLabel:"D3",desc:"이스타항공(ZE) 직항으로 19:20 인천 도착. 짧지만 알찬 2박 3일 끝!",cost:"왕복 포함",product:null},
+  ]},
+]};
 
-const CITY_EXPENSE={nagoya:{title:"✈️ 나고야 4박 5일 총경비",food:420000,foodNote:"미소카츠·히츠마부시·하브스 포함",defaultFlight:204000,defaultHotel:380000,defaultTotal:1232671,tours:[{emoji:"🚂",name:"나고야 메이테츠 공항철도 편도티켓",note:"공항↔나고야역 직결 교통 (편도)",price:9618,url:"https://myrealt.rip/ZIsDf6",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/16/mPIE/YFFlIoIVa2.jpg"},{emoji:"🏔️",name:"시라카와고 & 다카야마 버스투어 (한국인가이드)",note:"세계문화유산 합장촌 당일치기",price:174030,url:"https://myrealt.rip/ZIsE48",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/04/AD6J/IQJrYNesNG.jpg"},{emoji:"🐟",name:"나고야항 수족관 입장권",note:"상어·범고래·벨루가 등 국내 최대 규모",price:45023,url:"https://myrealt.rip/ZIsL1c",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/11/tK4x/v7hUqk4z9j.jpg"}],finePrint:"✈️항공·🏨숙소는 최저가 기준 · 식비는 평균값"}};
+const CITY_EXPENSE={nagoya:{title:"✈️ 나고야 4박 5일 총경비",food:420000,foodNote:"미소카츠·히츠마부시·하브스 포함",defaultFlight:204000,defaultHotel:380000,defaultTotal:1232671,flightNote:"인천↔나고야 왕복 · 이코노미",hotelNote:"나고야역 근처 3박 + 료칸 1박",tours:[{emoji:"🚂",name:"나고야 메이테츠 공항철도 편도티켓",note:"공항↔나고야역 직결 교통 (편도)",price:9618,url:"https://myrealt.rip/ZIsDf6",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2026/03/16/mPIE/YFFlIoIVa2.jpg"},{emoji:"🏔️",name:"시라카와고 & 다카야마 버스투어 (한국인가이드)",note:"세계문화유산 합장촌 당일치기",price:174030,url:"https://myrealt.rip/ZIsE48",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/04/04/AD6J/IQJrYNesNG.jpg"},{emoji:"🐟",name:"나고야항 수족관 입장권",note:"상어·범고래·벨루가 등 국내 최대 규모",price:45023,url:"https://myrealt.rip/ZIsL1c",img:"https://dry7pvlp22cox.cloudfront.net/mrt-images-prod/2025/12/11/tK4x/v7hUqk4z9j.jpg"}],finePrint:"✈️항공·🏨숙소는 최저가 기준 · 식비는 평균값"},fukuoka:{title:"✈️ 후쿠오카 2박 3일 총경비",food:110000,foodNote:"가오가오·이쿠라 하카타·우오덴 포함 (1인 2일)",defaultFlight:266200,defaultHotel:163176,defaultTotal:706036,flightUrl:"https://myrealt.rip/ZfZ80b",hotelUrl:"https://myrealt.rip/ZfZ926",flightNote:"인천↔후쿠오카 왕복 · 이스타항공 직항",hotelNote:"하카타역 2박",tours:[{emoji:"🚌",name:"후쿠오카 공항 ↔ 하카타역 에어포트 버스 편도 티켓",note:"공항 국제선 → 시내 직결 (편도)",price:7514,url:"https://myrealt.rip/ZfRf86"},{emoji:"🎫",name:"후쿠오카 시내 1일 자유승차권 (그린패스)",note:"시내 버스·지하철 무제한 1일권",price:23143,url:"https://myrealt.rip/ZfRjb3"},{emoji:"🚌",name:"라쿠투어 다자이후+유후인+벳푸 버스투어",note:"모찌 증정·입장료 포함 인기 일일투어",price:136003,url:"https://myrealt.rip/ZfRo0b"}],finePrint:"✈️항공 이스타항공 직항 1인 기준 · 🏨더원파이브 테라스 후쿠오카 1실 2박 기준 · 식비는 평균값"}};
 let currentExpenseCity="nagoya";
+let currentCourseCity="nagoya";
 
 function renderProducts(){const el=document.getElementById("product-grid");const q=(document.getElementById("product-search-input")?.value||"").trim().toLowerCase();const f=q?products.filter(p=>(p.name+" "+(p.tag||"")).toLowerCase().includes(q)):products;if(!f.length){el.innerHTML=`<div style="grid-column:1/-1;padding:32px 12px;text-align:center;color:var(--light);font-size:13px;">"${q}"에 해당하는 상품이 없어요</div>`;return}el.innerHTML=f.map(p=>`<div class="product-card-v3" onclick="window.open('${p.url}','_blank')"><div class="pc-img" style="${p.img?`background-image:url(${p.img});background-size:cover;background-position:center`:`background:${p.bg}`}">${p.img?"":p.icon}</div><div class="pc-body"><span class="pc-tag" style="background:${p.tagBg};color:${p.tagColor}">${p.tag}</span><div class="pc-name">${p.name}</div><div class="pc-price">${p.price}</div>${p.city?`<div class="pc-city">${p.city}</div>`:""}<button class="pc-btn">예약하기</button></div></div>`).join("");}
 function switchTab(name){document.querySelectorAll(".page-tab").forEach(t=>t.classList.toggle("on",t.dataset.tab===name));document.querySelectorAll(".tab-panel").forEach(p=>p.classList.remove("on"));document.getElementById(`tab-${name}`).classList.add("on");document.getElementById("main-page").scrollTop=0;}
 let currentDay=1;
-function openCourse(){document.getElementById("course-panel").classList.add("open");renderDayTabs();renderDayContent(1);setTimeout(()=>{initMapFull();if(mapFull)mapFull.invalidateSize();},450);}
+const COURSE_TITLE={nagoya:"나고야 4박 5일 코스",fukuoka:"후쿠오카 2박 3일 코스"};
+function openCourse(city){city=city||currentCourseCity||"nagoya";currentCourseCity=city;currentDay=1;document.getElementById("course-title-text").textContent=COURSE_TITLE[city]||"추천 코스";document.getElementById("course-panel").classList.add("open");renderDayTabs();renderDayContent(1);setTimeout(()=>{initMapFull(city);if(mapFull)mapFull.invalidateSize();},450);}
 function closeCourse(){document.getElementById("course-panel").classList.remove("open");}
-function renderDayTabs(){document.getElementById("day-tabs").innerHTML=days.map(d=>`<div class="day-tab ${d.day===currentDay?"active":""}" onclick="selectDay(${d.day})">DAY ${d.day}</div>`).join("");}
-function renderDayContent(n){const day=days.find(d=>d.day===n);if(!day)return;document.getElementById("day-content").innerHTML=`<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;"><div style="font-size:14px;font-weight:700;color:var(--sage)">${day.date}</div>${day.dayCost?`<div style="font-size:12px;font-weight:700;color:var(--amber);background:#FFF3E8;padding:5px 10px;border-radius:8px;">💰 ${day.dayCost}</div>`:""}</div>${day.stops.map((s,i)=>`<div class="stop-item"><div class="stop-timeline"><div class="stop-dot"></div>${i<day.stops.length-1?'<div class="stop-line"></div>':""}</div><div class="stop-body"><div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:2px;"><div class="stop-time">${s.time}</div>${s.cost?`<div style="font-size:11px;color:var(--mid);font-weight:600;">${s.cost}</div>`:""}</div><div class="stop-place">${s.place}</div><div class="stop-desc">${s.desc}</div>${s.product?`<div class="inline-product"><div class="inline-product-icon" style="background:${s.product.bg}">${s.product.icon}</div><div class="inline-product-info"><span class="inline-product-tag" style="background:${s.product.tagBg};color:${s.product.tagColor}">${s.product.tag}</span><div class="inline-product-name">${s.product.name}</div><div class="inline-product-price">${s.product.price}</div></div><button class="inline-product-btn" onclick="window.open('${s.product.url}','_blank')">예약하기</button></div>`:""}</div></div>`).join("")}`;document.getElementById("day-content").scrollTop=0;}
-function selectDay(n){currentDay=n;renderDayTabs();renderDayContent(n);if(mapFull){const d=days.find(x=>x.day===n);if(d){const coords=d.stops.filter(s=>s.lat).map(s=>[s.lat,s.lng]);if(coords.length)mapFull.fitBounds(coords,{padding:[30,30],maxZoom:15});}}}
-function openExpensePanel(city){city=city||"nagoya";currentExpenseCity=city;const d=CITY_EXPENSE[city];if(!d)return;document.getElementById("exp-title-text").textContent=d.title;document.getElementById("exp-subtitle-text").textContent=`${CREATOR.name} 추천 코스 · 1인 기준`;document.getElementById("exp-food-price").textContent="₩"+d.food.toLocaleString();document.getElementById("exp-food-note").textContent=d.foodNote;document.getElementById("exp-flight").textContent="₩"+d.defaultFlight.toLocaleString();document.getElementById("exp-hotel").textContent="₩"+d.defaultHotel.toLocaleString();document.getElementById("exp-total").textContent="₩"+d.defaultTotal.toLocaleString();document.getElementById("exp-fine-print").textContent=d.finePrint;document.getElementById("exp-tours-list").innerHTML=`<div class="exp-group-header"><span>🎫 투어 · 티켓 추천</span></div>${d.tours.map(t=>`<div class="exp-item"><div class="exp-emoji">${t.emoji}</div><div class="exp-info"><div class="exp-name">${t.name}</div><div class="exp-note">${t.note}</div></div><div class="exp-right"><div class="exp-price-val">₩${t.price.toLocaleString()}</div>${t.url?`<button class="exp-book-btn" onclick="window.open('${t.url}','_blank')">예약 바로가기</button>`:""}</div></div>`).join("")}`;document.getElementById("expense-panel").classList.add("open");}
+function renderDayTabs(){document.getElementById("day-tabs").innerHTML=CITY_DAYS[currentCourseCity].map(d=>`<div class="day-tab ${d.day===currentDay?"active":""}" onclick="selectDay(${d.day})">DAY ${d.day}</div>`).join("");}
+function renderDayContent(n){const day=CITY_DAYS[currentCourseCity].find(d=>d.day===n);if(!day)return;document.getElementById("day-content").innerHTML=`<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;"><div style="font-size:14px;font-weight:700;color:var(--sage)">${day.date}</div>${day.dayCost?`<div style="font-size:12px;font-weight:700;color:var(--amber);background:#FFF3E8;padding:5px 10px;border-radius:8px;">💰 ${day.dayCost}</div>`:""}</div>${day.stops.map((s,i)=>`<div class="stop-item"><div class="stop-timeline"><div class="stop-dot"></div>${i<day.stops.length-1?'<div class="stop-line"></div>':""}</div><div class="stop-body"><div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:2px;"><div class="stop-time">${s.time}</div>${s.cost?`<div style="font-size:11px;color:var(--mid);font-weight:600;">${s.cost}</div>`:""}</div><div class="stop-place">${s.place}</div><div class="stop-desc">${s.desc}</div>${s.product?`<div class="inline-product"><div class="inline-product-icon" style="background:${s.product.bg}">${s.product.icon}</div><div class="inline-product-info"><span class="inline-product-tag" style="background:${s.product.tagBg};color:${s.product.tagColor}">${s.product.tag}</span><div class="inline-product-name">${s.product.name}</div><div class="inline-product-price">${s.product.price}</div></div><button class="inline-product-btn" onclick="window.open('${s.product.url}','_blank')">예약하기</button></div>`:""}</div></div>`).join("")}`;document.getElementById("day-content").scrollTop=0;}
+function selectDay(n){currentDay=n;renderDayTabs();renderDayContent(n);if(mapFull){const d=CITY_DAYS[currentCourseCity].find(x=>x.day===n);if(d){const coords=d.stops.filter(s=>s.lat).map(s=>[s.lat,s.lng]);if(coords.length)mapFull.fitBounds(coords,{padding:[30,30],maxZoom:13});}}}
+function openExpensePanel(city){city=city||"nagoya";currentExpenseCity=city;const d=CITY_EXPENSE[city];if(!d)return;document.getElementById("exp-title-text").textContent=d.title;document.getElementById("exp-subtitle-text").textContent=`${CREATOR.name} 추천 코스 · 1인 기준`;document.getElementById("exp-food-price").textContent="₩"+d.food.toLocaleString();document.getElementById("exp-food-note").textContent=d.foodNote;document.getElementById("exp-flight").textContent="₩"+d.defaultFlight.toLocaleString();document.getElementById("exp-hotel").textContent="₩"+d.defaultHotel.toLocaleString();if(d.flightNote)document.getElementById("exp-flight-note").textContent=d.flightNote;if(d.hotelNote)document.getElementById("exp-hotel-note").textContent=d.hotelNote;const flightUrl=d.flightUrl||"https://www.myrealtrip.com",hotelUrl=d.hotelUrl||"https://www.myrealtrip.com";document.getElementById("exp-flight-btn").onclick=()=>window.open(flightUrl,"_blank");document.getElementById("exp-hotel-btn").onclick=()=>window.open(hotelUrl,"_blank");document.getElementById("exp-total").textContent="₩"+d.defaultTotal.toLocaleString();document.getElementById("exp-fine-print").textContent=d.finePrint;document.getElementById("exp-tours-list").innerHTML=`<div class="exp-group-header"><span>🎫 투어 · 티켓 추천</span></div>${d.tours.map(t=>`<div class="exp-item"><div class="exp-emoji">${t.emoji}</div><div class="exp-info"><div class="exp-name">${t.name}</div><div class="exp-note">${t.note}</div></div><div class="exp-right"><div class="exp-price-val">₩${t.price.toLocaleString()}</div>${t.url?`<button class="exp-book-btn" onclick="window.open('${t.url}','_blank')">예약 바로가기</button>`:""}</div></div>`).join("")}`;document.getElementById("expense-panel").classList.add("open");}
 function closeExpensePanel(){document.getElementById("expense-panel").classList.remove("open");}
 function openCoupon(){document.getElementById("coupon-panel").classList.add("open");}
 function closeCoupon(){document.getElementById("coupon-panel").classList.remove("open");}
 function copyShareLink(v){let url=location.origin+location.pathname+"?view="+v;if(v==="expense")url+="&city="+currentExpenseCity;navigator.clipboard?.writeText(url).then(()=>showToast("링크가 복사되었어요 🔗"));}
 function showToast(msg){let t=document.getElementById("share-toast");if(!t){t=document.createElement("div");t.id="share-toast";t.className="toast";document.body.appendChild(t)}t.textContent=msg;t.classList.add("show");clearTimeout(t._timer);t._timer=setTimeout(()=>t.classList.remove("show"),2200);}
-document.addEventListener("DOMContentLoaded",()=>{renderProducts();const p=new URLSearchParams(location.search),v=p.get("view"),c=p.get("city")||"nagoya";if(v==="expense")setTimeout(()=>openExpensePanel(c),400);if(v==="course")setTimeout(openCourse,400);});
+document.addEventListener("DOMContentLoaded",()=>{renderProducts();const p=new URLSearchParams(location.search),v=p.get("view"),c=p.get("city")||"nagoya";if(v==="expense")setTimeout(()=>openExpensePanel(c),400);if(v==="course")setTimeout(()=>openCourse(c),400);});
+function tripScroll(dir){const car=document.getElementById("trip-carousel");const cardW=car.querySelector(".trip-card").offsetWidth+12;car.scrollBy({left:dir*cardW,behavior:"smooth"});}
+(function(){const car=document.getElementById("trip-carousel");if(!car)return;const dots=document.querySelectorAll("#trip-dots .trip-dot");const prev=document.getElementById("trip-prev");const next=document.getElementById("trip-next");const update=()=>{const cardW=car.querySelector(".trip-card").offsetWidth+12;const idx=Math.round(car.scrollLeft/cardW);dots.forEach((d,i)=>d.classList.toggle("on",i===idx));if(prev)prev.disabled=car.scrollLeft<=2;if(next)next.disabled=car.scrollLeft+car.clientWidth>=car.scrollWidth-2;};car.addEventListener("scroll",update);window.addEventListener("load",update);update();})();
 
 const pinColors={amber:"#E07A38",sage:"#6B9080",blush:"#C97D6E"};
 let mapFull;
 function createPinIcon(color,label){return L.divIcon({html:`<div style="width:30px;height:30px;border-radius:50%;background:${pinColors[color]||"#E07A38"};border:2.5px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,0.28);display:flex;align-items:center;justify-content:center;"><span style="color:#fff;font-size:9px;font-weight:800">${label}</span></div>`,className:"",iconSize:[30,30],iconAnchor:[15,15],popupAnchor:[0,-18]});}
-function drawRoutes(map){days.forEach(day=>{const coords=day.stops.filter(s=>s.lat).map(s=>[s.lat,s.lng]);if(coords.length>1)L.polyline(coords,{color:pinColors[day.stops[0].pinColor]||"#E07A38",weight:3,opacity:0.65,dashArray:"6,9"}).addTo(map);});}
-function initMapFull(){if(mapFull)return;mapFull=L.map("map-full",{zoomControl:false,attributionControl:false});L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",{maxZoom:19}).addTo(mapFull);mapFull.setView([35.18,136.90],12);drawRoutes(mapFull);days.forEach(day=>day.stops.filter(s=>s.lat).forEach(s=>{const m=L.marker([s.lat,s.lng],{icon:createPinIcon(s.pinColor,s.pinLabel)}).addTo(mapFull);m.bindPopup(`<div>${s.place}</div>`,{closeButton:false});m.on("click",()=>selectDay(day.day));}));}
+function drawRoutes(map,city){CITY_DAYS[city].forEach(day=>{const coords=day.stops.filter(s=>s.lat).map(s=>[s.lat,s.lng]);if(coords.length>1)L.polyline(coords,{color:pinColors[day.stops[0].pinColor]||"#E07A38",weight:3,opacity:0.65,dashArray:"6,9"}).addTo(map);});}
+const CITY_MAP_DEFAULT={nagoya:{center:[35.18,136.90],zoom:12},fukuoka:{center:[33.59,130.40],zoom:11}};
+function initMapFull(city){city=city||currentCourseCity;if(mapFull){mapFull.remove();mapFull=null;}mapFull=L.map("map-full",{zoomControl:false,attributionControl:false});L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",{maxZoom:19}).addTo(mapFull);const def=CITY_MAP_DEFAULT[city]||{center:[35.18,136.90],zoom:12};const allCoords=CITY_DAYS[city].flatMap(d=>d.stops.filter(s=>s.lat).map(s=>[s.lat,s.lng]));if(allCoords.length)mapFull.fitBounds(allCoords,{padding:[20,20]});else mapFull.setView(def.center,def.zoom);drawRoutes(mapFull,city);CITY_DAYS[city].forEach(day=>day.stops.filter(s=>s.lat).forEach(s=>{const m=L.marker([s.lat,s.lng],{icon:createPinIcon(s.pinColor,s.pinLabel)}).addTo(mapFull);m.bindPopup(`<div>${s.place}</div>`,{closeButton:false});m.on("click",()=>selectDay(day.day));}));}
 </script>
 </body>
 </html>

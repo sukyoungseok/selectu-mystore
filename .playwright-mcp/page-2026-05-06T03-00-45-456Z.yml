@@ -1,0 +1,31 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - progressbar [ref=e6]
+      - main [ref=e14]:
+        - generic [ref=e15]:
+          - img [ref=e18]
+          - generic [ref=e23]:
+            - heading "본인 인증" [level=1] [ref=e24]
+            - generic [ref=e31]: sukyoung.seok@myrealtrip.com
+        - generic [ref=e40]: 계정 보안을 유지하기 위해 Google에서 본인 인증을 해야 합니다. Google Sheets로 이동하려면 다시 로그인하세요
+        - button "다음" [ref=e46]:
+          - generic [ref=e49]: 다음
+    - contentinfo [ref=e53]:
+      - combobox "언어 변경 한국어" [ref=e57] [cursor=pointer]:
+        - generic:
+          - generic: 한국어
+        - generic:
+          - img
+      - list [ref=e59]:
+        - listitem [ref=e60]:
+          - link "도움말" [ref=e61] [cursor=pointer]:
+            - /url: https://support.google.com/accounts?hl=ko&p=account_iph
+        - listitem [ref=e62]:
+          - link "개인정보처리방침" [ref=e63] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=KR&hl=ko&privacy=true
+        - listitem [ref=e64]:
+          - link "약관" [ref=e65] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=KR&hl=ko
+  - iframe [ref=e66]:
+    

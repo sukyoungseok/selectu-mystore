@@ -1,0 +1,195 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: "파일럿 목표: 인스타그램에서 거래액 발생"
+    - heading "마이스토어 인스타그램 전략 구조도" [level=1] [ref=e4]
+    - paragraph [ref=e5]: 2026.05.13 · 영준님 싱크 후 정리
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]: A안 · 추천
+        - generic [ref=e10]: 메가 크리에이터 → 여행자 직접 전환
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - generic [ref=e13]: 🌟
+          - generic [ref=e14]:
+            - text: 메가
+            - text: 크리에이터
+          - generic [ref=e15]: 원고료 지급
+        - generic [ref=e16]:
+          - generic [ref=e17]: →
+          - generic [ref=e18]:
+            - text: 릴스
+            - text: 콘텐츠
+        - generic [ref=e19]:
+          - generic [ref=e20]: 📱
+          - generic [ref=e21]:
+            - text: 여행 코스
+            - text: + 쿠폰팩
+          - generic [ref=e22]: 댓글 → DM
+        - generic [ref=e23]:
+          - generic [ref=e24]: →
+          - generic [ref=e25]:
+            - text: 자동DM
+            - text: 링크
+        - generic [ref=e26]:
+          - generic [ref=e27]: ✈️
+          - generic [ref=e28]:
+            - text: 팔로워
+            - text: (여행자)
+          - generic [ref=e29]: 쿠폰페이지
+        - generic [ref=e30]:
+          - generic [ref=e31]: →
+          - generic [ref=e32]:
+            - text: MRT
+            - text: 예약
+        - generic [ref=e33]:
+          - generic [ref=e34]: 💰
+          - generic [ref=e35]:
+            - text: 거래액
+            - text: 발생
+          - generic [ref=e36]: 가설 검증
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - strong [ref=e39]: 👍 장점
+          - list [ref=e40]:
+            - listitem [ref=e41]: ✓경로 최단 → 검증 빠름
+            - listitem [ref=e42]: ✓실패 시 원인 명확
+            - listitem [ref=e43]: ✓가설 수치 측정 용이
+        - generic [ref=e44]:
+          - strong [ref=e45]: 👎 단점
+          - list [ref=e46]:
+            - listitem [ref=e47]: ✗메가 크리에이터 비용 高
+            - listitem [ref=e48]: ✗1회성 콘텐츠로 끝날 수 있음
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]: B안 · 영준님 안
+        - generic [ref=e52]: 메가 크리에이터 → 루키 크리에이터 모집
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e55]: 🌟
+          - generic [ref=e56]:
+            - text: 메가
+            - text: 크리에이터
+          - generic [ref=e57]: 원고료 지급
+        - generic [ref=e58]:
+          - generic [ref=e59]: →
+          - generic [ref=e60]:
+            - text: 루키 모집
+            - text: 콘텐츠
+        - generic [ref=e61]:
+          - generic [ref=e62]: 🌱
+          - generic [ref=e63]:
+            - text: 루키
+            - text: 크리에이터
+          - generic [ref=e64]: 신청 → 페이지 제작
+        - generic [ref=e65]:
+          - generic [ref=e66]: →
+          - generic [ref=e67]:
+            - text: 각자
+            - text: 콘텐츠
+        - generic [ref=e68]:
+          - generic [ref=e69]: ✈️
+          - generic [ref=e70]:
+            - text: 루키
+            - text: 팔로워
+          - generic [ref=e71]: 소규모
+        - generic [ref=e72]:
+          - generic [ref=e73]: →
+          - generic [ref=e74]:
+            - text: MRT
+            - text: 예약
+        - generic [ref=e75]:
+          - generic [ref=e76]: 💰
+          - generic [ref=e77]:
+            - text: 거래액
+            - text: 발생?
+          - generic [ref=e78]: 불확실
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - strong [ref=e81]: 👍 장점
+          - list [ref=e82]:
+            - listitem [ref=e83]: ✓크리에이터 풀 확장 가능
+            - listitem [ref=e84]: ✓장기적 구조 구축
+        - generic [ref=e85]:
+          - strong [ref=e86]: 👎 단점
+          - list [ref=e87]:
+            - listitem [ref=e88]: ✗경로 길어 검증 느림
+            - listitem [ref=e89]: ✗루키 온보딩 운영 부담
+            - listitem [ref=e90]: ✗메가 비용 대비 ROI 불명확
+            - listitem [ref=e91]: ✗실패 원인 파악 어려움
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - generic [ref=e94]: C안 · 듀얼 메시지
+        - generic [ref=e95]: 콘텐츠 하나에 두 타겟 (여행자 + 크리에이터)
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - generic [ref=e98]: 🌟
+          - generic [ref=e99]:
+            - text: 메가
+            - text: 크리에이터
+          - generic [ref=e100]: 수익 인증 포함
+        - generic [ref=e101]:
+          - generic [ref=e102]: →
+          - generic [ref=e103]:
+            - text: 릴스
+            - text: 하나
+        - generic [ref=e104]:
+          - generic [ref=e105]: 📱
+          - generic [ref=e106]:
+            - text: 여행코스
+            - text: + 수익인증
+          - generic [ref=e107]: 두 메시지 담김
+        - generic [ref=e109]: →
+        - generic [ref=e110]:
+          - generic [ref=e111]:
+            - generic [ref=e112]: 여행자
+            - generic [ref=e113]:
+              - generic [ref=e114]: ✈️
+              - generic [ref=e115]:
+                - text: 쿠폰팩
+                - text: 수령
+            - generic [ref=e116]: →
+            - generic [ref=e117]:
+              - generic [ref=e118]: 💰
+              - generic [ref=e119]:
+                - text: MRT
+                - text: 예약
+          - generic [ref=e120]:
+            - generic [ref=e121]: 크리에이터
+            - generic [ref=e122]:
+              - generic [ref=e123]: 🌱
+              - generic [ref=e124]:
+                - text: 프로그램
+                - text: 신청
+            - generic [ref=e125]: →
+            - generic [ref=e126]:
+              - generic [ref=e127]: 📲
+              - generic [ref=e128]:
+                - text: 루키
+                - text: 팔로워
+      - generic [ref=e129]:
+        - generic [ref=e130]:
+          - strong [ref=e131]: 👍 장점
+          - list [ref=e132]:
+            - listitem [ref=e133]: ✓콘텐츠 1개로 두 효과
+            - listitem [ref=e134]: ✓수익 인증 = 신뢰 + 모집
+        - generic [ref=e135]:
+          - strong [ref=e136]: 👎 단점
+          - list [ref=e137]:
+            - listitem [ref=e138]: ✗메시지 분산 → 둘 다 약해짐
+            - listitem [ref=e139]: ✗CTA 두 개 → 행동 유도 흐림
+            - listitem [ref=e140]: ✗크리에이터 타겟은 수익에 집중
+            - listitem [ref=e141]: ✗여행자 타겟은 쿠폰에 집중
+  - generic [ref=e142]:
+    - heading "수갱주니어 의견" [level=3] [ref=e143]
+    - paragraph [ref=e144]:
+      - text: 파일럿 목표가
+      - strong [ref=e145]: "\"인스타그램에서 거래액 발생\""
+      - text: 검증이라면
+      - strong [ref=e146]: A안이 가장 빠르고 명확해요.
+      - text: B안과 C안은 거래액 발생 이후
+      - strong [ref=e147]: 스케일업 단계
+      - text: 에서 해도 늦지 않아요.
+      - text: 영준님께는
+      - strong [ref=e148]: "\"이번 파일럿은 A안으로 가설 검증 → 성공 시 루키 모집 캠페인(B안) 전개\""
+      - text: 로 제안하는 걸 추천해요.

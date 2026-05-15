@@ -1,0 +1,1490 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - navigation [ref=e5]:
+        - button "myrealtrip" [ref=e7] [cursor=pointer]:
+          - img "myrealtrip" [ref=e8]
+        - generic [ref=e11]:
+          - img "icon" [ref=e13] [cursor=pointer]
+          - textbox "\"라한 호텔 브랜드\" 전라/경상 라스트 특가!" [ref=e14]:
+            - /placeholder: "\"라한 호텔 브랜드\" 전라/경상 라스트 특가! "
+        - generic [ref=e16]:
+          - button "파트너 로그인" [ref=e18] [cursor=pointer]
+          - button "로그인 및 회원가입" [ref=e20] [cursor=pointer]
+      - navigation [ref=e22]:
+        - generic [ref=e23]:
+          - link "홈" [ref=e25] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com
+            - generic [ref=e26]: 홈
+          - link "할인" [ref=e28] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/promotions/benefit
+            - generic [ref=e29]: 할인
+          - link "항공" [ref=e31] [cursor=pointer]:
+            - /url: https://flights.myrealtrip.com/
+            - generic [ref=e32]: 항공
+          - link "국내 숙소" [ref=e34] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=domestic
+            - generic [ref=e35]: 국내 숙소
+          - link "해외 숙소" [ref=e37] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=overseas
+            - generic [ref=e38]: 해외 숙소
+          - link "해외여행보험" [ref=e40] [cursor=pointer]:
+            - /url: https://direct.samsungfire.com/vd/overture_index.jsp?OTK=F2511AF0514
+            - generic [ref=e41]: 해외여행보험
+          - link "패키지" [ref=e43] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/pkc
+            - generic [ref=e44]: 패키지
+          - link "한인민박" [ref=e46] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=minbak
+            - generic [ref=e47]: 한인민박
+          - link "투어·티켓" [ref=e49] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/experiences
+            - generic [ref=e50]: 투어·티켓
+          - button "더보기 icon" [ref=e52] [cursor=pointer]:
+            - generic [ref=e53]: 더보기
+            - img "icon" [ref=e54]
+    - main [ref=e55]:
+      - article [ref=e56]:
+        - generic [ref=e62]:
+          - img [ref=e68] [cursor=pointer]
+          - generic [ref=e71] [cursor=pointer]:
+            - img [ref=e73]
+            - textbox [ref=e75]
+        - generic [ref=e80]:
+          - generic [ref=e82]:
+            - img "product detail 0" [ref=e86]
+            - img "product detail 1" [ref=e90]
+            - generic [ref=e93]:
+              - img "product detail 2" [ref=e94]
+              - img "Placeholder Thumbnail" [ref=e96]
+            - generic [ref=e99]:
+              - img "product detail 3" [ref=e100]
+              - img "Placeholder Thumbnail" [ref=e102]
+            - generic [ref=e105]:
+              - img "product detail 4" [ref=e106]
+              - img "Placeholder Thumbnail" [ref=e108]
+            - generic [ref=e111]:
+              - img "product detail 5" [ref=e112]
+              - img "Placeholder Thumbnail" [ref=e114]
+            - generic [ref=e117]:
+              - img "product detail 6" [ref=e118]
+              - img "Placeholder Thumbnail" [ref=e120]
+          - generic [ref=e121]: 1/7
+        - generic [ref=e124]:
+          - generic [ref=e125] [cursor=pointer]: 정보
+          - generic [ref=e126] [cursor=pointer]: 객실 선택
+          - generic [ref=e127] [cursor=pointer]: 후기
+          - generic [ref=e128] [cursor=pointer]: 위치
+          - generic [ref=e129] [cursor=pointer]: 안내
+          - generic [ref=e130] [cursor=pointer]: 결제혜택
+        - generic [ref=e131]:
+          - generic [ref=e134]:
+            - generic [ref=e135]:
+              - generic [ref=e137]:
+                - heading "아미아나 리조트 나트랑" [level=1] [ref=e138]
+                - generic [ref=e139]:
+                  - img "icons" [ref=e140]
+                  - img "icons" [ref=e141]
+                  - img "icons" [ref=e142]
+                  - img "icons" [ref=e143]
+                  - img "icons" [ref=e144]
+              - generic [ref=e145]:
+                - generic [ref=e146]: 76WM+3GQ, Phạm Văn Đồng, Tổ 14, Nha Trang, Khánh Hòa 650000 베트남, 650000
+                - link "지도에서 보기" [ref=e147] [cursor=pointer]:
+                  - /url: https://www.google.com/maps/search/?api=1&query=12.295209,109.2338719
+            - generic [ref=e148]:
+              - generic [ref=e149]:
+                - generic [ref=e150]: 이런 점이 좋았어요
+                - img "AI 요약" [ref=e151]
+              - paragraph [ref=e152]: 편안하고 깨끗한 숙소에서 즐거운 시간을 보냈습니다. 친절한 직원들과 다양한 부대시설로 가족 여행에 최적의 장소였습니다. 특히 맛있는 조식과 아름다운 해변, 깨끗한 수영장이 인상 깊었습니다.
+          - generic [ref=e156]:
+            - heading "편의 시설" [level=2] [ref=e157]
+            - generic [ref=e158]:
+              - generic [ref=e159]:
+                - generic [ref=e161]: 수영장
+                - generic [ref=e163]: 시설 내 스파 서비스
+              - button "시설 및 서비스 더보기" [ref=e164] [cursor=pointer]:
+                - generic [ref=e165]: 시설 및 서비스 더보기
+                - img [ref=e166]
+          - generic [ref=e172]:
+            - heading "현재 진행중인 프로모션" [level=2] [ref=e174]
+            - img "현재 진행중인 프로모션" [ref=e176]
+          - generic [ref=e178]:
+            - generic [ref=e179]:
+              - heading "객실 선택" [level=2] [ref=e180]
+              - generic [ref=e183]:
+                - button "5/29(금) - 5/30(토) ・ 1박" [ref=e184] [cursor=pointer]:
+                  - img [ref=e185]
+                  - generic [ref=e187]: 5/29(금) - 5/30(토) ・ 1박
+                - button "성인 2명" [ref=e188] [cursor=pointer]:
+                  - img [ref=e189]
+                  - generic [ref=e191]: 성인 2명
+            - generic [ref=e194]:
+              - generic [ref=e195]:
+                - generic [ref=e198]: 서두르세요! 객실이 1개 남았어요
+                - link "room detail thumbnail 0" [ref=e199] [cursor=pointer]:
+                  - /url: /union/products/3568377/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=3568377&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A443515%3A-%3A1358001159&utm_source=mktpartner&segment=&childAges=&mylink_id=1774400&t_scope=86400
+                  - img "room detail thumbnail 0" [ref=e203]
+                - generic [ref=e204]:
+                  - link "체크인 시 배정 (Run of House)" [ref=e205] [cursor=pointer]:
+                    - /url: /union/products/3568377/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=3568377&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A443515%3A-%3A1358001159&utm_source=mktpartner&segment=&childAges=&mylink_id=1774400&t_scope=86400
+                  - generic [ref=e206]:
+                    - generic [ref=e207]:
+                      - generic [ref=e208]:
+                        - img "조식" [ref=e210]
+                        - generic [ref=e212]: 조식
+                      - generic [ref=e213]:
+                        - img "싱글베드 1개" [ref=e215]
+                        - generic [ref=e217]: 싱글베드 1개
+                      - generic [ref=e218]:
+                        - img "성인 2명" [ref=e220]
+                        - generic [ref=e222]: 성인 2명
+                      - generic [ref=e223]:
+                        - img "헤어드라이어" [ref=e225]
+                        - generic [ref=e227]: 헤어드라이어
+                      - generic [ref=e228]:
+                        - img "에어컨" [ref=e230]
+                        - generic [ref=e232]: 에어컨
+                      - generic [ref=e233]:
+                        - img "커피/티 메이커" [ref=e235]
+                        - generic [ref=e237]: 커피/티 메이커
+                      - generic [ref=e238]:
+                        - img "일일 청소 서비스" [ref=e240]
+                        - generic [ref=e242]: 일일 청소 서비스
+                    - link "자세히 보기" [ref=e243] [cursor=pointer]:
+                      - /url: /union/products/3568377/room?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&gid=3568377&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A443515%3A-%3A1358001159&utm_source=mktpartner&segment=&childAges=&mylink_id=1774400&t_scope=86400
+                      - button "자세히 보기" [ref=e244]:
+                        - generic [ref=e245]: 자세히 보기
+              - generic [ref=e248]:
+                - generic [ref=e250]:
+                  - generic [ref=e252]: 521,510원/박
+                  - generic [ref=e253]: 세금포함 583,039원/박
+                - link "객실 옵션 보기" [ref=e255] [cursor=pointer]:
+                  - /url: /union/products/3568377/plans?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0&isDomestic=false&providerRoomId=GDS%3A-%3AAGODA%3A-%3A443515%3A-%3A1358001159&utm_source=mktpartner&segment=&childAges=&mylink_id=1774400&t_scope=86400
+                  - button "객실 옵션 보기" [ref=e256]:
+                    - generic [ref=e257]: 객실 옵션 보기
+          - generic [ref=e261]:
+            - generic [ref=e262]:
+              - img [ref=e263]
+              - generic [ref=e265]: 4.7 · 후기 47개
+            - generic [ref=e269]:
+              - generic [ref=e272]:
+                - generic [ref=e273]:
+                  - generic [ref=e274]:
+                    - img [ref=e275]
+                    - img [ref=e277]
+                    - img [ref=e279]
+                    - img [ref=e281]
+                    - img [ref=e283]
+                  - generic [ref=e285]: 6달 전
+                - generic [ref=e286]:
+                  - generic [ref=e287]: 나트랑에 간다면 재방문 의사 확실히 있음 방 청결 상태 양호 방, 화장실 (야외샤워) 도마뱀 있음 숙소에 나와서 걷는 자체가 힐링됨 리조트 내 조경, 바다뷰 굳.. 프라이빗 비치 정말 맑고 물고기 많고 스노쿨링 하기 좋음 👍🏻 조식 종류 많고 맛있음 수영장 두 종류 있음 해수 수영장 말고 작은 수영장 더러움 (바닥이 미끄덩 미끄덩) *** 시내까지 나가기도 귀찮아서 아미아나 리조트 내 마사지 받고 땅을 치고 후회함 60분에 110만동 정도. 최악 (그 돈으로 시내가서 두번 받을거임) 총평 나트랑에 간다면 무조건 다시 가고 싶을정도로 모든게 완벽했지만 마사지는 많이 개선 되야하고 아예 없애 버리길^^
+                  - generic [ref=e288]:
+                    - img "Placeholder Thumbnail" [ref=e291]
+                    - generic [ref=e293]: 8+
+                - generic [ref=e294]: 디럭스 트윈룸 (Premier Villa Garden)
+                - generic [ref=e295]: 주*롬
+              - generic [ref=e298]:
+                - generic [ref=e299]:
+                  - generic [ref=e300]:
+                    - img [ref=e301]
+                    - img [ref=e303]
+                    - img [ref=e305]
+                    - img [ref=e307]
+                    - img [ref=e309]
+                  - generic [ref=e311]: 7달 전
+                - generic [ref=e312]:
+                  - generic [ref=e313]: 기대보다 너무좋았어요 최고였어요👍 일단 조식이 너무맛있었고🥰 시내로가는게 20분걸려서 그게단점이지만 배달k로 배달다되니 굳이 나갈필요도없고 마사지도 호텔에서 2번받았는데 만족했어요 가격도 나쁘지않았어요 왕복 차비 시간아끼고 머드스파는 경험해보는거도... 강추는 아닙니다 호핑투어 갔었는데 굳이갈필요없으실듯 해변전용비치에서 충분히 할수있어요 원래 수영장에서 수영안하고 쉬는걸좋아하는데 해변에서 물놀이가 이렇게 재밋는지몰랐네요 갠적으로 더아남보다 훨씬좋았습니다 다시 나트랑가면 또 아미아나 갈거고 호캉스 원하는 지인들한테도 강추할거예요
+                  - generic [ref=e314]:
+                    - img "Placeholder Thumbnail" [ref=e317]
+                    - generic [ref=e319]: 6+
+                - generic [ref=e320]: SIGNATURE DELUXE VILLA OCEAN VIEW
+                - generic [ref=e321]: 김*라
+              - generic [ref=e324]:
+                - generic [ref=e325]:
+                  - generic [ref=e326]:
+                    - img [ref=e327]
+                    - img [ref=e329]
+                    - img [ref=e331]
+                    - img [ref=e333]
+                    - img [ref=e335]
+                  - generic [ref=e337]: 2달 전
+                - generic [ref=e339]: 경기도 나트랑시 라고 할 정도로 한국인이 정말 많지만 왜 많은지 알것 같아요. 정말 좋아요 객실에서 바퀴벌레 보긴 했는데 이건 빌라 특성상 어쩔수 없는듯 해요 또 방문 하고싶을 정도로 좋았어요
+                - generic [ref=e340]: Premier Deluxe King Villa Garden View
+                - generic [ref=e341]: 이*은
+              - generic [ref=e344]:
+                - generic [ref=e345]:
+                  - generic [ref=e346]:
+                    - img [ref=e347]
+                    - img [ref=e349]
+                    - img [ref=e351]
+                    - img [ref=e353]
+                    - img [ref=e355]
+                  - generic [ref=e357]: 5달 전
+                - generic [ref=e358]:
+                  - generic [ref=e359]: 조식 최고. 왠만한 베트남식을 다 먹어볼 수 있고 퀄리티도 좋음. 수영장 넓어서 최고. 거의 50미터되는듯. 찐수영인들에게 최고임. 숙소 호실별로 들어가는 입구가 다 다르고 가드닝이 아름답게 되어 있음. 매일 아침 새로운 과일을 주심. 여기는 진짜 또 가고 싶은 곳.
+                  - generic [ref=e360]:
+                    - img "Placeholder Thumbnail" [ref=e363]
+                    - generic [ref=e365]: 4+
+                - generic [ref=e366]: 시그니쳐 딜럭스 빌라 오션뷰 더블 A
+                - generic [ref=e367]: 정*원
+              - generic [ref=e370]:
+                - generic [ref=e371]:
+                  - generic [ref=e372]:
+                    - img [ref=e373]
+                    - img [ref=e375]
+                    - img [ref=e377]
+                    - img [ref=e379]
+                    - img [ref=e381]
+                  - generic [ref=e383]: 1달 전
+                - generic [ref=e385]: 너무 편하게 잘놀았어요
+                - generic [ref=e386]: 디럭스 마운틴뷰 아동 테마룸
+                - generic [ref=e387]: 정*희
+              - generic [ref=e390]:
+                - generic [ref=e391]:
+                  - generic [ref=e392]:
+                    - img [ref=e393]
+                    - img [ref=e395]
+                    - img [ref=e397]
+                    - img [ref=e399]
+                    - img [ref=e401]
+                  - generic [ref=e403]: 2달 전
+                - generic [ref=e405]: 아이들이 가장 좋아한 숙소였습니다. 설명이 불필요할정도로 만족합니다.
+                - generic [ref=e406]: Deluxe Room Mountain View With Children Themed
+                - generic [ref=e407]: 최*우
+              - generic [ref=e410]:
+                - generic [ref=e411]:
+                  - generic [ref=e412]:
+                    - img [ref=e413]
+                    - img [ref=e415]
+                    - img [ref=e417]
+                    - img [ref=e419]
+                    - img [ref=e421]
+                  - generic [ref=e423]: 5달 전
+                - generic [ref=e424]:
+                  - generic [ref=e425]: 잘묵었고 조식도 좋았습니다. 마켓도 있고, 헬스장은 운동화 지참하셔서 이용하셔도 좋을 것 같습니다.
+                  - img "Placeholder Thumbnail" [ref=e429]
+                - generic [ref=e430]: 디럭스 마운틴뷰 아동 테마룸
+                - generic [ref=e431]: 박*영
+              - generic [ref=e434]:
+                - generic [ref=e435]:
+                  - generic [ref=e436]:
+                    - img [ref=e437]
+                    - img [ref=e439]
+                    - img [ref=e441]
+                    - img [ref=e443]
+                    - img [ref=e445]
+                  - generic [ref=e447]: 4달 전
+                - generic [ref=e449]: 그냥 최고에요 가보세요!
+                - generic [ref=e450]: 디럭스룸, 킹사이즈침대 1개, 바다 전망 (With Children Themed Room)
+                - generic [ref=e451]: 이*철
+              - generic [ref=e454]:
+                - generic [ref=e455]:
+                  - generic [ref=e456]:
+                    - img [ref=e457]
+                    - img [ref=e459]
+                    - img [ref=e461]
+                    - img [ref=e463]
+                    - img [ref=e465]
+                  - generic [ref=e467]: 9달 전
+                - generic [ref=e468]:
+                  - generic [ref=e469]: 조용하고 고급스러운 분위기의 리조투 바닷물 수영장과 전용 해변이 최고였어요👍 조식 다양하고 맛도 훌륭했어요👍
+                  - generic [ref=e470]:
+                    - img "Placeholder Thumbnail" [ref=e473]
+                    - generic [ref=e475]: 6+
+                - generic [ref=e476]: 프리미어 디럭스 빌라 오션뷰
+                - generic [ref=e477]: 전*송
+              - generic [ref=e480]:
+                - generic [ref=e481]:
+                  - generic [ref=e482]:
+                    - img [ref=e483]
+                    - img [ref=e485]
+                    - img [ref=e487]
+                    - img [ref=e489]
+                    - img [ref=e491]
+                  - generic [ref=e493]: 6달 전
+                - generic [ref=e494]:
+                  - generic [ref=e495]: 이번 방문시 수영장 한곳 공사중이였지만 괜찮았습니다 해당 사이트 예약 후 방문전 리조트와 소통이 어려운 부분도 있었지만 괜찮습니다.
+                  - img "Placeholder Thumbnail" [ref=e499]
+                - generic [ref=e500]: 디럭스 오션뷰 킹룸 (아동 테마룸)
+                - generic [ref=e501]: 권*경
+              - generic [ref=e504]:
+                - generic [ref=e505]:
+                  - generic [ref=e506]:
+                    - img [ref=e507]
+                    - img [ref=e509]
+                    - img [ref=e511]
+                    - img [ref=e513]
+                    - img [ref=e515]
+                  - generic [ref=e517]: 6달 전
+                - generic [ref=e519]: 두번째온나트랑. 첫번째는 더아x, 알x에서 머물렀고, 이번에는 아미아나에서 머물렀어요. 일단, 처음 체크인했을때 수영중공사중이라는 얘기를 들어서 너무속상했어요. 해수풀은 너무짜고, 다른풀은 깊어 아이입장이 어렵다해서..난감했어요. 미리공지라도했으면 좋았을텐데. 해수풀이 너무짜서 수영을 하기어려윘어요. 조식부분은 너무좋았어요. 그동안갔던곳보다 제일만족스러웠어요. 숙소내부도 깨끗한편이여서 다좋았어요. 마지막날 비가와서 그런지 뜨거운물이 안나와 리셉션에 문의하니 비와서문제가 생겼다고 하더라구여..몇시간뒤 샤워기를틀엇는데 어마어마한 검은가루들이 무더기로나와서 필터를 10분만에 바로바꿔 꼈어요..ㅜㅜ 전체적으로 좀 아쉬웠던 곳이엿어요
+                - generic [ref=e520]: Deluxe Twin Room Ocean View With Children Themed Room
+                - generic [ref=e521]: 류*혜
+              - generic [ref=e524]:
+                - generic [ref=e525]:
+                  - generic [ref=e526]:
+                    - img [ref=e527]
+                    - img [ref=e529]
+                    - img [ref=e531]
+                    - img [ref=e533]
+                    - img [ref=e535]
+                  - generic [ref=e537]: 7달 전
+                - generic [ref=e539]: 아이들과 3박 잘 묵고갑니다. 조식도 맛있고 스노쿨링도 물이 맑아서 너무 잘 했어요! 담에 나트랑 재방하면 다시 갈거에요!!
+                - generic [ref=e540]: Deluxe King Room Garden View With Children Themed Room
+                - generic [ref=e541]: 공*경
+              - generic [ref=e544]:
+                - generic [ref=e545]:
+                  - generic [ref=e546]:
+                    - img [ref=e547]
+                    - img [ref=e549]
+                    - img [ref=e551]
+                    - img [ref=e553]
+                    - img [ref=e555]
+                  - generic [ref=e557]: 7달 전
+                - generic [ref=e559]: 물고기를 많이볼수있는 깨끗한 프라이빗해변이 가장좋음. 모래도 부드럽고 애기들놀기좋음. 직원들 모두 매우친절. 적극적으로 친절함. 한국인들 한테 적합하게 친절친절 빨리빨리 느낌. 단점은 레스토랑이 하나, 오픈형이라 벌레가 많이날아다님. 냉장고가안시원함. 뭔가 약간 위생적이지 못한느낌적인느낌 재방문의사 있음
+                - generic [ref=e560]: 프리미어 디럭스 가든뷰 킹 빌라
+                - generic [ref=e561]: 남*혁
+              - generic [ref=e564]:
+                - generic [ref=e565]:
+                  - generic [ref=e566]:
+                    - img [ref=e567]
+                    - img [ref=e569]
+                    - img [ref=e571]
+                    - img [ref=e573]
+                    - img [ref=e575]
+                  - generic [ref=e577]: 8달 전
+                - generic [ref=e579]: 아이랑함께하는여행 너무좋았습니다 최고 😀
+                - generic [ref=e580]: 패밀리 룸 2베드룸 가든뷰
+                - generic [ref=e581]: 권**
+              - generic [ref=e584]:
+                - generic [ref=e585]:
+                  - generic [ref=e586]:
+                    - img [ref=e587]
+                    - img [ref=e589]
+                    - img [ref=e591]
+                    - img [ref=e593]
+                    - img [ref=e595]
+                  - generic [ref=e597]: 11달 전
+                - generic [ref=e598]:
+                  - generic [ref=e599]: 아주 좋은 리조트입니다 다시 가고 싶은 곳입니다
+                  - generic [ref=e600]:
+                    - img "Placeholder Thumbnail" [ref=e603]
+                    - generic [ref=e605]: 4+
+                - generic [ref=e606]: SIGNATURE DELUXE VILLA OCEAN VIEW
+                - generic [ref=e607]: 김*하
+              - generic [ref=e610]:
+                - generic [ref=e611]:
+                  - generic [ref=e612]:
+                    - img [ref=e613]
+                    - img [ref=e615]
+                    - img [ref=e617]
+                    - img [ref=e619]
+                    - img [ref=e621]
+                  - generic [ref=e623]: 2년 전
+                - generic [ref=e624]:
+                  - generic [ref=e625]: 휴양지의 자연과 함께하는 넓고 쾌적한 리조트라 초등아이와 남편 모두 만족했습니다~. 바닷가쪽 산책하기도 좋고 수영하기도 좋고 친절하고, 아들은 다음에도 여기 또 오고 싶다고 하더라구요. 만족한 2박이었습니다.
+                  - generic [ref=e626]:
+                    - img "Placeholder Thumbnail" [ref=e629]
+                    - generic [ref=e631]: 7+
+                - generic [ref=e632]: 디럭스룸, 킹사이즈침대 1개, 바다 전망 (With Children Themed Room)
+                - generic [ref=e633]: 서*영
+              - generic [ref=e636]:
+                - generic [ref=e637]:
+                  - generic [ref=e638]:
+                    - img [ref=e639]
+                    - img [ref=e641]
+                    - img [ref=e643]
+                    - img [ref=e645]
+                    - img [ref=e647]
+                  - generic [ref=e649]: 10달 전
+                - generic [ref=e650]:
+                  - generic [ref=e651]: 시내랑 생각보다 좋았고 뷰가 미쳤음 수영장도 많고 바다도있어서 이것저것 재밋게 놀았음
+                  - img "Placeholder Thumbnail" [ref=e655]
+                - generic [ref=e656]: 패밀리 룸 2베드룸 가든뷰+성인 엑베
+                - generic [ref=e657]: 황*인
+              - generic [ref=e660]:
+                - generic [ref=e661]:
+                  - generic [ref=e662]:
+                    - img [ref=e663]
+                    - img [ref=e665]
+                    - img [ref=e667]
+                    - img [ref=e669]
+                    - img [ref=e671]
+                  - generic [ref=e673]: 11달 전
+                - generic [ref=e674]:
+                  - generic [ref=e675]: 하드웨어가 너무 훌륭한 호텔입니다. 멋진 자연환경에 멋진 조경과 건물 가족여행으로 추천드립니다. 조식 쌀국수와 반미 좋아요.
+                  - img "Placeholder Thumbnail" [ref=e679]
+                - generic [ref=e680]: Pool Villa 3-bedroom Ocean View
+                - generic [ref=e681]: 최*아
+              - generic [ref=e684]:
+                - generic [ref=e685]:
+                  - generic [ref=e686]:
+                    - img [ref=e687]
+                    - img [ref=e689]
+                    - img [ref=e691]
+                    - img [ref=e693]
+                    - img [ref=e695]
+                  - generic [ref=e697]: 1년 전
+                - generic [ref=e698]:
+                  - generic [ref=e699]: 넓은 객실과 깨끗한 청소서비스 침실컨디션 및 인공수영장과 천연모레해변을 두루갖춰 물놀이 최적의 장소이며 아이를둔 가정은 한번쯤 선택하면 좋을듯 고운모래해변과 많은 물고기서식으로 스노쿨링하기 가장 좋았음 호핑투어에서 보지 못했던 물고기들을 리조트내 비치에서 볼수있음
+                  - generic [ref=e700]:
+                    - img "Placeholder Thumbnail" [ref=e703]
+                    - generic [ref=e705]: 3+
+                - generic [ref=e706]: 패밀리룸, 침실 2개, 정원 전망
+                - generic [ref=e707]: 이*식
+              - generic [ref=e710]:
+                - generic [ref=e711]:
+                  - generic [ref=e712]:
+                    - img [ref=e713]
+                    - img [ref=e715]
+                    - img [ref=e717]
+                    - img [ref=e719]
+                    - img [ref=e721]
+                  - generic [ref=e723]: 10달 전
+                - generic [ref=e725]: 좋아요 좋았어요ㅎㅎ
+                - generic [ref=e726]: 딜럭스룸 오션뷰 트윈
+                - generic [ref=e727]: 김*식
+            - button "후기 모두 보기" [ref=e729] [cursor=pointer]:
+              - generic [ref=e730]: 후기 모두 보기
+          - generic [ref=e734]:
+            - generic [ref=e735]: 다른 서비스의 이용 후기
+            - generic [ref=e739]:
+              - generic [ref=e742]:
+                - generic [ref=e743]:
+                  - generic [ref=e744]:
+                    - img [ref=e745]
+                    - img [ref=e747]
+                    - img [ref=e749]
+                    - img [ref=e751]
+                    - img [ref=e753]
+                  - generic [ref=e755]: 3달 전
+                - generic [ref=e757]: 음식, 청결,친절 모든 것이 만족스러웠습니다^^
+                - img "Hotels.com" [ref=e759]
+                - generic [ref=e760]: Heumjae
+              - generic [ref=e763]:
+                - generic [ref=e764]:
+                  - generic [ref=e765]:
+                    - img [ref=e766]
+                    - img [ref=e768]
+                    - img [ref=e770]
+                    - img [ref=e772]
+                    - img [ref=e774]
+                  - generic [ref=e776]: 3달 전
+                - generic [ref=e778]: 객실 직원 등 모두 만족합니다
+                - img "Hotels.com" [ref=e780]
+                - generic [ref=e781]: SEOK
+              - generic [ref=e784]:
+                - generic [ref=e785]:
+                  - generic [ref=e786]:
+                    - img [ref=e787]
+                    - img [ref=e789]
+                    - img [ref=e791]
+                    - img [ref=e793]
+                    - img [ref=e795]
+                  - generic [ref=e797]: 4달 전
+                - generic [ref=e799]: 모든 점이 마음에 들었다
+                - img "Hotels.com" [ref=e801]
+                - generic [ref=e802]: sangwon
+              - generic [ref=e805]:
+                - generic [ref=e806]:
+                  - generic [ref=e807]:
+                    - img [ref=e808]
+                    - img [ref=e810]
+                    - img [ref=e812]
+                    - img [ref=e814]
+                    - img [ref=e816]
+                  - generic [ref=e818]: 4달 전
+                - generic [ref=e820]: 객실관리 깨끗하고, 조용하고 분위기도 좋았습니다. 전체적인 서비스도 투숙객을 배려해주시는 느낌을 받았습니다.
+                - img "Hotels.com" [ref=e822]
+                - generic [ref=e823]: wookyung
+              - generic [ref=e826]:
+                - generic [ref=e827]:
+                  - generic [ref=e828]:
+                    - img [ref=e829]
+                    - img [ref=e831]
+                    - img [ref=e833]
+                    - img [ref=e835]
+                    - img [ref=e837]
+                  - generic [ref=e839]: 4달 전
+                - generic [ref=e841]: 객실이 깨끗했습니다.
+                - img "Hotels.com" [ref=e843]
+                - generic [ref=e844]: jongseo
+              - generic [ref=e847]:
+                - generic [ref=e848]:
+                  - generic [ref=e849]:
+                    - img [ref=e850]
+                    - img [ref=e852]
+                    - img [ref=e854]
+                    - img [ref=e856]
+                    - img [ref=e858]
+                  - generic [ref=e860]: 6달 전
+                - generic [ref=e862]: 항상 친절한 직원들과 아름답고 훌륭한 숙소가 너무 좋았습니다.
+                - img "Hotels.com" [ref=e864]
+                - generic [ref=e865]: Daeho
+              - generic [ref=e868]:
+                - generic [ref=e869]:
+                  - generic [ref=e870]:
+                    - img [ref=e871]
+                    - img [ref=e873]
+                    - img [ref=e875]
+                    - img [ref=e877]
+                    - img [ref=e879]
+                  - generic [ref=e881]: 7달 전
+                - generic [ref=e883]: This resort is best for family who have young kids. Love the ocean and swimming pool. Also love kids club where open upto late 8pm. Foods also great. Will visit there again
+                - img "Hotels.com" [ref=e885]
+                - generic [ref=e886]: Wonkyung
+              - generic [ref=e889]:
+                - generic [ref=e890]:
+                  - generic [ref=e891]:
+                    - img [ref=e892]
+                    - img [ref=e894]
+                    - img [ref=e896]
+                    - img [ref=e898]
+                    - img [ref=e900]
+                  - generic [ref=e902]: 7달 전
+                - generic [ref=e904]: 객실도 깨끗하고 조식도 좋고 수영장도 좋았습니다.
+                - img "Hotels.com" [ref=e906]
+                - generic [ref=e907]: CHANGHO
+              - generic [ref=e910]:
+                - generic [ref=e911]:
+                  - generic [ref=e912]:
+                    - img [ref=e913]
+                    - img [ref=e915]
+                    - img [ref=e917]
+                    - img [ref=e919]
+                    - img [ref=e921]
+                  - generic [ref=e923]: 7달 전
+                - generic [ref=e925]: 전체적으로 청결하고 깔끔하고 좋았어요 2박 있었는데 더 있고 싶을 정도였어요~ 숙소 바로 앞에 해먹에서 누워있으니 정말 좋았어요
+                - img "Hotels.com" [ref=e927]
+                - generic [ref=e928]: Dakyum
+              - generic [ref=e931]:
+                - generic [ref=e932]:
+                  - generic [ref=e933]:
+                    - img [ref=e934]
+                    - img [ref=e936]
+                    - img [ref=e938]
+                    - img [ref=e940]
+                    - img [ref=e942]
+                  - generic [ref=e944]: 8달 전
+                - generic [ref=e946]: 나트랑에 오면 무조건 아미아나에 묵어야합니다 조식, 숙소, 수영장, 해변 등 모든것에서 최고
+                - img "Hotels.com" [ref=e948]
+                - generic [ref=e949]: HYESUN
+              - generic [ref=e952]:
+                - generic [ref=e953]:
+                  - generic [ref=e954]:
+                    - img [ref=e955]
+                    - img [ref=e957]
+                    - img [ref=e959]
+                    - img [ref=e961]
+                    - img [ref=e963]
+                  - generic [ref=e965]: 10달 전
+                - generic [ref=e967]: 잊을 수 없는 가족여행이었습니다. 모든 게 편안하고 직원들 정말 친절해요. 머무는 동안 단 하나의 불편함도 없었습니다
+                - img "Hotels.com" [ref=e969]
+                - generic [ref=e970]: Jungsoo
+              - generic [ref=e973]:
+                - generic [ref=e974]:
+                  - generic [ref=e975]:
+                    - img [ref=e976]
+                    - img [ref=e978]
+                    - img [ref=e980]
+                    - img [ref=e982]
+                    - img [ref=e984]
+                  - generic [ref=e986]: 10달 전
+                - generic [ref=e988]: 날씨가 너무 더워서 수영장 물 온도가 높은거 말고는 조식도 맛있고 훌륭했습니다.
+                - img "Hotels.com" [ref=e990]
+                - generic [ref=e991]: Verified traveler
+              - generic [ref=e994]:
+                - generic [ref=e995]:
+                  - generic [ref=e996]:
+                    - img [ref=e997]
+                    - img [ref=e999]
+                    - img [ref=e1001]
+                    - img [ref=e1003]
+                    - img [ref=e1005]
+                  - generic [ref=e1007]: 11달 전
+                - generic [ref=e1009]: 두번째 방문이었고 깨끗하고 친절한 서비스에 만족합니다 주변경관도 훌륭 음식도 훌륭(조식, 디너레스토랑) 프라이빗 비치에서의 스노클링도 좋았고 세번째 수영장이 너무 깊어 정말 만족도 최고였어요
+                - img "Hotels.com" [ref=e1011]
+                - generic [ref=e1012]: Junghee
+              - generic [ref=e1015]:
+                - generic [ref=e1016]:
+                  - generic [ref=e1017]:
+                    - img [ref=e1018]
+                    - img [ref=e1020]
+                    - img [ref=e1022]
+                    - img [ref=e1024]
+                    - img [ref=e1026]
+                  - generic [ref=e1028]: 1년 전
+                - generic [ref=e1030]: 작년에이어 올해도 방문 한다고 하니 음료 바우처를 주셨어요~^^ 맛있는 조식은 너무나도 유명하죠 직원분들도 먼저 인사해주시고 친절하십니다. 단지 아쉬운건 작년에도 올해도 옆에 새로운 리조트 건설때문에 소음이 있습니다.ㅠ
+                - img "Hotels.com" [ref=e1032]
+                - generic [ref=e1033]: Hyunah
+              - generic [ref=e1036]:
+                - generic [ref=e1037]:
+                  - generic [ref=e1038]:
+                    - img [ref=e1039]
+                    - img [ref=e1041]
+                    - img [ref=e1043]
+                    - img [ref=e1045]
+                    - img [ref=e1047]
+                  - generic [ref=e1049]: 1년 전
+                - generic [ref=e1051]: 신상이라 청결하고 깨끗하고 격조있었습니다. 다만 물놀이를 좋아하는 입장에서 수영장 이용시간이 짧고 무엇보다 수영장이 계속 햇살아래 노출되는 시간이 길어 수영장 이용이 제한적이었네요. 새벽에 바다수영 좋았습니다.
+                - img "Hotels.com" [ref=e1053]
+                - generic [ref=e1054]: Verified traveler
+              - generic [ref=e1057]:
+                - generic [ref=e1058]:
+                  - generic [ref=e1059]:
+                    - img [ref=e1060]
+                    - img [ref=e1062]
+                    - img [ref=e1064]
+                    - img [ref=e1066]
+                    - img [ref=e1068]
+                  - generic [ref=e1070]: 1년 전
+                - generic [ref=e1072]: 직원들 친절하고 너무 좋았습니다. 조식도 종류 다양하고 맛있었습니다. 부대시설이 너무 좋습니다
+                - img "Expedia" [ref=e1074]
+                - generic [ref=e1075]: Hyangmi
+              - generic [ref=e1078]:
+                - generic [ref=e1079]:
+                  - generic [ref=e1080]:
+                    - img [ref=e1081]
+                    - img [ref=e1083]
+                    - img [ref=e1085]
+                    - img [ref=e1087]
+                    - img [ref=e1089]
+                  - generic [ref=e1091]: 1년 전
+                - generic [ref=e1093]: 가족여행으로 여러곳중에 가격이 있어서 고민하다 선택했는데 너무 만족해요 바닷가해변도 좋았고 아이들 놀기에 수영장도 좋았어요 조식도 맛있고 직원분들도 친절했습니다 기회가된다면 다시방문하고싶어요
+                - img "Hotels.com" [ref=e1095]
+                - generic [ref=e1096]: Jae hyun
+              - generic [ref=e1099]:
+                - generic [ref=e1100]:
+                  - generic [ref=e1101]:
+                    - img [ref=e1102]
+                    - img [ref=e1104]
+                    - img [ref=e1106]
+                    - img [ref=e1108]
+                    - img [ref=e1110]
+                  - generic [ref=e1112]: 1년 전
+                - generic [ref=e1114]: 식사 시설 친절 모두 만족
+                - img "Expedia" [ref=e1116]
+                - generic [ref=e1117]: hyunsook
+              - generic [ref=e1120]:
+                - generic [ref=e1121]:
+                  - generic [ref=e1122]:
+                    - img [ref=e1123]
+                    - img [ref=e1125]
+                    - img [ref=e1127]
+                    - img [ref=e1129]
+                    - img [ref=e1131]
+                  - generic [ref=e1133]: 1년 전
+                - generic [ref=e1135]: 조식맛있고 해변에서 스노쿨링도 좋았어요! 왜 아미아나아미아나 하는지 알겠더라구요! 저희는 비치발리볼까지 야무지게 했습니당
+                - img "Hotels.com" [ref=e1137]
+                - generic [ref=e1138]: inju
+              - generic [ref=e1141]:
+                - generic [ref=e1142]:
+                  - generic [ref=e1143]:
+                    - img [ref=e1144]
+                    - img [ref=e1146]
+                    - img [ref=e1148]
+                    - img [ref=e1150]
+                    - img [ref=e1152]
+                  - generic [ref=e1154]: 1년 전
+                - generic [ref=e1156]: This is so womderful place!
+                - img "Hotels.com" [ref=e1158]
+                - generic [ref=e1159]: Verified traveler
+              - generic [ref=e1162]:
+                - generic [ref=e1163]:
+                  - generic [ref=e1164]:
+                    - img [ref=e1165]
+                    - img [ref=e1167]
+                    - img [ref=e1169]
+                    - img [ref=e1171]
+                    - img [ref=e1173]
+                  - generic [ref=e1175]: 1년 전
+                - generic [ref=e1177]: It was fantastic moment. Thank you for giving me wonderful memory.
+                - img "Expedia" [ref=e1179]
+                - generic [ref=e1180]: yea seol
+              - generic [ref=e1183]:
+                - generic [ref=e1184]:
+                  - generic [ref=e1185]:
+                    - img [ref=e1186]
+                    - img [ref=e1188]
+                    - img [ref=e1190]
+                    - img [ref=e1192]
+                    - img [ref=e1194]
+                  - generic [ref=e1196]: 1년 전
+                - generic [ref=e1198]: 첫 나트랑 여행이었는데 최고였습니다.! 하와이 저리가라급 시설과 비주얼이네용~
+                - img "Hotels.com" [ref=e1200]
+                - generic [ref=e1201]: Seunghyun
+              - generic [ref=e1204]:
+                - generic [ref=e1205]:
+                  - generic [ref=e1206]:
+                    - img [ref=e1207]
+                    - img [ref=e1209]
+                    - img [ref=e1211]
+                    - img [ref=e1213]
+                    - img [ref=e1215]
+                  - generic [ref=e1217]: 1년 전
+                - generic [ref=e1219]: 리조트 분위기, 다양한 액티비티도 좋았고 직원분들도 다들 친절하셔서 좋았습니다. 또 가고싶네요
+                - img "Hotels.com" [ref=e1221]
+                - generic [ref=e1222]: Soohyun
+              - generic [ref=e1225]:
+                - generic [ref=e1226]:
+                  - generic [ref=e1227]:
+                    - img [ref=e1228]
+                    - img [ref=e1230]
+                    - img [ref=e1232]
+                    - img [ref=e1234]
+                    - img [ref=e1236]
+                  - generic [ref=e1238]: 1년 전
+                - generic [ref=e1240]: 여행하는 내내 행복했음! 부부끼리도 가족끼리도 완전 강추
+                - img "Expedia" [ref=e1242]
+                - generic [ref=e1243]: MINJI
+              - generic [ref=e1246]:
+                - generic [ref=e1247]:
+                  - generic [ref=e1248]:
+                    - img [ref=e1249]
+                    - img [ref=e1251]
+                    - img [ref=e1253]
+                    - img [ref=e1255]
+                    - img [ref=e1257]
+                  - generic [ref=e1259]: 1년 전
+                - generic [ref=e1261]: 아미아나는 친구 연인 가족 모두 방문해서 인생의 추억을 남길 수 있는 곳이예요~ 부모님께 효도한것 같아요~
+                - img "Expedia" [ref=e1263]
+                - generic [ref=e1264]: SUNGMIN
+              - generic [ref=e1267]:
+                - generic [ref=e1268]:
+                  - generic [ref=e1269]:
+                    - img [ref=e1270]
+                    - img [ref=e1272]
+                    - img [ref=e1274]
+                    - img [ref=e1276]
+                    - img [ref=e1278]
+                  - generic [ref=e1280]: 1년 전
+                - generic [ref=e1282]: 머그스파와 바다수영이 매력적
+                - img "Hotels.com" [ref=e1284]
+                - generic [ref=e1285]: Nuri
+              - generic [ref=e1288]:
+                - generic [ref=e1289]:
+                  - generic [ref=e1290]:
+                    - img [ref=e1291]
+                    - img [ref=e1293]
+                    - img [ref=e1295]
+                    - img [ref=e1297]
+                    - img [ref=e1299]
+                  - generic [ref=e1301]: 1년 전
+                - generic [ref=e1303]: 부모님 모시고 갔는데 다들 너무 만족하셨어요! 숙박 시설이며 직원들의 친절함이며 조식이며 모든 것이 다 좋았습니다. 좋은 추억을 만들어 준 고마운 숙소였습니다.
+                - img "Hotels.com" [ref=e1305]
+                - generic [ref=e1306]: KWANGMYOUNG
+              - generic [ref=e1309]:
+                - generic [ref=e1310]:
+                  - generic [ref=e1311]:
+                    - img [ref=e1312]
+                    - img [ref=e1314]
+                    - img [ref=e1316]
+                    - img [ref=e1318]
+                    - img [ref=e1320]
+                  - generic [ref=e1322]: 1년 전
+                - generic [ref=e1324]: 호텔 컨디션 좋아요. 객실도 깨끗합니다. 루프탑 수영장은 뷰가 참 좋네요~! 무엇보다 시내 접근성이 아주 좋아요! 주변에 맛집과 쇼핑할 곳 많아요
+                - img "Hotels.com" [ref=e1326]
+                - generic [ref=e1327]: Verified traveler
+              - generic [ref=e1330]:
+                - generic [ref=e1331]:
+                  - generic [ref=e1332]:
+                    - img [ref=e1333]
+                    - img [ref=e1335]
+                    - img [ref=e1337]
+                    - img [ref=e1339]
+                    - img [ref=e1341]
+                  - generic [ref=e1343]: 1년 전
+                - generic [ref=e1345]: 직원들의 서비스가 대단히 친절했고 리조트도 매우 아름답습니다
+                - img "Expedia" [ref=e1347]
+                - generic [ref=e1348]: Da Jeong
+              - generic [ref=e1351]:
+                - generic [ref=e1352]:
+                  - generic [ref=e1353]:
+                    - img [ref=e1354]
+                    - img [ref=e1356]
+                    - img [ref=e1358]
+                    - img [ref=e1360]
+                    - img [ref=e1362]
+                  - generic [ref=e1364]: 1년 전
+                - generic [ref=e1366]: 자연환경과 리조트의 조화가 너무 좋았다
+                - img "Hotels.com" [ref=e1368]
+                - generic [ref=e1369]: Bongsoon
+              - generic [ref=e1372]:
+                - generic [ref=e1373]:
+                  - generic [ref=e1374]:
+                    - img [ref=e1375]
+                    - img [ref=e1377]
+                    - img [ref=e1379]
+                    - img [ref=e1381]
+                    - img [ref=e1383]
+                  - generic [ref=e1385]: 1년 전
+                - generic [ref=e1387]: Limited dining menus
+                - img "Expedia" [ref=e1389]
+                - generic [ref=e1390]: Ghihyun
+              - generic [ref=e1393]:
+                - generic [ref=e1394]:
+                  - generic [ref=e1395]:
+                    - img [ref=e1396]
+                    - img [ref=e1398]
+                    - img [ref=e1400]
+                    - img [ref=e1402]
+                    - img [ref=e1404]
+                  - generic [ref=e1406]: 1년 전
+                - generic [ref=e1408]: nice
+                - img "Hotels.com" [ref=e1410]
+                - generic [ref=e1411]: Boyoung
+              - generic [ref=e1414]:
+                - generic [ref=e1415]:
+                  - generic [ref=e1416]:
+                    - img [ref=e1417]
+                    - img [ref=e1419]
+                    - img [ref=e1421]
+                    - img [ref=e1423]
+                    - img [ref=e1425]
+                  - generic [ref=e1427]: 1년 전
+                - generic [ref=e1429]: 합리적인 가격에 완전 좋은 숙소 묵고 갑니다. 최근에 갔던 숙소 중에 가장 만족도 높음!
+                - img "Hotels.com" [ref=e1431]
+                - generic [ref=e1432]: BOKYUNG
+              - generic [ref=e1435]:
+                - generic [ref=e1436]:
+                  - generic [ref=e1437]:
+                    - img [ref=e1438]
+                    - img [ref=e1440]
+                    - img [ref=e1442]
+                    - img [ref=e1444]
+                    - img [ref=e1446]
+                  - generic [ref=e1448]: 1년 전
+                - generic [ref=e1450]: 가족끼리 오기 좋은 리조트입니다. 아이랑 오기 특히 더 좋아요
+                - img "Hotels.com" [ref=e1452]
+                - generic [ref=e1453]: JAEHONG
+              - generic [ref=e1456]:
+                - generic [ref=e1457]:
+                  - generic [ref=e1458]:
+                    - img [ref=e1459]
+                    - img [ref=e1461]
+                    - img [ref=e1463]
+                    - img [ref=e1465]
+                    - img [ref=e1467]
+                  - generic [ref=e1469]: 1년 전
+                - generic [ref=e1471]: 다른건 몰라도 청결은 확실 합니다. 그리고 수영장이 넓어서 좋고, 프라이빗 비치 있어서 좋았어요. 모래도 일반 모래랑 달라서 좋았고요. 파도 많이 치면 물고기는 안보이는데 여하튼 좋아요. 초등학생 저학년 까지는 가족여행 같이 와도 충분할듯 해요. 초등학생 고학년이면..글쎄... 좀더 수영장이 워터파크 처럼 되어 있는 곳도 추천입니다.
+                - img "Hotels.com" [ref=e1473]
+                - generic [ref=e1474]: CHOUNG WON
+              - generic [ref=e1477]:
+                - generic [ref=e1478]:
+                  - generic [ref=e1479]:
+                    - img [ref=e1480]
+                    - img [ref=e1482]
+                    - img [ref=e1484]
+                    - img [ref=e1486]
+                    - img [ref=e1488]
+                  - generic [ref=e1490]: 1년 전
+                - generic [ref=e1492]: 청결하고 만족스런 룸 컨디션과 직원 친절도!! 수영장은 최고였음 해변 모래사장과 스노우쿨링! 놈 좋았고 그리고!! 호텔조식은 종류도 많고 청결하고 맛있었음
+                - img "Hotels.com" [ref=e1494]
+                - generic [ref=e1495]: Kyoung soo
+              - generic [ref=e1498]:
+                - generic [ref=e1499]:
+                  - generic [ref=e1500]:
+                    - img [ref=e1501]
+                    - img [ref=e1503]
+                    - img [ref=e1505]
+                    - img [ref=e1507]
+                    - img [ref=e1509]
+                  - generic [ref=e1511]: 1년 전
+                - generic [ref=e1513]: 숙소의 상태도 직원들의 응대도 만족스러웠습니다.
+                - img "Hotels.com" [ref=e1515]
+                - generic [ref=e1516]: beomyong
+              - generic [ref=e1519]:
+                - generic [ref=e1520]:
+                  - generic [ref=e1521]:
+                    - img [ref=e1522]
+                    - img [ref=e1524]
+                    - img [ref=e1526]
+                    - img [ref=e1528]
+                    - img [ref=e1530]
+                  - generic [ref=e1532]: 1년 전
+                - generic [ref=e1534]: 시설, 서비스, 조식 모두 좋습니다. 재 방문의사 있습니다!
+                - img "Hotels.com" [ref=e1536]
+                - generic [ref=e1537]: Hyung Sik
+              - generic [ref=e1540]:
+                - generic [ref=e1541]:
+                  - generic [ref=e1542]:
+                    - img [ref=e1543]
+                    - img [ref=e1545]
+                    - img [ref=e1547]
+                    - img [ref=e1549]
+                    - img [ref=e1551]
+                  - generic [ref=e1553]: 1년 전
+                - generic [ref=e1555]: 멋진 숙소입니다. 다만 저희 객실 욕조에 물을 채우려 수도꼭지를 트니 하수구 냄새가 올라와서 당황했습니다 ^^; 일행의 다른 방에서는 욕조를 이용할 때 냄새가 없었다고 하니, 저희가 배정받은 객실만의 구조적 문제였나봅니다.
+                - img "Hotels.com" [ref=e1557]
+                - generic [ref=e1558]: YEOREUM
+              - generic [ref=e1561]:
+                - generic [ref=e1562]:
+                  - generic [ref=e1563]:
+                    - img [ref=e1564]
+                    - img [ref=e1566]
+                    - img [ref=e1568]
+                    - img [ref=e1570]
+                    - img [ref=e1572]
+                  - generic [ref=e1574]: 1년 전
+                - generic [ref=e1576]: 전반적으로 모두 만족
+                - img "Hotels.com" [ref=e1578]
+                - generic [ref=e1579]: Jungkoo
+              - generic [ref=e1582]:
+                - generic [ref=e1583]:
+                  - generic [ref=e1584]:
+                    - img [ref=e1585]
+                    - img [ref=e1587]
+                    - img [ref=e1589]
+                    - img [ref=e1591]
+                    - img [ref=e1593]
+                  - generic [ref=e1595]: 1년 전
+                - generic [ref=e1597]: 깨끗하고 조식맛있고 만족해요^^
+                - img "Hotels.com" [ref=e1599]
+                - generic [ref=e1600]: MIHYUN
+              - generic [ref=e1603]:
+                - generic [ref=e1604]:
+                  - generic [ref=e1605]:
+                    - img [ref=e1606]
+                    - img [ref=e1608]
+                    - img [ref=e1610]
+                    - img [ref=e1612]
+                    - img [ref=e1614]
+                  - generic [ref=e1616]: 1년 전
+                - generic [ref=e1618]: 아주 좋았습니다. 수영장 및 프라이빗 비치가 너무 좋았고, 버기도 유용했습니다. 조식도 잘 나오는 편이었지만 음식이식어있는 경우가 있었습니다. 방은 깨끗하고 청소도 잘 해주셨습니다. 요청 사항에 빨리 반응해주셔서 좋았어요. 다만 방음이 조금 미흡합니다. 옆방이 시끄러우면 잘 들립니다. 하지만 시설, 서비스, 청결 모두 좋았어여! 또 방문하고 싶어요!
+                - img "Hotels.com" [ref=e1620]
+                - generic [ref=e1621]: Yujung
+              - generic [ref=e1624]:
+                - generic [ref=e1625]:
+                  - generic [ref=e1626]:
+                    - img [ref=e1627]
+                    - img [ref=e1629]
+                    - img [ref=e1631]
+                    - img [ref=e1633]
+                    - img [ref=e1635]
+                  - generic [ref=e1637]: 1년 전
+                - generic [ref=e1639]: 5박숙박했는데 풍경과 바다만으로도 만족해요.
+                - img "Hotels.com" [ref=e1641]
+                - generic [ref=e1642]: Verified traveler
+              - generic [ref=e1645]:
+                - generic [ref=e1646]:
+                  - generic [ref=e1647]:
+                    - img [ref=e1648]
+                    - img [ref=e1650]
+                    - img [ref=e1652]
+                    - img [ref=e1654]
+                    - img [ref=e1656]
+                  - generic [ref=e1658]: 1년 전
+                - generic [ref=e1660]: 숙소가 청결해서 마음에 들었습니다.
+                - img "Expedia" [ref=e1662]
+                - generic [ref=e1663]: Kangyong
+              - generic [ref=e1666]:
+                - generic [ref=e1667]:
+                  - generic [ref=e1668]:
+                    - img [ref=e1669]
+                    - img [ref=e1671]
+                    - img [ref=e1673]
+                    - img [ref=e1675]
+                    - img [ref=e1677]
+                  - generic [ref=e1679]: 1년 전
+                - generic [ref=e1681]: 리조트 너무 좋아요 재방문 하고 싶습니다^^
+                - img "Hotels.com" [ref=e1683]
+                - generic [ref=e1684]: Sangmin
+              - generic [ref=e1687]:
+                - generic [ref=e1688]:
+                  - generic [ref=e1689]:
+                    - img [ref=e1690]
+                    - img [ref=e1692]
+                    - img [ref=e1694]
+                    - img [ref=e1696]
+                    - img [ref=e1698]
+                  - generic [ref=e1700]: 1년 전
+                - generic [ref=e1702]: 편안하게 별레도 없고 잘 쉬다 갑니다!
+                - img "Hotels.com" [ref=e1704]
+                - generic [ref=e1705]: jiseon
+              - generic [ref=e1708]:
+                - generic [ref=e1709]:
+                  - generic [ref=e1710]:
+                    - img [ref=e1711]
+                    - img [ref=e1713]
+                    - img [ref=e1715]
+                    - img [ref=e1717]
+                    - img [ref=e1719]
+                  - generic [ref=e1721]: 1년 전
+                - generic [ref=e1723]: 나트랑 시내랑도 가깝고 셔틀이 있어 편리했어요. 수영장도 넓고 크고 리조트 내에 마사지, 짐, 마트 등 부대시설이 잘 되어 있어 좋았고 룸도 깨끗하고 무엇보다 직원분들이 너무 친절해서 있는 내내 기분 좋았습니다.
+                - img "Hotels.com" [ref=e1725]
+                - generic [ref=e1726]: Yu Jeong
+              - generic [ref=e1729]:
+                - generic [ref=e1730]:
+                  - generic [ref=e1731]:
+                    - img [ref=e1732]
+                    - img [ref=e1734]
+                    - img [ref=e1736]
+                    - img [ref=e1738]
+                    - img [ref=e1740]
+                  - generic [ref=e1742]: 1년 전
+                - generic [ref=e1744]: 2개의 민물 수영장 물온도 좋음 1개의 해수 수영장 1개의 해수욕장 모래놀이 스노쿨링 물고기 시설이 훌륭하고 나무가많음 자연 친화적임. 직원들이 친절함 언제나 웃으며 인사해줌. 시내에서 음식배달가능, 커피도가능 여러게의 게이트중 가까운곳에서 받을수있어서 편리함
+                - img "Hotels.com" [ref=e1746]
+                - generic [ref=e1747]: MINSOO
+              - generic [ref=e1750]:
+                - generic [ref=e1751]:
+                  - generic [ref=e1752]:
+                    - img [ref=e1753]
+                    - img [ref=e1755]
+                    - img [ref=e1757]
+                    - img [ref=e1759]
+                    - img [ref=e1761]
+                  - generic [ref=e1763]: 1년 전
+                - generic [ref=e1765]: 나트랑에서 가장 좋았던 리조트에요
+                - img "Hotels.com" [ref=e1767]
+                - generic [ref=e1768]: GEUNHOE
+              - generic [ref=e1771]:
+                - generic [ref=e1772]:
+                  - generic [ref=e1773]:
+                    - img [ref=e1774]
+                    - img [ref=e1776]
+                    - img [ref=e1778]
+                    - img [ref=e1780]
+                    - img [ref=e1782]
+                  - generic [ref=e1784]: 1년 전
+                - generic [ref=e1786]: 직원들 친절함은 물론 자연 친화적인 분위기에 리조트안에서 산책만해도 너무 기분 좋아지는 곳입니다
+                - img "Expedia" [ref=e1788]
+                - generic [ref=e1789]: HYEMI
+          - generic [ref=e1793]:
+            - heading "숙소 위치" [level=2] [ref=e1794]
+            - generic [ref=e1795]:
+              - generic [ref=e1797] [cursor=pointer]:
+                - link "Google Map latitude:12.295209, longitude:109.2338719":
+                  - /url: https://www.google.com/maps/search/?api=1&query=12.295209,109.2338719
+                  - img "Google Map" [ref=e1798]
+                  - img "latitude:12.295209, longitude:109.2338719" [ref=e1799]
+              - generic [ref=e1800]:
+                - generic [ref=e1801]:
+                  - img [ref=e1803]
+                  - generic [ref=e1805]: 76WM+3GQ, Phạm Văn Đồng, Tổ 14, Nha Trang, Khánh Hòa 650000 베트남, 650000
+                - button "주소복사" [ref=e1806] [cursor=pointer]:
+                  - generic [ref=e1807]: 주소복사
+          - generic [ref=e1810]:
+            - heading "숙박 안내" [level=2] [ref=e1812]
+            - button "숙소 소개" [ref=e1813] [cursor=pointer]:
+              - generic [ref=e1814]:
+                - generic [ref=e1815]: 숙소 소개
+                - img [ref=e1816]
+            - button "숙소 정책" [ref=e1819] [cursor=pointer]:
+              - generic [ref=e1820]:
+                - generic [ref=e1821]: 숙소 정책
+                - img [ref=e1822]
+            - button "보건 & 안전" [ref=e1825] [cursor=pointer]:
+              - generic [ref=e1826]:
+                - generic [ref=e1827]: 보건 & 안전
+                - img [ref=e1828]
+            - button "판매자 정보" [ref=e1831] [cursor=pointer]:
+              - generic [ref=e1832]:
+                - generic [ref=e1833]: 판매자 정보
+                - img [ref=e1834]
+          - generic [ref=e1842]:
+            - heading "결제 혜택" [level=2] [ref=e1844]
+            - generic [ref=e1845]:
+              - generic [ref=e1846] [cursor=pointer]:
+                - generic [ref=e1847]:
+                  - img "benefit" [ref=e1849]
+                  - generic [ref=e1850]:
+                    - generic [ref=e1851]: KB국민카드
+                    - generic [ref=e1852]: KB할인팩 결제일 할인 (최대 3만원 할인)
+                - img [ref=e1853]
+              - generic [ref=e1856] [cursor=pointer]:
+                - generic [ref=e1857]:
+                  - img "benefit" [ref=e1859]
+                  - generic [ref=e1860]:
+                    - generic [ref=e1861]: 카카오페이
+                    - generic [ref=e1862]: 머니 / 삼성카드 최대 6만원 즉시할인
+                - img [ref=e1863]
+              - generic [ref=e1866] [cursor=pointer]:
+                - generic [ref=e1867]:
+                  - img "benefit" [ref=e1869]
+                  - generic [ref=e1870]:
+                    - generic [ref=e1871]: 삼성카드
+                    - generic [ref=e1872]: 최대 5만원 결제일 할인
+                - img [ref=e1873]
+              - generic [ref=e1876] [cursor=pointer]:
+                - generic [ref=e1877]:
+                  - img "benefit" [ref=e1879]
+                  - generic [ref=e1880]:
+                    - generic [ref=e1881]: 현대카드
+                    - generic [ref=e1882]: M포인트 10% 사용가능 (최대 15,000 M포인트)
+                - img [ref=e1883]
+              - generic [ref=e1886] [cursor=pointer]:
+                - generic [ref=e1887]:
+                  - img "benefit" [ref=e1889]
+                  - generic [ref=e1890]:
+                    - generic [ref=e1891]: 무이자할부
+                    - generic [ref=e1892]: 최대 24개월 무이자 할부 가능
+                - img [ref=e1893]
+            - button "혜택 더보기" [ref=e1896] [cursor=pointer]:
+              - generic [ref=e1897]: 혜택 더보기
+          - generic [ref=e1900]:
+            - generic [ref=e1902]:
+              - heading "비슷한 숙소 둘러보기" [level=2] [ref=e1904]
+              - generic [ref=e1908]:
+                - link "알리부 리조트 나트랑 알리부 리조트 나트랑 4.6 (116) 171,432원/박 5성급 · 리조트 price badge" [ref=e1912] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/4290638?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "알리부 리조트 나트랑" [ref=e1914]
+                  - generic [ref=e1915]:
+                    - generic [ref=e1916]: 알리부 리조트 나트랑
+                    - generic [ref=e1917]:
+                      - img [ref=e1919]
+                      - generic [ref=e1921]: "4.6"
+                      - generic [ref=e1922]: (116)
+                    - generic [ref=e1924]: 171,432원/박
+                    - generic [ref=e1925]: 5성급 · 리조트
+                    - img "price badge" [ref=e1927]
+                - link "보마 리조트 나트랑 보마 리조트 나트랑 4.4 (118) 151,739원/박 5성급 · 리조트 price badge" [ref=e1931] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/4254231?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "보마 리조트 나트랑" [ref=e1933]
+                  - generic [ref=e1934]:
+                    - generic [ref=e1935]: 보마 리조트 나트랑
+                    - generic [ref=e1936]:
+                      - img [ref=e1938]
+                      - generic [ref=e1940]: "4.4"
+                      - generic [ref=e1941]: (118)
+                    - generic [ref=e1943]: 151,739원/박
+                    - generic [ref=e1944]: 5성급 · 리조트
+                    - img "price badge" [ref=e1946]
+                - link "빈펄 리조트 & 스파 나트랑 베이 빈펄 리조트 & 스파 나트랑 베이 4.3 (879) 210,844원/박 5성급 · 리조트 price badge" [ref=e1950] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/1229081?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "빈펄 리조트 & 스파 나트랑 베이" [ref=e1952]
+                  - generic [ref=e1953]:
+                    - generic [ref=e1954]: 빈펄 리조트 & 스파 나트랑 베이
+                    - generic [ref=e1955]:
+                      - img [ref=e1957]
+                      - generic [ref=e1959]: "4.3"
+                      - generic [ref=e1960]: (879)
+                    - generic [ref=e1962]: 210,844원/박
+                    - generic [ref=e1963]: 5성급 · 리조트
+                    - img "price badge" [ref=e1965]
+                - link "빈펄 리조트 나트랑 빈펄 리조트 나트랑 4.2 (540) 166,120원/박 5성급 · 리조트 price badge" [ref=e1969] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/1140895?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "빈펄 리조트 나트랑" [ref=e1971]
+                  - generic [ref=e1972]:
+                    - generic [ref=e1973]: 빈펄 리조트 나트랑
+                    - generic [ref=e1974]:
+                      - img [ref=e1976]
+                      - generic [ref=e1978]: "4.2"
+                      - generic [ref=e1979]: (540)
+                    - generic [ref=e1981]: 166,120원/박
+                    - generic [ref=e1982]: 5성급 · 리조트
+                    - img "price badge" [ref=e1984]
+                - link "빈펄 럭셔리 나트랑 빈펄 럭셔리 나트랑 4.7 (318) 277,990원/박 5성급 · 리조트" [ref=e1988] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/1190377?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "빈펄 럭셔리 나트랑" [ref=e1990]
+                  - generic [ref=e1991]:
+                    - generic [ref=e1992]: 빈펄 럭셔리 나트랑
+                    - generic [ref=e1993]:
+                      - img [ref=e1995]
+                      - generic [ref=e1997]: "4.7"
+                      - generic [ref=e1998]: (318)
+                    - generic [ref=e2000]: 277,990원/박
+                    - generic [ref=e2001]: 5성급 · 리조트
+                - link "나트랑 메리어트 리조트 & 스파, 혼 트레 아일랜드 나트랑 메리어트 리조트 & 스파, 혼 트레 아일랜드 4.4 (134) 212,170원/박 5성급 · 리조트" [ref=e2005] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/1400014?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "나트랑 메리어트 리조트 & 스파, 혼 트레 아일랜드" [ref=e2007]
+                  - generic [ref=e2008]:
+                    - generic [ref=e2009]: 나트랑 메리어트 리조트 & 스파, 혼 트레 아일랜드
+                    - generic [ref=e2010]:
+                      - img [ref=e2012]
+                      - generic [ref=e2014]: "4.4"
+                      - generic [ref=e2015]: (134)
+                    - generic [ref=e2017]: 212,170원/박
+                    - generic [ref=e2018]: 5성급 · 리조트
+                - link "혼땀 리조트 혼땀 리조트 4.1 (233) 116,610원/박 5성급 · 리조트" [ref=e2022] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/1170727?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "혼땀 리조트" [ref=e2024]
+                  - generic [ref=e2025]:
+                    - generic [ref=e2026]: 혼땀 리조트
+                    - generic [ref=e2027]:
+                      - img [ref=e2029]
+                      - generic [ref=e2031]: "4.1"
+                      - generic [ref=e2032]: (233)
+                    - generic [ref=e2034]: 116,610원/박
+                    - generic [ref=e2035]: 5성급 · 리조트
+                - link "참파 아일랜드 나트랑 - 리조트 호텔 & 스파 참파 아일랜드 나트랑 - 리조트 호텔 & 스파 4.4 (153) 53,289원/박 5성급 · 리조트" [ref=e2039] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/1243907?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "참파 아일랜드 나트랑 - 리조트 호텔 & 스파" [ref=e2041]
+                  - generic [ref=e2042]:
+                    - generic [ref=e2043]: 참파 아일랜드 나트랑 - 리조트 호텔 & 스파
+                    - generic [ref=e2044]:
+                      - img [ref=e2046]
+                      - generic [ref=e2048]: "4.4"
+                      - generic [ref=e2049]: (153)
+                    - generic [ref=e2051]: 53,289원/박
+                    - generic [ref=e2052]: 5성급 · 리조트
+                - link "그린 오아시스 나트랑 리조트 그린 오아시스 나트랑 리조트 4.7 (3) 81,032원/박 4성급 · 리조트 price badge" [ref=e2056] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/3570542?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "그린 오아시스 나트랑 리조트" [ref=e2058]
+                  - generic [ref=e2059]:
+                    - generic [ref=e2060]: 그린 오아시스 나트랑 리조트
+                    - generic [ref=e2061]:
+                      - img [ref=e2063]
+                      - generic [ref=e2065]: "4.7"
+                      - generic [ref=e2066]: (3)
+                    - generic [ref=e2068]: 81,032원/박
+                    - generic [ref=e2069]: 4성급 · 리조트
+                    - img "price badge" [ref=e2071]
+                - link "오르빗 호텔 나트랑 오르빗 호텔 나트랑 4.5 (4) 36,242원/박 4성급 · 리조트 price badge" [ref=e2075] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/1602848?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "오르빗 호텔 나트랑" [ref=e2077]
+                  - generic [ref=e2078]:
+                    - generic [ref=e2079]: 오르빗 호텔 나트랑
+                    - generic [ref=e2080]:
+                      - img [ref=e2082]
+                      - generic [ref=e2084]: "4.5"
+                      - generic [ref=e2085]: (4)
+                    - generic [ref=e2087]: 36,242원/박
+                    - generic [ref=e2088]: 4성급 · 리조트
+                    - img "price badge" [ref=e2090]
+            - generic [ref=e2092]:
+              - heading "이 시기 인기 숙소 둘러보기" [level=2] [ref=e2094]
+              - generic [ref=e2098]:
+                - link "프리미어 하바나 나트랑 호텔 프리미어 하바나 나트랑 호텔 4.4 (419) 64,163원/박 5성급 · 호텔 price badge" [ref=e2102] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/1748465?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "프리미어 하바나 나트랑 호텔" [ref=e2104]
+                  - generic [ref=e2105]:
+                    - generic [ref=e2106]: 프리미어 하바나 나트랑 호텔
+                    - generic [ref=e2107]:
+                      - img [ref=e2109]
+                      - generic [ref=e2111]: "4.4"
+                      - generic [ref=e2112]: (419)
+                    - generic [ref=e2114]: 64,163원/박
+                    - generic [ref=e2115]: 5성급 · 호텔
+                    - img "price badge" [ref=e2117]
+                - link "아미아나 리조트 나트랑 아미아나 리조트 나트랑 4.6 (808) 254,538원/박 5성급 · 리조트" [ref=e2121] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/4015454?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "아미아나 리조트 나트랑" [ref=e2123]
+                  - generic [ref=e2124]:
+                    - generic [ref=e2125]: 아미아나 리조트 나트랑
+                    - generic [ref=e2126]:
+                      - img [ref=e2128]
+                      - generic [ref=e2130]: "4.6"
+                      - generic [ref=e2131]: (808)
+                    - generic [ref=e2133]: 254,538원/박
+                    - generic [ref=e2134]: 5성급 · 리조트
+                - link "[특가] 빌라 르 코라이 그란 멜리아 호텔 나트랑 [특가] 빌라 르 코라이 그란 멜리아 호텔 나트랑 4.8 (75) 372,328원/박 5성급 · 호텔" [ref=e2138] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/4099911?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "[특가] 빌라 르 코라이 그란 멜리아 호텔 나트랑" [ref=e2140]
+                  - generic [ref=e2141]:
+                    - generic [ref=e2142]: "[특가] 빌라 르 코라이 그란 멜리아 호텔 나트랑"
+                    - generic [ref=e2143]:
+                      - img [ref=e2145]
+                      - generic [ref=e2147]: "4.8"
+                      - generic [ref=e2148]: (75)
+                    - generic [ref=e2150]: 372,328원/박
+                    - generic [ref=e2151]: 5성급 · 호텔
+                - link "나트랑 시에스타 호텔 나트랑 시에스타 호텔 4.7 (103) 65,837원/박 4성급 · 호텔" [ref=e2155] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/1803947?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "나트랑 시에스타 호텔" [ref=e2157]
+                  - generic [ref=e2158]:
+                    - generic [ref=e2159]: 나트랑 시에스타 호텔
+                    - generic [ref=e2160]:
+                      - img [ref=e2162]
+                      - generic [ref=e2164]: "4.7"
+                      - generic [ref=e2165]: (103)
+                    - generic [ref=e2167]: 65,837원/박
+                    - generic [ref=e2168]: 4성급 · 호텔
+                - link "나트랑 레스참 호텔 나트랑 레스참 호텔 4.7 (228) 39,300원/박 4성급 · 호텔" [ref=e2172] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/3401779?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "나트랑 레스참 호텔" [ref=e2174]
+                  - generic [ref=e2175]:
+                    - generic [ref=e2176]: 나트랑 레스참 호텔
+                    - generic [ref=e2177]:
+                      - img [ref=e2179]
+                      - generic [ref=e2181]: "4.7"
+                      - generic [ref=e2182]: (228)
+                    - generic [ref=e2184]: 39,300원/박
+                    - generic [ref=e2185]: 4성급 · 호텔
+                - link "나트랑 디셈버 호텔 나트랑 디셈버 호텔 4.8 (119) 68,430원/박 5성급 · 호텔" [ref=e2189] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/3398561?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "나트랑 디셈버 호텔" [ref=e2191]
+                  - generic [ref=e2192]:
+                    - generic [ref=e2193]: 나트랑 디셈버 호텔
+                    - generic [ref=e2194]:
+                      - img [ref=e2196]
+                      - generic [ref=e2198]: "4.8"
+                      - generic [ref=e2199]: (119)
+                    - generic [ref=e2201]: 68,430원/박
+                    - generic [ref=e2202]: 5성급 · 호텔
+                - link "인터컨티넨탈 냐짱, IHG 제공 인터컨티넨탈 냐짱, IHG 제공 4.7 (904) 214,990원/박 5성급 · 호텔 price badge" [ref=e2206] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/4005367?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "인터컨티넨탈 냐짱, IHG 제공" [ref=e2208]
+                  - generic [ref=e2209]:
+                    - generic [ref=e2210]: 인터컨티넨탈 냐짱, IHG 제공
+                    - generic [ref=e2211]:
+                      - img [ref=e2213]
+                      - generic [ref=e2215]: "4.7"
+                      - generic [ref=e2216]: (904)
+                    - generic [ref=e2218]: 214,990원/박
+                    - generic [ref=e2219]: 5성급 · 호텔
+                    - img "price badge" [ref=e2221]
+                - link "나트랑 버고 호텔 나트랑 버고 호텔 4.5 (390) 46,011원/박 5성급 · 호텔 price badge" [ref=e2225] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/3151542?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "나트랑 버고 호텔" [ref=e2227]
+                  - generic [ref=e2228]:
+                    - generic [ref=e2229]: 나트랑 버고 호텔
+                    - generic [ref=e2230]:
+                      - img [ref=e2232]
+                      - generic [ref=e2234]: "4.5"
+                      - generic [ref=e2235]: (390)
+                    - generic [ref=e2237]: 46,011원/박
+                    - generic [ref=e2238]: 5성급 · 호텔
+                    - img "price badge" [ref=e2240]
+                - link "멜리아 빈펄 나트랑 엠파이어 호텔 멜리아 빈펄 나트랑 엠파이어 호텔 4.5 (425) 75,940원/박 5성급 · 호텔" [ref=e2244] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/4027662?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "멜리아 빈펄 나트랑 엠파이어 호텔" [ref=e2246]
+                  - generic [ref=e2247]:
+                    - generic [ref=e2248]: 멜리아 빈펄 나트랑 엠파이어 호텔
+                    - generic [ref=e2249]:
+                      - img [ref=e2251]
+                      - generic [ref=e2253]: "4.5"
+                      - generic [ref=e2254]: (425)
+                    - generic [ref=e2256]: 75,940원/박
+                    - generic [ref=e2257]: 5성급 · 호텔
+                - link "시사이드 부티크 호텔 나트랑 비치 시사이드 부티크 호텔 나트랑 비치 4.5 (6) 40,848원/박 4성급 · 호텔" [ref=e2261] [cursor=pointer]:
+                  - /url: https://accommodation.myrealtrip.com/union/products/4522010?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                  - img "시사이드 부티크 호텔 나트랑 비치" [ref=e2263]
+                  - generic [ref=e2264]:
+                    - generic [ref=e2265]: 시사이드 부티크 호텔 나트랑 비치
+                    - generic [ref=e2266]:
+                      - img [ref=e2268]
+                      - generic [ref=e2270]: "4.5"
+                      - generic [ref=e2271]: (6)
+                    - generic [ref=e2273]: 40,848원/박
+                    - generic [ref=e2274]: 4성급 · 호텔
+            - generic [ref=e2276]:
+              - heading "근처 숙소 둘러보기" [level=2] [ref=e2278]
+              - link "참파 아일랜드 나트랑 - 리조트 호텔 & 스파 참파 아일랜드 나트랑 - 리조트 호텔 & 스파 4.4 (153) 53,289원/박 5성급 · 리조트" [ref=e2286] [cursor=pointer]:
+                - /url: https://accommodation.myrealtrip.com/union/products/1243907?checkIn=2026-05-29&checkOut=2026-05-30&adultCount=2&childCount=0
+                - img "참파 아일랜드 나트랑 - 리조트 호텔 & 스파" [ref=e2288]
+                - generic [ref=e2289]:
+                  - generic [ref=e2290]: 참파 아일랜드 나트랑 - 리조트 호텔 & 스파
+                  - generic [ref=e2291]:
+                    - img [ref=e2293]
+                    - generic [ref=e2295]: "4.4"
+                    - generic [ref=e2296]: (153)
+                  - generic [ref=e2298]: 53,289원/박
+                  - generic [ref=e2299]: 5성급 · 리조트
+      - generic [ref=e2302]:
+        - generic [ref=e2304]:
+          - generic [ref=e2306]: 521,510원/박
+          - generic [ref=e2307]:
+            - button "5월 29일(금) - 5월 30일(토) · 1박" [ref=e2308] [cursor=pointer]
+            - generic [ref=e2309]: ·
+            - button "2명" [ref=e2310] [cursor=pointer]:
+              - generic [ref=e2311]: 2명
+        - button "객실 선택" [ref=e2312] [cursor=pointer]:
+          - generic [ref=e2314]: 객실 선택
+    - contentinfo [ref=e2316]:
+      - generic [ref=e2317]:
+        - generic [ref=e2318]:
+          - generic [ref=e2319]:
+            - text: 고객지원실 운영안내
+            - list [ref=e2320]:
+              - listitem [ref=e2321]: 채팅상담 연중무휴 24시간 유선상담 연중무휴 09:00-18:00
+              - listitem [ref=e2322]: 유선상담 1670-8208
+            - button "고객지원실" [ref=e2324]:
+              - button "고객지원실" [ref=e2325] [cursor=pointer]:
+                - generic [ref=e2326]: 고객지원실
+          - generic [ref=e2327]:
+            - generic [ref=e2328]:
+              - text: 소개
+              - list [ref=e2329]:
+                - listitem [ref=e2330]:
+                  - link "회사소개" [ref=e2331] [cursor=pointer]:
+                    - /url: https://about.myrealtrip.com
+                - listitem [ref=e2332]:
+                  - link "채용" [ref=e2333] [cursor=pointer]:
+                    - /url: https://career.myrealtrip.com
+                - listitem [ref=e2334]:
+                  - link "공고" [ref=e2335] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/announcement
+            - generic [ref=e2336]:
+              - text: 파트너
+              - list [ref=e2337]:
+                - listitem [ref=e2338]:
+                  - link "파트너 홈" [ref=e2339] [cursor=pointer]:
+                    - /url: https://partner.myrealtrip.com/welcome
+                - listitem [ref=e2340]:
+                  - link "제휴 문의" [ref=e2341] [cursor=pointer]:
+                    - /url: mailto:partnership@myrealtrip.com
+                - listitem [ref=e2342]:
+                  - link "광고 문의" [ref=e2343] [cursor=pointer]:
+                    - /url: mailto:ad@myrealtrip.com
+            - generic [ref=e2344]:
+              - text: 지원
+              - list [ref=e2345]:
+                - listitem [ref=e2346]:
+                  - link "공지사항" [ref=e2347] [cursor=pointer]:
+                    - /url: https://support.myrealtrip.com/notice
+                - listitem [ref=e2348]:
+                  - link "문의내역" [ref=e2349] [cursor=pointer]:
+                    - /url: https://support.myrealtrip.com/inquiry
+                - listitem [ref=e2350]:
+                  - link "최저가 보장제" [ref=e2351] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/best_price
+        - generic [ref=e2352]:
+          - generic [ref=e2353]:
+            - generic [ref=e2354]:
+              - link "이용 약관" [ref=e2356] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/policyAgreement
+              - link "개인정보 처리방침" [ref=e2358] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/common/privacy
+              - link "취소 및 환불 정책" [ref=e2360] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/common/cancel
+              - link "개발자 센터" [ref=e2362] [cursor=pointer]:
+                - /url: https://docs.myrealtrip.com/#/api/intro
+            - generic [ref=e2363]:
+              - generic [ref=e2364]:
+                - link "icon 페이스북으로 이동하기" [ref=e2366] [cursor=pointer]:
+                  - /url: https://www.facebook.com/myRealTrip
+                  - img "icon" [ref=e2367]
+                  - generic [ref=e2368]: 페이스북으로 이동하기
+                - link "icon 네이버 블로그로 이동하기" [ref=e2370] [cursor=pointer]:
+                  - /url: https://blog.naver.com/myrealtrip
+                  - img "icon" [ref=e2371]
+                  - generic [ref=e2372]: 네이버 블로그로 이동하기
+                - link "icon 인스타그램으로 이동하기" [ref=e2374] [cursor=pointer]:
+                  - /url: https://instagram.com/myrealtrip
+                  - img "icon" [ref=e2375]
+                  - generic [ref=e2376]: 인스타그램으로 이동하기
+                - link "icon 유투브로 이동하기" [ref=e2378] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UC2oeFByIBQjkKXmQjE0U5rQ
+                  - img "icon" [ref=e2379]
+                  - generic [ref=e2380]: 유투브로 이동하기
+              - generic [ref=e2382]:
+                - link "icon" [ref=e2384] [cursor=pointer]:
+                  - /url: https://itunes.apple.com/app/id1141745032
+                  - img "icon" [ref=e2385]
+                - link "icon" [ref=e2387] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.mrt.ducati
+                  - img "icon" [ref=e2388]
+            - button "icon 한국어 icon" [ref=e2390] [cursor=pointer]:
+              - img "icon" [ref=e2391]
+              - generic [ref=e2392]: 한국어
+              - img "icon" [ref=e2393]
+          - generic [ref=e2394]:
+            - paragraph [ref=e2396]:
+              - text: 상호명 (주)마이리얼트립 | 대표 이동건 | 개인정보보호책임자 김형석 | 사업자등록번호 209-81-55339
+              - link "사업자정보확인" [ref=e2398] [cursor=pointer]:
+                - /url: https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2098155339
+              - text: "| 통신판매업신고번호 2019-서울서초-0260 | 관광사업등록번호 : 제2019-3호"
+              - text: 주소 서울특별시 서초구 강남대로 311, 18층 1729호(서초동, 한화생명보험빌딩)
+              - text: 이메일 help@myrealtrip.com | 입점 문의 partnership@myrealtrip.com
+              - text: "마케팅파트너/크리에이터 문의 marketing_partner@myrealtrip.com | 마케팅 문의 marketing@myrealtrip.com | 호스팅 서비스 제공자 : (주)마이리얼트립"
+              - text: "자사는 서울특별시관광협회 공제영업보증보험에 가입되어 있습니다. 영업보증보험: 1.5억원 / 기획여행보증: 2억원"
+              - text: 마이리얼트립은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 상품·거래정보 및 거래에 대하여 책임을 지지않습니다.
+              - text: 부득이한 사정에 의해 확정된 여행일정이 변경되는 경우 여행자의 사전 동의를 받습니다.
+              - text: (주)마이리얼트립이 소유, 운영, 관리하는 웹사이트 및 앱 내의 상품, 판매자 정보, 이벤트 정보, 디자인, UI 등을 포함한 일체의 콘텐츠에 대한 무단 복제, 배포, 전송, 스크래핑 등의 행위는 저작권법 등 관련 법령에 의하여 엄격히 금지됩니다.
+            - button "ISMS-P" [ref=e2400] [cursor=pointer]:
+              - img "ISMS-P" [ref=e2401]
+  - dialog
+  - dialog
+  - dialog
+  - dialog
+  - alert [ref=e2402]: 나트랑 - 아미아나 리조트 나트랑 후기, 가격, 위치 - 예약

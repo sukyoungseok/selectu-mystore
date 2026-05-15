@@ -1,0 +1,171 @@
+- generic [active] [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - region "script.google.com 에서는 서비스 제공 및 서비스 품질 개선과 트래픽 분석을 위해 Google 쿠키를 사용합니다." [ref=e3]:
+    - paragraph [ref=e4]:
+      - text: script.google.com 에서는 서비스 제공 및 서비스 품질 개선과 트래픽 분석을 위해 Google 쿠키를 사용합니다.
+      - link "Google에서 쿠키를 사용하는 방법을 자세히 알아보세요. 새 탭에서 열립니다." [ref=e5] [cursor=pointer]:
+        - /url: https://policies.google.com/technologies/cookies?hl=ko
+        - text: 자세히 알아보세요
+    - button "확인" [ref=e6] [cursor=pointer]
+  - generic [ref=e7]:
+    - banner [ref=e9]:
+      - generic [ref=e10]:
+        - link "Google Apps Script" [ref=e578] [cursor=pointer]:
+          - /url: /home
+          - img [ref=e15]
+          - generic [ref=e16]: Apps Script
+        - generic [ref=e17]:
+          - generic [ref=e20]:
+            - button "이름 변경하기" [ref=e579] [cursor=pointer]: 제목 없는 프로젝트
+            - generic [ref=e484]: cloud_done
+          - generic [ref=e30]:
+            - button "배포" [ref=e580] [cursor=pointer]:
+              - generic [ref=e38]:
+                - text: 배포
+                - generic [ref=e39]: 
+            - button "지원" [ref=e581] [cursor=pointer]:
+              - generic [ref=e44]: help_outline
+        - generic [ref=e46]:
+          - button "Google 앱" [ref=e582] [cursor=pointer]:
+            - img [ref=e51]
+          - 'button "Google 계정: 석수경 (sukyoung.seok@myrealtrip.com)" [ref=e583] [cursor=pointer]':
+            - img [ref=e58]
+    - generic [ref=e60]:
+      - navigation "Apps Script 프로젝트 페이지" [ref=e584]:
+        - link "개요" [ref=e585] [cursor=pointer]:
+          - generic [ref=e65]: info_outline
+          - generic [ref=e66]: 개요
+        - link "편집기" [ref=e586] [cursor=pointer]:
+          - generic [ref=e69]: code
+          - generic [ref=e70]: 편집기
+        - link "프로젝트 기록" [ref=e587] [cursor=pointer]:
+          - generic [ref=e73]: history
+          - generic [ref=e74]: 프로젝트 기록
+        - link "트리거" [ref=e588] [cursor=pointer]:
+          - generic [ref=e77]: alarm
+          - generic [ref=e78]: 트리거
+        - link "실행" [ref=e589] [cursor=pointer]:
+          - generic [ref=e81]: playlist_play
+          - generic [ref=e82]: 실행
+        - link "프로젝트 설정" [ref=e590] [cursor=pointer]:
+          - generic [ref=e85]: settings
+          - generic [ref=e86]: 프로젝트 설정
+      - generic [ref=e87]:
+        - heading "편집기" [level=1] [ref=e591]
+        - generic [ref=e89]:
+          - generic [ref=e91]:
+            - generic [ref=e92]:
+              - heading "파일" [level=2] [ref=e592]
+              - generic [ref=e95]:
+                - button "알파벳순으로 파일 정렬" [disabled] [ref=e593]:
+                  - generic [ref=e100]: sort_by_alpha
+                - button "파일 추가" [ref=e594] [cursor=pointer]:
+                  - generic [ref=e105]: add
+            - listbox "프로젝트 파일" [ref=e595]:
+              - option "Code.gs" [ref=e596] [cursor=pointer]:
+                - generic "Code.gs" [ref=e597]
+                - button "Code.gs에 대한 파일 작업 메뉴" [ref=e598]:
+                  - button "Code.gs에 대한 파일 작업 메뉴" [ref=e599]:
+                    - generic [ref=e114]: 
+            - generic [ref=e115]:
+              - heading "라이브러리" [level=2] [ref=e600]
+              - button "라이브러리 추가" [ref=e601] [cursor=pointer]:
+                - generic [ref=e122]: add
+            - generic:
+              - listbox "라이브러리 종속성"
+            - generic [ref=e123]:
+              - heading "서비스" [level=2] [ref=e602]
+              - button "서비스 추가" [ref=e603] [cursor=pointer]:
+                - generic [ref=e130]: add
+            - generic:
+              - listbox "서비스 종속성"
+          - generic [ref=e137]:
+            - region [ref=e138]:
+              - generic [ref=e139]:
+                - generic [ref=e140]:
+                  - generic [ref=e143]:
+                    - button "코드 수정 실행취소" [disabled]:
+                      - generic: undo
+                  - generic [ref=e146]:
+                    - button "코드 수정 재실행" [disabled]:
+                      - generic: redo
+                - generic [ref=e150]:
+                  - button "Drive에 프로젝트 저장" [disabled]:
+                    - img
+                - generic [ref=e456]:
+                  - generic [ref=e459]:
+                    - button "선택한 기능 실행" [disabled]:
+                      - generic: play_arrow
+                      - generic: 실행
+                  - generic [ref=e467]:
+                    - button "선택한 기능 디버그" [disabled]:
+                      - img
+                      - generic: 디버그
+                  - listbox "실행할 함수 선택" [disabled] [ref=e604]:
+                    - option "writeAffiliateLinks" [disabled] [selected] [ref=e605]
+                  - button "실행 중지" [ref=e606]:
+                    - generic [ref=e517]: stop
+                    - generic [ref=e518]: 중지
+                - button "실행 로그 패널 닫기" [ref=e607]:
+                  - generic [ref=e166]: 실행 로그
+            - generic [ref=e168]:
+              - main [ref=e172]:
+                - generic [ref=e173]: .
+                - generic [ref=e175]:
+                  - iframe [ref=e176]:
+                    
+                  - code [ref=e178]:
+                    - generic [ref=e179]:
+                      - generic [ref=e182]:
+                        - generic [ref=e233]:
+                          - generic [ref=e235] [cursor=pointer]: 
+                          - generic [ref=e236]: "1"
+                        - generic [ref=e238]: "2"
+                        - generic [ref=e240]: "3"
+                        - generic [ref=e241]:
+                          - generic [ref=e242] [cursor=pointer]: 
+                          - generic [ref=e243]: "4"
+                        - generic [ref=e245]: "5"
+                        - generic [ref=e249]: "6"
+                        - generic [ref=e253]: "7"
+                        - generic [ref=e258]: "8"
+                      - generic [ref=e201]:
+                        - generic [ref=e382]: "function writeAffiliateLinks() {"
+                        - generic [ref=e384]: var ss = SpreadsheetApp.openById('1XiTZD-ywUAgW-lJXFa0R0KoZMjW_m-2ytAhl7iwTbC8');
+                        - generic [ref=e386]: var sheet = ss.getSheetByName('MRT 상품 링크');
+                        - generic [ref=e388]: var data = [
+                        - generic [ref=e390]: "[5,'https://myrealt.rip/ZIq47b'],[6,'https://myrealt.rip/ZIq564'],[7,'https://myrealt.rip/ZIq636'],[8,'https://myrealt.rip/ZIq70c'],[9,"
+                        - generic [ref=e392]: "'https://myrealt.rip/ZIq8e8'],[10,'https://myrealt.rip/ZIq94f'],[11,'https://myrealt.rip/ZIqA97'],[13,'https://myrealt.rip/ZIqBa4'],[14,"
+                        - generic [ref=e394]: "'https://myrealt.rip/ZIqC84'],"
+                        - generic [ref=e396]: "[18,'https://myrealt.rip/ZIqE55'],[19,'https://myrealt.rip/ZIqFc4'],[20,'https://myrealt.rip/ZIqG14'],[21,'https://myrealt.rip/ZIqH90'],[22,"
+                        - generic [ref=e398]: "'https://myrealt.rip/ZIqI20'],[23,'https://myrealt.rip/ZIqJbb'],[24,'https://myrealt.rip/ZIqK08'],[25,'https://myrealt.rip/ZIqL03'],[26,"
+                        - generic [ref=e400]: "'https://myrealt.rip/ZIqMc7'],[27,'https://myrealt.rip/ZIqN01'],"
+                        - generic [ref=e402]: "[28,'https://myrealt.rip/ZIqQ4e'],[29,'https://myrealt.rip/ZIqR5e'],[30,'https://myrealt.rip/ZIqS52'],[31,'https://myrealt.rip/ZIqTb7'],[32,"
+                        - generic [ref=e404]: "'https://myrealt.rip/ZIqU73'],[33,'https://myrealt.rip/ZIqV3f'],[34,'https://myrealt.rip/ZIqWb9'],[35,'https://myrealt.rip/ZIqX03'],[36,"
+                        - generic [ref=e406]: "'https://myrealt.rip/ZIqY61'],[37,'https://myrealt.rip/ZIqZ65'],[38,'https://myrealt.rip/ZIqaa3'],[39,'https://myrealt.rip/ZIqb9f'],[40,"
+                        - generic [ref=e408]: "'https://myrealt.rip/ZIqc19'],[41,'https://myrealt.rip/ZIqd08'],"
+                        - generic [ref=e410]: "[42,'https://myrealt.rip/ZIqed5'],[43,'https://myrealt.rip/ZIqf77'],[44,'https://myrealt.rip/ZIqg9e'],[45,'https://myrealt.rip/ZIqh7a'],[46,"
+                        - generic [ref=e412]: "'https://myrealt.rip/ZIqi62'],[47,'https://myrealt.rip/ZIqj28'],[48,'https://myrealt.rip/ZIqkaa'],[49,'https://myrealt.rip/ZIqle0'],[50,"
+                        - generic [ref=e414]: "'https://myrealt.rip/ZIqma3'],[51,'https://myrealt.rip/ZIqncb'],[52,'https://myrealt.rip/ZIqo46'],[53,'https://myrealt.rip/ZIqp49'],[54,"
+                        - generic [ref=e416]: "'https://myrealt.rip/ZIqq3b'],[55,'https://myrealt.rip/ZIqr0b'],[56,'https://myrealt.rip/ZIqsa2'],"
+                      - textbox "편집기 콘텐츠;접근성 옵션은 Alt+F1을 눌러여 합니다." [ref=e608]: "function writeAffiliateLinks() { var ss = SpreadsheetApp.openById('1XiTZD-ywUAgW-lJXFa0R0KoZMjW_m-2ytAhl7iwTbC8'); var sheet = ss.getSheetByName('MRT 상품 링크'); var data = [ [5,'https://myrealt.rip/ZIq47b'],[6,'https://myrealt.rip/ZIq564'],[7,'https://myrealt.rip/ZIq636'],[8,'https://myrealt.rip/ZIq70c'],[9,'https://myr"
+              - generic [ref=e522]:
+                - complementary [ref=e524]:
+                  - generic [ref=e526]: 실행 로그
+                  - generic [ref=e528]:
+                    - generic:
+                      - generic:
+                        - list "로그"
+                    - generic [ref=e530]:
+                      - generic: 로드 중...
+                - generic:
+                  - button "실행 로그 창 닫기" [ref=e609] [cursor=pointer]:
+                    - generic [ref=e212]: close
+                  - tooltip [ref=e213]: 실행 로그 닫기
+  - generic: 프로젝트 저장 중...
+  - generic [ref=e215]:
+    - alert
+    - alert
+    - complementary
+    - complementary

@@ -1,0 +1,193 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - generic [ref=e10] [cursor=pointer]:
+        - generic [ref=e11]: 내돈내산으로 다녀온 여행 정보를 제공해요! 일부 링크는 구매 시 일정액의 리워드를 지급받습니다
+        - generic [ref=e12]: 내돈내산으로 다녀온 여행 정보를 제공해요! 일부 링크는 구매 시 일정액의 리워드를 지급받습니다
+        - generic [ref=e13]: 내돈내산으로 다녀온 여행 정보를 제공해요! 일부 링크는 구매 시 일정액의 리워드를 지급받습니다
+        - generic [ref=e14]: 내돈내산으로 다녀온 여행 정보를 제공해요! 일부 링크는 구매 시 일정액의 리워드를 지급받습니다
+        - generic [ref=e15]: 내돈내산으로 다녀온 여행 정보를 제공해요! 일부 링크는 구매 시 일정액의 리워드를 지급받습니다
+        - generic [ref=e16]: 내돈내산으로 다녀온 여행 정보를 제공해요! 일부 링크는 구매 시 일정액의 리워드를 지급받습니다
+        - generic [ref=e17]: 내돈내산으로 다녀온 여행 정보를 제공해요! 일부 링크는 구매 시 일정액의 리워드를 지급받습니다
+        - generic [ref=e18]: 내돈내산으로 다녀온 여행 정보를 제공해요! 일부 링크는 구매 시 일정액의 리워드를 지급받습니다
+      - banner [ref=e19]:
+        - button [ref=e22] [cursor=pointer]:
+          - img [ref=e23]
+        - button [ref=e28] [cursor=pointer]:
+          - img [ref=e29]
+      - generic [ref=e35]:
+        - heading "hwung_travel" [level=1] [ref=e37]
+        - button "비즈니스 제안" [ref=e38] [cursor=pointer]:
+          - img [ref=e39]
+          - generic [ref=e42]: 비즈니스 제안
+      - generic [ref=e43]:
+        - generic [ref=e45]:
+          - textbox "검색어를 입력해주세요." [ref=e46]
+          - img [ref=e48]
+        - generic [ref=e52]:
+          - link "제 인생 삼각대!! 제 인생 삼각대!!" [ref=e53] [cursor=pointer]:
+            - /url: /api/r/6dqE1fm_zKVplvJtZhh2n-PwCX_TfbfvO_mzLkCk1qGcW-oAzKEHw0zCmwrI64vT6zj2jl2nqq7JR6HsBlXkJBvC7oRG4KgH3dJ8bRfHtdCMs2nOARKxZndPNTd6agHm
+            - img "제 인생 삼각대!!" [ref=e55]
+            - heading "제 인생 삼각대!!" [level=3] [ref=e57]
+          - link "기내 꿀잠 목베개(무조건 챙겨다님) 기내 꿀잠 목베개(무조건 챙겨다님)" [ref=e58] [cursor=pointer]:
+            - /url: /api/r/-hjiFjanJJ_askBMCPvBP_mNuTulmJFTaZxtV1HMkXkckXdV_WNV3BcqSRjTDeEcT7O--6xFC9HefNxZM_2SEaohq5u6h-4ua2IkQsKKmaoYCbCC7qPGBN9IpoDWRrJ6
+            - img "기내 꿀잠 목베개(무조건 챙겨다님)" [ref=e60]
+            - heading "기내 꿀잠 목베개(무조건 챙겨다님)" [level=3] [ref=e62]
+          - link "해외 이심&유심 20%할인 링크 해외 이심&유심 20%할인 링크" [ref=e63] [cursor=pointer]:
+            - /url: /api/r/SKcRoEVM48bOyI2xcIVXJb7bVGUj9eQXo7SR-CcRNaNejm_1oz5AmnejA6ha2PyRLR4cBycCvTmZPMXCdL2GCLj2CKNFbPbJZCbVb180VBja0Z6z6uqKGkNqT8xJ
+            - img "해외 이심&유심 20%할인 링크" [ref=e65]
+            - heading "해외 이심&유심 20%할인 링크" [level=3] [ref=e67]
+          - link "일본 유럽 감성 호텔 일본 유럽 감성 호텔" [ref=e68] [cursor=pointer]:
+            - /url: /api/r/gX_VwcZPacm4GcjapIMW88QhMSKV3FjuUFK_O72RXmGK8yyvswUYndhiS2X0p8QLTOWizCSDED4yklfmxrcURhl2cHM0TAD8jSkSdNJZSsBT82bjKoP8Dan-BXqdwSPvZEvr2gH9nOkK6WMFv1IrzN0uRpgHRq_fTtgrSt4Jcy9AVRKDt8zntVXME-5WfiwCKXfxopIV3F6cH0YIciTO
+            - img "일본 유럽 감성 호텔" [ref=e70]
+            - heading "일본 유럽 감성 호텔" [level=3] [ref=e72]
+          - link "영화 세트장 같은 교토 료칸 영화 세트장 같은 교토 료칸" [ref=e73] [cursor=pointer]:
+            - /url: /api/r/ES2snXKqB7XSHrdO5CfctbvGUvtMYiunENKQnySyeA2x-9dItu9Q_wUx3fO_5jAjFR1F4w4yeIwyMsac3zttvHgzUxHmaiquBi5yCSkgCgjaP9bLk8i5A4Hz8xu0IJMvcyHUrLEGQz0f_RL2L376z_n2SLgh6PyYdF2ldqpgos-piiuRgKqLPYGTgcbtNImPXsdX9Bzy-OoyCtaKTI_-yA
+            - img "영화 세트장 같은 교토 료칸" [ref=e75]
+            - heading "영화 세트장 같은 교토 료칸" [level=3] [ref=e77]
+          - link "유후인 프라이빗 노천탕 료칸 유후인 프라이빗 노천탕 료칸" [ref=e78] [cursor=pointer]:
+            - /url: /api/r/qczgXXGVYrwFv31xTYfFmkMLMZjbn1k1vxRgZ19wAscpvwvD68zyClgXWxdBZo4VGAm3prfhib7C72HVrCTesuo-_mDjRoPJGHfVcgzrp1MuW1qfnwH671T4c8VDxJA-i9de3JAb-MFqDlJJez3mnb3RBCNagQA
+            - img "유후인 프라이빗 노천탕 료칸" [ref=e80]
+            - heading "유후인 프라이빗 노천탕 료칸" [level=3] [ref=e82]
+        - link "오사카 야경 전망대 할인 티켓 오사카 야경 전망대 할인 티켓" [ref=e84] [cursor=pointer]:
+          - /url: /api/r/LfTpcLNaEJgx-iWeNKpB8Kun639BxiziIyFw96cW1CqRxFQWaeDOd3byBQc3GQfccyYrynSiGJAllSWppPV0Uj9GVpTg_yOJTsqKNWI69LxfOiOVx7YAwa00jKzXDVPwVis3N-MqjWEeN3Ij3fGyghA2xQABvFibt9wkjC6ad_Hzxdi18sveJkEkRQW5YU7EvlIUWVZ_NUEsnIQxf70S0oMaI9EFiK0tIWNB8SyHUkLNlhlo37IfldW_TMFm97RdsnJYj-Ti1DQunMzTH3Xk6NpZg9LLrL0z2s4dqhGahRsxZCnuTDBOEiAilBDMH_EfL7vCVq8qqxp9NMUGmsIYjoUIfFVmqOpX-hgxrlntwpg8jFfFWhJOWvonwic5mH2IcsTV49F0Uy6RJDeXTDgu0pnMkPL9IHSspU0
+          - generic [ref=e85]:
+            - img "오사카 야경 전망대 할인 티켓" [ref=e87]
+            - paragraph [ref=e89]: 오사카 야경 전망대 할인 티켓
+        - link "🩵네이버 여행 인플루언서 '훵 블로그'🩵 🩵네이버 여행 인플루언서 '훵 블로그'🩵 직접 경험해서 느낀 여행 꿀팁 저장소 ➔" [ref=e91] [cursor=pointer]:
+          - /url: /api/r/puptoQmwX84BTKva93DPy7Ojswuq2fpvEvCXg8w-OWX3uimKMtzujrEtJPNTi7fHtPwRnpk_PpTnz8FxkEwPkIh1-t4jxNKrleExW9r-eO607gnnbJ5Hz8mw5UUop1IZzXPh4J0GxSzidWsjnukhLZlbCXlMA0qd-VXvZGAc7jd608eTzz2msSU5zdI6I-vP0bPRzskBYDTJIT8f3tT-dX7j1AX9_A48uLVjBYQQINYKaxb2GbGt9nYqZHwlpEo
+          - generic [ref=e92]:
+            - img "🩵네이버 여행 인플루언서 '훵 블로그'🩵" [ref=e94]
+            - generic [ref=e95]:
+              - paragraph [ref=e96]: 🩵네이버 여행 인플루언서 '훵 블로그'🩵
+              - generic [ref=e97]: 직접 경험해서 느낀 여행 꿀팁 저장소 ➔
+        - generic [ref=e100]:
+          - paragraph [ref=e101]: 💌 협업 문의 • Contact • 協業依頼 💌
+          - paragraph [ref=e102]: DM or hongeunji5953@gmail.com
+          - paragraph
+          - paragraph
+          - paragraph
+          - paragraph
+          - paragraph
+          - paragraph
+          - paragraph
+        - img [ref=e106]
+        - generic [ref=e109]:
+          - paragraph [ref=e110]: ▫️ 네이버 여행 인플루언서 + 숏폼 크리에이터
+          - paragraph [ref=e111]: ▫️ 국내, 해외 협업 다수 • 전시 • 팝업 • 카페 등
+          - paragraph [ref=e112]: ▫️ 평범한 장소도 가고싶게끔 만드는 정성 담은 컨텐츠
+          - paragraph
+        - generic [ref=e121]:
+          - paragraph [ref=e122]: "▫️ 네이버 공식 여행 인플루언서 : '@훵' 검색"
+          - paragraph [ref=e123]: ▫️ 네이버 숏폼 클립 크리에이터 2기, 3기, 4기, 5기
+          - paragraph [ref=e124]: ▫️ 릴스 + 블로그 '최적 3'+ 상위노출
+          - paragraph [ref=e125]: + 유튜브 숏츠 + 틱톡 + 네이버 클립
+          - paragraph
+        - generic [ref=e133]:
+          - paragraph [ref=e135]: 후쿠오카 여행 정보
+          - generic [ref=e136]:
+            - link "후쿠오카 여행 코스 총정리 후쿠오카 여행 코스 총정리 혼자서 다녀왔던 후쿠오카 4박 5일 여행 코스 일정표" [ref=e137] [cursor=pointer]:
+              - /url: /api/r/fpoBeWVOsDfl086U27K3Gw-FfJ2uNpirOEGDIxFOBtRpU596w0m3MpUa02xAXtSGcjCLkVtqizm7A3Yfuj1ug3UJ_LPYzC4-kecMWMsxQUTmKDV0lIaJpG4yhqgZAezopdVafxj7BPUL2MGPrxM1XQmcpxOPIS4
+              - img "후쿠오카 여행 코스 총정리" [ref=e139]
+              - generic [ref=e140]:
+                - heading "후쿠오카 여행 코스 총정리" [level=3] [ref=e141]
+                - paragraph [ref=e142]: 혼자서 다녀왔던 후쿠오카 4박 5일 여행 코스 일정표
+            - link "후쿠오카 여행 경비 표 총정리! 후쿠오카 여행 경비 표 총정리! 후쿠오카 4박 5일 경비 표(2인)" [ref=e143] [cursor=pointer]:
+              - /url: /api/r/ZC-inPYW7mJ0w-mKWy2FTh19lVAXTYMZ7IvluMtqKkXarAfe_v9-Q92qmEPslkVvwkl6-6ZVLSmTSrrXtC_4wSpNCQKFA4NsflyQS1Pj7yJpNIXOCAsgHw8wwEq5DEnF6tU8PtimkHt6tHak6mQbsoCykWWbmmY
+              - img "후쿠오카 여행 경비 표 총정리!" [ref=e145]
+              - generic [ref=e146]:
+                - heading "후쿠오카 여행 경비 표 총정리!" [level=3] [ref=e147]
+                - paragraph [ref=e148]: 후쿠오카 4박 5일 경비 표(2인)
+            - link "유후인+다자이후+벳푸 버스투어 유후인+다자이후+벳푸 버스투어 일정이 짧고 하루에 모든 관광지를 모두 가고싶은 분들께 추천!" [ref=e149] [cursor=pointer]:
+              - /url: /api/r/mg7TTzSyFxSLSJgSCiAzVBWhBEEhvi9LLFFIEGo9KuFbRftTd4SeMY9aXrtj4W55XSyQnNVpY7KTsSeh6wVv7a8xd2VwKlAZBA6oKOMPoUI9IDd88m256V_UT_motGC4MQ
+              - img "유후인+다자이후+벳푸 버스투어" [ref=e151]
+              - generic [ref=e152]:
+                - heading "유후인+다자이후+벳푸 버스투어" [level=3] [ref=e153]
+                - paragraph [ref=e154]: 일정이 짧고 하루에 모든 관광지를 모두 가고싶은 분들께 추천!
+        - generic [ref=e156]:
+          - paragraph [ref=e158]: 일본 나고야 여행 정보
+          - generic [ref=e159]:
+            - link "삿포로 부럽지 않은 시라카와고 삿포로 부럽지 않은 시라카와고 버스투어 업체비교, 포토존 및 다녀온 맛집 정리!" [ref=e160] [cursor=pointer]:
+              - /url: /api/r/S1bstXhe-RU1XGWRIcn_RVAign1x-lXh000qHOs-kKes_jyZ5TUrR3wxlpdqf6YouCu7UgsdHnd-QP78FTzhTz9xAQ5BOk5QRDmVra72xNIJ3KT4edlq6gcglLzxgkpkWz95KSPdYZ28c4GgUsRaOUr-541rcIg
+              - img "삿포로 부럽지 않은 시라카와고" [ref=e162]
+              - generic [ref=e163]:
+                - heading "삿포로 부럽지 않은 시라카와고" [level=3] [ref=e164]
+                - paragraph [ref=e165]: 버스투어 업체비교, 포토존 및 다녀온 맛집 정리!
+            - link "공항에서 시내 이동하는 방법 공항에서 시내 이동하는 방법 중부 국제공항에서 시내로 이동하는 방법!" [ref=e166] [cursor=pointer]:
+              - /url: /api/r/iCN_zGZvoYBhO6XG2ur1vjbePUJG1bZQcpW_VvL8JxBBvV8bdu0gFzjm3WAw-g82AFWiTor1Z9_QUyFpOv6p2HUrhmUYrbUhDXoEon9-Jbn18nkCHbRxZVElAdUM43lm78aRfktP7HUrEqMJ_6UvbsShxLSmpic
+              - img "공항에서 시내 이동하는 방법" [ref=e168]
+              - generic [ref=e169]:
+                - heading "공항에서 시내 이동하는 방법" [level=3] [ref=e170]
+                - paragraph [ref=e171]: 중부 국제공항에서 시내로 이동하는 방법!
+            - link "지브리파크 티켓 예약 방법 지브리파크 티켓 예약 방법 지브리파크 티켓 예약하는 법 하나하나 자세하게 담았어요" [ref=e172] [cursor=pointer]:
+              - /url: /api/r/kuK9AIyJxqNqDIUc8hPL0itLUw3LakAnBe7wvCesNxFw_NOSn2nAW6y8yksOgYgjeTKmZUlJOg4jKSHyyV2gHD3zyvnUmFQ3M4qeRUJbciVjJ4KsH0rhqOQDe6Us67y4KGKfodaNISjqh6qKT8IbOfEUgnUkjHc
+              - img "지브리파크 티켓 예약 방법" [ref=e174]
+              - generic [ref=e175]:
+                - heading "지브리파크 티켓 예약 방법" [level=3] [ref=e176]
+                - paragraph [ref=e177]: 지브리파크 티켓 예약하는 법 하나하나 자세하게 담았어요
+        - generic [ref=e179]:
+          - paragraph [ref=e181]: 도쿄 여행 정보
+          - generic [ref=e182]:
+            - link "도쿄 4박 5일 여행 코스 총정리 도쿄 4박 5일 여행 코스 총정리 4박 5일 다녀온 일정표와 가볼만한 곳들 모두 담았어요!" [ref=e183] [cursor=pointer]:
+              - /url: /api/r/fuTr6CRLcmAmYCjUv5Iext1RDESZ6cf0DwcFjEEXIhwVHLsSh7_1ihMfM_ZsuSD-Di5heUD3GiisZh4kRMpvDBgcTnN-iUmKBvxgMC8g8bsk4TAvnyy0pZEDHxtYbP-5j45PXrnDRypW_3muN1YVtzwYRfmUrGs
+              - img "도쿄 4박 5일 여행 코스 총정리" [ref=e185]
+              - generic [ref=e186]:
+                - heading "도쿄 4박 5일 여행 코스 총정리" [level=3] [ref=e187]
+                - paragraph [ref=e188]: 4박 5일 다녀온 일정표와 가볼만한 곳들 모두 담았어요!
+            - link "도쿄 4박 5일 여행 경비 도쿄 4박 5일 여행 경비 두명이서 다녀온 여행 경비표 총정리!" [ref=e189] [cursor=pointer]:
+              - /url: /api/r/fm1K42DsfJnftlO-Koc5gqCYm38pYhDrRsjZfBedQ_l7X-AkDxVqSH0qPD5qVpm3RVHbh2OvaOdVN41mxvnqjilKtNPLKy_n7-aed4dPfV97bkLOtWDAe8-Jg93esehd4g3MluWoPw9v7XiPH6G7L-sh5mABofA
+              - img "도쿄 4박 5일 여행 경비" [ref=e191]
+              - generic [ref=e192]:
+                - heading "도쿄 4박 5일 여행 경비" [level=3] [ref=e193]
+                - paragraph [ref=e194]: 두명이서 다녀온 여행 경비표 총정리!
+            - link "신주쿠 료칸 컨셉 호텔 신주쿠 료칸 컨셉 호텔 호텔은 여기 이용했어요! 장단점 자세히 적은 후기!" [ref=e195] [cursor=pointer]:
+              - /url: /api/r/8wxI8OLu9yhAgAqzN1H9a3C8V9rAe8t7GyDAu_30baaPRWRPaG6YAXsuW1b5MO-6EE4Nb99NiDzt6_Lc6UE7411K6NR_2fLrBdbaMEZ3TpT4KKvZkKFFZIMlqOi5vOKLpmtY3vvplk3KVroz_ihQfKlgaTaf9EU
+              - img "신주쿠 료칸 컨셉 호텔" [ref=e197]
+              - generic [ref=e198]:
+                - heading "신주쿠 료칸 컨셉 호텔" [level=3] [ref=e199]
+                - paragraph [ref=e200]: 호텔은 여기 이용했어요! 장단점 자세히 적은 후기!
+        - link "후쿠오카 이토시마 투어 정보 후쿠오카 이토시마 투어 정보" [ref=e202] [cursor=pointer]:
+          - /url: /api/r/-tT17ZOOJ68aKyhAqLoYtL9nroti0Uu43lqaafxaFyUhxFS8eqNBUaZgGozVOOBkU6myNLeCpFbNFtqItevXNIsjiMKbNikbRf45J4zSOOnWA4W47pfHlM0xRqV_HuXMv7JgJylt4f4yyvx7p8SplXDs8n62G3DuXXJtFJ_PchlowOGbMyg7ANfyeA
+          - generic [ref=e203]:
+            - img "후쿠오카 이토시마 투어 정보" [ref=e205]
+            - paragraph [ref=e207]: 후쿠오카 이토시마 투어 정보
+        - link "도쿄 해리포터 스튜디오 할인 티켓 도쿄 해리포터 스튜디오 할인 티켓" [ref=e209] [cursor=pointer]:
+          - /url: /api/r/XqQfDyiKgHcGIKGqX8BY0Nm95SUy5XSqR1V7BlcV7gG0A3ufC532yQz3ETVExHAMADDdnjhDtDYhF5SMwyTM7QEkBkfQXdRD_urNHgtu79rdwyYckFQl8N5eWGrZ85YilTO0H6cGWLlmA_nGGC5vRhu5gqpUlzKbWl-xrx05EyEQU4jVfDojvaFn9Mj7tg_18qg25G7mGDdpEseujLxW
+          - generic [ref=e210]:
+            - img "도쿄 해리포터 스튜디오 할인 티켓" [ref=e212]
+            - paragraph [ref=e214]: 도쿄 해리포터 스튜디오 할인 티켓
+        - link "홍콩 & 마카오 자유여행 일정 총정리본 홍콩 & 마카오 자유여행 일정 총정리본" [ref=e216] [cursor=pointer]:
+          - /url: /api/r/X8nHuLGMquDAge1NtGJxqdBsvOP-br0ekPA4ZgJkqf17aG0ug69ON9r3-W44s-3sQt4IL02c1GDAz0zzCIJJbEC-FLFUEILI7Amhdql1IGPz_ltl3976rsM-Qvy6OhXQsioILGebRpE-_y6j_hFWpjf4ZiHIOn0He0p1sPAM2t5uK1whsx_EYifZXA
+          - generic [ref=e217]:
+            - img "홍콩 & 마카오 자유여행 일정 총정리본" [ref=e219]
+            - paragraph [ref=e221]: 홍콩 & 마카오 자유여행 일정 총정리본
+        - link "[선착순 쿠폰] 강릉 아르떼뮤지엄 예약 [선착순 쿠폰] 강릉 아르떼뮤지엄 예약" [ref=e223] [cursor=pointer]:
+          - /url: /api/r/IUgIfjia0DaXRS1EtS1U1kxWAnRIZkDgALg3AF26V2_hdXx5yqsZvZXmuTqap6gPqmCjD0iFh-GyBYRlqTmrZl5U9VvEXyoKGeWKPsFJ9DvZ-yev-pxZtBwUaTri1T5g4SrM0vAL1U_oiWNbdyZndVXSXjY6
+          - generic [ref=e224]:
+            - img "[선착순 쿠폰] 강릉 아르떼뮤지엄 예약" [ref=e226]
+            - paragraph [ref=e228]: "[선착순 쿠폰] 강릉 아르떼뮤지엄 예약"
+        - link "제주도 혼자 뚜벅이 여행 코스 & 꿀팁 제주도 혼자 뚜벅이 여행 코스 & 꿀팁" [ref=e236] [cursor=pointer]:
+          - /url: /api/r/5MZCvFpz0I9Qf-AM7J7Hf8BIVzo6_yqcIJH6tiS31M7jLz5q3UeiING0pUx1w2hEz4HGzgvPS7fj6vgak0phlWzrkg--Y2HXskdvolCOAq8oeO4rEQ7pi5dRS-W1GKB58DaTCdlv655CqqI8qtEV98RNxDghbicCEWQyYXcNboiWkhhbezP47ZpUGg
+          - generic [ref=e237]:
+            - img "제주도 혼자 뚜벅이 여행 코스 & 꿀팁" [ref=e239]
+            - paragraph [ref=e241]: 제주도 혼자 뚜벅이 여행 코스 & 꿀팁
+        - link "가마쿠라 여행 코스 총정리 (도쿄 근교 여행) 가마쿠라 여행 코스 총정리 (도쿄 근교 여행)" [ref=e243] [cursor=pointer]:
+          - /url: /api/r/2tWh-OvzdGWOLpU7bVgxdQo7eb2D314PCX2kr9hWuof0GX40yIZoCDSkGB4QRLM8PZKSNh5CBjDC55UxIRC09_y058iROKKQk30UPDl5RsDCjo7EoEcbbcBao5bKJtNo-aj2SopRitrYzhWd6xzsDtoRKB5-EBXiNThn14-14Xq__O8_2WC_4Nvv6w
+          - generic [ref=e244]:
+            - img "가마쿠라 여행 코스 총정리 (도쿄 근교 여행)" [ref=e246]
+            - paragraph [ref=e248]: 가마쿠라 여행 코스 총정리 (도쿄 근교 여행)
+        - link "네이버 인플루언서 홈 네이버 인플루언서 홈" [ref=e250] [cursor=pointer]:
+          - /url: /api/r/5eQUJFhCadRok0hHtLM4hEq1CYNGFq_0Y1Dn4nQRl2_gbTxlx_o0eT1YDNU8X_sTIFfyaTNFJR8oYhA2Lt4mYudmgKXxHF5qAAgApw3mWjkiDRflU_3gLeV5N_Bn7mOS7iU1nj5FQ4pq5dEi7vA6yu4-yDJtNhRcVQ
+          - generic [ref=e251]:
+            - img "네이버 인플루언서 홈" [ref=e253]
+            - paragraph [ref=e255]: 네이버 인플루언서 홈
+      - generic "Inpock" [ref=e258] [cursor=pointer]:
+        - button "· 나만의 프로필을 만들어보세요" [ref=e259]:
+          - img [ref=e261]
+          - generic [ref=e263]: ·
+          - generic [ref=e264]: 나만의 프로필을 만들어보세요
+          - img [ref=e266]
+    - generic [ref=e268]:
+      - img [ref=e270]
+      - generic [ref=e273]: 모바일로 보기
+  - alert [ref=e274]

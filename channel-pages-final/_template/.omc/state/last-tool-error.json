@@ -1,0 +1,7 @@
+{
+  "tool_name": "mcp__plugin_playwright_playwright__browser_navigate",
+  "tool_input_preview": "{\"url\":\"file:///Users/sukyoung-seok/mystore-mockup/channel-pages-final/done/_EXAMPLE.html\"}",
+  "error": "### Error\nError: Access to \"file:\" protocol is blocked. Attempted URL: \"file:///Users/sukyoung-seok/mystore-mockup/channel-pages-final/done/_EXAMPLE.html\"",
+  "timestamp": "2026-05-15T02:31:32.415Z",
+  "retry_count": 2
+}

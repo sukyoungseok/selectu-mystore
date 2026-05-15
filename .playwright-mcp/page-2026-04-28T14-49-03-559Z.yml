@@ -1,0 +1,164 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic:
+        - generic:
+          - iframe
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - text: 서울에서 홍콩까지
+            - text: 왕복 항공권을 찾고 있습니다.
+          - generic [ref=e8]:
+            - generic [ref=e9]:
+              - paragraph [ref=e10]: SEL
+              - paragraph [ref=e11]: 서울
+              - paragraph [ref=e12]: 2026년 05월 05일
+            - generic [ref=e15]:
+              - paragraph [ref=e16]: HKG
+              - paragraph [ref=e17]: 홍콩
+              - paragraph [ref=e18]: 2026년 05월 08일
+          - generic [ref=e21]:
+            - generic [ref=e23]: 1/20
+            - generic [ref=e25]:
+              - generic [ref=e26]:
+                - img "advertisement-banner-intl_flights_loading-4856" [ref=e29]
+                - generic:
+                  - generic: 광고
+              - img "advertisement-banner-intl_flights_loading-5915" [ref=e33]
+              - generic [ref=e34]:
+                - img "advertisement-banner-intl_flights_loading-4591" [ref=e37]
+                - generic:
+                  - generic: 광고
+              - generic [ref=e40]:
+                - img "advertisement-banner-intl_flights_loading-5261" [ref=e43]
+                - generic:
+                  - generic: 광고
+              - generic [ref=e46]:
+                - img "advertisement-banner-intl_flights_loading-5782" [ref=e49]
+                - generic:
+                  - generic: 광고
+              - img "advertisement-banner-intl_flights_loading-5937" [ref=e55]
+              - generic [ref=e58]:
+                - img "advertisement-banner-intl_flights_loading-3729" [ref=e61]
+                - generic:
+                  - generic: 광고
+              - img "advertisement-banner-intl_flights_loading-5618" [ref=e67]
+              - img "advertisement-banner-intl_flights_loading-5464" [ref=e73]
+              - img "advertisement-banner-intl_flights_loading-5284" [ref=e79]
+              - generic [ref=e82]:
+                - img "advertisement-banner-intl_flights_loading-4592" [ref=e85]
+                - generic:
+                  - generic: 광고
+              - img "advertisement-banner-intl_flights_loading-5413" [ref=e91]
+              - img "advertisement-banner-intl_flights_loading-5512" [ref=e97]
+              - img "advertisement-banner-intl_flights_loading-5103" [ref=e103]
+              - img "advertisement-banner-intl_flights_loading-3605" [ref=e109]
+              - img "advertisement-banner-intl_flights_loading-5416" [ref=e115]
+              - img "advertisement-banner-intl_flights_loading-5807" [ref=e121]
+              - img "advertisement-banner-intl_flights_loading-3789" [ref=e127]
+              - img "advertisement-banner-intl_flights_loading-4882" [ref=e133]
+              - img "advertisement-banner-intl_flights_loading-5863" [ref=e139]
+    - generic:
+      - generic:
+        - heading [level=2]
+    - text: 주의 주의
+  - contentinfo [ref=e145]:
+    - generic [ref=e146]:
+      - generic [ref=e147]:
+        - generic [ref=e148]:
+          - text: 고객지원실 운영안내
+          - list [ref=e149]:
+            - listitem [ref=e150]: 채팅상담 연중무휴 24시간 유선상담 연중무휴 09:00-18:00
+            - listitem [ref=e151]: 대표번호 1670-8208
+          - button "고객지원실" [ref=e153]:
+            - button "고객지원실" [ref=e154] [cursor=pointer]:
+              - generic [ref=e155]: 고객지원실
+        - generic [ref=e156]:
+          - generic [ref=e157]:
+            - text: 소개
+            - list [ref=e158]:
+              - listitem [ref=e159]:
+                - link "회사소개" [ref=e160] [cursor=pointer]:
+                  - /url: https://about.myrealtrip.com
+              - listitem [ref=e161]:
+                - link "채용" [ref=e162] [cursor=pointer]:
+                  - /url: https://careers.myrealtrip.com
+              - listitem [ref=e163]:
+                - link "공고" [ref=e164] [cursor=pointer]:
+                  - /url: https://www.myrealtrip.com/announcement
+          - generic [ref=e165]:
+            - text: 파트너
+            - list [ref=e166]:
+              - listitem [ref=e167]:
+                - link "파트너 홈" [ref=e168] [cursor=pointer]:
+                  - /url: https://partner.myrealtrip.com/welcome
+              - listitem [ref=e169]:
+                - link "제휴 문의" [ref=e170] [cursor=pointer]:
+                  - /url: "mailto: partnership@myrealtrip.com"
+              - listitem [ref=e171]:
+                - link "광고 문의" [ref=e172] [cursor=pointer]:
+                  - /url: "mailto: ad@myrealtrip.com"
+          - generic [ref=e173]:
+            - text: 지원
+            - list [ref=e174]:
+              - listitem [ref=e175]:
+                - link "공지사항" [ref=e176] [cursor=pointer]:
+                  - /url: https://support.myrealtrip.com/notice
+              - listitem [ref=e177]:
+                - link "문의내역" [ref=e178] [cursor=pointer]:
+                  - /url: https://support.myrealtrip.com/inquiry
+              - listitem [ref=e179]:
+                - link "최저가 보장제" [ref=e180] [cursor=pointer]:
+                  - /url: https://www.myrealtrip.com/best_price
+      - generic [ref=e181]:
+        - generic [ref=e182]:
+          - generic [ref=e183]:
+            - link "이용 약관" [ref=e185] [cursor=pointer]:
+              - /url: https://auth.myrealtrip.com/terms/policyAgreement
+            - link "개인정보 처리방침" [ref=e187] [cursor=pointer]:
+              - /url: https://auth.myrealtrip.com/terms/common/privacy
+            - link "취소 및 환불 정책" [ref=e189] [cursor=pointer]:
+              - /url: https://auth.myrealtrip.com/terms/common/cancel
+          - generic [ref=e190]:
+            - generic [ref=e191]:
+              - link "icon 페이스북으로 이동하기" [ref=e193] [cursor=pointer]:
+                - /url: https://www.facebook.com/myRealTrip
+                - img "icon" [ref=e194]
+                - generic [ref=e195]: 페이스북으로 이동하기
+              - link "icon 네이버 블로그로 이동하기" [ref=e197] [cursor=pointer]:
+                - /url: https://blog.naver.com/myrealtrip
+                - img "icon" [ref=e198]
+                - generic [ref=e199]: 네이버 블로그로 이동하기
+              - link "icon 인스타그램으로 이동하기" [ref=e201] [cursor=pointer]:
+                - /url: https://instagram.com/myrealtrip
+                - img "icon" [ref=e202]
+                - generic [ref=e203]: 인스타그램으로 이동하기
+              - link "icon 유투브로 이동하기" [ref=e205] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC2oeFByIBQjkKXmQjE0U5rQ
+                - img "icon" [ref=e206]
+                - generic [ref=e207]: 유투브로 이동하기
+            - generic [ref=e209]:
+              - link "icon" [ref=e211] [cursor=pointer]:
+                - /url: https://itunes.apple.com/app/id1141745032
+                - img "icon" [ref=e212]
+              - link "icon" [ref=e214] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.mrt.ducati
+                - img "icon" [ref=e215]
+          - button "icon 한국어 icon" [ref=e218] [cursor=pointer]:
+            - img "icon" [ref=e219]
+            - generic [ref=e220]: 한국어
+            - img "icon" [ref=e221]
+        - generic [ref=e222]:
+          - paragraph [ref=e224]:
+            - text: 상호명 (주)마이리얼트립 | 대표 이동건 | 개인정보보호책임자 김형석 | 사업자등록번호 209-81-55339
+            - link "사업자정보확인" [ref=e225] [cursor=pointer]:
+              - /url: https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2098155339
+            - text: "| 통신판매업신고번호 2019-서울서초-0260 | 관광사업등록번호 : 제2019-3호"
+            - text: 주소 서울특별시 서초구 강남대로 311, 18층 1729호(서초동, 한화생명보험빌딩) | 이메일 help@myrealtrip.com | 입점 문의 partnership@myrealtrip.com
+            - text: "마케팅파트너/크리에이터 문의 marketing_partner@myrealtrip.com | 마케팅 문의 marketing@myrealtrip.com | 호스팅 서비스 제공자 : (주)마이리얼트립"
+            - text: "자사는 서울특별시관광협회 공제영업보증보험에 가입되어 있습니다. 영업보증보험: 1.5억원 / 기획여행보증: 2억원"
+            - text: 마이리얼트립은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 상품·거래정보 및 거래에 대하여 책임을 지지않습니다.
+            - text: 부득이한 사정에 의해 확정된 여행일정이 변경되는 경우 여행자의 사전 동의를 받습니다.
+            - text: (주)마이리얼트립이 소유, 운영, 관리하는 웹사이트 및 앱 내의 상품, 판매자 정보, 이벤트 정보, 디자인, UI 등을 포함한 일체의 콘텐츠에 대한 무단 복제, 배포, 전송, 스크래핑 등의 행위는 저작권법 등 관련 법령에 의하여 엄격히 금지됩니다.
+          - button "ISMS-P" [ref=e227] [cursor=pointer]:
+            - img "ISMS-P" [ref=e228]

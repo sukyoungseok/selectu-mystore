@@ -1,0 +1,215 @@
+- generic [ref=e4]:
+  - generic [ref=e9]:
+    - generic [ref=e12]:
+      - link "Instagram" [ref=e17] [cursor=pointer]:
+        - /url: /
+        - img "Instagram" [ref=e22]
+      - generic [ref=e25]:
+        - link "홈" [ref=e30] [cursor=pointer]:
+          - /url: /
+          - img "홈" [ref=e35]
+        - link "릴스" [ref=e40] [cursor=pointer]:
+          - /url: /reels/
+          - img "릴스" [ref=e45]
+        - link "메시지 Direct 메시지 - 새로운 알림 링크 1개" [ref=e52] [cursor=pointer]:
+          - /url: /direct/inbox/
+          - generic [ref=e55]:
+            - img "메시지" [ref=e57]
+            - generic "Direct 메시지 - 새로운 알림 링크 1개" [ref=e60]:
+              - generic [ref=e62]: "1"
+        - link "검색" [ref=e66] [cursor=pointer]:
+          - /url: "#"
+          - img "검색" [ref=e71]
+        - link "탐색 탭" [ref=e77] [cursor=pointer]:
+          - /url: /explore/
+          - img "탐색 탭" [ref=e82]
+        - link "알림" [ref=e91] [cursor=pointer]:
+          - /url: "#"
+          - img "알림" [ref=e96]
+        - link "새로운 게시물" [ref=e104] [cursor=pointer]:
+          - /url: "#"
+          - img "새로운 게시물" [ref=e109]
+        - link "프로페셔널 대시보드" [ref=e114] [cursor=pointer]:
+          - /url: "#"
+          - img "프로페셔널 대시보드" [ref=e119]
+        - link "stone.water_님의 프로필 사진" [ref=e126] [cursor=pointer]:
+          - /url: /stone.water_/
+          - link "stone.water_님의 프로필 사진" [ref=e131]:
+            - img "stone.water_님의 프로필 사진" [ref=e132]
+      - generic [ref=e133]:
+        - link "설정" [ref=e136] [cursor=pointer]:
+          - /url: "#"
+          - img "설정" [ref=e141]
+        - link "Meta의 다른 앱" [ref=e144] [cursor=pointer]:
+          - /url: "#"
+          - img "Meta의 다른 앱" [ref=e149]
+    - main [ref=e153]:
+      - generic [active] [ref=e154]:
+        - generic [ref=e157]:
+          - generic [ref=e158]:
+            - generic [ref=e161]:
+              - generic [ref=e164]:
+                - link "hyemingway0707님의 릴스" [ref=e165] [cursor=pointer]:
+                  - /url: /hyemingway0707/reels/
+                  - link "hyemingway0707님의 프로필 사진" [ref=e168]:
+                    - img "hyemingway0707님의 프로필 사진" [ref=e169]
+                - generic [ref=e170]:
+                  - generic [ref=e171]:
+                    - link "hyemingway0707님의 릴스" [ref=e172] [cursor=pointer]:
+                      - /url: /hyemingway0707/reels/
+                      - generic [ref=e173]: hyemingway0707
+                    - generic [ref=e175]: •
+                    - button "팔로우" [ref=e176] [cursor=pointer]:
+                      - generic [ref=e177]: 팔로우
+                  - link "오디오 이미지 AKMU (악뮤) · 소문의 낙원" [ref=e182] [cursor=pointer]:
+                    - /url: /reels/audio/1969244480343229/
+                    - generic [ref=e183]:
+                      - img "오디오 이미지" [ref=e185]
+                      - generic [ref=e191]: AKMU (악뮤) · 소문의 낙원
+              - 'button "📍 Mercure Hotel Stuttgart Sindelfingen an der Messe 🏨 저희 가족이 가격과 시설 면에서 가장 만족한 호텔 소개해드릴게요! (내돈내산) 저장하시고 메칭겐 아울렛 가실 때 꼭 묵어보세요! ✔️ 침구 상태 매우 청결 🏊‍♀️ 수영장 ✔️ 무료 이용 ✔️ 오전 7시 오픈 ✔️ 타월 현장 비치 🍽️ 조식 ✔️ 깔끔하게 관리된 뷔페 ✔️ 버터/잼 → 일회용 X (유리병 & 디스펜서) ✔️ 주스 → 자동 리필 기계 (항상 신선) 🛒 편의시설 ✔️ 로비에서 간식 & 물 구매 가능 🐶 반려동물 ✔️ 동반 가능 (추가 요금 있음) 📍 Schwertstraße 65, 71065 Sindelfingen ✔️ 매칭겐 아울렛까지 차로 약 30분 ✨ 총평 세심한 디테일이 느껴지는 호텔이라 주변에 자신 있게 추천하고 싶은 곳 #독일여행 #독일호텔 #매칭겐아울렛 #유럽여행 #가성비호텔" [ref=e192] [cursor=pointer]':
+                - generic [ref=e194]:
+                  - text: 📍 Mercure Hotel Stuttgart Sindelfingen an der Messe
+                  - text: 🏨 저희 가족이 가격과 시설 면에서 가장 만족한 호텔
+                  - text: 소개해드릴게요! (내돈내산)
+                  - text: 저장하시고 메칭겐 아울렛 가실 때 꼭 묵어보세요!
+                  - text: ✔️ 침구 상태 매우 청결
+                  - text: 🏊‍♀️ 수영장
+                  - text: ✔️ 무료 이용
+                  - text: ✔️ 오전 7시 오픈
+                  - text: ✔️ 타월 현장 비치
+                  - text: 🍽️ 조식
+                  - text: ✔️ 깔끔하게 관리된 뷔페
+                  - text: ✔️ 버터/잼 → 일회용 X (유리병 & 디스펜서)
+                  - text: ✔️ 주스 → 자동 리필 기계 (항상 신선)
+                  - text: 🛒 편의시설
+                  - text: ✔️ 로비에서 간식 & 물 구매 가능
+                  - text: 🐶 반려동물
+                  - text: ✔️ 동반 가능 (추가 요금 있음)
+                  - text: 📍 Schwertstraße 65, 71065 Sindelfingen
+                  - text: ✔️ 매칭겐 아울렛까지 차로 약 30분
+                  - text: ✨ 총평
+                  - text: 세심한 디테일이 느껴지는 호텔이라
+                  - text: 주변에 자신 있게 추천하고 싶은 곳
+                  - link "#독일여행" [ref=e196]:
+                    - /url: /explore/tags/%EB%8F%85%EC%9D%BC%EC%97%AC%ED%96%89/
+                  - link "#독일호텔" [ref=e197]:
+                    - /url: /explore/tags/%EB%8F%85%EC%9D%BC%ED%98%B8%ED%85%94/
+                  - link "#매칭겐아울렛" [ref=e198]:
+                    - /url: /explore/tags/%EB%A7%A4%EC%B9%AD%EA%B2%90%EC%95%84%EC%9A%B8%EB%A0%9B/
+                  - link "#유럽여행" [ref=e199]:
+                    - /url: /explore/tags/%EC%9C%A0%EB%9F%BD%EC%97%AC%ED%96%89/
+                  - link "#가성비호텔" [ref=e200]:
+                    - /url: /explore/tags/%EA%B0%80%EC%84%B1%EB%B9%84%ED%98%B8%ED%85%94/
+            - generic [ref=e201]:
+              - img
+              - group "Video player" [ref=e212]:
+                - generic [ref=e213]:
+                  - button "0" [ref=e214] [cursor=pointer]:
+                    - slider "볼륨 조정" [ref=e215]:
+                      - button "오디오 소리 꺼짐" [ref=e219]:
+                        - img "오디오 소리 꺼짐" [ref=e220]
+                  - button "재생하려면 누르세요" [ref=e225] [cursor=pointer]:
+                    - img "재생 버튼 아이콘" [ref=e227]
+          - generic [ref=e229]:
+            - generic [ref=e230] [cursor=pointer]:
+              - button "좋아요" [ref=e233]:
+                - img "좋아요" [ref=e236]
+              - button "327" [ref=e238]:
+                - generic [ref=e242]: "327"
+            - button "댓글 34" [ref=e244] [cursor=pointer]:
+              - generic [ref=e245]:
+                - img "댓글" [ref=e246]
+                - generic [ref=e251]: "34"
+            - generic [ref=e252] [cursor=pointer]:
+              - button "리포스트" [ref=e253]:
+                - img "리포스트" [ref=e254]
+              - button "13" [ref=e256]:
+                - generic [ref=e260]: "13"
+            - button "공유하기" [ref=e262] [cursor=pointer]:
+              - img "공유하기" [ref=e263]
+            - button "저장" [ref=e268] [cursor=pointer]:
+              - button "저장" [ref=e269]:
+                - img "저장" [ref=e271]
+            - button "더 보기" [ref=e274] [cursor=pointer]:
+              - img "더 보기" [ref=e276]
+            - link "오디오 이미지" [ref=e281] [cursor=pointer]:
+              - /url: /reels/audio/1969244480343229/
+              - img "오디오 이미지" [ref=e284]
+        - generic [ref=e288]:
+          - generic [ref=e289]:
+            - generic [ref=e292]:
+              - generic [ref=e295]:
+                - link "hannara0306님의 릴스" [ref=e296] [cursor=pointer]:
+                  - /url: /hannara0306/reels/
+                  - link "hannara0306님의 프로필 사진" [ref=e299]:
+                    - img "hannara0306님의 프로필 사진" [ref=e300]
+                - generic [ref=e301]:
+                  - generic [ref=e302]:
+                    - link "hannara0306님의 릴스" [ref=e303] [cursor=pointer]:
+                      - /url: /hannara0306/reels/
+                      - generic [ref=e304]: hannara0306
+                    - generic [ref=e306]: •
+                    - button "팔로우" [ref=e307] [cursor=pointer]:
+                      - generic [ref=e308]: 팔로우
+                  - link "오디오 이미지 마리탱 · 가장 예쁜 별을 너에게" [ref=e313] [cursor=pointer]:
+                    - /url: /reels/audio/700871921018280/
+                    - generic [ref=e314]:
+                      - img "오디오 이미지" [ref=e316]
+                      - generic [ref=e322]: 마리탱 · 가장 예쁜 별을 너에게
+              - 'button "내 여왕님😍 #fyp #mom" [ref=e323] [cursor=pointer]':
+                - generic [ref=e325]:
+                  - text: 내 여왕님😍
+                  - link "#fyp" [ref=e326]:
+                    - /url: /explore/tags/fyp/
+                  - link "#mom" [ref=e327]:
+                    - /url: /explore/tags/mom/
+            - generic [ref=e328]:
+              - img
+              - group "Video player" [ref=e339]:
+                - generic [ref=e340]:
+                  - button "0" [ref=e341] [cursor=pointer]:
+                    - slider "볼륨 조정" [ref=e342]:
+                      - button "오디오 소리 꺼짐" [ref=e346]:
+                        - img "오디오 소리 꺼짐" [ref=e347]
+                  - button "재생하려면 누르세요" [ref=e352] [cursor=pointer]:
+                    - img "재생 버튼 아이콘" [ref=e354]
+          - generic [ref=e356]:
+            - generic [ref=e357] [cursor=pointer]:
+              - button "좋아요" [ref=e360]:
+                - img "좋아요" [ref=e363]
+              - button "6만" [ref=e365]:
+                - generic [ref=e369]: 6만
+            - button "댓글 383" [ref=e371] [cursor=pointer]:
+              - generic [ref=e372]:
+                - img "댓글" [ref=e373]
+                - generic [ref=e378]: "383"
+            - generic [ref=e379] [cursor=pointer]:
+              - button "리포스트" [ref=e380]:
+                - img "리포스트" [ref=e381]
+              - button "590" [ref=e383]:
+                - generic [ref=e387]: "590"
+            - button "공유하기" [ref=e389] [cursor=pointer]:
+              - img "공유하기" [ref=e390]
+            - button "저장" [ref=e395] [cursor=pointer]:
+              - button "저장" [ref=e396]:
+                - img "저장" [ref=e398]
+            - button "더 보기" [ref=e401] [cursor=pointer]:
+              - img "더 보기" [ref=e403]
+            - link "오디오 이미지" [ref=e408] [cursor=pointer]:
+              - /url: /reels/audio/700871921018280/
+              - img "오디오 이미지" [ref=e411]
+        - generic [ref=e418]:
+          - generic [ref=e419]:
+            - status "읽어들이는 중..." [ref=e420]
+            - status "읽어들이는 중..." [ref=e421]
+          - status "읽어들이는 중..." [ref=e422]
+          - status "읽어들이는 중..." [ref=e423]
+      - toolbar "Reels navigation controls" [ref=e425]:
+        - button "이전 릴스로 이동" [ref=e426] [cursor=pointer]:
+          - img [ref=e428]
+        - button "다음 릴스로 이동" [ref=e430] [cursor=pointer]:
+          - img [ref=e432]
+  - button "메시지 메시지" [ref=e435] [cursor=pointer]:
+    - generic [ref=e437]:
+      - img "메시지" [ref=e439]
+      - generic [ref=e442]: 메시지

@@ -1,0 +1,286 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "가이드" [pressed] [ref=e9] [cursor=pointer]
+        - generic [ref=e11]:
+          - link "YouTube 홈" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e16]: KR
+        - button "탐색 건너뛰기" [ref=e20] [cursor=pointer]:
+          - generic: 탐색 건너뛰기
+      - generic [ref=e24]:
+        - search [ref=e25]:
+          - generic [ref=e26]:
+            - generic [ref=e27]:
+              - combobox "검색" [expanded] [ref=e29]
+              - button [ref=e32] [cursor=pointer]
+            - button "Search" [ref=e33] [cursor=pointer]
+        - generic [ref=e36]:
+          - button "음성으로 검색" [ref=e38] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e43]:
+        - button "설정" [ref=e48] [cursor=pointer]
+        - link "로그인" [ref=e52] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%2540seulsup_%252Fabout&hl=ko&ec=65620
+          - generic: 로그인
+  - navigation [ref=e56]
+  - main [ref=e63]:
+    - generic [ref=e70]:
+      - generic [ref=e83]:
+        - heading "슬숲" [level=1] [ref=e85]
+        - generic [ref=e86]:
+          - group [ref=e87]:
+            - generic [ref=e88]: "@seulsup_"
+          - generic [ref=e89]: •
+          - group [ref=e90]:
+            - generic "구독자 4.22천명" [ref=e91]
+            - generic [ref=e92]: •
+            - generic [ref=e93]: 동영상 70개
+        - generic [ref=e95] [cursor=pointer]:
+          - generic [ref=e96]: 여행 좋아합니다
+          - 'button "설명: 여행 좋아합니다... 탭하여 자세히 알아보세요." [ref=e97]':
+            - generic [ref=e98]: ...더보기
+        - link "instagram.com/seulsup_" [ref=e102] [cursor=pointer]:
+          - /url: https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqbk9ndEpWZ3NqMjRKcTNBLVVrS3oyVUZabTVJd3xBQ3Jtc0tsTnFnblpSUXEyd0VDRzgzVnlsT3NqQ2ZBQmNKd3RnWmtwWXVQX2tzeFg3V01TR0FwZmNCWHRDbWRISEZVR0NEXzRPQlhvS2xseWgyb3RVTEhVZ0JVc0hxbDRsVTlpNy1KZ29YUjh1b3hPN21jTURZaw&q=www.instagram.com%2Fseulsup_
+        - button "구독" [ref=e106] [cursor=pointer]:
+          - generic: 구독
+      - tablist [ref=e113]:
+        - tablist [ref=e117]:
+          - tab "홈" [selected] [ref=e118] [cursor=pointer]:
+            - generic [ref=e119]: 홈
+          - tab "동영상" [ref=e120] [cursor=pointer]:
+            - generic [ref=e121]: 동영상
+          - tab "Shorts" [ref=e122] [cursor=pointer]:
+            - generic [ref=e123]: Shorts
+          - tab "재생목록" [ref=e124] [cursor=pointer]:
+            - generic [ref=e125]: 재생목록
+          - button "검색" [ref=e129] [cursor=pointer]
+    - generic [ref=e137]:
+      - generic [ref=e141]:
+        - heading "동영상" [level=2] [ref=e144]:
+          - link "동영상" [ref=e147] [cursor=pointer]:
+            - /url: /@seulsup_/videos?view=0&sort=dd&shelf_id=2
+            - generic [ref=e148]: 동영상
+        - generic [ref=e150]:
+          - generic [ref=e153]:
+            - generic [ref=e155] [cursor=pointer]:
+              - link [ref=e156]:
+                - /url: /watch?v=U-PAWwaGT08&pp=0gcJCd8KAYcqIYzv
+                - generic [ref=e163]: 24:56
+              - generic [ref=e165]:
+                - generic [ref=e166]:
+                  - heading "태국 여행 브이로그 | 푸켓 맛집 & 숙소 추천, 해산물 흥정 (랍스터 가격 실화?) Thailand Travel Vlog Phuket | 🇹🇭 푸켓 1 24분" [level=3] [ref=e167]:
+                    - link "태국 여행 브이로그 | 푸켓 맛집 & 숙소 추천, 해산물 흥정 (랍스터 가격 실화?) Thailand Travel Vlog Phuket | 🇹🇭 푸켓 1 24분" [ref=e168]:
+                      - /url: /watch?v=U-PAWwaGT08&pp=0gcJCd8KAYcqIYzv
+                      - text: 태국 여행 브이로그 | 푸켓 맛집 & 숙소 추천, 해산물 흥정 (랍스터 가격 실화?) Thailand Travel Vlog Phuket | 🇹🇭 푸켓 1
+                  - group [ref=e171]:
+                    - generic [ref=e172]: 조회수 2.4천회
+                    - generic [ref=e173]: •
+                    - generic [ref=e174]: 3주 전
+                - button "추가 작업" [ref=e177]
+            - generic [ref=e182] [cursor=pointer]:
+              - link [ref=e183]:
+                - /url: /watch?v=rKeoIu1bH7Y
+                - generic [ref=e190]: 12:53
+              - generic [ref=e192]:
+                - generic [ref=e193]:
+                  - heading "나 혼자 목포 당일치기 여행 브이로그 | *목포 맛집 여행* 근데 대전, 청주를 곁들인 | South Korea Travel Vlog (Mokpo) 🇰🇷 목포 12분 53초" [level=3] [ref=e194]:
+                    - link "나 혼자 목포 당일치기 여행 브이로그 | *목포 맛집 여행* 근데 대전, 청주를 곁들인 | South Korea Travel Vlog (Mokpo) 🇰🇷 목포 12분 53초" [ref=e195]:
+                      - /url: /watch?v=rKeoIu1bH7Y
+                      - text: 나 혼자 목포 당일치기 여행 브이로그 | *목포 맛집 여행* 근데 대전, 청주를 곁들인 | South Korea Travel Vlog (Mokpo) 🇰🇷 목포
+                  - group [ref=e198]:
+                    - generic [ref=e199]: 조회수 220회
+                    - generic [ref=e200]: •
+                    - generic [ref=e201]: 2개월 전
+                - button "추가 작업" [ref=e204]
+            - generic [ref=e209] [cursor=pointer]:
+              - link [ref=e210]:
+                - /url: /watch?v=pyBppJQVr98
+                - generic [ref=e217]: 8:46
+              - generic [ref=e219]:
+                - generic [ref=e220]:
+                  - heading "강원도 강릉 여행 브이로그 | 강릉 중앙시장 현지인 맛집 | South Korea Travel Vlog (Gangneung) 🇰🇷 강릉1 8분 46초" [level=3] [ref=e221]:
+                    - link "강원도 강릉 여행 브이로그 | 강릉 중앙시장 현지인 맛집 | South Korea Travel Vlog (Gangneung) 🇰🇷 강릉1 8분 46초" [ref=e222]:
+                      - /url: /watch?v=pyBppJQVr98
+                      - text: 강원도 강릉 여행 브이로그 | 강릉 중앙시장 현지인 맛집 | South Korea Travel Vlog (Gangneung) 🇰🇷 강릉1
+                  - group [ref=e225]:
+                    - generic [ref=e226]: 조회수 367회
+                    - generic [ref=e227]: •
+                    - generic [ref=e228]: 3개월 전
+                - button "추가 작업" [ref=e231]
+            - generic [ref=e236] [cursor=pointer]:
+              - link [ref=e237]:
+                - /url: /watch?v=oaqzcRsj5kQ
+                - generic [ref=e244]: 19:47
+              - generic [ref=e246]:
+                - generic [ref=e247]:
+                  - heading "발리 사누르 여행 브이로그 2 | 쇼핑리스트&요가&스노쿨링 | 꾸따 일몰 | Bali Travel Vlog (Sanur - Kuta) | Google Maps 공유 🌏🇮🇩 발리4 19분" [level=3] [ref=e248]:
+                    - link "발리 사누르 여행 브이로그 2 | 쇼핑리스트&요가&스노쿨링 | 꾸따 일몰 | Bali Travel Vlog (Sanur - Kuta) | Google Maps 공유 🌏🇮🇩 발리4 19분" [ref=e249]:
+                      - /url: /watch?v=oaqzcRsj5kQ
+                      - text: 발리 사누르 여행 브이로그 2 | 쇼핑리스트&요가&스노쿨링 | 꾸따 일몰 | Bali Travel Vlog (Sanur - Kuta) | Google Maps 공유 🌏🇮🇩 발리4
+                  - group [ref=e252]:
+                    - generic [ref=e253]: 조회수 949회
+                    - generic [ref=e254]: •
+                    - generic [ref=e255]: 3개월 전
+                - button "추가 작업" [ref=e258]
+            - generic [ref=e263] [cursor=pointer]:
+              - link [ref=e264]:
+                - /url: /watch?v=BO7FxZMowbg
+                - generic [ref=e271]: 13:17
+              - generic [ref=e273]:
+                - generic [ref=e274]:
+                  - heading "절벽뷰에 감탄하다가, 사원에서 혼쭐난 브이로그ㅋㅋ | 발리 남부 여행 🇮🇩 멜라스티 비치·울루와뚜 절벽 투어 코스 완전 정복 | Bali South Travel Vlog (발리3) 13분 17초" [level=3] [ref=e275]:
+                    - link "절벽뷰에 감탄하다가, 사원에서 혼쭐난 브이로그ㅋㅋ | 발리 남부 여행 🇮🇩 멜라스티 비치·울루와뚜 절벽 투어 코스 완전 정복 | Bali South Travel Vlog (발리3) 13분 17초" [ref=e276]:
+                      - /url: /watch?v=BO7FxZMowbg
+                      - text: 절벽뷰에 감탄하다가, 사원에서 혼쭐난 브이로그ㅋㅋ | 발리 남부 여행 🇮🇩 멜라스티 비치·울루와뚜 절벽 투어 코스 완전 정복 | Bali South Travel Vlog (발리3)
+                  - group [ref=e279]:
+                    - generic [ref=e280]: 조회수 1.2천회
+                    - generic [ref=e281]: •
+                    - generic [ref=e282]: 6개월 전
+                - button "추가 작업" [ref=e285]
+            - generic [ref=e290] [cursor=pointer]:
+              - link [ref=e291]:
+                - /url: /watch?v=j_7Gy02q7o4
+                - generic [ref=e298]: 20:31
+              - generic [ref=e300]:
+                - generic [ref=e301]:
+                  - heading "발리 사누르 여행 브이로그 | 가성비 넓은 숙소 & 맛집 추천! | Bali Travel Vlog (Sanur) | Google Maps 공유 🌏🇮🇩 발리2 20분" [level=3] [ref=e302]:
+                    - link "발리 사누르 여행 브이로그 | 가성비 넓은 숙소 & 맛집 추천! | Bali Travel Vlog (Sanur) | Google Maps 공유 🌏🇮🇩 발리2 20분" [ref=e303]:
+                      - /url: /watch?v=j_7Gy02q7o4
+                      - text: 발리 사누르 여행 브이로그 | 가성비 넓은 숙소 & 맛집 추천! | Bali Travel Vlog (Sanur) | Google Maps 공유 🌏🇮🇩 발리2
+                  - group [ref=e306]:
+                    - generic [ref=e307]: 조회수 6.5천회
+                    - generic [ref=e308]: •
+                    - generic [ref=e309]: 8개월 전
+                - button "추가 작업" [ref=e312]
+          - button "다음" [ref=e318] [cursor=pointer]
+      - generic [ref=e324]:
+        - generic [ref=e325]:
+          - heading "Shorts" [level=2] [ref=e329]:
+            - generic [ref=e331]: Shorts
+          - button "추가 작업" [ref=e335] [cursor=pointer]
+        - generic [ref=e341]:
+          - generic [ref=e343]:
+            - link [ref=e344] [cursor=pointer]:
+              - /url: /shorts/jP-LHdsxcaw
+            - generic [ref=e348] [cursor=pointer]:
+              - link "-5kg 빠져보이는 수영복 추천 2가지🩱" [ref=e349]:
+                - /url: /shorts/jP-LHdsxcaw
+              - generic [ref=e350]: 조회수 1.6천회
+            - button "추가 작업" [ref=e352] [cursor=pointer]
+          - generic [ref=e357]:
+            - link [ref=e358] [cursor=pointer]:
+              - /url: /shorts/KWftxRaGSdQ
+            - generic [ref=e362] [cursor=pointer]:
+              - link "수영하러 왔는데 결국 피자 먹는 사람 됨 (나만 그래?) 🍕" [ref=e363]:
+                - /url: /shorts/KWftxRaGSdQ
+              - generic [ref=e364]: 조회수 1.1천회
+            - button "추가 작업" [ref=e366] [cursor=pointer]
+          - generic [ref=e371]:
+            - link [ref=e372] [cursor=pointer]:
+              - /url: /shorts/-2NzGETQ9mM
+            - generic [ref=e376] [cursor=pointer]:
+              - link "가족여행 가기 좋은 푸켓 5성급 숙소 추천 🇹🇭 위치 깡패 (빠통비치 | 정실론 | 반쌍시장 1분 컷)" [ref=e377]:
+                - /url: /shorts/-2NzGETQ9mM
+              - generic [ref=e378]: 조회수 1.7천회
+            - button "추가 작업" [ref=e380] [cursor=pointer]
+          - generic [ref=e385]:
+            - link [ref=e386] [cursor=pointer]:
+              - /url: /shorts/SYnINYaqWzE
+            - generic [ref=e390] [cursor=pointer]:
+              - link "동남아 여행 갈 때 꼭 챙기는 마스크 (비행기에서 진짜 편함)" [ref=e391]:
+                - /url: /shorts/SYnINYaqWzE
+              - generic [ref=e392]: 조회수 2.1천회
+            - button "추가 작업" [ref=e394] [cursor=pointer]
+          - generic [ref=e399]:
+            - link [ref=e400] [cursor=pointer]:
+              - /url: /shorts/iR_fJAwisK8
+            - generic [ref=e404] [cursor=pointer]:
+              - link "동남아 해산물 흥정 꿀팁 🇹🇭 “아..음..” 했더니 가격 내려감 (랍스터) 🦞" [ref=e405]:
+                - /url: /shorts/iR_fJAwisK8
+              - generic [ref=e406]: 조회수 1.5천회
+            - button "추가 작업" [ref=e408] [cursor=pointer]
+          - generic [ref=e413]:
+            - link [ref=e414] [cursor=pointer]:
+              - /url: /shorts/9ZQOFiyUcqg
+            - generic [ref=e418] [cursor=pointer]:
+              - 'link "벚꽃 꿀 효능 #shorts #꿀효능 #꿀물효능 #건강식단 #벚꽃 #꿀" [ref=e419]':
+                - /url: /shorts/9ZQOFiyUcqg
+              - generic [ref=e420]: 조회수 575회
+            - button "추가 작업" [ref=e422] [cursor=pointer]
+      - generic [ref=e429]:
+        - heading "생성된 재생목록" [level=2] [ref=e432]:
+          - link "생성된 재생목록" [ref=e435] [cursor=pointer]:
+            - /url: /@seulsup_/playlists?view=1&sort=dd&shelf_id=5
+            - generic [ref=e436]: 생성된 재생목록
+        - generic [ref=e441]:
+          - generic [ref=e443] [cursor=pointer]:
+            - link [ref=e444]:
+              - /url: /watch?v=U-PAWwaGT08&list=PLj0VArfrgS6mb8OfBiCX06Jgdiyb0txhT
+              - generic [ref=e456]: 동영상 12개
+            - generic [ref=e459]:
+              - heading "🇹🇭 태국 | 푸켓" [level=3] [ref=e460]:
+                - link "🇹🇭 태국 | 푸켓" [ref=e461]:
+                  - /url: /watch?v=U-PAWwaGT08&list=PLj0VArfrgS6mb8OfBiCX06Jgdiyb0txhT
+              - generic [ref=e463]:
+                - group [ref=e464]:
+                  - generic [ref=e465]: 오늘 업데이트됨
+                - group [ref=e466]:
+                  - link "전체 재생목록 보기" [ref=e469]:
+                    - /url: /playlist?list=PLj0VArfrgS6mb8OfBiCX06Jgdiyb0txhT
+          - generic [ref=e471] [cursor=pointer]:
+            - link [ref=e472]:
+              - /url: /watch?v=rKeoIu1bH7Y&list=PLj0VArfrgS6kXSgDtSvGPy-eYXyx4548R
+              - generic [ref=e484]: 동영상 2개
+            - generic [ref=e487]:
+              - heading "🇰🇷 한국 | 전라도" [level=3] [ref=e488]:
+                - link "🇰🇷 한국 | 전라도" [ref=e489]:
+                  - /url: /watch?v=rKeoIu1bH7Y&list=PLj0VArfrgS6kXSgDtSvGPy-eYXyx4548R
+              - group [ref=e492]:
+                - link "전체 재생목록 보기" [ref=e495]:
+                  - /url: /playlist?list=PLj0VArfrgS6kXSgDtSvGPy-eYXyx4548R
+          - generic [ref=e497] [cursor=pointer]:
+            - link [ref=e498]:
+              - /url: /watch?v=U6JRS7PvcVQ&list=PLj0VArfrgS6kpSHWLT94W1xQi5--y4Ggj
+              - generic [ref=e510]: 동영상 3개
+            - generic [ref=e513]:
+              - heading "🇰🇷 한국 | 강원도" [level=3] [ref=e514]:
+                - link "🇰🇷 한국 | 강원도" [ref=e515]:
+                  - /url: /watch?v=U6JRS7PvcVQ&list=PLj0VArfrgS6kpSHWLT94W1xQi5--y4Ggj
+              - group [ref=e518]:
+                - link "전체 재생목록 보기" [ref=e521]:
+                  - /url: /playlist?list=PLj0VArfrgS6kpSHWLT94W1xQi5--y4Ggj
+          - generic [ref=e523] [cursor=pointer]:
+            - link [ref=e524]:
+              - /url: /watch?v=yS41wcflt2c&list=PLj0VArfrgS6mD6gpk16EgU2MCNuYpUU1d
+              - generic [ref=e536]: 동영상 22개
+            - generic [ref=e539]:
+              - heading "🇮🇩 인도네시아 | 발리" [level=3] [ref=e540]:
+                - link "🇮🇩 인도네시아 | 발리" [ref=e541]:
+                  - /url: /watch?v=yS41wcflt2c&list=PLj0VArfrgS6mD6gpk16EgU2MCNuYpUU1d
+              - group [ref=e544]:
+                - link "전체 재생목록 보기" [ref=e547]:
+                  - /url: /playlist?list=PLj0VArfrgS6mD6gpk16EgU2MCNuYpUU1d
+          - generic [ref=e549] [cursor=pointer]:
+            - link [ref=e550]:
+              - /url: /watch?v=ewMTNag_TM4&list=PLj0VArfrgS6mAAI_qOsHppZrbC-GSzyrA
+              - generic [ref=e562]: 동영상 5개
+            - generic [ref=e565]:
+              - heading "🇯🇵 일본 | 도쿄" [level=3] [ref=e566]:
+                - link "🇯🇵 일본 | 도쿄" [ref=e567]:
+                  - /url: /watch?v=ewMTNag_TM4&list=PLj0VArfrgS6mAAI_qOsHppZrbC-GSzyrA
+              - group [ref=e570]:
+                - link "전체 재생목록 보기" [ref=e573]:
+                  - /url: /playlist?list=PLj0VArfrgS6mAAI_qOsHppZrbC-GSzyrA
+          - generic [ref=e575] [cursor=pointer]:
+            - link [ref=e576]:
+              - /url: /watch?v=rQOmWNE_io0&list=PLj0VArfrgS6n3_Antm1rbzCjbyfu_y2uD
+              - generic [ref=e588]: 동영상 10개
+            - generic [ref=e591]:
+              - heading "🇰🇷 한국 | 제주도" [level=3] [ref=e592]:
+                - link "🇰🇷 한국 | 제주도" [ref=e593]:
+                  - /url: /watch?v=rQOmWNE_io0&list=PLj0VArfrgS6n3_Antm1rbzCjbyfu_y2uD
+              - group [ref=e596]:
+                - link "전체 재생목록 보기" [ref=e599]:
+                  - /url: /playlist?list=PLj0VArfrgS6n3_Antm1rbzCjbyfu_y2uD

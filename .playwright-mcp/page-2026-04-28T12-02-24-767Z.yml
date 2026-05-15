@@ -1,0 +1,106 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - img [ref=e6]
+          - heading "MyTripSignal" [level=1] [ref=e9]
+        - paragraph [ref=e10]: 내 여행의 시세를 확인하세요
+        - paragraph [ref=e11]: 직항 왕복 + 도심 숙소 + 식대 합산 · 총 비용 기준
+        - button "공유" [ref=e13]:
+          - img [ref=e14]
+          - text: 공유
+      - link "💡 예산이 정해져 있다면? 예산 맞춤 추천 →" [ref=e16] [cursor=pointer]:
+        - /url: /recommend?duration=4&adults=2&children=0&infants=0
+        - generic [ref=e17]:
+          - generic [ref=e18]: 💡
+          - generic [ref=e19]: 예산이 정해져 있다면?
+        - generic [ref=e20]: 예산 맞춤 추천 →
+      - button "가격 산정 기준 ›" [ref=e22]:
+        - img [ref=e23]
+        - generic [ref=e25]: 가격 산정 기준
+        - generic [ref=e26]: ›
+      - generic [ref=e28]:
+        - combobox "대륙 선택" [ref=e29] [cursor=pointer]:
+          - option "전체 대륙" [selected]
+          - option "동아시아"
+          - option "동남아시아"
+          - option "유럽"
+          - option "미주/태평양"
+        - combobox "도시 선택" [ref=e30] [cursor=pointer]:
+          - option "도쿄"
+          - option "오사카"
+          - option "후쿠오카"
+          - option "삿포로"
+          - option "오키나와"
+          - option "나고야"
+          - option "타이베이"
+          - option "홍콩" [selected]
+          - option "상하이"
+          - option "베이징"
+          - option "마카오"
+          - option "방콕"
+          - option "치앙마이"
+          - option "다낭"
+          - option "호치민"
+          - option "하노이"
+          - option "나트랑"
+          - option "푸꾸옥"
+          - option "싱가포르"
+          - option "세부"
+          - option "마닐라"
+          - option "발리"
+          - option "쿠알라룸푸르"
+          - option "코타키나발루"
+          - option "파리"
+          - option "런던"
+          - option "로마"
+          - option "밀라노"
+          - option "프랑크푸르트"
+          - option "뮌헨"
+          - option "암스테르담"
+          - option "바르셀로나"
+          - option "이스탄불"
+          - option "괌"
+          - option "호놀룰루"
+          - option "뉴욕"
+          - option "로스앤젤레스"
+          - option "샌프란시스코"
+          - option "시드니"
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: 여정 길이
+            - generic [ref=e35]: 3박 4일
+          - generic [ref=e36]:
+            - generic [ref=e37]: 3일
+            - slider [ref=e38] [cursor=pointer]: "4"
+            - generic [ref=e39]: 10일
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - generic [ref=e43]: 여행자
+            - generic [ref=e44]: 총 2명
+          - generic [ref=e45]:
+            - generic [ref=e46]: 성인12세 이상
+            - generic [ref=e47]:
+              - button "성인 감소" [ref=e48]: −
+              - generic [ref=e49]: "2"
+              - button "성인 증가" [ref=e50]: +
+          - generic [ref=e51]:
+            - generic [ref=e52]: 소아2~11세 · 항공 75%
+            - generic [ref=e53]:
+              - button "소아 감소" [disabled] [ref=e54]: −
+              - generic [ref=e55]: "0"
+              - button "소아 증가" [ref=e56]: +
+          - generic [ref=e57]:
+            - generic [ref=e58]: 유아0~1세 · 항공 10%
+            - generic [ref=e59]:
+              - button "유아 감소" [disabled] [ref=e60]: −
+              - generic [ref=e61]: "0"
+              - button "유아 증가" [ref=e62]: +
+        - generic [ref=e63]:
+          - generic [ref=e64]: 항공 옵션
+          - button "직항만" [ref=e65]
+          - button "경유 포함" [ref=e66]
+      - paragraph [ref=e69]: 가격 데이터를 불러오고 있어요
+  - alert [ref=e70]

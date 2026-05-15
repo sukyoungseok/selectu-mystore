@@ -1,0 +1,7 @@
+# 닉네임,인스타URL — 쿠폰페이지 베리에이션용 (쿠폰팩 신청 시트 기준, 석수 제외)
+허니블링,https://instagram.com/honey_veling
+수블리,https://instagram.com/suvely07
+류랑,https://instagram.com/travel_ryurang
+다은,https://instagram.com/_danie_e
+조선여자 모나,https://instagram.com/hanbok_travelarts
+다챌,https://instagram.com/dachallll

@@ -1,0 +1,176 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - link "콘텐츠로 건너뛰기" [ref=e9] [cursor=pointer]:
+        - /url: "#main"
+        - generic [ref=e10]:
+          - text: 콘텐츠로 건너뛰기
+          - img [ref=e11]
+      - generic [ref=e15]:
+        - link "콘텐츠로 건너뛰기" [ref=e17] [cursor=pointer]:
+          - /url: "#main"
+          - generic [ref=e18]:
+            - text: 콘텐츠로 건너뛰기
+            - img [ref=e19]
+        - main [ref=e21]:
+          - generic [ref=e22]:
+            - generic:
+              - generic:
+                - generic:
+                  - progressbar
+                  - progressbar
+                - progressbar
+                - progressbar
+                - progressbar
+                - progressbar
+                - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+              - generic:
+                - generic:
+                  - progressbar
+                  - generic:
+                    - progressbar
+                    - progressbar
+                - generic:
+                  - progressbar
+                  - progressbar
+                  - progressbar
+                  - progressbar
+                  - progressbar
+                  - progressbar
+                  - progressbar
+                  - progressbar
+                  - progressbar
+                  - progressbar
+                  - progressbar
+                  - progressbar
+            - generic [ref=e23]:
+              - img "예" [ref=e25]:
+                - generic [ref=e26]: 예
+              - generic [ref=e27]:
+                - text: 거의 다 됐습니다!
+                - text: 예슬의 Notion에서 이 페이지를 보려면 로그인하세요.
+              - generic [ref=e28]:
+                - generic [ref=e29]:
+                  - generic [ref=e30]:
+                    - generic [ref=e32]:
+                      - generic [ref=e33]: 이메일
+                      - generic [ref=e34]:
+                        - textbox "이메일" [ref=e35]:
+                          - /placeholder: 이메일 주소를 입력하세요.
+                          - text: sukyoung.seok@myrealtrip.com
+                        - button "입력 값 지우기" [ref=e96] [cursor=pointer]:
+                          - img [ref=e97]
+                      - generic [ref=e99]: 본 계정은 이메일 인증이 필요합니다. 이메일 수신함을 확인하여 인증 코드를 붙여넣어 주세요.
+                      - generic [ref=e100]: 인증 코드
+                      - textbox "인증 코드" [ref=e102]:
+                        - /placeholder: 인증 코드를 붙여넣기 하세요.
+                      - button "이메일 인증" [ref=e103] [cursor=pointer]
+                    - generic [ref=e39]:
+                      - generic:
+                        - generic:
+                          - generic: 또는 다음으로 계속하기
+                  - generic [ref=e40]:
+                    - button "Google" [disabled] [active] [ref=e41]:
+                      - status [ref=e105]:
+                        - generic [ref=e106]: 불러오는 중...
+                        - img [ref=e107]
+                      - generic [ref=e48]: Google
+                    - button "Apple" [ref=e49] [cursor=pointer]:
+                      - img [ref=e50]
+                      - generic [ref=e52]: Apple
+                    - button "Microsoft" [ref=e53] [cursor=pointer]:
+                      - img [ref=e54]
+                      - generic [ref=e60]: Microsoft
+                    - button "패스키" [ref=e61] [cursor=pointer]:
+                      - img [ref=e62]
+                      - generic [ref=e64]: 패스키
+                    - button "SSO(통합 로그인)" [ref=e65] [cursor=pointer]:
+                      - img [ref=e66]
+                      - generic [ref=e69]: SSO(통합 로그인)
+                - generic [ref=e71]:
+                  - text: New user?
+                  - link "Sign up" [ref=e72] [cursor=pointer]:
+                    - /url: /signup
+            - paragraph [ref=e74]:
+              - text: 계속 진행하면
+              - link "이용약관" [ref=e75] [cursor=pointer]:
+                - /url: https://www.notion.so/notion/Terms-and-Privacy-28ffdd083dc3473e9c2da6ec011b58ac
+              - text: 및
+              - link "개인정보처리방침을 이해하고 동의하는 것으로 간주됩니다." [ref=e76] [cursor=pointer]:
+                - /url: https://www.notion.com/trust/privacy-policy
+            - generic [ref=e77]:
+              - link "Notion 소개" [ref=e79] [cursor=pointer]:
+                - /url: https://www.notion.com/product
+                - img [ref=e80]
+                - text: Notion 소개
+              - generic [ref=e82]: ·
+              - 'button "언어: 한국어" [ref=e84] [cursor=pointer]':
+                - img [ref=e85]
+                - text: "언어: 한국어"
+                - img [ref=e87]
+              - generic [ref=e89]: ·
+              - button "지원팀에 메시지 보내기" [ref=e91] [cursor=pointer]
+    - status [ref=e92]
+    - alert [ref=e93]
+  - iframe [ref=e94]:
+    

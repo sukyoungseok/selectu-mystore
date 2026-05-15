@@ -1,0 +1,163 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e7]:
+          - img "MyRealTrip" [ref=e8]
+          - heading "개발자센터" [level=1] [ref=e9]
+        - generic [ref=e10]:
+          - link "API" [ref=e11] [cursor=pointer]:
+            - /url: "#/api/intro"
+          - link "문의·지원" [ref=e12] [cursor=pointer]:
+            - /url: "#/api/contact/glossary"
+    - generic [ref=e13]:
+      - complementary [ref=e14]:
+        - generic [ref=e18]:
+          - link "홈" [ref=e19] [cursor=pointer]:
+            - /url: "#/api/intro"
+            - img [ref=e20]
+            - generic [ref=e23]: 홈
+          - link "시작하기" [ref=e24] [cursor=pointer]:
+            - /url: "#/api/getting-started"
+            - img [ref=e25]
+            - generic [ref=e27]: 시작하기
+          - link "API 키" [ref=e28] [cursor=pointer]:
+            - /url: "#/api/api-key"
+            - img [ref=e29]
+            - generic [ref=e33]: API 키
+          - link "인증 및 헤더" [ref=e34] [cursor=pointer]:
+            - /url: "#/api/auth"
+            - img [ref=e35]
+            - generic [ref=e38]: 인증 및 헤더
+          - link "보안" [ref=e39] [cursor=pointer]:
+            - /url: "#/api/security"
+            - img [ref=e40]
+            - generic [ref=e42]: 보안
+          - link "에러 코드" [ref=e43] [cursor=pointer]:
+            - /url: "#/api/errors"
+            - img [ref=e44]
+            - generic [ref=e46]: 에러 코드
+          - generic [ref=e47]:
+            - button "파트너 API" [ref=e48] [cursor=pointer]:
+              - img [ref=e49]
+              - generic [ref=e51]: 파트너 API
+            - generic [ref=e53]:
+              - link "마이 링크" [ref=e54] [cursor=pointer]:
+                - /url: "#/api/partner-api/마이-링크"
+                - generic [ref=e55]: 마이 링크
+              - link "수익 현황" [ref=e56] [cursor=pointer]:
+                - /url: "#/api/partner-api/수익-현황"
+                - generic [ref=e57]: 수익 현황
+              - link "예약 내역" [ref=e58] [cursor=pointer]:
+                - /url: "#/api/partner-api/예약-내역"
+                - generic [ref=e59]: 예약 내역
+              - link "헬스 체크" [ref=e60] [cursor=pointer]:
+                - /url: "#/api/partner-api/헬스-체크"
+                - generic [ref=e61]: 헬스 체크
+          - generic [ref=e62]:
+            - button "서비스 API" [ref=e63] [cursor=pointer]:
+              - img [ref=e64]
+              - generic [ref=e66]: 서비스 API
+            - generic [ref=e68]:
+              - link "항공권 조회" [ref=e69] [cursor=pointer]:
+                - /url: "#/api/service-api/항공권-조회"
+                - generic [ref=e70]: 항공권 조회
+              - link "숙소 조회" [ref=e71] [cursor=pointer]:
+                - /url: "#/api/service-api/숙소-조회"
+                - generic [ref=e72]: 숙소 조회
+              - link "투어티켓 조회" [ref=e73] [cursor=pointer]:
+                - /url: "#/api/service-api/투어티켓-조회"
+                - generic [ref=e74]: 투어티켓 조회
+          - generic [ref=e75]:
+            - button "MCP" [ref=e76] [cursor=pointer]:
+              - img [ref=e77]
+              - generic [ref=e79]: MCP
+            - generic [ref=e81]:
+              - link "개요" [ref=e82] [cursor=pointer]:
+                - /url: "#/api/mcp/overview"
+                - generic [ref=e83]: 개요
+              - link "제공 도구" [ref=e84] [cursor=pointer]:
+                - /url: "#/api/mcp/tools"
+                - generic [ref=e85]: 제공 도구
+              - link "연결 가이드" [ref=e86] [cursor=pointer]:
+                - /url: "#/api/mcp/setup"
+                - generic [ref=e87]: 연결 가이드
+      - main [ref=e88]:
+        - generic [ref=e91]:
+          - generic [ref=e93]:
+            - paragraph [ref=e94]: Myrealtrip Marketing Partner API
+            - heading "마이리얼트립 마케팅파트너 API" [level=1] [ref=e95]:
+              - text: 마이리얼트립
+              - text: 마케팅파트너 API
+            - paragraph [ref=e96]: 마이리얼트립 마케팅파트너 API를 연동하면, 실시간 항공/숙소/투어 가격을 자동으로 불러오고 수익을 극대화할 수 있습니다.
+            - link "B2B 파트너 문의하기" [ref=e97] [cursor=pointer]:
+              - /url: mailto:marketing_partner@myrealtrip.com
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - heading "파트너사 수익 현황" [level=2] [ref=e100]
+              - paragraph [ref=e101]: API를 연동한 파트너사의 실제 거래 데이터입니다.
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - paragraph [ref=e104]: 28억원
+                - paragraph [ref=e105]: A사 월 최고 거래액
+              - generic [ref=e108]:
+                - paragraph [ref=e109]: 12억원
+                - paragraph [ref=e110]: B사 월 최고 거래액
+          - generic [ref=e113]:
+            - heading "마이리얼트립에서 더 많은 수익이 가능한 이유" [level=2] [ref=e115]:
+              - text: 마이리얼트립에서
+              - text: 더 많은 수익이 가능한 이유
+            - generic [ref=e116]:
+              - generic [ref=e117]:
+                - img "기본 수수료가 높아요" [ref=e119]
+                - generic [ref=e120]:
+                  - heading "기본 수수료가 높아요" [level=3] [ref=e121]
+                  - paragraph [ref=e122]: 링크를 통해 발생한 판매 금액의 최대 7.0%까지 수익을 얻을 수 있습니다.
+              - generic [ref=e123]:
+                - img "기본 수익 외 보너스 인센티브도 드려요" [ref=e125]
+                - generic [ref=e126]:
+                  - heading "기본 수익 외 보너스 인센티브도 드려요" [level=3] [ref=e127]
+                  - paragraph [ref=e128]: 누적 판매 금액이 높아지면 인센티브를 통해 더 많은 수익을 극대화할 수 있습니다.
+          - generic [ref=e129]:
+            - heading "바로 시작하기" [level=2] [ref=e130]
+            - generic [ref=e131]:
+              - link "시작하기 API 키 발급부터 첫 호출까지 4단계 가이드" [ref=e132] [cursor=pointer]:
+                - /url: "#/api/getting-started"
+                - generic [ref=e133]:
+                  - img [ref=e135]
+                  - heading "시작하기" [level=3] [ref=e139]
+                  - paragraph [ref=e140]: API 키 발급부터 첫 호출까지 4단계 가이드
+              - link "MCP 연동 AI 도구에서 마이리얼트립 상품을 바로 검색" [ref=e141] [cursor=pointer]:
+                - /url: "#/api/mcp/overview"
+                - generic [ref=e142]:
+                  - img [ref=e144]
+                  - heading "MCP 연동" [level=3] [ref=e146]
+                  - paragraph [ref=e147]: AI 도구에서 마이리얼트립 상품을 바로 검색
+              - link "수익 조회 API 내 링크로 발생한 예약과 수익을 실시간 확인" [ref=e148] [cursor=pointer]:
+                - /url: "#/api/partner-api/수익-현황"
+                - generic [ref=e149]:
+                  - img [ref=e151]
+                  - heading "수익 조회 API" [level=3] [ref=e153]
+                  - paragraph [ref=e154]: 내 링크로 발생한 예약과 수익을 실시간 확인
+            - generic [ref=e155]:
+              - link "항공권 조회 API 날짜별 최저가, 다중 목적지 비교 조회" [ref=e156] [cursor=pointer]:
+                - /url: "#/api/service-api/항공권-조회"
+                - generic [ref=e157]:
+                  - img [ref=e159]
+                  - heading "항공권 조회 API" [level=3] [ref=e161]
+                  - paragraph [ref=e162]: 날짜별 최저가, 다중 목적지 비교 조회
+              - link "숙소 검색 API 실시간 숙소 가격과 리뷰를 검색" [ref=e163] [cursor=pointer]:
+                - /url: "#/api/service-api/숙소-조회"
+                - generic [ref=e164]:
+                  - img [ref=e166]
+                  - heading "숙소 검색 API" [level=3] [ref=e168]
+                  - paragraph [ref=e169]: 실시간 숙소 가격과 리뷰를 검색
+              - link "투어티켓 검색 API 투어, 티켓, 액티비티 상품을 실시간 검색" [ref=e170] [cursor=pointer]:
+                - /url: "#/api/service-api/투어티켓-조회"
+                - generic [ref=e171]:
+                  - img [ref=e173]
+                  - heading "투어티켓 검색 API" [level=3] [ref=e175]
+                  - paragraph [ref=e176]: 투어, 티켓, 액티비티 상품을 실시간 검색

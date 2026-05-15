@@ -1,0 +1,467 @@
+- generic [ref=e4]:
+  - generic [ref=e9]:
+    - generic [ref=e12]:
+      - link "Instagram" [ref=e17] [cursor=pointer]:
+        - /url: /
+        - img "Instagram" [ref=e22]
+      - generic [ref=e25]:
+        - link "홈" [ref=e30] [cursor=pointer]:
+          - /url: /
+          - img "홈" [ref=e35]
+        - link "릴스" [ref=e40] [cursor=pointer]:
+          - /url: /reels/
+          - img "릴스" [ref=e45]
+        - link "메시지 Direct 메시지 - 새로운 알림 링크 3개" [ref=e52] [cursor=pointer]:
+          - /url: /direct/inbox/
+          - generic [ref=e55]:
+            - img "메시지" [ref=e57]
+            - generic "Direct 메시지 - 새로운 알림 링크 3개" [ref=e60]:
+              - generic [ref=e62]: "3"
+        - link "검색" [ref=e66] [cursor=pointer]:
+          - /url: "#"
+          - img "검색" [ref=e71]
+        - link "탐색 탭" [ref=e77] [cursor=pointer]:
+          - /url: /explore/
+          - img "탐색 탭" [ref=e82]
+        - link "알림" [ref=e91] [cursor=pointer]:
+          - /url: "#"
+          - img "알림" [ref=e96]
+        - link "새로운 게시물" [ref=e104] [cursor=pointer]:
+          - /url: "#"
+          - img "새로운 게시물" [ref=e109]
+        - link "프로페셔널 대시보드" [ref=e114] [cursor=pointer]:
+          - /url: "#"
+          - img "프로페셔널 대시보드" [ref=e119]
+        - link "stone.water_님의 프로필 사진" [ref=e126] [cursor=pointer]:
+          - /url: /stone.water_/
+          - link "stone.water_님의 프로필 사진" [ref=e131]:
+            - img "stone.water_님의 프로필 사진" [ref=e132]
+      - generic [ref=e133]:
+        - link "설정" [ref=e136] [cursor=pointer]:
+          - /url: "#"
+          - img "설정" [ref=e141]
+        - link "Meta의 다른 앱" [ref=e144] [cursor=pointer]:
+          - /url: "#"
+          - img "Meta의 다른 앱" [ref=e149]
+    - generic [ref=e152]:
+      - main [ref=e153]:
+        - generic [ref=e154]:
+          - generic [ref=e156]:
+            - button [ref=e161]:
+              - group [ref=e175]:
+                - slider [ref=e177]:
+                  - button [ref=e181] [cursor=pointer]:
+                    - img [ref=e182]
+            - generic [ref=e185]:
+              - generic [ref=e187]:
+                - button "juuuyomi_님의 프로필 사진" [disabled] [ref=e192]:
+                  - link "juuuyomi_님의 프로필 사진" [disabled] [ref=e194] [cursor=pointer]:
+                    - img "juuuyomi_님의 프로필 사진" [ref=e195]
+                - generic [ref=e198]:
+                  - generic [ref=e199]:
+                    - link "juuuyomi_" [ref=e207] [cursor=pointer]:
+                      - /url: /juuuyomi_/
+                      - generic [ref=e210]: juuuyomi_
+                    - link "싱가포르" [ref=e214] [cursor=pointer]:
+                      - /url: /explore/locations/289699557/
+                  - button "팔로잉" [ref=e216] [cursor=pointer]
+                - button "옵션 더 보기" [ref=e219] [cursor=pointer]:
+                  - img "옵션 더 보기" [ref=e222]
+              - separator [ref=e226]
+              - generic [ref=e228]:
+                - generic [ref=e230]:
+                  - link "juuuyomi_님의 프로필 사진" [ref=e235] [cursor=pointer]:
+                    - /url: /juuuyomi_/
+                    - img "juuuyomi_님의 프로필 사진" [ref=e236]
+                  - generic [ref=e240]:
+                    - generic [ref=e241]:
+                      - link "juuuyomi_" [ref=e245] [cursor=pointer]:
+                        - /url: /juuuyomi_/
+                        - generic [ref=e248]: juuuyomi_
+                      - generic [ref=e249]: 수정됨
+                      - generic [ref=e250]: •
+                      - time [ref=e252]: 38주
+                    - generic [ref=e253]:
+                      - text: 뭐야,,,🙊싱가포르 효도여행 저렴하게 다녀왔쟈나?!
+                      - text: (..심지어 더 아낄 수 있는 꾸르팁도 있음🍯)
+                      - text: 비싼 싱가포르 물가로 아껴서 여행해서 그런지
+                      - text: 생각보다 얼마 안씀!!!
+                      - text: 비행기+숙소+식사+교통+기타비용 다 합쳐서
+                      - text: 💰1인 약 75만원 정도 씀💰
+                      - text: (아빠 비즈니스 라이트는 무료 업그레이드 했어용)
+                      - text: 근데 여러분은 더 아낄수 있는 팁!!
+                      - text: ⚠️제주항공 프로모션 코드 오픈함 (2주동안 예약가능)
+                      - text: 🍊제주항공 시크릿 할인코드
+                      - text: "• 프로모션코드 : JAM주영이랑"
+                      - text: "• 프로모션 기간 : 7.17(목)~ 7.31(목)"
+                      - text: "• 프로모션 전용 노선 : PUS-SIN(부산-싱가로프)"
+                      - text: "• 탑승 기간 : 7.17(목) ~ 10.25(토)"
+                      - text: ※ 편도/왕복 적용 가능
+                      - text: ※ 일부 일자, 요일, 시간에 따라 할인 적용 제외될 수 있습니다.
+                      - text: ✅예약 관련 링크는 프로필 링크 확인
+                      - text: 🍊해당 콘텐츠는 JAM CREW(제주항공 앰버서더) 활동으로 다녀온 여행을 추가 대가없이 제작한 영상입니다!!!
+                      - text: (원래 안만들어도 되는 콘텐츠... 그냥 공유하고 싶어서 만들었음)
+                      - link "@jejuair_official" [ref=e254] [cursor=pointer]:
+                        - /url: /jejuair_official/
+                      - link "#제주항공" [ref=e255] [cursor=pointer]:
+                        - /url: /explore/tags/%EC%A0%9C%EC%A3%BC%ED%95%AD%EA%B3%B5/
+                      - link "#JEJUAIR" [ref=e256] [cursor=pointer]:
+                        - /url: /explore/tags/jejuair/
+                      - link "#JAMCREW" [ref=e257] [cursor=pointer]:
+                        - /url: /explore/tags/jamcrew/
+                      - text: ========
+                      - text: 싱가포르 여행 시리즈 연재중✍️
+                      - text: 👉 아빠랑 같이 간 부녀여행이 궁금하다면
+                      - link "#싱가포르_주영" [ref=e258] [cursor=pointer]:
+                        - /url: /explore/tags/%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4_%EC%A3%BC%EC%98%81/
+                      - text: 👉 더 많은 이야기가 궁금하다면
+                      - link "@juuuyomi_" [ref=e259] [cursor=pointer]:
+                        - /url: /juuuyomi_/
+                      - text: 팔로우💌
+                - generic [ref=e260]:
+                  - generic [ref=e263]:
+                    - link "gh_.side님의 프로필 사진" [ref=e269] [cursor=pointer]:
+                      - /url: /gh_.side/
+                      - img "gh_.side님의 프로필 사진" [ref=e270]
+                    - generic [ref=e271]:
+                      - generic [ref=e272]:
+                        - generic [ref=e274]:
+                          - generic [ref=e275]:
+                            - link "gh_.side" [ref=e280] [cursor=pointer]:
+                              - /url: /gh_.side/
+                              - generic [ref=e283]: gh_.side
+                            - link "40주" [ref=e285] [cursor=pointer]:
+                              - /url: /p/DMSpvDrvoe5/c/18070246033864852/
+                              - time [ref=e286]: 40주
+                          - generic [ref=e288]: 1인항공편저렇게나싸다구여?????ㅁㅍㅁㅊㅁㅊㅁㅊㅁㅊㅁㅊㅊ 싱가포르또갈ㄹ래
+                        - button "답글 달기" [ref=e290] [cursor=pointer]:
+                          - generic [ref=e292]: 답글 달기
+                      - button "좋아요" [ref=e297] [cursor=pointer]:
+                        - img "좋아요" [ref=e300]
+                  - generic [ref=e302]:
+                    - generic [ref=e304]:
+                      - link "juuuyomi_님의 프로필 사진" [ref=e310] [cursor=pointer]:
+                        - /url: /juuuyomi_/
+                        - img "juuuyomi_님의 프로필 사진" [ref=e311]
+                      - generic [ref=e312]:
+                        - generic [ref=e313]:
+                          - generic [ref=e315]:
+                            - generic [ref=e316]:
+                              - link "juuuyomi_" [ref=e321] [cursor=pointer]:
+                                - /url: /juuuyomi_/
+                                - generic [ref=e324]: juuuyomi_
+                              - link "40주" [ref=e326] [cursor=pointer]:
+                                - /url: /p/DMSpvDrvoe5/c/17887684332312371/
+                                - time [ref=e327]: 40주
+                            - generic [ref=e329]:
+                              - text: 🇸🇬 효도여행 비용 총정리!!
+                              - text: 🍊더 저렴하게 예약은 프로모션 코드로 - ✨
+                          - button "답글 달기" [ref=e331] [cursor=pointer]:
+                            - generic [ref=e333]: 답글 달기
+                        - button "좋아요" [ref=e338] [cursor=pointer]:
+                          - img "좋아요" [ref=e341]
+                    - button "답글 1개 모두 보기" [ref=e344] [cursor=pointer]:
+                      - generic [ref=e347]: 답글 1개 모두 보기
+                  - generic [ref=e350]:
+                    - link "roun.life님의 프로필 사진" [ref=e356] [cursor=pointer]:
+                      - /url: /roun.life/
+                      - img "roun.life님의 프로필 사진" [ref=e357]
+                    - generic [ref=e358]:
+                      - generic [ref=e359]:
+                        - generic [ref=e361]:
+                          - generic [ref=e362]:
+                            - link "roun.life 인증됨" [ref=e367] [cursor=pointer]:
+                              - /url: /roun.life/
+                              - generic [ref=e369]:
+                                - generic [ref=e370]: roun.life
+                                - img "인증됨" [ref=e372]
+                            - link "40주" [ref=e375] [cursor=pointer]:
+                              - /url: /p/DMSpvDrvoe5/c/18066830033155620/
+                              - time [ref=e376]: 40주
+                          - generic [ref=e378]: 후앵 ㅜㅜㅜㅜㅜㅜ 넘 귀여운 릴스에오 근데 이정도뿐……..?!
+                        - button "답글 달기" [ref=e380] [cursor=pointer]:
+                          - generic [ref=e382]: 답글 달기
+                      - button "좋아요" [ref=e387] [cursor=pointer]:
+                        - img "좋아요" [ref=e390]
+                  - generic [ref=e394]:
+                    - link "zzanggu_bak4님의 프로필 사진" [ref=e400] [cursor=pointer]:
+                      - /url: /zzanggu_bak4/
+                      - img "zzanggu_bak4님의 프로필 사진" [ref=e401]
+                    - generic [ref=e402]:
+                      - generic [ref=e403]:
+                        - generic [ref=e405]:
+                          - generic [ref=e406]:
+                            - link "zzanggu_bak4" [ref=e411] [cursor=pointer]:
+                              - /url: /zzanggu_bak4/
+                              - generic [ref=e414]: zzanggu_bak4
+                            - link "40주" [ref=e416] [cursor=pointer]:
+                              - /url: /p/DMSpvDrvoe5/c/18336415975165284/
+                              - time [ref=e417]: 40주
+                          - generic [ref=e419]: 매형은 안늙으시노 ㅎㅎㅎ 이모할매도 쫌 데려가ㅋㅋㅋ
+                        - button "답글 달기" [ref=e421] [cursor=pointer]:
+                          - generic [ref=e423]: 답글 달기
+                      - button "좋아요" [ref=e428] [cursor=pointer]:
+                        - img "좋아요" [ref=e431]
+                  - generic [ref=e435]:
+                    - link "sujin.trip님의 프로필 사진" [ref=e441] [cursor=pointer]:
+                      - /url: /sujin.trip/
+                      - img "sujin.trip님의 프로필 사진" [ref=e442]
+                    - generic [ref=e443]:
+                      - generic [ref=e444]:
+                        - generic [ref=e446]:
+                          - generic [ref=e447]:
+                            - link "sujin.trip" [ref=e452] [cursor=pointer]:
+                              - /url: /sujin.trip/
+                              - generic [ref=e455]: sujin.trip
+                            - link "40주" [ref=e457] [cursor=pointer]:
+                              - /url: /p/DMSpvDrvoe5/c/18106066408548518/
+                              - time [ref=e458]: 40주
+                          - generic [ref=e460]: 나도 싱가폴 놀러 갈래🔥🔥
+                        - button "답글 달기" [ref=e462] [cursor=pointer]:
+                          - generic [ref=e464]: 답글 달기
+                      - button "좋아요" [ref=e469] [cursor=pointer]:
+                        - img "좋아요" [ref=e472]
+                  - generic [ref=e476]:
+                    - link "zic_eee님의 프로필 사진" [ref=e482] [cursor=pointer]:
+                      - /url: /zic_eee/
+                      - img "zic_eee님의 프로필 사진" [ref=e483]
+                    - generic [ref=e484]:
+                      - generic [ref=e485]:
+                        - generic [ref=e487]:
+                          - generic [ref=e488]:
+                            - link "zic_eee" [ref=e493] [cursor=pointer]:
+                              - /url: /zic_eee/
+                              - generic [ref=e496]: zic_eee
+                            - link "40주" [ref=e498] [cursor=pointer]:
+                              - /url: /p/DMSpvDrvoe5/c/18034630622465268/
+                              - time [ref=e499]: 40주
+                          - generic [ref=e501]: 효도여행이라니 너무 착한 딸 아니냐구요~
+                        - button "답글 달기" [ref=e503] [cursor=pointer]:
+                          - generic [ref=e505]: 답글 달기
+                      - button "좋아요" [ref=e510] [cursor=pointer]:
+                        - img "좋아요" [ref=e513]
+                  - generic [ref=e517]:
+                    - link "taiwanlixiu님의 프로필 사진" [ref=e523] [cursor=pointer]:
+                      - /url: /taiwanlixiu/
+                      - img "taiwanlixiu님의 프로필 사진" [ref=e524]
+                    - generic [ref=e525]:
+                      - generic [ref=e526]:
+                        - generic [ref=e528]:
+                          - generic [ref=e529]:
+                            - link "taiwanlixiu" [ref=e534] [cursor=pointer]:
+                              - /url: /taiwanlixiu/
+                              - generic [ref=e537]: taiwanlixiu
+                            - link "38주" [ref=e539] [cursor=pointer]:
+                              - /url: /p/DMSpvDrvoe5/c/17972280659915417/
+                              - time [ref=e540]: 38주
+                          - generic [ref=e542]: 오잉 비즈니스라이트? 디게 저렴하네여 아놔 이코노미 타는데 돈 아낀다고 베트남 환승해서 갔는데 ㅡ.ㅡ
+                        - button "답글 달기" [ref=e544] [cursor=pointer]:
+                          - generic [ref=e546]: 답글 달기
+                      - button "좋아요" [ref=e551] [cursor=pointer]:
+                        - img "좋아요" [ref=e554]
+              - generic [ref=e556]:
+                - generic [ref=e557]:
+                  - generic [ref=e558]:
+                    - button "좋아요" [ref=e561] [cursor=pointer]:
+                      - img "좋아요" [ref=e564]
+                    - button "108" [ref=e566] [cursor=pointer]
+                    - button "댓글 달기" [ref=e568] [cursor=pointer]:
+                      - img "댓글 달기" [ref=e570]
+                    - button "8" [ref=e572] [cursor=pointer]
+                    - button "리포스트" [ref=e573] [cursor=pointer]:
+                      - img "리포스트" [ref=e574]
+                    - button "공유하기" [ref=e576] [cursor=pointer]:
+                      - img "공유하기" [ref=e577]
+                  - button "저장" [ref=e582] [cursor=pointer]:
+                    - button "저장" [ref=e583]:
+                      - img "저장" [ref=e585]
+                - generic [ref=e588]:
+                  - link [ref=e590] [cursor=pointer]:
+                    - /url: /p/DMSpvDrvoe5/liked_by/
+                    - generic [ref=e592]:
+                      - button [ref=e593]:
+                        - link [ref=e594]
+                      - button [ref=e595]:
+                        - link [ref=e596]
+                      - button [ref=e597]:
+                        - link [ref=e598]
+                  - generic [ref=e600]:
+                    - link "_snow.flower" [ref=e601] [cursor=pointer]:
+                      - /url: /_snow.flower/
+                    - text: 님
+                    - link "외 107명" [ref=e602] [cursor=pointer]:
+                      - /url: /p/DMSpvDrvoe5/liked_by/
+                      - generic [ref=e603]: 외 107명
+                    - text: 이 좋아합니다
+                - link "2025년 7월 19일" [ref=e606] [cursor=pointer]:
+                  - /url: /juuuyomi_/reel/DMSpvDrvoe5/
+                  - time [ref=e608]: 2025년 7월 19일
+              - generic [ref=e611]:
+                - link [ref=e612]
+                - generic [ref=e614]:
+                  - button "이모티콘" [ref=e616] [cursor=pointer]:
+                    - img "이모티콘" [ref=e618]
+                  - textbox "댓글 달기..." [ref=e620]
+          - separator [ref=e622]
+          - generic [ref=e623]:
+            - generic [ref=e625]:
+              - link "juuuyomi_" [ref=e626] [cursor=pointer]:
+                - /url: /juuuyomi_/
+              - text: 님의 게시물 더 보기
+            - generic [ref=e629]:
+              - generic [ref=e630]:
+                - link "역시 내 추구미는 동남아에서 실현 가능✨ 푸꾸옥에서 제일 좋아던 곳 중 하나♥️ 요즘 날씨가 너무 너무 추워서 저만 동남아 그리운 거 아니죠🥹 그땐 너무 더워했는데 지금은 다시 가고 싶은 마음 슬금슬금 - 가장 최근 다녀온 동남아, 푸꾸옥에서 제일 예뻤던 장소를 소개합니다🙌 💕푸꾸옥 선셋타운의 카페 루남 📌선셋타운 내부에 위치함 📌유럽풍 느낌에 내외부에서 보는 뷰가 기가막히고♥️노을 맛집 선셋타운에는 노을 예쁜 카페가 진짜 많았는데요✨ (닉값제대로,,) 그 중 하나입니닷🙌 베트남 커피 맛있는거 아시죠~? 예쁜 뷰도 보고 커피도 한잔 하세요! 슬라이드" [ref=e632] [cursor=pointer]:
+                  - /url: /juuuyomi_/p/DFr-T8MzxpO/
+                  - img "역시 내 추구미는 동남아에서 실현 가능✨ 푸꾸옥에서 제일 좋아던 곳 중 하나♥️ 요즘 날씨가 너무 너무 추워서 저만 동남아 그리운 거 아니죠🥹 그땐 너무 더워했는데 지금은 다시 가고 싶은 마음 슬금슬금 - 가장 최근 다녀온 동남아, 푸꾸옥에서 제일 예뻤던 장소를 소개합니다🙌 💕푸꾸옥 선셋타운의 카페 루남 📌선셋타운 내부에 위치함 📌유럽풍 느낌에 내외부에서 보는 뷰가 기가막히고♥️노을 맛집 선셋타운에는 노을 예쁜 카페가 진짜 많았는데요✨ (닉값제대로,,) 그 중 하나입니닷🙌 베트남 커피 맛있는거 아시죠~? 예쁜 뷰도 보고 커피도 한잔 하세요!" [ref=e635]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "슬라이드"
+                - 'link "배타고 일본가기🚢 대마도 1박 2일 여행 교통편부터 숙소, 여행지, 맛집까지 총 정리💗 (제작지원) 이걸로 대마도 여행 종결합니다 땅땅 본문보고 이대로만 따라오세요🫶 (*사진 순서는 제맘대루.....) 🔸가는 법 부산국제여객터미널에서 배타고 가는 일본! ✔️히타카츠(1시간 30분 소요)로 들어갔다가 이즈하라(2시간 30분 소요)로 나오는 일정 ✔️노바호 탑승 추천 🔸 숙소 (사진 7) ✔️ 이즈하라 쓰시마센트럴파크호텔 (3성급 호텔) 이즈하라 항구랑도 엄청 가까움 - 티아라몰, 면세점, 주변 카페, 맛집 모두 도보 5~10분 거리 - 깔끔하고 시설 좋고 조식 가정식으로 잘나옴 🔸여행지 추천 (사진 2-6) ✔️ 미우다해변 : 감성 해변 ✔️ 와타즈미신사 (출입 제한 있어 차로 지나가면서 구경 가능) ✔️ 에보시타케 전망대 : 뷰가 대박적.. ✔️ 한국전망대 : 날씨 좋으면 부산까지 다 보임 ✔️ 반쇼인 : 운세뽑기 가능 🔸 식사 추천 (사진 8-10) ✔️ (히타카츠) 칭구야 : 카레+맥주 조합 맛집 자전거 대여 가능 (예약필수) ✔️ (히타카츠) 포에무빵집 : 로컬빵집 ✔️ (이즈하라) 잇케이라멘 : 라멘 맛집, 웨이팅주의.. ✔️ (이즈하라) 対玄 : 로컬 이자카야/한국인 없어서 한국인 메뉴판 없을수도 있음 ✔️ (이즈하라) 보후밀 커피 쓰시마 : 감성 카페, 차 한잔하기 최고 🔸쇼핑 (이즈하라 중심) ✔️ 티아라몰 ✔️ 면세점 ✔️ 마츠모토키요시 #대마도 #대마도여행 #대마도1박2일 #일본여행 슬라이드" [ref=e638] [cursor=pointer]':
+                  - /url: /juuuyomi_/p/DXgl-dAE-cw/
+                  - 'img "배타고 일본가기🚢 대마도 1박 2일 여행 교통편부터 숙소, 여행지, 맛집까지 총 정리💗 (제작지원) 이걸로 대마도 여행 종결합니다 땅땅 본문보고 이대로만 따라오세요🫶 (*사진 순서는 제맘대루.....) 🔸가는 법 부산국제여객터미널에서 배타고 가는 일본! ✔️히타카츠(1시간 30분 소요)로 들어갔다가 이즈하라(2시간 30분 소요)로 나오는 일정 ✔️노바호 탑승 추천 🔸 숙소 (사진 7) ✔️ 이즈하라 쓰시마센트럴파크호텔 (3성급 호텔) 이즈하라 항구랑도 엄청 가까움 - 티아라몰, 면세점, 주변 카페, 맛집 모두 도보 5~10분 거리 - 깔끔하고 시설 좋고 조식 가정식으로 잘나옴 🔸여행지 추천 (사진 2-6) ✔️ 미우다해변 : 감성 해변 ✔️ 와타즈미신사 (출입 제한 있어 차로 지나가면서 구경 가능) ✔️ 에보시타케 전망대 : 뷰가 대박적.. ✔️ 한국전망대 : 날씨 좋으면 부산까지 다 보임 ✔️ 반쇼인 : 운세뽑기 가능 🔸 식사 추천 (사진 8-10) ✔️ (히타카츠) 칭구야 : 카레+맥주 조합 맛집 자전거 대여 가능 (예약필수) ✔️ (히타카츠) 포에무빵집 : 로컬빵집 ✔️ (이즈하라) 잇케이라멘 : 라멘 맛집, 웨이팅주의.. ✔️ (이즈하라) 対玄 : 로컬 이자카야/한국인 없어서 한국인 메뉴판 없을수도 있음 ✔️ (이즈하라) 보후밀 커피 쓰시마 : 감성 카페, 차 한잔하기 최고 🔸쇼핑 (이즈하라 중심) ✔️ 티아라몰 ✔️ 면세점 ✔️ 마츠모토키요시 #대마도 #대마도여행 #대마도1박2일 #일본여행" [ref=e641]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "슬라이드"
+                - 'link "타이베이 근교 여행! 🇹🇼 대만 예술도시, 이란시!!!!💖 도보로 갈 수 있는 곳이 많아 여행하기 좋음 (*1탄의 대만 소도시 1탄 자오시와도 함께가기 좋아요) 1️⃣ 이란역 대만에서 예쁜 역으로 손꼽히는 곳 도착하자마자 감성 제대로! 2️⃣이란역 앞 공원이 플리마켓 천국 로컬 감성 제대로 느껴짐 3️⃣ 지미공원 만화 속으로 들어온 듯한 공원 4️⃣ 이란예술박물관 작품 감상도 가능하고 거리도 예쁨 로컬들의 판매품이나 기념품도 팜 5️⃣ 샤오롱바오 맛집 泰順小籠湯包 6️⃣ 가성비 빙수 맛집 雪花冰島妹 👉 산처럼 쌓인 망고빙수 2500원 ㄷㄷ 7️⃣ 카발란 위스키 증류소 👉 한국인 가이드 있음 (미리 예약 필수) 사람 적고, 물가 착하고, 감성까지 있는 진짜 숨은 대만 근교 여행지! 뻔한 대만이 싫다면 여기로 떠나보세요!🇹🇼 #대만 #대만여행 #타이베이 #대만이란 클립" [ref=e644] [cursor=pointer]':
+                  - /url: /juuuyomi_/reel/DXbT4BnDmal/
+                  - 'img "타이베이 근교 여행! 🇹🇼 대만 예술도시, 이란시!!!!💖 도보로 갈 수 있는 곳이 많아 여행하기 좋음 (*1탄의 대만 소도시 1탄 자오시와도 함께가기 좋아요) 1️⃣ 이란역 대만에서 예쁜 역으로 손꼽히는 곳 도착하자마자 감성 제대로! 2️⃣이란역 앞 공원이 플리마켓 천국 로컬 감성 제대로 느껴짐 3️⃣ 지미공원 만화 속으로 들어온 듯한 공원 4️⃣ 이란예술박물관 작품 감상도 가능하고 거리도 예쁨 로컬들의 판매품이나 기념품도 팜 5️⃣ 샤오롱바오 맛집 泰順小籠湯包 6️⃣ 가성비 빙수 맛집 雪花冰島妹 👉 산처럼 쌓인 망고빙수 2500원 ㄷㄷ 7️⃣ 카발란 위스키 증류소 👉 한국인 가이드 있음 (미리 예약 필수) 사람 적고, 물가 착하고, 감성까지 있는 진짜 숨은 대만 근교 여행지! 뻔한 대만이 싫다면 여기로 떠나보세요!🇹🇼 #대만 #대만여행 #타이베이 #대만이란" [ref=e647]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "클립"
+              - generic [ref=e649]:
+                - 'link "#대만 로컬들이 숨겨둔 대박 소도시 찾음‼️ 💌 댓글로 [소도시] 적어주시면, 대만 자오시 여행지 구글맵 모음을 DM으로 보내드려요💗 타이베이에서 1시간 거리의 대만 이란현의 자오시라는 아직 한국인이 많이 모르는 ♨️온천마을♨️인데요! 심지어 작은 마을 느낌이라 도보로 여행하기도 좋음❤️ 📍 자오시를 추천하는 이유?! ① 무료 온천이 시내 곳곳에 있음 그냥 걷다가 발 담그면 끝 특히 온천공원 분위기는 무조건 가야함 ② 온천공원 분위기 너무 좋음 수영복 입고 노천탕은 로컬들의 사랑방 같은 곳이라 소도시 여행 느낌 제대로 납니다 ③ 숙소 가성비 대박 1박 10만원대인데 수영장 + 객실 개인 자쿠지까지 있음 ④ 먹거리도 완벽! 가성비 훠궈, 대만 성심당 펑리수 맛집 야시장 땅콩 아이스크림까지 필수 ⑤ 타이베이보다 전체적으로 물가 저렴 같은 돈으로 더 많이 즐길 수 있음 💌 영상 외 추가 여행지들이 궁금하시다면, 댓글로 [소도시] 적어주세요! 여행지 구글맵 모음을 DM으로 보내드려요💗 👉국내외 소도시 여행 정보는 @juuuyomi_ #대만여행 #타이베이여행 #자오시 클립" [ref=e651] [cursor=pointer]':
+                  - /url: /juuuyomi_/reel/DXY1t3MjkcS/
+                  - 'img "#대만 로컬들이 숨겨둔 대박 소도시 찾음‼️ 💌 댓글로 [소도시] 적어주시면, 대만 자오시 여행지 구글맵 모음을 DM으로 보내드려요💗 타이베이에서 1시간 거리의 대만 이란현의 자오시라는 아직 한국인이 많이 모르는 ♨️온천마을♨️인데요! 심지어 작은 마을 느낌이라 도보로 여행하기도 좋음❤️ 📍 자오시를 추천하는 이유?! ① 무료 온천이 시내 곳곳에 있음 그냥 걷다가 발 담그면 끝 특히 온천공원 분위기는 무조건 가야함 ② 온천공원 분위기 너무 좋음 수영복 입고 노천탕은 로컬들의 사랑방 같은 곳이라 소도시 여행 느낌 제대로 납니다 ③ 숙소 가성비 대박 1박 10만원대인데 수영장 + 객실 개인 자쿠지까지 있음 ④ 먹거리도 완벽! 가성비 훠궈, 대만 성심당 펑리수 맛집 야시장 땅콩 아이스크림까지 필수 ⑤ 타이베이보다 전체적으로 물가 저렴 같은 돈으로 더 많이 즐길 수 있음 💌 영상 외 추가 여행지들이 궁금하시다면, 댓글로 [소도시] 적어주세요! 여행지 구글맵 모음을 DM으로 보내드려요💗 👉국내외 소도시 여행 정보는 @juuuyomi_ #대만여행 #타이베이여행 #자오시" [ref=e654]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "클립"
+                - 'link "연차없이 떠나는 해외여행, 봄에 가기 딱 좋은🌸 대마도 1박 2일 코스 일정 총정리 🇯🇵 (제작지원) 교통, 숙박, 식사, 투어까지 전~부 포함! 10만 원대로 갈 수 있는 해외여행지가 있다고?! 바로 일본 대마도인데요!✨ 1박 2일로 부산에서 배타고 금방 다녀올 수 있는 일정이라 연차없이 떠날 수 있어 간편한데다가 일본 감성은 낭낭하게 가득 즐기고 올 수 있답니다! 저는 편하게 투어 이용해서 하나투어 대마도 패키지 상품으로 다녀왔는데요! 1박 2일 여행 일정은 영상으로 자세히 확인해주시고, 혹시 투어 예약 원하시는 분들은 프로필 링크 확인 혹은 댓글로 [대마도] 남겨주시면 예약 가능한 링크 DM으로도 바로 보내드릴게요! 가볍게 일본 소도시 여행! 이번 봄 끝나기 전에 대마도로 떠나볼까요?!🌸🌼 🏷️ 소도시, 로컬 여행은 @juuuyomi_ 에서 다양한 정보 받아보세요! #하나투어 #하나투어대마도 #일본여행 #일본선박여행 #대마도 클립" [ref=e657] [cursor=pointer]':
+                  - /url: /juuuyomi_/reel/DXWLF0Njunt/
+                  - 'img "연차없이 떠나는 해외여행, 봄에 가기 딱 좋은🌸 대마도 1박 2일 코스 일정 총정리 🇯🇵 (제작지원) 교통, 숙박, 식사, 투어까지 전~부 포함! 10만 원대로 갈 수 있는 해외여행지가 있다고?! 바로 일본 대마도인데요!✨ 1박 2일로 부산에서 배타고 금방 다녀올 수 있는 일정이라 연차없이 떠날 수 있어 간편한데다가 일본 감성은 낭낭하게 가득 즐기고 올 수 있답니다! 저는 편하게 투어 이용해서 하나투어 대마도 패키지 상품으로 다녀왔는데요! 1박 2일 여행 일정은 영상으로 자세히 확인해주시고, 혹시 투어 예약 원하시는 분들은 프로필 링크 확인 혹은 댓글로 [대마도] 남겨주시면 예약 가능한 링크 DM으로도 바로 보내드릴게요! 가볍게 일본 소도시 여행! 이번 봄 끝나기 전에 대마도로 떠나볼까요?!🌸🌼 🏷️ 소도시, 로컬 여행은 @juuuyomi_ 에서 다양한 정보 받아보세요! #하나투어 #하나투어대마도 #일본여행 #일본선박여행 #대마도" [ref=e660]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "클립"
+                - 'link "10년 넘게 #초량 에서 살았던 로컬의.. 발길닿는대로 힐링코스✨ ....라고 쓰고 먹다가 끝났다고 읽을게요😋 제가 모르는 찐 로컬 가게들도 너어어어무 많은 곳이라 2편도 꼭꼭 만들거예요오!!! 기다려주세요 (거절은 거절) 📍오늘의 부산로컬, 초량 👉 부산 로컬 여행 정보는 @juuuyomi_ 에서 확인하세요! #부산 #부산역 #부산여행코스 클립" [ref=e663] [cursor=pointer]':
+                  - /url: /juuuyomi_/reel/DXOZG1cDoq1/
+                  - 'img "10년 넘게 #초량 에서 살았던 로컬의.. 발길닿는대로 힐링코스✨ ....라고 쓰고 먹다가 끝났다고 읽을게요😋 제가 모르는 찐 로컬 가게들도 너어어어무 많은 곳이라 2편도 꼭꼭 만들거예요오!!! 기다려주세요 (거절은 거절) 📍오늘의 부산로컬, 초량 👉 부산 로컬 여행 정보는 @juuuyomi_ 에서 확인하세요! #부산 #부산역 #부산여행코스" [ref=e666]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "클립"
+      - contentinfo [ref=e668]:
+        - generic [ref=e669]:
+          - generic [ref=e671]:
+            - link "Meta" [ref=e673] [cursor=pointer]:
+              - /url: https://about.meta.com/
+              - generic [ref=e674]: Meta
+            - link "소개" [ref=e676] [cursor=pointer]:
+              - /url: https://about.instagram.com/
+              - generic [ref=e677]: 소개
+            - link "블로그" [ref=e679] [cursor=pointer]:
+              - /url: https://about.instagram.com/blog/
+              - generic [ref=e680]: 블로그
+            - link "채용 정보" [ref=e682] [cursor=pointer]:
+              - /url: https://about.instagram.com/about-us/careers
+              - generic [ref=e683]: 채용 정보
+            - link "도움말" [ref=e685] [cursor=pointer]:
+              - /url: https://help.instagram.com/
+              - generic [ref=e686]: 도움말
+            - link "API" [ref=e688] [cursor=pointer]:
+              - /url: https://developers.facebook.com/docs/instagram
+              - generic [ref=e689]: API
+            - link "개인정보처리방침" [ref=e691] [cursor=pointer]:
+              - /url: /legal/privacy/
+              - generic [ref=e692]: 개인정보처리방침
+            - link "약관" [ref=e694] [cursor=pointer]:
+              - /url: /legal/terms/
+              - generic [ref=e695]: 약관
+            - link "위치" [ref=e697] [cursor=pointer]:
+              - /url: /explore/locations/
+              - generic [ref=e698]: 위치
+            - link "Popular" [ref=e700] [cursor=pointer]:
+              - /url: /popular/
+              - generic [ref=e701]: Popular
+            - link "Instagram Lite" [ref=e703] [cursor=pointer]:
+              - /url: /web/lite/
+              - generic [ref=e704]: Instagram Lite
+            - link "Meta AI" [ref=e706] [cursor=pointer]:
+              - /url: https://www.meta.ai/?utm_source=foa_web_footer
+              - generic [ref=e707]: Meta AI
+            - link "Threads" [ref=e709] [cursor=pointer]:
+              - /url: https://www.threads.com/
+              - generic [ref=e710]: Threads
+            - link "연락처 업로드 & 비사용자" [ref=e712] [cursor=pointer]:
+              - /url: https://www.facebook.com/help/instagram/261704639352628
+              - generic [ref=e713]: 연락처 업로드 & 비사용자
+            - link "Meta Verified" [ref=e715] [cursor=pointer]:
+              - /url: /accounts/meta_verified/?entrypoint=web_footer
+              - generic [ref=e716]: Meta Verified
+          - generic [ref=e717]:
+            - generic [ref=e718] [cursor=pointer]:
+              - generic [ref=e719]:
+                - generic [ref=e720]: 한국어
+                - img "아래쪽 V자형 아이콘" [ref=e723]
+              - combobox "표시 언어 변경" [ref=e725]:
+                - option "Afrikaans"
+                - option "العربية"
+                - option "Čeština"
+                - option "Dansk"
+                - option "Deutsch"
+                - option "Ελληνικά"
+                - option "English"
+                - option "English (UK)"
+                - option "Español (España)"
+                - option "Español"
+                - option "فارسی"
+                - option "Suomi"
+                - option "Français"
+                - option "עברית"
+                - option "Bahasa Indonesia"
+                - option "Italiano"
+                - option "日本語"
+                - option "한국어" [selected]
+                - option "Bahasa Melayu"
+                - option "Norsk"
+                - option "Nederlands"
+                - option "Polski"
+                - option "Português (Brasil)"
+                - option "Português (Portugal)"
+                - option "Русский"
+                - option "Svenska"
+                - option "ภาษาไทย"
+                - option "Filipino"
+                - option "Türkçe"
+                - option "中文(简体)"
+                - option "中文(台灣)"
+                - option "বাংলা"
+                - option "ગુજરાતી"
+                - option "हिन्दी"
+                - option "Hrvatski"
+                - option "Magyar"
+                - option "ಕನ್ನಡ"
+                - option "മലയാളം"
+                - option "मराठी"
+                - option "नेपाली"
+                - option "ਪੰਜਾਬੀ"
+                - option "සිංහල"
+                - option "Slovenčina"
+                - option "தமிழ்"
+                - option "తెలుగు"
+                - option "اردو"
+                - option "Tiếng Việt"
+                - option "中文(香港)"
+                - option "Български"
+                - option "Français (Canada)"
+                - option "Română"
+                - option "Српски"
+                - option "Українська"
+            - generic [ref=e727]: © 2026 Instagram from Meta
+  - button "메시지 메시지" [ref=e729] [cursor=pointer]:
+    - generic [ref=e731]:
+      - img "메시지" [ref=e733]
+      - generic [ref=e736]: 메시지

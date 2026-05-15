@@ -1,0 +1,321 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e7]:
+          - img "MyRealTrip" [ref=e8]
+          - heading "개발자센터" [level=1] [ref=e9]
+        - generic [ref=e10]:
+          - link "API" [ref=e11] [cursor=pointer]:
+            - /url: "#/api/intro"
+          - link "문의·지원" [ref=e12] [cursor=pointer]:
+            - /url: "#/api/contact/glossary"
+    - generic [ref=e13]:
+      - complementary [ref=e14]:
+        - generic [ref=e18]:
+          - link "홈" [ref=e19] [cursor=pointer]:
+            - /url: "#/api/intro"
+            - img [ref=e20]
+            - generic [ref=e23]: 홈
+          - link "시작하기" [ref=e24] [cursor=pointer]:
+            - /url: "#/api/getting-started"
+            - img [ref=e25]
+            - generic [ref=e27]: 시작하기
+          - link "API 키" [ref=e28] [cursor=pointer]:
+            - /url: "#/api/api-key"
+            - img [ref=e29]
+            - generic [ref=e33]: API 키
+          - link "인증 및 헤더" [ref=e34] [cursor=pointer]:
+            - /url: "#/api/auth"
+            - img [ref=e35]
+            - generic [ref=e38]: 인증 및 헤더
+          - link "보안" [ref=e39] [cursor=pointer]:
+            - /url: "#/api/security"
+            - img [ref=e40]
+            - generic [ref=e42]: 보안
+          - link "에러 코드" [ref=e43] [cursor=pointer]:
+            - /url: "#/api/errors"
+            - img [ref=e44]
+            - generic [ref=e46]: 에러 코드
+          - generic [ref=e47]:
+            - button "파트너 API" [ref=e48] [cursor=pointer]:
+              - img [ref=e49]
+              - generic [ref=e51]: 파트너 API
+            - generic [ref=e53]:
+              - link "마이 링크" [ref=e54] [cursor=pointer]:
+                - /url: "#/api/partner-api/마이-링크"
+                - generic [ref=e55]: 마이 링크
+              - link "수익 현황" [ref=e56] [cursor=pointer]:
+                - /url: "#/api/partner-api/수익-현황"
+                - generic [ref=e57]: 수익 현황
+              - link "예약 내역" [ref=e58] [cursor=pointer]:
+                - /url: "#/api/partner-api/예약-내역"
+                - generic [ref=e59]: 예약 내역
+              - link "헬스 체크" [ref=e60] [cursor=pointer]:
+                - /url: "#/api/partner-api/헬스-체크"
+                - generic [ref=e61]: 헬스 체크
+          - generic [ref=e62]:
+            - button "서비스 API" [ref=e63] [cursor=pointer]:
+              - img [ref=e64]
+              - generic [ref=e66]: 서비스 API
+            - generic [ref=e68]:
+              - link "항공권 조회" [ref=e69] [cursor=pointer]:
+                - /url: "#/api/service-api/항공권-조회"
+                - generic [ref=e70]: 항공권 조회
+              - link "숙소 조회" [active] [ref=e71] [cursor=pointer]:
+                - /url: "#/api/service-api/숙소-조회"
+                - generic [ref=e72]: 숙소 조회
+              - link "투어티켓 조회" [ref=e73] [cursor=pointer]:
+                - /url: "#/api/service-api/투어티켓-조회"
+                - generic [ref=e74]: 투어티켓 조회
+          - generic [ref=e75]:
+            - button "MCP" [ref=e76] [cursor=pointer]:
+              - img [ref=e77]
+              - generic [ref=e79]: MCP
+            - generic [ref=e81]:
+              - link "개요" [ref=e82] [cursor=pointer]:
+                - /url: "#/api/mcp/overview"
+                - generic [ref=e83]: 개요
+              - link "제공 도구" [ref=e84] [cursor=pointer]:
+                - /url: "#/api/mcp/tools"
+                - generic [ref=e85]: 제공 도구
+              - link "연결 가이드" [ref=e86] [cursor=pointer]:
+                - /url: "#/api/mcp/setup"
+                - generic [ref=e87]: 연결 가이드
+      - main [ref=e88]:
+        - generic [ref=e177]:
+          - generic [ref=e178]:
+            - heading "숙소 조회" [level=1] [ref=e680]
+            - paragraph [ref=e180]: 조건에 맞는 숙소 상품을 검색합니다.
+          - generic [ref=e682]:
+            - generic [ref=e683]:
+              - link "숙소 검색" [ref=e684] [cursor=pointer]:
+                - /url: /#/api/service-api/숙소-조회#숙소-검색
+                - text: 숙소 검색
+                - img [ref=e685]
+              - generic [ref=e688]:
+                - generic [ref=e689]: POST
+                - code [ref=e690]: /v1/products/accommodation/search
+              - paragraph [ref=e691]: 키워드, 체크인/체크아웃 날짜, 인원 등의 조건으로 숙소를 검색합니다. 성급, 가격 범위, 정렬 등 다양한 필터를 지원하며, 페이지네이션으로 결과를 조회할 수 있습니다.
+            - generic [ref=e692]:
+              - heading "Path 파라미터" [level=3] [ref=e693]
+              - generic [ref=e695]:
+                - generic [ref=e696]:
+                  - generic [ref=e697]:
+                    - code [ref=e698]: adultCount
+                    - generic [ref=e699]: 필수
+                    - generic [ref=e700]: · integer
+                  - paragraph [ref=e701]: 성인 수 (최소 1)
+                  - paragraph [ref=e702]:
+                    - text: "예시:"
+                    - code [ref=e703]: "2"
+                - generic [ref=e704]:
+                  - generic [ref=e705]:
+                    - code [ref=e706]: checkIn
+                    - generic [ref=e707]: 필수
+                    - generic [ref=e708]: · string
+                  - paragraph [ref=e709]: 체크인 날짜 (yyyy-MM-dd)
+                  - paragraph [ref=e710]:
+                    - text: "예시:"
+                    - code [ref=e711]: 2026-04-15
+                - generic [ref=e712]:
+                  - generic [ref=e713]:
+                    - code [ref=e714]: checkOut
+                    - generic [ref=e715]: 필수
+                    - generic [ref=e716]: · string
+                  - paragraph [ref=e717]: 체크아웃 날짜 (yyyy-MM-dd, 체크인 이후여야 함)
+                  - paragraph [ref=e718]:
+                    - text: "예시:"
+                    - code [ref=e719]: 2026-04-17
+                - generic [ref=e720]:
+                  - generic [ref=e721]:
+                    - code [ref=e722]: keyword
+                    - generic [ref=e723]: 필수
+                    - generic [ref=e724]: · string
+                  - paragraph [ref=e725]: 검색 키워드 (도시명)
+                  - paragraph [ref=e726]:
+                    - text: "예시:"
+                    - code [ref=e727]: 서울
+                - generic [ref=e728]:
+                  - generic [ref=e729]:
+                    - code [ref=e730]: childCount
+                    - generic [ref=e731]: · integer
+                  - paragraph [ref=e732]: 아동 수
+                  - paragraph [ref=e733]:
+                    - text: "예시:"
+                    - code [ref=e734]: "0"
+                - generic [ref=e735]:
+                  - generic [ref=e736]:
+                    - code [ref=e737]: isDomestic
+                    - generic [ref=e738]: · boolean
+                  - paragraph [ref=e739]: "국내 숙소 여부 (true: 국내, false: 해외)"
+                  - paragraph [ref=e740]:
+                    - text: "예시:"
+                    - code [ref=e741]: "true"
+                - generic [ref=e742]:
+                  - generic [ref=e743]:
+                    - code [ref=e744]: maxPrice
+                    - generic [ref=e745]: · integer
+                  - paragraph [ref=e746]: 최대 가격 (원)
+                  - paragraph [ref=e747]:
+                    - text: "예시:"
+                    - code [ref=e748]: "300000"
+                - generic [ref=e749]:
+                  - generic [ref=e750]:
+                    - code [ref=e751]: minPrice
+                    - generic [ref=e752]: · integer
+                  - paragraph [ref=e753]: 최소 가격 (원)
+                  - paragraph [ref=e754]:
+                    - text: "예시:"
+                    - code [ref=e755]: "50000"
+                - generic [ref=e756]:
+                  - generic [ref=e757]:
+                    - code [ref=e758]: order
+                    - generic [ref=e759]: · string
+                  - paragraph [ref=e760]: "정렬 기준 (price_asc: 가격 낮은순, price_desc: 가격 높은순, review_desc: 리뷰 높은순)"
+                  - paragraph [ref=e761]:
+                    - text: "예시:"
+                    - code [ref=e762]: price_asc
+                  - paragraph [ref=e763]:
+                    - text: "가능한 값:"
+                    - code [ref=e764]: price_asc
+                    - code [ref=e765]: price_desc
+                    - code [ref=e766]: review_desc
+                - generic [ref=e767]:
+                  - generic [ref=e768]:
+                    - code [ref=e769]: page
+                    - generic [ref=e770]: · integer
+                  - paragraph [ref=e771]: 페이지 번호 (0부터 시작)
+                  - paragraph [ref=e772]:
+                    - text: "예시:"
+                    - code [ref=e773]: "0"
+                - generic [ref=e774]:
+                  - generic [ref=e775]:
+                    - code [ref=e776]: regionId
+                    - generic [ref=e777]: · integer
+                  - paragraph [ref=e778]: 마이리얼트립 지역 ID
+                  - paragraph [ref=e779]:
+                    - text: "예시:"
+                    - code [ref=e780]: "6139291"
+                - generic [ref=e781]:
+                  - generic [ref=e782]:
+                    - code [ref=e783]: size
+                    - generic [ref=e784]: · integer
+                  - paragraph [ref=e785]: 페이지 크기 (1~50, 기본값 20)
+                  - paragraph [ref=e786]:
+                    - text: "예시:"
+                    - code [ref=e787]: "20"
+                - generic [ref=e788]:
+                  - generic [ref=e789]:
+                    - code [ref=e790]: starRating
+                    - generic [ref=e791]: · string
+                  - paragraph [ref=e792]: "성급 필터 (threestar: 3성 이상, fourstar: 4성 이상, fivestar: 5성)"
+                  - paragraph [ref=e793]:
+                    - text: "예시:"
+                    - code [ref=e794]: fourstar
+                  - paragraph [ref=e795]:
+                    - text: "가능한 값:"
+                    - code [ref=e796]: threestar
+                    - code [ref=e797]: fourstar
+                    - code [ref=e798]: fivestar
+                - generic [ref=e799]:
+                  - generic [ref=e800]:
+                    - code [ref=e801]: stayPoi
+                    - generic [ref=e802]: · integer
+                  - paragraph [ref=e803]: 지역 POI ID
+                  - paragraph [ref=e804]:
+                    - text: "예시:"
+                    - code [ref=e805]: "14048"
+            - generic [ref=e806]:
+              - heading "요청 예제" [level=3] [ref=e807]
+              - generic [ref=e808]:
+                - tablist [ref=e809]:
+                  - tab "cURL" [selected] [ref=e810] [cursor=pointer]
+                  - tab "Try it" [ref=e811] [cursor=pointer]
+                - tabpanel "cURL" [ref=e812]:
+                  - generic [ref=e816]:
+                    - code [ref=e818]: "curl --request POST \\ --url https://partner-ext-api.myrealtrip.com/v1/products/accommodation/search \\ --header 'Authorization: Bearer YOUR_API_KEY' \\ --header 'Content-Type: application/json' \\ --data '{\"keyword\":\"서울\",\"checkIn\":\"2026-04-15\",\"checkOut\":\"2026-04-17\",\"adultCount\":2,\"childCount\":0,\"isDomestic\":true}'"
+                    - button [ref=e819] [cursor=pointer]:
+                      - img
+            - generic [ref=e820]:
+              - heading "응답 필드" [level=3] [ref=e821]
+              - generic [ref=e823]:
+                - generic [ref=e824]:
+                  - generic [ref=e825]:
+                    - code [ref=e826]: items
+                    - generic [ref=e827]: "*"
+                    - generic [ref=e828]: · array
+                  - paragraph [ref=e829]: 숙소 목록
+                - generic [ref=e830]:
+                  - generic [ref=e831]:
+                    - code [ref=e832]: items[].itemId
+                    - generic [ref=e833]: "*"
+                    - generic [ref=e834]: · integer (int64)
+                  - paragraph [ref=e835]: 숙소 ID
+                - generic [ref=e836]:
+                  - generic [ref=e837]:
+                    - code [ref=e838]: items[].itemName
+                    - generic [ref=e839]: "*"
+                    - generic [ref=e840]: · string
+                  - paragraph [ref=e841]: 숙소명
+                - generic [ref=e842]:
+                  - generic [ref=e843]:
+                    - code [ref=e844]: items[].originalPrice
+                    - generic [ref=e845]: "*"
+                    - generic [ref=e846]: · integer (int64)
+                  - paragraph [ref=e847]: 정가 (원)
+                - generic [ref=e848]:
+                  - generic [ref=e849]:
+                    - code [ref=e850]: items[].salePrice
+                    - generic [ref=e851]: "*"
+                    - generic [ref=e852]: · integer (int64)
+                  - paragraph [ref=e853]: 판매가 (원)
+                - generic [ref=e854]:
+                  - generic [ref=e855]:
+                    - code [ref=e856]: page
+                    - generic [ref=e857]: "*"
+                    - generic [ref=e858]: · integer
+                  - paragraph [ref=e859]: 현재 페이지
+                - generic [ref=e860]:
+                  - generic [ref=e861]:
+                    - code [ref=e862]: size
+                    - generic [ref=e863]: "*"
+                    - generic [ref=e864]: · integer
+                  - paragraph [ref=e865]: 페이지 크기
+                - generic [ref=e866]:
+                  - generic [ref=e867]:
+                    - code [ref=e868]: totalCount
+                    - generic [ref=e869]: "*"
+                    - generic [ref=e870]: · integer
+                  - paragraph [ref=e871]: 전체 결과 수
+                - generic [ref=e872]:
+                  - generic [ref=e873]:
+                    - code [ref=e874]: items[].reviewCount
+                    - generic [ref=e875]: · integer
+                  - paragraph [ref=e876]: 리뷰 수
+                - generic [ref=e877]:
+                  - generic [ref=e878]:
+                    - code [ref=e879]: items[].reviewScore
+                    - generic [ref=e880]: · string
+                  - paragraph [ref=e881]: 리뷰 평점
+                - generic [ref=e882]:
+                  - generic [ref=e883]:
+                    - code [ref=e884]: items[].starRating
+                    - generic [ref=e885]: · integer
+                  - paragraph [ref=e886]: 성급 (1~5)
+            - generic [ref=e887]:
+              - heading "응답 예제" [level=3] [ref=e888]
+              - generic [ref=e891]:
+                - heading "성공 응답" [level=4] [ref=e892]
+                - paragraph [ref=e893]: 요청이 성공하면 다음과 같은 형식으로 데이터가 반환됩니다.
+                - generic [ref=e895]:
+                  - code [ref=e897]: "{ \"data\": { \"items\": [ { \"itemId\": 1484076, \"itemName\": \"롯데호텔 월드\", \"salePrice\": 346690, \"originalPrice\": 398000, \"starRating\": 5, \"reviewScore\": \"4.7\", \"reviewCount\": 1783 }, { \"itemId\": 2447253, \"itemName\": \"앰배서더 서울 풀만 호텔\", \"salePrice\": 405900, \"originalPrice\": 458000, \"starRating\": 5, \"reviewScore\": \"4.5\", \"reviewCount\": 657 }, { \"itemId\": 1259122, \"itemName\": \"신라스테이 삼성\", \"salePrice\": 289080, \"originalPrice\": 320000, \"starRating\": 3, \"reviewScore\": \"4.1\", \"reviewCount\": 1033 } ], \"totalCount\": 20, \"page\": 0, \"size\": 20 }, \"meta\": { \"totalCount\": 20 }, \"result\": { \"status\": 200, \"message\": \"SUCCESS\", \"code\": \"success\" } }"
+                  - button [ref=e898] [cursor=pointer]:
+                    - img
+            - paragraph [ref=e901]:
+              - text: 요청 실패 시 400, 401, 429 등의 에러가 발생할 수 있습니다.
+              - link "에러 코드 가이드 →" [ref=e902] [cursor=pointer]:
+                - /url: "#/api/errors"

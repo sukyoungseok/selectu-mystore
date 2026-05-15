@@ -1,0 +1,622 @@
+- generic [ref=e4]:
+  - generic [ref=e9]:
+    - generic [ref=e12]:
+      - link "Instagram" [ref=e17] [cursor=pointer]:
+        - /url: /
+        - img "Instagram" [ref=e22]
+      - generic [ref=e25]:
+        - link "홈" [ref=e30] [cursor=pointer]:
+          - /url: /
+          - img "홈" [ref=e35]
+        - link "릴스" [ref=e40] [cursor=pointer]:
+          - /url: /reels/
+          - img "릴스" [ref=e45]
+        - link "메시지 Direct 메시지 - 새로운 알림 링크 3개" [ref=e52] [cursor=pointer]:
+          - /url: /direct/inbox/
+          - generic [ref=e55]:
+            - img "메시지" [ref=e57]
+            - generic "Direct 메시지 - 새로운 알림 링크 3개" [ref=e60]:
+              - generic [ref=e62]: "3"
+        - link "검색" [ref=e66] [cursor=pointer]:
+          - /url: "#"
+          - img "검색" [ref=e71]
+        - link "탐색 탭" [ref=e77] [cursor=pointer]:
+          - /url: /explore/
+          - img "탐색 탭" [ref=e82]
+        - link "알림" [ref=e91] [cursor=pointer]:
+          - /url: "#"
+          - img "알림" [ref=e96]
+        - link "새로운 게시물" [ref=e104] [cursor=pointer]:
+          - /url: "#"
+          - img "새로운 게시물" [ref=e109]
+        - link "프로페셔널 대시보드" [ref=e114] [cursor=pointer]:
+          - /url: "#"
+          - img "프로페셔널 대시보드" [ref=e119]
+        - link "stone.water_님의 프로필 사진" [ref=e126] [cursor=pointer]:
+          - /url: /stone.water_/
+          - link "stone.water_님의 프로필 사진" [ref=e131]:
+            - img "stone.water_님의 프로필 사진" [ref=e132]
+      - generic [ref=e133]:
+        - link "설정" [ref=e136] [cursor=pointer]:
+          - /url: "#"
+          - img "설정" [ref=e141]
+        - link "Meta의 다른 앱" [ref=e144] [cursor=pointer]:
+          - /url: "#"
+          - img "Meta의 다른 앱" [ref=e149]
+    - generic [ref=e152]:
+      - main [ref=e153]:
+        - generic [ref=e154]:
+          - generic [ref=e156]:
+            - generic [ref=e161]:
+              - list [ref=e163]:
+                - listitem [ref=e164]
+                - listitem [ref=e165]:
+                  - button "min_t.98님의 스토리, 확인하지 않음" [ref=e166] [cursor=pointer]:
+                    - link "min_t.98님의 프로필 사진" [ref=e171]:
+                      - img "min_t.98님의 프로필 사진" [ref=e172]
+                    - generic [ref=e175]: min_t.98
+                - listitem [ref=e176]:
+                  - button "1amny님의 스토리, 확인하지 않음" [ref=e177] [cursor=pointer]:
+                    - link "1amny님의 프로필 사진" [ref=e182]:
+                      - img "1amny님의 프로필 사진" [ref=e183]
+                    - generic [ref=e186]: 1amny
+                - listitem [ref=e187]:
+                  - button "sunlight_egg님의 스토리, 확인하지 않음" [ref=e188] [cursor=pointer]:
+                    - link "sunlight_egg님의 프로필 사진" [ref=e193]:
+                      - img "sunlight_egg님의 프로필 사진" [ref=e194]
+                    - generic [ref=e197]: sunlight_egg
+                - listitem [ref=e198]:
+                  - button "yeonys2_님의 스토리, 확인하지 않음" [ref=e199] [cursor=pointer]:
+                    - link "yeonys2_님의 프로필 사진" [ref=e204]:
+                      - img "yeonys2_님의 프로필 사진" [ref=e205]
+                    - generic [ref=e208]: yeonys2_
+                - listitem [ref=e209]:
+                  - button "rhkrthgus님의 스토리, 확인하지 않음" [ref=e210] [cursor=pointer]:
+                    - link "rhkrthgus님의 프로필 사진" [ref=e215]:
+                      - img "rhkrthgus님의 프로필 사진" [ref=e216]
+                    - generic [ref=e219]: rhkrthgus
+                - listitem [ref=e220]:
+                  - button "poolsforpeace님의 스토리, 확인하지 않음" [ref=e221] [cursor=pointer]:
+                    - link "poolsforpeace님의 프로필 사진" [ref=e226]:
+                      - img "poolsforpeace님의 프로필 사진" [ref=e227]
+                    - generic [ref=e230]: poolsforpeace
+                - listitem [ref=e231]:
+                  - button "bokiboki_97님의 스토리, 확인하지 않음" [ref=e232] [cursor=pointer]:
+                    - link "bokiboki_97님의 프로필 사진" [ref=e237]:
+                      - img "bokiboki_97님의 프로필 사진" [ref=e238]
+                    - generic [ref=e241]: bokiboki_97
+                - listitem [ref=e242]:
+                  - button "i.am_garden님의 스토리, 확인하지 않음" [ref=e243] [cursor=pointer]:
+                    - link "i.am_garden님의 프로필 사진" [ref=e248]:
+                      - img "i.am_garden님의 프로필 사진" [ref=e249]
+                    - generic [ref=e252]: i.am_garden
+                - listitem [ref=e253]:
+                  - button "fdmy128님의 스토리, 확인하지 않음" [ref=e254] [cursor=pointer]:
+                    - link "fdmy128님의 프로필 사진" [ref=e259]:
+                      - img "fdmy128님의 프로필 사진" [ref=e260]
+                    - generic [ref=e263]: fdmy128
+                - listitem [ref=e264]:
+                  - button "y.jin__14님의 스토리, 확인하지 않음" [ref=e265] [cursor=pointer]:
+                    - link "y.jin__14님의 프로필 사진" [ref=e270]:
+                      - img "y.jin__14님의 프로필 사진" [ref=e271]
+                    - generic [ref=e274]: y.jin__14
+                - listitem [ref=e275]:
+                  - button "themepark_buff님의 스토리, 확인하지 않음" [ref=e276] [cursor=pointer]:
+                    - link "themepark_buff님의 프로필 사진" [ref=e281]:
+                      - img "themepark_buff님의 프로필 사진" [ref=e282]
+                    - generic [ref=e285]: themepark_buff
+                - listitem [ref=e286]:
+                  - button "lina._.narin님의 스토리, 확인하지 않음" [ref=e287] [cursor=pointer]:
+                    - link "lina._.narin님의 프로필 사진" [ref=e292]:
+                      - img "lina._.narin님의 프로필 사진" [ref=e293]
+                    - generic [ref=e296]: lina._.narin
+              - button "다음" [ref=e297] [cursor=pointer]
+            - generic [ref=e300]:
+              - generic [ref=e302]:
+                - article [ref=e303]:
+                  - generic [ref=e304]:
+                    - generic [ref=e306]:
+                      - button "wise_glow님의 프로필 사진" [disabled] [ref=e311]:
+                        - link "wise_glow님의 프로필 사진" [disabled] [ref=e312] [cursor=pointer]:
+                          - img "wise_glow님의 프로필 사진" [ref=e313]
+                      - generic [ref=e317]:
+                        - generic [ref=e318]:
+                          - link "wise_glow" [ref=e326] [cursor=pointer]:
+                            - /url: /wise_glow/
+                            - generic [ref=e329]: wise_glow
+                          - generic [ref=e330]:
+                            - generic [ref=e332]: •
+                            - link "8시간" [ref=e334] [cursor=pointer]:
+                              - /url: /p/DXqqt6aEzin/
+                              - time [ref=e336]: 8시간
+                        - link "Two Hearts Bakery" [ref=e340] [cursor=pointer]:
+                          - /url: /explore/locations/204898906040548/two-hearts-bakery/
+                      - button "옵션 더 보기" [ref=e343] [cursor=pointer]:
+                        - img "옵션 더 보기" [ref=e346]
+                    - button [ref=e353]:
+                      - generic [ref=e360]:
+                        - list [ref=e362]:
+                          - listitem [ref=e363]
+                          - listitem [ref=e364]:
+                            - img [ref=e371]
+                          - listitem [ref=e373]:
+                            - img [ref=e380]
+                        - button [ref=e382] [cursor=pointer]
+                    - generic [ref=e386]:
+                      - generic [ref=e387]:
+                        - generic [ref=e388]:
+                          - button "좋아요" [ref=e391] [cursor=pointer]:
+                            - img "좋아요" [ref=e394]
+                          - button "41" [ref=e396] [cursor=pointer]
+                          - button "댓글 달기" [ref=e398] [cursor=pointer]:
+                            - img "댓글 달기" [ref=e400]
+                          - button "1" [ref=e402] [cursor=pointer]
+                          - button "리포스트" [ref=e403] [cursor=pointer]:
+                            - img "리포스트" [ref=e404]
+                          - button "공유하기" [ref=e406] [cursor=pointer]:
+                            - img "공유하기" [ref=e407]
+                        - button "저장" [ref=e412] [cursor=pointer]:
+                          - button "저장" [ref=e413]:
+                            - img "저장" [ref=e415]
+                      - generic [ref=e418]:
+                        - link [ref=e420] [cursor=pointer]:
+                          - /url: /p/DXqqt6aEzin/liked_by/
+                          - button [ref=e423]:
+                            - link [ref=e424]
+                        - generic [ref=e426]:
+                          - link "a_silverlining_" [ref=e427] [cursor=pointer]:
+                            - /url: /a_silverlining_/
+                          - text: 님
+                          - link "외 40명" [ref=e428] [cursor=pointer]:
+                            - /url: /p/DXqqt6aEzin/liked_by/
+                            - generic [ref=e429]: 외 40명
+                          - text: 이 좋아합니다
+                      - generic [ref=e430]:
+                        - link "wise_glow" [ref=e435] [cursor=pointer]:
+                          - /url: /wise_glow/
+                          - generic [ref=e438]: wise_glow
+                        - generic [ref=e439]:
+                          - generic [ref=e440]: 디즈니 갬성으로 범벅인 카페를 찾았다,,
+                          - generic [ref=e441]:
+                            - text: ...
+                            - button "더 보기" [ref=e442] [cursor=pointer]:
+                              - generic [ref=e443]: 더 보기
+                - article [ref=e444]:
+                  - generic [ref=e445]:
+                    - generic [ref=e447]:
+                      - generic [ref=e449]:
+                        - link "odatour_insta님의 프로필 사진" [ref=e450]:
+                          - img "odatour_insta님의 프로필 사진" [ref=e451]
+                        - link "hongdadak님의 프로필 사진" [ref=e454]:
+                          - img "hongdadak님의 프로필 사진" [ref=e455]
+                      - generic [ref=e459]:
+                        - generic [ref=e460]:
+                          - generic [ref=e463]:
+                            - link "hongdadak" [ref=e468] [cursor=pointer]:
+                              - /url: /hongdadak/
+                              - generic [ref=e471]: hongdadak
+                            - text: 및
+                            - link "odatour_insta" [ref=e476] [cursor=pointer]:
+                              - /url: /odatour_insta/
+                              - generic [ref=e479]: odatour_insta
+                          - generic [ref=e480]:
+                            - generic [ref=e482]: •
+                            - link "5일" [ref=e484] [cursor=pointer]:
+                              - /url: /p/DXehUwBCaY1/
+                              - time [ref=e486]: 5일
+                        - link "울란바토르" [ref=e490] [cursor=pointer]:
+                          - /url: /explore/locations/219877973/
+                      - button "옵션 더 보기" [ref=e493] [cursor=pointer]:
+                        - img "옵션 더 보기" [ref=e496]
+                    - button [ref=e503]:
+                      - generic [ref=e510]:
+                        - list [ref=e512]:
+                          - listitem [ref=e513]
+                          - listitem [ref=e514]:
+                            - generic [ref=e519] [cursor=pointer]:
+                              - button [ref=e520]:
+                                - img [ref=e522]
+                              - button [ref=e525]:
+                                - img [ref=e527]
+                          - listitem [ref=e529]:
+                            - img [ref=e536]
+                        - button [ref=e538] [cursor=pointer]
+                    - generic [ref=e542]:
+                      - generic [ref=e543]:
+                        - generic [ref=e544]:
+                          - button "좋아요" [ref=e547] [cursor=pointer]:
+                            - img "좋아요" [ref=e550]
+                          - button "126" [ref=e552] [cursor=pointer]
+                          - button "댓글 달기" [ref=e554] [cursor=pointer]:
+                            - img "댓글 달기" [ref=e556]
+                          - button "29" [ref=e558] [cursor=pointer]
+                          - button "리포스트" [ref=e559] [cursor=pointer]:
+                            - img "리포스트" [ref=e560]
+                          - button "7" [ref=e562] [cursor=pointer]
+                          - button "공유하기" [ref=e563] [cursor=pointer]:
+                            - img "공유하기" [ref=e564]
+                        - button "저장" [ref=e569] [cursor=pointer]:
+                          - button "저장" [ref=e570]:
+                            - img "저장" [ref=e572]
+                      - generic [ref=e575]:
+                        - link [ref=e577] [cursor=pointer]:
+                          - /url: /p/DXehUwBCaY1/liked_by/
+                          - generic [ref=e579]:
+                            - button [ref=e580]:
+                              - link [ref=e581]
+                            - button [ref=e582]:
+                              - link [ref=e583]
+                            - button [ref=e584]:
+                              - link [ref=e585]
+                        - generic [ref=e587]:
+                          - link "melody.travel" [ref=e588] [cursor=pointer]:
+                            - /url: /melody.travel/
+                          - text: 님
+                          - link "외 125명" [ref=e589] [cursor=pointer]:
+                            - /url: /p/DXehUwBCaY1/liked_by/
+                            - generic [ref=e590]: 외 125명
+                          - text: 이 좋아합니다
+                      - generic [ref=e591]:
+                        - link "hongdadak 인증됨" [ref=e596] [cursor=pointer]:
+                          - /url: /hongdadak/
+                          - generic [ref=e598]:
+                            - generic [ref=e599]: hongdadak
+                            - img "인증됨" [ref=e601]
+                        - generic [ref=e603]:
+                          - generic [ref=e605]: 몽골 여행 준비물 총정리 이것만 보고 가세요🇲🇳 *제작지원*
+                          - generic [ref=e606]:
+                            - text: ...
+                            - button "더 보기" [ref=e607] [cursor=pointer]:
+                              - generic [ref=e608]: 더 보기
+                - article [ref=e609]:
+                  - generic [ref=e610]:
+                    - generic [ref=e612]:
+                      - generic [ref=e614]:
+                        - link "miffy_official_kr님의 프로필 사진" [ref=e615]:
+                          - img "miffy_official_kr님의 프로필 사진" [ref=e616]
+                        - link "official_hollys님의 프로필 사진" [ref=e619]:
+                          - img "official_hollys님의 프로필 사진" [ref=e620]
+                      - generic [ref=e625]:
+                        - generic [ref=e628]:
+                          - link "official_hollys" [ref=e633] [cursor=pointer]:
+                            - /url: /official_hollys/
+                            - generic [ref=e636]: official_hollys
+                          - text: 및
+                          - link "miffy_official_kr" [ref=e641] [cursor=pointer]:
+                            - /url: /miffy_official_kr/
+                            - generic [ref=e644]: miffy_official_kr
+                        - generic [ref=e645]:
+                          - generic [ref=e647]: •
+                          - link "4일" [ref=e649] [cursor=pointer]:
+                            - /url: /p/DXgVjHODVSv/
+                            - time [ref=e651]: 4일
+                      - button "옵션 더 보기" [ref=e654] [cursor=pointer]:
+                        - img "옵션 더 보기" [ref=e657]
+                    - button [ref=e664]:
+                      - generic [ref=e671]:
+                        - list [ref=e673]:
+                          - listitem [ref=e674]
+                          - listitem [ref=e675]:
+                            - generic [ref=e680] [cursor=pointer]:
+                              - button [ref=e681]:
+                                - img [ref=e683]
+                              - button [ref=e686]:
+                                - img [ref=e688]
+                          - listitem [ref=e690]:
+                            - img [ref=e697]
+                        - button [ref=e699] [cursor=pointer]
+                    - generic [ref=e703]:
+                      - generic [ref=e704]:
+                        - generic [ref=e705]:
+                          - button "좋아요" [ref=e708] [cursor=pointer]:
+                            - img "좋아요" [ref=e711]
+                          - button "3천" [ref=e713] [cursor=pointer]
+                          - button "댓글 달기" [ref=e715] [cursor=pointer]:
+                            - img "댓글 달기" [ref=e717]
+                          - button "1.1천" [ref=e719] [cursor=pointer]
+                          - button "리포스트" [ref=e720] [cursor=pointer]:
+                            - img "리포스트" [ref=e721]
+                          - button "74" [ref=e723] [cursor=pointer]
+                          - button "공유하기" [ref=e724] [cursor=pointer]:
+                            - img "공유하기" [ref=e725]
+                        - button "저장" [ref=e730] [cursor=pointer]:
+                          - button "저장" [ref=e731]:
+                            - img "저장" [ref=e733]
+                      - generic [ref=e736]:
+                        - link [ref=e738] [cursor=pointer]:
+                          - /url: /p/DXgVjHODVSv/liked_by/
+                          - button [ref=e741]:
+                            - link [ref=e742]
+                        - generic [ref=e744]:
+                          - link "miffy_official_kr" [ref=e745] [cursor=pointer]:
+                            - /url: /miffy_official_kr/
+                          - text: 님
+                          - link "외 2975명" [ref=e746] [cursor=pointer]:
+                            - /url: /p/DXgVjHODVSv/liked_by/
+                            - generic [ref=e747]: 외 2975명
+                          - text: 이 좋아합니다
+                      - generic [ref=e748]:
+                        - link "official_hollys 인증됨" [ref=e753] [cursor=pointer]:
+                          - /url: /official_hollys/
+                          - generic [ref=e755]:
+                            - generic [ref=e756]: official_hollys
+                            - img "인증됨" [ref=e758]
+                        - generic [ref=e760]:
+                          - generic [ref=e762]:
+                            - link "#HOLLYS_MD" [ref=e763] [cursor=pointer]:
+                              - /url: /explore/tags/hollys_md/
+                            - link "#HOLLYS_EVENT" [ref=e764] [cursor=pointer]:
+                              - /url: /explore/tags/hollys_event/
+                          - generic [ref=e765]:
+                            - text: ...
+                            - button "더 보기" [ref=e766] [cursor=pointer]:
+                              - generic [ref=e767]: 더 보기
+              - progressbar [ref=e769]:
+                - img "읽어들이는 중..." [ref=e770]
+          - generic [ref=e784]:
+            - generic [ref=e790]:
+              - button "stone.water_님의 프로필 사진" [ref=e793] [cursor=pointer]:
+                - link "stone.water_님의 프로필 사진" [ref=e795]:
+                  - img "stone.water_님의 프로필 사진" [ref=e796]
+              - generic [ref=e799]:
+                - link "stone.water_" [ref=e801] [cursor=pointer]:
+                  - /url: /stone.water_/
+                - generic [ref=e805]: 석수(石水)🐥
+              - button "전환" [ref=e808] [cursor=pointer]
+            - generic [ref=e811]:
+              - generic [ref=e812]:
+                - generic [ref=e814]: 회원님을 위한 추천
+                - link "모두 보기" [ref=e815] [cursor=pointer]:
+                  - /url: /explore/people/
+                  - generic [ref=e816]: 모두 보기
+              - generic [ref=e820]:
+                - generic [ref=e824]:
+                  - link "ipark90님의 프로필 사진" [ref=e831] [cursor=pointer]:
+                    - /url: /ipark90/
+                    - img "ipark90님의 프로필 사진" [ref=e832]
+                  - generic [ref=e835]:
+                    - link "Inho Park" [ref=e840] [cursor=pointer]:
+                      - /url: /ipark90/
+                      - generic [ref=e843]: Inho Park
+                    - generic [ref=e846]:
+                      - generic [ref=e847]:
+                        - button [ref=e848] [cursor=pointer]:
+                          - link [ref=e849]
+                        - button [ref=e850] [cursor=pointer]:
+                          - link [ref=e851]
+                      - generic [ref=e852]: alvinkoh_1998님 외 1명이 팔로우합니다
+                  - button "팔로우" [ref=e855] [cursor=pointer]:
+                    - generic [ref=e857]: 팔로우
+                - generic [ref=e861]:
+                  - link "three___jin님의 프로필 사진" [ref=e868] [cursor=pointer]:
+                    - /url: /three___jin/
+                    - img "three___jin님의 프로필 사진" [ref=e869]
+                  - generic [ref=e872]:
+                    - link "three___jin" [ref=e877] [cursor=pointer]:
+                      - /url: /three___jin/
+                      - generic [ref=e880]: three___jin
+                    - generic [ref=e883]:
+                      - generic [ref=e884]:
+                        - button [ref=e885] [cursor=pointer]:
+                          - link [ref=e886]
+                        - button [ref=e887] [cursor=pointer]:
+                          - link [ref=e888]
+                      - generic [ref=e889]: liveatmyspeed님 외 1명이 팔로우합니다
+                  - button "팔로우" [ref=e892] [cursor=pointer]:
+                    - generic [ref=e894]: 팔로우
+                - generic [ref=e898]:
+                  - link "zzzzzzziy__님의 프로필 사진" [ref=e905] [cursor=pointer]:
+                    - /url: /zzzzzzziy__/
+                    - img "zzzzzzziy__님의 프로필 사진" [ref=e906]
+                  - generic [ref=e909]:
+                    - link "졔" [ref=e914] [cursor=pointer]:
+                      - /url: /zzzzzzziy__/
+                      - generic [ref=e917]: 졔
+                    - generic [ref=e920]:
+                      - generic [ref=e921]:
+                        - button [ref=e922] [cursor=pointer]:
+                          - link [ref=e923]
+                        - button [ref=e924] [cursor=pointer]:
+                          - link [ref=e925]
+                      - generic [ref=e926]: sunlight_egg님 외 2명이 팔로우합니다
+                  - button "팔로우" [ref=e929] [cursor=pointer]:
+                    - generic [ref=e931]: 팔로우
+                - generic [ref=e935]:
+                  - link "hapiha0님의 프로필 사진" [ref=e942] [cursor=pointer]:
+                    - /url: /hapiha0/
+                    - img "hapiha0님의 프로필 사진" [ref=e943]
+                  - generic [ref=e946]:
+                    - link "hapiha0" [ref=e951] [cursor=pointer]:
+                      - /url: /hapiha0/
+                      - generic [ref=e954]: hapiha0
+                    - generic [ref=e957]:
+                      - generic [ref=e958]:
+                        - button [ref=e959] [cursor=pointer]:
+                          - link [ref=e960]
+                        - button [ref=e961] [cursor=pointer]:
+                          - link [ref=e962]
+                      - generic [ref=e963]: sunlight_egg님 외 4명이 팔로우합니다
+                  - button "팔로우" [ref=e966] [cursor=pointer]:
+                    - generic [ref=e968]: 팔로우
+                - generic [ref=e972]:
+                  - link "nowikoes님의 프로필 사진" [ref=e979] [cursor=pointer]:
+                    - /url: /nowikoes/
+                    - img "nowikoes님의 프로필 사진" [ref=e980]
+                  - generic [ref=e983]:
+                    - link "서기원(seokiwoN)" [ref=e988] [cursor=pointer]:
+                      - /url: /nowikoes/
+                      - generic [ref=e991]: 서기원(seokiwoN)
+                    - generic [ref=e994]:
+                      - generic [ref=e995]:
+                        - button [ref=e996] [cursor=pointer]:
+                          - link [ref=e997]
+                        - button [ref=e998] [cursor=pointer]:
+                          - link [ref=e999]
+                      - generic [ref=e1000]: han_teresting님 외 1명이 팔로우합니다
+                  - button "팔로우" [ref=e1003] [cursor=pointer]:
+                    - generic [ref=e1005]: 팔로우
+            - generic [ref=e1007]:
+              - navigation [ref=e1008]:
+                - list [ref=e1009]:
+                  - listitem [ref=e1010]:
+                    - link "소개" [ref=e1011] [cursor=pointer]:
+                      - /url: https://about.instagram.com/
+                      - generic [ref=e1012]: 소개
+                    - text: ·
+                  - listitem [ref=e1013]:
+                    - link "도움말" [ref=e1014] [cursor=pointer]:
+                      - /url: https://help.instagram.com/
+                      - generic [ref=e1015]: 도움말
+                    - text: ·
+                  - listitem [ref=e1016]:
+                    - link "홍보 센터" [ref=e1017] [cursor=pointer]:
+                      - /url: https://about.instagram.com/blog/
+                      - generic [ref=e1018]: 홍보 센터
+                    - text: ·
+                  - listitem [ref=e1019]:
+                    - link "API" [ref=e1020] [cursor=pointer]:
+                      - /url: https://developers.facebook.com/docs/instagram
+                      - generic [ref=e1021]: API
+                    - text: ·
+                  - listitem [ref=e1022]:
+                    - link "채용 정보" [ref=e1023] [cursor=pointer]:
+                      - /url: https://about.instagram.com/about-us/careers
+                      - generic [ref=e1024]: 채용 정보
+                    - text: ·
+                  - listitem [ref=e1025]:
+                    - link "개인정보처리방침" [ref=e1026] [cursor=pointer]:
+                      - /url: /legal/privacy/
+                      - generic [ref=e1027]: 개인정보처리방침
+                    - text: ·
+                  - listitem [ref=e1028]:
+                    - link "약관" [ref=e1029] [cursor=pointer]:
+                      - /url: /legal/terms/
+                      - generic [ref=e1030]: 약관
+                    - text: ·
+                  - listitem [ref=e1031]:
+                    - link "위치" [ref=e1032] [cursor=pointer]:
+                      - /url: /explore/locations/
+                      - generic [ref=e1033]: 위치
+                    - text: ·
+                  - listitem [ref=e1034]:
+                    - link "언어" [ref=e1035] [cursor=pointer]:
+                      - /url: /language/preferences/
+                      - generic [ref=e1036]: 언어
+                    - text: ·
+                  - listitem [ref=e1037]:
+                    - link "Meta Verified" [ref=e1038] [cursor=pointer]:
+                      - /url: /accounts/meta_verified/?entrypoint=web_footer
+                      - generic [ref=e1039]: Meta Verified
+              - generic [ref=e1041]: © 2026 Instagram from Meta
+      - contentinfo [ref=e1042]:
+        - generic [ref=e1043]:
+          - generic [ref=e1045]:
+            - link "Meta" [ref=e1047] [cursor=pointer]:
+              - /url: https://about.meta.com/
+              - generic [ref=e1048]: Meta
+            - link "소개" [ref=e1050] [cursor=pointer]:
+              - /url: https://about.instagram.com/
+              - generic [ref=e1051]: 소개
+            - link "블로그" [ref=e1053] [cursor=pointer]:
+              - /url: https://about.instagram.com/blog/
+              - generic [ref=e1054]: 블로그
+            - link "채용 정보" [ref=e1056] [cursor=pointer]:
+              - /url: https://about.instagram.com/about-us/careers
+              - generic [ref=e1057]: 채용 정보
+            - link "도움말" [ref=e1059] [cursor=pointer]:
+              - /url: https://help.instagram.com/
+              - generic [ref=e1060]: 도움말
+            - link "API" [ref=e1062] [cursor=pointer]:
+              - /url: https://developers.facebook.com/docs/instagram
+              - generic [ref=e1063]: API
+            - link "개인정보처리방침" [ref=e1065] [cursor=pointer]:
+              - /url: /legal/privacy/
+              - generic [ref=e1066]: 개인정보처리방침
+            - link "약관" [ref=e1068] [cursor=pointer]:
+              - /url: /legal/terms/
+              - generic [ref=e1069]: 약관
+            - link "위치" [ref=e1071] [cursor=pointer]:
+              - /url: /explore/locations/
+              - generic [ref=e1072]: 위치
+            - link "Popular" [ref=e1074] [cursor=pointer]:
+              - /url: /popular/
+              - generic [ref=e1075]: Popular
+            - link "Instagram Lite" [ref=e1077] [cursor=pointer]:
+              - /url: /web/lite/
+              - generic [ref=e1078]: Instagram Lite
+            - link "Meta AI" [ref=e1080] [cursor=pointer]:
+              - /url: https://www.meta.ai/?utm_source=foa_web_footer
+              - generic [ref=e1081]: Meta AI
+            - link "Threads" [ref=e1083] [cursor=pointer]:
+              - /url: https://www.threads.com/
+              - generic [ref=e1084]: Threads
+            - link "연락처 업로드 & 비사용자" [ref=e1086] [cursor=pointer]:
+              - /url: https://www.facebook.com/help/instagram/261704639352628
+              - generic [ref=e1087]: 연락처 업로드 & 비사용자
+            - link "Meta Verified" [ref=e1089] [cursor=pointer]:
+              - /url: /accounts/meta_verified/?entrypoint=web_footer
+              - generic [ref=e1090]: Meta Verified
+          - generic [ref=e1091]:
+            - generic [ref=e1092] [cursor=pointer]:
+              - generic [ref=e1093]:
+                - generic [ref=e1094]: 한국어
+                - img "아래쪽 V자형 아이콘" [ref=e1097]
+              - combobox "표시 언어 변경" [ref=e1099]:
+                - option "Afrikaans"
+                - option "العربية"
+                - option "Čeština"
+                - option "Dansk"
+                - option "Deutsch"
+                - option "Ελληνικά"
+                - option "English"
+                - option "English (UK)"
+                - option "Español (España)"
+                - option "Español"
+                - option "فارسی"
+                - option "Suomi"
+                - option "Français"
+                - option "עברית"
+                - option "Bahasa Indonesia"
+                - option "Italiano"
+                - option "日本語"
+                - option "한국어" [selected]
+                - option "Bahasa Melayu"
+                - option "Norsk"
+                - option "Nederlands"
+                - option "Polski"
+                - option "Português (Brasil)"
+                - option "Português (Portugal)"
+                - option "Русский"
+                - option "Svenska"
+                - option "ภาษาไทย"
+                - option "Filipino"
+                - option "Türkçe"
+                - option "中文(简体)"
+                - option "中文(台灣)"
+                - option "বাংলা"
+                - option "ગુજરાતી"
+                - option "हिन्दी"
+                - option "Hrvatski"
+                - option "Magyar"
+                - option "ಕನ್ನಡ"
+                - option "മലയാളം"
+                - option "मराठी"
+                - option "नेपाली"
+                - option "ਪੰਜਾਬੀ"
+                - option "සිංහල"
+                - option "Slovenčina"
+                - option "தமிழ்"
+                - option "తెలుగు"
+                - option "اردو"
+                - option "Tiếng Việt"
+                - option "中文(香港)"
+                - option "Български"
+                - option "Français (Canada)"
+                - option "Română"
+                - option "Српски"
+                - option "Українська"
+            - generic [ref=e1101]: © 2026 Instagram from Meta
+  - button "메시지 메시지" [ref=e1103] [cursor=pointer]:
+    - generic [ref=e1105]:
+      - img "메시지" [ref=e1107]
+      - generic [ref=e1110]: 메시지

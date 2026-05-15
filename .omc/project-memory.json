@@ -1,0 +1,469 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1778750780685,
+  "projectRoot": "/Users/sukyoung-seok/mystore-mockup",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "playwright",
+        "version": "1.59.1",
+        "category": "testing"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "assets",
+      "docs",
+      "scripts"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "api": {
+      "path": "api",
+      "purpose": "API routes",
+      "fileCount": 0,
+      "lastAccessed": 1778750780661,
+      "keyFiles": []
+    },
+    "assets": {
+      "path": "assets",
+      "purpose": "Static assets",
+      "fileCount": 16,
+      "lastAccessed": 1778750780662,
+      "keyFiles": [
+        "IMG_7595.jpg",
+        "ab-combined.png",
+        "blog.png",
+        "design-preview-ab.png",
+        "design-preview.png"
+      ]
+    },
+    "channel-pages-final": {
+      "path": "channel-pages-final",
+      "purpose": null,
+      "fileCount": 27,
+      "lastAccessed": 1778750780664,
+      "keyFiles": [
+        "check-modetour-og.jpg",
+        "papa-linktree-bg.jpg",
+        "ref-test-profile.jpg",
+        "thumb-modetour.jpg",
+        "thumb-mrt-hongkong.jpg"
+      ]
+    },
+    "coupon": {
+      "path": "coupon",
+      "purpose": null,
+      "fileCount": 24,
+      "lastAccessed": 1778750780664,
+      "keyFiles": [
+        "MO-1.jpg",
+        "MO-2.jpg",
+        "MO-3.jpg",
+        "MO-4.jpg",
+        "MO-5.jpg"
+      ]
+    },
+    "coupon-pages": {
+      "path": "coupon-pages",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1778750780665,
+      "keyFiles": []
+    },
+    "design": {
+      "path": "design",
+      "purpose": null,
+      "fileCount": 17,
+      "lastAccessed": 1778750780665,
+      "keyFiles": [
+        "MyStore v2.html",
+        "bio-v2.html",
+        "bio-v3.html",
+        "budget-button-candidates.html",
+        "card-candidates.html"
+      ]
+    },
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 5,
+      "lastAccessed": 1778750780666,
+      "keyFiles": [
+        "creator_content_analysis.md",
+        "youtube-channel-research.md",
+        "대로와나나_링크목록.csv",
+        "크리에이터-협업-액션플랜-backup-20260421.md",
+        "크리에이터-협업-액션플랜.md"
+      ]
+    },
+    "screenshots": {
+      "path": "screenshots",
+      "purpose": null,
+      "fileCount": 7,
+      "lastAccessed": 1778750780666,
+      "keyFiles": [
+        "Frame 3.png",
+        "Frame 4.png",
+        "Frame 5.png",
+        "course.png",
+        "expense.png"
+      ]
+    },
+    "scripts": {
+      "path": "scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 14,
+      "lastAccessed": 1778750780666,
+      "keyFiles": [
+        "bio_links_new.csv",
+        "cms_upload.py",
+        "crawl_bio_links.py",
+        "crawl_bio_links_new.py",
+        "create_contact_sheet.py"
+      ]
+    },
+    "sessions": {
+      "path": "sessions",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1778750780666,
+      "keyFiles": [
+        "SESSION-INDEX.md"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "sessions/SESSION-INDEX.md",
+      "accessCount": 169,
+      "lastAccessed": 1778850128905,
+      "type": "file"
+    },
+    {
+      "path": "mockup.html",
+      "accessCount": 39,
+      "lastAccessed": 1777540716234,
+      "type": "file"
+    },
+    {
+      "path": "vercel.json",
+      "accessCount": 31,
+      "lastAccessed": 1778148493835,
+      "type": "file"
+    },
+    {
+      "path": "coupon-combined-mo.html",
+      "accessCount": 18,
+      "lastAccessed": 1777026073732,
+      "type": "file"
+    },
+    {
+      "path": "creator_content_analysis.md",
+      "accessCount": 10,
+      "lastAccessed": 1777339743875,
+      "type": "file"
+    },
+    {
+      "path": "creator-intro.html",
+      "accessCount": 8,
+      "lastAccessed": 1777025205408,
+      "type": "file"
+    },
+    {
+      "path": "update_sheet_new.py",
+      "accessCount": 6,
+      "lastAccessed": 1777340939145,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages-v2/정발발.html",
+      "accessCount": 5,
+      "lastAccessed": 1776938440343,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages/나드리.html",
+      "accessCount": 4,
+      "lastAccessed": 1776937060220,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages-v2/시남매여행.html",
+      "accessCount": 3,
+      "lastAccessed": 1776938422876,
+      "type": "file"
+    },
+    {
+      "path": "crawl_bio_links.py",
+      "accessCount": 3,
+      "lastAccessed": 1777339989498,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages-v2/혜키.html",
+      "accessCount": 3,
+      "lastAccessed": 1777355910681,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages-v2/아랑.html",
+      "accessCount": 2,
+      "lastAccessed": 1776938522465,
+      "type": "file"
+    },
+    {
+      "path": "design-preview.html",
+      "accessCount": 2,
+      "lastAccessed": 1777013864248,
+      "type": "file"
+    },
+    {
+      "path": "sessions/2026-04-28_coupon-mockup-mrt-design-figma/DECISION-DOC.md",
+      "accessCount": 2,
+      "lastAccessed": 1777339640953,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages-v2/희수.html",
+      "accessCount": 2,
+      "lastAccessed": 1777339744196,
+      "type": "file"
+    },
+    {
+      "path": "update_sheet.py",
+      "accessCount": 2,
+      "lastAccessed": 1777339867228,
+      "type": "file"
+    },
+    {
+      "path": "sessions/2026-04-23_creator-outreach-intro-materials/DECISION-DOC.md",
+      "accessCount": 1,
+      "lastAccessed": 1776925813511,
+      "type": "file"
+    },
+    {
+      "path": "sessions/2026-04-23_vercel-url-setup-repo-cleanup/DECISION-DOC.md",
+      "accessCount": 1,
+      "lastAccessed": 1776931563534,
+      "type": "file"
+    },
+    {
+      "path": "sessions/2026-04-23_vercel-url-setup-repo-cleanup/MEETING-NOTES.md",
+      "accessCount": 1,
+      "lastAccessed": 1776931583013,
+      "type": "file"
+    },
+    {
+      "path": "sessions/2026-04-23_vercel-url-setup-repo-cleanup/FULL-LOG.md",
+      "accessCount": 1,
+      "lastAccessed": 1776931595223,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 1,
+      "lastAccessed": 1776931889572,
+      "type": "directory"
+    },
+    {
+      "path": "channel-pages-v2/아리.html",
+      "accessCount": 1,
+      "lastAccessed": 1776937263077,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages-v2/늘찬맘.html",
+      "accessCount": 1,
+      "lastAccessed": 1776937265397,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages-v2/어짜피.html",
+      "accessCount": 1,
+      "lastAccessed": 1776937459785,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages-v2/트립디비.html",
+      "accessCount": 1,
+      "lastAccessed": 1776937468416,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages-v2/훵.html",
+      "accessCount": 1,
+      "lastAccessed": 1776937475202,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages-v2/모든순간.html",
+      "accessCount": 1,
+      "lastAccessed": 1776937661253,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages-v2/젤리.html",
+      "accessCount": 1,
+      "lastAccessed": 1776937676335,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages-v2/망고땡.html",
+      "accessCount": 1,
+      "lastAccessed": 1776937684765,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages-v2/푸우.html",
+      "accessCount": 1,
+      "lastAccessed": 1776937864906,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages-v2/애리언니.html",
+      "accessCount": 1,
+      "lastAccessed": 1776937894387,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages-v2/밍그린.html",
+      "accessCount": 1,
+      "lastAccessed": 1776938100565,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages-v2/쌀비.html",
+      "accessCount": 1,
+      "lastAccessed": 1776938108993,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages-v2/다다헤.html",
+      "accessCount": 1,
+      "lastAccessed": 1776938305180,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages-v2/대로와나나.html",
+      "accessCount": 1,
+      "lastAccessed": 1776938681101,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages-v2/조이.html",
+      "accessCount": 1,
+      "lastAccessed": 1776938692753,
+      "type": "file"
+    },
+    {
+      "path": "channel-pages-v2/빼꼼오카상.html",
+      "accessCount": 1,
+      "lastAccessed": 1776938732480,
+      "type": "file"
+    },
+    {
+      "path": "sessions/2026-04-24_creator-page-mass-production/DECISION-DOC.md",
+      "accessCount": 1,
+      "lastAccessed": 1777006113903,
+      "type": "file"
+    },
+    {
+      "path": "sessions/2026-04-24_creator-page-mass-production/MEETING-NOTES.md",
+      "accessCount": 1,
+      "lastAccessed": 1777006135576,
+      "type": "file"
+    },
+    {
+      "path": "sessions/2026-04-24_creator-page-mass-production/FULL-LOG.md",
+      "accessCount": 1,
+      "lastAccessed": 1777006155181,
+      "type": "file"
+    },
+    {
+      "path": "design-preview-ab.html",
+      "accessCount": 1,
+      "lastAccessed": 1777013929493,
+      "type": "file"
+    },
+    {
+      "path": "coupon-pc.html",
+      "accessCount": 1,
+      "lastAccessed": 1777021462426,
+      "type": "file"
+    },
+    {
+      "path": "coupon-combined-pc.html",
+      "accessCount": 1,
+      "lastAccessed": 1777024803473,
+      "type": "file"
+    },
+    {
+      "path": "sessions/2026-04-28_coupon-mockup-mrt-design-figma/MEETING-NOTES.md",
+      "accessCount": 1,
+      "lastAccessed": 1777305188306,
+      "type": "file"
+    },
+    {
+      "path": "sessions/2026-04-28_coupon-mockup-mrt-design-figma/FULL-LOG.md",
+      "accessCount": 1,
+      "lastAccessed": 1777305327525,
+      "type": "file"
+    },
+    {
+      "path": "crawl_bio_links_new.py",
+      "accessCount": 1,
+      "lastAccessed": 1777340129631,
+      "type": "file"
+    },
+    {
+      "path": "bio_links_new.csv",
+      "accessCount": 1,
+      "lastAccessed": 1777340722840,
+      "type": "file"
+    },
+    {
+      "path": "update_sheet_youtube.py",
+      "accessCount": 1,
+      "lastAccessed": 1777341816881,
+      "type": "file"
+    },
+    {
+      "path": "create_tapping_sheet.py",
+      "accessCount": 1,
+      "lastAccessed": 1777342914582,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

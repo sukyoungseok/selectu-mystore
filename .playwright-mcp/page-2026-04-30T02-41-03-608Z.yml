@@ -1,0 +1,151 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: 이 페이지의 링크를 통해 구매 시 수수료를 받아 채널 운영에 도움이 됩니다.
+    - generic [ref=e7]:
+      - img "백자매" [ref=e9]
+      - generic [ref=e10]:
+        - heading "백자매" [level=2] [ref=e11]
+        - paragraph [ref=e12]: 릴스 1.6억뷰 · 여행이 최고의 사교육
+        - link "Instagram" [ref=e14] [cursor=pointer]:
+          - /url: https://www.instagram.com/travel_baek/
+          - img "Instagram" [ref=e15]
+    - link "백자매 팔로워 전용 선착순 할인 쿠폰팩 최대 99,000 원 8종 구성 받기" [ref=e16] [cursor=pointer]:
+      - /url: https://www.myrealtrip.com/coupons
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e21]: 백자매 팔로워 전용
+          - generic [ref=e22]: 선착순 할인 쿠폰팩
+          - generic [ref=e24]:
+            - generic [ref=e25]: 최대
+            - generic [ref=e26]: 99,000
+            - generic [ref=e27]: 원
+          - generic:
+            - generic: 8종
+            - generic: 구성
+        - generic [ref=e28]:
+          - img [ref=e29]
+          - generic [ref=e31]: 받기
+    - generic [ref=e34]:
+      - generic [ref=e36]:
+        - generic [ref=e37]: 🇻🇳
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]: 4박 6일
+            - generic [ref=e41]: 백자매 강추
+          - generic [ref=e42]: 나트랑 핵심 코스
+      - generic [ref=e43]:
+        - generic [ref=e44]: 어디부터 볼까요?
+        - generic [ref=e45]:
+          - button "일정표 보기 동선 먼저 ›" [ref=e46] [cursor=pointer]:
+            - generic [ref=e47]:
+              - strong [ref=e48]: 일정표 보기
+              - generic [ref=e49]: 동선 먼저
+            - generic [ref=e50]: ›
+          - button "상세 경비 보기 177 만~ › 🔥 인기 항공·숙소·투어 한 번에" [ref=e51] [cursor=pointer]:
+            - generic [ref=e52]:
+              - strong [ref=e53]: 상세 경비 보기
+              - generic [ref=e54]:
+                - generic [ref=e55]:
+                  - text: "177"
+                  - generic [ref=e56]: 만~
+                - generic [ref=e57]: ›
+            - generic [ref=e58]:
+              - generic [ref=e59]: 🔥 인기
+              - generic [ref=e60]: 항공·숙소·투어 한 번에
+    - generic [ref=e64]:
+      - generic [ref=e65] [cursor=pointer]: 링크
+      - generic [ref=e66] [cursor=pointer]: 필수템
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - img [ref=e70]
+        - generic [ref=e71]:
+          - generic [ref=e72]: 🎬 릴스 1.6억뷰 여행 크리에이터
+          - text: 여행이 최고의 사교육이라 믿는 백자매. 영혼을 갈아넣은 꿀팁 콘텐츠로 릴스 누적 1.6억뷰를 달성했어요. 마이스토어에서 백자매 추천 상품을 직접 만나보세요!
+      - generic [ref=e73]:
+        - heading "📸 추천 콘텐츠" [level=3] [ref=e74]
+        - link "📝 4박6일 꿀팁 모음 나트랑 여행코스 🌊 4박6일 자유여행 꿀팁 모음집 — 빈원더스·시내투어·알마 리조트 한 번에 instagram.com · 백자매" [ref=e75] [cursor=pointer]:
+          - /url: https://www.instagram.com/reel/DMjVlkQzVai/
+          - img [ref=e76]
+          - generic [ref=e77]:
+            - generic [ref=e79]: 📝 4박6일 꿀팁 모음
+            - generic [ref=e80]: 나트랑 여행코스 🌊 4박6일 자유여행 꿀팁 모음집 — 빈원더스·시내투어·알마 리조트 한 번에
+            - generic [ref=e81]: instagram.com · 백자매
+        - link "노션 자료 백자매 나트랑 4박6일 여행 꿀팁 완전정복 노션 — 일정·경비·맛집·꿀팁 총정리 notion.so · 백자매" [ref=e82] [cursor=pointer]:
+          - /url: https://www.notion.so/4-6-21efefd43b9080b0a7c7fdf8dfacfed9
+          - img [ref=e83]
+          - generic [ref=e84]:
+            - generic [ref=e86]: 노션 자료
+            - generic [ref=e87]: 백자매 나트랑 4박6일 여행 꿀팁 완전정복 노션 — 일정·경비·맛집·꿀팁 총정리
+            - generic [ref=e88]: notion.so · 백자매
+    - generic [ref=e90]:
+      - generic [ref=e91]: COLLABORATION
+      - link "✉ sukyoung.seok@myrealtrip.com" [ref=e92] [cursor=pointer]:
+        - /url: mailto:sukyoung.seok@myrealtrip.com
+      - generic [ref=e93]: © 2026 백자매 · myrealtrip
+  - generic [ref=e95]:
+    - generic [ref=e96] [cursor=pointer]: ←
+    - generic [ref=e98]: 나트랑 4박 6일 코스
+    - button "링크 복사" [ref=e99] [cursor=pointer]:
+      - img [ref=e100]
+      - text: 링크 복사
+  - generic:
+    - generic:
+      - generic:
+        - generic: ✈️ 나트랑 4박 6일 총경비
+        - button "링크 복사":
+          - img
+          - text: 링크 복사
+      - generic: 백자매 추천 코스 · 1인 기준
+      - generic:
+        - generic: ✈️
+        - generic:
+          - generic:
+            - text: 항공
+            - generic: 최저가
+          - generic: 김해(부산)↔나트랑 왕복 · 이코노미
+        - generic:
+          - generic: ₩600,000
+          - button "예약 바로가기"
+      - generic:
+        - generic: 🏨
+        - generic:
+          - generic:
+            - text: 숙소
+            - generic: 최저가
+          - generic: 하바나호텔 3박 + 알마 리조트 1박
+        - generic:
+          - generic: ₩600,000
+          - button "예약 바로가기"
+      - generic:
+        - generic: 🍽️
+        - generic:
+          - generic: 식비 · 현지 경비
+          - generic: 해산물 맛집·카페·쇼핑·이동 포함
+        - generic:
+          - generic: ₩400,000
+      - generic:
+        - generic: 총 경비
+        - generic: ₩1,700,000
+      - generic: ✈️항공·🏨숙소는 최저가 기준 · 식비는 평균값
+  - generic:
+    - generic:
+      - generic: 🎫 파트너 쿠폰
+      - generic: 백자매 통해 예약하면 받을 수 있는 혜택
+      - generic:
+        - generic:
+          - generic: 마이리얼트립 파트너 혜택
+          - generic: 첫 예약 3,000원 할인
+          - generic: 5만원 이상 결제 시 · 1회 사용 가능
+          - generic:
+            - generic: "유효기간: 2026.06.30까지"
+            - generic: 잔여 47장
+        - button "받기"
+      - generic:
+        - generic:
+          - generic: 재방문 감사 쿠폰
+          - generic: 2번째 예약 5% 할인
+          - generic: 최대 1만원 · 백자매 전용
+          - generic:
+            - generic: "유효기간: 2026.07.31까지"
+            - generic: 잔여 23장
+        - button "받기"

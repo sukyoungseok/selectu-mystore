@@ -1,0 +1,242 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - generic [ref=e13]:
+            - textbox "모든 순간 두근! 어디로 떠나볼까요?" [ref=e14]
+            - img [ref=e16]
+          - button "인기검색어 1 장가계 2 몽골 3 대마도 4 백두산 5 대만 6 마나도 7 나트랑 8 스페인 9 다낭 10 상해" [ref=e21] [cursor=pointer]:
+            - generic [ref=e23]: 인기검색어
+            - generic [ref=e26]:
+              - generic [ref=e27]:
+                - generic [ref=e28]: "1"
+                - button "장가계" [ref=e29]
+              - generic [ref=e30]:
+                - generic [ref=e31]: "2"
+                - button "몽골" [ref=e32]
+              - generic [ref=e33]:
+                - generic [ref=e34]: "3"
+                - button "대마도" [ref=e35]
+              - generic [ref=e36]:
+                - generic [ref=e37]: "4"
+                - button "백두산" [ref=e38]
+              - generic [ref=e39]:
+                - generic [ref=e40]: "5"
+                - button "대만" [ref=e41]
+              - generic [ref=e42]:
+                - generic [ref=e43]: "6"
+                - button "마나도" [ref=e44]
+              - generic [ref=e45]:
+                - generic [ref=e46]: "7"
+                - button "나트랑" [ref=e47]
+              - generic [ref=e48]:
+                - generic [ref=e49]: "8"
+                - button "스페인" [ref=e50]
+              - generic [ref=e51]:
+                - generic [ref=e52]: "9"
+                - button "다낭" [ref=e53]
+              - generic [ref=e54]:
+                - generic [ref=e55]: "10"
+                - button "상해" [ref=e56]
+            - img [ref=e57]
+        - generic [ref=e59]:
+          - button "알림" [ref=e61] [cursor=pointer]:
+            - img [ref=e63]
+            - generic [ref=e68]: 알림
+          - button "웰컴쿠폰" [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - generic [ref=e76]: 웰컴쿠폰
+          - button "로그인" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e83]: 로그인
+          - button "예약내역" [ref=e85] [cursor=pointer]:
+            - img [ref=e86]
+            - generic [ref=e91]: 예약내역
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - list [ref=e94] [cursor=pointer]:
+            - img [ref=e95]
+            - link "전체메뉴" [ref=e101]:
+              - /url: /
+          - list [ref=e102] [cursor=pointer]:
+            - listitem [ref=e103]:
+              - button "해외여행" [ref=e106]
+          - list [ref=e107] [cursor=pointer]:
+            - listitem [ref=e108]:
+              - button "국내여행" [ref=e111]
+          - list [ref=e112] [cursor=pointer]:
+            - listitem [ref=e113]:
+              - button "항공" [ref=e116]
+          - list [ref=e117] [cursor=pointer]:
+            - listitem [ref=e118]:
+              - button "호텔" [ref=e121]
+          - list [ref=e122] [cursor=pointer]:
+            - listitem [ref=e123]:
+              - button "투어/패스" [ref=e126]
+          - list [ref=e127] [cursor=pointer]:
+            - listitem [ref=e128]:
+              - button "하이클래스" [ref=e131]
+          - list [ref=e132] [cursor=pointer]:
+            - listitem [ref=e133]:
+              - button "크루즈" [ref=e136]
+        - list [ref=e138] [cursor=pointer]:
+          - listitem [ref=e139]: 기획전
+          - listitem [ref=e140]: 이벤트/혜택
+          - listitem [ref=e141]: 고객센터
+    - main [ref=e142]:
+      - generic [ref=e159]:
+        - generic [ref=e160]: 5월 유류세 인상전 특별가격 막차 탑승하세요
+        - generic [ref=e162]:
+          - generic [ref=e163] [cursor=pointer]:
+            - paragraph [ref=e166]: "[파파트래블][파파트래블] 코타키나발루 준특급 패키지 5/6일 [노쇼핑/노옵션/노팁]"
+            - paragraph [ref=e167]: "#코타키나발루 #노쇼핑 #핫딜 #판보르네오"
+            - generic [ref=e168]: 699,000원 ~
+          - generic [ref=e169]:
+            - paragraph [ref=e170]:
+              - paragraph [ref=e171]: 05월
+              - generic [ref=e172]:
+                - paragraph [ref=e174] [cursor=pointer]: "05"
+                - paragraph [ref=e176] [cursor=pointer]: "06"
+                - paragraph [ref=e178] [cursor=pointer]: "07"
+                - paragraph [ref=e180] [cursor=pointer]: "09"
+                - paragraph [ref=e182] [cursor=pointer]: "10"
+                - paragraph [ref=e184] [cursor=pointer]: "11"
+                - paragraph [ref=e186] [cursor=pointer]: "13"
+                - paragraph [ref=e188] [cursor=pointer]: "14"
+                - paragraph [ref=e190] [cursor=pointer]: "16"
+                - paragraph [ref=e192] [cursor=pointer]: "17"
+                - paragraph [ref=e194] [cursor=pointer]: "18"
+                - paragraph [ref=e196] [cursor=pointer]: "20"
+                - paragraph [ref=e198] [cursor=pointer]: "23"
+                - paragraph [ref=e200] [cursor=pointer]: "24"
+                - paragraph [ref=e202] [cursor=pointer]: "25"
+                - paragraph [ref=e204] [cursor=pointer]: "26"
+                - paragraph [ref=e206] [cursor=pointer]: "27"
+                - paragraph [ref=e208] [cursor=pointer]: "28"
+                - paragraph [ref=e210] [cursor=pointer]: "30"
+                - paragraph [ref=e212] [cursor=pointer]: "31"
+            - paragraph [ref=e213]:
+              - paragraph [ref=e214]: 06월
+              - generic [ref=e215]:
+                - paragraph [ref=e217] [cursor=pointer]: "06"
+                - paragraph [ref=e219] [cursor=pointer]: "07"
+                - paragraph [ref=e221] [cursor=pointer]: "10"
+                - paragraph [ref=e223] [cursor=pointer]: "11"
+                - paragraph [ref=e225] [cursor=pointer]: "12"
+                - paragraph [ref=e227] [cursor=pointer]: "13"
+                - paragraph [ref=e229] [cursor=pointer]: "14"
+                - paragraph [ref=e231] [cursor=pointer]: "15"
+                - paragraph [ref=e233] [cursor=pointer]: "17"
+                - paragraph [ref=e235] [cursor=pointer]: "18"
+                - paragraph [ref=e237] [cursor=pointer]: "19"
+                - paragraph [ref=e239] [cursor=pointer]: "20"
+                - paragraph [ref=e241] [cursor=pointer]: "22"
+                - paragraph [ref=e243] [cursor=pointer]: "24"
+                - paragraph [ref=e245] [cursor=pointer]: "25"
+                - paragraph [ref=e247] [cursor=pointer]: "26"
+                - paragraph [ref=e249] [cursor=pointer]: "27"
+                - paragraph [ref=e251] [cursor=pointer]: "28"
+                - paragraph [ref=e253] [cursor=pointer]: "29"
+                - paragraph [ref=e255] [cursor=pointer]: "30"
+          - generic [ref=e257] [cursor=pointer]:
+            - img [ref=e260]
+            - generic [ref=e261]: 더보기
+    - contentinfo [ref=e264]:
+      - contentinfo [ref=e265]:
+        - generic [ref=e266]:
+          - generic [ref=e268]:
+            - list [ref=e269]:
+              - listitem [ref=e270]:
+                - link "회사소개" [ref=e271] [cursor=pointer]:
+                  - /url: http://www.modetournetwork.com/
+              - listitem [ref=e272]:
+                - link "개인정보처리방침" [ref=e273] [cursor=pointer]:
+                  - /url: /info/privacy-policy
+              - listitem [ref=e274]:
+                - link "여행약관" [ref=e275] [cursor=pointer]:
+                  - /url: /info/term-of-travel
+              - listitem [ref=e276]:
+                - link "이용약관" [ref=e277] [cursor=pointer]:
+                  - /url: /info/term-of-use
+              - listitem [ref=e278]:
+                - link "여행보험" [ref=e279] [cursor=pointer]:
+                  - /url: /promotion/35
+              - listitem [ref=e280]:
+                - link "마케팅제휴문의" [ref=e281] [cursor=pointer]:
+                  - /url: /info/marketingAlliance
+              - listitem [ref=e282]:
+                - link "온라인제휴안내" [ref=e283] [cursor=pointer]:
+                  - /url: /info/onlinealliance
+              - listitem [ref=e284]:
+                - button "대리점개설문의" [ref=e285] [cursor=pointer]
+            - generic [ref=e286] [cursor=pointer]: 패밀리사이트
+          - generic [ref=e287]:
+            - generic [ref=e288]:
+              - generic [ref=e289]:
+                - generic [ref=e290]:
+                  - paragraph [ref=e291]:
+                    - text: (주)모두투어네트워크 | 대표이사
+                    - generic [ref=e292]: 우종웅
+                    - text: "| 사업자등록번호"
+                    - generic [ref=e293]: 202-81-45295
+                    - text: "| 통신판매업신고번호"
+                    - generic [ref=e294]: 중구 제03500호
+                    - text: "| 호스팅 업체"
+                    - generic [ref=e295]: (주)모두투어네트워크
+                    - text: 관광사업자 등록번호
+                    - generic [ref=e296]: 1989-04(서울특별시 중구)
+                    - text: "| 영업여행업보증"
+                    - generic [ref=e297]: 15억 1천만원
+                    - text: "| 기획여행영업보증"
+                    - generic [ref=e298]: 7억원
+                    - text: 상담문의
+                    - generic [ref=e299]: 1544-5252
+                    - text: "| 팩스"
+                    - generic [ref=e300]: 02-2021-7800
+                    - text: "| 주소"
+                    - generic [ref=e301]: 서울특별시 중구 을지로 16 백남빌딩 5층
+                    - text: "| 이메일"
+                    - generic [ref=e302]: crm@modetour.com
+                  - link "사업자정보확인" [ref=e304] [cursor=pointer]:
+                    - /url: http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2028145295
+                - list [ref=e305]:
+                  - listitem [ref=e306]: ※ 부득이한 사정에 의해 확정된 여행일정이 변경되는 경우 여행자의 사전 동의를 받습니다.
+                  - listitem [ref=e307]: ※ (주)모두투어는 항공사가 제공하는 개별 항공권 및 여행사가 제공하는 일부 여행상품에 대해 통신판매중개자의 지위를 가지며, 해당 상품, 상품정보, 거래에 관한 의무와 책임은 판매자에게 있습니다.
+                  - listitem [ref=e308]: ※ 모두투어의 법인계좌 또는 가상계좌가 아닌 다른 계좌로 입금하신 경우 발생하는 피해에 관하여, 당사는 책임지지 않습니다. 타 계좌의 입금을 유도하는 행위가 발생하는 경우 반드시 모두투어 고객센터로 문의하거나 신고하여 주시기 바랍니다.
+                  - listitem [ref=e309]: COPYRIGHT MODETOUR. ALL RIGHTS RESERVED.
+              - generic [ref=e310]:
+                - link [ref=e311] [cursor=pointer]:
+                  - /url: http://tourinfo.or.kr/v2
+                - generic [ref=e312]:
+                  - link [ref=e313] [cursor=pointer]:
+                    - /url: https://pf.kakao.com/_RCxjwu
+                  - link [ref=e314] [cursor=pointer]:
+                    - /url: https://www.instagram.com/modetour_official/
+                  - link [ref=e315] [cursor=pointer]:
+                    - /url: https://www.facebook.com/modetournetwork
+                  - link [ref=e316] [cursor=pointer]:
+                    - /url: https://naver.me/F1JoETyi
+                  - link [ref=e317] [cursor=pointer]:
+                    - /url: https://blog.naver.com/modetourcom
+                  - link [ref=e318] [cursor=pointer]:
+                    - /url: https://story.kakao.com/ch/modetour
+                  - link [ref=e319] [cursor=pointer]:
+                    - /url: https://www.youtube.com/@modetourcom
+            - generic [ref=e321]:
+              - link [ref=e322] [cursor=pointer]:
+                - /url: //www.modetournetwork.com/Info/?in=2&tb=2
+              - link [ref=e323] [cursor=pointer]:
+                - /url: //www.modetournetwork.com/Info/?in=2&tb=2
+              - link [ref=e324] [cursor=pointer]:
+                - /url: //www.modetournetwork.com/Info/?in=2&tb=2
+              - link [ref=e325] [cursor=pointer]:
+                - /url: //www.modetournetwork.com/Info/?in=2&tb=2
+              - link [ref=e326] [cursor=pointer]:
+                - /url: //www.modetournetwork.com/Info/?in=2&tb=2
+              - link [ref=e327] [cursor=pointer]:
+                - /url: //www.modetournetwork.com/Info/?in=2&tb=2
+              - link [ref=e328] [cursor=pointer]:
+                - /url: //www.modetournetwork.com/Info/?in=2&tb=2
+  - iframe
+  - alert [ref=e329]

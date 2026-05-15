@@ -1,0 +1,1364 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - navigation [ref=e5]:
+        - button "myrealtrip" [ref=e7] [cursor=pointer]:
+          - img "myrealtrip" [ref=e8]
+        - generic [ref=e11]:
+          - img "icon" [ref=e13] [cursor=pointer]
+          - textbox "\"라한 호텔 브랜드\" 전라/경상 라스트 특가!" [ref=e14]:
+            - /placeholder: "\"라한 호텔 브랜드\" 전라/경상 라스트 특가! "
+        - generic [ref=e16]:
+          - button "파트너 로그인" [ref=e18] [cursor=pointer]
+          - button "로그인 및 회원가입" [ref=e20] [cursor=pointer]
+      - navigation [ref=e22]:
+        - generic [ref=e23]:
+          - link "홈" [ref=e25] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com
+            - generic [ref=e26]: 홈
+          - link "할인" [ref=e28] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/promotions/benefit
+            - generic [ref=e29]: 할인
+          - link "항공" [ref=e31] [cursor=pointer]:
+            - /url: https://flights.myrealtrip.com/
+            - generic [ref=e32]: 항공
+          - link "국내 숙소" [ref=e34] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=domestic
+            - generic [ref=e35]: 국내 숙소
+          - link "해외 숙소" [ref=e37] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=overseas
+            - generic [ref=e38]: 해외 숙소
+          - link "해외여행보험" [ref=e40] [cursor=pointer]:
+            - /url: https://direct.samsungfire.com/vd/overture_index.jsp?OTK=F2511AF0514
+            - generic [ref=e41]: 해외여행보험
+          - link "패키지" [ref=e43] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/pkc
+            - generic [ref=e44]: 패키지
+          - link "한인민박" [ref=e46] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=minbak
+            - generic [ref=e47]: 한인민박
+          - link "투어·티켓" [ref=e49] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/experiences
+            - generic [ref=e50]: 투어·티켓
+          - button "더보기 icon" [ref=e52] [cursor=pointer]:
+            - generic [ref=e53]: 더보기
+            - img "icon" [ref=e54]
+    - main [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e60]:
+            - button [ref=e62] [cursor=pointer]:
+              - img [ref=e63]
+            - button [ref=e66] [cursor=pointer]:
+              - img [ref=e67]
+          - generic [ref=e72]: 1명출발 - 교토 나라버스투어 사슴공원(우메다, 난바, 니혼바시 출발, 교토합류)
+          - generic [ref=e74]:
+            - button [ref=e76] [cursor=pointer]:
+              - img [ref=e77]
+            - img [ref=e83] [cursor=pointer]
+            - button [ref=e86] [cursor=pointer]:
+              - img [ref=e87]
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - button "일본" [ref=e92] [cursor=pointer]
+              - img [ref=e93]
+              - button "오사카" [ref=e95] [cursor=pointer]
+            - heading "1명출발 - 교토 나라버스투어 사슴공원(우메다, 난바, 니혼바시 출발, 교토합류)" [level=1] [ref=e96]
+            - generic [ref=e97]:
+              - generic [ref=e98]:
+                - img "icons" [ref=e99]
+                - img "icons" [ref=e100]
+                - img "icons" [ref=e101]
+                - img "icons" [ref=e102]
+                - img "icons" [ref=e103]
+              - generic [ref=e104]: 5.0 ·
+              - generic [ref=e105] [cursor=pointer]: 후기 19개
+          - generic [ref=e109]:
+            - button "저장" [ref=e114] [cursor=pointer]:
+              - img [ref=e118]
+              - generic [ref=e120]: 저장
+            - button "문의" [ref=e124] [cursor=pointer]:
+              - generic [ref=e125]: 문의
+            - button "코스" [ref=e129] [cursor=pointer]:
+              - generic [ref=e130]: 코스
+            - button "만나는시간" [ref=e134] [cursor=pointer]:
+              - generic [ref=e135]: 만나는시간
+            - button "만나는장소" [ref=e139] [cursor=pointer]:
+              - generic [ref=e140]: 만나는장소
+            - button "포함·불포함사항" [ref=e144] [cursor=pointer]:
+              - generic [ref=e145]: 포함·불포함사항
+            - button "자주묻는질문" [ref=e149] [cursor=pointer]:
+              - generic [ref=e150]: 자주묻는질문
+            - button "환불정책" [ref=e154] [cursor=pointer]:
+              - generic [ref=e155]: 환불정책
+            - button "공유" [ref=e159] [cursor=pointer]:
+              - generic [ref=e160]: 공유
+          - generic [ref=e164]:
+            - generic [ref=e177] [cursor=pointer]: 후기사진
+            - generic [ref=e185]:
+              - img "Placeholder Thumbnail" [ref=e189] [cursor=pointer]
+              - generic [ref=e190] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e193]
+                - generic [ref=e194]: 후기사진
+            - img "Placeholder Thumbnail" [ref=e201] [cursor=pointer]
+            - generic [ref=e204]:
+              - img "Placeholder Thumbnail" [ref=e208] [cursor=pointer]
+              - generic [ref=e209] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e212]
+                - generic [ref=e213]: 후기사진
+            - img "Placeholder Thumbnail" [ref=e220] [cursor=pointer]
+            - generic [ref=e223]:
+              - img "Placeholder Thumbnail" [ref=e227] [cursor=pointer]
+              - generic [ref=e228] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e231]
+                - generic [ref=e232]: 후기사진
+            - img "Placeholder Thumbnail" [ref=e239] [cursor=pointer]
+            - generic [ref=e242]:
+              - img "Placeholder Thumbnail" [ref=e246] [cursor=pointer]
+              - generic [ref=e247] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e250]
+                - generic [ref=e251]: 후기사진
+            - generic [ref=e255] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e258]
+              - generic [ref=e259]: 후기사진
+            - generic [ref=e262]:
+              - generic [ref=e263] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e266]
+                - generic [ref=e267]: 후기사진
+              - generic [ref=e268] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e271]
+                - generic [ref=e272]: 후기사진
+            - generic [ref=e276] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e279]
+              - generic [ref=e280]: 후기사진
+            - generic [ref=e283]:
+              - generic [ref=e284] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e287]
+                - generic [ref=e288]: 후기사진
+              - generic [ref=e289] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e292]
+                - generic [ref=e293]: 후기사진
+            - generic [ref=e297] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e300]
+              - generic [ref=e301]: 후기사진
+            - generic [ref=e304]:
+              - generic [ref=e305] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e308]
+                - generic [ref=e309]: 후기사진
+              - generic [ref=e310] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e313]
+                - generic [ref=e314]: 후기사진
+            - generic [ref=e318] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e321]
+              - generic [ref=e322]: 후기사진
+            - generic [ref=e325]:
+              - generic [ref=e326] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e329]
+                - generic [ref=e330]: 후기사진
+              - generic [ref=e331] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e334]
+                - generic [ref=e335]: 후기사진
+            - generic [ref=e339] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e342]
+              - generic [ref=e343]: 후기사진
+            - generic [ref=e346]:
+              - generic [ref=e347] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e350]
+                - generic [ref=e351]: 후기사진
+              - generic [ref=e352] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e355]
+                - generic [ref=e356]: 후기사진
+            - generic [ref=e360] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e363]
+              - generic [ref=e364]: 후기사진
+            - generic [ref=e367]:
+              - generic [ref=e368] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e371]
+                - generic [ref=e372]: 후기사진
+              - generic [ref=e373] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e376]
+                - generic [ref=e377]: 후기사진
+            - generic [ref=e381] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e384]
+              - generic [ref=e385]: 후기사진
+            - generic [ref=e388]:
+              - generic [ref=e389] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e392]
+                - generic [ref=e393]: 후기사진
+              - generic [ref=e394] [cursor=pointer]:
+                - img "Placeholder Thumbnail" [ref=e397]
+                - generic [ref=e398]: 후기사진
+            - generic [ref=e402] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e405]
+              - generic [ref=e406]: 후기사진
+            - generic [ref=e410] [cursor=pointer]:
+              - img "Placeholder Thumbnail" [ref=e413]
+              - generic [ref=e414]: 후기사진
+          - generic [ref=e415]:
+            - generic [ref=e418]: 최소 인원 1명
+            - generic [ref=e421]: 10시간 소요
+            - generic [ref=e424]: 차량이동
+            - generic [ref=e427]: 일본어, 영어, 한국어
+        - generic [ref=e428]:
+          - generic [ref=e431] [cursor=pointer]: 상품소개
+          - generic [ref=e435] [cursor=pointer]: 코스
+          - generic [ref=e438] [cursor=pointer]: 포함·불포함
+          - generic [ref=e441] [cursor=pointer]: 이용안내
+          - generic [ref=e444] [cursor=pointer]: 필수확인사항
+          - generic [ref=e447] [cursor=pointer]: 취소·환불
+          - generic [ref=e450] [cursor=pointer]: 후기
+          - generic [ref=e453] [cursor=pointer]: FAQ
+        - generic [ref=e454]:
+          - generic [ref=e457]:
+            - generic [ref=e458]:
+              - generic [ref=e459]:
+                - img "투어라운지" [ref=e460] [cursor=pointer]
+                - generic [ref=e461]:
+                  - button "투어라운지" [ref=e463] [cursor=pointer]:
+                    - generic [ref=e464]: 투어라운지
+                  - button "고객님들의 즐거운 여행을 위해 TourLounge(투어라운지)는 일본 렌터카 및 일본 버스투어,대만버스투어를 판매하고 있습니다. 여러분들의 즐거운 여행을 위해 노력하는 동반자가 되겠습니다. 언제든지 편하게 문의주세요^^" [ref=e465] [cursor=pointer]:
+                    - generic [ref=e466]: 고객님들의 즐거운 여행을 위해 TourLounge(투어라운지)는 일본 렌터카 및 일본 버스투어,대만버스투어를 판매하고 있습니다. 여러분들의 즐거운 여행을 위해 노력하는 동반자가 되겠습니다. 언제든지 편하게 문의주세요^^
+                  - button "판매자 정보" [ref=e467] [cursor=pointer]:
+                    - generic [ref=e468]: 판매자 정보
+              - button "문의하기" [ref=e469] [cursor=pointer]:
+                - generic [ref=e470]: 문의하기
+            - generic [ref=e477]:
+              - generic [ref=e480]: 26년1월~3월 동절기 운휴입니다.
+              - generic [ref=e483]:
+                - generic [ref=e485]:
+                  - text: "26년1월~3월 동절기 운휴입니다. * 승차장소: 우메다, 니혼바시, 난바OCTA, 교토아라시야마 합류 하차장소: 우메다 , 남바OCTA , 나라 하차 만 가능합니다. !!니혼바시 하차는 인근 난바에서 신사이바시 도보 15분 입니다. **난바 추천 관광지 난바시티 , 타카시마야 백화점 , 난바 맛집 탐방 ※ 25년 11월 30일 까지의 예약상품입니다. 💡 교토 출발 교토&나라 투어는 아래 상품을 확인해주세요~ (투어라운지에서 판매하고 있습니다)"
+                  - link "https://www.myrealtrip.com/offers/144337" [ref=e486] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/offers/144337
+                - button "... 더보기" [ref=e487] [cursor=pointer]
+          - generic [ref=e488]:
+            - heading "결제 혜택" [level=2] [ref=e489]
+            - generic [ref=e490]:
+              - generic [ref=e491]:
+                - generic [ref=e493] [cursor=pointer]:
+                  - generic [ref=e495]: KB국민카드
+                  - generic [ref=e496]: KB할인팩 결제일 할인 (최대 3만원 할인)
+                  - img [ref=e497]
+                - generic [ref=e501] [cursor=pointer]:
+                  - generic [ref=e503]: 카카오페이
+                  - generic [ref=e504]: 머니 / 삼성카드 최대 6만원 즉시할인
+                  - img [ref=e505]
+                - generic [ref=e509] [cursor=pointer]:
+                  - generic [ref=e511]: 삼성카드
+                  - generic [ref=e512]: 최대 5만원 결제일 할인
+                  - img [ref=e513]
+                - generic [ref=e517] [cursor=pointer]:
+                  - generic [ref=e519]: 현대카드
+                  - generic [ref=e520]: M포인트 10% 사용가능 (최대 15,000 M포인트)
+                  - img [ref=e521]
+                - generic [ref=e525] [cursor=pointer]:
+                  - generic [ref=e527]: 롯데카드
+                  - generic [ref=e528]: 최대 4만원 청구할인
+                  - img [ref=e529]
+                - generic [ref=e533] [cursor=pointer]:
+                  - generic [ref=e535]: 우리카드
+                  - generic [ref=e536]: 꾹 혜택 - 6만원 청구 할인
+                  - img [ref=e537]
+                - generic [ref=e541] [cursor=pointer]:
+                  - generic [ref=e543]: 토스페이
+                  - generic [ref=e544]: 최대 12만원 즉시할인
+                  - img [ref=e545]
+                - generic [ref=e549] [cursor=pointer]:
+                  - generic [ref=e551]: 네이버페이
+                  - generic [ref=e552]: 네이버페이 포인트 최대 5,000원 적립
+                  - img [ref=e553]
+                - generic [ref=e557] [cursor=pointer]:
+                  - generic [ref=e559]: 무이자할부
+                  - generic [ref=e560]: 최대 24개월 무이자 할부 가능
+                  - img [ref=e561]
+              - button "혜택 더보기" [ref=e565] [cursor=pointer]:
+                - generic [ref=e566]: 혜택 더보기
+          - generic [ref=e567]:
+            - heading "상품 소개" [level=2] [ref=e568]
+            - generic [ref=e569]:
+              - separator [ref=e570]
+              - generic [ref=e571]:
+                - generic:
+                  - figure:
+                    - img "Placeholder Thumbnail" [ref=e573]
+                  - figure:
+                    - img "Placeholder Thumbnail" [ref=e575]
+            - button "상품 소개 더보기" [ref=e578] [cursor=pointer]:
+              - generic [ref=e579]: 상품 소개 더보기
+          - generic [ref=e580]:
+            - heading "코스" [level=2] [ref=e581]
+            - generic [ref=e583]:
+              - generic [ref=e584]:
+                - img [ref=e587]
+                - generic [ref=e591]:
+                  - generic [ref=e592]: 10:30~12:30 아라시야마
+                  - generic [ref=e594]: 120분 소요
+                  - generic [ref=e595]: 아라시야마에 도착 후 알려드린 시간 동안 자유롭게 구경 및 식사를 하신 후 지정된 버스 탑승지로 돌아오시면 됩니다. ●아라시야마는 벚꽃과 단풍의 명소이며, 중심에 흐르는 가쓰하가와와 도게츠교는 아라시야마의 상징입니다. 추천 관광지는 사가노의 대나무 숲! 세계유산인 텐류지 옆, 100m 에 걸쳐 이어진 시원한 대나무 숲 산책로입니다. 또한 대나
+              - generic [ref=e597]:
+                - img [ref=e600]
+                - generic [ref=e604]:
+                  - generic [ref=e605]: 금각사
+                  - generic [ref=e607]: 40분 소요
+                  - generic [ref=e608]: 금각사에 도착 후 알려드린 시간 동안 자유롭게 구경 및 식사를 하신 후 지정된 버스 탑승지로 돌아오시면 됩니다. ●부처님 사리를 모시는 사리전의 2,3층이 금박으로 덮혀있어 금각사로 불리고 있으나,정확히는 임제종상국사파의 선사 로쿠온지(鹿苑寺)입니다. 현재의 금각은 1955년에 복원된 것으로, 1층은 귀족의 건출양식,2층은 무가의 건축양식,
+            - button "코스 모두 보기" [ref=e612] [cursor=pointer]:
+              - generic [ref=e613]: 코스 모두 보기
+          - generic [ref=e617]:
+            - generic [ref=e619]: "'교토 투어' 인기 상품"
+            - generic [ref=e622]:
+              - generic [ref=e627] [cursor=pointer]:
+                - generic [ref=e628]:
+                  - img "Placeholder Thumbnail" [ref=e631]
+                  - img [ref=e636]
+                - generic [ref=e638]:
+                  - generic [ref=e639]: "[[💖매일출발💖] 오사카출발 교토 나라 아라시야마 버스투어 1일 여행 소소"
+                  - generic [ref=e640]:
+                    - img [ref=e641]
+                    - generic [ref=e643]: "5"
+                    - generic [ref=e644]: (172)
+                  - generic [ref=e646]: 49,000원
+                  - generic [ref=e647]: 근교투어
+              - generic [ref=e652] [cursor=pointer]:
+                - generic [ref=e653]:
+                  - img "Placeholder Thumbnail" [ref=e656]
+                  - img [ref=e661]
+                - generic [ref=e663]:
+                  - generic [ref=e664]: "[🚩나라/교토] 오사카 출발 나라 교토 1일 버스투어 일본 여행 (라쿠투어)"
+                  - generic [ref=e665]:
+                    - img [ref=e666]
+                    - generic [ref=e668]: "5"
+                    - generic [ref=e669]: (129)
+                  - generic [ref=e671]: 44,555원
+                  - generic [ref=e672]: 근교투어
+                  - generic [ref=e674]: 최저가보장제
+              - generic [ref=e679] [cursor=pointer]:
+                - generic [ref=e680]:
+                  - img "Placeholder Thumbnail" [ref=e683]
+                  - img [ref=e688]
+                - generic [ref=e690]:
+                  - generic [ref=e691]: "[오사카 프라이빗투어] 교토 맞춤 공항픽업 전 일정 케어 오사카골프 프라이빗 투어 VIP"
+                  - generic [ref=e692]:
+                    - img [ref=e693]
+                    - generic [ref=e695]: "4.9"
+                    - generic [ref=e696]: (432)
+                  - generic [ref=e698]: 60,000원
+                  - generic [ref=e699]: 근교투어
+                  - generic [ref=e701]: 최저가보장제
+              - generic [ref=e706] [cursor=pointer]:
+                - generic [ref=e707]:
+                  - img "Placeholder Thumbnail" [ref=e710]
+                  - img [ref=e715]
+                - generic [ref=e717]:
+                  - generic [ref=e718]: 📍오사카 출발📍 나라 교토 버스투어 (사슴공원 후시미이나리신사 청수사 ) 소소버스
+                  - generic [ref=e719]:
+                    - img [ref=e720]
+                    - generic [ref=e722]: "5"
+                    - generic [ref=e723]: (7)
+                  - generic [ref=e725]: 49,000원
+                  - generic [ref=e726]: 근교투어
+              - generic [ref=e731] [cursor=pointer]:
+                - generic [ref=e732]:
+                  - img "Placeholder Thumbnail" [ref=e735]
+                  - img [ref=e740]
+                - generic [ref=e742]:
+                  - generic [ref=e743]: 나라/교토를 하루만에 돌아보는 투어 (프라이빗 투어)
+                  - generic [ref=e744]:
+                    - img [ref=e745]
+                    - generic [ref=e747]: "5"
+                    - generic [ref=e748]: (16)
+                  - generic [ref=e750]: 80,000원
+                  - generic [ref=e751]: 근교투어
+                  - generic [ref=e753]: 무료취소
+              - generic [ref=e758] [cursor=pointer]:
+                - generic [ref=e759]:
+                  - img "Placeholder Thumbnail" [ref=e762]
+                  - img [ref=e767]
+                - generic [ref=e769]:
+                  - generic [ref=e770]: "[💓선착순 할인💓] 오사카 출발 1일 나라 교토 버스투어 니시키시장 청수사 아라시야마"
+                  - generic [ref=e771]:
+                    - img [ref=e772]
+                    - generic [ref=e774]: "5"
+                    - generic [ref=e775]: (1)
+                  - generic [ref=e777]: 42,655원
+                  - generic [ref=e778]: 근교투어
+              - generic [ref=e783] [cursor=pointer]:
+                - generic [ref=e784]:
+                  - img "Placeholder Thumbnail" [ref=e787]
+                  - img [ref=e792]
+                - generic [ref=e794]:
+                  - generic [ref=e795]: "[교토&나라투어]맞춤 반반 1일 여행>>현지 가이드와 오사카 출발(단독 고급밴 -7인승)"
+                  - generic [ref=e796]:
+                    - img [ref=e797]
+                    - generic [ref=e799]: "5"
+                    - generic [ref=e800]: (1)
+                  - generic [ref=e802]: 390,000원
+                  - generic [ref=e803]: 근교투어
+              - generic [ref=e808] [cursor=pointer]:
+                - generic [ref=e809]:
+                  - img "Placeholder Thumbnail" [ref=e812]
+                  - img [ref=e817]
+                - generic [ref=e819]:
+                  - generic [ref=e820]: 교토와 나라, 유네스코 세계유산을 탐방하는 역사 체험 당일 투어 (오사카 출발, 1인 가능)
+                  - generic [ref=e822]: 53,135원
+                  - generic [ref=e823]: 근교투어
+                  - generic [ref=e825]: 즉시 확정
+              - generic [ref=e830] [cursor=pointer]:
+                - generic [ref=e831]:
+                  - img "Placeholder Thumbnail" [ref=e834]
+                  - img [ref=e839]
+                - generic [ref=e841]:
+                  - generic [ref=e842]: 간사이 지역 (교토,이세,나라,와카야마) 주문형 프라이빗투어 (오사카 출발)
+                  - generic [ref=e844]: 38,195원
+                  - generic [ref=e845]: 근교투어
+              - generic [ref=e850] [cursor=pointer]:
+                - generic [ref=e851]:
+                  - img "Placeholder Thumbnail" [ref=e854]
+                  - img [ref=e859]
+                - generic [ref=e861]:
+                  - generic [ref=e862]: 나라・교토・후시미이나리타이샤・아라시야마 당일치기 투어 (오사카 출발, 1인 가능)
+                  - generic [ref=e864]: 49,225원
+                  - generic [ref=e865]: 근교투어
+                  - generic [ref=e867]: 즉시 확정
+          - generic [ref=e868]:
+            - heading "포함 · 불포함 사항" [level=2] [ref=e869]
+            - generic [ref=e871]:
+              - generic [ref=e872]:
+                - heading "포함되어 있어요" [level=3] [ref=e873]
+                - generic [ref=e876]:
+                  - img "icon" [ref=e877]
+                  - paragraph [ref=e879]: ■ 포함사항 * 버스 요금 *일정상의 택시요금 혹은 전철요금
+              - generic [ref=e880]:
+                - heading "불포함되어 있어요" [level=3] [ref=e881]
+                - generic [ref=e884]:
+                  - img "icon" [ref=e885]
+                  - paragraph [ref=e887]: "■ 불포함사항 금각사 입장료: 어른 500엔, 어린이 300엔 동대사 입장료: 어른 800엔, 초등학생 400엔 여행자보험, 점심식사 및 개인비용"
+          - generic [ref=e888]:
+            - heading "이용 안내" [level=2] [ref=e889]
+            - generic [ref=e891]:
+              - generic [ref=e892]:
+                - heading "만나는시간" [level=3] [ref=e893]
+                - paragraph [ref=e898]: "1. 우메다 (하튼호텔 니시우메다 정문 앞) 08:20분 2. 니혼바시 (츠루동탄 소에몬초점) 08:25분 3. 난바 OCAT (서쪽 출입구 내부 로비) 08:50분 4. 교토 출발자 아라시야마 합류 (도착 시간 자유, 추천 도착 시간 10시) * 승차 : 우메다, 니혼바시, 난바OCTA, 교토아라시야마 합류 * 하차 : 우메다 , 남바OCTA , 나라 하차후 개별해산 만 가능합니다. !!니혼바시 하차는 인근 난바에서 신사이바시 도보 15분 입니다. **난바 추천 관광지 난바시티 , 타카시마야 백화점 , 난바 맛집 탐방"
+              - generic [ref=e899]:
+                - heading "만나는장소" [level=3] [ref=e900]
+                - paragraph [ref=e904]: 예약 시 우메다 (하튼호텔 니시우메다 정문 앞) / 니혼바시 (츠루동탄 소에몬초점) / 난바 OCAT (서쪽 출입구 내부 로비) / 교토 출발자 아라시야마 합류 (도착 시간 자유, 추천 도착 시간 10시) * 승차 우메다, 니혼바시, 난바OCTA, 교토아라시야마 합류 // 하차장소는 우메다 , 남바OCTA , 나라 하차 만 가능합니다. !!니혼바시 하차는 인근 난바에서 신사이바시 도보 15분 입니다. **난바 추천 관광지 난바시티 , 타카시마야 백화점 , 난바 맛집 탐방
+          - generic [ref=e905]:
+            - heading "필수 확인 사항" [level=2] [ref=e906]
+            - generic [ref=e910]:
+              - generic [ref=e912]:
+                - img "icon" [ref=e913]
+                - paragraph [ref=e915]: "*주의 사항 * 승차 우메다, 니혼바시, 난바OCTA, 교토아라시야마 합류 // 하차장소는 우메다 , 남바OCTA , 나라 하차 만 가능합니다. !!니혼바시 하차는 인근 난바에서 신사이바시 도보 15분 입니다. **난바 추천 관광지 난바시티 , 타카시마야 백화점 , 난바 맛집 탐방 ▶현지 사정 상 차량 점검 등의 이유로 부득이하게 차량 변경 혹은 택시로 변경될 가능성이 있습니다. ▶연락이 되지 않거나, 예약 정보 미제공으로 예약 진행이 안될 경우 취소 처리될 수 있습니다. 투어 신청 취소를 원하시거나 집합 장소를 모르실 경우, 연락 주십시오. 연락이 없으실 경우, No-Show로 처리하게 됩니다. 출발 시간까지 오지시 않을 경우, 투어를 포기하신 것으로 알고 버스가 출발합니다. 그 경우, 고객님께 따로 연락을 드리지 않습니다."
+              - generic [ref=e917]:
+                - img "icon" [ref=e918]
+                - paragraph [ref=e920]: 본 상품은 예약 후 바로 확정 되는 상품이 아닙니다. ( 좌석 확인 후 회신 드립니다 ) !! 정시 출발이므로, 10분 전에 미팅 장소에서 대기 부탁 드립니다. !! 지각 시 투어 포기로 간주되며 취소 될 수 있습니다. *옵션구매시 주의사항 투어 이용일 기준 만 2세(24개월)~12세 이상(아동)은 좌석 차지로 성인과 가격이 동일합니다. *오사카 출발 시, 교토역 도착으로 하시는 경우 JR티켓이 지급되지 않는 점 양해 부탁드립니다* 개별 여행자 보험을 권장 드립니다. 1명부터 출발 가능 니혼바시, 우메다, 남바 등 오사카 승차장 3곳 과 교토역에서 출발 하여 교토의 관광지인 아라시야마,금각사 및 동대사와 나라 공원을 하루에 보실 수 있는 1일 버스 투어입니다. *교토에서 출발은 첫번째 관광지 개별 합류입니다. *구매 시 바로 확정되는 상품이 아닙니다* (실시간 좌석 변동으로 인하여 현지 좌석 확인 후 유무 회신 드립니다) *한국인 인솔자와 , 외국어 전담 인솔자(일어,영어 대응가능)2명이 동행 합니다 *우메다에서 출발시 일본인인솔자 인솔와 이동후 한국인 인솔자와 남바 합류입니다. **일정 특성 상 교토역 출발 하시는 분들은 아라시야마 개별 합류입니다. (10시까지, 자세한 사항 인솔자와 시간 조율) *교토역 하차의 경우, 나라 공원에서 교토까지 개별 이동입니다. 한국인 인솔자가 긴테쓰나라역까지 가는 길을 설명 해드립니다. *옵션구매 시 주의사항* 아동의 나이는 투어이용일 기준 만2세 (24개월)~12세입니다. (0~23개월 미만 영유아의 경우 무료입니다. 단, 버스 좌석은 별도로 제공하지 않습니다.) ※대형버스(45~49인승)로 행사를 진행하며, 출발 인원에 따라 차량 별경 될수 있습니다. ※ 캐리어등 지참시 차량 트렁크에 적재는 가능하나 분실물 분실에 대해서는 도움을 드릴 수 없습니다. ※카시트는 제공되지 않으니 참고해주세요. 취소 및 환불 규정 ▶당일 예약이나 변경은 불가능합니다. ▶또한 이용일자, 플랜변경에 따른 추가 요금은 취소 수수료와 동일하게 발생 합니다 변경 전 반드시 확인 하시기 바랍니다. 승/하차지 변경은 출발 주중 영업일 영업시간 기준 2일전까지 신청 가능하며, 이용날자 변경의 경우 캔슬차지 발생 기간 중, 날자 변경을 신청 할 경우 캔슬 차지 금액이 부과후 좌석 재고 확인후 날자 변경 됩니다. *변경 문의는 주중 영업일 (10시~16시 )기준이며, 전화 문의( 070-8672-6688)로 가능합니다. ▶예약 확정 후, 취소 시 취소 수수료가 발생합니다. *한국의 여행 약관이 아닌 일본 버스 회사인 리몬버스투어의 취소 규정을 따르고 있습니다. 이 점 양해 부탁 드립니다. ▶메일, 문자로는 변경/취소 처리가 되지 않습니다. 많은 양해 바랍니다 ▶영업일 16:00 이전 취소 접수 시 당일 취소되며, 그 이후 시간의 취소 및 주말, 공휴일 취소 접수는 익영업일 취소로 간주됩니다. ▶현지 사정 상 차량 점검 등의 이유로 부득이하게 차량변경 혹은 택시로 변경될 가능성이 있습니다. ▶연락이 되지 않거나, 예약 정보 미제공으로 예약 진행이 안될 경우 취소 처리될 수 있습니다.
+            - button "필수 확인 사항 모두 보기" [ref=e923] [cursor=pointer]:
+              - generic [ref=e924]: 필수 확인 사항 모두 보기
+          - generic [ref=e925]:
+            - heading "취소/환불 규정" [level=2] [ref=e926]
+            - generic [ref=e932]:
+              - img "icon" [ref=e933]
+              - paragraph [ref=e935]: "본 상품은 국외여행 표준약관 제6조(특약)에 따라 일반 소비자분쟁해결기준과 다른 취소수수료가 적용됩니다. 예약 전 취소 규정을 반드시 확인해 주세요. - 여행시작 7일 전까지(~7) 통보시 : 여행 요금 전액 환불 - 여행시작 3일 전까지(6~3) 통보시 : 상품 요금의 50% 공제 - 여행시작 당일까지 (2~당일) 통보시 : 취소/환불 불가 ※ 여행일은 현지 시각 기준입니다."
+          - generic [ref=e944]:
+            - generic [ref=e945]:
+              - img "AI" [ref=e946]
+              - generic [ref=e947]: AI가 요약한 5개의 후기
+              - generic [ref=e948]: (최근 12개월)
+            - generic [ref=e949]:
+              - generic [ref=e950]:
+                - generic [ref=e951]:
+                  - img "AI" [ref=e952]
+                  - generic [ref=e953]: 가이드 친절도·편의성·만족도 (5개)
+                - paragraph [ref=e954]:
+                  - generic [ref=e955]:
+                    - button "더보기" [ref=e956] [cursor=pointer]
+                    - text: 여행객들은 가이드님의 친절한 안내와 세심한 배려에 만족했습니다. 특히 '가이드님께서 직접 숙소까지 안내해 주셔서 편했다', '더위를 잘 견딜 수 있도록 세심하게 챙겨주셨다'는 등의 긍정적인 평가가 있었습니다.
+              - generic [ref=e957]:
+                - generic [ref=e958]:
+                  - img "AI" [ref=e959]
+                  - generic [ref=e960]: 없음
+                - paragraph [ref=e961]: "null"
+          - generic [ref=e966]:
+            - generic [ref=e967]:
+              - img [ref=e968]
+              - generic [ref=e970]: 5.0 · 후기 19개
+            - generic [ref=e974]:
+              - generic [ref=e977]:
+                - generic [ref=e978]:
+                  - generic [ref=e979]:
+                    - img [ref=e980]
+                    - img [ref=e982]
+                    - img [ref=e984]
+                    - img [ref=e986]
+                    - img [ref=e988]
+                  - generic [ref=e990]: 6달 전
+                - generic [ref=e992]: 유진상 가이드님 만나서 가이드 받았어요 숙소가 나라였는데 나라에서 하차할 수 있어서 좋았어요 자세한 후기는 링크에 있어요 https://blog.naver.com/farmrini/224066078840
+                - generic [ref=e993]: 체험 거리가 많아요 · 친절해요 · 관광지와 가까워요
+                - generic [ref=e994]: 조*훈
+              - generic [ref=e997]:
+                - generic [ref=e998]:
+                  - generic [ref=e999]:
+                    - img [ref=e1000]
+                    - img [ref=e1002]
+                    - img [ref=e1004]
+                    - img [ref=e1006]
+                    - img [ref=e1008]
+                  - generic [ref=e1010]: 7달 전
+                - generic [ref=e1012]: 가이드님이 정말 친절하셨어요. 끝난 뒤 숙소로 가는 길을 못 찾고 있으니까 지하철 입구까지 데려다 주셔서 덕분에 편하게 갔습니다. 다니는 동안에도 허리아픈 저희 아버지를 배려해 주셔서 너무감사했어요 다음에 일본에 오면 또 신청하고 싶어요. 적극 추천합니다
+                - generic [ref=e1013]: 체험 거리가 많아요 · 친절해요 · 관광지와 가까워요 · 응답이 빨라요 · 전문적이에요
+                - generic [ref=e1014]: 이*경
+              - generic [ref=e1017]:
+                - generic [ref=e1018]:
+                  - generic [ref=e1019]:
+                    - img [ref=e1020]
+                    - img [ref=e1022]
+                    - img [ref=e1024]
+                    - img [ref=e1026]
+                    - img [ref=e1028]
+                  - generic [ref=e1030]: 2년 전
+                - generic [ref=e1031]:
+                  - generic [ref=e1032]: 할머니와 단둘이 떠나는 여행이라 걱정을 많이 했는데 버스로 모든 이동을 해주셔서 코스가 알찬 것에 비해서 많이 힘들지 않았어요! 저희는 박충규 가이드님의 인솔 아래 투어를 했는데 가는 장소마다 어느 곳인지, 뭐로 유명한지, 그 장소의 역사 등등 재미있게 설명을 많이 해주셔서 가는 내내 지겹지 않았고 여름이라 날씨가 무더워서 밖에서 설명을 하면 금방 지치기 쉽기도 하고 저희의 시간을 아끼기 위해서 투어 스팟에 내리기 전에 버스에서 주로 설명을 해주셨는데 그런 세세한 배려도 참 감사했어요! 투어를 신청하지 않고 여행을 했다면 짐을 들고 대중교통으로 이곳저곳 돌아다니느라 많은 곳을 둘러보지 못했을 것 같고 보더라도 잘 알지 못하고 눈으로 보기만 했을텐데 아는만큼 보인다고 전문적이고 재밌는 설명을 듣고 나서 관광지를 다니니 더 이해도 되고 재밌았어요! 저는 둘이 갔지만 가이드님이 사진도 잘 찍어주시고 하셔서 혼자 가시는 분들도 투어 신청해도 좋을 것 같아요!!! 혼자 가면 사진 남기기 어렵잖아요ㅠㅠㅠ 교토만 보는 게 아니라 나라도 살짝 둘러볼 수 있어서 너무 만족스러웠어요:) 저는 이 투어를 신청하기를 너무 잘했다고 생각하고 다음에 가족들과 또 함께 가게 된다면 설명을 못 들은 가족들을 위해 또 투어 신청할 생각도 있습니다! 그정도로 만족스러웠어요ㅎㅎ
+                  - generic [ref=e1033]:
+                    - img "Placeholder Thumbnail" [ref=e1036]
+                    - generic [ref=e1038]: "7"
+                - generic [ref=e1039]: 전문적이에요 · 친절해요 · 응답이 빨라요
+                - generic [ref=e1040]: 조*민
+              - generic [ref=e1043]:
+                - generic [ref=e1044]:
+                  - generic [ref=e1045]:
+                    - img [ref=e1046]
+                    - img [ref=e1048]
+                    - img [ref=e1050]
+                    - img [ref=e1052]
+                    - img [ref=e1054]
+                  - generic [ref=e1056]: 9달 전
+                - generic [ref=e1058]: 교토합류가 손해이지 않을까 생각했었는데, 그런 생각이 전혀 들지 않을 정도로 좋았습니다. 특히 날이 정말 더웠는데 버스타고 다녀서 좋았고, 무엇보다 김수희 가이드님께서 정말 살뜰히 챙겨주셨어요.. 설명도 잘해주시고 더위먹지않게 케어도 해주시고, 최종하차 후에도 숙소까지 가는 길 친절하게 안내해주셔서 정말 잘 돌아갔습니다. 감사합니다.^^
+                - generic [ref=e1059]: 관광지와 가까워요 · 관리가 잘 되어 있어요 · 방문하기 편해요 · 체험 거리가 많아요 · 친절해요
+                - generic [ref=e1060]: 원*연
+              - generic [ref=e1063]:
+                - generic [ref=e1064]:
+                  - generic [ref=e1065]:
+                    - img [ref=e1066]
+                    - img [ref=e1068]
+                    - img [ref=e1070]
+                    - img [ref=e1072]
+                    - img [ref=e1074]
+                  - generic [ref=e1076]: 1년 전
+                - generic [ref=e1077]:
+                  - generic [ref=e1078]: 원래 가고 싶은 곳이 다 마감이라 아쉬웠는데 바로 다른 곳으로 추천해주셔서 예약할수 있었어요. 교토 머무는 시간이 짧아 진짜 아쉽 ㅠㅠ 다음에는 좀 더 시간 넉넉하게 가야겠다는 생각 하면서 아쉬움 달랬네요. 팁을 드리자면 식사 하지 마시고 그냥 쭈욱 한바퀴 도는게 훨씬 낫다는거. 김수희 가이드님이 설명도 디테일하고 재미나게 해주셔서 이동하면서 지루하지 않았구요. 교토 아라비카 커피도 대신 앱으로 주문해주셔서 많이 기다리지 않고 마실수 있어 감사했어요. 그리고 마지막에 맛집과 선물 추천 편의점 추천 메뉴등 다양한 정보도 톡으로 보내주셔서 도움이 많이 됐답니다^^ 아이들 나라 사슴마을 너무 좋아했어요. 가족들 가기에 좋은 프로그램이었어요.~
+                  - generic [ref=e1079]:
+                    - img "Placeholder Thumbnail" [ref=e1082]
+                    - generic [ref=e1084]: "3"
+                - generic [ref=e1085]: 전문적이에요 · 방문하기 편해요 · 친절해요 · 위치가 찾기 쉬워요
+                - generic [ref=e1086]: 정*은
+              - generic [ref=e1089]:
+                - generic [ref=e1090]:
+                  - generic [ref=e1091]:
+                    - img [ref=e1092]
+                    - img [ref=e1094]
+                    - img [ref=e1096]
+                    - img [ref=e1098]
+                    - img [ref=e1100]
+                  - generic [ref=e1102]: 1년 전
+                - generic [ref=e1103]:
+                  - generic [ref=e1104]: 희진 가이드님의 투어 전날 카톡으로 픽업위치 안내부터 진행하는동안 상세하고 적극적인 진행에 기분 좋은 투어였습니다. 더욱 마치고 오사카 살것들 추천 품목/맛집 리스업까지 감사드립니다. 아라시야마 대나무숲.금각사.나라 사슴공원까지 개인여행자가 동선이 쉽지 않은 코스인데 다행이 일일투어 덕분에 하루에 세곳을 방문하여 교토.나라를 볼 수 있었어요! 각 장소의 포인트마다 사진도 잘 찍어주시고 개별적인 질문에도 세심하게 응대해 주셔서 감사했습니다. 아~~ 아라시야마 거리 추천해주신 우동집 ^^콜드 우동! 쫄깃하니 쵝오입니다. 튀김과 세트메뉴로 식도락의 기쁨도 맛보시길
+                  - img "Placeholder Thumbnail" [ref=e1108]
+                - generic [ref=e1109]: 위치가 찾기 쉬워요 · 친절해요 · 관광지와 가까워요 · 전문적이에요 · 방문하기 편해요
+                - generic [ref=e1110]: 두*듀
+              - generic [ref=e1113]:
+                - generic [ref=e1114]:
+                  - generic [ref=e1115]:
+                    - img [ref=e1116]
+                    - img [ref=e1118]
+                    - img [ref=e1120]
+                    - img [ref=e1122]
+                    - img [ref=e1124]
+                  - generic [ref=e1126]: 1년 전
+                - generic [ref=e1127]:
+                  - generic [ref=e1128]: 엄마와 간 첫 오사카 여행에서의 마지막날 버스투어를 이용해보았습니다. 교토와 사슴공원 둘다 방문할수 있고, 마지막에 우메다 하차까지 가능해 이용해보았는데 결과적으로 아주 만족스러운 투어였습니다 저는 🌸임희진 가이드님🌸과 함께하였는데요! 우선 각 코스 방문전 사진과 설명, 주변에 들리면 좋은 맛집 및 간식정보들을 카톡으로 보내주시고 가는길 중간중간 설명도 친절하게 해주십니다. 역사적인 내용은 물론, 장소마다의 소소한 꿀팁? 같은 것들도 알려주셔서 재미있었습니다. 운이좋게도 이번여행에 한국인은 저희뿐이라 개인적으로 궁금했던 일본생활에 대해서도 알려주셔서 너무 좋았어요 ㅎㅎ (하차 장소의 맛집 정보들까지 알려주셔서 큰 도움이 되었습니다) 물론 둘러보기에 시간이 촉박하다는 단점은 있지만 짧은 시간내에 다양한 장소를 방문하고 싶으신 분들에게 적극 추천드립니다😆
+                  - img "Placeholder Thumbnail" [ref=e1132]
+                - generic [ref=e1133]: 전문적이에요 · 친절해요
+                - generic [ref=e1134]: 박*경
+              - generic [ref=e1137]:
+                - generic [ref=e1138]:
+                  - generic [ref=e1139]:
+                    - img [ref=e1140]
+                    - img [ref=e1142]
+                    - img [ref=e1144]
+                    - img [ref=e1146]
+                    - img [ref=e1148]
+                  - generic [ref=e1150]: 1년 전
+                - generic [ref=e1151]:
+                  - generic [ref=e1152]: 허화평 가이드님의 전문적이며 자세한 설명과 안내로 더 완벽한 여행이었어요. 이동시간엔 지루하지않게 일본 역사와 고베, 오사카의 지리적 역사적 설명과 퀴즈로 시간가는줄 몰랐어요. 처음 고베에 와봤는데 너무 아름다웠고 다음에 기회가 되면 또 투어하고싶어요.
+                  - generic [ref=e1153]:
+                    - img "Placeholder Thumbnail" [ref=e1156]
+                    - generic [ref=e1158]: "4"
+                - generic [ref=e1159]: 관리가 잘 되어 있어요 · 친절해요 · 체험 거리가 많아요 · 전문적이에요 · 위치가 찾기 쉬워요
+                - generic [ref=e1160]: 한*
+              - generic [ref=e1163]:
+                - generic [ref=e1164]:
+                  - generic [ref=e1165]:
+                    - img [ref=e1166]
+                    - img [ref=e1168]
+                    - img [ref=e1170]
+                    - img [ref=e1172]
+                    - img [ref=e1174]
+                  - generic [ref=e1176]: 1년 전
+                - generic [ref=e1177]:
+                  - generic [ref=e1178]: 가이드님 덕분에 기억에 남는 교토, 나라여행이 되었습니다. 좋은 여행지를 편안하게 체험했고 저녁식사 예약까지 해주셔서 너무 감사했습니다. 다른 분들에게행복한 추억을 많이 선사해 주시 행운과 평화가 함께 하길 바랍니다.
+                  - generic [ref=e1179]:
+                    - img "Placeholder Thumbnail" [ref=e1182]
+                    - generic [ref=e1184]: "2"
+                - generic [ref=e1185]: 전문적이에요 · 친절해요 · 관리가 잘 되어 있어요 · 관광지와 가까워요 · 응답이 빨라요
+                - generic [ref=e1186]: c*e
+              - generic [ref=e1189]:
+                - generic [ref=e1190]:
+                  - generic [ref=e1191]:
+                    - img [ref=e1192]
+                    - img [ref=e1194]
+                    - img [ref=e1196]
+                    - img [ref=e1198]
+                    - img [ref=e1200]
+                  - generic [ref=e1202]: 2년 전
+                - generic [ref=e1203]:
+                  - generic [ref=e1204]: 난바역에서 김수희 가이드님과 함께 나라 교토 투어했어요! 초4아이와 함께 했는데, 충분히 소화 가능한 일정이었고 무엇보다 가이드님께서 설명해주시는게 아주 깔끔! 하세요ㅎㅎ감사했습니다!!
+                  - generic [ref=e1205]:
+                    - img "Placeholder Thumbnail" [ref=e1208]
+                    - generic [ref=e1210]: "2"
+                - generic [ref=e1211]: 친절해요 · 전문적이에요 · 위치가 찾기 쉬워요
+                - generic [ref=e1212]: 이*순
+              - generic [ref=e1215]:
+                - generic [ref=e1216]:
+                  - generic [ref=e1217]:
+                    - img [ref=e1218]
+                    - img [ref=e1220]
+                    - img [ref=e1222]
+                    - img [ref=e1224]
+                    - img [ref=e1226]
+                  - generic [ref=e1228]: 1년 전
+                - generic [ref=e1229]:
+                  - generic [ref=e1230]: 임희진 가이드님의 설명을 듣기전과 듣고 여행하는거는 차원이 달라요 버스투어라 일단 노선을 신경쓸 필요없이 도착지에 딱딱 세워주니 너무 편했어요~ 가이드님께서 맛집등 쇼핑품목도 카톡으로 해주셔서 너무 도움됐어요~울아들이 가이드님만 졸졸 따라다니더라구요~설명 재미있다고~가족사진도 예쁘게 찍어주시고 너무 감사합니다~^^
+                  - img "Placeholder Thumbnail" [ref=e1234]
+                - generic [ref=e1235]: 전문적이에요 · 친절해요 · 응답이 빨라요 · 방문하기 편해요 · 체험 거리가 많아요
+                - generic [ref=e1236]: 이*영
+              - generic [ref=e1239]:
+                - generic [ref=e1240]:
+                  - generic [ref=e1241]:
+                    - img [ref=e1242]
+                    - img [ref=e1244]
+                    - img [ref=e1246]
+                    - img [ref=e1248]
+                    - img [ref=e1250]
+                  - generic [ref=e1252]: 1년 전
+                - generic [ref=e1254]: 오사카에 자유여행을 왔다면 하루 정도 교토 나라 버스 투어를 추천합니다. 개인적으로 가는 것보다 훨씬 편하고 가이드님의 유적지에 설명도 유익하고 그외에 뭐든 물어보면 친절하게 알려주셔서 감동 받았습니다. 교토. 나라의 투어 일정에 맞게 사전 안내 및 꼼꼼한 가이드 혜진님의 설명을 들으며 재미있고 알찬 하루를 보냈습니다. 다음에 오면 또 만나고 싶은 가이드님입니다.
+                - generic [ref=e1255]: 체험 거리가 많아요 · 친절해요 · 응답이 빨라요 · 위치가 찾기 쉬워요 · 전문적이에요
+                - generic [ref=e1256]: 김*수
+              - generic [ref=e1259]:
+                - generic [ref=e1260]:
+                  - generic [ref=e1261]:
+                    - img [ref=e1262]
+                    - img [ref=e1264]
+                    - img [ref=e1266]
+                    - img [ref=e1268]
+                    - img [ref=e1270]
+                  - generic [ref=e1272]: 1년 전
+                - generic [ref=e1273]:
+                  - generic [ref=e1274]: 교토 중요 명소를 돌아보고 나라에도 가서 사슴도 만나보고 좋은 경험이었습니다. 특히 나라 사슴은 사전에 정보 없었으면 사슴한테 먹이주는 건 꿈도 못꾸지 않았나 싶어요
+                  - generic [ref=e1275]:
+                    - img "Placeholder Thumbnail" [ref=e1278]
+                    - generic [ref=e1280]: "4"
+                - generic [ref=e1281]: 체험 거리가 많아요 · 관광지와 가까워요 · 전문적이에요 · 위치가 찾기 쉬워요 · 친절해요
+                - generic [ref=e1282]: 조*규
+              - generic [ref=e1285]:
+                - generic [ref=e1286]:
+                  - generic [ref=e1287]:
+                    - img [ref=e1288]
+                    - img [ref=e1290]
+                    - img [ref=e1292]
+                    - img [ref=e1294]
+                    - img [ref=e1296]
+                  - generic [ref=e1298]: 1년 전
+                - generic [ref=e1300]: 17일에 투어 이용했습니다 금각사 나라 사슴공원 묶여있는 패키지는 여기에만 있더라구요 다른 선택지 없이 선택한지라 걱정도 조금 있었는데 그 걱정 싹 날아갑니다 설명도 너무 잘해주시고 핵심 스팟들도 콕 집어 알려주시고 무엇보다도 너무 친절하셔서 일본 여행 자주 가며 이런 투어 여행 여러 번 이용했었지만 이번 투어가 제일 만족스러웠습니다 덕분에 좋은 추억 잘 만들었어요 감사합니다😀😀 임현지 가이드님 짱이에요👍
+                - generic [ref=e1301]: 위치가 찾기 쉬워요 · 전문적이에요 · 친절해요 · 체험 거리가 많아요 · 응답이 빨라요
+                - generic [ref=e1302]: 박*희
+              - generic [ref=e1305]:
+                - generic [ref=e1306]:
+                  - generic [ref=e1307]:
+                    - img [ref=e1308]
+                    - img [ref=e1310]
+                    - img [ref=e1312]
+                    - img [ref=e1314]
+                    - img [ref=e1316]
+                  - generic [ref=e1318]: 1년 전
+                - generic [ref=e1319]:
+                  - generic [ref=e1320]: 김선영가이드님 정말 너무 친절하세요^^ 설명도 잘 해주셨고 사진도 예쁘게 찍어주셔서 감사합니다. 덕분에 즐거운 여행이었습니다^^
+                  - generic [ref=e1321]:
+                    - img "Placeholder Thumbnail" [ref=e1324]
+                    - generic [ref=e1326]: "3"
+                - generic [ref=e1327]: 관리가 잘 되어 있어요 · 친절해요 · 전문적이에요 · 방문하기 편해요 · 관광지와 가까워요
+                - generic [ref=e1328]: 남*현
+              - generic [ref=e1331]:
+                - generic [ref=e1332]:
+                  - generic [ref=e1333]:
+                    - img [ref=e1334]
+                    - img [ref=e1336]
+                    - img [ref=e1338]
+                    - img [ref=e1340]
+                    - img [ref=e1342]
+                  - generic [ref=e1344]: 1년 전
+                - generic [ref=e1346]: 우리의 가이드 허화평님은 친절하고, 설명을 정말 잘해주었습니다
+                - generic [ref=e1347]: 위치가 찾기 쉬워요 · 주차하기 편해요 · 친절해요
+                - generic [ref=e1348]: 최*용
+              - generic [ref=e1351]:
+                - generic [ref=e1352]:
+                  - generic [ref=e1353]:
+                    - img [ref=e1354]
+                    - img [ref=e1356]
+                    - img [ref=e1358]
+                    - img [ref=e1360]
+                    - img [ref=e1362]
+                  - generic [ref=e1364]: 1년 전
+                - generic [ref=e1366]: 코스도 설명도 마음에 들어요!! 코스 주변 맛집이나 오사카, 일본 여행 꿀팁도 설명해주셔서 좋았어요!
+                - generic [ref=e1367]: 위치가 찾기 쉬워요 · 방문하기 편해요 · 친절해요 · 전문적이에요 · 체험 거리가 많아요
+                - generic [ref=e1368]: 조*정
+              - generic [ref=e1371]:
+                - generic [ref=e1372]:
+                  - generic [ref=e1373]:
+                    - img [ref=e1374]
+                    - img [ref=e1376]
+                    - img [ref=e1378]
+                    - img [ref=e1380]
+                    - img [ref=e1382]
+                  - generic [ref=e1384]: 2년 전
+                - generic [ref=e1386]: 교토나라 투어가 하루 코스로 적당히 재미있게 체험을 했습니다. 다른 사람이 이 관람을 하면 알차게 체험을 할 수 있습니다
+                - generic [ref=e1387]: 방문하기 편해요 · 전문적이에요 · 위치가 찾기 쉬워요 · 친절해요 · 관광지와 가까워요
+                - generic [ref=e1388]: 최*우
+              - generic [ref=e1391]:
+                - generic [ref=e1392]:
+                  - generic [ref=e1393]:
+                    - img [ref=e1394]
+                    - img [ref=e1396]
+                    - img [ref=e1398]
+                    - img [ref=e1400]
+                    - img [ref=e1402]
+                  - generic [ref=e1404]: 2년 전
+                - generic [ref=e1406]: 이지은 가이드님이 챙겨 주시는 것도 많고 사진도 잘 찍어주셔서 너무 좋았고 관광지 설명도 잘 해주셔서 좋았어요!!
+                - generic [ref=e1407]: 친절해요 · 전문적이에요 · 응답이 빨라요
+                - generic [ref=e1408]: 빡*
+            - button "후기 모두 보기" [ref=e1410] [cursor=pointer]:
+              - generic [ref=e1411]: 후기 모두 보기
+          - generic [ref=e1412]:
+            - heading "자주 묻는 질문" [level=2] [ref=e1413]
+            - generic [ref=e1415]:
+              - heading "중도 하차는 가능한가요?" [level=3] [ref=e1417]:
+                - button "중도 하차는 가능한가요?" [ref=e1418] [cursor=pointer]:
+                  - generic [ref=e1419]: 중도 하차는 가능한가요?
+                  - img [ref=e1421]
+              - heading "캐리어 등 짐을 들고 탑승 가능한가요?" [level=3] [ref=e1424]:
+                - button "캐리어 등 짐을 들고 탑승 가능한가요?" [ref=e1425] [cursor=pointer]:
+                  - generic [ref=e1426]: 캐리어 등 짐을 들고 탑승 가능한가요?
+                  - img [ref=e1428]
+              - heading "좌석 위치를 미리 지정할 수 있나요?" [level=3] [ref=e1431]:
+                - button "좌석 위치를 미리 지정할 수 있나요?" [ref=e1432] [cursor=pointer]:
+                  - generic [ref=e1433]: 좌석 위치를 미리 지정할 수 있나요?
+                  - img [ref=e1435]
+              - heading "모객 인원 수를 알 수 있을까요?" [level=3] [ref=e1438]:
+                - button "모객 인원 수를 알 수 있을까요?" [ref=e1439] [cursor=pointer]:
+                  - generic [ref=e1440]: 모객 인원 수를 알 수 있을까요?
+                  - img [ref=e1442]
+              - heading "탑승시간보다 늦게 도착하면 기다려 주시나요?" [level=3] [ref=e1445]:
+                - button "탑승시간보다 늦게 도착하면 기다려 주시나요?" [ref=e1446] [cursor=pointer]:
+                  - generic [ref=e1447]: 탑승시간보다 늦게 도착하면 기다려 주시나요?
+                  - img [ref=e1449]
+          - generic [ref=e1451]:
+            - generic [ref=e1453]:
+              - generic [ref=e1454]:
+                - generic [ref=e1456]: "'교토 투어' 관련 추천 상품"
+                - generic [ref=e1459]:
+                  - generic [ref=e1464] [cursor=pointer]:
+                    - generic [ref=e1465]:
+                      - img "Placeholder Thumbnail" [ref=e1468]
+                      - img [ref=e1473]
+                    - generic [ref=e1475]:
+                      - generic [ref=e1476]: 유투어버스 [프로사진작가촬영] 오사카 교토 버스투어 한국인 가이드
+                      - generic [ref=e1477]:
+                        - img [ref=e1478]
+                        - generic [ref=e1480]: "4.8"
+                        - generic [ref=e1481]: (1374)
+                      - generic [ref=e1483]: 44,900원
+                      - generic [ref=e1485]: 무료취소
+                      - generic [ref=e1486]: 광고
+                  - generic [ref=e1491] [cursor=pointer]:
+                    - generic [ref=e1492]:
+                      - img "Placeholder Thumbnail" [ref=e1495]
+                      - img [ref=e1500]
+                    - generic [ref=e1502]:
+                      - generic [ref=e1503]: "[인디고트래블] 오사카 교토 일일 버스투어 여행 후시미이나리 아라시야마 은각사 청수사"
+                      - generic [ref=e1504]:
+                        - img [ref=e1505]
+                        - generic [ref=e1507]: "5"
+                        - generic [ref=e1508]: (3629)
+                      - generic [ref=e1510]: 58,800원
+                      - generic [ref=e1512]: 최저가보장제
+                      - generic [ref=e1513]: 광고
+                  - generic [ref=e1518] [cursor=pointer]:
+                    - generic [ref=e1519]:
+                      - img "Placeholder Thumbnail" [ref=e1522]
+                      - img [ref=e1527]
+                    - generic [ref=e1529]:
+                      - generic [ref=e1530]: "[한국어 가이드 | 오사카 1명도 출발] 북교토 아마노하시다테 & 이네노후나야 일일투어"
+                      - generic [ref=e1531]:
+                        - img [ref=e1532]
+                        - generic [ref=e1534]: "5"
+                        - generic [ref=e1535]: (78)
+                      - generic [ref=e1537]: 61,155원
+                      - generic [ref=e1539]: 무료취소
+                      - generic [ref=e1540]: 광고
+                  - generic [ref=e1545] [cursor=pointer]:
+                    - generic [ref=e1546]:
+                      - img "Placeholder Thumbnail" [ref=e1549]
+                      - img [ref=e1554]
+                    - generic [ref=e1556]:
+                      - generic [ref=e1557]: "[1명도 출발] 교토&나라 인기 하이라이트 일일투어 A/B코스 우지녹차마을 아라시야마 등"
+                      - generic [ref=e1558]:
+                        - img [ref=e1559]
+                        - generic [ref=e1561]: "5"
+                        - generic [ref=e1562]: (4)
+                      - generic [ref=e1564]: 61,155원
+                      - generic [ref=e1566]: 무료취소
+                      - generic [ref=e1567]: 광고
+                  - generic [ref=e1572] [cursor=pointer]:
+                    - generic [ref=e1573]:
+                      - img "Placeholder Thumbnail" [ref=e1576]
+                      - img [ref=e1581]
+                    - generic [ref=e1583]:
+                      - generic [ref=e1584]: "[💓선착순 할인💓] 오사카 출발 1일 나라 교토 버스투어 니시키시장 청수사 아라시야마"
+                      - generic [ref=e1585]:
+                        - img [ref=e1586]
+                        - generic [ref=e1588]: "5"
+                        - generic [ref=e1589]: (1)
+                      - generic [ref=e1591]: 42,655원
+                      - generic [ref=e1592]: 광고
+              - generic [ref=e1593]:
+                - generic [ref=e1595]: 여행자님을 위한 추천 상품
+                - generic [ref=e1598]:
+                  - generic [ref=e1603] [cursor=pointer]:
+                    - generic [ref=e1604]:
+                      - img "Placeholder Thumbnail" [ref=e1607]
+                      - img [ref=e1612]
+                    - generic [ref=e1614]:
+                      - generic [ref=e1615]: "[공식/지정일] 홍콩 디즈니랜드 입장권 (1일권/2일권/패스트패스/조기입장권/밀쿠폰)"
+                      - generic [ref=e1616]:
+                        - img [ref=e1617]
+                        - generic [ref=e1619]: "4.4"
+                        - generic [ref=e1620]: (54)
+                      - generic [ref=e1622]: 87,337원
+                      - generic [ref=e1623]: 입장권
+                      - generic [ref=e1625]: 즉시 확정
+                  - generic [ref=e1630] [cursor=pointer]:
+                    - generic [ref=e1631]:
+                      - img "Placeholder Thumbnail" [ref=e1634]
+                      - img [ref=e1639]
+                    - generic [ref=e1641]:
+                      - generic [ref=e1642]: "[QR 티켓] 홍콩 디즈니랜드 입장권"
+                      - generic [ref=e1644]: 93,633원
+                      - generic [ref=e1645]: 입장권
+                  - generic [ref=e1650] [cursor=pointer]:
+                    - generic [ref=e1651]:
+                      - img "Placeholder Thumbnail" [ref=e1654]
+                      - img [ref=e1659]
+                    - generic [ref=e1661]:
+                      - generic [ref=e1662]: LA디즈니랜드 캘리포니아 1일권 입장권 (+라이트닝 멀티패스 & 파크호퍼)
+                      - generic [ref=e1663]:
+                        - img [ref=e1664]
+                        - generic [ref=e1666]: "4.8"
+                        - generic [ref=e1667]: (310)
+                      - generic [ref=e1668]:
+                        - generic [ref=e1669]: 5%
+                        - generic [ref=e1670]: 125,400원
+                      - generic [ref=e1671]: 입장권
+                      - generic [ref=e1673]: 즉시 확정
+                  - generic [ref=e1678] [cursor=pointer]:
+                    - generic [ref=e1679]:
+                      - img "Placeholder Thumbnail" [ref=e1682]
+                      - img [ref=e1687]
+                    - generic [ref=e1689]:
+                      - generic [ref=e1690]: LA디즈니랜드 캘리포니아 2일권 입장권 (+라이트닝 멀티패스 & 파크호퍼)
+                      - generic [ref=e1691]:
+                        - img [ref=e1692]
+                        - generic [ref=e1694]: "4.8"
+                        - generic [ref=e1695]: (131)
+                      - generic [ref=e1696]:
+                        - generic [ref=e1697]: 5%
+                        - generic [ref=e1698]: 399,403원
+                      - generic [ref=e1699]: 입장권
+                      - generic [ref=e1701]: 최저가보장제
+                  - generic [ref=e1706] [cursor=pointer]:
+                    - generic [ref=e1707]:
+                      - img "Placeholder Thumbnail" [ref=e1710]
+                      - img [ref=e1715]
+                    - generic [ref=e1717]:
+                      - generic [ref=e1718]: "[겨울왕국 얼리버드] 홍콩 디즈니랜드 조기 입장권 (얼리 파크인)"
+                      - generic [ref=e1719]:
+                        - img [ref=e1720]
+                        - generic [ref=e1722]: "4.8"
+                        - generic [ref=e1723]: (11)
+                      - generic [ref=e1725]: 38,190원
+                      - generic [ref=e1726]: 입장권
+                      - generic [ref=e1728]: 즉시 확정
+                  - generic [ref=e1733] [cursor=pointer]:
+                    - generic [ref=e1734]:
+                      - img "Placeholder Thumbnail" [ref=e1737]
+                      - img [ref=e1742]
+                    - generic [ref=e1744]:
+                      - generic [ref=e1745]: "[1시간] 한국인 작가 - 홍콩 디즈니랜드에서 인생샷 남기기 (홍콩 디즈니 스냅)"
+                      - generic [ref=e1746]:
+                        - img [ref=e1747]
+                        - generic [ref=e1749]: "5"
+                        - generic [ref=e1750]: (25)
+                      - generic [ref=e1752]: 30,000원
+                      - generic [ref=e1753]: 입장권
+                      - generic [ref=e1755]: 최저가보장제
+                  - generic [ref=e1760] [cursor=pointer]:
+                    - generic [ref=e1761]:
+                      - img "Placeholder Thumbnail" [ref=e1764]
+                      - img [ref=e1769]
+                    - generic [ref=e1771]:
+                      - generic [ref=e1772]: "[로스앤젤레스] 유니버설 스튜디오 할리우드 일반 입장 티켓"
+                      - generic [ref=e1773]:
+                        - img [ref=e1774]
+                        - generic [ref=e1776]: "4.4"
+                        - generic [ref=e1777]: (126)
+                      - generic [ref=e1779]: 142,827원
+                      - generic [ref=e1780]: 입장권
+                      - generic [ref=e1782]: 즉시 확정
+                  - generic [ref=e1787] [cursor=pointer]:
+                    - generic [ref=e1788]:
+                      - img "Placeholder Thumbnail" [ref=e1791]
+                      - img [ref=e1796]
+                    - generic [ref=e1798]:
+                      - generic [ref=e1799]: LA 유니버설 스튜디오 할리우드 입장권 (1일권, 1+1 2일권, 익스프레스, VIP)
+                      - generic [ref=e1800]:
+                        - img [ref=e1801]
+                        - generic [ref=e1803]: "4.8"
+                        - generic [ref=e1804]: (1691)
+                      - generic [ref=e1805]:
+                        - generic [ref=e1806]: 10%
+                        - generic [ref=e1807]: 107,460원
+                      - generic [ref=e1808]: 입장권
+                      - generic [ref=e1810]: 즉시 확정
+                  - generic [ref=e1815] [cursor=pointer]:
+                    - generic [ref=e1816]:
+                      - img "Placeholder Thumbnail" [ref=e1819]
+                      - img [ref=e1824]
+                    - generic [ref=e1826]:
+                      - generic [ref=e1827]: 오션 파크 홍콩
+                      - generic [ref=e1828]:
+                        - img [ref=e1829]
+                        - generic [ref=e1831]: "4.7"
+                        - generic [ref=e1832]: (40)
+                      - generic [ref=e1834]: 18,026원
+                      - generic [ref=e1835]: 입장권
+                      - generic [ref=e1837]: 즉시 확정
+                  - generic [ref=e1842] [cursor=pointer]:
+                    - generic [ref=e1843]:
+                      - img "Placeholder Thumbnail" [ref=e1846]
+                      - img [ref=e1851]
+                    - generic [ref=e1853]:
+                      - generic [ref=e1854]: "[조기입장무료] 홍콩 디즈니랜드 패밀리 티켓 (성인1+아동/시니어1)"
+                      - generic [ref=e1856]: 208,097원
+                      - generic [ref=e1857]: 입장권
+                      - generic [ref=e1859]: 즉시 확정
+                  - generic [ref=e1864] [cursor=pointer]:
+                    - generic [ref=e1865]:
+                      - img "Placeholder Thumbnail" [ref=e1868]
+                      - img [ref=e1873]
+                    - generic [ref=e1875]:
+                      - generic [ref=e1876]: "[로스앤젤레스] 워너브라더스 스튜디오 투어 + 프렌즈 센트럴 퍼크 세트 체험"
+                      - generic [ref=e1877]:
+                        - img [ref=e1878]
+                        - generic [ref=e1880]: "4.7"
+                        - generic [ref=e1881]: (150)
+                      - generic [ref=e1883]: 116,974원
+                      - generic [ref=e1884]: 입장권
+                      - generic [ref=e1886]: 즉시 확정
+                  - generic [ref=e1891] [cursor=pointer]:
+                    - generic [ref=e1892]:
+                      - img "Placeholder Thumbnail" [ref=e1895]
+                      - img [ref=e1900]
+                    - generic [ref=e1902]:
+                      - generic [ref=e1903]: LA디즈니랜드 캘리포니아 3일권 입장권 (+라이트닝 멀티패스 & 파크호퍼)
+                      - generic [ref=e1904]:
+                        - img [ref=e1905]
+                        - generic [ref=e1907]: "5"
+                        - generic [ref=e1908]: (3)
+                      - generic [ref=e1909]:
+                        - generic [ref=e1910]: 5%
+                        - generic [ref=e1911]: 513,304원
+                      - generic [ref=e1912]: 입장권
+                      - generic [ref=e1914]: 최저가보장제
+                  - generic [ref=e1919] [cursor=pointer]:
+                    - generic [ref=e1920]:
+                      - img "Placeholder Thumbnail" [ref=e1923]
+                      - img [ref=e1928]
+                    - generic [ref=e1930]:
+                      - generic [ref=e1931]: "[2시간] 한국인 작가 - 홍콩 디즈니 랜드에서 인생샷 남기기 (홍콩 디즈니 스냅)"
+                      - generic [ref=e1932]:
+                        - img [ref=e1933]
+                        - generic [ref=e1935]: "4.9"
+                        - generic [ref=e1936]: (12)
+                      - generic [ref=e1938]: 43,000원
+                      - generic [ref=e1939]: 입장권
+                      - generic [ref=e1941]: 최저가보장제
+                  - generic [ref=e1946] [cursor=pointer]:
+                    - generic [ref=e1947]:
+                      - img "Placeholder Thumbnail" [ref=e1950]
+                      - img [ref=e1955]
+                    - generic [ref=e1957]:
+                      - generic [ref=e1958]: 홍콩 빅토리아 피크 피크트램 & 스카이 테라스428 입장권 티켓
+                      - generic [ref=e1959]:
+                        - img [ref=e1960]
+                        - generic [ref=e1962]: "4.4"
+                        - generic [ref=e1963]: (113)
+                      - generic [ref=e1965]: 9,829원
+                      - generic [ref=e1966]: 입장권
+                      - generic [ref=e1968]: 즉시 확정
+                  - generic [ref=e1973] [cursor=pointer]:
+                    - generic [ref=e1974]:
+                      - img "Placeholder Thumbnail" [ref=e1977]
+                      - img [ref=e1982]
+                    - generic [ref=e1984]:
+                      - generic [ref=e1985]: "[로스앤젤레스] 유니버설 스튜디오 할리우드 일반 입장권 + 익스프레스 패스 옵션"
+                      - generic [ref=e1986]:
+                        - img [ref=e1987]
+                        - generic [ref=e1989]: "4.8"
+                        - generic [ref=e1990]: (108)
+                      - generic [ref=e1992]: 168,922원
+                      - generic [ref=e1993]: 입장권
+                      - generic [ref=e1995]: 즉시 확정
+                  - generic [ref=e2000] [cursor=pointer]:
+                    - generic [ref=e2001]:
+                      - img "Placeholder Thumbnail" [ref=e2004]
+                      - img [ref=e2009]
+                    - generic [ref=e2011]:
+                      - generic [ref=e2012]: "[공식판매처] LAFC 2026 시즌 공식 티켓"
+                      - generic [ref=e2013]:
+                        - img [ref=e2014]
+                        - generic [ref=e2016]: "4.6"
+                        - generic [ref=e2017]: (10)
+                      - generic [ref=e2019]: 103,390원
+                      - generic [ref=e2020]: 입장권
+                  - generic [ref=e2025] [cursor=pointer]:
+                    - generic [ref=e2026]:
+                      - img "Placeholder Thumbnail" [ref=e2029]
+                      - img [ref=e2034]
+                    - generic [ref=e2036]:
+                      - generic [ref=e2037]: 오션파크 입장권 티켓 (홍콩)
+                      - generic [ref=e2038]:
+                        - img [ref=e2039]
+                        - generic [ref=e2041]: "4.5"
+                        - generic [ref=e2042]: (16)
+                      - generic [ref=e2044]: 17,696원
+                      - generic [ref=e2045]: 입장권
+                      - generic [ref=e2047]: 즉시 확정
+                  - generic [ref=e2052] [cursor=pointer]:
+                    - generic [ref=e2053]:
+                      - img "Placeholder Thumbnail" [ref=e2056]
+                      - img [ref=e2061]
+                    - generic [ref=e2063]:
+                      - generic [ref=e2064]: "[QR코드 바로입장] 홍콩 빅토리아 피크 피크트램 & 스카이 테라스 428 입장권 티켓"
+                      - generic [ref=e2065]:
+                        - img [ref=e2066]
+                        - generic [ref=e2068]: "4.3"
+                        - generic [ref=e2069]: (219)
+                      - generic [ref=e2071]: 9,308원
+                      - generic [ref=e2072]: 입장권
+                      - generic [ref=e2074]: 즉시 확정
+                  - generic [ref=e2079] [cursor=pointer]:
+                    - generic [ref=e2080]:
+                      - img "Placeholder Thumbnail" [ref=e2083]
+                      - img [ref=e2088]
+                    - generic [ref=e2090]:
+                      - generic [ref=e2091]: 레고랜드 캘리포니아 1 Day 티켓 - 성인/어린이 공통
+                      - generic [ref=e2093]: 179,631원
+                      - generic [ref=e2094]: 입장권
+                      - generic [ref=e2096]: 즉시 확정
+                  - generic [ref=e2101] [cursor=pointer]:
+                    - generic [ref=e2102]:
+                      - img "Placeholder Thumbnail" [ref=e2105]
+                      - img [ref=e2110]
+                    - generic [ref=e2112]:
+                      - generic [ref=e2113]: 홍콩 레고랜드 디스커버리 센터
+                      - generic [ref=e2114]:
+                        - img [ref=e2115]
+                        - generic [ref=e2117]: "5"
+                        - generic [ref=e2118]: (1)
+                      - generic [ref=e2120]: 45,325원
+                      - generic [ref=e2121]: 입장권
+                      - generic [ref=e2123]: 즉시 확정
+              - generic [ref=e2124]:
+                - generic [ref=e2126]: 오사카 BEST 상품
+                - generic [ref=e2129]:
+                  - generic [ref=e2134] [cursor=pointer]:
+                    - generic [ref=e2135]:
+                      - img "Placeholder Thumbnail" [ref=e2138]
+                      - img [ref=e2143]
+                    - generic [ref=e2145]:
+                      - generic [ref=e2146]: "[1일권] 오사카 유니버설 스튜디오 재팬 입장권"
+                      - generic [ref=e2147]:
+                        - img [ref=e2148]
+                        - generic [ref=e2150]: "4.8"
+                        - generic [ref=e2151]: (8466)
+                      - generic [ref=e2153]: 91,200원
+                      - generic [ref=e2154]: 티켓·입장권
+                      - generic [ref=e2156]: 즉시 확정
+                  - generic [ref=e2161] [cursor=pointer]:
+                    - generic [ref=e2162]:
+                      - img "Placeholder Thumbnail" [ref=e2165]
+                      - img [ref=e2170]
+                    - generic [ref=e2172]:
+                      - generic [ref=e2173]: 슈퍼 닌텐도 월드 입장 확약권 + 유니버설 스튜디오 재팬 1일권 + 간사이 조이패스
+                      - generic [ref=e2174]:
+                        - img [ref=e2175]
+                        - generic [ref=e2177]: "4.4"
+                        - generic [ref=e2178]: (170)
+                      - generic [ref=e2180]: 134,600원
+                      - generic [ref=e2181]: 티켓·입장권
+                      - generic [ref=e2183]: 즉시 확정
+                  - generic [ref=e2188] [cursor=pointer]:
+                    - generic [ref=e2189]:
+                      - img "Placeholder Thumbnail" [ref=e2192]
+                      - img [ref=e2197]
+                    - generic [ref=e2199]:
+                      - generic [ref=e2200]: "[즉시확정/QR] 하루카 특급열차 티켓 (교토/신오사카/오사카/덴노지/나라/고베)"
+                      - generic [ref=e2201]:
+                        - img [ref=e2202]
+                        - generic [ref=e2204]: "4.9"
+                        - generic [ref=e2205]: (1252)
+                      - generic [ref=e2207]: 6,000원
+                      - generic [ref=e2208]: 이동·교통
+                      - generic [ref=e2210]: 즉시 확정
+                  - generic [ref=e2215] [cursor=pointer]:
+                    - generic [ref=e2216]:
+                      - img "Placeholder Thumbnail" [ref=e2219]
+                      - img [ref=e2224]
+                    - generic [ref=e2226]:
+                      - generic [ref=e2227]: "[시간지정/즉시확정] 유니버셜 스튜디오 재팬 익스프레스4,5"
+                      - generic [ref=e2228]:
+                        - img [ref=e2229]
+                        - generic [ref=e2231]: "4.7"
+                        - generic [ref=e2232]: (1531)
+                      - generic [ref=e2234]: 45,400원
+                      - generic [ref=e2235]: 티켓·입장권
+                      - generic [ref=e2237]: 즉시 확정
+                  - generic [ref=e2242] [cursor=pointer]:
+                    - generic [ref=e2243]:
+                      - img "Placeholder Thumbnail" [ref=e2246]
+                      - img [ref=e2251]
+                    - generic [ref=e2253]:
+                      - generic [ref=e2254]: 오사카 난카이 라피트 편도 E-티켓 ( 간사이 공항 ↔ 난카이 난바역 )
+                      - generic [ref=e2255]:
+                        - img [ref=e2256]
+                        - generic [ref=e2258]: "4.8"
+                        - generic [ref=e2259]: (10548)
+                      - generic [ref=e2261]: 14,505원
+                      - generic [ref=e2262]: 이동·교통
+                      - generic [ref=e2264]: 즉시 확정
+                  - generic [ref=e2269] [cursor=pointer]:
+                    - generic [ref=e2270]:
+                      - img "Placeholder Thumbnail" [ref=e2273]
+                      - img [ref=e2278]
+                    - generic [ref=e2280]:
+                      - generic [ref=e2281]: "[여행 한 그릇] 사진 촬영 포함, 아라시야마, 금각사, 여우신사, 청수사 교토 버스 투어"
+                      - generic [ref=e2282]:
+                        - img [ref=e2283]
+                        - generic [ref=e2285]: "4.9"
+                        - generic [ref=e2286]: (2896)
+                      - generic [ref=e2288]: 49,000원
+                      - generic [ref=e2289]: 근교투어
+                      - generic [ref=e2291]: 무료취소
+                  - generic [ref=e2296] [cursor=pointer]:
+                    - generic [ref=e2297]:
+                      - img "Placeholder Thumbnail" [ref=e2300]
+                      - img [ref=e2305]
+                    - generic [ref=e2307]:
+                      - generic [ref=e2308]: 오사카 아베노 하루카스 300 전망대 입장권
+                      - generic [ref=e2309]:
+                        - img [ref=e2310]
+                        - generic [ref=e2312]: "4.8"
+                        - generic [ref=e2313]: (2497)
+                      - generic [ref=e2314]:
+                        - generic [ref=e2315]: 20%
+                        - generic [ref=e2316]: 13,600원
+                      - generic [ref=e2317]: 티켓·입장권
+                      - generic [ref=e2319]: 즉시 확정
+                  - generic [ref=e2324] [cursor=pointer]:
+                    - generic [ref=e2325]:
+                      - img "Placeholder Thumbnail" [ref=e2328]
+                      - img [ref=e2333]
+                    - generic [ref=e2335]:
+                      - generic [ref=e2336]: "[유니버셜스튜디오재팬 1일권 포함] 프리미엄 간사이 조이 패스 1주일권"
+                      - generic [ref=e2337]:
+                        - img [ref=e2338]
+                        - generic [ref=e2340]: "4.8"
+                        - generic [ref=e2341]: (83)
+                      - generic [ref=e2343]: 187,400원
+                      - generic [ref=e2344]: 티켓·입장권
+                      - generic [ref=e2346]: 즉시 확정
+                  - generic [ref=e2351] [cursor=pointer]:
+                    - generic [ref=e2352]:
+                      - img "Placeholder Thumbnail" [ref=e2355]
+                      - img [ref=e2360]
+                    - generic [ref=e2362]:
+                      - generic [ref=e2363]: 일본이심 5G 로컬망 데이터 무제한 도쿄 오사카 후쿠오카 삿포로 도시락eSIM
+                      - generic [ref=e2364]:
+                        - img [ref=e2365]
+                        - generic [ref=e2367]: "4.4"
+                        - generic [ref=e2368]: (850)
+                      - generic [ref=e2370]: 1,200원
+                      - generic [ref=e2371]: 유심·와이파이
+                  - generic [ref=e2376] [cursor=pointer]:
+                    - generic [ref=e2377]:
+                      - img "Placeholder Thumbnail" [ref=e2380]
+                      - img [ref=e2385]
+                    - generic [ref=e2387]:
+                      - generic [ref=e2388]: "[즉시확정]하루카 특급열차 간사이 공항 → 교토/오사카/나라/고베/텐노지 편도(공항출발)"
+                      - generic [ref=e2389]:
+                        - img [ref=e2390]
+                        - generic [ref=e2392]: "4.8"
+                        - generic [ref=e2393]: (2243)
+                      - generic [ref=e2395]: 6,000원
+                      - generic [ref=e2396]: 이동·교통
+                      - generic [ref=e2398]: 즉시 확정
+                  - generic [ref=e2403] [cursor=pointer]:
+                    - generic [ref=e2404]:
+                      - img "Placeholder Thumbnail" [ref=e2407]
+                      - img [ref=e2412]
+                    - generic [ref=e2414]:
+                      - generic [ref=e2415]: "[인디고트래블] 오사카 교토 일일 버스투어 여행 후시미이나리 아라시야마 은각사 청수사"
+                      - generic [ref=e2416]:
+                        - img [ref=e2417]
+                        - generic [ref=e2419]: "5"
+                        - generic [ref=e2420]: (3629)
+                      - generic [ref=e2422]: 58,800원
+                      - generic [ref=e2423]: 근교투어
+                      - generic [ref=e2425]: 최저가보장제
+                  - generic [ref=e2430] [cursor=pointer]:
+                    - generic [ref=e2431]:
+                      - img "Placeholder Thumbnail" [ref=e2434]
+                      - img [ref=e2439]
+                    - generic [ref=e2441]:
+                      - generic [ref=e2442]: "[즉시확정] 간사이 리무진 간사이공항 ↔ 오사카/교토/USJ/난바/고베/와카야마 편도(일본공항수령)"
+                      - generic [ref=e2443]:
+                        - img [ref=e2444]
+                        - generic [ref=e2446]: "4.9"
+                        - generic [ref=e2447]: (335)
+                      - generic [ref=e2449]: 5,900원
+                      - generic [ref=e2450]: 이동·교통
+                      - generic [ref=e2452]: 최저가보장제
+            - generic [ref=e2454]: "상품 번호 : 3424777"
+        - generic [ref=e2456]:
+          - button "일시적으로 판매가 중지된 상품입니다." [disabled]:
+            - generic: 일시적으로 판매가 중지된 상품입니다.
+    - contentinfo [ref=e2458]:
+      - generic [ref=e2459]:
+        - generic [ref=e2460]:
+          - generic [ref=e2461]:
+            - text: 고객지원실 운영안내
+            - list [ref=e2462]:
+              - listitem [ref=e2463]: 채팅상담 연중무휴 24시간 유선상담 연중무휴 09:00-18:00
+              - listitem [ref=e2464]: 유선상담 1670-8208
+            - button "고객지원실" [ref=e2466]:
+              - button "고객지원실" [ref=e2467] [cursor=pointer]:
+                - generic [ref=e2468]: 고객지원실
+          - generic [ref=e2469]:
+            - generic [ref=e2470]:
+              - text: 소개
+              - list [ref=e2471]:
+                - listitem [ref=e2472]:
+                  - link "회사소개" [ref=e2473] [cursor=pointer]:
+                    - /url: https://about.myrealtrip.com
+                - listitem [ref=e2474]:
+                  - link "채용" [ref=e2475] [cursor=pointer]:
+                    - /url: https://career.myrealtrip.com
+                - listitem [ref=e2476]:
+                  - link "공고" [ref=e2477] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/announcement
+            - generic [ref=e2478]:
+              - text: 파트너
+              - list [ref=e2479]:
+                - listitem [ref=e2480]:
+                  - link "파트너 홈" [ref=e2481] [cursor=pointer]:
+                    - /url: https://partner.myrealtrip.com/welcome
+                - listitem [ref=e2482]:
+                  - link "제휴 문의" [ref=e2483] [cursor=pointer]:
+                    - /url: mailto:partnership@myrealtrip.com
+                - listitem [ref=e2484]:
+                  - link "광고 문의" [ref=e2485] [cursor=pointer]:
+                    - /url: mailto:ad@myrealtrip.com
+            - generic [ref=e2486]:
+              - text: 지원
+              - list [ref=e2487]:
+                - listitem [ref=e2488]:
+                  - link "공지사항" [ref=e2489] [cursor=pointer]:
+                    - /url: https://support.myrealtrip.com/notice
+                - listitem [ref=e2490]:
+                  - link "문의내역" [ref=e2491] [cursor=pointer]:
+                    - /url: https://support.myrealtrip.com/inquiry
+                - listitem [ref=e2492]:
+                  - link "최저가 보장제" [ref=e2493] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/best_price
+        - generic [ref=e2494]:
+          - generic [ref=e2495]:
+            - generic [ref=e2496]:
+              - link "이용 약관" [ref=e2498] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/policyAgreement
+              - link "개인정보 처리방침" [ref=e2500] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/common/privacy
+              - link "취소 및 환불 정책" [ref=e2502] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/common/cancel
+              - link "개발자 센터" [ref=e2504] [cursor=pointer]:
+                - /url: https://docs.myrealtrip.com/#/api/intro
+            - generic [ref=e2505]:
+              - generic [ref=e2506]:
+                - link "icon 페이스북으로 이동하기" [ref=e2508] [cursor=pointer]:
+                  - /url: https://www.facebook.com/myRealTrip
+                  - img "icon" [ref=e2509]
+                  - generic [ref=e2510]: 페이스북으로 이동하기
+                - link "icon 네이버 블로그로 이동하기" [ref=e2512] [cursor=pointer]:
+                  - /url: https://blog.naver.com/myrealtrip
+                  - img "icon" [ref=e2513]
+                  - generic [ref=e2514]: 네이버 블로그로 이동하기
+                - link "icon 인스타그램으로 이동하기" [ref=e2516] [cursor=pointer]:
+                  - /url: https://instagram.com/myrealtrip
+                  - img "icon" [ref=e2517]
+                  - generic [ref=e2518]: 인스타그램으로 이동하기
+                - link "icon 유투브로 이동하기" [ref=e2520] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UC2oeFByIBQjkKXmQjE0U5rQ
+                  - img "icon" [ref=e2521]
+                  - generic [ref=e2522]: 유투브로 이동하기
+              - generic [ref=e2524]:
+                - link "icon" [ref=e2526] [cursor=pointer]:
+                  - /url: https://itunes.apple.com/app/id1141745032
+                  - img "icon" [ref=e2527]
+                - link "icon" [ref=e2529] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.mrt.ducati
+                  - img "icon" [ref=e2530]
+            - button "icon 한국어 icon" [ref=e2532] [cursor=pointer]:
+              - img "icon" [ref=e2533]
+              - generic [ref=e2534]: 한국어
+              - img "icon" [ref=e2535]
+          - generic [ref=e2536]:
+            - paragraph [ref=e2538]:
+              - text: 상호명 (주)마이리얼트립 | 대표 이동건 | 개인정보보호책임자 김형석 | 사업자등록번호 209-81-55339
+              - link "사업자정보확인" [ref=e2540] [cursor=pointer]:
+                - /url: https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2098155339
+              - text: "| 통신판매업신고번호 2019-서울서초-0260 | 관광사업등록번호 : 제2019-3호"
+              - text: 주소 서울특별시 서초구 강남대로 311, 18층 1729호(서초동, 한화생명보험빌딩)
+              - text: 이메일 help@myrealtrip.com | 입점 문의 partnership@myrealtrip.com
+              - text: "마케팅파트너/크리에이터 문의 marketing_partner@myrealtrip.com | 마케팅 문의 marketing@myrealtrip.com | 호스팅 서비스 제공자 : (주)마이리얼트립"
+              - text: "자사는 서울특별시관광협회 공제영업보증보험에 가입되어 있습니다. 영업보증보험: 1.5억원 / 기획여행보증: 2억원"
+              - text: 마이리얼트립은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 상품·거래정보 및 거래에 대하여 책임을 지지않습니다.
+              - text: 부득이한 사정에 의해 확정된 여행일정이 변경되는 경우 여행자의 사전 동의를 받습니다.
+              - text: (주)마이리얼트립이 소유, 운영, 관리하는 웹사이트 및 앱 내의 상품, 판매자 정보, 이벤트 정보, 디자인, UI 등을 포함한 일체의 콘텐츠에 대한 무단 복제, 배포, 전송, 스크래핑 등의 행위는 저작권법 등 관련 법령에 의하여 엄격히 금지됩니다.
+            - button "ISMS-P" [ref=e2542] [cursor=pointer]:
+              - img "ISMS-P" [ref=e2543]
+  - dialog
+  - alert [ref=e2544]

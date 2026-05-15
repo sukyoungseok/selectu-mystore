@@ -1,0 +1,301 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - navigation [ref=e5]:
+        - button "myrealtrip" [ref=e7] [cursor=pointer]:
+          - img "myrealtrip" [ref=e8]
+        - generic [ref=e11]:
+          - img "icon" [ref=e13] [cursor=pointer]
+          - textbox "\"가장자리펜션\" 최저가 5만원대~" [ref=e14]
+        - generic [ref=e16]:
+          - button "파트너 로그인" [ref=e18] [cursor=pointer]
+          - button "로그인 및 회원가입" [ref=e20] [cursor=pointer]
+      - navigation [ref=e22]:
+        - generic [ref=e23]:
+          - link "할인" [ref=e25] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/promotions/benefit
+            - generic [ref=e26]: 할인
+          - link "항공" [ref=e28] [cursor=pointer]:
+            - /url: https://flights.myrealtrip.com/
+            - generic [ref=e29]: 항공
+          - link "국내 숙소" [ref=e31] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=domestic
+            - generic [ref=e32]: 국내 숙소
+          - link "해외 숙소" [ref=e34] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=overseas
+            - generic [ref=e35]: 해외 숙소
+          - link "해외여행보험" [ref=e37] [cursor=pointer]:
+            - /url: https://direct.samsungfire.com/vd/overture_index.jsp?OTK=F2511AF0514
+            - generic [ref=e38]: 해외여행보험
+          - link "패키지" [ref=e40] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/pkc
+            - generic [ref=e41]: 패키지
+          - link "한인민박" [ref=e43] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/unionstay?stayType=minbak
+            - generic [ref=e44]: 한인민박
+          - link "투어·티켓" [ref=e46] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/main/experiences
+            - generic [ref=e47]: 투어·티켓
+          - link "글로벌렌터카" [ref=e50] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/promotions/Global_Rentacar_promo
+            - generic [ref=e51]: 글로벌렌터카
+          - button "더보기 icon" [ref=e53] [cursor=pointer]:
+            - generic [ref=e54]: 더보기
+            - img "icon" [ref=e55]
+    - main [ref=e56]:
+      - generic [ref=e57]:
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - list [ref=e62]:
+              - listitem [ref=e63]:
+                - generic [ref=e65] [cursor=pointer]:
+                  - img "공식 판매처! 한국어 예약 가능" [ref=e66]
+                  - generic [ref=e68]: 4.1-6.30
+                  - generic [ref=e69]:
+                    - generic [ref=e70]: 유럽 인기 노선 총집합
+                    - generic [ref=e71]: 공식 판매처! 한국어 예약 가능
+              - listitem [ref=e72]:
+                - generic [ref=e74] [cursor=pointer]:
+                  - img "유럽 자유여행 필수! 공식 유레일패스" [ref=e75]
+                  - generic [ref=e77]: 4.1-5.31
+                  - generic [ref=e78]:
+                    - generic [ref=e79]: 33개국을 하나의 패스로
+                    - generic [ref=e80]: 유럽 자유여행 필수! 공식 유레일패스
+              - listitem [ref=e81]:
+                - generic [ref=e83] [cursor=pointer]:
+                  - img "산리오랜드 최대 18% 할인 특가" [ref=e84]
+                  - generic [ref=e86]: 3.6-5.8
+                  - generic [ref=e87]:
+                    - generic [ref=e88]: 올 봄은 산리오 파크에서
+                    - generic [ref=e89]: 산리오랜드 최대 18% 할인 특가
+              - listitem [ref=e90]:
+                - generic [ref=e92] [cursor=pointer]:
+                  - img "긴테츠 레일패스 15% 할인 특가" [ref=e93]
+                  - generic [ref=e95]: 2.9-4.30
+                  - generic [ref=e96]:
+                    - generic [ref=e97]: 두근두근 소도시 여행
+                    - generic [ref=e98]: 긴테츠 레일패스 15% 할인 특가
+              - listitem [ref=e99]:
+                - generic [ref=e101] [cursor=pointer]:
+                  - img "마카오 하우스 오브 댄싱워터" [ref=e102]
+                  - generic [ref=e104]: 4.1-4.30
+                  - generic [ref=e105]:
+                    - generic [ref=e106]: 인생 한번에 봐야 하는 쇼
+                    - generic [ref=e107]: 마카오 하우스 오브 댄싱워터
+              - listitem [ref=e108]:
+                - generic [ref=e110] [cursor=pointer]:
+                  - img "홍콩 디즈니랜드 조기입장 패스 무료!" [ref=e111]
+                  - generic [ref=e113]: 4.1-5.31
+                  - generic [ref=e114]:
+                    - generic [ref=e115]: 20주년 패밀리 티켓 이벤트
+                    - generic [ref=e116]: 홍콩 디즈니랜드 조기입장 패스 무료!
+              - listitem [ref=e117]:
+                - generic [ref=e119] [cursor=pointer]:
+                  - img "미서부 3대 스포츠 총집합!" [ref=e120]
+                  - generic [ref=e122]: 4.1-6.30
+                  - generic [ref=e123]:
+                    - generic [ref=e124]: 손흥민, 이정후 직관 기회
+                    - generic [ref=e125]: 미서부 3대 스포츠 총집합!
+              - listitem [ref=e126]:
+                - generic [ref=e128] [cursor=pointer]:
+                  - img "상하이 완전 정복! 최고급 세미패키지" [ref=e129]
+                  - generic [ref=e131]: 4.29 - 4.30
+                  - generic [ref=e132]:
+                    - generic [ref=e133]: 1인 50만원부터
+                    - generic [ref=e134]: 상하이 완전 정복! 최고급 세미패키지
+              - listitem [ref=e135]:
+                - generic [ref=e137] [cursor=pointer]:
+                  - img "하와이 인기투어 최대 8% 할인" [ref=e138]
+                  - generic [ref=e140]:
+                    - generic [ref=e141]: 와이키키 아울렛 쿠폰까지!
+                    - generic [ref=e142]: 하와이 인기투어 최대 8% 할인
+              - listitem [ref=e143]:
+                - generic [ref=e145] [cursor=pointer]:
+                  - img "전 세계가 놀러오는 뉴욕!" [ref=e146]
+                  - generic [ref=e148]: 4.1-4.30
+                  - generic [ref=e149]:
+                    - generic [ref=e150]: 필수 투어· 티켓 최저가
+                    - generic [ref=e151]: 전 세계가 놀러오는 뉴욕!
+              - listitem [ref=e152]:
+                - generic [ref=e154] [cursor=pointer]:
+                  - img "대만 프로모션 최대 10% 할인 특가" [ref=e155]
+                  - generic [ref=e157]: 4.16 - 6.15
+                  - generic [ref=e158]:
+                    - generic [ref=e159]: 교통 패스로 스마트하게!
+                    - generic [ref=e160]: 대만 프로모션 최대 10% 할인 특가
+            - generic [ref=e162]:
+              - generic [ref=e165] [cursor=pointer]:
+                - img "일본 상품 ~50%" [ref=e166]
+                - paragraph [ref=e167]: 일본 상품 ~50%
+              - generic [ref=e170] [cursor=pointer]:
+                - img "시드니 투어 할인" [ref=e171]
+                - paragraph [ref=e172]: 시드니 투어 할인
+              - generic [ref=e175] [cursor=pointer]:
+                - img "베트남 최대 20%" [ref=e176]
+                - paragraph [ref=e177]: 베트남 최대 20%
+              - generic [ref=e180] [cursor=pointer]:
+                - img "파리 디즈니 특가" [ref=e181]
+                - paragraph [ref=e182]: 파리 디즈니 특가
+              - generic [ref=e185] [cursor=pointer]:
+                - img "마리트 포인트 증정" [ref=e186]
+                - paragraph [ref=e187]: 마리트 포인트 증정
+              - generic [ref=e190] [cursor=pointer]:
+                - img "몽골 23%초특가" [ref=e191]
+                - paragraph [ref=e192]: 몽골 23%초특가
+          - generic [ref=e195] [cursor=pointer]:
+            - img [ref=e196]
+            - generic [ref=e198]: "\"백합펜션\" 최저가 4만원대부터!"
+        - generic [ref=e201]:
+          - generic [ref=e204]: 어디로 떠나시나요?
+          - list [ref=e209]:
+            - listitem [ref=e210]:
+              - button "호주" [ref=e213] [cursor=pointer]:
+                - img "호주 아이콘" [ref=e216]
+                - generic [ref=e217]: 호주
+              - button "스페인" [ref=e220] [cursor=pointer]:
+                - img "스페인 아이콘" [ref=e223]
+                - generic [ref=e224]: 스페인
+            - listitem [ref=e225]:
+              - button "이탈리아" [ref=e228] [cursor=pointer]:
+                - img "이탈리아 아이콘" [ref=e231]
+                - generic [ref=e232]: 이탈리아
+              - button "미국" [ref=e235] [cursor=pointer]:
+                - img "미국 아이콘" [ref=e238]
+                - generic [ref=e239]: 미국
+            - listitem [ref=e240]:
+              - button "동남아" [ref=e243] [cursor=pointer]:
+                - img "동남아 아이콘" [ref=e246]
+                - generic [ref=e247]: 동남아
+              - button "일본" [ref=e250] [cursor=pointer]:
+                - img "일본 아이콘" [ref=e253]
+                - generic [ref=e254]: 일본
+            - listitem [ref=e255]:
+              - button "중화권" [ref=e258] [cursor=pointer]:
+                - img "중화권 아이콘" [ref=e261]
+                - generic [ref=e262]: 중화권
+              - button "일본최대반값" [ref=e265] [cursor=pointer]:
+                - img "일본최대반값 아이콘" [ref=e268]
+                - generic [ref=e269]: 일본최대반값
+            - listitem [ref=e270]:
+              - button "LAFC" [ref=e273] [cursor=pointer]:
+                - img "LAFC 아이콘" [ref=e276]
+                - generic [ref=e277]: LAFC
+              - button "USJ" [ref=e280] [cursor=pointer]:
+                - img "USJ 아이콘" [ref=e283]
+                - generic [ref=e284]: USJ
+            - listitem [ref=e285]:
+              - button "허니문" [ref=e288] [cursor=pointer]:
+                - img "허니문 아이콘" [ref=e291]
+                - generic [ref=e292]: 허니문
+              - button "세미패키지" [ref=e295] [cursor=pointer]:
+                - img "세미패키지 아이콘" [ref=e298]
+                - generic [ref=e299]: 세미패키지
+            - listitem [ref=e300]:
+              - button "국내" [ref=e303] [cursor=pointer]:
+                - img "국내 아이콘" [ref=e306]
+                - generic [ref=e307]: 국내
+    - contentinfo [ref=e315]:
+      - generic [ref=e316]:
+        - generic [ref=e317]:
+          - generic [ref=e318]:
+            - text: 고객지원실 운영안내
+            - list [ref=e319]:
+              - listitem [ref=e320]: 채팅상담 연중무휴 24시간 유선상담 연중무휴 09:00-18:00
+              - listitem [ref=e321]: 유선상담 1670-8208
+            - button "고객지원실" [ref=e323]:
+              - button "고객지원실" [ref=e324] [cursor=pointer]:
+                - generic [ref=e325]: 고객지원실
+          - generic [ref=e326]:
+            - generic [ref=e327]:
+              - text: 소개
+              - list [ref=e328]:
+                - listitem [ref=e329]:
+                  - link "회사소개" [ref=e330] [cursor=pointer]:
+                    - /url: https://about.myrealtrip.com
+                - listitem [ref=e331]:
+                  - link "채용" [ref=e332] [cursor=pointer]:
+                    - /url: https://career.myrealtrip.com
+                - listitem [ref=e333]:
+                  - link "공고" [ref=e334] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/announcement
+            - generic [ref=e335]:
+              - text: 파트너
+              - list [ref=e336]:
+                - listitem [ref=e337]:
+                  - link "파트너 홈" [ref=e338] [cursor=pointer]:
+                    - /url: https://partner.myrealtrip.com/welcome
+                - listitem [ref=e339]:
+                  - link "제휴 문의" [ref=e340] [cursor=pointer]:
+                    - /url: mailto:partnership@myrealtrip.com
+                - listitem [ref=e341]:
+                  - link "광고 문의" [ref=e342] [cursor=pointer]:
+                    - /url: mailto:ad@myrealtrip.com
+            - generic [ref=e343]:
+              - text: 지원
+              - list [ref=e344]:
+                - listitem [ref=e345]:
+                  - link "공지사항" [ref=e346] [cursor=pointer]:
+                    - /url: https://support.myrealtrip.com/notice
+                - listitem [ref=e347]:
+                  - link "문의내역" [ref=e348] [cursor=pointer]:
+                    - /url: https://support.myrealtrip.com/inquiry
+                - listitem [ref=e349]:
+                  - link "최저가 보장제" [ref=e350] [cursor=pointer]:
+                    - /url: https://www.myrealtrip.com/best_price
+        - generic [ref=e351]:
+          - generic [ref=e352]:
+            - generic [ref=e353]:
+              - link "이용 약관" [ref=e355] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/policyAgreement
+              - link "개인정보 처리방침" [ref=e357] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/common/privacy
+              - link "취소 및 환불 정책" [ref=e359] [cursor=pointer]:
+                - /url: https://auth.myrealtrip.com/terms/common/cancel
+              - link "개발자 센터" [ref=e361] [cursor=pointer]:
+                - /url: https://docs.myrealtrip.com/#/api/intro
+            - generic [ref=e362]:
+              - generic [ref=e363]:
+                - link "icon 페이스북으로 이동하기" [ref=e365] [cursor=pointer]:
+                  - /url: https://www.facebook.com/myRealTrip
+                  - img "icon" [ref=e366]
+                  - generic [ref=e367]: 페이스북으로 이동하기
+                - link "icon 네이버 블로그로 이동하기" [ref=e369] [cursor=pointer]:
+                  - /url: https://blog.naver.com/myrealtrip
+                  - img "icon" [ref=e370]
+                  - generic [ref=e371]: 네이버 블로그로 이동하기
+                - link "icon 인스타그램으로 이동하기" [ref=e373] [cursor=pointer]:
+                  - /url: https://instagram.com/myrealtrip
+                  - img "icon" [ref=e374]
+                  - generic [ref=e375]: 인스타그램으로 이동하기
+                - link "icon 유투브로 이동하기" [ref=e377] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UC2oeFByIBQjkKXmQjE0U5rQ
+                  - img "icon" [ref=e378]
+                  - generic [ref=e379]: 유투브로 이동하기
+              - generic [ref=e381]:
+                - link "icon" [ref=e383] [cursor=pointer]:
+                  - /url: https://itunes.apple.com/app/id1141745032
+                  - img "icon" [ref=e384]
+                - link "icon" [ref=e386] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.mrt.ducati
+                  - img "icon" [ref=e387]
+            - button "icon 한국어 icon" [ref=e389] [cursor=pointer]:
+              - img "icon" [ref=e390]
+              - generic [ref=e391]: 한국어
+              - img "icon" [ref=e392]
+          - generic [ref=e393]:
+            - paragraph [ref=e395]:
+              - text: 상호명 (주)마이리얼트립 | 대표 이동건 | 개인정보보호책임자 김형석 | 사업자등록번호 209-81-55339
+              - link "사업자정보확인" [ref=e397] [cursor=pointer]:
+                - /url: https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2098155339
+              - text: "| 통신판매업신고번호 2019-서울서초-0260 | 관광사업등록번호 : 제2019-3호"
+              - text: 주소 서울특별시 서초구 강남대로 311, 18층 1729호(서초동, 한화생명보험빌딩)
+              - text: 이메일 help@myrealtrip.com | 입점 문의 partnership@myrealtrip.com
+              - text: "마케팅파트너/크리에이터 문의 marketing_partner@myrealtrip.com | 마케팅 문의 marketing@myrealtrip.com | 호스팅 서비스 제공자 : (주)마이리얼트립"
+              - text: "자사는 서울특별시관광협회 공제영업보증보험에 가입되어 있습니다. 영업보증보험: 1.5억원 / 기획여행보증: 2억원"
+              - text: 마이리얼트립은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 상품·거래정보 및 거래에 대하여 책임을 지지않습니다.
+              - text: 부득이한 사정에 의해 확정된 여행일정이 변경되는 경우 여행자의 사전 동의를 받습니다.
+              - text: (주)마이리얼트립이 소유, 운영, 관리하는 웹사이트 및 앱 내의 상품, 판매자 정보, 이벤트 정보, 디자인, UI 등을 포함한 일체의 콘텐츠에 대한 무단 복제, 배포, 전송, 스크래핑 등의 행위는 저작권법 등 관련 법령에 의하여 엄격히 금지됩니다.
+            - button "ISMS-P" [ref=e399] [cursor=pointer]:
+              - img "ISMS-P" [ref=e400]
+    - img "(이시가키섬) 이시가키 정글 나이트 투어" [ref=e402] [cursor=pointer]
+  - alert [ref=e403]

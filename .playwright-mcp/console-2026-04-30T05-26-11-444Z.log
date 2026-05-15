@@ -1,0 +1,3 @@
+[     687ms] [WARNING]  [33m[1m⚠[22m[39m Runtime config is deprecated and will be removed in Next.js 16. Please remove the usage of "next/config" from your project. @ https://assets.production.linktr.ee/profiles/_next/static/chunks/pages/_app-f8cd6da6763e9343.js:29
+[     746ms] [LOG] null @ https://assets.production.linktr.ee/client-brfp/br-fp-script.js:0
+[    1007ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://ciam.linktr.ee/v1/auth/try-refresh?dcs=f&dcr=f:0

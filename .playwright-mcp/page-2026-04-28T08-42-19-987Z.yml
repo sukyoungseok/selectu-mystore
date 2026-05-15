@@ -1,0 +1,256 @@
+- generic [ref=e4]:
+  - generic [ref=e9]:
+    - generic [ref=e12]:
+      - link "Instagram" [ref=e17] [cursor=pointer]:
+        - /url: /
+        - img "Instagram" [ref=e22]
+      - generic [ref=e25]:
+        - link "홈" [ref=e30] [cursor=pointer]:
+          - /url: /
+          - img "홈" [ref=e35]
+        - link "릴스" [ref=e40] [cursor=pointer]:
+          - /url: /reels/
+          - img "릴스" [ref=e45]
+        - link "메시지 Direct 메시지 - 새로운 알림 링크 1개" [ref=e52] [cursor=pointer]:
+          - /url: /direct/inbox/
+          - generic [ref=e55]:
+            - img "메시지" [ref=e57]
+            - generic "Direct 메시지 - 새로운 알림 링크 1개" [ref=e60]:
+              - generic [ref=e62]: "1"
+        - link "검색" [ref=e66] [cursor=pointer]:
+          - /url: "#"
+          - img "검색" [ref=e71]
+        - link "탐색 탭" [ref=e77] [cursor=pointer]:
+          - /url: /explore/
+          - img "탐색 탭" [ref=e82]
+        - link "알림" [ref=e91] [cursor=pointer]:
+          - /url: "#"
+          - img "알림" [ref=e96]
+        - link "새로운 게시물" [ref=e104] [cursor=pointer]:
+          - /url: "#"
+          - img "새로운 게시물" [ref=e109]
+        - link "프로페셔널 대시보드" [ref=e114] [cursor=pointer]:
+          - /url: "#"
+          - img "프로페셔널 대시보드" [ref=e119]
+        - link "stone.water_님의 프로필 사진" [ref=e126] [cursor=pointer]:
+          - /url: /stone.water_/
+          - link "stone.water_님의 프로필 사진" [ref=e131]:
+            - img "stone.water_님의 프로필 사진" [ref=e132]
+      - generic [ref=e133]:
+        - link "설정" [ref=e136] [cursor=pointer]:
+          - /url: "#"
+          - img "설정" [ref=e141]
+        - link "Meta의 다른 앱" [ref=e144] [cursor=pointer]:
+          - /url: "#"
+          - img "Meta의 다른 앱" [ref=e149]
+    - main [ref=e153]:
+      - generic [active] [ref=e154]:
+        - generic [ref=e157]:
+          - generic [ref=e158]:
+            - generic [ref=e161]:
+              - generic [ref=e164]:
+                - link "busan_matna_님의 릴스" [ref=e165] [cursor=pointer]:
+                  - /url: /busan_matna_/reels/
+                  - link "busan_matna_님의 프로필 사진" [ref=e168]:
+                    - img "busan_matna_님의 프로필 사진" [ref=e169]
+                - generic [ref=e170]:
+                  - generic [ref=e171]:
+                    - link "busan_matna_님의 릴스" [ref=e172] [cursor=pointer]:
+                      - /url: /busan_matna_/reels/
+                      - generic [ref=e173]: busan_matna_
+                    - generic [ref=e175]: •
+                    - button "팔로우" [ref=e176] [cursor=pointer]:
+                      - generic [ref=e177]: 팔로우
+                  - link "오디오 이미지 kobasolo · スパークル(movie ver.) feat.春茶 kobasolo · スパークル(movie ver.) feat.春茶" [ref=e182] [cursor=pointer]:
+                    - /url: /reels/audio/1651042912400179/
+                    - generic [ref=e183]:
+                      - img "오디오 이미지" [ref=e185]
+                      - generic [ref=e188]:
+                        - generic [ref=e191]: kobasolo · スパークル(movie ver.) feat.春茶
+                        - generic [ref=e194]: kobasolo · スパークル(movie ver.) feat.春茶
+              - button [ref=e195] [cursor=pointer]:
+                - generic [ref=e197]:
+                  - text: 5박6일 삿포로 료칸 포함 인당 123만원으로 갔다오기
+                  - text: 🌟2인 기준🌟
+                  - text: 💵 환전 764,564 ( 인당 382,282 )
+                  - text: ✈️ 항공권
+                  - text: 왕복 241,600 ( 인당 120,800 )
+                  - text: < + 45000 x 3 (수하물) ( 항공+수하물 총 인당 188,400 ) >
+                  - text: 🏨 숙소
+                  - text: 라이브맥스 2일 150,201 ( 인당 75,100 )
+                  - text: 료칸 다이이치 스이잔테이 1일 585,565 ( 인당 292,782 )
+                  - text: 컴포트(조식포함) 2일 150,228 ( 인당 75,114 )
+                  - text: "-버스투어"
+                  - text: 159,800 ( 인당 79,900 )
+                  - text: "-교통비"
+                  - text: 조잔케이 > 스스키노 송영버스 27,124 ( 인당 13,562 )
+                  - text: "-여행자보험"
+                  - text: 6000 ( 인당 3,000 )
+                  - text: ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+                  - text: 🍚 맛집
+                  - text: 스아게4 ( 스프카레 , 바로 옆 2호점 방문 강추, 웨이팅 짧음 )
+                  - text: 츠바메 ( 야키니꾸, 한국에서 카톡 예약하고 방문하기 )
+                  - text: 아오키 ( 돈카츠 , 점심시간 방문시 점심특선 가능 )
+                  - text: 츠키시마 몬자 쿠우야 ( 몬자야끼 )
+                  - text: 아카렌가 징기스칸 ( 양고기 )
+                  - text: 징기스칸 다루마 7.4 ( 양고기 )
+                  - text: 징기스칸 유우히 ( 양고기 )
+                  - text: 가쓰잇센 ( 회전초밥 )
+                  - text: 도리톤스시 ( 회전초밥 )
+                  - text: 다이도코로 니조시장 ( 카이센동 )
+                  - text: 텐호우라멘 ( 버터콘라멘 )
+                  - text: 야마오카야 ( 라멘, 24시간 영업 )
+                  - text: Kaneduki Mikaduki ( 타코야끼, 야끼소바 )
+                  - text: 🍢 이자카야
+                  - text: 스미비 이자카야 엔 ( 노미호다이 인당 980엔 가성비 굿 )
+                  - text: 우미사쿠라 ( 노미호디이 ㅇ 방어, 게살고로케 )
+                  - text: 쿠사치 스스키노 ( 털게 )
+                  - text: 伊まり 狸小路駅前店 ( 가성비 굿 )
+                  - text: ☕️ 디저트
+                  - text: 오타루 - 르타오 ( 치즈케이크 )
+                  - text: 키노토야 ( 아이스크림 )
+                  - text: 크레미아 ( 쿠크다스 아이스크림 )
+                  - text: 마지샌드 ( 산도 포장 )
+                  - text: 돈구리 ( 삿포로의 성심당 )
+                  - text: ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+                  - text: 🏞️ 갈만한 곳
+                  - text: 다누키코지 상점가
+                  - text: 나카지마 공원 ( 여우볼 수 있음 )
+                  - text: 홋카이도청 구 청본사
+                  - text: 삿포로시 시계탑
+                  - text: 삿포로 맥주 박물관 ( 도리톤스시 가려면 웨이팅 걸어두고 박물관 갔다오기 )
+                  - text: 🛒 쇼핑
+                  - text: 메가 돈키호테
+                  - text: 유니클로 도큐 백화점
+                  - text: 다이마루 백화점
+                  - text: ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+                  - text: ❄️ 오타루 당일치기 ( 오후 1시반 - 6시 )
+                  - text: 미나미 오타루역 > 오타루 오르골당 본관 > 사카이마치도리 상점가 > 르타오 > 가마에이 어묵공장 > 오타루운하 > 오타루역
+                  - text: 🚌 비에이 버스투어 ( 오전 7시반 - 오후 6시반 )
+                  - text: "- 마이재팬 버스투어 ( 가이드님 친절하시고 사진 왕창 찍어주심 ㅠㅠ )"
+                  - text: 오도리역 > 세븐스타 나무 > 캔과 메리의 나무 > 크리스마스트리 나무 > 탁신관 > 호텔런치 > 흰수염폭포 > 후라노치즈공방 > 오도리역/스스키노역
+                  - text: ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+                  - text: "@@ 공유해두고 삿포로 여행 때 보기"
+                  - link "@busan_matna_" [ref=e199]:
+                    - /url: /busan_matna_/
+                  - text: 팔로우하시면 근처 핫플 소식 알려드릴게요 !
+                  - text: 팔로우 후 DM주시면 삿포로 질문 다 받아드릴게용
+                  - text: ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+                  - link "#삿포로" [ref=e200]:
+                    - /url: /explore/tags/%EC%82%BF%ED%8F%AC%EB%A1%9C/
+                  - link "#삿포로맛집" [ref=e201]:
+                    - /url: /explore/tags/%EC%82%BF%ED%8F%AC%EB%A1%9C%EB%A7%9B%EC%A7%91/
+                  - link "#삿포로여행" [ref=e202]:
+                    - /url: /explore/tags/%EC%82%BF%ED%8F%AC%EB%A1%9C%EC%97%AC%ED%96%89/
+                  - link "#삿포로카페" [ref=e203]:
+                    - /url: /explore/tags/%EC%82%BF%ED%8F%AC%EB%A1%9C%EC%B9%B4%ED%8E%98/
+                  - link "#겨울삿포로" [ref=e204]:
+                    - /url: /explore/tags/%EA%B2%A8%EC%9A%B8%EC%82%BF%ED%8F%AC%EB%A1%9C/
+            - generic [ref=e205]:
+              - img
+              - group "Video player" [ref=e216]:
+                - generic [ref=e217]:
+                  - button "0" [ref=e218] [cursor=pointer]:
+                    - slider "볼륨 조정" [ref=e219]:
+                      - button "오디오 소리 꺼짐" [ref=e223]:
+                        - img "오디오 소리 꺼짐" [ref=e224]
+                  - button "재생하려면 누르세요" [ref=e229] [cursor=pointer]:
+                    - img "재생 버튼 아이콘" [ref=e231]
+          - generic [ref=e233]:
+            - generic [ref=e234] [cursor=pointer]:
+              - button "좋아요" [ref=e237]:
+                - img "좋아요" [ref=e240]
+              - button "좋아요" [ref=e242]:
+                - generic [ref=e246]: 좋아요
+            - button "댓글 14" [ref=e248] [cursor=pointer]:
+              - generic [ref=e249]:
+                - img "댓글" [ref=e250]
+                - generic [ref=e255]: "14"
+            - generic [ref=e256] [cursor=pointer]:
+              - button "리포스트" [ref=e257]:
+                - img "리포스트" [ref=e258]
+              - button "8" [ref=e260]:
+                - generic [ref=e264]: "8"
+            - button "공유하기" [ref=e266] [cursor=pointer]:
+              - img "공유하기" [ref=e267]
+            - button "저장" [ref=e272] [cursor=pointer]:
+              - button "저장" [ref=e273]:
+                - img "저장" [ref=e275]
+            - button "더 보기" [ref=e278] [cursor=pointer]:
+              - img "더 보기" [ref=e280]
+            - link "오디오 이미지" [ref=e285] [cursor=pointer]:
+              - /url: /reels/audio/1651042912400179/
+              - img "오디오 이미지" [ref=e288]
+        - generic [ref=e292]:
+          - generic [ref=e293]:
+            - generic [ref=e296]:
+              - generic [ref=e299]:
+                - link "muv.vv00님의 릴스" [ref=e300] [cursor=pointer]:
+                  - /url: /muv.vv00/reels/
+                  - link "muv.vv00님의 프로필 사진" [ref=e303]:
+                    - img "muv.vv00님의 프로필 사진" [ref=e304]
+                - generic [ref=e305]:
+                  - generic [ref=e306]:
+                    - link "muv.vv00님의 릴스" [ref=e307] [cursor=pointer]:
+                      - /url: /muv.vv00/reels/
+                      - generic [ref=e308]: muv.vv00
+                    - generic [ref=e310]: •
+                    - button "팔로우" [ref=e311] [cursor=pointer]:
+                      - generic [ref=e312]: 팔로우
+                  - link "오디오 이미지 BGM President · 꼬물꼬물" [ref=e317] [cursor=pointer]:
+                    - /url: /reels/audio/2295544154239940/
+                    - generic [ref=e318]:
+                      - img "오디오 이미지" [ref=e320]
+                      - generic [ref=e326]: BGM President · 꼬물꼬물
+              - button "가슴속에 품은 사직서를 .." [ref=e327] [cursor=pointer]:
+                - generic [ref=e329]: 가슴속에 품은 사직서를 ..
+            - generic [ref=e330]:
+              - img
+              - group "Video player" [ref=e341]:
+                - generic [ref=e342]:
+                  - button "0" [ref=e343] [cursor=pointer]:
+                    - slider "볼륨 조정" [ref=e344]:
+                      - button "오디오 소리 꺼짐" [ref=e348]:
+                        - img "오디오 소리 꺼짐" [ref=e349]
+                  - button "재생하려면 누르세요" [ref=e354] [cursor=pointer]:
+                    - img "재생 버튼 아이콘" [ref=e356]
+          - generic [ref=e358]:
+            - generic [ref=e359] [cursor=pointer]:
+              - button "좋아요" [ref=e362]:
+                - img "좋아요" [ref=e365]
+              - button "좋아요" [ref=e367]:
+                - generic [ref=e371]: 좋아요
+            - button "댓글 30" [ref=e373] [cursor=pointer]:
+              - generic [ref=e374]:
+                - img "댓글" [ref=e375]
+                - generic [ref=e380]: "30"
+            - generic [ref=e381] [cursor=pointer]:
+              - button "리포스트" [ref=e382]:
+                - img "리포스트" [ref=e383]
+              - button "4" [ref=e385]:
+                - generic [ref=e389]: "4"
+            - button "공유하기" [ref=e391] [cursor=pointer]:
+              - img "공유하기" [ref=e392]
+            - button "저장" [ref=e397] [cursor=pointer]:
+              - button "저장" [ref=e398]:
+                - img "저장" [ref=e400]
+            - button "더 보기" [ref=e403] [cursor=pointer]:
+              - img "더 보기" [ref=e405]
+            - link "오디오 이미지" [ref=e410] [cursor=pointer]:
+              - /url: /reels/audio/2295544154239940/
+              - img "오디오 이미지" [ref=e413]
+        - generic [ref=e420]:
+          - generic [ref=e421]:
+            - status "읽어들이는 중..." [ref=e422]
+            - status "읽어들이는 중..." [ref=e423]
+          - status "읽어들이는 중..." [ref=e424]
+          - status "읽어들이는 중..." [ref=e425]
+      - toolbar "Reels navigation controls" [ref=e427]:
+        - button "이전 릴스로 이동" [ref=e428] [cursor=pointer]:
+          - img [ref=e430]
+        - button "다음 릴스로 이동" [ref=e432] [cursor=pointer]:
+          - img [ref=e434]
+  - button "메시지 메시지" [ref=e437] [cursor=pointer]:
+    - generic [ref=e439]:
+      - img "메시지" [ref=e441]
+      - generic [ref=e444]: 메시지

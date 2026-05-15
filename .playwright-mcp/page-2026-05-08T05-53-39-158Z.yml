@@ -1,0 +1,4 @@
+- main [ref=e4]:
+  - generic [ref=e7]:
+    - img "logo_myrealtrip" [ref=e8]
+    - heading "이동중입니다." [level=1] [ref=e9]

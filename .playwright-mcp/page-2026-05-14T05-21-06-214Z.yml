@@ -1,0 +1,154 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img [ref=e7] [cursor=pointer]
+        - img "logo_myrealtrip" [ref=e9]
+        - link "파트너" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - list [ref=e12]:
+        - menu [ref=e13]:
+          - menuitem "ic_marketing_md_colored 어필리에이트" [expanded] [ref=e14] [cursor=pointer]:
+            - img "ic_marketing_md_colored" [ref=e15]
+            - generic [ref=e17]: 어필리에이트
+          - menu [ref=e18]:
+            - menuitem "광고 링크 만들기" [ref=e19] [cursor=pointer]:
+              - link "광고 링크 만들기" [ref=e21]:
+                - /url: /partnership-marketing/link-generator
+                - generic [ref=e22]: 광고 링크 만들기
+            - menuitem "실시간 예약 내역" [ref=e23] [cursor=pointer]:
+              - link "실시간 예약 내역" [ref=e25]:
+                - /url: /partnership-marketing/reservations
+                - generic [ref=e26]: 실시간 예약 내역
+            - menuitem "항공 실시간 예약 내역" [ref=e27] [cursor=pointer]:
+              - link "항공 실시간 예약 내역" [ref=e29]:
+                - /url: /partnership-marketing/flight-reservations
+                - generic [ref=e30]: 항공 실시간 예약 내역
+            - menuitem "수익 현황" [ref=e31] [cursor=pointer]:
+              - link "수익 현황" [ref=e33]:
+                - /url: /partnership-marketing/sales
+                - generic [ref=e34]: 수익 현황
+            - menuitem "항공 수익 현황" [ref=e35] [cursor=pointer]:
+              - link "항공 수익 현황" [ref=e37]:
+                - /url: /partnership-marketing/flightSales
+                - generic [ref=e38]: 항공 수익 현황
+            - menuitem "수익금 지급 예정·완료 내역" [ref=e39] [cursor=pointer]:
+              - link "수익금 지급 예정·완료 내역" [ref=e41]:
+                - /url: /partnership-marketing/settles
+                - generic [ref=e42]: 수익금 지급 예정·완료 내역
+          - menuitem "ic_product_md_colored OPEN API" [ref=e43] [cursor=pointer]:
+            - img "ic_product_md_colored" [ref=e44]
+            - generic [ref=e46]: OPEN API
+          - menuitem "ico_category_class 원고료" [ref=e47] [cursor=pointer]:
+            - img "ico_category_class" [ref=e48]
+            - link "원고료" [ref=e50]:
+              - /url: https://myrealtrip-admatchplus.softr.app/money
+              - generic [ref=e51]: 원고료
+              - img [ref=e53]
+          - menuitem "ic_marketing_md_colored 공동구매" [ref=e56] [cursor=pointer]:
+            - img "ic_marketing_md_colored" [ref=e57]
+            - link "공동구매" [ref=e59]:
+              - /url: https://myrealtrip-admatchplus.softr.app/market
+              - generic [ref=e60]: 공동구매
+              - img [ref=e62]
+          - menuitem "ico_category_package 파트너 여행 지원" [ref=e65] [cursor=pointer]:
+            - img "ico_category_package" [ref=e66]
+            - generic [ref=e68]: 파트너 여행 지원
+          - menuitem "ic_category_notice_24x24_colored 파트너 활동 지원 ic-badge-new" [ref=e69] [cursor=pointer]:
+            - img "ic_category_notice_24x24_colored" [ref=e70]
+            - generic [ref=e72]:
+              - text: 파트너 활동 지원
+              - img "ic-badge-new" [ref=e74]
+          - menuitem "파트너 정보" [ref=e75] [cursor=pointer]:
+            - img [ref=e77]
+            - generic [ref=e80]: 파트너 정보
+          - menuitem "파트너 권한 관리" [ref=e81] [cursor=pointer]:
+            - img [ref=e83]
+            - link "파트너 권한 관리" [ref=e87]:
+              - /url: /partnerAuth
+              - generic [ref=e88]: 파트너 권한 관리
+          - listitem [ref=e89]
+          - menuitem "ic_category_setting_24x24_colored 로그인 계정 관리" [ref=e90] [cursor=pointer]:
+            - img "ic_category_setting_24x24_colored" [ref=e91]
+            - link "로그인 계정 관리" [ref=e93]:
+              - /url: /account
+              - generic [ref=e94]: 로그인 계정 관리
+  - generic [ref=e95]:
+    - generic [ref=e98]:
+      - generic [ref=e99] [cursor=pointer]: 사이트 이동
+      - generic [ref=e100] [cursor=pointer]:
+        - generic [ref=e101]: 로그인 계정
+        - img [ref=e102]
+    - main [ref=e104]:
+      - main [ref=e105]:
+        - generic [ref=e106]:
+          - heading "어필리에이트" [level=2] [ref=e107]:
+            - link "어필리에이트" [ref=e108] [cursor=pointer]:
+              - /url: /partnership-marketing/link-generator
+          - heading "광고 링크 만들기" [level=2] [ref=e109]
+        - generic [ref=e110]:
+          - tablist [ref=e111]:
+            - generic [ref=e113]:
+              - tab "모든 상품(항공권 외)" [selected] [ref=e115] [cursor=pointer]
+              - tab "항공권 베타" [ref=e117] [cursor=pointer]:
+                - generic [ref=e118]:
+                  - text: 항공권
+                  - generic [ref=e119]: 베타
+          - tabpanel "모든 상품(항공권 외)" [ref=e122]:
+            - generic [ref=e124]:
+              - heading "그 외 모든 상품 링크 만들기" [level=4] [ref=e125]
+              - generic [ref=e126]:
+                - generic [ref=e129]:
+                  - img [ref=e131]
+                  - textbox "마이리얼트립 상품 주소(URL)을 붙여넣기 해주세요." [ref=e133]
+                - button "홍보 링크 만들기" [ref=e134] [cursor=pointer]:
+                  - generic [ref=e135]: 홍보 링크 만들기
+        - generic [ref=e136]:
+          - heading "마케팅 파트너가 처음이신가요?" [level=3] [ref=e137]
+          - generic [ref=e138]:
+            - list [ref=e139]:
+              - listitem [ref=e140]:
+                - text: 1단계
+                - heading "상품 찾기" [level=4] [ref=e141]
+                - paragraph [ref=e142]: 마이리얼트립 사이트에서 마음에 드는 상품을 찾아보세요.
+              - listitem [ref=e143]:
+                - text: 2단계
+                - heading "내 광고 링크 만들기" [level=4] [ref=e144]
+                - paragraph [ref=e145]: 마음에 드는 상품의 링크를 복사해서 내 광고 전용 링크를 생성하세요.
+              - listitem [ref=e146]:
+                - text: 3단계
+                - heading "콘텐츠와 링크 공유하기" [level=4] [ref=e147]
+                - paragraph [ref=e148]: 여행 콘텐츠와 함께 광고 링크를 공유하고 상품을 홍보 해보세요.
+            - generic [ref=e149]:
+              - paragraph [ref=e150]: 더 자세한 내용은 파트너 가이드를 참고하세요
+              - button "가이드 바로 가기" [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]: 가이드 바로 가기
+                - img [ref=e154]
+            - generic [ref=e156]:
+              - generic [ref=e157]: 마케팅파트너 SNS 바로가기
+              - link [ref=e158] [cursor=pointer]:
+                - /url: https://blog.naver.com/myrealtrip_mpartner
+                - img [ref=e159]
+              - link "ico_threads_24x24_gray_400" [ref=e161] [cursor=pointer]:
+                - /url: https://www.threads.com/@myrealtrip_mktpartner
+                - img "ico_threads_24x24_gray_400" [ref=e162]
+    - generic [ref=e164]:
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - link "이용약관" [ref=e167] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/terms/policy?type=partner
+          - link "개인정보 처리방침" [ref=e168] [cursor=pointer]:
+            - /url: https://auth.myrealtrip.com/terms/partnerCommon/privacy
+            - strong [ref=e169]: 개인정보 처리방침
+          - link "자주 묻는 질문" [ref=e170] [cursor=pointer]:
+            - /url: https://mrtpartners.zendesk.com/hc/ko
+        - paragraph [ref=e171]:
+          - text: 상호명 (주)마이리얼트립 | 대표 이동건 | 개인정보보호책임자 김형석 | 사업자등록번호 209-81-55339
+          - link "사업자정보확인" [ref=e172] [cursor=pointer]:
+            - /url: https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2098155339
+          - text: "| 통신판매업신고번호 2019-서울서초-0260 주소 서울특별시 서초구 강남대로 311, 드림플러스 강남 18층 (서초동, 한화생명보험빌딩)"
+          - text: 이메일 help@myrealtrip.com | 입점 문의 partnership@myrealtrip.com
+          - text: 마케팅파트너/크리에이터 문의 marketing_partner@myrealtrip.com | 마케팅 문의 marketing@myrealtrip.com
+        - paragraph [ref=e173]: 자사는 서울특별시관광협회 공제영업보증보험에 가입되어 있습니다. 마이리얼트립은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 상품·거래정보 및 거래에 대하여 책임을 지지않습니다.
+      - button "ISMS_button" [ref=e174] [cursor=pointer]:
+        - img "ISMS_button" [ref=e175]

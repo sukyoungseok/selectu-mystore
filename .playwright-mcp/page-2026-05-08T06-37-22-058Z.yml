@@ -1,0 +1,172 @@
+- generic [active] [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - generic [ref=e7]:
+    - banner [ref=e9]:
+      - generic [ref=e10]:
+        - link "Google Apps Script" [ref=e14] [cursor=pointer]:
+          - /url: /home
+          - img [ref=e15]
+          - generic [ref=e16]: Apps Script
+        - generic [ref=e17]:
+          - generic [ref=e20]:
+            - button "이름 변경하기" [ref=e22] [cursor=pointer]: 제목 없는 프로젝트
+            - generic [ref=e486]:
+              - generic [ref=e487]: sync
+              - text: 저장되지 않은 변경사항
+          - generic [ref=e30]:
+            - button "배포" [ref=e35] [cursor=pointer]:
+              - generic [ref=e38]:
+                - text: 배포
+                - generic [ref=e39]: 
+            - button "지원" [ref=e41] [cursor=pointer]:
+              - generic [ref=e44]: help_outline
+        - generic [ref=e46]:
+          - button "Google 앱" [ref=e50] [cursor=pointer]:
+            - img [ref=e51]
+          - 'button "Google 계정: 석수경 (sukyoung.seok@myrealtrip.com)" [ref=e56] [cursor=pointer]':
+            - img [ref=e58]
+    - generic [ref=e60]:
+      - navigation "Apps Script 프로젝트 페이지" [ref=e62]:
+        - link "개요" [ref=e63] [cursor=pointer]:
+          - generic [ref=e65]: info_outline
+          - generic [ref=e66]: 개요
+        - link "편집기" [ref=e67] [cursor=pointer]:
+          - generic [ref=e69]: code
+          - generic [ref=e70]: 편집기
+        - link "프로젝트 기록" [ref=e71] [cursor=pointer]:
+          - generic [ref=e73]: history
+          - generic [ref=e74]: 프로젝트 기록
+        - link "트리거" [ref=e75] [cursor=pointer]:
+          - generic [ref=e77]: alarm
+          - generic [ref=e78]: 트리거
+        - link "실행" [ref=e79] [cursor=pointer]:
+          - generic [ref=e81]: playlist_play
+          - generic [ref=e82]: 실행
+        - link "프로젝트 설정" [ref=e83] [cursor=pointer]:
+          - generic [ref=e85]: settings
+          - generic [ref=e86]: 프로젝트 설정
+      - generic [ref=e87]:
+        - heading "편집기" [level=1] [ref=e88]
+        - generic [ref=e89]:
+          - generic [ref=e91]:
+            - generic [ref=e92]:
+              - heading "파일" [level=2] [ref=e93]
+              - generic [ref=e95]:
+                - button "알파벳순으로 파일 정렬" [ref=e97] [cursor=pointer]:
+                  - generic [ref=e100]: sort_by_alpha
+                - button "파일 추가" [ref=e102] [cursor=pointer]:
+                  - generic [ref=e105]: add
+            - listbox "프로젝트 파일" [ref=e107]:
+              - option "마이링크 코드 추출.gs" [ref=e108] [cursor=pointer]:
+                - img [ref=e489]
+                - generic "마이링크 코드 추출.gs" [ref=e109]
+                - button "마이링크 코드 추출.gs에 대한 파일 작업 메뉴" [ref=e110]:
+                  - button "마이링크 코드 추출.gs에 대한 파일 작업 메뉴" [ref=e111]:
+                    - generic [ref=e114]: 
+              - option "함수 추가.gs" [ref=e115] [cursor=pointer]:
+                - generic "함수 추가.gs" [ref=e116]
+                - button "함수 추가.gs에 대한 파일 작업 메뉴" [ref=e117]:
+                  - button "함수 추가.gs에 대한 파일 작업 메뉴" [ref=e118]:
+                    - generic [ref=e121]: 
+              - option "마이링크 성과.gs" [ref=e122] [cursor=pointer]:
+                - generic "마이링크 성과.gs" [ref=e123]
+                - button "마이링크 성과.gs에 대한 파일 작업 메뉴" [ref=e124]:
+                  - button "마이링크 성과.gs에 대한 파일 작업 메뉴" [ref=e125]:
+                    - generic [ref=e128]: 
+            - generic [ref=e129]:
+              - heading "라이브러리" [level=2] [ref=e130]
+              - button "라이브러리 추가" [ref=e133] [cursor=pointer]:
+                - generic [ref=e136]: add
+            - generic:
+              - listbox "라이브러리 종속성"
+            - generic [ref=e137]:
+              - heading "서비스" [level=2] [ref=e138]
+              - button "서비스 추가" [ref=e141] [cursor=pointer]:
+                - generic [ref=e144]: add
+            - listbox "서비스 종속성" [ref=e146]:
+              - option "BigQuery BigQuery의 작업 메뉴" [ref=e147] [cursor=pointer]:
+                - generic "BigQuery" [ref=e148]
+                - button "BigQuery의 작업 메뉴" [ref=e149]:
+                  - button "BigQuery의 작업 메뉴" [ref=e150]:
+                    - generic [ref=e153]: 
+          - generic [ref=e160]:
+            - region [ref=e161]:
+              - generic [ref=e162]:
+                - generic [ref=e163]:
+                  - generic [ref=e166]:
+                    - button "코드 수정 실행취소" [disabled]:
+                      - generic: undo
+                  - generic [ref=e169]:
+                    - button "코드 수정 재실행" [disabled]:
+                      - generic: redo
+                - button "Drive에 프로젝트 저장" [ref=e492]:
+                  - img [ref=e495]
+                - generic [ref=e174]:
+                  - button "선택한 기능 실행" [ref=e178]:
+                    - generic [ref=e181]: play_arrow
+                    - generic [ref=e182]: 실행
+                  - button "선택한 기능 디버그" [ref=e186]:
+                    - img [ref=e189]
+                    - generic [ref=e192]: 디버그
+                  - listbox "실행할 함수 선택" [ref=e195] [cursor=pointer]:
+                    - option "fillMylinkData" [selected] [ref=e196]
+                - button "실행 로그 패널 열기" [ref=e201]:
+                  - generic [ref=e204]: 실행 로그
+            - generic [ref=e206]:
+              - main [ref=e210]:
+                - generic [ref=e211]: .
+                - generic [ref=e213]:
+                  - iframe [ref=e214]:
+                    
+                  - code [ref=e216]:
+                    - generic [ref=e217]:
+                      - generic [ref=e220]:
+                        - generic [ref=e498]:
+                          - generic [ref=e500] [cursor=pointer]: 
+                          - generic [ref=e501]: "1"
+                        - generic [ref=e503]: "2"
+                        - generic [ref=e505]: "3"
+                        - generic [ref=e506]:
+                          - generic [ref=e507] [cursor=pointer]: 
+                          - generic [ref=e508]: "4"
+                        - generic [ref=e510]: "5"
+                        - generic [ref=e512]: "6"
+                        - generic [ref=e514]: "7"
+                        - generic [ref=e516]: "8"
+                        - generic [ref=e518]: "9"
+                        - generic [ref=e519]:
+                          - generic [ref=e520] [cursor=pointer]: 
+                          - generic [ref=e521]: "10"
+                        - generic [ref=e523]: "11"
+                        - generic [ref=e525]: "12"
+                        - generic [ref=e527]: "13"
+                        - generic [ref=e529]: "14"
+                        - generic [ref=e531]: "15"
+                      - generic [ref=e412]:
+                        - generic [ref=e568]: "function fillNewMylinkData() {"
+                        - generic [ref=e570]: const ss = SpreadsheetApp.openById('1XiTZD-ywUAgW-lJXFa0R0KoZMjW_m-2ytAhl7iwTbC8');
+                        - generic [ref=e572]: const sheet = ss.getSheetByName('마이링크 현황');
+                        - generic [ref=e574]: const data = [
+                        - generic [ref=e576]: "[83, 1774363, 122690],[84, 1774364, 3924498],[85, 1774365, 119321],"
+                        - generic [ref=e578]: "[88, 1774366, 15441],[89, 1774367, 148276],[90, 1774368, 105950],"
+                        - generic [ref=e580]: "[106, 1774425, ''],[125, 1774407, 4896100],[126, 1774408, 4340728],"
+                        - generic [ref=e582]: "[139, 1774397, 3424777],[140, 1774398, 156504],[141, 1774399, 4478090],[142, 1774400, 3568377],"
+                        - generic [ref=e584]: "];"
+                        - generic [ref=e586]: "data.forEach(([row, mylinkId, gid]) => {"
+                        - generic [ref=e588]: sheet.getRange(row, 8).setValue(mylinkId);
+                        - generic [ref=e590]: if (gid !== '') sheet.getRange(row, 9).setValue(gid);
+                        - generic [ref=e592]: "});"
+                        - generic [ref=e594]: "Logger.log('완료: ' + data.length + '행');"
+                        - generic [ref=e596]: "}"
+                      - textbox "편집기 콘텐츠;접근성 옵션은 Alt+F1을 눌러여 합니다." [ref=e479]: "function fillNewMylinkData() { const ss = SpreadsheetApp.openById('1XiTZD-ywUAgW-lJXFa0R0KoZMjW_m-2ytAhl7iwTbC8'); const sheet = ss.getSheetByName('마이링크 현황'); const data = [ [83, 1774363, 122690],[84, 1774364, 3924498],[85, 1774365, 119321], [88, 1774366, 15441],[89, 1774367, 148276],[90, 1774368, 105950], [106, 1774425, ''],[125, 1774407, 4896100],[126, 1774408, 4340728], [139, 1774397, 3424777],[140, 1774398, 156504],[141, 1774399, 4478090],[142, 1774400, 3568377], ];"
+              - generic:
+                - generic:
+                  - button "실행 로그 창 닫기" [ref=e480] [cursor=pointer]:
+                    - generic [ref=e481]: close
+                  - tooltip [ref=e482]: 실행 로그 닫기
+  - generic [ref=e483]:
+    - alert
+    - alert
+    - complementary
+    - complementary

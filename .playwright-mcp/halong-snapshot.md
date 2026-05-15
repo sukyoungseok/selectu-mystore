@@ -1,0 +1,94 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - navigation [ref=e5]:
+        - button "myrealtrip" [ref=e7] [cursor=pointer]
+        - generic [ref=e11]
+        - generic [ref=e16]
+      - navigation [ref=e22]:
+        - generic [ref=e23]
+    - generic [ref=e158]:
+      - generic [ref=e162]:
+        - link "통합" [ref=e163] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/search?extra=&q=하롱베이
+        - link "패키지" [ref=e166] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/pkc/search?q=%ED%95%98%EB%A1%B1%EB%B2%A0%EC%9D%B4&keyName=Halong%20Bay
+        - link "투어·티켓" [ref=e169] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/search?tab=tour&q=하롱베이&extra=
+        - link "해외숙소" [ref=e173] [cursor=pointer]:
+          - /url: https://accommodation.myrealtrip.com/union/products?keyword=%ED%95%98%EB%A1%B1%EB%B2%A0%EC%9D%B4&isDomestic=false&mrtKeyName=Halong Bay&checkIn=2026-05-17&checkOut=2026-05-18
+        - link "한인민박" [ref=e176] [cursor=pointer]:
+          - /url: https://accommodation.myrealtrip.com/union/products?keyword=%ED%95%98%EB%A1%B1%EB%B2%A0%EC%9D%B4&isDomestic=false&mrtKeyName=Halong Bay&selected=stayType%3AMINBAK&checkIn=2026-05-17&checkOut=2026-05-18
+        - link "항공권" [ref=e179] [cursor=pointer]:
+          - /url: https://flights.myrealtrip.com
+        - link "여행자보험" [ref=e182] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/event/flight_insurance
+        - link "해외렌터카" [ref=e185] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/rentalcars
+        - link "해외골프" [ref=e188] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/promotions/mrt_tna_golf
+      - generic [ref=e191]:
+        - generic [ref=e193]
+        - button [ref=e221] [cursor=pointer]
+        - button [ref=e225] [cursor=pointer]
+      - region "맞춤 필터" [ref=e229]:
+        - generic [ref=e231]
+        - button [ref=e262] [cursor=pointer]
+        - button [ref=e266] [cursor=pointer]
+        - button "필터" [ref=e271] [cursor=pointer]
+      - generic [ref=e274]:
+        - generic [ref=e279]
+        - generic [ref=e398]
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 한국어 하롱베이 당일 크루즈 (Korean Halong Bay Tour) 1017 4.7 (59) 하노이 ∙ 액티비티 ∙ 14시간 0분 소요 추가 혜택 4월 특가 쿠폰할인가 73,400원 3% 71,198원 크루즈·요트 12시간 이상 한국어 영어 밴 이동 다양한 시작 시간 집중 1코스 그룹 (15명 이상) 식사 포함 픽업 가능" [ref=e610] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3888147
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 단독 차량 + 한국어 가이드와 함께하는 하롱베이 5 성급 럭셔리 크루즈 투어 49 5.0 (14) 하롱베이 ∙ 액티비티 ∙ 12시간 0분 소요 즉시 확정 70,000원 크루즈·요트 6~12시간 한국어 밴 이동 오전 시작 알찬 3코스 이상 프라이빗 입장권 포함 식사 포함" [ref=e695] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/5034845
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 (하노이 출발) 앰버서더 하롱베이 당일 크루즈 투어 370 4.9 (7) 하롱베이 ∙ 액티비티 ∙ 11시간 0분 소요 추가 혜택 87,200원 크루즈·요트 6~12시간 영어 다양한 시작 시간" [ref=e774] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3888166
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 퀸 럭셔리 하롱베이 당일 크루즈 투어-Luxury Queen Halongbay Cruise 582 4.5 (34) 하노이 ∙ 액티비티 ∙ 14시간 0분 소요 추가 혜택 69,900원 크루즈·요트 12시간 이상 한국어 영어 다양한 시작 시간 그룹 (15명 이상) 식사 포함 픽업 가능" [ref=e838] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3888141
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 하노이 - 하롱베이 프라이빗 이동 서비스 52 3.5 (4) 하노이 ∙ 이동/교통편의 ∙ 0시간 0분 소요 즉시 확정 106,241원 도시간 이동" [ref=e914] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/5542652
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 5성급 앰버서더 크루즈 체험 (하롱베이) 127 5.0 (1) 하노이 ∙ 액티비티 ∙ 9시간 0분 소요 즉시 확정 60,762원 크루즈·요트" [ref=e969] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/5809005
+        - generic [ref=e1021]
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [★혜택받고 여행하자★] 앰바사더 1박2일 크루즈+왕복 리무진 차량 포함 36 5.0 (2) 하롱베이 ∙ 액티비티 ∙ 30시간 0분 소요 추가 혜택 52,000원 크루즈·요트 1박 영어 오전 시작 그룹 (15명 이상) 식사 포함 픽업 가능" [ref=e1250] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/4233734
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 Leona Scenic Cruise – 5성급 럭셔리 하롱베이 데이투어 15 5.0 (1) 하롱베이 ∙ 투어 ∙ 7시간 30분 소요 즉시 확정 90,000원 자연투어 6~12시간 한국어 영어 그 외 이동수단 오전 시작 알찬 3코스 이상 그룹 (15명 이상) 입장권 포함 식사 포함" [ref=e1328] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/5539501
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 한국어 가이드와 함께하는 하롱베이 단독 크루즈 투어 (하노이 출발) 164 5.0 (4) 하노이 ∙ 투어 ∙ 12시간 0분 소요 즉시 확정 35,700원 근교투어 한국어 그 외 이동수단 다양한 시작 시간" [ref=e1415] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/4901476
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 프리미엄 하롱베이 당일 크루즈 (아폴로 크루즈 & 스텔라 헤리큘러스) 29 4.3 (4) 하롱베이 ∙ 액티비티 ∙ 14시간 0분 소요 추가 혜택 75,000원 크루즈·요트 12시간 이상 영어 다양한 시작 시간 그룹 (15명 이상) 식사 포함 픽업 가능" [ref=e1480] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3888170
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 하롱베이 소규모 당일투어 (하노이 출발) 359 4.3 (12) 하노이 ∙ 투어 ∙ 0시간 0분 소요 즉시 확정 47,248원 근교투어" [ref=e1558] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/5541673
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 하롱베이 일일 투어 (2번 노선) by 5-Star Diamond Luxury Cruise 43 3.5 (2) 하롱베이 ∙ 액티비티 ∙ 0시간 0분 소요 즉시 확정 37,387원 크루즈·요트" [ref=e1618] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/5542857
+        - generic [ref=e1678]
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 (베트남/하노이) 하롱베이 럭셔리당일투어 (왕복 고속도로 이용) 161 4.3 (29) 하롱베이 ∙ 액티비티 ∙ 13시간 0분 소요 무료취소 72,000원 크루즈·요트 12시간 이상 영어 다양한 시작 시간" [ref=e1878] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3880868
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 (하노이 출발) 하롱베이 씨 옥토퍼스 크루즈 투어 40 3.5 (2) 하롱베이 ∙ 액티비티 ∙ 14시간 0분 소요 추가 혜택 94,800원 크루즈·요트 12시간 이상 영어 이른 오전 시작" [ref=e1947] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3888174
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [★혜택가득★/ 빠른 마감! 인기 상품!] 하롱베이 최대 규모 엠바사더 데이 크루즈 투어 50 5.0 (1) 하롱베이 ∙ 액티비티 ∙ 13시간 0분 소요 38,000원 크루즈·요트 12시간 이상 영어 이른 오전 시작 그룹 (15명 이상) 식사 포함 픽업 가능" [ref=e2016] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/4195785
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 하롱베이 일일 크루즈 (2번 노선) by 5 Stars Cozy Bay Premium Cruise 23 4.0 (1) 하롱베이 ∙ 액티비티 ∙ 0시간 0분 소요 즉시 확정 52,809원 크루즈·요트" [ref=e2091] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/5542856
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 하롱베이 일일 투어 (오티스 크루즈) 10 5.0 (1) 하롱베이 ∙ 액티비티 ∙ 0시간 0분 소요 즉시 확정 32,714원 크루즈·요트" [ref=e2151] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/5542855
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 [★6성급 초호화 크루즈★ ] 캐서린 1박 2일 크루즈 왕복 리무진 차량 포함 41 39,000원 크루즈·요트 1박 영어 오전 시작 그룹 (15명 이상) 식사 포함 픽업 가능" [ref=e2211] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/4249639
+        - generic [ref=e2281]
+        - link "product-thumbnail-0 product-thumbnail-1 product-thumbnail-2 product-thumbnail-3 product-thumbnail-4 그랜드 파이어니스 1박2일 하롱베이 크루즈 투어 (하노이 왕복 차량 불포함) 6 추가 혜택 38,400원 크루즈·요트 1박 영어 다양한 시작 시간 프라이빗" [ref=e2407] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/5649780
+      - button "저장됨" [ref=e2472] [cursor=pointer]:
+        - img [ref=e2474]
+        - generic [ref=e2477]: 저장됨
+    - contentinfo [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]
+        - generic [ref=e104]
+  - alert [ref=e157]
+  - button "마이리얼트립 상담 버튼" [ref=e2479]:
+    - generic [ref=e2480] [cursor=pointer]:
+      - generic [ref=e2481]: 마이리얼트립 상담 버튼
+      - img [ref=e2483]

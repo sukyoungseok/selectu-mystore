@@ -1,0 +1,13 @@
+[     487ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/api/prices/osaka?directOnly=false:0
+[     488ms] [WARNING] TripSignal osaka 로드 실패 (기본값 유지): Error: HTTP 404
+    at loadCityBudget (http://localhost:8765/index-brutal-border.html:4948:40) @ http://localhost:8765/index-brutal-border.html:5004
+[     488ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/api/prices/tokyo?directOnly=false:0
+[     488ms] [WARNING] TripSignal tokyo 로드 실패 (기본값 유지): Error: HTTP 404
+    at loadCityBudget (http://localhost:8765/index-brutal-border.html:4948:40) @ http://localhost:8765/index-brutal-border.html:5004
+[     489ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/api/prices/taipei?directOnly=false:0
+[     489ms] [WARNING] TripSignal taipei 로드 실패 (기본값 유지): Error: HTTP 404
+    at loadCityBudget (http://localhost:8765/index-brutal-border.html:4948:40) @ http://localhost:8765/index-brutal-border.html:5004
+[     489ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/api/prices/bangkok?directOnly=false:0
+[     489ms] [WARNING] TripSignal bangkok 로드 실패 (기본값 유지): Error: HTTP 404
+    at loadCityBudget (http://localhost:8765/index-brutal-border.html:4948:40) @ http://localhost:8765/index-brutal-border.html:5004
+[     910ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/favicon.ico:0

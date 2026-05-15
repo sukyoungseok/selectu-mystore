@@ -1,0 +1,554 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - link "myrealtrip" [ref=e6] [cursor=pointer]:
+        - /url: https://www.myrealtrip.com
+        - img "myrealtrip" [ref=e7]
+      - generic [ref=e10]:
+        - img "icon" [ref=e12] [cursor=pointer]
+        - textbox "\"한마음오션플레이스\" 최저가 8만원대!" [ref=e13]
+      - generic [ref=e15]:
+        - button "파트너 로그인" [ref=e17] [cursor=pointer]
+        - button "로그인 및 회원가입" [ref=e19] [cursor=pointer]
+    - navigation [ref=e21]:
+      - generic [ref=e22]:
+        - link "홈" [ref=e24] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com
+          - generic [ref=e25]: 홈
+        - link "할인" [ref=e27] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/promotions/benefit
+          - generic [ref=e28]: 할인
+        - link "항공" [ref=e30] [cursor=pointer]:
+          - /url: https://flights.myrealtrip.com/
+          - generic [ref=e31]: 항공
+        - link "해외 숙소" [ref=e33] [cursor=pointer]:
+          - /url: https://accommodation.myrealtrip.com/union?isDomestic=false&exposureSubCategory=HOTEL_RESORT
+          - generic [ref=e34]: 해외 숙소
+        - link "국내 숙소" [ref=e36] [cursor=pointer]:
+          - /url: https://accommodation.myrealtrip.com/union?isDomestic=true&exposureSubCategory=HOTEL_RESORT
+          - generic [ref=e37]: 국내 숙소
+        - link "패키지" [ref=e39] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/promotions/package_home
+          - generic [ref=e40]: 패키지
+        - link "한인민박" [ref=e42] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/promotions/hanin
+          - generic [ref=e43]: 한인민박
+        - link "투어·티켓" [ref=e45] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/experiences/
+          - generic [ref=e46]: 투어·티켓
+        - generic [ref=e47]:
+          - link "유럽열차" [ref=e48] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/transportation
+            - generic [ref=e49]: 유럽열차
+          - img "icon" [ref=e50]
+        - button "더보기 icon" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: 더보기
+          - img "icon" [ref=e54]
+  - main [ref=e55]:
+    - generic [ref=e57]:
+      - navigation [ref=e62]:
+        - generic [ref=e64]:
+          - button "예약하기" [ref=e65] [cursor=pointer]
+          - button "상품 소개" [ref=e66] [cursor=pointer]
+          - button "상품 정보" [ref=e67] [cursor=pointer]
+          - button "이용 안내" [ref=e68] [cursor=pointer]
+          - button "환불 안내" [ref=e69] [cursor=pointer]
+          - button "후기" [ref=e70] [cursor=pointer]
+      - generic [ref=e72]:
+        - article [ref=e73]:
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - link "일본" [ref=e76] [cursor=pointer]:
+                - /url: /search?q=일본
+              - link "오키나와" [ref=e78] [cursor=pointer]:
+                - /url: /search?q=오키나와
+            - heading "오키나와 이시가키 카비라만 글라스보트 승선권" [level=1] [ref=e79]
+            - button "4.7 (12)" [ref=e82] [cursor=pointer]:
+              - generic [ref=e83]:
+                - img [ref=e84]
+                - img [ref=e86]
+                - img [ref=e88]
+                - img [ref=e90]
+                - img [ref=e92]
+              - generic [ref=e94]: "4.7"
+              - generic [ref=e95]: (12)
+          - list [ref=e96]:
+            - listitem [ref=e97]:
+              - img "즉시확정" [ref=e98]
+              - strong [ref=e99]: 즉시확정
+              - text: 구매 즉시 예약 확정 (일부 상품 이용일 추가 예약 필요)
+            - listitem [ref=e100]:
+              - img "최대 12개월 무이자 할부 가능" [ref=e101]
+              - strong [ref=e102]: 최대 12개월 무이자 할부 가능
+              - link [ref=e103] [cursor=pointer]:
+                - /url: https://www.myrealtrip.com/order/installment
+                - img [ref=e104]
+          - list [ref=e106]:
+            - listitem [ref=e107]:
+              - img "eticket" [ref=e108]
+              - text: e-ticket
+            - listitem [ref=e109]:
+              - img "calendar" [ref=e110]
+              - text: 유효기간(~2026.07.25) 내 사용
+            - listitem [ref=e111]:
+              - img "time" [ref=e112]
+              - text: 30분 소요
+            - listitem [ref=e113]:
+              - img "language" [ref=e114]
+              - text: 일본어, 영어
+          - button "( magnifier 크게 보기 +6" [ref=e119] [cursor=pointer]:
+            - list [ref=e120]:
+              - listitem [ref=e121]:
+                - button "( magnifier 크게 보기" [ref=e122]:
+                  - text: (
+                  - generic [ref=e123]:
+                    - img "magnifier" [ref=e124]
+                    - paragraph [ref=e125]: 크게 보기
+              - listitem [ref=e127]:
+                - button [ref=e128]
+                - button [ref=e131]
+                - button "+6" [ref=e134]:
+                  - paragraph [ref=e136]: "+6"
+          - generic [ref=e139]:
+            - heading "예약하기" [level=2] [ref=e140]
+            - generic [ref=e146]:
+              - generic [ref=e147]:
+                - generic [ref=e148]:
+                  - heading "성인 (만 12세 이상)" [level=3] [ref=e149]
+                  - generic:
+                    - list
+                - generic [ref=e150]:
+                  - generic [ref=e152]: 1명12,552원
+                  - generic [ref=e154]:
+                    - button "1만큼 감소" [disabled] [ref=e155]:
+                      - img "1만큼 감소" [ref=e156]
+                    - generic [ref=e157]: "0"
+                    - button "1만큼 증가" [ref=e158] [cursor=pointer]:
+                      - img "1만큼 증가" [ref=e159]
+              - generic [ref=e160]:
+                - generic [ref=e161]:
+                  - heading "아동 (만 4-11세)" [level=3] [ref=e162]
+                  - generic:
+                    - list
+                - generic [ref=e163]:
+                  - generic [ref=e165]: 1명6,271원
+                  - generic [ref=e167]:
+                    - button "1만큼 감소" [disabled] [ref=e168]:
+                      - img "1만큼 감소" [ref=e169]
+                    - generic [ref=e170]: "0"
+                    - button "1만큼 증가" [ref=e171] [cursor=pointer]:
+                      - img "1만큼 증가" [ref=e172]
+          - generic [ref=e174]:
+            - heading "세계가 인정한 경승지 \"카비라만\"을 글래스보트로 안내합니다." [level=2] [ref=e175]
+            - paragraph [ref=e180]: "[이 액티비티의 매력 포인트!] • 유리배를 타고 이시가키섬 카비라만을 방문해보세요! • 어린아이도 즐길 수 있는 캐주얼 해양 체험! • 옷을 갈아입거나 아무것도 가져갈 필요가 없습니다! 아무것도 가져오지 않고도 쉽게 참여할 수 있어요! 유리배를 타고 이시가키섬의 명승지인 카비라만(Kabira Bay)을 둘러보세요. 오키나와 이사가키섬의 \"카비라만\"을 글라스보트는 누구나 부담 없이 바닷속 산책을 즐길 수 있습니다. 주위 풍경은 물론 다양한 산호초와 형형색색의 열대어들을 관찰하며, 카비라만에서 바라보는 이시가키섬의 대자연을 한번 만나보세요. 어린아이도 부담없이 즐길 수 있는 해양 체험입니다. [옵션 안내] ⓐ 성인 (만 12세 이상) ⓑ 아동 (만 4-11세) [예약 전 확인해 주세요!] • 유아(만 3세 이하) 좌석이 제공되지 않습니다. 성인 1명당 유아 1명까지 무료이며, 유아 1명 이상인 경우에는 아동 요금이 적용됩니다. • 만 4~11세의 요금을 이용하는 경우, 나이를 증명할 수 있는 증빙 자료를 지참해 주세요. • 재입장은 불가합니다."
+          - generic [ref=e187]:
+            - generic [ref=e188]:
+              - paragraph [ref=e189]: "4.7"
+              - generic [ref=e190]:
+                - generic [ref=e191]:
+                  - img [ref=e192]
+                  - img [ref=e194]
+                  - img [ref=e196]
+                  - img [ref=e198]
+                  - img [ref=e200]
+                - paragraph [ref=e202]: 후기 12개
+            - generic [ref=e203]:
+              - generic [ref=e205]:
+                - img [ref=e206]
+                - img [ref=e208]
+                - img [ref=e210]
+                - img [ref=e212]
+                - img [ref=e214]
+              - paragraph [ref=e216]: 이**
+              - generic [ref=e218]:
+                - text: 20대
+                - text: 2026-04-03
+              - generic [ref=e220]:
+                - generic [ref=e221]: 카비라만 입구 건물 안에서 바우처 교환하시면 돼요! 산호가 별로 없다는 후기도 좀 있어서 고민했는데, 업체에서 산호 있는 포인트를 딱 데려가서 보여줘서 산호도 보고 물고기도 보고 아이랑 같이 체험하기 좋은 것 같아요! 저는 카비라만에서 마이리얼트립으로 바우처 교환권 결제 후에 탑승했습니다. 미리 구매하지 않고 가보시고 결정하셔도 괜찮은 것 같아요!!
+                - button "더 보기arrow-blue-down" [ref=e222] [cursor=pointer]:
+                  - generic [ref=e223]:
+                    - text: 더 보기
+                    - img "arrow-blue-down" [ref=e224]
+              - button "후기 12개 전체 보기더보기" [ref=e225] [cursor=pointer]:
+                - text: 후기 12개 전체 보기
+                - img "더보기" [ref=e226]
+          - generic [ref=e228]:
+            - heading "상품 정보" [level=2] [ref=e229]
+            - generic [ref=e230]:
+              - generic [ref=e231]:
+                - heading "포함 사항" [level=3] [ref=e232]
+                - paragraph [ref=e236]: • 승선료
+              - generic [ref=e237]:
+                - heading "불포함 사항" [level=3] [ref=e238]
+                - paragraph [ref=e242]: • 기타 개인 경비
+          - generic [ref=e244]:
+            - heading "이용 안내" [level=2] [ref=e245]
+            - generic [ref=e246]:
+              - generic [ref=e247]:
+                - heading "이용 시간" [level=3] [ref=e248]
+                - paragraph [ref=e250]: "• 영업 시간: 9:00~17:00 • 첫운항 09:00로 이후 15분마다 운항하며, 마지막 운항 17:00 입니다. • 운영 시간은 변동될 수 있습니다. 이용 전, 공식 홈페이지를 확인해 주세요. - 공식 홈페이지 : http://www.kabiramarine.jp/ • 자세한 사항은 바우처에 기재되어 있는 연락처로 문의주시기 바랍니다. • 아침 9시부터 15분 간격으로 출발하므로 기본적으로 장시간 기다리실 필요는 없지만 시간이 없으실 경우 당일에 문의하신 후 방문해 주세요."
+              - generic [ref=e251]:
+                - heading "위치 안내" [level=3] [ref=e252]
+                - generic [ref=e253]:
+                  - paragraph [ref=e254]:
+                    - paragraph [ref=e256]: Japan, 〒907-0453 912-1 Kabira, Ishigaki City, Okinawa Prefecture
+                  - link "지도" [ref=e258] [cursor=pointer]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=24.461429956038867,124.142274317208
+                    - img "지도" [ref=e259]
+              - generic [ref=e260]:
+                - heading "사용 방법" [level=3] [ref=e261]
+                - generic [ref=e262]:
+                  - paragraph [ref=e265]:
+                    - text: "• 예약 확정 후 마이리얼트립 앱 - '내 여행' - 예약 상세 페이지 클릭시 바우처를 확인하실 수 있습니다. • 이용 방법 : QR코드가 포함된 모바일 바우처 제시 후 바로 이용 • 유효 기간: 구매일로부터 88일간 유효 [만나는장소 추가안내] • 주소 : 〒907-0453 沖縄県石垣市川平912-1 *정확한 주소는 공식 홈페이지를 확인해주세요. 구글맵 링크 :"
+                    - link "https://maps.app.goo.gl/YfD8VHNGtJSkCeR98" [ref=e266] [cursor=pointer]:
+                      - /url: https://maps.app.goo.gl/YfD8VHNGtJSkCeR98
+                    - text: "• 자동차로 이동시 오는 방법 - 이시가키공항에서 차로 약 30분 - 이시가키 리토 터미널에서 차로 약 30분 • 현지 여행사 연락처 : - 0980-88-2335 (Kabira Marine Service) - http://www.kabiramarine.jp/ [유의사항] • 예약 확정 후 연락이 필요한 경우 구매 시 기재한 이메일로 연락 드립니다. • 투어 전, 현지 여행사로부터 예약 관련한 이메일을 확인해 주세요. • 상품 페이지와 바우처 상의 정보가 다를 경우, 바우처 상의 정보를 확인해주세요. • 확정에 다소 시간이 소요될 수 있으니 최소 이용 시간 1시간 전에 구매하여 주시기 바랍니다. • 당일 현지 상황에 따라 투어 내용이 변경/조정 될 수 있습니다. 상품 페이지와 다른 내용으로 진행되었을 경우 마이리얼트립으로 연락 부탁드립니다. • 투어 당일 문제 발생 시에는 반드시 바우처 상의 업체 연락처로 연락해 주세요. [기타 안내] • 여행자 보험에 가입 후 투어를 진행할 것을 권장합니다."
+                  - link "더 보기" [ref=e269] [cursor=pointer]:
+                    - /url: ""
+          - generic [ref=e271]:
+            - heading "취소 및 환불 규정" [level=2] [ref=e272]
+            - paragraph [ref=e277]:
+              - text: ※ 해당 상품은 상품 특성상 아래의 취소 환불 규정이 적용됩니다.
+              - text: "- 확정 이후 환불 및 변경이 불가하오니 신중한 구매 부탁 드립니다."
+          - generic [ref=e280]:
+            - generic [ref=e281]:
+              - link "JTR WEB JTR WEB" [ref=e282] [cursor=pointer]:
+                - /url: /guides/6973
+                - img "JTR WEB" [ref=e283]
+                - paragraph [ref=e284]: JTR WEB
+              - button "파트너 정보" [ref=e287] [cursor=pointer]:
+                - button "파트너 정보" [ref=e288]:
+                  - generic [ref=e289]:
+                    - img [ref=e290]
+                    - text: 파트너 정보
+            - paragraph [ref=e295]: 전세계의 다양한 투어 & 액티비티 및 교통패스, 입장권을 다양하게 소개 및 판매합니다. 현지에서 줄 설 필요없이 쉽고 간편하게 예약하고, 현지에서 잊지못할 체험들을 경험 해 보세요!
+          - generic [ref=e297]:
+            - heading "여행자 후기 사진" [level=2] [ref=e298]
+            - button "+2" [ref=e303] [cursor=pointer]:
+              - list [ref=e304]:
+                - listitem [ref=e305]:
+                  - button [ref=e306]
+                  - button [ref=e309]
+                  - button "+2" [ref=e312]:
+                    - paragraph [ref=e314]: "+2"
+          - generic [ref=e319]:
+            - heading "후기12" [level=4] [ref=e321]
+            - generic [ref=e322]:
+              - generic [ref=e323]:
+                - paragraph [ref=e324]: "4.7"
+                - generic [ref=e325]:
+                  - img [ref=e326]
+                  - img [ref=e328]
+                  - img [ref=e330]
+                  - img [ref=e332]
+                  - img [ref=e334]
+              - generic [ref=e336]:
+                - paragraph
+                - generic [ref=e337]:
+                  - generic [ref=e338]:
+                    - img [ref=e339]
+                    - img [ref=e341]
+                    - img [ref=e343]
+                    - img [ref=e345]
+                    - img [ref=e347]
+                  - paragraph [ref=e351]: "11"
+                - generic [ref=e352]:
+                  - generic [ref=e353]:
+                    - img [ref=e354]
+                    - img [ref=e356]
+                    - img [ref=e358]
+                    - img [ref=e360]
+                  - paragraph [ref=e363]: "0"
+                - generic [ref=e364]:
+                  - generic [ref=e365]:
+                    - img [ref=e366]
+                    - img [ref=e368]
+                    - img [ref=e370]
+                  - paragraph [ref=e373]: "0"
+                - generic [ref=e374]:
+                  - generic [ref=e375]:
+                    - img [ref=e376]
+                    - img [ref=e378]
+                  - paragraph [ref=e381]: "0"
+                - generic [ref=e382]:
+                  - img [ref=e384]
+                  - paragraph [ref=e388]: "1"
+            - generic [ref=e389]:
+              - generic [ref=e390]:
+                - generic [ref=e391]:
+                  - button [ref=e392] [cursor=pointer]
+                  - generic [ref=e394]:
+                    - img [ref=e395]
+                    - img [ref=e397]
+                    - img [ref=e399]
+                    - img [ref=e401]
+                    - img [ref=e403]
+                  - generic [ref=e405]: 이**
+                  - generic [ref=e406]: 2026-04-07
+                  - generic [ref=e408]: 부모님과 아이를 동반한 여행이었고 글래스보트를 타고 거북이도 보고 가오리도 보고 산호도 보고… 좋았어요. 아이와 함께하는 가족에겐 강추 입니다
+                - separator [ref=e409]
+                - generic [ref=e410]:
+                  - button [ref=e411] [cursor=pointer]
+                  - generic [ref=e413]:
+                    - img [ref=e414]
+                    - img [ref=e416]
+                    - img [ref=e418]
+                    - img [ref=e420]
+                    - img [ref=e422]
+                  - generic [ref=e424]: 이**
+                  - generic [ref=e425]: 2026-04-03
+                  - generic [ref=e427]: 카비라만 입구 건물 안에서 바우처 교환하시면 돼요! 산호가 별로 없다는 후기도 좀 있어서 고민했는데, 업체에서 산호 있는 포인트를 딱 데려가서 보여줘서 산호도 보고 물고기도 보고 아이랑 같이 체험하기 좋은 것 같아요! 저는 카비라만에서 마이리얼트립으로 바우처 교환권 결제 후에 탑승했습니다. 미리 구매하지 않고 가보시고 결정하셔도 괜찮은 것 같아요!!
+                - separator [ref=e428]
+                - generic [ref=e429]:
+                  - generic [ref=e430]:
+                    - img [ref=e431]
+                    - img [ref=e433]
+                    - img [ref=e435]
+                    - img [ref=e437]
+                    - img [ref=e439]
+                  - generic [ref=e441]: 이*
+                  - generic [ref=e442]:
+                    - text: 배우자와 가는 여행
+                    - text: 2026-03-15
+                  - generic [ref=e446]:
+                    - text: 주차장이 붐빌 수 있음
+                    - text: 여유있게 가는 것을 추천
+                    - text: 운항을 안하는 경우가 생각보다 잦음
+                    - text: 방문하기 전 공식사이트 확인하는 것이 좋음
+                - separator [ref=e447]
+              - button "후기 더 보기 arrow-icon" [ref=e450] [cursor=pointer]:
+                - button "후기 더 보기 arrow-icon" [ref=e451]:
+                  - generic [ref=e452]:
+                    - text: 후기 더 보기
+                    - img "arrow-icon" [ref=e453]
+        - complementary [ref=e454]:
+          - list [ref=e455]:
+            - listitem [ref=e456]:
+              - generic [ref=e457]:
+                - generic [ref=e458]:
+                  - generic [ref=e459]:
+                    - generic [ref=e461]:
+                      - strong [ref=e462]: 6,300원
+                      - text: 부터
+                    - button "share" [ref=e464] [cursor=pointer]:
+                      - img "share" [ref=e465]
+                  - generic [ref=e466]:
+                    - generic [ref=e468]:
+                      - button "192" [ref=e469] [cursor=pointer]:
+                        - generic [ref=e471]:
+                          - img [ref=e473]
+                          - generic [ref=e476]: "192"
+                      - button "즉시사용예약하기" [ref=e477] [cursor=pointer]:
+                        - img "즉시사용" [ref=e478]
+                        - text: 예약하기
+                    - paragraph [ref=e479]:
+                      - text: 구매 후 즉시 확정됩니다.
+                      - link "즉시사용":
+                        - /url: /about/instantbooking
+                        - img "즉시사용" [ref=e480] [cursor=pointer]
+                - link "JTR WEB JTR WEB" [ref=e483] [cursor=pointer]:
+                  - /url: /guides/6973
+                  - img "JTR WEB" [ref=e484]
+                  - generic [ref=e485]: JTR WEB
+      - generic [ref=e487]:
+        - paragraph [ref=e490]: "'크루즈·요트' 인기상품"
+        - generic [ref=e494]:
+          - generic [ref=e496]:
+            - link "득템위크특가 액티비티 ・ 미야코지마 (미야코섬) 수중관람선 몽블랑에서 즐기는 크루즈 뷔페 2 6,024원 / 1인 98" [ref=e497] [cursor=pointer]:
+              - /url: https://experiences.myrealtrip.com/products/3511492
+              - generic [ref=e502]: 득템위크특가
+              - generic [ref=e503]:
+                - generic [ref=e505]: 액티비티 ・ 미야코지마
+                - heading "(미야코섬) 수중관람선 몽블랑에서 즐기는 크루즈 뷔페" [level=3] [ref=e506]:
+                  - generic [ref=e507]: (미야코섬) 수중관람선 몽블랑에서 즐기는 크루즈 뷔페
+                - generic [ref=e508]:
+                  - generic [ref=e510]:
+                    - generic [ref=e511]:
+                      - img [ref=e512]
+                      - img [ref=e514]
+                      - img [ref=e516]
+                      - img [ref=e518]
+                      - img [ref=e520]
+                    - text: "2"
+                  - generic [ref=e522]:
+                    - generic [ref=e523]: 6,024원
+                    - text: / 1인
+              - generic [ref=e526]:
+                - img [ref=e528]
+                - generic [ref=e531]: "98"
+            - link "즉시확정 액티비티 ・ 오키나와 오키나와 카비라만 글래스 보트 투어 1 6,247원 / 1인 39" [ref=e532] [cursor=pointer]:
+              - /url: https://experiences.myrealtrip.com/products/5869624
+              - generic [ref=e537]: 즉시확정
+              - generic [ref=e538]:
+                - generic [ref=e540]: 액티비티 ・ 오키나와
+                - heading "오키나와 카비라만 글래스 보트 투어" [level=3] [ref=e541]:
+                  - generic [ref=e542]: 오키나와 카비라만 글래스 보트 투어
+                - generic [ref=e543]:
+                  - generic [ref=e545]:
+                    - generic [ref=e546]:
+                      - img [ref=e547]
+                      - img [ref=e549]
+                      - img [ref=e551]
+                      - img [ref=e553]
+                      - img [ref=e555]
+                    - text: "1"
+                  - generic [ref=e557]:
+                    - generic [ref=e558]: 6,247원
+                    - text: / 1인
+              - generic [ref=e561]:
+                - img [ref=e563]
+                - generic [ref=e566]: "39"
+            - link "즉시확정 액티비티 ・ 오키나와 [이시가키지마] 선셋 BBQ 크루즈 - 푸른 바다 위에서 즐기는 특별한 선셋 BBQ 크루즈 109,000원 / 1인 30" [ref=e567] [cursor=pointer]:
+              - /url: https://experiences.myrealtrip.com/products/4553088
+              - generic [ref=e572]: 즉시확정
+              - generic [ref=e573]:
+                - generic [ref=e575]: 액티비티 ・ 오키나와
+                - heading "[이시가키지마] 선셋 BBQ 크루즈 - 푸른 바다 위에서 즐기는 특별한 선셋 BBQ 크루즈" [level=3] [ref=e576]:
+                  - generic [ref=e577]: "[이시가키지마] 선셋 BBQ 크루즈 - 푸른 바다 위에서 즐기는 특별한 선셋 BBQ 크루즈"
+                - generic [ref=e579]:
+                  - generic [ref=e580]: 109,000원
+                  - text: / 1인
+              - generic [ref=e583]:
+                - img [ref=e585]
+                - generic [ref=e588]: "30"
+            - link "액티비티 ・ 오키나와 (나하출발) 대형 수중관람선 오르카& 샘즈 스테이크 런치 투어 43,442원 / 1인 44" [ref=e589] [cursor=pointer]:
+              - /url: https://experiences.myrealtrip.com/products/3890492
+              - generic [ref=e594]:
+                - generic [ref=e596]: 액티비티 ・ 오키나와
+                - heading "(나하출발) 대형 수중관람선 오르카& 샘즈 스테이크 런치 투어" [level=3] [ref=e597]:
+                  - generic [ref=e598]: (나하출발) 대형 수중관람선 오르카& 샘즈 스테이크 런치 투어
+                - generic [ref=e600]:
+                  - generic [ref=e601]: 43,442원
+                  - text: / 1인
+              - generic [ref=e604]:
+                - img [ref=e606]
+                - generic [ref=e609]: "44"
+            - link "즉시확정 액티비티 ・ 오키나와 오키나와 대형 수중관광선 오르카 10,400원 / 1인 7" [ref=e610] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/171745
+              - generic [ref=e615]: 즉시확정
+              - generic [ref=e616]:
+                - generic [ref=e618]: 액티비티 ・ 오키나와
+                - heading "오키나와 대형 수중관광선 오르카" [level=3] [ref=e619]:
+                  - generic [ref=e620]: 오키나와 대형 수중관광선 오르카
+                - generic [ref=e622]:
+                  - generic [ref=e623]: 10,400원
+                  - text: / 1인
+              - generic [ref=e626]:
+                - img [ref=e628]
+                - generic [ref=e631]: "7"
+            - link "즉시확정 액티비티 ・ 오키나와 [크루즈탑승 + 선상디너] 오키나와 선셋/나이트 디너 크루즈 19,000원 / 1인 6" [ref=e632] [cursor=pointer]:
+              - /url: https://experiences.myrealtrip.com/products/4992424
+              - generic [ref=e637]: 즉시확정
+              - generic [ref=e638]:
+                - generic [ref=e640]: 액티비티 ・ 오키나와
+                - heading "[크루즈탑승 + 선상디너] 오키나와 선셋/나이트 디너 크루즈" [level=3] [ref=e641]:
+                  - generic [ref=e642]: "[크루즈탑승 + 선상디너] 오키나와 선셋/나이트 디너 크루즈"
+                - generic [ref=e644]:
+                  - generic [ref=e645]: 19,000원
+                  - text: / 1인
+              - generic [ref=e648]:
+                - img [ref=e650]
+                - generic [ref=e653]: "6"
+          - button "Next slide" [ref=e654] [cursor=pointer]:
+            - img "next" [ref=e655]
+      - paragraph [ref=e657]: "상품번호: 171641"
+  - contentinfo [ref=e659]:
+    - generic [ref=e660]:
+      - generic [ref=e661]:
+        - generic [ref=e662]:
+          - text: 고객지원실 운영안내
+          - list [ref=e663]:
+            - listitem [ref=e664]: 채팅상담 연중무휴 24시간 유선상담 연중무휴 09:00-18:00
+            - listitem [ref=e665]: 대표번호 1670-8208
+          - button "고객지원실" [ref=e667] [cursor=pointer]:
+            - button "고객지원실" [ref=e668]:
+              - generic [ref=e669]: 고객지원실
+        - generic [ref=e670]:
+          - generic [ref=e671]:
+            - text: 소개
+            - list [ref=e672]:
+              - listitem [ref=e673]:
+                - link "회사소개" [ref=e674] [cursor=pointer]:
+                  - /url: https://about.myrealtrip.com
+              - listitem [ref=e675]:
+                - link "채용" [ref=e676] [cursor=pointer]:
+                  - /url: https://careers.myrealtrip.com
+              - listitem [ref=e677]:
+                - link "공고" [ref=e678] [cursor=pointer]:
+                  - /url: https://www.myrealtrip.com/announcement
+          - generic [ref=e679]:
+            - text: 파트너
+            - list [ref=e680]:
+              - listitem [ref=e681]:
+                - link "파트너 홈" [ref=e682] [cursor=pointer]:
+                  - /url: https://partner.myrealtrip.com/welcome
+              - listitem [ref=e683]:
+                - link "제휴 문의" [ref=e684] [cursor=pointer]:
+                  - /url: "mailto: partnership@myrealtrip.com"
+              - listitem [ref=e685]:
+                - link "광고 문의" [ref=e686] [cursor=pointer]:
+                  - /url: "mailto: ad@myrealtrip.com"
+          - generic [ref=e687]:
+            - text: 지원
+            - list [ref=e688]:
+              - listitem [ref=e689]:
+                - link "공지사항" [ref=e690] [cursor=pointer]:
+                  - /url: https://support.myrealtrip.com/notice
+              - listitem [ref=e691]:
+                - link "문의내역" [ref=e692] [cursor=pointer]:
+                  - /url: https://support.myrealtrip.com/inquiry
+              - listitem [ref=e693]:
+                - link "최저가 보장제" [ref=e694] [cursor=pointer]:
+                  - /url: https://www.myrealtrip.com/best_price
+      - generic [ref=e695]:
+        - generic [ref=e696]:
+          - generic [ref=e697]:
+            - link "이용 약관" [ref=e699] [cursor=pointer]:
+              - /url: https://auth.myrealtrip.com/terms/policyAgreement
+            - link "개인정보 처리방침" [ref=e701] [cursor=pointer]:
+              - /url: https://auth.myrealtrip.com/terms/common/privacy
+            - link "취소 및 환불 정책" [ref=e703] [cursor=pointer]:
+              - /url: https://auth.myrealtrip.com/terms/common/cancel
+          - generic [ref=e704]:
+            - generic [ref=e705]:
+              - link "icon 페이스북으로 이동하기" [ref=e707] [cursor=pointer]:
+                - /url: https://www.facebook.com/myRealTrip
+                - img "icon" [ref=e708]
+                - generic [ref=e709]: 페이스북으로 이동하기
+              - link "icon 네이버 블로그로 이동하기" [ref=e711] [cursor=pointer]:
+                - /url: https://blog.naver.com/myrealtrip
+                - img "icon" [ref=e712]
+                - generic [ref=e713]: 네이버 블로그로 이동하기
+              - link "icon 인스타그램으로 이동하기" [ref=e715] [cursor=pointer]:
+                - /url: https://instagram.com/myrealtrip
+                - img "icon" [ref=e716]
+                - generic [ref=e717]: 인스타그램으로 이동하기
+              - link "icon 유투브로 이동하기" [ref=e719] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC2oeFByIBQjkKXmQjE0U5rQ
+                - img "icon" [ref=e720]
+                - generic [ref=e721]: 유투브로 이동하기
+            - generic [ref=e723]:
+              - link "icon" [ref=e725] [cursor=pointer]:
+                - /url: https://itunes.apple.com/app/id1141745032
+                - img "icon" [ref=e726]
+              - link "icon" [ref=e728] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.mrt.ducati
+                - img "icon" [ref=e729]
+          - button "icon 한국어 icon" [ref=e732] [cursor=pointer]:
+            - img "icon" [ref=e733]
+            - generic [ref=e734]: 한국어
+            - img "icon" [ref=e735]
+        - generic [ref=e736]:
+          - paragraph [ref=e738]:
+            - text: 상호명 (주)마이리얼트립 | 대표 이동건 | 개인정보보호책임자 김형석 | 사업자등록번호 209-81-55339
+            - link "사업자정보확인" [ref=e739] [cursor=pointer]:
+              - /url: https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2098155339
+            - text: "| 통신판매업신고번호 2019-서울서초-0260 | 관광사업등록번호 : 제2019-3호"
+            - text: 주소 서울특별시 서초구 강남대로 311, 18층 1729호(서초동, 한화생명보험빌딩) | 이메일 help@myrealtrip.com | 입점 문의 partnership@myrealtrip.com
+            - text: "마케팅파트너/크리에이터 문의 marketing_partner@myrealtrip.com | 마케팅 문의 marketing@myrealtrip.com | 호스팅 서비스 제공자 : (주)마이리얼트립"
+            - text: "자사는 서울특별시관광협회 공제영업보증보험에 가입되어 있습니다. 영업보증보험: 1.5억원 / 기획여행보증: 2억원"
+            - text: 마이리얼트립은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 상품·거래정보 및 거래에 대하여 책임을 지지않습니다.
+            - text: 부득이한 사정에 의해 확정된 여행일정이 변경되는 경우 여행자의 사전 동의를 받습니다.
+            - text: (주)마이리얼트립이 소유, 운영, 관리하는 웹사이트 및 앱 내의 상품, 판매자 정보, 이벤트 정보, 디자인, UI 등을 포함한 일체의 콘텐츠에 대한 무단 복제, 배포, 전송, 스크래핑 등의 행위는 저작권법 등 관련 법령에 의하여 엄격히 금지됩니다.
+          - button "ISMS-P" [ref=e741] [cursor=pointer]:
+            - img "ISMS-P" [ref=e742]

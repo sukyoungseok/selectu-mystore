@@ -1,0 +1,55 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - banner [ref=e7]:
+        - button [ref=e10] [cursor=pointer]:
+          - img [ref=e11]
+        - button [ref=e16] [cursor=pointer]:
+          - img [ref=e17]
+      - generic [ref=e21]:
+        - img "cover" [ref=e23]
+        - generic [ref=e24]:
+          - heading "seunga_travel_" [level=1] [ref=e26]
+          - button "비즈니스 제안" [ref=e27] [cursor=pointer]:
+            - img [ref=e28]
+            - generic [ref=e31]: 비즈니스 제안
+      - generic [ref=e32]:
+        - link "선착순 씽아 풀만 12 할인쿠폰" [ref=e34] [cursor=pointer]:
+          - /url: /api/r/rfzlplHnCFHPpDrzb335_TZxZp9I-HSBAX8lZ_TrSYZ9NkUCaNxYjf6nDFTYmQWtAUisf4fcieZtA93Nns3YMYEXwpvFhY81ARgq8dIdkrRFphTeX784_2_Qq0s-0PpvcMAvh831wRyPCiWuRco
+          - paragraph [ref=e37]: 선착순 씽아 풀만 12 할인쿠폰
+        - link "앰버서더 서울 풀만 호텔 특가 링크" [ref=e39] [cursor=pointer]:
+          - /url: /api/r/bzHwP_dRcfR-nKisQRWllbGURh0MCml749I5oVffLf3CLHZvMHJ1rNJMLgjhSu5xyma_fDlMa_gdjjq-cC-X0YEaKl7Hgy0WCrebqqf4c1p788XnjZh8qa3fqkE-jQ_ZYtDhm2uBrz1uX80WzP13Ve9EkFC-r5w9citmchATLFc
+          - paragraph [ref=e42]: 앰버서더 서울 풀만 호텔 특가 링크
+        - link "여행 씽아 협업 카톡방 여행 씽아 협업 카톡방" [ref=e44] [cursor=pointer]:
+          - /url: /api/r/__kfLeB1rpXOHj6p4dQSVzSSo-ZbIFXzOJWLHbPavG7Wvt6_nIB4m5QoP4vlrm8AEZqVhpNNSWwfRqcIX6dY33OvDEihXbDLD_RvM7By506RdAPwFOfdzAKm0GNzEAwYhuVGmfmghv5A4jbvBhb8drz__M_84lubbZss4w
+          - generic [ref=e45]:
+            - img "여행 씽아 협업 카톡방" [ref=e47]
+            - paragraph [ref=e49]: 여행 씽아 협업 카톡방
+        - link "진도쏠비치 공구 고객센터" [ref=e51] [cursor=pointer]:
+          - /url: /api/r/QE7_R5nuWIUWNXk9qp94YaJ0_sY2R4IlC5cFo8IFT6XfXgRoH_OqDPkO3kfl_78gfOFyA9eq3vUFRatKwoQYhw6jeUTEplNvkLGRng487HU-REA9ZAZvPa5uXy4x_LAfpCGQuf93rNVeDQWoAir5S0AzYTzv
+          - paragraph [ref=e54]: 진도쏠비치 공구 고객센터
+        - link "여행씽아 공구 알림 받기 📩 여행씽아 공구 알림 받기 📩" [ref=e56] [cursor=pointer]:
+          - /url: /api/r/GrKP01axCKZDXYcLTvtfBns9p-orQdnGyJ5krWI1lJRJcbOL2WFNTHA0RGPwOGX32spSoWmYFLRz5TkaM2PitGQnk7OUkTwD_5tseRLPciGk4jdFAK1dOzGa4EU8s4aZVvrHj3W_40zSUovkcXNl-ldj5NLConiaAy4
+          - generic [ref=e57]:
+            - img "여행씽아 공구 알림 받기 📩" [ref=e59]
+            - paragraph [ref=e61]: 여행씽아 공구 알림 받기 📩
+        - link "여행하는 승아의 유튜브📽️ 여행하는 승아의 유튜브📽️" [ref=e63] [cursor=pointer]:
+          - /url: /api/r/oX95A8OREGSLVGDhOZQ0y5ek3VLzNARFdKqxrg5oNyeY1YeoIia-mX86ZE0YS_iu68s0ZEb8UwhOQ-Mxs2wjwBf4jrlgmhFTIJ0iEFAf_15Kxqiev5JorVwJ8n_oJMtf6-rqLMd-6C6Fkzw2hFqiIH5P8yhwcv_yVIleKPC8
+          - generic [ref=e64]:
+            - img "여행하는 승아의 유튜브📽️" [ref=e66]
+            - paragraph [ref=e68]: 여행하는 승아의 유튜브📽️
+        - link "여행하는 승아 틱톡 여행하는 승아 틱톡" [ref=e70] [cursor=pointer]:
+          - /url: /api/r/wPJuTsjCJ1ca6R_lBZp2cLLFA4x0RCkbKrOQMH9VJPZWSsiYWFySAR-y7t8xgRVVNq9qT8kpvIdUJY-dLIo5cyvZVhPVIX3N6E8VnogXsIZgATylMY3AZ6K-JGk1EjzrxSdLoEHVxs-IIKSCeEMdTKnYIHjsdJXMPW9yiZpgnUyQ
+          - generic [ref=e71]:
+            - img "여행하는 승아 틱톡" [ref=e73]
+            - paragraph [ref=e75]: 여행하는 승아 틱톡
+      - generic "Inpock" [ref=e78] [cursor=pointer]:
+        - button "· 나만의 프로필을 만들어보세요" [ref=e79]:
+          - img [ref=e81]
+          - generic [ref=e83]: ·
+          - generic [ref=e84]: 나만의 프로필을 만들어보세요
+          - img [ref=e86]
+    - generic [ref=e88]:
+      - img [ref=e90]
+      - generic [ref=e93]: 모바일로 보기
+  - alert [ref=e94]

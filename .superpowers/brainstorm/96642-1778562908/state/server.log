@@ -1,0 +1,7 @@
+{"type":"server-started","port":59519,"host":"127.0.0.1","url_host":"localhost","url":"http://localhost:59519","screen_dir":"/Users/sukyoung-seok/mystore-mockup/.superpowers/brainstorm/96642-1778562908/content","state_dir":"/Users/sukyoung-seok/mystore-mockup/.superpowers/brainstorm/96642-1778562908/state"}
+{"type":"screen-added","file":"/Users/sukyoung-seok/mystore-mockup/.superpowers/brainstorm/96642-1778562908/content/intro.html"}
+{"type":"screen-added","file":"/Users/sukyoung-seok/mystore-mockup/.superpowers/brainstorm/96642-1778562908/content/entry-point.html"}
+{"type":"screen-added","file":"/Users/sukyoung-seok/mystore-mockup/.superpowers/brainstorm/96642-1778562908/content/waiting-1.html"}
+{"type":"screen-added","file":"/Users/sukyoung-seok/mystore-mockup/.superpowers/brainstorm/96642-1778562908/content/chat-mockup.html"}
+{"source":"user-event","type":"click","text":"🌟\n        \n          파파트래블 여행 챗봇\n          릴스·인스타 기반 맞춤 추천\n        \n      \n      \n        오사카 3박4일 일정 짜줘\n        \n          파파트래블이 다녀온 오사카 루트예요! 🗺️\n          \n            Day1 도톤보리 → Day2 나라 → Day3 교토\n          \n          📸 릴스 3개 →  🛒 오사카 패스 →\n        \n        \n        \n          예산은?\n          숙소 추천도\n          맛집만\n        \n      \n      \n        무엇이든 물어보세요...\n      \n    \n    \n      C. 하이브리드 (추천)\n      정보는 정확하게, 말투는 크리에이터처럼. 빠른 답변 버튼으로 대화 유도. 릴스 + 상품 링크 동시 제공","choice":"c","id":null,"timestamp":1778564062455}
+{"type":"server-stopped","reason":"idle timeout"}

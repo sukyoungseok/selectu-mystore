@@ -1,0 +1,710 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - link "myrealtrip" [ref=e6] [cursor=pointer]:
+        - /url: https://www.myrealtrip.com
+        - img "myrealtrip" [ref=e7]
+      - generic [ref=e10]:
+        - img "icon" [ref=e12] [cursor=pointer]
+        - textbox "\"결제혜택\" 검색하고 추가 할인 받기!" [ref=e13]:
+          - /placeholder: "\"결제혜택\" 검색하고 추가 할인 받기! "
+      - generic [ref=e15]:
+        - button "파트너 로그인" [ref=e17] [cursor=pointer]
+        - button "로그인 및 회원가입" [ref=e19] [cursor=pointer]
+    - navigation [ref=e21]:
+      - generic [ref=e22]:
+        - link "홈" [ref=e24] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com
+          - generic [ref=e25]: 홈
+        - link "할인" [ref=e27] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/promotions/benefit
+          - generic [ref=e28]: 할인
+        - link "항공" [ref=e30] [cursor=pointer]:
+          - /url: https://flights.myrealtrip.com/
+          - generic [ref=e31]: 항공
+        - link "해외 숙소" [ref=e33] [cursor=pointer]:
+          - /url: https://accommodation.myrealtrip.com/union?isDomestic=false&exposureSubCategory=HOTEL_RESORT
+          - generic [ref=e34]: 해외 숙소
+        - link "국내 숙소" [ref=e36] [cursor=pointer]:
+          - /url: https://accommodation.myrealtrip.com/union?isDomestic=true&exposureSubCategory=HOTEL_RESORT
+          - generic [ref=e37]: 국내 숙소
+        - link "패키지" [ref=e39] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/promotions/package_home
+          - generic [ref=e40]: 패키지
+        - link "한인민박" [ref=e42] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/promotions/hanin
+          - generic [ref=e43]: 한인민박
+        - link "투어·티켓" [ref=e45] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/main/experiences/
+          - generic [ref=e46]: 투어·티켓
+        - generic [ref=e47]:
+          - link "유럽열차" [ref=e48] [cursor=pointer]:
+            - /url: https://www.myrealtrip.com/transportation
+            - generic [ref=e49]: 유럽열차
+          - img "icon" [ref=e50]
+        - button "더보기 icon" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: 더보기
+          - img "icon" [ref=e54]
+  - main [ref=e55]:
+    - generic [ref=e57]:
+      - navigation [ref=e62]:
+        - generic [ref=e64]:
+          - button "예약하기" [ref=e65] [cursor=pointer]
+          - button "상품 소개" [ref=e66] [cursor=pointer]
+          - button "상품 정보" [ref=e67] [cursor=pointer]
+          - button "이용 안내" [ref=e68] [cursor=pointer]
+          - button "환불 안내" [ref=e69] [cursor=pointer]
+          - button "후기" [ref=e70] [cursor=pointer]
+      - generic [ref=e72]:
+        - article [ref=e73]:
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - link "일본" [ref=e76] [cursor=pointer]:
+                - /url: /search?q=일본
+              - link "오사카" [ref=e78] [cursor=pointer]:
+                - /url: /search?q=오사카
+            - heading "간사이 와이드 5일 패스 & 교토 단고 아마노하시다테 & 이네 관광 2일 패스 & 나리아이지 입장료 & 버스 왕복 티켓 (성인)" [level=1] [ref=e79]
+            - button "4.9 (8)" [ref=e82] [cursor=pointer]:
+              - generic [ref=e83]:
+                - img [ref=e84]
+                - img [ref=e86]
+                - img [ref=e88]
+                - img [ref=e90]
+                - img [ref=e92]
+              - generic [ref=e94]: "4.9"
+              - generic [ref=e95]: (8)
+          - list [ref=e96]:
+            - listitem [ref=e97]:
+              - img "즉시확정" [ref=e98]
+              - strong [ref=e99]: 즉시확정
+              - text: 구매 즉시 예약 확정 (일부 상품 이용일 추가 예약 필요)
+            - listitem [ref=e100]:
+              - img "최대 12개월 무이자 할부 가능" [ref=e101]
+              - strong [ref=e102]: 최대 12개월 무이자 할부 가능
+              - link [ref=e103] [cursor=pointer]:
+                - /url: https://www.myrealtrip.com/order/installment
+                - img [ref=e104]
+          - list [ref=e106]:
+            - listitem [ref=e107]:
+              - img "print" [ref=e108]
+              - text: 모바일 또는 프린트 바우처
+            - listitem [ref=e109]:
+              - img "calendar" [ref=e110]
+              - text: 유효기간(~2026.08.06) 내 사용
+          - button "( magnifier 크게 보기 +8" [ref=e115] [cursor=pointer]:
+            - list [ref=e116]:
+              - listitem [ref=e117]:
+                - button "( magnifier 크게 보기" [ref=e118]:
+                  - text: (
+                  - generic [ref=e119]:
+                    - img "magnifier" [ref=e120]
+                    - paragraph [ref=e121]: 크게 보기
+              - listitem [ref=e123]:
+                - button [ref=e124]
+                - button [ref=e127]
+                - button "+8" [ref=e130]:
+                  - paragraph [ref=e132]: "+8"
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - generic [ref=e138]:
+                - heading "공지사항" [level=3] [ref=e139]
+                - paragraph [ref=e142]: 📌일부 시설 운휴 또는 휴업의 경우에도 부분 환불은 불가합니다.
+          - generic [ref=e144]:
+            - heading "예약하기" [level=2] [ref=e145]
+            - generic [ref=e152]:
+              - generic [ref=e153]:
+                - heading "기본 옵션" [level=3] [ref=e154]
+                - generic:
+                  - list
+              - generic [ref=e155]:
+                - generic [ref=e157]: 1명119,632원
+                - generic [ref=e159]:
+                  - button "1만큼 감소" [disabled] [ref=e160]:
+                    - img "1만큼 감소" [ref=e161]
+                  - generic [ref=e162]: "0"
+                  - button "1만큼 증가" [ref=e163] [cursor=pointer]:
+                    - img "1만큼 증가" [ref=e164]
+          - generic [ref=e166]:
+            - heading "서일본은 완벽하게 즐기기 위한 가장 편리한 방법! 패스 세트 상품을 구매하고 합리적으로 여행해 보세요!" [level=2] [ref=e167]
+            - generic [ref=e169]:
+              - paragraph [ref=e172]:
+                - text: "[이 티켓의 매력포인트!] • 서일본의 주요 관광 명소를 방문하는 패스를 구매하고 편하게 여행해 보세요! • 번들 상품으로 묶여 합리적으로 이용 가능한 상품입니다. • 아마노하시다테, 이네, 나리아리지 등 뛰어난 자연경관을 둘러보실 수 있습니다. 일본 교토부 북부에 위치한 미야즈시 미야즈만은 특수한 자연경관을 갖고 있습니다. 지각변동으로 인해 해상에 사주(砂州) 지형이 형성되어 일본에서는 단고의 아마노하시다테로 불리며, 아키의 미야지마(현재의 이쓰쿠시마), 무츠의 마쓰시마와 함께 \"일본 3경\"으로 불리기도 합니다. 아마노하시다테라는 지명은 사주의 북쪽 끝에 위치한 가사마쓰공원과 남쪽 끝에 위치한 히류칸의 2개 언덕에서 사주를 등지고 다리 사이로 머리를 숙여 뒤를 바라보면, 사주가 하늘을 향해 비스듬히 뻗는 것처럼 보이는 것에서 유래되었습니다. 몬쥬산에는 아마노하시다테를 내려다 볼 수 있는 전망대가 있으며, 산 위에는 관람차 및 남녀노소 즐길 수 있는 어트랙션이 있습니다. 그 곳에서 바라보는 아마노하시다테는 용이 하늘에서 춤추는 것처럼 보여 \"히류칸\"으로 불리며, 생생한 아마노하시다테의 경치를 볼 수 있습니다. 전망대에서는 리프트 또는 모노레일을 이용할 수 있습니다. 아마노하시다테 관광선 선착장은 아마노하시다테 몬쥬 지구(치온지, 아마노하시다테역)과 이치노미야 지구(모토이세코노신사, 가사마쓰공원)를 왕복하는 관광선 선착장입니다. 이 곳에서 자전거를 대여할 수도 있습니다. 이네에서 볼 수 있는 후나야는 1층은 배 정박 및 어구 수납, 건조장 등으로, 2층은 집으로 되어 있는 이네만 앞바다에 있는 독특한 건물입니다. 이네만에는 약 120여 채의 후나야, 130여채의 도죠집(土蔵屋)이 늘어져 있으며, 가장 오래된 것은 에도시대 후기에도 있었다고 합니다. 2005년, 이네 후나야구는 국가 중요 전통 건조물군 보존구로 지정되었습니다. 가사마쓰공원은 아마노하시다테를 내려다보는 전망대로 아마노하시다테의 비스듬한 일(一)자모양을 볼 수 있습니다. 마타노조키 자세(다리 사이로 고개를 숙이고 보는 것)로 아마노하시다테를 바라보면 마치 하늘에 걸친 다리처럼 보입니다. 가사마쓰공원에 오시면 \"가사마쓰\"라는 이름의 소나무와 \"마타노조키\"로 유명한 전망대를 추천 드립니다. 코노신사 옆의 케이블카역 \"후츄역\"에서 케이블카 및 리프트를 타면 가사마쓰공원에 도착합니다. 성상사(成相寺)행 버스도 가사마쓰공원에서 탑니다. 소원을 빌면 잘 이루어진다는 절로 유명한 \"나리아이지\"의 관람료와 아마노하시다테 가사마쓰공원에서 나리아이지까지 가는 등산 버스 왕복 승차권이 세트로 구성되어 있습니다. 나리아이지는 일본 유산에도 등록되어 있으며, 헤이세이 5층 탑은 특히 단풍과의 조화로운 모습으로 유명하며, 촬영지로도 유명합니다. 등산 버스는 가파른 능선을 타고 주행하여 차창으로 보이는 경치 또한 절경이며, 아마노하시다테의 숨은 명소 중 하나입니다. 해당 세트 상품의 스페셜 혜택으로는 '가와라케 던지기' 체험을 할 수 있는 가와라케(토기) 1개가 포함되어 있습니다. 가라와케 던지기 체험은 초벌구이된 토기를 던짐으로써 액운을 쫓는 풍습 중 하나입니다. 가라와케(토기)를 던짐으로써 액운을 없앨 수 있을 뿐만 아니라 던지는 곳에 설치된 '지혜의 고리'를 통과시키면 '소원이 이루어진다'고 합니다. 4가지 유형의 티켓이 포함된 상품입니다. ①Kyoto Tango Amanhashidate・Ine Sightseeing Pass 2-day ticket/교토 단고 아마노하시다테, 이네관광프리 2일권 • 미야즈시, 교탄고시, 이네쵸, 요사노쵸의 노선버스 (커뮤니티 버스 제외) ("
+                - link "https://www.tankai.jp/routebus/" [ref=e173] [cursor=pointer]:
+                  - /url: https://www.tankai.jp/routebus/
+                - text: ") • 아마노하시다테 관광선 : 미야즈 부두 ~ 아마노하시다테 부두 ~ 이치노미야 부두 ("
+                - link "https://www.amano-hashidate.com/sightseeingboat/" [ref=e174] [cursor=pointer]:
+                  - /url: https://www.amano-hashidate.com/sightseeingboat/
+                - text: ") • 이네완 메구리 유람선 : 히노데 부두 ~ (이네완 유람) ~ 히노데 부두 ("
+                - link "https://www.inewan.com/inewan_cruise/" [ref=e175] [cursor=pointer]:
+                  - /url: https://www.inewan.com/inewan_cruise/
+                - text: ) • 아마노하시다테 카사마쓰 공원 (
+                - link "https://www.amano-hashidate.com/" [ref=e176] [cursor=pointer]:
+                  - /url: https://www.amano-hashidate.com/
+                - text: ") • 케이블카, 리프트 : 후추역 ~ 카사마쓰역 왕복 ②Nariaiji Temple admission ticket/나리아이지 관람권 • 나리아이지에 입장 시 티켓을 제시해 주세요.영업시간은 변경될 수 있습니다. 방문 전 공식 홈페이지를 참고해주세요. ("
+                - link "https://www.nariaiji.jp/infomation/index.php" [ref=e177] [cursor=pointer]:
+                  - /url: https://www.nariaiji.jp/infomation/index.php
+                - text: ) ③Nariai mountain climbing bus round trip ticket/나리아이 등산 버스 왕복 승차권 • 승하차 시 버스 기사에게 티켓을 제시해 주세요.버스 운행 시간은 공식 홈페이지 시간표를 참고하세요. (
+                - link "https://www.tankai.jp/en/nariai-mountain-bus/" [ref=e178] [cursor=pointer]:
+                  - /url: https://www.tankai.jp/en/nariai-mountain-bus/
+                - text: ") ④Kasamatsu Park pottery Kawarakenage exchange ticket (gift)/가사마쓰공원 가와라케(토기) 던지기 체험 교환권(선물) • 가사마쓰공원 내 매점 \"아마 테라스(Ama Terrace)\" 1층 계산대에서 제시하시면 가와라케(토기) 1개로 교환해 드립니다. (가와라케란? :"
+                - link "https://www.tankai.jp/en/wp-content/uploads/Kawarake-Nage6.pdf" [ref=e179] [cursor=pointer]:
+                  - /url: https://www.tankai.jp/en/wp-content/uploads/Kawarake-Nage6.pdf
+                - text: ) [예약 전 확인해 주세요!] • 만 12세 이상(교환증 발행일 또는 레일 패스 구입 시), 일본 이외의 정부에서 발급한 여권소지자, 「단기 체재」에 해당하는 체류자격을 보유하고 있는 여행자만 이용 가능합니다. • 만 13세 이상 성인만 구매 가능합니다.
+              - button "상품 설명 더 보기더보기" [ref=e183] [cursor=pointer]:
+                - text: 상품 설명 더 보기
+                - img "더보기" [ref=e184]
+          - generic [ref=e187]:
+            - generic [ref=e189]: 1/20
+            - generic [ref=e191]:
+              - img "advertisement-banner-offer_detail-6193" [ref=e195] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-3675" [ref=e199] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-3790" [ref=e203] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5512" [ref=e209] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5546" [ref=e215] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5959" [ref=e221] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5950" [ref=e227] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-4370" [ref=e233] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5541" [ref=e239] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5426" [ref=e245] [cursor=pointer]
+              - generic [ref=e248] [cursor=pointer]:
+                - img "advertisement-banner-offer_detail-6080" [ref=e251]
+                - generic:
+                  - generic: 광고
+              - generic [ref=e254] [cursor=pointer]:
+                - img "advertisement-banner-offer_detail-5866" [ref=e257]
+                - generic:
+                  - generic: 광고
+              - img "advertisement-banner-offer_detail-3400" [ref=e263] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-4738" [ref=e269] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5654" [ref=e275] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-5477" [ref=e281] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-6272" [ref=e287] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-6112" [ref=e293] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-4102" [ref=e299] [cursor=pointer]
+              - img "advertisement-banner-offer_detail-6096" [ref=e305] [cursor=pointer]
+          - generic [ref=e309]:
+            - generic [ref=e310]:
+              - paragraph [ref=e311]: "4.9"
+              - generic [ref=e312]:
+                - generic [ref=e313]:
+                  - img [ref=e314]
+                  - img [ref=e316]
+                  - img [ref=e318]
+                  - img [ref=e320]
+                  - img [ref=e322]
+                - paragraph [ref=e324]: 후기 8개
+            - generic [ref=e325]:
+              - generic [ref=e327]:
+                - img [ref=e328]
+                - img [ref=e330]
+                - img [ref=e332]
+                - img [ref=e334]
+                - img [ref=e336]
+              - paragraph [ref=e338]: 양**
+              - generic [ref=e340]:
+                - text: 20대
+                - text: 혼자 가는 여행
+                - text: 2025-08-05
+              - generic [ref=e343]:
+                - generic [ref=e344]:
+                  - text: 이네후나야 여행시 필수
+                  - text: 오사카 가시던 교토가시던 이거 사고 ,
+                  - text: 교토에서 아마노하시다테 갔다가
+                  - text: 패스권으로 교환해서 유람선타고 버스타서 이네 가고
+                  - text: 돌아오면서 전망대 쓰윽 보고 유람선 한번 더 타고
+                  - text: 오시면 무조건 이득
+                - button "더 보기arrow-blue-down" [ref=e345] [cursor=pointer]:
+                  - generic [ref=e346]:
+                    - text: 더 보기
+                    - img "arrow-blue-down" [ref=e347]
+              - button "후기 8개 전체 보기더보기" [ref=e348] [cursor=pointer]:
+                - text: 후기 8개 전체 보기
+                - img "더보기" [ref=e349]
+          - generic [ref=e351]:
+            - heading "상품 정보" [level=2] [ref=e352]
+            - generic [ref=e353]:
+              - generic [ref=e354]:
+                - heading "포함 사항" [level=3] [ref=e355]
+                - paragraph [ref=e359]: Please refer to the product information 상품내용을 참고해 주세요.
+              - generic [ref=e360]:
+                - heading "불포함 사항" [level=3] [ref=e361]
+                - paragraph [ref=e365]: • 기타 개인 경비
+          - generic [ref=e367]:
+            - heading "이용 안내" [level=2] [ref=e368]
+            - generic [ref=e369]:
+              - generic [ref=e370]:
+                - heading "이용 시간" [level=3] [ref=e371]
+                - paragraph [ref=e373]: • 운영시간 내에 자유롭게 입장이 가능합니다.
+              - generic [ref=e374]:
+                - heading "위치 안내" [level=3] [ref=e375]
+                - generic [ref=e376]:
+                  - paragraph [ref=e377]:
+                    - paragraph [ref=e379]: • 해당 지역 내 유효한 이용 장소에서 사용하시면 됩니다. (아래 지도는 참고용입니다.)
+                  - link "지도" [ref=e381] [cursor=pointer]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=35.57089740002517,135.19168977729117
+                    - img "지도" [ref=e382]
+              - generic [ref=e383]:
+                - heading "사용 방법" [level=3] [ref=e384]
+                - generic [ref=e385]:
+                  - paragraph [ref=e388]:
+                    - text: "• 예약 확정 후 마이리얼트립 앱 - '내 여행' - 예약 상세 페이지 클릭시 바우처를 확인하실 수 있습니다. • 이용 방법 : - 모바일 또는 출력본 바우처(e-티켓) 제시 후 바로 이용 - 메일로 PDF파일 2개(전자 바우처 포함 총3개)를 보내드립니다. • 유효기간 : - 간사이 와이드 패스 5일권:구매일로부터 90일이내 유효 - 교토 단고 아마노하시다테, 이네관광프리 2일권:구매일로부터 90일이내 유효 [간사이 와이드 패스 - 실물 티켓 이용 방법] 1. 예약 완료시, 플랫폼에서는 예약하신 손님이 기재하신 이메일주소로 예약성공된 이메일을 자동으로 보내드립니다. 2. 수령한 인증코드 또는 QR 코드, 그리고 예약하신 분의 여권이 일본국적이 아닌 경우, 아래 안내도에 따라 지정된 역 티켓발권기에서 실물 티켓을 교환하세요. 역 발권기는 5개 국어 (일본어, 중국어 간체, 중국어 번체, 영어 및 한국어)로 제공됩니다. - 자세한 티켓교환장소는 아래에서 확인해 주세요:"
+                    - link "https://www.westjr.co.jp/global/kr/ticket/receive/" [ref=e389] [cursor=pointer]:
+                      - /url: https://www.westjr.co.jp/global/kr/ticket/receive/
+                    - text: "- eMCO의 자세한 교환방법은 다음 링크에서 확인해 주세요:"
+                    - link "https://www.westjr.co.jp/global/kr/howto/guide/emco/" [ref=e390] [cursor=pointer]:
+                      - /url: https://www.westjr.co.jp/global/kr/howto/guide/emco/
+                    - text: "- 티켓 발권기에 결함이 있거나 또는 여권에 IC칩을 추가하지않은 경우, 지정된 역의 미도리노마도구치로 가서 실물 티켓을 교환하세요. • 지정석권 교환 : 티켓를 이용할 때, 지정석을 예약할 수 있게된 티켓는 아래 URL의 방법에 따라 JR역의 발매기에서 지정석을 예약하여 지정석권으로 교환할 수 있습니다. -"
+                    - link "https://www.westjr.co.jp/global/kr/howto/ticket-vending-machine/" [ref=e391] [cursor=pointer]:
+                      - /url: https://www.westjr.co.jp/global/kr/howto/ticket-vending-machine/
+                    - text: • 지정석 횟수는 '6회'에서 '무제한'으로 변경되었습니다. • 이용가능구간은 URL에서 확인해주세요 (
+                    - link "https://www.westjr.co.jp/global/kr/ticket/pass/kansai_wide/#routes" [ref=e392] [cursor=pointer]:
+                      - /url: https://www.westjr.co.jp/global/kr/ticket/pass/kansai_wide/#routes
+                    - text: ) • 이용가능차량과 좌석은 URL에서 확인해주세요 (
+                    - link "https://www.westjr.co.jp/global/kr/ticket/pass/kansai_wide/#accommodations" [ref=e393] [cursor=pointer]:
+                      - /url: https://www.westjr.co.jp/global/kr/ticket/pass/kansai_wide/#accommodations
+                    - text: ) [교토 단고 아마노하시다테 & 이네 관광 2일권 & 나리아이지 관람료 & 등산 버스 왕복 승차권 - 실물 티켓 이용 방법] • 예약 완료시, 플랫폼에서는 예약하신 손님이 기재하신 이메일주소로 예약성공된 이메일을 자동으로 보내드립니다. • 아마노하시다테역 관광안내소 내 '단고 해륙 교통 카운터' 검증 코드나 QR 코드를 제시하고 나서 이용, 또는 실권을 교환으로부터 이용하세요. (9:00～16:45) • 교환 장소:교토부 미야즈시 분주 314-2 아마노하시다테역 구내 「아마노하시다테 관광 협회」 [지정석 예약] • 지정석 이용가능한 열차는 각 상품페이지에서 확인해 주세요. • 패스의 지정석은 별도 교환이 필요합니다. (녹색 발권기 또는 미도리노마도구치에서 예약) [유의사항] • 와이드패스는 미도리노마도구치 및 녹색발권기에서 발권하세요. 그 외 기타 패스는 각 시설의 티켓카운터에서 교환하시면 됩니다. • 예약 확정 후 '내 여행' 바우처에서 만나는 시간과 장소를 반드시 재확인해주세요. • 상품페이지와 바우처 상의 정보가 다를 경우, 반드시 바우처 상의 정보를 확인 부탁드립니다. [기타 안내] • 여행자 보험에 가입 후 진행할 것을 권장합니다.
+                  - link "더 보기" [ref=e396] [cursor=pointer]:
+                    - /url: ""
+          - generic [ref=e398]:
+            - heading "취소 및 환불 규정" [level=2] [ref=e399]
+            - paragraph [ref=e404]:
+              - text: ※ 해당 상품은 상품 특성상 아래의 취소 환불 규정이 적용됩니다.
+              - text: "- 유효기간이 남아있으며 바우처를 사용/교환하지 않은 경우 전액 환불이 가능합니다."
+              - text: "- 유효기간이 지났거나 바우처 사용/교환을 완료한 경우 환불이 불가합니다."
+          - generic [ref=e407]:
+            - generic [ref=e408]:
+              - link "JTR WEB JTR WEB" [ref=e409] [cursor=pointer]:
+                - /url: /guides/6973
+                - img "JTR WEB" [ref=e410]
+                - paragraph [ref=e411]: JTR WEB
+              - button "파트너 정보" [ref=e414] [cursor=pointer]:
+                - button "파트너 정보" [ref=e415]:
+                  - generic [ref=e416]:
+                    - img [ref=e417]
+                    - text: 파트너 정보
+            - paragraph [ref=e422]: 전세계의 다양한 투어 & 액티비티 및 교통패스, 입장권을 다양하게 소개 및 판매합니다. 현지에서 줄 설 필요없이 쉽고 간편하게 예약하고, 현지에서 잊지못할 체험들을 경험 해 보세요!
+          - generic [ref=e424]:
+            - heading "여행자 후기 사진" [level=2] [ref=e425]
+            - button [ref=e430] [cursor=pointer]:
+              - list [ref=e431]:
+                - listitem [ref=e432]:
+                  - button [ref=e433]
+          - generic [ref=e439]:
+            - heading "후기8" [level=4] [ref=e441]
+            - generic [ref=e442]:
+              - generic [ref=e443]:
+                - paragraph [ref=e444]: "4.9"
+                - generic [ref=e445]:
+                  - img [ref=e446]
+                  - img [ref=e448]
+                  - img [ref=e450]
+                  - img [ref=e452]
+                  - img [ref=e454]
+              - generic [ref=e456]:
+                - paragraph
+                - generic [ref=e457]:
+                  - generic [ref=e458]:
+                    - img [ref=e459]
+                    - img [ref=e461]
+                    - img [ref=e463]
+                    - img [ref=e465]
+                    - img [ref=e467]
+                  - paragraph [ref=e471]: "7"
+                - generic [ref=e472]:
+                  - generic [ref=e473]:
+                    - img [ref=e474]
+                    - img [ref=e476]
+                    - img [ref=e478]
+                    - img [ref=e480]
+                  - paragraph [ref=e484]: "1"
+                - generic [ref=e485]:
+                  - generic [ref=e486]:
+                    - img [ref=e487]
+                    - img [ref=e489]
+                    - img [ref=e491]
+                  - paragraph [ref=e494]: "0"
+                - generic [ref=e495]:
+                  - generic [ref=e496]:
+                    - img [ref=e497]
+                    - img [ref=e499]
+                  - paragraph [ref=e502]: "0"
+                - generic [ref=e503]:
+                  - img [ref=e505]
+                  - paragraph [ref=e508]: "0"
+            - generic [ref=e509]:
+              - generic [ref=e510]:
+                - generic [ref=e511]:
+                  - generic [ref=e512]:
+                    - img [ref=e513]
+                    - img [ref=e515]
+                    - img [ref=e517]
+                    - img [ref=e519]
+                    - img [ref=e521]
+                  - generic [ref=e523]: 장**
+                  - generic [ref=e524]: 2026-01-02
+                  - generic [ref=e526]: 아마노하시다테까지는 문제 없었으나 이네행 버스 요금과 나리아이지 입장료는 신오사카역에서 받은 실물 티켓 보여줘도 별도로 내야 했습니다.
+                - separator [ref=e527]
+                - generic [ref=e528]:
+                  - generic [ref=e529]:
+                    - img [ref=e530]
+                    - img [ref=e532]
+                    - img [ref=e534]
+                    - img [ref=e536]
+                    - img [ref=e538]
+                  - generic [ref=e540]: 이**
+                  - generic [ref=e541]: 2025-09-29
+                  - generic [ref=e544]:
+                    - text: 5일권으로 정말 저렴하게 열차 여행 잘 했어요!
+                    - text: 모두 지정석으로 다녔고, 저는 그때그때 예약하지 않고 도착한 첫날 간사이 공항에서 미리
+                    - text: 5일치의 시간과 좌석을 모두 예약을 했습니다.ㅎㅎ
+                    - text: 진짜 너무 편하게 잘 다녔어요!
+                - separator [ref=e545]
+                - generic [ref=e546]:
+                  - button [ref=e547] [cursor=pointer]
+                  - generic [ref=e549]:
+                    - img [ref=e550]
+                    - img [ref=e552]
+                    - img [ref=e554]
+                    - img [ref=e556]
+                    - img [ref=e558]
+                  - generic [ref=e560]: 양**
+                  - generic [ref=e561]:
+                    - text: 혼자 가는 여행
+                    - text: 2025-08-05
+                  - generic [ref=e565]:
+                    - text: 이네후나야 여행시 필수
+                    - text: 오사카 가시던 교토가시던 이거 사고 ,
+                    - text: 교토에서 아마노하시다테 갔다가
+                    - text: 패스권으로 교환해서 유람선타고 버스타서 이네 가고
+                    - text: 돌아오면서 전망대 쓰윽 보고 유람선 한번 더 타고
+                    - text: 오시면 무조건 이득
+                - separator [ref=e566]
+              - button "후기 더 보기 arrow-icon" [ref=e569] [cursor=pointer]:
+                - button "후기 더 보기 arrow-icon" [ref=e570]:
+                  - generic [ref=e571]:
+                    - text: 후기 더 보기
+                    - img "arrow-icon" [ref=e572]
+        - complementary [ref=e573]:
+          - list [ref=e574]:
+            - listitem [ref=e575]:
+              - generic [ref=e576]:
+                - generic [ref=e577]:
+                  - generic [ref=e578]:
+                    - generic [ref=e579]:
+                      - generic [ref=e580]:
+                        - text: 129,833원
+                        - generic [ref=e581]: 8%
+                      - generic [ref=e582]:
+                        - strong [ref=e583]: 119,600원
+                        - text: 부터
+                    - button "share" [ref=e585] [cursor=pointer]:
+                      - img "share" [ref=e586]
+                  - generic [ref=e587]:
+                    - generic [ref=e589]:
+                      - button "129" [ref=e590] [cursor=pointer]:
+                        - generic [ref=e592]:
+                          - img [ref=e594]
+                          - generic [ref=e597]: "129"
+                      - button "즉시사용예약하기" [ref=e598] [cursor=pointer]:
+                        - img "즉시사용" [ref=e599]
+                        - text: 예약하기
+                    - paragraph [ref=e600]:
+                      - text: 구매 후 즉시 확정됩니다.
+                      - link "즉시사용":
+                        - /url: /about/instantbooking
+                        - img "즉시사용" [ref=e601] [cursor=pointer]
+                - link "JTR WEB JTR WEB" [ref=e604] [cursor=pointer]:
+                  - /url: /guides/6973
+                  - img "JTR WEB" [ref=e605]
+                  - generic [ref=e606]: JTR WEB
+      - generic [ref=e608]:
+        - paragraph [ref=e611]: "'시티패스' 인기상품"
+        - generic [ref=e615]:
+          - generic [ref=e617]:
+            - link "즉시확정 티켓·입장권 ・ 오사카 오사카 주유패스 1일권 / 2일권 (디지털권/즉시사용) 13,796 32,643원 / 1인 3.2만" [ref=e618] [cursor=pointer]:
+              - /url: https://experiences.myrealtrip.com/products/5869251
+              - generic [ref=e623]: 즉시확정
+              - generic [ref=e624]:
+                - generic [ref=e626]: 티켓·입장권 ・ 오사카
+                - heading "오사카 주유패스 1일권 / 2일권 (디지털권/즉시사용)" [level=3] [ref=e627]:
+                  - generic [ref=e628]: 오사카 주유패스 1일권 / 2일권 (디지털권/즉시사용)
+                - generic [ref=e629]:
+                  - generic [ref=e631]:
+                    - generic [ref=e632]:
+                      - img [ref=e633]
+                      - img [ref=e635]
+                      - img [ref=e637]
+                      - img [ref=e639]
+                      - img [ref=e641]
+                    - text: 13,796
+                  - generic [ref=e643]:
+                    - generic [ref=e644]: 32,643원
+                    - text: / 1인
+              - generic [ref=e647]:
+                - img [ref=e649]
+                - generic [ref=e652]: 3.2만
+            - link "즉시확정 티켓·입장권 ・ 오사카 [유니버셜스튜디오재팬 1일권 포함] 프리미엄 간사이 조이 패스 1주일권 83 187,400원 / 1인 1154" [ref=e653] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/170560
+              - generic [ref=e658]: 즉시확정
+              - generic [ref=e659]:
+                - generic [ref=e661]: 티켓·입장권 ・ 오사카
+                - heading "[유니버셜스튜디오재팬 1일권 포함] 프리미엄 간사이 조이 패스 1주일권" [level=3] [ref=e662]:
+                  - generic [ref=e663]: "[유니버셜스튜디오재팬 1일권 포함] 프리미엄 간사이 조이 패스 1주일권"
+                - generic [ref=e664]:
+                  - generic [ref=e666]:
+                    - generic [ref=e667]:
+                      - img [ref=e668]
+                      - img [ref=e670]
+                      - img [ref=e672]
+                      - img [ref=e674]
+                      - img [ref=e676]
+                    - text: "83"
+                  - generic [ref=e678]:
+                    - generic [ref=e679]: 187,400원
+                    - text: / 1인
+              - generic [ref=e682]:
+                - img [ref=e684]
+                - generic [ref=e687]: "1154"
+            - link "즉시확정 티켓·입장권 ・ 오사카 오사카 e패스 1일권/2일권 189 22,357원 / 1인 2919" [ref=e688] [cursor=pointer]:
+              - /url: https://experiences.myrealtrip.com/products/5869255
+              - generic [ref=e693]: 즉시확정
+              - generic [ref=e694]:
+                - generic [ref=e696]: 티켓·입장권 ・ 오사카
+                - heading "오사카 e패스 1일권/2일권" [level=3] [ref=e697]:
+                  - generic [ref=e698]: 오사카 e패스 1일권/2일권
+                - generic [ref=e699]:
+                  - generic [ref=e701]:
+                    - generic [ref=e702]:
+                      - img [ref=e703]
+                      - img [ref=e705]
+                      - img [ref=e707]
+                      - img [ref=e709]
+                      - img [ref=e711]
+                    - text: "189"
+                  - generic [ref=e715]:
+                    - generic [ref=e716]: 22,357원
+                    - text: / 1인
+              - generic [ref=e719]:
+                - img [ref=e721]
+                - generic [ref=e724]: "2919"
+            - link "즉시확정 티켓·입장권 ・ 오사카 간사이 조이패스 3시설 + 하루카 특급열차 (공항 > 신오사카/오사카 편도) 41 51,500원 / 1인 673" [ref=e725] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/125641
+              - generic [ref=e730]: 즉시확정
+              - generic [ref=e731]:
+                - generic [ref=e733]: 티켓·입장권 ・ 오사카
+                - heading "간사이 조이패스 3시설 + 하루카 특급열차 (공항 > 신오사카/오사카 편도)" [level=3] [ref=e734]:
+                  - generic [ref=e735]: 간사이 조이패스 3시설 + 하루카 특급열차 (공항 > 신오사카/오사카 편도)
+                - generic [ref=e736]:
+                  - generic [ref=e738]:
+                    - generic [ref=e739]:
+                      - img [ref=e740]
+                      - img [ref=e742]
+                      - img [ref=e744]
+                      - img [ref=e746]
+                      - img [ref=e748]
+                    - text: "41"
+                  - generic [ref=e750]:
+                    - generic [ref=e751]: 51,500원
+                    - text: / 1인
+              - generic [ref=e754]:
+                - img [ref=e756]
+                - generic [ref=e759]: "673"
+            - link "즉시확정 티켓·입장권 ・ 오사카 간사이 조이 패스 (3개 시설) 7 41,700원 / 1인 672" [ref=e760] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/166478
+              - generic [ref=e765]: 즉시확정
+              - generic [ref=e766]:
+                - generic [ref=e768]: 티켓·입장권 ・ 오사카
+                - heading "간사이 조이 패스 (3개 시설)" [level=3] [ref=e769]:
+                  - generic [ref=e770]: 간사이 조이 패스 (3개 시설)
+                - generic [ref=e771]:
+                  - generic [ref=e773]:
+                    - generic [ref=e774]:
+                      - img [ref=e775]
+                      - img [ref=e777]
+                      - img [ref=e779]
+                      - img [ref=e781]
+                      - img [ref=e783]
+                    - text: "7"
+                  - generic [ref=e785]:
+                    - generic [ref=e786]: 41,700원
+                    - text: / 1인
+              - generic [ref=e789]:
+                - img [ref=e791]
+                - generic [ref=e794]: "672"
+            - link "즉시확정 티켓·입장권 ・ 오사카 오사카 주유패스 1일권 & 2일권(즉시확정/e패스) 20 34,717원 / 1인 506" [ref=e795] [cursor=pointer]:
+              - /url: https://experiences.myrealtrip.com/products/5809046
+              - generic [ref=e800]: 즉시확정
+              - generic [ref=e801]:
+                - generic [ref=e803]: 티켓·입장권 ・ 오사카
+                - heading "오사카 주유패스 1일권 & 2일권(즉시확정/e패스)" [level=3] [ref=e804]:
+                  - generic [ref=e805]: 오사카 주유패스 1일권 & 2일권(즉시확정/e패스)
+                - generic [ref=e806]:
+                  - generic [ref=e808]:
+                    - generic [ref=e809]:
+                      - img [ref=e810]
+                      - img [ref=e812]
+                      - img [ref=e814]
+                      - img [ref=e816]
+                      - img [ref=e818]
+                    - text: "20"
+                  - generic [ref=e820]:
+                    - generic [ref=e821]: 34,717원
+                    - text: / 1인
+              - generic [ref=e824]:
+                - img [ref=e826]
+                - generic [ref=e829]: "506"
+            - link "즉시확정 티켓·입장권 ・ 고베 (즉시확정) 해브 펀 간사이 1주일 패스 1 180,839원 / 1인 116" [ref=e830] [cursor=pointer]:
+              - /url: https://experiences.myrealtrip.com/products/5808872
+              - generic [ref=e835]: 즉시확정
+              - generic [ref=e836]:
+                - generic [ref=e838]: 티켓·입장권 ・ 고베
+                - heading "(즉시확정) 해브 펀 간사이 1주일 패스" [level=3] [ref=e839]:
+                  - generic [ref=e840]: (즉시확정) 해브 펀 간사이 1주일 패스
+                - generic [ref=e841]:
+                  - generic [ref=e843]:
+                    - generic [ref=e844]:
+                      - img [ref=e845]
+                      - img [ref=e847]
+                      - img [ref=e849]
+                      - img [ref=e851]
+                      - img [ref=e853]
+                    - text: "1"
+                  - generic [ref=e855]:
+                    - generic [ref=e856]: 180,839원
+                    - text: / 1인
+              - generic [ref=e859]:
+                - img [ref=e861]
+                - generic [ref=e864]: "116"
+            - link "즉시확정 티켓·입장권 ・ 오사카 간사이 와이드패스 & 기노사키 MUST-VISTS 패스 120,900원 / 1인 15" [ref=e865] [cursor=pointer]:
+              - /url: https://www.myrealtrip.com/offers/156509
+              - generic [ref=e870]: 즉시확정
+              - generic [ref=e871]:
+                - generic [ref=e873]: 티켓·입장권 ・ 오사카
+                - heading "간사이 와이드패스 & 기노사키 MUST-VISTS 패스" [level=3] [ref=e874]:
+                  - generic [ref=e875]: 간사이 와이드패스 & 기노사키 MUST-VISTS 패스
+                - generic [ref=e877]:
+                  - generic [ref=e878]: 120,900원
+                  - text: / 1인
+              - generic [ref=e881]:
+                - img [ref=e883]
+                - generic [ref=e886]: "15"
+            - link "즉시확정 티켓·입장권 ・ 오사카 오사카 주유패스 1일권 (오사카 공항 - 만박 기념 공원 버전) 39,361원 / 1인 21" [ref=e887] [cursor=pointer]:
+              - /url: https://experiences.myrealtrip.com/products/5869509
+              - generic [ref=e892]: 즉시확정
+              - generic [ref=e893]:
+                - generic [ref=e895]: 티켓·입장권 ・ 오사카
+                - heading "오사카 주유패스 1일권 (오사카 공항 - 만박 기념 공원 버전)" [level=3] [ref=e896]:
+                  - generic [ref=e897]: 오사카 주유패스 1일권 (오사카 공항 - 만박 기념 공원 버전)
+                - generic [ref=e899]:
+                  - generic [ref=e900]: 39,361원
+                  - text: / 1인
+              - generic [ref=e903]:
+                - img [ref=e905]
+                - generic [ref=e908]: "21"
+          - button "Next slide" [ref=e909] [cursor=pointer]:
+            - img "next" [ref=e910]
+      - paragraph [ref=e912]: "상품번호: 156504"
+  - contentinfo [ref=e914]:
+    - generic [ref=e915]:
+      - generic [ref=e916]:
+        - generic [ref=e917]:
+          - text: 고객지원실 운영안내
+          - list [ref=e918]:
+            - listitem [ref=e919]: 채팅상담 연중무휴 24시간 유선상담 연중무휴 09:00-18:00
+            - listitem [ref=e920]: 대표번호 1670-8208
+          - button "고객지원실" [ref=e922] [cursor=pointer]:
+            - button "고객지원실" [ref=e923]:
+              - generic [ref=e924]: 고객지원실
+        - generic [ref=e925]:
+          - generic [ref=e926]:
+            - text: 소개
+            - list [ref=e927]:
+              - listitem [ref=e928]:
+                - link "회사소개" [ref=e929] [cursor=pointer]:
+                  - /url: https://about.myrealtrip.com
+              - listitem [ref=e930]:
+                - link "채용" [ref=e931] [cursor=pointer]:
+                  - /url: https://careers.myrealtrip.com
+              - listitem [ref=e932]:
+                - link "공고" [ref=e933] [cursor=pointer]:
+                  - /url: https://www.myrealtrip.com/announcement
+          - generic [ref=e934]:
+            - text: 파트너
+            - list [ref=e935]:
+              - listitem [ref=e936]:
+                - link "파트너 홈" [ref=e937] [cursor=pointer]:
+                  - /url: https://partner.myrealtrip.com/welcome
+              - listitem [ref=e938]:
+                - link "제휴 문의" [ref=e939] [cursor=pointer]:
+                  - /url: "mailto: partnership@myrealtrip.com"
+              - listitem [ref=e940]:
+                - link "광고 문의" [ref=e941] [cursor=pointer]:
+                  - /url: "mailto: ad@myrealtrip.com"
+          - generic [ref=e942]:
+            - text: 지원
+            - list [ref=e943]:
+              - listitem [ref=e944]:
+                - link "공지사항" [ref=e945] [cursor=pointer]:
+                  - /url: https://support.myrealtrip.com/notice
+              - listitem [ref=e946]:
+                - link "문의내역" [ref=e947] [cursor=pointer]:
+                  - /url: https://support.myrealtrip.com/inquiry
+              - listitem [ref=e948]:
+                - link "최저가 보장제" [ref=e949] [cursor=pointer]:
+                  - /url: https://www.myrealtrip.com/best_price
+      - generic [ref=e950]:
+        - generic [ref=e951]:
+          - generic [ref=e952]:
+            - link "이용 약관" [ref=e954] [cursor=pointer]:
+              - /url: https://auth.myrealtrip.com/terms/policyAgreement
+            - link "개인정보 처리방침" [ref=e956] [cursor=pointer]:
+              - /url: https://auth.myrealtrip.com/terms/common/privacy
+            - link "취소 및 환불 정책" [ref=e958] [cursor=pointer]:
+              - /url: https://auth.myrealtrip.com/terms/common/cancel
+          - generic [ref=e959]:
+            - generic [ref=e960]:
+              - link "icon 페이스북으로 이동하기" [ref=e962] [cursor=pointer]:
+                - /url: https://www.facebook.com/myRealTrip
+                - img "icon" [ref=e963]
+                - generic [ref=e964]: 페이스북으로 이동하기
+              - link "icon 네이버 블로그로 이동하기" [ref=e966] [cursor=pointer]:
+                - /url: https://blog.naver.com/myrealtrip
+                - img "icon" [ref=e967]
+                - generic [ref=e968]: 네이버 블로그로 이동하기
+              - link "icon 인스타그램으로 이동하기" [ref=e970] [cursor=pointer]:
+                - /url: https://instagram.com/myrealtrip
+                - img "icon" [ref=e971]
+                - generic [ref=e972]: 인스타그램으로 이동하기
+              - link "icon 유투브로 이동하기" [ref=e974] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC2oeFByIBQjkKXmQjE0U5rQ
+                - img "icon" [ref=e975]
+                - generic [ref=e976]: 유투브로 이동하기
+            - generic [ref=e978]:
+              - link "icon" [ref=e980] [cursor=pointer]:
+                - /url: https://itunes.apple.com/app/id1141745032
+                - img "icon" [ref=e981]
+              - link "icon" [ref=e983] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.mrt.ducati
+                - img "icon" [ref=e984]
+          - button "icon 한국어 icon" [ref=e987] [cursor=pointer]:
+            - img "icon" [ref=e988]
+            - generic [ref=e989]: 한국어
+            - img "icon" [ref=e990]
+        - generic [ref=e991]:
+          - paragraph [ref=e993]:
+            - text: 상호명 (주)마이리얼트립 | 대표 이동건 | 개인정보보호책임자 김형석 | 사업자등록번호 209-81-55339
+            - link "사업자정보확인" [ref=e994] [cursor=pointer]:
+              - /url: https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2098155339
+            - text: "| 통신판매업신고번호 2019-서울서초-0260 | 관광사업등록번호 : 제2019-3호"
+            - text: 주소 서울특별시 서초구 강남대로 311, 18층 1729호(서초동, 한화생명보험빌딩) | 이메일 help@myrealtrip.com | 입점 문의 partnership@myrealtrip.com
+            - text: "마케팅파트너/크리에이터 문의 marketing_partner@myrealtrip.com | 마케팅 문의 marketing@myrealtrip.com | 호스팅 서비스 제공자 : (주)마이리얼트립"
+            - text: "자사는 서울특별시관광협회 공제영업보증보험에 가입되어 있습니다. 영업보증보험: 1.5억원 / 기획여행보증: 2억원"
+            - text: 마이리얼트립은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 상품·거래정보 및 거래에 대하여 책임을 지지않습니다.
+            - text: 부득이한 사정에 의해 확정된 여행일정이 변경되는 경우 여행자의 사전 동의를 받습니다.
+            - text: (주)마이리얼트립이 소유, 운영, 관리하는 웹사이트 및 앱 내의 상품, 판매자 정보, 이벤트 정보, 디자인, UI 등을 포함한 일체의 콘텐츠에 대한 무단 복제, 배포, 전송, 스크래핑 등의 행위는 저작권법 등 관련 법령에 의하여 엄격히 금지됩니다.
+          - button "ISMS-P" [ref=e996] [cursor=pointer]:
+            - img "ISMS-P" [ref=e997]
+  - button "마이리얼트립 상담 버튼" [ref=e999]:
+    - generic [ref=e1000] [cursor=pointer]:
+      - generic [ref=e1001]: 마이리얼트립 상담 버튼
+      - img [ref=e1003]

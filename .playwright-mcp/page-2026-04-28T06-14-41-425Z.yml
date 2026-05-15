@@ -1,0 +1,310 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - button "Linktree" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+      - button "Share profile" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+    - generic [ref=e21]:
+      - generic [ref=e24]:
+        - generic [ref=e26]:
+          - generic "Profile avatar" [ref=e27]
+          - generic "Profile title" [ref=e30]:
+            - heading "파파트래블" [level=1] [ref=e32]: 파파트래블
+          - generic "Profile description" [ref=e33]:
+            - heading "여행 크리에이터" [level=2] [ref=e35]
+        - generic [ref=e36]:
+          - generic [ref=e38]:
+            - link "YouTube" [ref=e39] [cursor=pointer]:
+              - img "YouTube"
+              - generic [ref=e40]: YouTube
+            - link "Instagram" [ref=e41] [cursor=pointer]:
+              - img "Instagram"
+              - generic [ref=e42]: Instagram
+            - link "TikTok" [ref=e43] [cursor=pointer]:
+              - img "TikTok"
+              - generic [ref=e44]: TikTok
+            - link "Threads" [ref=e45] [cursor=pointer]:
+              - img "Threads"
+              - generic [ref=e46]: Threads
+            - link "Email" [ref=e47] [cursor=pointer]:
+              - img "Email"
+              - generic [ref=e48]: Email
+          - generic [ref=e50]:
+            - generic [ref=e53]:
+              - link "[4일 한정 특가 69만원 예약] 코타키나발루 3박 5일 / 4박6일 패키지 [4일 한정 특가 69만원 예약] 코타키나발루 3박 5일 / 4박6일 패키지" [ref=e54] [cursor=pointer]:
+                - /url: https://www.modetour.com/promotion/1205?type=user-define
+                - generic [ref=e56]:
+                  - img "[4일 한정 특가 69만원 예약] 코타키나발루 3박 5일 / 4박6일 패키지" [ref=e58]
+                  - generic [ref=e59]: "[4일 한정 특가 69만원 예약] 코타키나발루 3박 5일 / 4박6일 패키지"
+              - button "[4일 한정 특가 69만원 예약] 코타키나발루 3박 5일 / 4박6일 패키지" [ref=e60] [cursor=pointer]:
+                - img "[4일 한정 특가 69만원 예약] 코타키나발루 3박 5일 / 4박6일 패키지" [ref=e61]
+            - generic [ref=e65]:
+              - link "비행기값 폭등 전 막차! 코타키나발루 4박6일 패키지 69만원(노옵션/노쇼핑/노팁)" [ref=e66] [cursor=pointer]:
+                - /url: https://youtu.be/xBoB7ayeWUw
+                - generic [ref=e73]: 비행기값 폭등 전 막차! 코타키나발루 4박6일 패키지 69만원(노옵션/노쇼핑/노팁)
+              - button "비행기값 폭등 전 막차! 코타키나발루 4박6일 패키지 69만원(노옵션/노쇼핑/노팁)" [ref=e74] [cursor=pointer]:
+                - img "비행기값 폭등 전 막차! 코타키나발루 4박6일 패키지 69만원(노옵션/노쇼핑/노팁)" [ref=e75]
+            - generic [ref=e79]:
+              - link "[장가계, 칭다오 현지 여행사 특가] NO 쇼핑, NO 옵션, NO팁 예약 [장가계, 칭다오 현지 여행사 특가] NO 쇼핑, NO 옵션, NO팁 예약" [ref=e80] [cursor=pointer]:
+                - /url: https://www.pandatour.co.kr/theme/pandatour_v2/html/business/02.php?cate=1&tg_id=145
+                - generic [ref=e82]:
+                  - img "[장가계, 칭다오 현지 여행사 특가] NO 쇼핑, NO 옵션, NO팁 예약" [ref=e84]
+                  - generic [ref=e85]: "[장가계, 칭다오 현지 여행사 특가] NO 쇼핑, NO 옵션, NO팁 예약"
+              - button "[장가계, 칭다오 현지 여행사 특가] NO 쇼핑, NO 옵션, NO팁 예약" [ref=e86] [cursor=pointer]:
+                - img "[장가계, 칭다오 현지 여행사 특가] NO 쇼핑, NO 옵션, NO팁 예약" [ref=e87]
+            - generic [ref=e91]:
+              - link "말도 안되는 가격으로 단독투어가 가능한 칭다오 패키지 / 숙박 + 요리 + 가이드 + 투어 + 차량 포함 1인 41만원" [ref=e92] [cursor=pointer]:
+                - /url: https://youtu.be/1hXFMM3EJ6Q
+                - generic [ref=e99]: 말도 안되는 가격으로 단독투어가 가능한 칭다오 패키지 / 숙박 + 요리 + 가이드 + 투어 + 차량 포함 1인 41만원
+              - button "말도 안되는 가격으로 단독투어가 가능한 칭다오 패키지 / 숙박 + 요리 + 가이드 + 투어 + 차량 포함 1인 41만원" [ref=e100] [cursor=pointer]:
+                - img "말도 안되는 가격으로 단독투어가 가능한 칭다오 패키지 / 숙박 + 요리 + 가이드 + 투어 + 차량 포함 1인 41만원" [ref=e101]
+            - generic [ref=e105]:
+              - link "[105만원] 장가계 단독투어 4박 5일(봉황고성+부용진 포함) NO팁, NO옵션, NO쇼핑 패키지" [ref=e106] [cursor=pointer]:
+                - /url: https://youtu.be/3G_CexBMfQ8
+                - generic [ref=e113]: "[105만원] 장가계 단독투어 4박 5일(봉황고성+부용진 포함) NO팁, NO옵션, NO쇼핑 패키지"
+              - button "[105만원] 장가계 단독투어 4박 5일(봉황고성+부용진 포함) NO팁, NO옵션, NO쇼핑 패키지" [ref=e114] [cursor=pointer]:
+                - img "[105만원] 장가계 단독투어 4박 5일(봉황고성+부용진 포함) NO팁, NO옵션, NO쇼핑 패키지" [ref=e115]
+            - generic [ref=e119]:
+              - link "[89만원] 장가계 단독투어 4박 5일 NO팁, NO옵션, NO쇼핑 패키지 여행" [ref=e120] [cursor=pointer]:
+                - /url: https://youtu.be/njJxdo9gWTk
+                - generic [ref=e127]: "[89만원] 장가계 단독투어 4박 5일 NO팁, NO옵션, NO쇼핑 패키지 여행"
+              - button "[89만원] 장가계 단독투어 4박 5일 NO팁, NO옵션, NO쇼핑 패키지 여행" [ref=e128] [cursor=pointer]:
+                - img "[89만원] 장가계 단독투어 4박 5일 NO팁, NO옵션, NO쇼핑 패키지 여행" [ref=e129]
+            - generic [ref=e133]:
+              - link "[파파트래블 x 마이리얼트립] 홍콩 3박 4일 에어텔 예약 [파파트래블 x 마이리얼트립] 홍콩 3박 4일 에어텔 예약" [ref=e134] [cursor=pointer]:
+                - /url: https://myrealt.rip/XaYO56
+                - generic [ref=e136]:
+                  - img "[파파트래블 x 마이리얼트립] 홍콩 3박 4일 에어텔 예약" [ref=e138]
+                  - generic [ref=e139]: "[파파트래블 x 마이리얼트립] 홍콩 3박 4일 에어텔 예약"
+              - button "[파파트래블 x 마이리얼트립] 홍콩 3박 4일 에어텔 예약" [ref=e140] [cursor=pointer]:
+                - img "[파파트래블 x 마이리얼트립] 홍콩 3박 4일 에어텔 예약" [ref=e141]
+            - generic [ref=e145]:
+              - link "[홍콩 3박 4일] 유튜브 풀영상" [ref=e146] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=BTuwDSmoaik
+                - generic [ref=e153]: "[홍콩 3박 4일] 유튜브 풀영상"
+              - button "[홍콩 3박 4일] 유튜브 풀영상" [ref=e154] [cursor=pointer]:
+                - img "[홍콩 3박 4일] 유튜브 풀영상" [ref=e155]
+      - generic [ref=e158]:
+        - link "Linktree에서 papatraveltv님과 함께하세요" [ref=e162] [cursor=pointer]:
+          - /url: https://linktr.ee/?utm_source=linktree&utm_medium=profile&utm_campaign=footer_logo_cta&utm_content=papatraveltv
+          - generic [ref=e164]: Linktree에서 papatraveltv님과 함께하세요
+        - generic [ref=e166]:
+          - generic [ref=e167]:
+            - button "Cookie Preferences" [ref=e168] [cursor=pointer]
+            - generic [ref=e169]: •
+            - link "Report" [ref=e170] [cursor=pointer]:
+              - /url: https://linktr.ee/s/about/trust-center/report/?field86145911=https%3A%2F%2Flinktr.ee%2Fpapatraveltv
+            - generic [ref=e171]: •
+            - link "Privacy" [ref=e172] [cursor=pointer]:
+              - /url: https://linktr.ee/privacy
+            - generic [ref=e173]: •
+          - button "Explore" [ref=e175] [cursor=pointer]
+    - generic:
+      - generic:
+        - generic:
+          - button:
+            - img
+          - heading [level=2]: Explore other Linktrees
+        - generic:
+          - generic:
+            - generic:
+              - link:
+                - /url: https://linktr.ee/arianagrande
+                - generic:
+                  - generic: arianagrande
+                  - generic: "@arianagrande"
+              - link:
+                - /url: https://linktr.ee/sabrinacarpenter
+                - generic:
+                  - generic: Sabrina Carpenter
+                  - generic: "@sabrinacarpenter"
+              - link:
+                - /url: https://linktr.ee/averagefashionblogger
+                - generic:
+                  - generic: Courtney Pachman
+                  - generic: "@averagefashionblogger"
+              - link:
+                - /url: https://linktr.ee/bitsbitesblog
+                - generic:
+                  - generic: Bits & Bites Blog
+                  - generic: "@bitsbitesblog"
+              - link:
+                - /url: https://linktr.ee/popcast
+                - generic:
+                  - generic: Popcast
+                  - generic: "@popcast"
+              - link:
+                - /url: https://linktr.ee/padmalakshmi
+                - generic:
+                  - generic: padmalakshmi
+                  - generic: "@padmalakshmi"
+              - link:
+                - /url: https://linktr.ee/briansetzer
+                - generic:
+                  - generic: briansetzer
+                  - generic: "@briansetzer"
+              - link:
+                - /url: https://linktr.ee/goodnoticingspod
+                - generic:
+                  - generic: goodnoticingspod
+                  - generic: "@goodnoticingspod"
+              - link:
+                - /url: https://linktr.ee/newton
+                - generic:
+                  - generic: Newt
+                  - generic: "@newton"
+              - link:
+                - /url: https://linktr.ee/cowboykentrollins
+                - generic:
+                  - generic: Kent Rollins
+                  - generic: "@cowboykentrollins"
+            - generic:
+              - button:
+                - generic: previous
+                - img
+            - generic:
+              - button:
+                - generic: next
+                - img
+          - generic:
+            - generic:
+              - generic: Discover more
+              - button: See all
+            - generic:
+              - link:
+                - /url: https://linktr.ee/prettyfacenisha
+                - generic: "@prettyfacenisha"
+              - link:
+                - /url: https://linktr.ee/stileitalia
+                - generic: "@stileitalia"
+              - link:
+                - /url: https://linktr.ee/crisleycunha
+                - generic: "@crisleycunha"
+              - link:
+                - /url: https://linktr.ee/DylanGrabowski
+                - generic: "@DylanGrabowski"
+              - link:
+                - /url: https://linktr.ee/KloVerdant
+                - generic: "@KloVerdant"
+              - link:
+                - /url: https://linktr.ee/ikefitriani3
+                - generic: "@ikefitriani3"
+              - link:
+                - /url: https://linktr.ee/emillycamposbeauty
+                - generic: "@emillycamposbeauty"
+              - link:
+                - /url: https://linktr.ee/tinyauthor
+                - generic: "@tinyauthor"
+              - link:
+                - /url: https://linktr.ee/gitobusiness
+                - generic: "@gitobusiness"
+              - link:
+                - /url: https://linktr.ee/marianafollador.adv
+                - generic: "@marianafollador.adv"
+              - link:
+                - /url: https://linktr.ee/supremoinsumos
+                - generic: "@supremoinsumos"
+              - link:
+                - /url: https://linktr.ee/MsoOK
+                - generic: "@MsoOK"
+              - link:
+                - /url: https://linktr.ee/inputgrafica
+                - generic: "@inputgrafica"
+              - link:
+                - /url: https://linktr.ee/Trending.traveler
+                - generic: "@Trending.traveler"
+              - link:
+                - /url: https://linktr.ee/purvalaakke
+                - generic: "@purvalaakke"
+              - link:
+                - /url: https://linktr.ee/7aslayss
+                - generic: "@7aslayss"
+              - link:
+                - /url: https://linktr.ee/djunglejazz
+                - generic: "@djunglejazz"
+              - link:
+                - /url: https://linktr.ee/angela.c
+                - generic: "@angela.c"
+              - link:
+                - /url: https://linktr.ee/nataliaovsey
+                - generic: "@nataliaovsey"
+              - link:
+                - /url: https://linktr.ee/amberredrealtor
+                - generic: "@amberredrealtor"
+              - link:
+                - /url: https://linktr.ee/floricultura.amorperfeito
+                - generic: "@floricultura.amorperfeito"
+              - link:
+                - /url: https://linktr.ee/clubejc
+                - generic: "@clubejc"
+              - link:
+                - /url: https://linktr.ee/b.oq
+                - generic: "@b.oq"
+              - link:
+                - /url: https://linktr.ee/achadosshopeee2025
+                - generic: "@achadosshopeee2025"
+              - link:
+                - /url: https://linktr.ee/amitenacious
+                - generic: "@amitenacious"
+              - link:
+                - /url: https://linktr.ee/Thebrittanyc
+                - generic: "@Thebrittanyc"
+              - link:
+                - /url: https://linktr.ee/Mohamedadelagency
+                - generic: "@Mohamedadelagency"
+              - link:
+                - /url: https://linktr.ee/meadowstarbirthing
+                - generic: "@meadowstarbirthing"
+              - link:
+                - /url: https://linktr.ee/playberry
+                - generic: "@playberry"
+              - link:
+                - /url: https://linktr.ee/yungrvider
+                - generic: "@yungrvider"
+              - link:
+                - /url: https://linktr.ee/VictoriaStrong
+                - generic: "@VictoriaStrong"
+              - link:
+                - /url: https://linktr.ee/PhoebeeLyman
+                - generic: "@PhoebeeLyman"
+              - link:
+                - /url: https://linktr.ee/heyjocrockett
+                - generic: "@heyjocrockett"
+              - link:
+                - /url: https://linktr.ee/mouseduckdogtravel
+                - generic: "@mouseduckdogtravel"
+              - link:
+                - /url: https://linktr.ee/yehdik
+                - generic: "@yehdik"
+              - link:
+                - /url: https://linktr.ee/sirius.038
+                - generic: "@sirius.038"
+              - link:
+                - /url: https://linktr.ee/zachyaboutique
+                - generic: "@zachyaboutique"
+              - link:
+                - /url: https://linktr.ee/SiirAunrii
+                - generic: "@SiirAunrii"
+              - link:
+                - /url: https://linktr.ee/ahmed_samyy_
+                - generic: "@ahmed_samyy_"
+              - link:
+                - /url: https://linktr.ee/gilberts_photos
+                - generic: "@gilberts_photos"
+              - link:
+                - /url: https://linktr.ee/somos_panda
+                - generic: "@somos_panda"
+              - link:
+                - /url: https://linktr.ee/stupidasallgetout
+                - generic: "@stupidasallgetout"
+              - link:
+                - /url: https://linktr.ee/DulceperezMelo
+                - generic: "@DulceperezMelo"
+              - link:
+                - /url: https://linktr.ee/nico_jinglemining
+                - generic: "@nico_jinglemining"
+              - link:
+                - /url: https://linktr.ee/bokwave
+                - generic: "@bokwave"
+  - alert [ref=e176]

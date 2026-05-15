@@ -1,0 +1,762 @@
+- iframe [active] [ref=e2]:
+  - generic [active] [ref=f94e1]:
+    - generic [ref=f94e3]:
+      - generic [ref=f94e4]:
+        - link "NAVER" [ref=f94e5] [cursor=pointer]:
+          - /url: http://www.naver.com
+        - link "블로그" [ref=f94e6] [cursor=pointer]:
+          - /url: https://blog.naver.com
+      - link "스마일리의 여행비법노트" [ref=f94e9] [cursor=pointer]:
+        - /url: https://blog.naver.com/prologue/PrologueList.naver?blogId=smilelee_design
+        - strong [ref=f94e10]: 스마일리의 여행비법노트
+      - search [ref=f94e11]:
+        - group "블로그 검색" [ref=f94e13]:
+          - generic [ref=f94e14]: 블로그 검색
+          - generic [ref=f94e15]:
+            - textbox "이 블로그에서 검색" [ref=f94e16]
+            - generic [ref=f94e17]: 이 블로그에서 검색
+            - button "검색" [ref=f94e18] [cursor=pointer]
+      - button "카테고리 열기" [ref=f94e21] [cursor=pointer]
+    - generic [ref=f94e28]:
+      - generic:
+        - generic [ref=f94e30]:
+          - button [ref=f94e33] [cursor=pointer]
+          - button "공감 71" [ref=f94e35]:
+            - button "공감 71" [ref=f94e37]:
+              - generic [ref=f94e40]: 공감
+              - generic [ref=f94e41]: "71"
+        - button "댓글 49" [ref=f94e43] [cursor=pointer]:
+          - generic [ref=f94e45]:
+            - emphasis [ref=f94e46]: 댓글
+            - emphasis [ref=f94e47]: "49"
+      - link "공유하기" [ref=f94e48] [cursor=pointer]:
+        - /url: "#"
+        - img
+        - generic [ref=f94e49]: 공유하기
+    - generic [ref=f94e51]:
+      - link "메뉴 바로가기" [ref=f94e52] [cursor=pointer]:
+        - /url: "#blog-menu"
+      - link "본문 바로가기" [ref=f94e53] [cursor=pointer]:
+        - /url: "#post_1"
+      - list [ref=f94e56]:
+        - listitem [ref=f94e57]:
+          - link "내 블로그" [ref=f94e58] [cursor=pointer]:
+            - /url: https://blog.naver.com/MyBlog.naver
+        - listitem [ref=f94e59]:
+          - link "이웃블로그" [ref=f94e60] [cursor=pointer]:
+            - /url: https://nid.naver.com/nidlogin.login?mode=form&url=https://blog.naver.com/smilelee_design
+        - listitem [ref=f94e61]:
+          - link "블로그 홈" [ref=f94e62] [cursor=pointer]:
+            - /url: https://section.blog.naver.com
+        - listitem [ref=f94e63]:
+          - link "로그인" [ref=f94e64] [cursor=pointer]:
+            - /url: https://nid.naver.com/nidlogin.login?mode=form&url=https://blog.naver.com/smilelee_design/223523677799
+            - generic [ref=f94e65]: 로그인
+        - listitem:
+          - strong [ref=f94e66]: 사용자 링크
+      - generic [ref=f94e68]:
+        - table "블로그 메뉴" [ref=f94e72]:
+          - caption:
+            - generic [ref=f94e73]: 블로그 메뉴
+          - rowgroup [ref=f94e74]:
+            - row "프롤로그 블로그 ✏️해외여행 비법노트 ✏️국내여행 비법노트 ✏️맛집여행 비법노트 지도 서재 태그 안부" [ref=f94e75]:
+              - cell "프롤로그 블로그 ✏️해외여행 비법노트 ✏️국내여행 비법노트 ✏️맛집여행 비법노트" [ref=f94e76]:
+                - list:
+                  - listitem [ref=f94e77]:
+                    - link "프롤로그" [ref=f94e78] [cursor=pointer]:
+                      - /url: https://blog.naver.com/prologue/PrologueList.naver?blogId=smilelee_design&skinType=&skinId=&from=menu
+                  - listitem [ref=f94e79]:
+                    - link "블로그" [ref=f94e80] [cursor=pointer]:
+                      - /url: https://blog.naver.com/PostList.naver?blogId=smilelee_design&skinType=&skinId=&from=menu
+                  - listitem [ref=f94e81]:
+                    - link "✏️해외여행 비법노트" [ref=f94e82] [cursor=pointer]:
+                      - /url: https://blog.naver.com/PostList.naver?blogId=smilelee_design&categoryNo=8&parentCategoryNo=8&skinType=&skinId=&from=menu
+                  - listitem [ref=f94e83]:
+                    - link "✏️국내여행 비법노트" [ref=f94e84] [cursor=pointer]:
+                      - /url: https://blog.naver.com/PostList.naver?blogId=smilelee_design&categoryNo=13&parentCategoryNo=13&skinType=&skinId=&from=menu
+                  - listitem [ref=f94e85]:
+                    - link "✏️맛집여행 비법노트" [ref=f94e86] [cursor=pointer]:
+                      - /url: https://blog.naver.com/PostList.naver?blogId=smilelee_design&categoryNo=12&skinType=&skinId=&from=menu
+              - cell "지도 서재 태그 안부" [ref=f94e87]:
+                - list [ref=f94e88]:
+                  - listitem [ref=f94e89]:
+                    - link "지도" [ref=f94e90] [cursor=pointer]:
+                      - /url: https://blog.naver.com/mapview/MapView.naver?blogId=smilelee_design&skinType=&skinId=&from=menu
+                  - listitem [ref=f94e91]:
+                    - link "서재" [ref=f94e92] [cursor=pointer]:
+                      - /url: https://blog.naver.com/library/LibraryView.naver?blogId=smilelee_design&skinType=&skinId=&from=menu
+                  - listitem [ref=f94e93]:
+                    - link "태그" [ref=f94e94] [cursor=pointer]:
+                      - /url: https://blog.naver.com/BlogPrivateTagCloud.naver?blogId=smilelee_design&Redirect=Dtagcloud&skinType=&skinId=&from=menu
+                  - listitem [ref=f94e95]:
+                    - link "안부" [ref=f94e96] [cursor=pointer]:
+                      - /url: https://blog.naver.com/guestbook/GuestBookList.naver?blogId=smilelee_design&skinType=&skinId=&from=menu
+        - generic [ref=f94e97]:
+          - generic [ref=f94e99]:
+            - generic [ref=f94e101]:
+              - iframe [ref=f94e103]:
+                - generic [active] [ref=f99e1]:
+                  - link:
+                    - /url: https://blog.naver.com/smilelee_design
+                    - img
+              - iframe [ref=f94e106]:
+                - generic [active] [ref=f100e1]:
+                  - link:
+                    - /url: https://blog.naver.com/smilelee_design
+                    - img
+              - iframe [ref=f94e109]:
+                
+              - iframe [ref=f94e112]:
+                
+              - iframe [ref=f94e115]:
+                - generic [active] [ref=f103e1]:
+                  - link:
+                    - /url: https://blog.naver.com/smilelee_design
+                    - img
+            - generic [ref=f94e118]:
+              - iframe [ref=f94e120]:
+                - generic [active] [ref=f104e1]:
+                  - link:
+                    - /url: https://blog.naver.com/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=8&parentCategoryNo=8
+                    - img
+              - iframe [ref=f94e123]:
+                - generic [active] [ref=f105e1]:
+                  - link:
+                    - /url: https://blog.naver.com/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=13&parentCategoryNo=13
+                    - img
+              - iframe [ref=f94e126]:
+                - generic [active] [ref=f106e1]:
+                  - link:
+                    - /url: https://blog.naver.com/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=12
+                    - img
+              - iframe [ref=f94e129]:
+                - generic [active] [ref=f107e1]:
+                  - link:
+                    - /url: https://blog.naver.com/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=7
+                    - img
+              - iframe [ref=f94e132]:
+                - generic [active] [ref=f108e1]:
+                  - link:
+                    - /url: https://www.instagram.com/tep_trip.eat.play/
+                    - img
+          - generic [ref=f94e138]:
+            - heading "✏️해외여행 비법노트" [level=2] [ref=f94e139]
+            - generic [ref=f94e141]:
+              - generic:
+                - heading "베트남 나트랑 26개의 글" [level=4] [ref=f94e142]:
+                  - button "베트남 나트랑" [ref=f94e143] [cursor=pointer]:
+                    - strong [ref=f94e144]: 베트남 나트랑
+                  - text: 26개의 글
+                - button "베트남 나트랑 목록열기" [ref=f94e145] [cursor=pointer]:
+                  - generic [ref=f94e146]: 베트남 나트랑
+                  - text: 목록열기
+            - generic [ref=f94e150]:
+              - table [ref=f94e151]:
+                - rowgroup [ref=f94e152]:
+                  - row [ref=f94e153]:
+                    - cell [ref=f94e154]
+                    - cell [ref=f94e155]
+                    - cell [ref=f94e156]
+              - generic [ref=f94e158]:
+                - generic [ref=f94e161]:
+                  - link "베트남 나트랑" [ref=f94e163] [cursor=pointer]:
+                    - /url: /PostList.naver?blogId=smilelee_design&categoryNo=23&from=postList
+                  - paragraph [ref=f94e166]:
+                    - generic [ref=f94e167]: 나트랑 자유여행 4박5일 예산 경비 환전 총정리
+                  - generic [ref=f94e169]:
+                    - link "프로파일" [ref=f94e171] [cursor=pointer]:
+                      - /url: https://blog.naver.com/smilelee_design
+                      - img "프로파일" [ref=f94e172]
+                    - link "smileLEE" [ref=f94e174] [cursor=pointer]:
+                      - /url: https://blog.naver.com/smilelee_design
+                    - generic [ref=f94e175]: ・ 2024. 7. 24. 11:17
+                  - generic [ref=f94e176]:
+                    - link "URL 복사" [ref=f94e177] [cursor=pointer]:
+                      - /url: "#"
+                    - link " 이웃추가" [ref=f94e178] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=f94e179]: 
+                      - text: 이웃추가
+                    - button " 본문 기타 기능" [ref=f94e182] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=f94e183]: 본문 기타 기능
+                - link "위치 냐짱" [ref=f94e186] [cursor=pointer]:
+                  - /url: https://www.google.com/maps/search/?api=1&query=냐짱&query_place_id=ChIJb4jMEXhncDERudweqAq8S1w
+                  - generic [ref=f94e187]: 위치
+                  - text: 냐짱
+                - generic [ref=f94e188]:
+                  - generic [ref=f94e197]:
+                    - paragraph [ref=f94e198]
+                    - paragraph [ref=f94e199]:
+                      - generic [ref=f94e200]: 나트랑 자유여행
+                    - paragraph [ref=f94e201]:
+                      - generic [ref=f94e202]: 예산정리
+                    - paragraph [ref=f94e203]: "< 글, 사진 : SmileLee >"
+                    - paragraph [ref=f94e204]
+                    - paragraph [ref=f94e205]: 나트랑 자유여행으로 4박 5일 다녀왔어요
+                    - paragraph [ref=f94e206]: 항공사부터 리조트, 환전, 기타 세세한 경비까지
+                    - paragraph [ref=f94e207]: 총정리해서 남겨드릴게요
+                    - paragraph [ref=f94e208]
+                    - paragraph [ref=f94e209]: 블로그 어디를 봐도 속시원하게 가격은 안밝히고
+                    - paragraph [ref=f94e210]: 저렴했다.. 최저가였다만 써있으니.. 감이 안오잖아요?
+                    - paragraph [ref=f94e211]: 답답한 마음에 저라도 포스팅 남겨봅니다
+                    - paragraph [ref=f94e212]
+                    - paragraph [ref=f94e213]: 여행갔을 때는 써야된다는 마인드라
+                    - paragraph [ref=f94e214]: 보통 이상의 씀씀이를 가지고 있다고 생각하는데
+                    - paragraph [ref=f94e215]: 눈대중으로 요정도 나오는구나 참고하셨으면..ㅎㅎ
+                    - paragraph [ref=f94e216]: 가성비있게 여행 계획하고 싶은데 못하거든요ㅠ
+                    - paragraph [ref=f94e217]
+                    - paragraph [ref=f94e218]:
+                      - text: 그럼
+                      - generic [ref=f94e220]: 나트랑 자유여행 4박5일 총경비
+                    - paragraph [ref=f94e221]: 관련 자세한 포스팅 스타트!!
+                    - paragraph [ref=f94e222]
+                  - separator [ref=f94e227]
+                  - paragraph [ref=f94e232]:
+                    - generic [ref=f94e233]: ✏️오늘의 여행지
+                  - generic [ref=f94e242]:
+                    - paragraph [ref=f94e243]: 📌
+                    - paragraph [ref=f94e244]: 4박5일 | 여행경비
+                    - paragraph [ref=f94e245]:
+                      - generic [ref=f94e246]: Nha Trang
+                  - link [ref=f94e251] [cursor=pointer]:
+                    - /url: "#"
+                  - blockquote [ref=f94e255]:
+                    - paragraph [ref=f94e257]: 예산정리
+                  - generic [ref=f94e271]:
+                    - paragraph [ref=f94e272]:
+                      - generic [ref=f94e273]: 항공권 구매
+                    - paragraph [ref=f94e274]
+                    - paragraph [ref=f94e275]:
+                      - generic [ref=f94e276]: 5월 21일(화) 출국, 5월 25일(토) 입국
+                    - paragraph [ref=f94e277]: 총 4박5일 일정이었는데요
+                    - paragraph [ref=f94e278]
+                    - paragraph [ref=f94e279]: 항공권은 비엣젯항공을 이용했어요
+                    - paragraph [ref=f94e280]:
+                      - generic [ref=f94e281]: 성인 2명 기준으로 832,200원 지출했어요
+                    - paragraph [ref=f94e282]
+                    - paragraph [ref=f94e283]: 일반석 기준이며 아쉽게도 조식은 없었어요
+                    - paragraph [ref=f94e284]:
+                      - generic [ref=f94e285]: 비상구 좌석도 추가했는데 2인 54,809원이었어요
+                    - paragraph [ref=f94e286]
+                    - paragraph [ref=f94e287]: 위탁수하물은 인당 20kg 제한이었고
+                    - paragraph [ref=f94e288]: 따로 추가는 하지 않았어요
+                    - paragraph [ref=f94e289]
+                  - generic [ref=f94e309]:
+                    - paragraph [ref=f94e310]:
+                      - generic [ref=f94e311]: 나트랑 리조트
+                    - paragraph [ref=f94e312]
+                    - paragraph [ref=f94e313]: 첫번째 리조트는 아미아나리조트
+                    - paragraph [ref=f94e314]: 두번째 리조트는 미아리조트
+                    - paragraph [ref=f94e315]: 각각 2박3일씩 숙박했어요
+                    - paragraph [ref=f94e316]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - iframe
+                  - generic [ref=f94e325]:
+                    - paragraph [ref=f94e326]:
+                      - generic [ref=f94e327]: 아미아나리조트 (5.21~5.23)
+                    - paragraph [ref=f94e328]
+                    - paragraph [ref=f94e329]: Deluxe Room Garden View
+                    - paragraph [ref=f94e330]: 디럭스 가든뷰 기준
+                    - paragraph [ref=f94e331]:
+                      - generic [ref=f94e332]: 2박비용으로 363,767원 지출했어요
+                    - paragraph [ref=f94e333]: 네이버 시크릿몰 혜택을 받을 수 있었어요
+                    - paragraph [ref=f94e334]
+                    - paragraph [ref=f94e335]: 간단한 리조트 특징만 얘기해드리자면
+                    - paragraph [ref=f94e336]: ✔️조식이 다양하고 맛있다
+                    - paragraph [ref=f94e337]: ✔️리조트 내 스노쿨링이 가능하다
+                    - paragraph [ref=f94e338]: ✔️머드스파가 있다
+                    - paragraph [ref=f94e339]: ✔️한국인이 90%이상 있는 리조트다
+                    - paragraph [ref=f94e340]: 정도가 되겠네요
+                    - paragraph [ref=f94e341]
+                  - generic [ref=f94e350]:
+                    - paragraph [ref=f94e351]:
+                      - generic [ref=f94e352]: 미아리조트 (5.23~5.25)
+                    - paragraph [ref=f94e353]
+                    - paragraph [ref=f94e354]: Garden View Villa Room
+                    - paragraph [ref=f94e355]: 가든뷰 빌라룸 기준
+                    - paragraph [ref=f94e356]:
+                      - generic [ref=f94e357]: 2박 비용으로 406,571원 지출했어요
+                    - paragraph [ref=f94e358]: 마찬가지로 시크릿몰 혜택을 받았어요
+                    - paragraph [ref=f94e359]
+                    - paragraph [ref=f94e360]: 미아리조트의 특징으로는
+                    - paragraph [ref=f94e361]: ✔️로비에서 바라보는 바다 경치가 좋다
+                    - paragraph [ref=f94e362]: ✔️해변에 조식레스토랑이 있어 분위기가 좋다
+                    - paragraph [ref=f94e363]: ✔️가든뷰 빌라는 객실이 모여있는 형태라 아쉽다
+                    - paragraph [ref=f94e364]: 정도가 되겠어요
+                    - paragraph [ref=f94e365]
+                  - generic [ref=f94e385]:
+                    - paragraph [ref=f94e386]:
+                      - generic [ref=f94e387]: 산티아고 판랑사막 투어
+                    - paragraph [ref=f94e388]
+                    - paragraph [ref=f94e389]: 오전 9시 30분에 공항에서 출발해서
+                    - paragraph [ref=f94e390]: 판랑사막, 양목장, 항라이해변, 포시즌레스토랑 등이
+                    - paragraph [ref=f94e391]: 포함된 산티아고 판랑사막 투어를 다녀왔어요
+                    - paragraph [ref=f94e392]
+                  - generic [ref=f94e401]:
+                    - paragraph [ref=f94e402]:
+                      - generic [ref=f94e403]: 판랑사막투어는 2인 기준 148,000원에 예약했어요
+                    - paragraph [ref=f94e404]: 성수기, 비수기에 따라 요금이 변동되는듯 해요
+                    - paragraph [ref=f94e405]
+                  - generic [ref=f94e419]:
+                    - paragraph [ref=f94e420]:
+                      - generic [ref=f94e421]: 나트랑 빈원더스 입장권
+                    - paragraph [ref=f94e422]
+                    - paragraph [ref=f94e423]: 나트랑 빈원더스를 가려면 케이블카를 타야되는데
+                    - paragraph [ref=f94e424]: 케이블카와 빈원더스 입장권 포함 가격은
+                    - paragraph [ref=f94e425]:
+                      - generic [ref=f94e426]: 2인 기준 102,200원이었어요
+                    - paragraph [ref=f94e427]
+                    - paragraph [ref=f94e428]: 당시 가장 저렴했던 클룩에서 예매를 진행했는데
+                    - paragraph [ref=f94e429]: 시기에 따라 가격이 약간은 변동되는듯 했어요
+                    - paragraph [ref=f94e430]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - iframe
+                  - generic [ref=f94e442]:
+                    - paragraph [ref=f94e443]:
+                      - generic [ref=f94e444]: 나트랑 김빈 환전
+                    - paragraph [ref=f94e445]
+                    - paragraph [ref=f94e446]: 현지 김빈 금은방에서 베트남동으로 환전했어요
+                    - paragraph [ref=f94e447]:
+                      - generic [ref=f94e448]: 100달러 기준 2,563,000동을 환전
+                      - text: 해줬는데
+                    - paragraph [ref=f94e449]: 총 200달러 환전해서 5,126,000동을 받았어요
+                    - paragraph [ref=f94e450]: 참고로 당시에는 은행이나 트레블월렛보다 유리했음
+                    - paragraph [ref=f94e451]
+                    - paragraph [ref=f94e452]:
+                      - generic [ref=f94e453]: 당시 환율로 환산하면 273,400원 지출했어요
+                    - paragraph [ref=f94e454]: 잔돈이 남긴했지만 거의 다썼어요
+                    - paragraph [ref=f94e455]: 왠만한 음식점은 모두 카드로 지출해서 가능한듯..
+                    - paragraph [ref=f94e456]
+                  - generic [ref=f94e476]:
+                    - paragraph [ref=f94e477]:
+                      - generic [ref=f94e478]: 음식점 카드
+                    - paragraph [ref=f94e479]
+                    - paragraph [ref=f94e480]: 나트랑 유명 음식점 가격은 이렇구나.. 참고만ㅎㅎ
+                    - paragraph [ref=f94e481]: 카드로 결제가 가능한 매장만 적었고
+                    - paragraph [ref=f94e482]: 나머지 현지 가게들은 환전금액 내에서 사용했어요
+                    - paragraph [ref=f94e483]
+                    - paragraph [ref=f94e484]:
+                      - generic [ref=f94e485]: 안토이식당 25,702원
+                    - paragraph [ref=f94e486]:
+                      - generic [ref=f94e487]: 씀모이가든 33,000원
+                    - paragraph [ref=f94e488]:
+                      - generic [ref=f94e489]: 포시즌레스토랑 61,531원
+                    - paragraph [ref=f94e490]:
+                      - generic [ref=f94e491]: 공항식당 BISTRO 9,365원
+                    - paragraph [ref=f94e492]
+                    - paragraph [ref=f94e493]: 미아리조트 추가 결제
+                    - paragraph [ref=f94e494]:
+                      - generic [ref=f94e495]: 룸서비스, 객실미니바,레스토랑 173,234원
+                    - paragraph [ref=f94e496]
+                    - paragraph [ref=f94e497]: 빈원더스 식당, 롯데리아, 로컬 가게 등은 현금결제
+                    - paragraph [ref=f94e498]
+                    - paragraph [ref=f94e499]: 음식점 지출 총 비용은 302,832원 지출했어요
+                    - paragraph [ref=f94e500]
+                  - generic [ref=f94e512]:
+                    - paragraph [ref=f94e513]:
+                      - generic [ref=f94e514]: 그랩(택시,배달)
+                    - paragraph [ref=f94e515]
+                    - paragraph [ref=f94e516]: 나트랑은 그랩 서비스가 널리 퍼져있어 편리했어요
+                    - paragraph [ref=f94e517]: 체감온도 35도의 날씨에 그랩 택시 이용은 필수였고
+                    - paragraph [ref=f94e518]: 리조트 레스토랑이 질릴 때 그랩 배달을 이용했어요
+                    - paragraph [ref=f94e519]
+                    - paragraph [ref=f94e520]:
+                      - generic [ref=f94e521]: 그랩 이용금액은 총 163,916원 지출했어요
+                    - paragraph [ref=f94e522]: 많이 타긴 했는데 계산하면서 깜짝 놀람..ㅋㅋ
+                    - paragraph [ref=f94e523]: 배달금액이 한 5만원 정도 비중을 차지하고 있어요
+                    - paragraph [ref=f94e524]
+                  - generic [ref=f94e536]:
+                    - paragraph [ref=f94e537]:
+                      - generic [ref=f94e538]: 마사지 비용
+                    - paragraph [ref=f94e539]
+                    - paragraph [ref=f94e540]: 웰스파 1호점에서 로컬 마사지도 받고
+                    - paragraph [ref=f94e541]: 아미아나 리조트에서 이색적인 머드스파도 받았어요
+                    - paragraph [ref=f94e542]: 마지막날에는 나트랑이발관도 체험해봤어요
+                    - paragraph [ref=f94e543]
+                    - paragraph [ref=f94e544]: 웰스파 선번케어(SUNBURN CARE) 2인 69,000원
+                    - paragraph [ref=f94e545]: 머드스파 스파 선샤인 프로모션(2인) 43,280원
+                    - paragraph [ref=f94e546]: 나트랑이발관 콤보2 2인 가격 68,000원
+                    - paragraph [ref=f94e547]: 총 비용으로 180,280원 지출했어요
+                    - paragraph [ref=f94e548]
+                    - paragraph [ref=f94e549]: "* 웰스파랑 나트랑이발관은"
+                    - paragraph [ref=f94e550]: 나트랑도깨비에서 제휴할인이 가능하니 참고하세요!
+                    - paragraph [ref=f94e551]
+                  - generic [ref=f94e565]:
+                    - paragraph [ref=f94e566]:
+                      - generic [ref=f94e567]: 기타사항
+                    - paragraph [ref=f94e568]
+                    - paragraph [ref=f94e569]: 포나가르사원, 혼총곶 등의 입장료와
+                    - paragraph [ref=f94e570]: 담시장, 롯데마트, 나트랑야시장 등의 쇼핑 비용
+                    - paragraph [ref=f94e571]: 빈원더스 내 음식점과 쇼핑 비용 등은
+                    - paragraph [ref=f94e572]: 모두 환전한 금액 내에서 지출했어요
+                    - paragraph [ref=f94e573]
+                    - paragraph [ref=f94e574]
+                  - blockquote [ref=f94e578]:
+                    - paragraph [ref=f94e580]: 예산 요약
+                  - generic [ref=f94e584]:
+                    - paragraph [ref=f94e585]:
+                      - generic [ref=f94e586]: 💵예산요약(4박5일, 2인)
+                    - paragraph [ref=f94e587]
+                    - paragraph [ref=f94e588]: "✔️항공권(2인) : 832,200원"
+                    - paragraph [ref=f94e589]: "✔️항공권 비상구(2인) : 54,809원"
+                    - paragraph [ref=f94e590]: "✔️아미아나리조트(2박) : 363,767원"
+                    - paragraph [ref=f94e591]: "✔️미아리조트(2박) : 406,571원"
+                    - paragraph [ref=f94e592]: "✔️산티아고 판랑사막투어 : 148,000원"
+                    - paragraph [ref=f94e593]: "✔️나트랑 빈원더스 입장권 : 102,200원"
+                    - paragraph [ref=f94e594]: "✔️나트랑 김빈 환전 : 273,400원"
+                    - paragraph [ref=f94e595]: "✔️음식점 : 302,832원"
+                    - paragraph [ref=f94e596]: "✔️그랩(택시,배달) : 163,916원"
+                    - paragraph [ref=f94e597]: "✔️마사지 : 180,280원"
+                    - paragraph [ref=f94e598]
+                    - paragraph [ref=f94e599]:
+                      - generic [ref=f94e600]: 총 비용으로 2,827,975원 지출했네요!
+                    - paragraph [ref=f94e601]: 와우~ 생각보다 씀씀이가 컸던 여행이었네요^^
+                    - paragraph [ref=f94e602]: 반성도 하면서... 잘 놀았구나 생각도 들었어요ㅎㅎ
+                    - paragraph [ref=f94e603]
+                    - paragraph [ref=f94e604]: 성수기냐 비수기냐에 따라 항공권과 리조트 금액은
+                    - paragraph [ref=f94e605]: 천차만별이 되겠지만 대략적으로 참고해주시면 될듯!
+                    - paragraph [ref=f94e606]
+                    - paragraph [ref=f94e607]: 고러면 ~ 요번 포스팅은 여기서 마무리하겠습니다
+                    - paragraph [ref=f94e608]
+                  - link [ref=f94e613] [cursor=pointer]:
+                    - /url: "#"
+                  - link "냐짱 베트남 칸호아 냐짱" [ref=f94e619] [cursor=pointer]:
+                    - /url: "#"
+                    - strong [ref=f94e620]: 냐짱
+                    - paragraph [ref=f94e621]: 베트남 칸호아 냐짱
+                  - generic [ref=f94e625]:
+                    - paragraph [ref=f94e626]
+                    - paragraph [ref=f94e627]: 이웃추가는 사랑입니다 💛
+                  - link [ref=f94e632] [cursor=pointer]:
+                    - /url: "#"
+                  - paragraph [ref=f94e637]: + 나트랑 여행준비 도움정보
+                  - generic [ref=f94e641] [cursor=pointer]:
+                    - link [ref=f94e642]:
+                      - /url: https://blog.naver.com/PostView.naver?blogId=smilelee_design&logNo=223472704194&categoryNo=8&parentCategoryNo=8&from=thumbnailList
+                    - 'link "베트남 나트랑 비엣젯항공 비행시간 스마트패스 수하물 기내식 비상구 좌석 5월날씨 비엣젯항공 나트랑 비행정보 < 글, 사진 : SmileLee > 5월 나트랑 여행 날씨도 장난 아니었네요 체... blog.naver.com" [ref=f94e643]':
+                      - /url: https://blog.naver.com/PostView.naver?blogId=smilelee_design&logNo=223472704194&categoryNo=8&parentCategoryNo=8&from=thumbnailList
+                      - generic [ref=f94e644]:
+                        - strong [ref=f94e645]: 베트남 나트랑 비엣젯항공 비행시간 스마트패스 수하물 기내식 비상구 좌석 5월날씨
+                        - paragraph [ref=f94e646]: "비엣젯항공 나트랑 비행정보 < 글, 사진 : SmileLee > 5월 나트랑 여행 날씨도 장난 아니었네요 체..."
+                        - paragraph [ref=f94e647]: blog.naver.com
+                  - generic [ref=f94e651] [cursor=pointer]:
+                    - link [ref=f94e652]:
+                      - /url: https://blog.naver.com/PostView.naver?blogId=smilelee_design&logNo=223480911846&categoryNo=8&parentCategoryNo=8&from=thumbnailList
+                    - 'link "나트랑 아미아나리조트 예약 할인 요금 디럭스 가든뷰 숙소 조식 후기 베트남 나트랑 숙소 아미아나 리조트 < 글, 사진 : SmileLee > 아름다운 해변과 럭셔리한 5성급 리... blog.naver.com" [ref=f94e653]':
+                      - /url: https://blog.naver.com/PostView.naver?blogId=smilelee_design&logNo=223480911846&categoryNo=8&parentCategoryNo=8&from=thumbnailList
+                      - generic [ref=f94e654]:
+                        - strong [ref=f94e655]: 나트랑 아미아나리조트 예약 할인 요금 디럭스 가든뷰 숙소 조식 후기
+                        - paragraph [ref=f94e656]: "베트남 나트랑 숙소 아미아나 리조트 < 글, 사진 : SmileLee > 아름다운 해변과 럭셔리한 5성급 리..."
+                        - paragraph [ref=f94e657]: blog.naver.com
+                  - paragraph [ref=f94e662]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - iframe
+              - generic [ref=f94e663]:
+                - link " 저작자 명시 필수  영리적 사용 불가  내용 변경 불가" [ref=f94e665] [cursor=pointer]:
+                  - /url: http://creativecommons.org/licenses/by-nc-nd/2.0/kr/
+                  - generic [ref=f94e666]:
+                    - text: 
+                    - generic [ref=f94e667]: 저작자 명시 필수
+                  - generic [ref=f94e668]:
+                    - text: 
+                    - generic [ref=f94e669]: 영리적 사용 불가
+                  - generic [ref=f94e670]:
+                    - text: 
+                    - generic [ref=f94e671]: 내용 변경 불가
+                - generic [ref=f94e673]:
+                  - strong [ref=f94e674]: 태그
+                  - link "#나트랑여행" [ref=f94e675] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=smilelee_design&logType=mylog&tagName=%EB%82%98%ED%8A%B8%EB%9E%91%EC%97%AC%ED%96%89
+                    - generic [ref=f94e676]: "#나트랑여행"
+                  - link "#나트랑경비" [ref=f94e678] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=smilelee_design&logType=mylog&tagName=%EB%82%98%ED%8A%B8%EB%9E%91%EA%B2%BD%EB%B9%84
+                    - generic [ref=f94e679]: "#나트랑경비"
+                  - link "#나트랑예산" [ref=f94e681] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=smilelee_design&logType=mylog&tagName=%EB%82%98%ED%8A%B8%EB%9E%91%EC%98%88%EC%82%B0
+                    - generic [ref=f94e682]: "#나트랑예산"
+                  - link "#나트랑4박5일경비" [ref=f94e684] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=smilelee_design&logType=mylog&tagName=%EB%82%98%ED%8A%B8%EB%9E%914%EB%B0%955%EC%9D%BC%EA%B2%BD%EB%B9%84
+                    - generic [ref=f94e685]: "#나트랑4박5일경비"
+                  - link "#나트랑항공권" [ref=f94e687] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=smilelee_design&logType=mylog&tagName=%EB%82%98%ED%8A%B8%EB%9E%91%ED%95%AD%EA%B3%B5%EA%B6%8C
+                    - generic [ref=f94e688]: "#나트랑항공권"
+                  - link "#나트랑비엣젯" [ref=f94e690] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=smilelee_design&logType=mylog&tagName=%EB%82%98%ED%8A%B8%EB%9E%91%EB%B9%84%EC%97%A3%EC%A0%AF
+                    - generic [ref=f94e691]: "#나트랑비엣젯"
+                  - link "#나트랑아미아나리조트" [ref=f94e693] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=smilelee_design&logType=mylog&tagName=%EB%82%98%ED%8A%B8%EB%9E%91%EC%95%84%EB%AF%B8%EC%95%84%EB%82%98%EB%A6%AC%EC%A1%B0%ED%8A%B8
+                    - generic [ref=f94e694]: "#나트랑아미아나리조트"
+                  - link "#나트랑미아리조트" [ref=f94e696] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=smilelee_design&logType=mylog&tagName=%EB%82%98%ED%8A%B8%EB%9E%91%EB%AF%B8%EC%95%84%EB%A6%AC%EC%A1%B0%ED%8A%B8
+                    - generic [ref=f94e697]: "#나트랑미아리조트"
+                  - link "#나트랑마사지" [ref=f94e699] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=smilelee_design&logType=mylog&tagName=%EB%82%98%ED%8A%B8%EB%9E%91%EB%A7%88%EC%82%AC%EC%A7%80
+                    - generic [ref=f94e700]: "#나트랑마사지"
+                  - link "#나트랑여행경비" [ref=f94e702] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=smilelee_design&logType=mylog&tagName=%EB%82%98%ED%8A%B8%EB%9E%91%EC%97%AC%ED%96%89%EA%B2%BD%EB%B9%84
+                    - generic [ref=f94e703]: "#나트랑여행경비"
+                  - link "#나트랑여행비용" [ref=f94e705] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=smilelee_design&logType=mylog&tagName=%EB%82%98%ED%8A%B8%EB%9E%91%EC%97%AC%ED%96%89%EB%B9%84%EC%9A%A9
+                    - generic [ref=f94e706]: "#나트랑여행비용"
+              - generic [ref=f94e708]:
+                - generic [ref=f94e709]:
+                  - generic [ref=f94e710]:
+                    - generic [ref=f94e711]:
+                      - button "" [ref=f94e714] [cursor=pointer]:
+                        - generic [ref=f94e715]: 
+                      - button "공감 71" [ref=f94e716] [cursor=pointer]:
+                        - button "공감 71" [ref=f94e718]: 공감 71
+                    - link " 이 글에 공감한 블로거 열고 닫기" [ref=f94e721] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=f94e723]: 
+                      - generic [ref=f94e724]: 이 글에 공감한 블로거 열고 닫기
+                  - button " 댓글 49  이 글에 댓글 단 블로거 열고 닫기" [ref=f94e727] [cursor=pointer]:
+                    - generic [ref=f94e728]: 
+                    - text: 댓글
+                    - emphasis [ref=f94e729]: "49"
+                    - emphasis
+                    - generic [ref=f94e731]:
+                      - generic [ref=f94e732]: 
+                      - generic [ref=f94e733]: 이 글에 댓글 단 블로거 열고 닫기
+                - generic [ref=f94e735]:
+                  - generic [ref=f94e739]:
+                    - link "블로그 보내기" [ref=f94e740] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=f94e741]: 블로그 보내기
+                    - link "카페 보내기" [ref=f94e742] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=f94e743]: 카페 보내기
+                    - link "Keep 보내기" [ref=f94e744] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=f94e745]: Keep 보내기
+                    - link "메모 보내기" [ref=f94e746] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=f94e747]: 메모 보내기
+                    - link "기타 보내기 펼치기" [ref=f94e748] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=f94e749]: 기타 보내기 펼치기
+                  - link "인쇄" [ref=f94e752] [cursor=pointer]:
+                    - /url: "#"
+              - text:  
+              - generic [ref=f94e753]:
+                - generic:
+                  - iframe
+              - table [ref=f94e754]:
+                - rowgroup [ref=f94e755]:
+                  - row [ref=f94e756]:
+                    - cell [ref=f94e757]
+                    - cell [ref=f94e758]
+                    - cell [ref=f94e759]
+            - generic [ref=f94e764]:
+              - generic [ref=f94e765]:
+                - heading "이 블로그 베트남 나트랑 카테고리 글" [level=4] [ref=f94e766]:
+                  - text: 이 블로그
+                  - link "베트남 나트랑" [ref=f94e767] [cursor=pointer]:
+                    - /url: /PostList.naver?blogId=smilelee_design&categoryNo=23&from=thumbnailList&parentCategoryNo=0
+                    - strong [ref=f94e768]: 베트남 나트랑
+                  - text: 카테고리 글
+                - link "전체글 보기" [ref=f94e769] [cursor=pointer]:
+                  - /url: /PostList.naver?blogId=smilelee_design&categoryNo=23&from=thumbnailList&parentCategoryNo=0
+              - generic [ref=f94e770]:
+                - list [ref=f94e772]:
+                  - listitem [ref=f94e773]:
+                    - link "섬네일" [ref=f94e774] [cursor=pointer]:
+                      - /url: /PostView.naver?blogId=smilelee_design&logNo=223764466835&categoryNo=23&parentCategoryNo=0
+                      - img "섬네일" [ref=f94e775]
+                      - text: 
+                  - listitem [ref=f94e777]:
+                    - link "섬네일" [ref=f94e778] [cursor=pointer]:
+                      - /url: /PostView.naver?blogId=smilelee_design&logNo=223556820387&categoryNo=23&parentCategoryNo=0
+                      - img "섬네일" [ref=f94e779]
+                      - text: 
+                  - listitem [ref=f94e781]:
+                    - link "섬네일" [ref=f94e782] [cursor=pointer]:
+                      - /url: /PostView.naver?blogId=smilelee_design&logNo=223549914577&categoryNo=23&parentCategoryNo=0
+                      - img "섬네일" [ref=f94e783]
+                      - text: 
+                  - listitem [ref=f94e785]:
+                    - link "섬네일" [ref=f94e786] [cursor=pointer]:
+                      - /url: /PostView.naver?blogId=smilelee_design&logNo=223523677799&categoryNo=23&parentCategoryNo=0
+                      - img "섬네일" [ref=f94e787]
+                      - text: 
+                  - listitem [ref=f94e789]:
+                    - link "섬네일" [ref=f94e790] [cursor=pointer]:
+                      - /url: /PostView.naver?blogId=smilelee_design&logNo=223497626729&categoryNo=23&parentCategoryNo=0
+                      - img "섬네일" [ref=f94e791]
+                      - text: 
+                  - listitem [ref=f94e793]:
+                    - link "섬네일" [ref=f94e794] [cursor=pointer]:
+                      - /url: /PostView.naver?blogId=smilelee_design&logNo=223496350116&categoryNo=23&parentCategoryNo=0
+                      - img "섬네일" [ref=f94e795]
+                      - text: 
+                - generic [ref=f94e798]:
+                  - strong [ref=f94e799]: 페이지 이동하기
+                  - link " 이전 페이지로 이동" [ref=f94e800] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=f94e801]: 
+                    - text: 이전
+                    - generic [ref=f94e802]: 페이지로 이동
+                  - link "다음 페이지로 이동 " [ref=f94e803] [cursor=pointer]:
+                    - /url: "#"
+                    - text: 다음
+                    - generic [ref=f94e804]: 페이지로 이동
+                    - generic [ref=f94e805]: 
+              - button " 화면 최상단으로 이동" [ref=f94e806] [cursor=pointer]:
+                - generic [ref=f94e807]: 
+                - generic [ref=f94e808]: 화면 최상단으로 이동
+          - generic [ref=f94e810]:
+            - generic [ref=f94e812]:
+              - generic [ref=f94e817]:
+                - paragraph [ref=f94e818]:
+                  - link "프로필 이미지" [ref=f94e819] [cursor=pointer]:
+                    - /url: "#"
+                    - img "프로필 이미지" [ref=f94e820]
+                - generic [ref=f94e822]:
+                  - strong [ref=f94e823]: smileLEE
+                  - generic [ref=f94e824]: smilelee_design
+                - paragraph [ref=f94e825]:
+                  - generic [ref=f94e826]:
+                    - text: 잘 먹고 잘 노는 스마일리의 여행비법노트 :-)
+                    - text: ✏️scoolguy95@naver.com
+                - paragraph [ref=f94e827]:
+                  - link "프로필" [ref=f94e829] [cursor=pointer]:
+                    - /url: https://blog.naver.com/profile/intro.naver?blogId=smilelee_design
+                - link "이웃추가" [ref=f94e831] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=f94e832]: 이웃추가
+              - generic [ref=f94e836]:
+                - generic [ref=f94e837] [cursor=pointer]:
+                  - heading "카테고리" [level=3] [ref=f94e838]
+                  - paragraph [ref=f94e839]:
+                    - button "^" [ref=f94e841]
+                - list [ref=f94e844]:
+                  - listitem [ref=f94e845]:
+                    - link "전체보기" [ref=f94e846] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&categoryNo=0&from=postList "
+                    - text: (322)
+                  - listitem [ref=f94e847]:
+                    - link "✏️해외여행 비법노트" [ref=f94e849] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=8&parentCategoryNo=8 "
+                    - img "✏️해외여행 비법노트 열림" [ref=f94e851] [cursor=pointer]
+                  - listitem [ref=f94e852]:
+                    - link "하와이" [ref=f94e854] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=9 "
+                  - listitem [ref=f94e855]:
+                    - link "일본" [ref=f94e857] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=14 "
+                  - listitem [ref=f94e858]:
+                    - link "베트남 푸꾸옥" [ref=f94e860] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=18 "
+                  - listitem [ref=f94e861]:
+                    - link "베트남 나트랑" [ref=f94e863] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=23 "
+                  - listitem [ref=f94e864]:
+                    - generic [ref=f94e865]:
+                      - link "베트남 다낭" [ref=f94e866] [cursor=pointer]:
+                        - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=29 "
+                      - text: (3)
+                  - listitem [ref=f94e867]:
+                    - link "\b아이슬란드" [ref=f94e869] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=20 "
+                  - listitem [ref=f94e870]:
+                    - link "싱가포르" [ref=f94e872] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=24 "
+                  - listitem [ref=f94e873]:
+                    - link "홍콩" [ref=f94e875] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=25 "
+                  - listitem [ref=f94e876]:
+                    - generic [ref=f94e877]:
+                      - link "괌" [ref=f94e878] [cursor=pointer]:
+                        - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=30 "
+                      - text: (5)
+                  - listitem [ref=f94e879]:
+                    - link "타이베이" [ref=f94e881] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=31 "
+                  - listitem [ref=f94e882]:
+                    - generic [ref=f94e883]:
+                      - link "태국 방콕" [ref=f94e884] [cursor=pointer]:
+                        - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=32 "
+                      - text: (1)
+                  - listitem [ref=f94e885]:
+                    - generic [ref=f94e886]:
+                      - link "태국 끄라비" [ref=f94e887] [cursor=pointer]:
+                        - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=33 "
+                      - text: (1)
+                  - listitem [ref=f94e888]:
+                    - link "✏️국내여행 비법노트" [ref=f94e890] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=13&parentCategoryNo=13 "
+                    - img "✏️국내여행 비법노트 열림" [ref=f94e892] [cursor=pointer]
+                  - listitem [ref=f94e893]:
+                    - link "부산" [ref=f94e895] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=10 "
+                  - listitem [ref=f94e896]:
+                    - link "경기도" [ref=f94e898] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=15 "
+                  - listitem [ref=f94e899]:
+                    - link "충청북도" [ref=f94e901] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=16 "
+                  - listitem [ref=f94e902]:
+                    - link "경상북도" [ref=f94e904] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=17 "
+                  - listitem [ref=f94e905]:
+                    - link "강원도" [ref=f94e907] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=19 "
+                  - listitem [ref=f94e908]:
+                    - link "인천" [ref=f94e910] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=21 "
+                  - listitem [ref=f94e911]:
+                    - link "전라남도" [ref=f94e913] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=22 "
+                  - listitem [ref=f94e914]:
+                    - link "서울" [ref=f94e916] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=28 "
+                  - listitem [ref=f94e917]:
+                    - link "✏️맛집여행 비법노트" [ref=f94e919] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=12 "
+                  - listitem [ref=f94e920]:
+                    - link "✒️일상기록" [ref=f94e922] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=7 "
+                  - listitem [ref=f94e923]:
+                    - link "[블챌] 일상 포토덤프" [ref=f94e925] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=26 "
+                  - listitem [ref=f94e926]:
+                    - link "[블챌] 스페셜 포토덤프" [ref=f94e928] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=smilelee_design&from=postList&categoryNo=27 "
+              - generic [ref=f94e934]:
+                - paragraph [ref=f94e935]:
+                  - generic [ref=f94e936]: "2"
+                - paragraph [ref=f94e937]:
+                  - generic [ref=f94e938]: 714,000
+              - generic [ref=f94e942]:
+                - heading "검색" [level=3] [ref=f94e943]
+                - generic [ref=f94e944]: 글 검색
+                - textbox "글 검색" [ref=f94e945]
+                - button "검색" [ref=f94e946] [cursor=pointer]
+            - generic [ref=f94e950]:
+              - link "RSS 2.0" [ref=f94e951] [cursor=pointer]:
+                - /url: https://rss.blog.naver.com/smilelee_design.xml
+                - generic [ref=f94e952]: RSS 2.0
+              - link "RSS 1.0" [ref=f94e953] [cursor=pointer]:
+                - /url: https://rss.blog.naver.com/smilelee_design.xml?rss=1.0
+                - generic [ref=f94e954]: RSS 1.0
+              - link "ATOM 0.3" [ref=f94e955] [cursor=pointer]:
+                - /url: https://rss.blog.naver.com/smilelee_design.xml?atom=0.3
+                - generic [ref=f94e956]: ATOM 0.3
+    - generic [ref=f94e968]:
+      - generic [ref=f94e970]:
+        - link "확인" [ref=f94e971] [cursor=pointer]:
+          - /url: "#"
+          - img "확인" [ref=f94e972]
+        - link "취소" [ref=f94e973] [cursor=pointer]:
+          - /url: "#"
+          - img "취소" [ref=f94e974]
+      - link "닫기" [ref=f94e975] [cursor=pointer]:
+        - /url: "#"
+        - img "닫기" [ref=f94e976]

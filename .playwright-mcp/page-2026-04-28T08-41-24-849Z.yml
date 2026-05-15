@@ -1,0 +1,232 @@
+- generic [ref=e4]:
+  - generic [ref=e9]:
+    - generic [ref=e12]:
+      - link "Instagram" [ref=e17] [cursor=pointer]:
+        - /url: /
+        - img "Instagram" [ref=e22]
+      - generic [ref=e25]:
+        - link "홈" [ref=e30] [cursor=pointer]:
+          - /url: /
+          - img "홈" [ref=e35]
+        - link "릴스" [ref=e40] [cursor=pointer]:
+          - /url: /reels/
+          - img "릴스" [ref=e45]
+        - link "메시지 Direct 메시지 - 새로운 알림 링크 1개" [ref=e52] [cursor=pointer]:
+          - /url: /direct/inbox/
+          - generic [ref=e55]:
+            - img "메시지" [ref=e57]
+            - generic "Direct 메시지 - 새로운 알림 링크 1개" [ref=e60]:
+              - generic [ref=e62]: "1"
+        - link "검색" [ref=e66] [cursor=pointer]:
+          - /url: "#"
+          - img "검색" [ref=e71]
+        - link "탐색 탭" [ref=e77] [cursor=pointer]:
+          - /url: /explore/
+          - img "탐색 탭" [ref=e82]
+        - link "알림" [ref=e91] [cursor=pointer]:
+          - /url: "#"
+          - img "알림" [ref=e96]
+        - link "새로운 게시물" [ref=e104] [cursor=pointer]:
+          - /url: "#"
+          - img "새로운 게시물" [ref=e109]
+        - link "프로페셔널 대시보드" [ref=e114] [cursor=pointer]:
+          - /url: "#"
+          - img "프로페셔널 대시보드" [ref=e119]
+        - link "stone.water_님의 프로필 사진" [ref=e126] [cursor=pointer]:
+          - /url: /stone.water_/
+          - link "stone.water_님의 프로필 사진" [ref=e131]:
+            - img "stone.water_님의 프로필 사진" [ref=e132]
+      - generic [ref=e133]:
+        - link "설정" [ref=e136] [cursor=pointer]:
+          - /url: "#"
+          - img "설정" [ref=e141]
+        - link "Meta의 다른 앱" [ref=e144] [cursor=pointer]:
+          - /url: "#"
+          - img "Meta의 다른 앱" [ref=e149]
+    - main [ref=e153]:
+      - generic [active] [ref=e154]:
+        - generic [ref=e157]:
+          - generic [ref=e158]:
+            - generic [ref=e161]:
+              - generic [ref=e164]:
+                - link "life.traveler.jayna님의 릴스" [ref=e165] [cursor=pointer]:
+                  - /url: /life.traveler.jayna/reels/
+                  - link "life.traveler.jayna님의 프로필 사진" [ref=e168]:
+                    - img "life.traveler.jayna님의 프로필 사진" [ref=e169]
+                - generic [ref=e170]:
+                  - generic [ref=e171]:
+                    - link "life.traveler.jayna님의 릴스" [ref=e172] [cursor=pointer]:
+                      - /url: /life.traveler.jayna/reels/
+                      - generic [ref=e173]: life.traveler.jayna
+                    - generic [ref=e175]: •
+                    - button "팔로우" [ref=e176] [cursor=pointer]:
+                      - generic [ref=e177]: 팔로우
+                  - link "위치 Bohol, Philippines" [ref=e183] [cursor=pointer]:
+                    - /url: /explore/locations/133592767006704/
+                    - generic [ref=e184]:
+                      - img "위치" [ref=e186]
+                      - generic [ref=e189]: Bohol, Philippines
+              - button [ref=e190] [cursor=pointer]:
+                - generic [ref=e192]:
+                  - text: 💌 댓글에 ’총정리‘ 적어주시면 DM으로 보홀 3박 5일 총정리 pdf 1초 만에 보내드릴게요!
+                  - text: 보홀 여행 가신다면 이건 무조건 받아가세요🙋‍♀️ 제가 직접 다녀온 찐 후기와 꿀정보로 정성껏 만들었으니 가시기 전에 보시면 많은 도움되실 거예요🥰
+                  - text: ✅ 보홀 3박 5일 여행 총정리 PDF 내용
+                  - text: ▪️여행지 기본 정보
+                  - text: ▪️여행 일정
+                  - text: ▪️투어별 상세 정보 & 후기
+                  - text: ▪️헤난 리조트 알로나 비치 소개
+                  - text: ▪️보홀 맛집/카페 추천
+                  - text: ▪️마사지샵 추천
+                  - text: ▪️보홀 기념품 추천
+                  - text: ▪️여행 경비
+                  - text: ▪️경비 아끼는 꿀팁
+                  - text: 현재 제가 다녀온 보홀 헤난 리조트 알로나 비치와 다양한 투어들을 빵빵한 특전과 함께 예약할 수 있는 마켓이 진행 중이에요🩵
+                  - text: 제 프로필 링크에 예약 링크 오픈되어 있으니 구매 원하시는 분들은 아래 내용 참고해주세요!
+                  - text: ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+                  - text: ✅ 제이나 보홀 헤난 리조트 알로나/타왈라 & 투어 상품 초특가 마켓
+                  - text: "▪️공구 기간: 9/8(월) - 10/8(수)"
+                  - text: ▪️여행 기간
+                  - text: "🔸리조트 : 25년 10/25(토) - 26년 2/28(토)"
+                  - text: "🔸투어 : 25년 9/10(수) - 26년 2/28(토)"
+                  - text: ▪️판매 상품 및 가격
+                  - text: "🔸5성급 보홀 헤난 리조트 알로나/타왈라 : 1박 20만 원대~ (날짜별 상이/ 전일정 조식 포함/ 리조트 디너 뷔페 1회 포함)"
+                  - text: 🔸투어 상품
+                  - text: "-마델린 나팔링(정어리떼 스노클링) : 1인 49,000원"
+                  - text: "-발리카삭 호핑투어(돌고래 워칭, 바다거북 스노클링, 버진아일랜드 입도) : 1인 59,000원"
+                  - text: "-체험 다이빙 : 1인 71,000원"
+                  - text: "-노스젠 선셋 투어(디너 포함) : 1인 55,000원~"
+                  - text: "-체크아웃 투어(데이) : 1인 89,000원~"
+                  - text: "-체크아웃 투어(나이트) : 1인 109,000원~"
+                  - text: "*이번 마켓은 리조트 및 투어 상품을 선택 구매할 수 있는 마켓입니다."
+                  - text: (에어텔 상품 ❌, 항공권은 포함하지 않습니다)
+                  - text: 🚫NO 옵션, NO 쇼핑, 모든 투어 픽드랍 포함
+                  - text: "*마델린 나팔링의 경우 조인투어로 4인 미만 모객 시 투어가 취소될 수 있습니다."
+                  - text: ⭐️ONLY 제이나 마켓 특전⭐️
+                  - text: 1. 보홀 헤난 리조트 예약 시 투숙객 전원 리조트 디너 뷔페 1회 무료 제공 (인당 39,000원 상당)
+                  - text: 2. 보홀 헤난 리조트 3박 이상 예약 시, 1박당 1만 원 할인 (예) 3박 시 3만 원 할인, 5박 시 5만 원 할인
+                  - text: 3. 체크아웃 투어(데이/나이트) 예약 시, 1만 원 추가 할인 혜택 제공
+                  - text: 4. 투어 상품 1개만 예약해도 보홀 라운지 입장권 증정 (18,900원 상당/ 단, 체크아웃 투어 제외)
+                  - text: 5. 투어 상품 3개 이상 예약 시 0.5박 심플패키지 업그레이드 (39,000원 상당/ 단, 체크아웃 투어 제외)
+                  - text: "*보홀 라운지: 팡라오 공항에서 차량 1분 거리 프리미엄 휴식 공간"
+                  - text: "*보홀 라운지 입장권: 라운지 4시간 이용권"
+                  - text: "*0.5박 심플패키지: 라운지 6시간 이용권+발 마사지 30분+라면 제공"
+                  - text: ✨구매 인증 이벤트✨
+                  - text: ▪️이벤트 참여 방법
+                  - text: 리조트 상품 혹은 리조트+투어 상품 구매 후, 인스타그램 스토리에
+                  - link "@life.traveler.jayna" [ref=e194]:
+                    - /url: /life.traveler.jayna/
+                  - text: 태그하여 구매 인증
+                  - text: "▪️이벤트 대상 : 리조트 혹은 리조트+투어 상품 구매자 전원 (투어 상품만 구매 시에는 참여가 불가합니다)"
+                  - text: "▪️진행 기간 : 9/8(월)-10/8(수)"
+                  - text: "▪️이벤트 상품 : 스타벅스 아메리카노 쿠폰 1매"
+                  - text: 다음 콘텐츠로 제이나 마켓만의 특전과 각 투어 상품별 세부 내용도 좀 더 자세히 알려드릴 테니 조금만 기다려주세요 :)
+                  - text: 🙋‍♀️ 마켓에 대해 궁금한 점 있으신 분들은 댓글 달아주시거나 DM 주시면 답변드릴게요!
+                  - text: ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+                  - text: 💖도움이 되었다면 “좋아요”
+                  - text: 🗂️나중에 다시 보려면 “저장”
+                  - text: 💌같이 보고 싶은 사람에게 “공유”
+                  - text: 🫶더 많은 정보는
+                  - link "@life.traveler.jayna" [ref=e195]:
+                    - /url: /life.traveler.jayna/
+                  - text: “팔로우”
+                  - text: ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+            - generic [ref=e196]:
+              - img
+              - group "Video player" [ref=e207]:
+                - generic [ref=e208]:
+                  - button "0" [ref=e209] [cursor=pointer]:
+                    - slider "볼륨 조정" [ref=e210]:
+                      - button "오디오 소리 꺼짐" [ref=e214]:
+                        - img "오디오 소리 꺼짐" [ref=e215]
+                  - button "재생하려면 누르세요" [ref=e220] [cursor=pointer]:
+                    - img "재생 버튼 아이콘" [ref=e222]
+          - generic [ref=e224]:
+            - generic [ref=e225] [cursor=pointer]:
+              - button "좋아요" [ref=e228]:
+                - img "좋아요" [ref=e231]
+              - button "133" [ref=e233]:
+                - generic [ref=e237]: "133"
+            - button "댓글 157" [ref=e239] [cursor=pointer]:
+              - generic [ref=e240]:
+                - img "댓글" [ref=e241]
+                - generic [ref=e246]: "157"
+            - generic [ref=e247]:
+              - button "리포스트" [ref=e248] [cursor=pointer]:
+                - img "리포스트" [ref=e249]
+              - button
+            - button "공유하기" [ref=e252] [cursor=pointer]:
+              - img "공유하기" [ref=e253]
+            - button "저장" [ref=e258] [cursor=pointer]:
+              - button "저장" [ref=e259]:
+                - img "저장" [ref=e261]
+            - button "더 보기" [ref=e264] [cursor=pointer]:
+              - img "더 보기" [ref=e266]
+            - link "오디오 이미지" [ref=e271] [cursor=pointer]:
+              - /url: /reels/audio/1339260614229543/
+              - img "오디오 이미지" [ref=e274]
+        - generic [ref=e278]:
+          - generic [ref=e280]:
+            - img
+            - group "Video player" [ref=e291]:
+              - generic [ref=e292]:
+                - button "0 fromdianaslens님의 릴스 fromdianaslens님의 릴스 팔로우 hi, im diana" [ref=e293] [cursor=pointer]:
+                  - slider "볼륨 조정" [ref=e294]:
+                    - button "오디오 소리 꺼짐" [ref=e298]:
+                      - img "오디오 소리 꺼짐" [ref=e299]
+                  - generic [ref=e304]:
+                    - generic [ref=e305]:
+                      - generic [ref=e307]:
+                        - link "fromdianaslens님의 릴스" [ref=e308]:
+                          - /url: /fromdianaslens/reels/
+                          - link "fromdianaslens님의 프로필 사진" [ref=e311]:
+                            - img "fromdianaslens님의 프로필 사진" [ref=e312]
+                        - link "fromdianaslens님의 릴스" [ref=e315]:
+                          - /url: /fromdianaslens/reels/
+                          - generic [ref=e316]: fromdianaslens
+                      - button "팔로우" [ref=e319]
+                    - button "hi, im diana" [ref=e320]:
+                      - generic [ref=e322]:
+                        - generic [ref=e323]: hi, im diana
+                        - generic [ref=e324]: … 더 보기
+                - button "재생하려면 누르세요" [ref=e326] [cursor=pointer]:
+                  - img "재생 버튼 아이콘" [ref=e328]
+          - generic [ref=e330]:
+            - generic [ref=e331] [cursor=pointer]:
+              - button "좋아요" [ref=e334]:
+                - img "좋아요" [ref=e337]
+              - button "1.9만" [ref=e339]:
+                - generic [ref=e343]: 1.9만
+            - button "댓글 294" [ref=e345] [cursor=pointer]:
+              - generic [ref=e346]:
+                - img "댓글" [ref=e347]
+                - generic [ref=e352]: "294"
+            - generic [ref=e353] [cursor=pointer]:
+              - button "리포스트" [ref=e354]:
+                - img "리포스트" [ref=e355]
+              - button "472" [ref=e357]:
+                - generic [ref=e361]: "472"
+            - button "공유하기" [ref=e363] [cursor=pointer]:
+              - img "공유하기" [ref=e364]
+            - button "저장" [ref=e369] [cursor=pointer]:
+              - button "저장" [ref=e370]:
+                - img "저장" [ref=e372]
+            - button "더 보기" [ref=e375] [cursor=pointer]:
+              - img "더 보기" [ref=e377]
+            - link "오디오 이미지" [ref=e382] [cursor=pointer]:
+              - /url: /reels/audio/34936156179365463/
+              - img "오디오 이미지" [ref=e385]
+        - generic [ref=e392]:
+          - generic [ref=e393]:
+            - status "읽어들이는 중..." [ref=e394]
+            - status "읽어들이는 중..." [ref=e395]
+          - status "읽어들이는 중..." [ref=e396]
+          - status "읽어들이는 중..." [ref=e397]
+      - toolbar "Reels navigation controls" [ref=e399]:
+        - button "이전 릴스로 이동" [ref=e400] [cursor=pointer]:
+          - img [ref=e402]
+        - button "다음 릴스로 이동" [ref=e404] [cursor=pointer]:
+          - img [ref=e406]
+  - button "메시지 메시지" [ref=e409] [cursor=pointer]:
+    - generic [ref=e411]:
+      - img "메시지" [ref=e413]
+      - generic [ref=e416]: 메시지

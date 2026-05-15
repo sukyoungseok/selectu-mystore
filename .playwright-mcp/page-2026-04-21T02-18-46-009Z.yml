@@ -1,0 +1,158 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: 이 페이지의 링크를 통해 구매 시 수수료를 받아 채널 운영에 도움이 됩니다.
+    - generic [ref=e7]:
+      - generic [ref=e8]: 🏝️
+      - generic [ref=e9]:
+        - heading "파파트래블" [level=2] [ref=e10]
+        - paragraph [ref=e11]: 해외 가족여행 전문 · 일본 이시가키
+        - generic [ref=e12]: ▶ YouTube 채널
+        - link "▶" [ref=e14] [cursor=pointer]:
+          - /url: https://www.youtube.com/@파파트래블
+    - link "파파트래블 구독자 전용 · 이시가키 선착순 할인 쿠폰팩 총 99,000 원 3종 구성 받기" [ref=e15] [cursor=pointer]:
+      - /url: https://www.myrealtrip.com/coupons
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - generic [ref=e20]: 파파트래블 구독자 전용 · 이시가키
+          - generic [ref=e21]: 선착순 할인 쿠폰팩
+          - generic [ref=e23]:
+            - generic [ref=e24]: 총
+            - generic [ref=e25]: 99,000
+            - generic [ref=e26]: 원
+          - generic:
+            - generic: 3종
+            - generic: 구성
+        - generic [ref=e27]:
+          - img [ref=e28]
+          - generic [ref=e30]: 받기
+    - generic [ref=e33]:
+      - generic [ref=e35]:
+        - generic [ref=e36]: 🏝️
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - generic [ref=e39]: 3박 4일
+            - generic [ref=e40]: 파파 강추
+          - generic [ref=e41]: 이시가키 에어텔
+      - generic [ref=e42]:
+        - generic [ref=e43]: 어디부터 볼까요?
+        - generic [ref=e44]:
+          - button "일정표 보기 동선 먼저 ›" [ref=e45] [cursor=pointer]:
+            - generic [ref=e46]:
+              - strong [ref=e47]: 일정표 보기
+              - generic [ref=e48]: 동선 먼저
+            - generic [ref=e49]: ›
+          - button "상세 경비 보기 40 만~ › 🔥 인기 항공·숙소·투어 한 번에" [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]:
+              - strong [ref=e52]: 상세 경비 보기
+              - generic [ref=e53]:
+                - generic [ref=e54]:
+                  - text: "40"
+                  - generic [ref=e55]: 만~
+                - generic [ref=e56]: ›
+            - generic [ref=e57]:
+              - generic [ref=e58]: 🔥 인기
+              - generic [ref=e59]: 항공·숙소·투어 한 번에
+    - generic [ref=e63]:
+      - generic [ref=e64] [cursor=pointer]: 링크
+      - generic [ref=e65] [cursor=pointer]: 필수템
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]: 🏝️
+        - generic [ref=e69]:
+          - generic [ref=e70]: 지금이 가장 저렴한 이시가키 에어텔 🏝️
+          - text: 진에어 타고 2시간 반이면 닿는 일본의 몰디브, 이시가키. 카비라만 글라스보트부터 맹그로브 카누까지 3박 4일 완벽 코스예요. 가족여행으로 진짜 강추!
+      - generic [ref=e71]:
+        - heading "📹 추천 영상" [level=3] [ref=e72]
+        - link "🏝️ 🔥 파파트래블 추천 지금이 가장 저렴하게 일본 이시가키 3박 4일로 여행하는 방법 youtube.com · 파파트래블" [ref=e73] [cursor=pointer]:
+          - /url: https://www.youtube.com/watch?v=qzCBqrv9ojE
+          - generic [ref=e74]: 🏝️
+          - generic [ref=e75]:
+            - generic [ref=e77]: 🔥 파파트래블 추천
+            - generic [ref=e78]: 지금이 가장 저렴하게 일본 이시가키 3박 4일로 여행하는 방법
+            - generic [ref=e79]: youtube.com · 파파트래블
+        - heading "🛒 영상 속 예약 링크" [level=3] [ref=e80]
+        - link "🤿 영상 속 등장 한국어 가이드 이시가키 스노클링 — 만타 포인트 포함 반일 투어 myrealtrip.com" [ref=e81] [cursor=pointer]:
+          - /url: https://myrealt.rip/QkVK8b
+          - generic [ref=e82]: 🤿
+          - generic [ref=e83]:
+            - generic [ref=e85]: 영상 속 등장
+            - generic [ref=e86]: 한국어 가이드 이시가키 스노클링 — 만타 포인트 포함 반일 투어
+            - generic [ref=e87]: myrealtrip.com
+        - link "🚤 영상 속 등장 카비라만 글라스보트 승선권 — 에메랄드빛 이시가키 바다 속으로 myrealtrip.com" [ref=e88] [cursor=pointer]:
+          - /url: https://myrealt.rip/QkXL84
+          - generic [ref=e89]: 🚤
+          - generic [ref=e90]:
+            - generic [ref=e92]: 영상 속 등장
+            - generic [ref=e93]: 카비라만 글라스보트 승선권 — 에메랄드빛 이시가키 바다 속으로
+            - generic [ref=e94]: myrealtrip.com
+    - generic [ref=e96]:
+      - generic [ref=e97]: COLLABORATION
+      - link "✉ sukyoung.seok@myrealtrip.com" [ref=e98] [cursor=pointer]:
+        - /url: mailto:sukyoung.seok@myrealtrip.com
+      - generic [ref=e99]: © 2026 파파트래블 · myrealtrip
+  - generic [ref=e101]:
+    - generic [ref=e102] [cursor=pointer]: ←
+    - generic [ref=e104]: 이시가키 에어텔 3박 4일 코스
+    - button "링크 복사" [ref=e105] [cursor=pointer]:
+      - img [ref=e106]
+      - text: 링크 복사
+  - generic:
+    - generic:
+      - generic:
+        - generic: 🏝️ 이시가키 3박 4일 총경비
+        - button "링크 복사":
+          - img
+          - text: 링크 복사
+      - generic: 파파트래블 추천 코스 · 1인 기준
+      - generic:
+        - generic: ✈️
+        - generic:
+          - generic:
+            - text: 항공
+            - generic: 진에어
+          - generic: 서울↔이시가키 왕복 · 약 2시간 30분
+        - generic:
+          - generic: ₩280,000
+      - generic:
+        - generic: 🏨
+        - generic:
+          - generic:
+            - text: 숙소
+            - generic: 최저가
+          - generic: 고창 웰파크 호텔 1박 (온천 포함)
+        - generic:
+          - generic: ₩120,000
+          - button "예약 바로가기"
+      - generic:
+        - generic: 🍚
+        - generic:
+          - generic: 식비 · 현지 경비
+          - generic: 풍천장어·한정식·카페 포함
+        - generic:
+          - generic: ₩50,000
+      - generic:
+        - generic: 총 경비
+        - generic: ₩170,000
+      - generic: 🏨숙소는 최저가 기준 · 식비는 평균값 · 자동차 유류비 별도
+  - generic:
+    - generic:
+      - generic: 🎫 파트너 쿠폰
+      - generic: 파파트래블 통해 예약하면 받을 수 있는 혜택
+      - generic:
+        - generic:
+          - generic: 마이리얼트립 파트너 혜택
+          - generic: 첫 예약 3,000원 할인
+          - generic: 5만원 이상 결제 시 · 1회 사용 가능
+          - generic:
+            - generic: "유효기간: 2026.05.31까지"
+            - generic: 잔여 47장
+        - button "받기"
+      - generic:
+        - generic:
+          - generic: 재방문 감사 쿠폰
+          - generic: 2번째 예약 5% 할인
+          - generic: 최대 1만원 · 파파트래블 전용
+          - generic:
+            - generic: "유효기간: 2026.06.30까지"
+            - generic: 잔여 23장
+        - button "받기"

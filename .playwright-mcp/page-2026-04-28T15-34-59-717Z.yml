@@ -1,0 +1,249 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: 이 페이지의 링크를 통해 구매 시 수수료를 받아 채널 운영에 도움이 됩니다.
+    - generic [ref=e7]:
+      - img "파파트래블" [ref=e9]
+      - generic [ref=e10]:
+        - heading "파파트래블" [level=2] [ref=e11]
+        - paragraph [ref=e12]: 해외 여행 전문 · 구독자 36만
+        - generic [ref=e13]:
+          - link "YouTube" [ref=e14] [cursor=pointer]:
+            - /url: https://www.youtube.com/@파파트래블
+            - img [ref=e15]
+          - link "Instagram" [ref=e17] [cursor=pointer]:
+            - /url: https://www.instagram.com/papatraveltv
+            - img [ref=e18]
+          - link "TikTok" [ref=e20] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@papatravel01
+            - img "TikTok" [ref=e21]
+          - link "Threads" [ref=e22] [cursor=pointer]:
+            - /url: https://www.threads.com/@papatraveltv
+            - img "Threads" [ref=e23]
+    - link "파파트래블 구독자 전용 · 해외 여행 선착순 할인 쿠폰팩 총 99,000 원 8종 구성 받기" [ref=e24] [cursor=pointer]:
+      - /url: https://myrealt.rip/Yr3saa
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]: 파파트래블 구독자 전용 · 해외 여행
+          - generic [ref=e30]: 선착순 할인 쿠폰팩
+          - generic [ref=e32]:
+            - generic [ref=e33]: 총
+            - generic [ref=e34]: 99,000
+            - generic [ref=e35]: 원
+          - generic:
+            - generic: 8종
+            - generic: 구성
+        - generic [ref=e36]:
+          - img [ref=e37]
+          - generic [ref=e39]: 받기
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e44]:
+            - generic [ref=e45]: 🇭🇰
+            - generic [ref=e46]:
+              - generic [ref=e47]:
+                - generic [ref=e48]: 자유여행
+                - generic [ref=e49]: 파파 강추
+              - generic [ref=e50]: 홍콩 3박 4일 여행
+          - generic [ref=e51]:
+            - generic [ref=e52]: 어디부터 볼까요?
+            - generic [ref=e53]:
+              - button "일정표 보기 동선 먼저 ›" [ref=e54] [cursor=pointer]:
+                - generic [ref=e55]:
+                  - strong [ref=e56]: 일정표 보기
+                  - generic [ref=e57]: 동선 먼저
+                - generic [ref=e58]: ›
+              - button "총 경비 보기 87 만~ › 🔥 인기 항공·숙박·식비 포함" [ref=e59] [cursor=pointer]:
+                - generic [ref=e60]:
+                  - strong [ref=e61]: 총 경비 보기
+                  - generic [ref=e62]:
+                    - generic [ref=e63]:
+                      - text: "87"
+                      - generic [ref=e64]: 만~
+                    - generic [ref=e65]: ›
+                - generic [ref=e66]:
+                  - generic [ref=e67]: 🔥 인기
+                  - generic [ref=e68]: 항공·숙박·식비 포함
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - generic [ref=e72]: 🏝️
+            - generic [ref=e73]:
+              - generic [ref=e74]:
+                - generic [ref=e75]: 에어텔
+                - generic [ref=e76]: 최저가
+              - generic [ref=e77]: 이시가키 3박 4일
+          - generic [ref=e78]:
+            - generic [ref=e79]: 일본 몰디브 힐링 여행
+            - generic [ref=e80]:
+              - button "일정표 보기 동선 먼저 ›" [ref=e81] [cursor=pointer]:
+                - generic [ref=e82]:
+                  - strong [ref=e83]: 일정표 보기
+                  - generic [ref=e84]: 동선 먼저
+                - generic [ref=e85]: ›
+              - button "총 경비 보기 95 만~ › 💚 추천 항공·숙박 에어텔" [ref=e86] [cursor=pointer]:
+                - generic [ref=e87]:
+                  - strong [ref=e88]: 총 경비 보기
+                  - generic [ref=e89]:
+                    - generic [ref=e90]:
+                      - text: "95"
+                      - generic [ref=e91]: 만~
+                    - generic [ref=e92]: ›
+                - generic [ref=e93]:
+                  - generic [ref=e94]: 💚 추천
+                  - generic [ref=e95]: 항공·숙박 에어텔
+      - generic [ref=e96]:
+        - button "이전" [disabled]: ‹
+        - button "다음" [ref=e100] [cursor=pointer]: ›
+    - generic [ref=e101]:
+      - generic [ref=e102] [cursor=pointer]: 링크
+      - generic [ref=e103] [cursor=pointer]: 필수템
+    - generic [ref=e104]:
+      - generic [ref=e105]:
+        - img "파파트래블" [ref=e107]
+        - generic [ref=e108]:
+          - generic [ref=e109]: 해외 여행도 역시 파파트래블 ✈️
+          - text: 홍콩, 이시가키, 장가계까지! 파파트래블이 직접 다녀온 해외 여행지를 엄선했어요. 영상 속 예약은 아래 링크에서!
+      - generic [ref=e110]:
+        - heading "📹 해외 여행 영상" [level=3] [ref=e111]
+        - link "🔥 코타키나발루 비행기값 폭등 전 막차! 코타키나발루 4박6일 패키지 69만원 (노옵션/노쇼핑/노팁) youtube.com · 파파트래블" [ref=e112] [cursor=pointer]:
+          - /url: https://youtu.be/xBoB7ayeWUw
+          - img [ref=e113]
+          - generic [ref=e114]:
+            - generic [ref=e116]: 🔥 코타키나발루
+            - generic [ref=e117]: 비행기값 폭등 전 막차! 코타키나발루 4박6일 패키지 69만원 (노옵션/노쇼핑/노팁)
+            - generic [ref=e118]: youtube.com · 파파트래블
+        - generic [ref=e119]:
+          - generic [ref=e120]:
+            - generic [ref=e121]: 🏔️
+            - generic [ref=e122]:
+              - generic [ref=e123]: 장가계 · 칭다오 단독투어
+              - generic [ref=e124]: NO팁 · NO옵션 · NO쇼핑 · 파파트래블 추천
+          - link "🔗 예약 링크 장가계·칭다오 단독투어 예약 현지 여행사 특가 · 판다투어 예약하기 →" [ref=e125] [cursor=pointer]:
+            - /url: https://www.pandatour.co.kr/theme/pandatour_v2/html/business/02.php?cate=1&tg_id=145
+            - generic [ref=e126]:
+              - generic [ref=e127]: 🔗 예약 링크
+              - generic [ref=e128]: 장가계·칭다오 단독투어 예약
+              - generic [ref=e129]: 현지 여행사 특가 · 판다투어
+            - button "예약하기 →" [ref=e130]
+          - generic [ref=e131]: 📹 관련 영상
+          - generic [ref=e132]:
+            - link "💚 칭다오 칭다오 패키지 1인 41만원 — 숙박+요리+가이드+투어+차량" [ref=e133] [cursor=pointer]:
+              - /url: https://youtu.be/1hXFMM3EJ6Q
+              - img [ref=e134]
+              - generic [ref=e135]:
+                - generic [ref=e136]: 💚 칭다오
+                - generic [ref=e137]: 칭다오 패키지 1인 41만원 — 숙박+요리+가이드+투어+차량
+            - link "🔥 장가계 장가계 단독투어 4박5일 105만원 (봉황고성+부용진)" [ref=e138] [cursor=pointer]:
+              - /url: https://youtu.be/3G_CexBMfQ8
+              - img [ref=e139]
+              - generic [ref=e140]:
+                - generic [ref=e141]: 🔥 장가계
+                - generic [ref=e142]: 장가계 단독투어 4박5일 105만원 (봉황고성+부용진)
+            - link "💚 장가계 장가계 단독투어 4박5일 89만원 NO팁·NO옵션·NO쇼핑" [ref=e143] [cursor=pointer]:
+              - /url: https://youtu.be/njJxdo9gWTk
+              - img [ref=e144]
+              - generic [ref=e145]:
+                - generic [ref=e146]: 💚 장가계
+                - generic [ref=e147]: 장가계 단독투어 4박5일 89만원 NO팁·NO옵션·NO쇼핑
+            - link "🤝 파파트래블 x MRT 홍콩 3박4일 풀영상" [ref=e148] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=BTuwDSmoaik
+              - img [ref=e149]
+              - generic [ref=e150]:
+                - generic [ref=e151]: 🤝 파파트래블 x MRT
+                - generic [ref=e152]: 홍콩 3박4일 풀영상
+      - generic [ref=e153]:
+        - heading "📹 추천 영상" [level=3] [ref=e154]
+        - link "🔥 13만 조회수 밥도 주는 민박집 베스트 6 — 원주·태안·포항·부안·양평·거제 youtube.com · 파파트래블" [ref=e155] [cursor=pointer]:
+          - /url: https://youtu.be/ALHO2k3VJxU
+          - img [ref=e156]
+          - generic [ref=e157]:
+            - generic [ref=e159]: 🔥 13만 조회수
+            - generic [ref=e160]: 밥도 주는 민박집 베스트 6 — 원주·태안·포항·부안·양평·거제
+            - generic [ref=e161]: youtube.com · 파파트래블
+        - link "💚 14만 조회수 가성비 1박 2일 숙소 7선 — 통영·봉화·영주·금산·서천·진안 youtube.com · 파파트래블" [ref=e162] [cursor=pointer]:
+          - /url: https://youtu.be/prPgRKLOtqo
+          - img [ref=e163]
+          - generic [ref=e164]:
+            - generic [ref=e166]: 💚 14만 조회수
+            - generic [ref=e167]: 가성비 1박 2일 숙소 7선 — 통영·봉화·영주·금산·서천·진안
+            - generic [ref=e168]: youtube.com · 파파트래블
+        - link "🔥 22만 조회수 온천 호텔 베스트 4 — 양양·고창·청송·울진 youtube.com · 파파트래블" [ref=e169] [cursor=pointer]:
+          - /url: https://youtu.be/TSWBclf1QBs
+          - img [ref=e170]
+          - generic [ref=e171]:
+            - generic [ref=e173]: 🔥 22만 조회수
+            - generic [ref=e174]: 온천 호텔 베스트 4 — 양양·고창·청송·울진
+            - generic [ref=e175]: youtube.com · 파파트래블
+    - generic [ref=e177]:
+      - generic [ref=e178]: COLLABORATION
+      - link "✉ sukyoung.seok@myrealtrip.com" [ref=e179] [cursor=pointer]:
+        - /url: mailto:sukyoung.seok@myrealtrip.com
+      - generic [ref=e180]: © 2026 파파트래블 · myrealtrip
+  - generic [ref=e182]:
+    - generic [ref=e183] [cursor=pointer]: ←
+    - generic [ref=e185]: 해외 여행 추천 코스
+    - button "링크 복사" [ref=e186] [cursor=pointer]:
+      - img [ref=e187]
+      - text: 링크 복사
+  - generic:
+    - generic:
+      - generic:
+        - generic: 🇭🇰 홍콩 3박 4일 총경비
+        - button "링크 복사":
+          - img
+          - text: 링크 복사
+      - generic: 파파트래블 추천 코스 · 1인 기준
+      - generic:
+        - generic: ✈️
+        - generic:
+          - generic:
+            - text: 항공권
+            - generic: 직항
+          - generic: 인천↔홍콩 직항 · 약 3시간 30분
+        - generic:
+          - generic: ₩200,000
+          - button "예약 바로가기"
+      - generic:
+        - generic:
+          - generic: 🏨
+          - generic:
+            - generic:
+              - text: 뉴월드 밀레니엄 홍콩
+              - generic: 파파 추천
+            - generic: 호텔 3박 2인 1실 1인 기준
+          - generic:
+            - generic: ₩300,000
+            - button "예약 바로가기"
+      - generic:
+        - generic: 🍜
+        - generic:
+          - generic: 식비 · 현지 경비
+          - generic: 딤섬·완탕면·에그타르트 포함
+        - generic:
+          - generic: ₩150,000
+      - generic:
+        - generic: 총 경비
+        - generic: ₩650,000
+      - generic: ✈️직항 기준 · 🏨호텔 2인 1실 1인 기준 · 식비는 평균값
+  - generic:
+    - generic:
+      - generic: 🎫 파트너 쿠폰
+      - generic: 파파트래블 통해 예약하면 받을 수 있는 혜택
+      - generic:
+        - generic:
+          - generic: 마이리얼트립 파트너 혜택
+          - generic: 첫 예약 3,000원 할인
+          - generic: 5만원 이상 결제 시 · 1회 사용 가능
+          - generic:
+            - generic: "유효기간: 2026.05.31까지"
+            - generic: 잔여 47장
+        - button "받기"
+      - generic:
+        - generic:
+          - generic: 재방문 감사 쿠폰
+          - generic: 2번째 예약 5% 할인
+          - generic: 최대 1만원 · 파파트래블 전용
+          - generic:
+            - generic: "유효기간: 2026.06.30까지"
+            - generic: 잔여 23장
+        - button "받기"

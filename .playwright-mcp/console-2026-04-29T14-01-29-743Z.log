@@ -1,0 +1,2 @@
+[    1105ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.myrealtrip.com/api/v3/offers?keyword=%EB%A1%9C%EB%A7%88&per_page=8&page=1:0
+[    2732ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://o249654.ingest.us.sentry.io/api/4508215148609536/envelope/?sentry_key=f7811d4b584bcbe6a580d37882587952&sentry_version=7&sentry_client=sentry.javascript.nextjs%2F7.102.1:0

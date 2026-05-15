@@ -1,0 +1,238 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: 이 페이지의 링크를 통해 구매 시 수수료를 받아 채널 운영에 도움이 됩니다.
+    - generic [ref=e7]:
+      - img "부산맛나" [ref=e9]
+      - generic [ref=e10]:
+        - heading "부산맛나" [level=2] [ref=e11]
+        - paragraph [ref=e12]: 부산 찐맛집 · 여행 전문탐방 크리에이터
+        - generic [ref=e13]:
+          - link "Instagram" [ref=e14] [cursor=pointer]:
+            - /url: https://www.instagram.com/busan_matna_/
+            - img "Instagram" [ref=e15]
+          - link "✉️" [ref=e16] [cursor=pointer]:
+            - /url: mailto:ttt0831@naver.com
+    - link "부산맛나 팔로워 전용 선착순 할인 쿠폰팩 최대 99,000 원 8종 구성 받기" [ref=e17] [cursor=pointer]:
+      - /url: https://www.myrealtrip.com/coupons
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - generic [ref=e22]: 부산맛나 팔로워 전용
+          - generic [ref=e23]: 선착순 할인 쿠폰팩
+          - generic [ref=e25]:
+            - generic [ref=e26]: 최대
+            - generic [ref=e27]: 99,000
+            - generic [ref=e28]: 원
+          - generic:
+            - generic: 8종
+            - generic: 구성
+        - generic [ref=e29]:
+          - img [ref=e30]
+          - generic [ref=e32]: 받기
+    - generic [ref=e35]:
+      - generic [ref=e37]:
+        - generic [ref=e38]: 🇯🇵
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e41]: 5박 6일
+            - generic [ref=e42]: 인당 123만원
+          - generic [ref=e43]: 삿포로 가성비 코스
+      - generic [ref=e44]:
+        - generic [ref=e45]: 어디부터 볼까요?
+        - generic [ref=e46]:
+          - button "일정표 보기 DAY별 동선 확인 ›" [ref=e47] [cursor=pointer]:
+            - generic [ref=e48]:
+              - strong [ref=e49]: 일정표 보기
+              - generic [ref=e50]: DAY별 동선 확인
+            - generic [ref=e51]: ›
+          - button "상세 경비 보기 85만~ › 🔥 인기 항공·숙소·투어 한 번에" [ref=e52] [cursor=pointer]:
+            - generic [ref=e53]:
+              - strong [ref=e54]: 상세 경비 보기
+              - generic [ref=e55]:
+                - generic [ref=e56]: 85만~
+                - generic [ref=e57]: ›
+            - generic [ref=e58]:
+              - generic [ref=e59]: 🔥 인기
+              - generic [ref=e60]: 항공·숙소·투어 한 번에
+    - generic [ref=e64]:
+      - generic [ref=e65] [cursor=pointer]: 링크
+      - generic [ref=e66] [cursor=pointer]: 필수템
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - img [ref=e70]
+        - generic [ref=e71]:
+          - generic [ref=e72]: 🍜 부산 찐맛집부터 해외 여행 전문탐방까지
+          - text: 부산의 찐 맛집을 탐방하며 해외 여행도 빠삭하게 정리하는 부산맛나님. 삿포로 5박6일 인당 123만원 코스 — 료칸부터 스프카레, 징기스칸까지 완전 정복!
+      - generic [ref=e73]:
+        - heading "📸 추천 콘텐츠" [level=3] [ref=e74]
+        - link "🇯🇵 경비 총정리 삿포로 5박6일 인당 123만원 료칸·스프카레·징기스칸·버스투어 완전 정복 ›" [ref=e75] [cursor=pointer]:
+          - /url: https://www.instagram.com/reel/DSCL2k-EpkW/
+          - generic [ref=e76]: 🇯🇵
+          - generic [ref=e77]:
+            - generic [ref=e79]: 경비 총정리
+            - generic [ref=e80]: 삿포로 5박6일 인당 123만원
+            - generic [ref=e81]: 료칸·스프카레·징기스칸·버스투어 완전 정복
+          - generic [ref=e82]: ›
+    - generic [ref=e84]:
+      - generic [ref=e85]: COLLABORATION
+      - link "✉ ttt0831@naver.com" [ref=e86] [cursor=pointer]:
+        - /url: mailto:ttt0831@naver.com
+      - generic [ref=e87]: © 2026 부산맛나 · myrealtrip
+  - generic [ref=e88]:
+    - generic [ref=e89]:
+      - generic [ref=e90] [cursor=pointer]: ←
+      - generic [ref=e92]: 삿포로 3박 4일 총경비
+      - button "링크 복사" [ref=e93] [cursor=pointer]:
+        - img [ref=e94]
+        - text: 링크 복사
+    - generic [ref=e100]:
+      - generic:
+        - generic:
+          - img
+        - generic:
+          - button "D1" [ref=e105] [cursor=pointer]:
+            - generic [ref=e107]: D1
+          - button "D1" [ref=e108] [cursor=pointer]:
+            - generic [ref=e110]: D1
+          - button "D1" [ref=e111] [cursor=pointer]:
+            - generic [ref=e113]: D1
+          - button "D2" [ref=e114] [cursor=pointer]:
+            - generic [ref=e116]: D2
+          - button "D2" [ref=e117] [cursor=pointer]:
+            - generic [ref=e119]: D2
+          - button "D2" [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: D2
+          - button "D2" [ref=e123] [cursor=pointer]:
+            - generic [ref=e125]: D2
+          - button "D3" [ref=e126] [cursor=pointer]:
+            - generic [ref=e128]: D3
+          - button "D3" [ref=e129] [cursor=pointer]:
+            - generic [ref=e131]: D3
+          - button "D3" [ref=e132] [cursor=pointer]:
+            - generic [ref=e134]: D3
+          - button "D3" [ref=e135] [cursor=pointer]:
+            - generic [ref=e137]: D3
+    - generic [ref=e101]:
+      - generic [ref=e138] [cursor=pointer]: DAY 1
+      - generic [ref=e139] [cursor=pointer]: DAY 2
+      - generic [ref=e140] [cursor=pointer]: DAY 3
+    - generic [ref=e102]:
+      - generic [ref=e141]:
+        - generic [ref=e142]: D1 · 출발 → 삿포로
+        - generic [ref=e143]: 💰 항공+이심
+      - generic [ref=e148]:
+        - generic [ref=e149]:
+          - generic [ref=e150]: 09:00 출발
+          - generic [ref=e151]: 왕복 ₩300,000~
+        - generic [ref=e152]: 인천국제공항
+        - generic [ref=e153]: 삿포로 직항 약 3시간. 가깝고 짧아서 부담 없는 여행 ✈️
+        - generic [ref=e154]:
+          - generic [ref=e155]: ✈️
+          - generic [ref=e156]:
+            - generic [ref=e157]: 필수
+            - generic [ref=e158]: 인천-삿포로 왕복 항공권
+            - generic [ref=e159]: ₩300,000~
+          - button "예약하기" [ref=e160] [cursor=pointer]
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - generic [ref=e167]: 12:00 도착
+          - generic [ref=e168]: 열차 ₩8,000~
+        - generic [ref=e169]: 신치토세 공항 → 삿포로역
+        - generic [ref=e170]: 쾌속열차로 36분이면 삿포로역. 이심 미리 개통하면 이동 완벽 대응 📱
+        - generic [ref=e171]:
+          - generic [ref=e172]: 📱
+          - generic [ref=e173]:
+            - generic [ref=e174]: 필수
+            - generic [ref=e175]: 일본 이심 (7일, 무제한)
+            - generic [ref=e176]: ₩13,000
+          - button "예약하기" [ref=e177] [cursor=pointer]
+      - generic [ref=e181]:
+        - generic [ref=e182]:
+          - generic [ref=e183]: 저녁
+          - generic [ref=e184]: 라멘 ₩12,000~
+        - generic [ref=e185]: 스스키노 라멘 골목
+        - generic [ref=e186]: 삿포로 미소라멘 꼭 드세요! 스스키노 라멘 골목에서 진한 버터콘 라멘 추천 🍜
+  - generic [ref=e189]:
+    - generic [ref=e191]:
+      - generic [ref=e192]: 삿포로 3박 4일 총경비
+      - button "링크 복사" [ref=e193] [cursor=pointer]:
+        - img [ref=e194]
+        - text: 링크 복사
+    - generic [ref=e200]: 부산맛나 추천 코스 · 1인 기준
+    - generic [ref=e201]:
+      - generic [ref=e202]: ✈️
+      - generic [ref=e203]:
+        - generic [ref=e204]:
+          - text: 항공권
+          - generic [ref=e205]: 직항
+        - generic [ref=e206]: 인천-삿포로 직항 기준
+      - generic [ref=e207]:
+        - generic [ref=e208]: ₩254,200
+        - button "예약 바로가기" [ref=e209] [cursor=pointer]
+    - generic [ref=e211]:
+      - generic [ref=e212]: 🏨
+      - generic [ref=e213]:
+        - generic [ref=e214]:
+          - text: 삿포로역 인근 호텔
+          - generic [ref=e215]: 부산맛나 추천
+        - generic [ref=e216]: 삿포로 시내 2박 1인 기준
+      - generic [ref=e217]:
+        - generic [ref=e218]: ₩160,000
+        - button "예약 바로가기" [ref=e219] [cursor=pointer]
+    - generic [ref=e220]:
+      - generic [ref=e221]: 🍜
+      - generic [ref=e222]:
+        - generic [ref=e223]: 식비 · 현지 경비
+        - generic [ref=e224]: 라멘·초밥·스프카레 홋카이도 식비 3박
+      - generic [ref=e226]: ₩200,000
+    - generic [ref=e227]:
+      - generic [ref=e229]: 🎫 부산맛나 추천 코스
+      - generic [ref=e230]:
+        - generic [ref=e231]: ⭐
+        - generic [ref=e232]:
+          - generic [ref=e233]: 삿포로 비에이 후라노 버스투어 DSLR 촬영 (인디고트래블)
+          - generic [ref=e234]: DSLR 사진촬영 포함 버스투어
+        - generic [ref=e235]:
+          - generic [ref=e236]: ₩235,843
+          - button "예약 바로가기" [ref=e237] [cursor=pointer]
+      - generic [ref=e238]:
+        - generic [ref=e239]: 🗼
+        - generic [ref=e240]:
+          - generic [ref=e241]: 삿포로 TV 타워 입장권
+          - generic [ref=e242]: 오도리공원 전망 · 즉시확정
+        - generic [ref=e243]:
+          - generic [ref=e244]: ₩18,923
+          - button "예약 바로가기" [ref=e245] [cursor=pointer]
+      - generic [ref=e246]:
+        - generic [ref=e247]: 🚂
+        - generic [ref=e248]:
+          - generic [ref=e249]: JR홋카이도 삿포로-노보리베츠 에리어패스 4일권
+          - generic [ref=e250]: 노보리베츠 온천 왕복 포함
+        - generic [ref=e251]:
+          - generic [ref=e252]: ₩190,002
+          - button "예약 바로가기" [ref=e253] [cursor=pointer]
+    - generic [ref=e254]:
+      - generic [ref=e255]: 총 경비
+      - generic [ref=e256]: ₩1,058,968
+    - generic [ref=e257]: · 3박 4일 1인 평균값 · 항공 유류세 포함
+  - generic:
+    - generic:
+      - generic: 🎫 파트너 쿠폰
+      - generic: 부산맛나 통해 예약하면 받을 수 있는 혜택
+      - generic:
+        - generic:
+          - generic: 마이리얼트립 파트너 혜택
+          - generic: 첫 예약 3,000원 할인
+          - generic: 5만원 이상 결제 시 · 1회 사용 가능
+          - generic:
+            - generic: "유효기간: 2026.06.30까지"
+            - generic: 잔여 47장
+        - button "받기"
+      - generic:
+        - generic:
+          - generic: 재방문 감사 쿠폰
+          - generic: 2번째 예약 5% 할인
+          - generic: 최대 1만원 · 부산맛나 전용
+          - generic:
+            - generic: "유효기간: 2026.07.31까지"
+            - generic: 잔여 23장
+        - button "받기"

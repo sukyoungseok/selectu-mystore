@@ -1,0 +1,309 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: 이 페이지의 링크를 통해 구매 시 수수료를 받아 채널 운영에 도움이 됩니다.
+    - generic [ref=e7]:
+      - img "스톤워터" [ref=e9]
+      - generic [ref=e10]:
+        - heading "스톤워터" [level=2] [ref=e11]
+        - paragraph [ref=e12]: 여행 크리에이터 · @myrealtrip
+        - generic [ref=e13]:
+          - link "Instagram" [ref=e14] [cursor=pointer]:
+            - /url: https://www.instagram.com/myrealtrip
+          - link "YouTube" [ref=e15] [cursor=pointer]:
+            - /url: "#"
+          - link "Blog" [ref=e16] [cursor=pointer]:
+            - /url: "#"
+          - link "광고/협업 문의" [ref=e17] [cursor=pointer]:
+            - /url: mailto:sukyoung.seok@myrealtrip.com
+            - img [ref=e18]
+    - link "스톤워터 팔로워 전용 선착순 할인 쿠폰팩 총 99,000 원 3종 구성 쿠폰 다운받기" [ref=e21] [cursor=pointer]:
+      - /url: https://www.myrealtrip.com/coupons
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]: 스톤워터 팔로워 전용
+          - generic [ref=e27]: 선착순 할인 쿠폰팩
+          - generic [ref=e29]:
+            - generic [ref=e30]: 총
+            - generic [ref=e31]: 99,000
+            - generic [ref=e32]: 원
+          - generic:
+            - generic: 3종
+            - generic: 구성
+        - generic "쿠폰 다운받기" [ref=e33]:
+          - img [ref=e34]
+          - generic [ref=e36]: 받기
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: 🇯🇵
+            - generic [ref=e43]:
+              - generic [ref=e44]:
+                - generic [ref=e45]: 3박 4일
+                - generic [ref=e46]: 26년 5월 여행
+              - generic [ref=e47]: 오사카 & 교토
+          - generic [ref=e48]:
+            - generic [ref=e49]: 어디부터 볼까요?
+            - generic [ref=e50]:
+              - button "일정표 보기 동선 먼저 ›" [ref=e51] [cursor=pointer]:
+                - generic [ref=e52]:
+                  - strong [ref=e53]: 일정표 보기
+                  - generic [ref=e54]: 동선 먼저
+                - generic [ref=e55]: ›
+              - button "상세 경비 보기 102 만~ › 🔥 인기 항공·숙소·교통 한 번에" [ref=e56] [cursor=pointer]:
+                - generic [ref=e57]:
+                  - strong [ref=e58]: 상세 경비 보기
+                  - generic [ref=e59]:
+                    - generic [ref=e60]:
+                      - text: "102"
+                      - generic [ref=e61]: 만~
+                    - generic [ref=e62]: ›
+                - generic [ref=e63]:
+                  - generic [ref=e64]: 🔥 인기
+                  - generic [ref=e65]: 항공·숙소·교통 한 번에
+        - generic [ref=e66]:
+          - generic [ref=e68]:
+            - generic [ref=e69]: 🇯🇵
+            - generic [ref=e70]:
+              - generic [ref=e71]:
+                - generic [ref=e72]: 4박 5일
+                - generic [ref=e73]: 25년 11월 여행
+              - generic [ref=e74]: 도쿄 & 하코네
+          - generic [ref=e75]:
+            - generic [ref=e76]: 어디부터 볼까요?
+            - generic [ref=e77]:
+              - button "일정표 보기 동선 먼저 ›" [ref=e78] [cursor=pointer]:
+                - generic [ref=e79]:
+                  - strong [ref=e80]: 일정표 보기
+                  - generic [ref=e81]: 동선 먼저
+                - generic [ref=e82]: ›
+              - button "상세 경비 보기 148 만~ › 🔥 인기 항공·숙소·교통 한 번에" [ref=e83] [cursor=pointer]:
+                - generic [ref=e84]:
+                  - strong [ref=e85]: 상세 경비 보기
+                  - generic [ref=e86]:
+                    - generic [ref=e87]:
+                      - text: "148"
+                      - generic [ref=e88]: 만~
+                    - generic [ref=e89]: ›
+                - generic [ref=e90]:
+                  - generic [ref=e91]: 🔥 인기
+                  - generic [ref=e92]: 항공·숙소·교통 한 번에
+        - generic [ref=e93]:
+          - generic [ref=e95]:
+            - generic [ref=e96]: 🇹🇭
+            - generic [ref=e97]:
+              - generic [ref=e98]:
+                - generic [ref=e99]: 3박 5일
+                - generic [ref=e100]: 26년 2월 여행
+              - generic [ref=e101]: 방콕 & 아유타야
+          - generic [ref=e102]:
+            - generic [ref=e103]: 어디부터 볼까요?
+            - generic [ref=e104]:
+              - button "일정표 보기 동선 먼저 ›" [ref=e105] [cursor=pointer]:
+                - generic [ref=e106]:
+                  - strong [ref=e107]: 일정표 보기
+                  - generic [ref=e108]: 동선 먼저
+                - generic [ref=e109]: ›
+              - button "상세 경비 보기 86 만~ › 🔥 인기 항공·숙소·교통 한 번에" [ref=e110] [cursor=pointer]:
+                - generic [ref=e111]:
+                  - strong [ref=e112]: 상세 경비 보기
+                  - generic [ref=e113]:
+                    - generic [ref=e114]:
+                      - text: "86"
+                      - generic [ref=e115]: 만~
+                    - generic [ref=e116]: ›
+                - generic [ref=e117]:
+                  - generic [ref=e118]: 🔥 인기
+                  - generic [ref=e119]: 항공·숙소·교통 한 번에
+        - generic [ref=e120]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: 🇹🇼
+            - generic [ref=e124]:
+              - generic [ref=e125]:
+                - generic [ref=e126]: 2박 3일
+                - generic [ref=e127]: 25년 10월 여행
+              - generic [ref=e128]: 타이베이
+          - generic [ref=e129]:
+            - generic [ref=e130]: 어디부터 볼까요?
+            - generic [ref=e131]:
+              - button "일정표 보기 동선 먼저 ›" [ref=e132] [cursor=pointer]:
+                - generic [ref=e133]:
+                  - strong [ref=e134]: 일정표 보기
+                  - generic [ref=e135]: 동선 먼저
+                - generic [ref=e136]: ›
+              - button "상세 경비 보기 62 만~ › 🔥 인기 항공·숙소·교통 한 번에" [ref=e137] [cursor=pointer]:
+                - generic [ref=e138]:
+                  - strong [ref=e139]: 상세 경비 보기
+                  - generic [ref=e140]:
+                    - generic [ref=e141]:
+                      - text: "62"
+                      - generic [ref=e142]: 만~
+                    - generic [ref=e143]: ›
+                - generic [ref=e144]:
+                  - generic [ref=e145]: 🔥 인기
+                  - generic [ref=e146]: 항공·숙소·교통 한 번에
+      - generic [ref=e147]:
+        - button "이전" [disabled]: ‹
+        - button "다음" [ref=e153] [cursor=pointer]: ›
+    - generic [ref=e154]:
+      - generic [ref=e155] [cursor=pointer]: 링크
+      - generic [ref=e156] [cursor=pointer]: 필수템
+    - generic [ref=e157]:
+      - generic [ref=e158]:
+        - generic [ref=e159]: 추가할 수 있는 블록 종류
+        - generic [ref=e160]: 원하는 타입을 골라 링크를 넣으세요. 여러 개 조합도 가능해요.
+      - generic [ref=e161]:
+        - generic [ref=e162]:
+          - generic [ref=e163]: 타입 1
+          - generic [ref=e164]: 말풍선 소개 — 섹션 도입부, 크리에이터 한마디
+        - generic [ref=e167]:
+          - generic [ref=e168]: 직접 써보는 한마디!
+          - text: 여기에 여행 후기나 추천 이유를 자유롭게 적어요.
+          - emphasis [ref=e169]: 강조하고 싶은 부분
+          - text: 은 하이라이트도 넣을 수 있어요.
+      - generic [ref=e171]:
+        - generic [ref=e172]:
+          - generic [ref=e173]: 타입 2
+          - generic [ref=e174]: 썸네일 링크 — 사진+제목+부제 · 가장 범용적
+        - link "🔥 인기 광고X 제목이 들어가는 자리예요 부제목 · 설명 한 줄 →" [ref=e176] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e178]
+          - generic [ref=e179]:
+            - generic [ref=e180]:
+              - generic [ref=e181]: 🔥 인기
+              - generic [ref=e182]: 광고X
+            - generic [ref=e183]: 제목이 들어가는 자리예요
+            - generic [ref=e184]: 부제목 · 설명 한 줄
+          - generic [ref=e185]: →
+      - generic [ref=e187]:
+        - generic [ref=e188]:
+          - generic [ref=e189]: 타입 3
+          - generic [ref=e190]: 심플 링크 — SNS 채널, 블로그 등 단순 이동
+        - generic [ref=e191]:
+          - link "인스타그램 팔로우 →" [ref=e192] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e193]: 인스타그램 팔로우
+            - generic [ref=e194]: →
+          - link "유튜브 채널 구독 →" [ref=e195] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e196]: 유튜브 채널 구독
+            - generic [ref=e197]: →
+      - generic [ref=e199]:
+        - generic [ref=e200]:
+          - generic [ref=e201]: 타입 4
+          - generic [ref=e202]: 풀 컬러 카드 — 하나의 링크를 크게 강조할 때
+        - link "🎧 여행 팟캐스트 · \"오사카 4박의 기록\"" [ref=e204] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e206]:
+        - generic [ref=e207]:
+          - generic [ref=e208]: 타입 5
+          - generic [ref=e209]: 배경 이미지 링크 — 사진 위 텍스트 · 감성적인 링크
+        - link "⛩️ 교토 청수사 · 기온 포토 모음" [ref=e211] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e212]: ⛩️ 교토 청수사 · 기온 포토 모음
+      - generic [ref=e214]:
+        - generic [ref=e215]:
+          - generic [ref=e216]: 타입 6
+          - generic [ref=e217]: 3열 사진 모음 — DAY별 코스, 카테고리별 묶음
+        - generic [ref=e218]:
+          - link "D1 오사카" [ref=e219] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e221]
+            - generic [ref=e222]: D1 오사카
+          - link "D2 난바" [ref=e223] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e225]
+            - generic [ref=e226]: D2 난바
+          - link "D3 교토" [ref=e227] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e229]
+            - generic [ref=e230]: D3 교토
+      - generic [ref=e232]:
+        - generic [ref=e233]:
+          - generic [ref=e234]: 타입 7
+          - generic [ref=e235]: URL 미리보기 카드 — 링크 붙이면 자동으로 생성
+        - link "🌃 💡 추천 URL을 넣으면 제목·이미지가 자동으로 채워져요 myrealtrip.com" [ref=e237] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e238]: 🌃
+          - generic [ref=e239]:
+            - generic [ref=e241]: 💡 추천
+            - generic [ref=e242]: URL을 넣으면 제목·이미지가 자동으로 채워져요
+            - generic [ref=e243]: myrealtrip.com
+    - generic [ref=e245]:
+      - generic [ref=e246]: COLLABORATION
+      - link "✉ sukyoung.seok@myrealtrip.com" [ref=e247] [cursor=pointer]:
+        - /url: mailto:sukyoung.seok@myrealtrip.com
+      - generic [ref=e248]: © 2026 스톤워터 · myrealtrip
+  - generic [ref=e250]:
+    - generic [ref=e251] [cursor=pointer]: ←
+    - generic [ref=e253]: 오사카&교토 여행 코스
+    - button "링크 복사" [ref=e254] [cursor=pointer]:
+      - img [ref=e255]
+      - text: 링크 복사
+  - generic:
+    - generic:
+      - generic:
+        - generic: ✈️ 오사카&교토 3박 4일 총경비
+        - button "링크 복사":
+          - img
+          - text: 링크 복사
+      - generic: 스톤워터 직접 다녀온 여행 · 1인 기준
+      - generic:
+        - generic: ✈️
+        - generic:
+          - generic:
+            - text: 항공
+            - generic: 실시간 최저가
+          - generic: 진에어 왕복 · 이코노미
+        - generic:
+          - generic: ₩300,000
+          - button "예약 바로가기"
+      - generic:
+        - generic: 🏨
+        - generic:
+          - generic:
+            - text: 숙소
+            - generic: 실시간 최저가
+          - generic: 에어비앤비 3박
+        - generic:
+          - generic: ₩250,000
+          - button "예약 바로가기"
+      - generic:
+        - generic: 🍜
+        - generic:
+          - generic: 식비 · 현지 경비
+          - generic: 환전 기준 · 쇼핑/맛집/기타 포함
+        - generic:
+          - generic: ₩405,000
+      - generic:
+        - generic: 총 총경비
+        - generic: ₩1,022,000
+      - generic: ✈️항공·🏨숙소는 실시간 최저가 기준 · 식비는 평균값
+  - generic:
+    - generic:
+      - generic: 🎫 파트너 쿠폰
+      - generic: 스톤워터 통해 예약하면 받을 수 있는 혜택
+      - generic:
+        - generic:
+          - generic: 마이리얼트립 파트너 혜택
+          - generic: 첫 예약 3,000원 할인
+          - generic: 5만원 이상 결제 시 · 1회 사용 가능
+          - generic:
+            - generic: "유효기간: 2026.05.31까지"
+            - generic: 잔여 47장
+        - button "받기"
+      - generic:
+        - generic:
+          - generic: 재방문 감사 쿠폰
+          - generic: 2번째 예약 5% 할인
+          - generic: 최대 1만원 · 스톤워터 전용
+          - generic:
+            - generic: "유효기간: 2026.06.30까지"
+            - generic: 잔여 23장
+        - button "받기"
+      - generic:
+        - generic:
+          - generic: 사용 완료
+          - generic: 웰컴 쿠폰 2,000원
+          - generic: 첫 방문 기념 쿠폰
+        - button "완료" [disabled]

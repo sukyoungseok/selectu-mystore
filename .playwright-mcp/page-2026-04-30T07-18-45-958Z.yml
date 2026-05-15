@@ -1,0 +1,38 @@
+- generic [ref=e9]:
+  - generic [ref=e11]:
+    - button [ref=e12] [cursor=pointer]:
+      - img [ref=e13]
+    - button [ref=e16] [cursor=pointer]:
+      - img [ref=e17]
+  - generic [ref=e20]:
+    - img [ref=e23]
+    - heading "제이나 :)" [level=1] [ref=e26]
+  - generic [ref=e28]:
+    - link "알리 트래블 최대 60% 할인" [ref=e32] [cursor=pointer]:
+      - /url: https://web.aliexpress.com/trip/h5-global-channel/channel/index.html?disableNav=true&adc_manifest=fliggy&_immersiveMode=true&searchType=flight
+      - heading "알리 트래블 최대 60% 할인" [level=2] [ref=e38]
+    - link "Saily eSIM 15% 할인 코드 jayna" [ref=e42] [cursor=pointer]:
+      - /url: https://saily.com/jayna
+      - heading "Saily eSIM 15% 할인 코드 jayna" [level=2] [ref=e48]
+    - link "하나LIVE 세부 제이파크 에어텔 특가" [ref=e52] [cursor=pointer]:
+      - /url: https://hanatour.onelink.me/sj38/gik0vx0f
+      - generic [ref=e57]:
+        - img [ref=e58]
+        - heading "하나LIVE 세부 제이파크 에어텔 특가" [level=2] [ref=e60]
+    - link "제이나의 아시아 여행로그 클립 홈💚" [ref=e64] [cursor=pointer]:
+      - /url: https://naver.me/FINYhOZ3
+      - heading "제이나의 아시아 여행로그 클립 홈💚" [level=2] [ref=e70]
+    - link "제이나의 아시아 여행 블로그 💚" [ref=e74] [cursor=pointer]:
+      - /url: https://m.blog.naver.com/life_traveler_jayna
+      - heading "제이나의 아시아 여행 블로그 💚" [level=2] [ref=e80]
+    - link "또 떠나 제이나 유튜브🎥" [ref=e84] [cursor=pointer]:
+      - /url: https://youtube.com/@life_traveler_jayna?si=is0d4BPP4sDOvI6J
+      - heading "또 떠나 제이나 유튜브🎥" [level=2] [ref=e90]
+    - generic [ref=e92]:
+      - heading "협업 및 협찬 문의 💌" [level=2] [ref=e93]
+      - button "문의하기" [ref=e94] [cursor=pointer]:
+        - generic [ref=e95]: 문의하기
+  - button "MY 페이지 무료로 만들기 >" [ref=e99] [cursor=pointer]:
+    - generic [ref=e100]:
+      - img [ref=e101]
+      - generic [ref=e102]: MY 페이지 무료로 만들기 >

@@ -1,0 +1,19 @@
+[     182ms] [LOG] ko 50 @ https://d2yoing0loi5gh.cloudfront.net/assets/kitty/ko-3689a3597975099a491fe1bc8d5baa2991b4bab88109a04b99b972d6f63e90c5.js:1
+[     259ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://dffoxz5he03rp.cloudfront.net/build/production/67263cda47c869b2dd48fb5b1b29e2a55e1ae762/vendor.js:8589
+[     264ms] [LOG]   
+                                              _   _            _     
+                                         //  | | | |          (_)     
+    _ __ ___    _   _   _ __    ___    __ _  | | | |_   _ __   _   _ __     
+   | '_ ` _ \  | | | | | '__|  / _ \  / _` | | | | __| | '__| | | | '_ \     
+   | | | | | | | |_| | | |    |  __/ | (_| | | | | |_  | |    | | | |_) |     
+   |_| |_| |_|  \__, | |_|     \___|  \__,_| |_|  \__| |_|    |_| | .__/     
+                 __/ |                                            | |     
+                |___/           //                                |_|     
+  
+  
+  	%cWe're hiring!🦄  %cJoin %cOur %cTeam!🍕🍺 https://career.myrealtrip.com/ color:#51abf3;font-size:11px; color:#f53e05;font-size:11px; color:#ffaa00;font-size:11px; color:#2eb82e;font-size:11px; @ https://dffoxz5he03rp.cloudfront.net/build/production/67263cda47c869b2dd48fb5b1b29e2a55e1ae762/vendor.js:8589
+[    4854ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://o249654.ingest.us.sentry.io/api/4508215148609536/envelope/?sentry_key=f7811d4b584bcbe6a580d37882587952&sentry_version=7&sentry_client=sentry.javascript.nextjs%2F7.102.1:0
+[    5692ms] [WARNING] The resource https://dffoxz5he03rp.cloudfront.net/dynamic-list-build/f86cce8cf933eddc327369abe912f83dc35741e1/_next/static/media/ad5d93cd54532577-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.myrealtrip.com/search?q=%EB%A1%9C%EB%A7%88:0
+[    5692ms] [WARNING] The resource https://dffoxz5he03rp.cloudfront.net/dynamic-list-build/f86cce8cf933eddc327369abe912f83dc35741e1/_next/static/media/775c6667d99f77e1-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.myrealtrip.com/search?q=%EB%A1%9C%EB%A7%88:0
+[    5692ms] [WARNING] The resource https://dffoxz5he03rp.cloudfront.net/dynamic-list-build/f86cce8cf933eddc327369abe912f83dc35741e1/_next/static/media/e9955780856cf8aa-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.myrealtrip.com/search?q=%EB%A1%9C%EB%A7%88:0
+[    5692ms] [WARNING] The resource https://dffoxz5he03rp.cloudfront.net/dynamic-list-build/f86cce8cf933eddc327369abe912f83dc35741e1/_next/static/media/08393bc5e9b3ebc7-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.myrealtrip.com/search?q=%EB%A1%9C%EB%A7%88:0

@@ -1,0 +1,230 @@
+- generic [ref=e4]:
+  - generic [ref=e9]:
+    - generic [ref=e12]:
+      - link "Instagram" [ref=e17] [cursor=pointer]:
+        - /url: /
+        - img "Instagram" [ref=e22]
+      - generic [ref=e25]:
+        - link "홈" [ref=e30] [cursor=pointer]:
+          - /url: /
+          - img "홈" [ref=e35]
+        - link "릴스" [ref=e40] [cursor=pointer]:
+          - /url: /reels/
+          - img "릴스" [ref=e45]
+        - link "메시지" [ref=e52] [cursor=pointer]:
+          - /url: /direct/inbox/
+          - img "메시지" [ref=e57]
+        - link "검색" [ref=e63] [cursor=pointer]:
+          - /url: "#"
+          - img "검색" [ref=e68]
+        - link "탐색 탭" [ref=e74] [cursor=pointer]:
+          - /url: /explore/
+          - img "탐색 탭" [ref=e79]
+        - link "알림" [ref=e87] [cursor=pointer]:
+          - /url: "#"
+          - img "알림" [ref=e92]
+        - link "새로운 게시물" [ref=e100] [cursor=pointer]:
+          - /url: "#"
+          - img "새로운 게시물" [ref=e105]
+        - link "프로페셔널 대시보드" [ref=e110] [cursor=pointer]:
+          - /url: "#"
+          - img "프로페셔널 대시보드" [ref=e115]
+        - link [ref=e122] [cursor=pointer]:
+          - /url: /stone.water_/
+          - link [ref=e127]
+      - generic [ref=e128]:
+        - link "설정" [ref=e131] [cursor=pointer]:
+          - /url: "#"
+          - img "설정" [ref=e136]
+        - link "Meta의 다른 앱" [ref=e139] [cursor=pointer]:
+          - /url: "#"
+          - img "Meta의 다른 앱" [ref=e144]
+    - main [ref=e148]:
+      - generic [active] [ref=e149]:
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - generic [ref=e156]:
+              - generic [ref=e159]:
+                - link "_sohee.e님의 릴스" [ref=e160] [cursor=pointer]:
+                  - /url: /_sohee.e/reels/
+                  - link "_sohee.e님의 프로필 사진" [ref=e163]:
+                    - img "_sohee.e님의 프로필 사진" [ref=e164]
+                - generic [ref=e165]:
+                  - generic [ref=e166]:
+                    - link "_sohee.e님의 릴스" [ref=e167] [cursor=pointer]:
+                      - /url: /_sohee.e/reels/
+                      - generic [ref=e168]: _sohee.e
+                    - img "인증됨" [ref=e170]
+                  - link "태그된 사용자 2명" [ref=e177] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e178]:
+                      - img "태그된 사용자" [ref=e180]
+                      - generic [ref=e183]: 2명
+              - 'button "항공권 20만원, 2시간 반만에 가는 천국도 이시가키 총정리🩵 + 파일 무료 공유 EVENT📘 몰디브만 3번 다녀왔지만 이시가키에 도착해서 뽕따색 물색에 제대로 반했어요🫧 미야코지마 보다 한국인들에게 덜 알려졌고 여름 성수기도 항공편이 20만원대인 비밀 여행지예요🗾 아직 정보가 많이 없는만큼 편하게 계획 세우실 수 있도록 제가 다녀온 일정 + 경비 + 맛집 + 숙소 + 교통편 + 액티비티 정보 등을 정리했어요📝 💌이시가키 총정리 파일 필요하신 분들은 댓글에 [이시가키 파일] 남겨주시면 1초만에 파일 신청링크 보내드릴게요🫶🏻 *메시지가 오지 않는 경우 @_sohee.e 팔로우 되어있는지 확인해주세요* [🏷️이시가키 여행 꿀팁] 1️⃣최근에 직항이 생겨서 오키나와를 경유하지 않고 인천에서 바로 갈 수 있음🛩️ 2️⃣식당의 경우 대부분 예약제라 한국에서 예약하고 가는 것을 추천🍺 (예약은 핫페퍼, 구글맵, 인스타그램 DM 등으로 가능) 3️⃣이시가키 공항 1층에 기념품샵이 꽤 있음🛍️ 기념품을 못 샀다면 귀국 전에 살 수 있음 (다만 입국장 안으로 들어가면 면세점이 1도 없으니 미리 쇼핑하기) #이시가키 #이시가키여행 #ishigaki #스카이스캐너 #skyscanner #광고" [ref=e184] [cursor=pointer]':
+                - generic [ref=e186]:
+                  - text: 항공권 20만원, 2시간 반만에 가는 천국도 이시가키 총정리🩵 + 파일 무료 공유 EVENT📘
+                  - text: 몰디브만 3번 다녀왔지만
+                  - text: 이시가키에 도착해서 뽕따색 물색에 제대로 반했어요🫧
+                  - text: 미야코지마 보다 한국인들에게 덜 알려졌고
+                  - text: 여름 성수기도 항공편이 20만원대인 비밀 여행지예요🗾
+                  - text: 아직 정보가 많이 없는만큼
+                  - text: 편하게 계획 세우실 수 있도록
+                  - text: 제가 다녀온 일정 + 경비 + 맛집 + 숙소
+                  - text: + 교통편 + 액티비티 정보 등을 정리했어요📝
+                  - text: 💌이시가키 총정리 파일 필요하신 분들은
+                  - text: 댓글에 [이시가키 파일] 남겨주시면 1초만에
+                  - text: 파일 신청링크 보내드릴게요🫶🏻
+                  - text: "*메시지가 오지 않는 경우"
+                  - link "@_sohee.e" [ref=e188]:
+                    - /url: /_sohee.e/
+                  - text: 팔로우 되어있는지 확인해주세요*
+                  - text: "[🏷️이시가키 여행 꿀팁]"
+                  - text: 1️⃣최근에 직항이 생겨서 오키나와를 경유하지 않고
+                  - text: 인천에서 바로 갈 수 있음🛩️
+                  - text: 2️⃣식당의 경우 대부분 예약제라
+                  - text: 한국에서 예약하고 가는 것을 추천🍺
+                  - text: (예약은 핫페퍼, 구글맵, 인스타그램 DM 등으로 가능)
+                  - text: 3️⃣이시가키 공항 1층에 기념품샵이 꽤 있음🛍️
+                  - text: 기념품을 못 샀다면 귀국 전에 살 수 있음
+                  - text: (다만 입국장 안으로 들어가면
+                  - text: 면세점이 1도 없으니 미리 쇼핑하기)
+                  - link "#이시가키" [ref=e189]:
+                    - /url: /explore/tags/%EC%9D%B4%EC%8B%9C%EA%B0%80%ED%82%A4/
+                  - link "#이시가키여행" [ref=e190]:
+                    - /url: /explore/tags/%EC%9D%B4%EC%8B%9C%EA%B0%80%ED%82%A4%EC%97%AC%ED%96%89/
+                  - link "#ishigaki" [ref=e191]:
+                    - /url: /explore/tags/ishigaki/
+                  - link "#스카이스캐너" [ref=e192]:
+                    - /url: /explore/tags/%EC%8A%A4%EC%B9%B4%EC%9D%B4%EC%8A%A4%EC%BA%90%EB%84%88/
+                  - link "#skyscanner" [ref=e193]:
+                    - /url: /explore/tags/skyscanner/
+                  - link "#광고" [ref=e194]:
+                    - /url: /explore/tags/%EA%B4%91%EA%B3%A0/
+            - generic [ref=e195]:
+              - img
+              - button "리포스트" [ref=e196]:
+                - button "리포스트" [ref=e198] [cursor=pointer]:
+                  - generic [ref=e200]:
+                    - link [ref=e201]
+                    - img "리포스트" [ref=e203]
+              - group "Video player" [ref=e218]:
+                - generic [ref=e219]:
+                  - button "0" [ref=e220] [cursor=pointer]:
+                    - slider "볼륨 조정" [ref=e221]:
+                      - button "오디오 소리 꺼짐" [ref=e225]:
+                        - img "오디오 소리 꺼짐" [ref=e226]
+                  - generic:
+                    - button "재생하려면 누르세요":
+                      - generic:
+                        - img "재생 버튼 아이콘"
+          - generic [ref=e230]:
+            - generic [ref=e231] [cursor=pointer]:
+              - button "좋아요" [ref=e234]:
+                - img "좋아요" [ref=e237]
+              - button "2.7만" [ref=e239]:
+                - generic [ref=e243]: 2.7만
+            - button "댓글 3.3만" [ref=e245] [cursor=pointer]:
+              - generic [ref=e246]:
+                - img "댓글" [ref=e247]
+                - generic [ref=e252]: 3.3만
+            - generic [ref=e253] [cursor=pointer]:
+              - button "리포스트" [ref=e254]:
+                - img "리포스트" [ref=e255]
+              - button "855" [ref=e257]:
+                - generic [ref=e261]: "855"
+            - button "공유하기" [ref=e263] [cursor=pointer]:
+              - img "공유하기" [ref=e264]
+            - button "저장" [ref=e269] [cursor=pointer]:
+              - button "저장" [ref=e270]:
+                - img "저장" [ref=e272]
+            - button "더 보기" [ref=e275] [cursor=pointer]:
+              - img "더 보기" [ref=e277]
+            - link "오디오 이미지" [ref=e282] [cursor=pointer]:
+              - /url: /reels/audio/640676321774942/
+              - img "오디오 이미지" [ref=e285]
+        - generic [ref=e289]:
+          - generic [ref=e290]:
+            - generic [ref=e293]:
+              - generic [ref=e296]:
+                - link "keyringz_duck님의 릴스" [ref=e297] [cursor=pointer]:
+                  - /url: /keyringz_duck/reels/
+                  - link "keyringz_duck님의 프로필 사진" [ref=e300]:
+                    - img "keyringz_duck님의 프로필 사진" [ref=e301]
+                - generic [ref=e302]:
+                  - generic [ref=e303]:
+                    - link "keyringz_duck님의 릴스" [ref=e304] [cursor=pointer]:
+                      - /url: /keyringz_duck/reels/
+                      - generic [ref=e305]: keyringz_duck
+                    - generic [ref=e307]: •
+                    - button "팔로우" [ref=e308] [cursor=pointer]:
+                      - generic [ref=e309]: 팔로우
+                  - link "오디오 이미지 노을 · 그리워 그리워" [ref=e314] [cursor=pointer]:
+                    - /url: /reels/audio/2753922718270480/
+                    - generic [ref=e315]:
+                      - img "오디오 이미지" [ref=e317]
+                      - generic [ref=e323]: 노을 · 그리워 그리워
+              - 'button "너무 보고싶ㄷr... #퇴사 #직장인 #공감툰 #회사 #animation" [ref=e324] [cursor=pointer]':
+                - generic [ref=e326]:
+                  - text: 너무 보고싶ㄷr...
+                  - link "#퇴사" [ref=e327]:
+                    - /url: /explore/tags/%ED%87%B4%EC%82%AC/
+                  - link "#직장인" [ref=e328]:
+                    - /url: /explore/tags/%EC%A7%81%EC%9E%A5%EC%9D%B8/
+                  - link "#공감툰" [ref=e329]:
+                    - /url: /explore/tags/%EA%B3%B5%EA%B0%90%ED%88%B0/
+                  - link "#회사" [ref=e330]:
+                    - /url: /explore/tags/%ED%9A%8C%EC%82%AC/
+                  - link "#animation" [ref=e331]:
+                    - /url: /explore/tags/animation/
+            - generic [ref=e332]:
+              - img
+              - group "Video player" [ref=e343]:
+                - generic [ref=e344]:
+                  - button "0" [ref=e345] [cursor=pointer]:
+                    - slider "볼륨 조정" [ref=e346]:
+                      - button "오디오 소리 꺼짐" [ref=e350]:
+                        - img "오디오 소리 꺼짐" [ref=e351]
+                  - generic:
+                    - button "재생하려면 누르세요":
+                      - generic:
+                        - img "재생 버튼 아이콘"
+          - generic [ref=e355]:
+            - generic [ref=e356] [cursor=pointer]:
+              - button "좋아요" [ref=e359]:
+                - img "좋아요" [ref=e362]
+              - button "1809" [ref=e364]:
+                - generic [ref=e368]: "1809"
+            - button "댓글 139" [ref=e370] [cursor=pointer]:
+              - generic [ref=e371]:
+                - img "댓글" [ref=e372]
+                - generic [ref=e377]: "139"
+            - generic [ref=e378] [cursor=pointer]:
+              - button "리포스트" [ref=e379]:
+                - img "리포스트" [ref=e380]
+              - button "55" [ref=e382]:
+                - generic [ref=e386]: "55"
+            - button "공유하기" [ref=e388] [cursor=pointer]:
+              - img "공유하기" [ref=e389]
+            - button "저장" [ref=e394] [cursor=pointer]:
+              - button "저장" [ref=e395]:
+                - img "저장" [ref=e397]
+            - button "더 보기" [ref=e400] [cursor=pointer]:
+              - img "더 보기" [ref=e402]
+            - link "오디오 이미지" [ref=e407] [cursor=pointer]:
+              - /url: /reels/audio/2753922718270480/
+              - img "오디오 이미지" [ref=e410]
+        - generic [ref=e417]:
+          - generic [ref=e418]:
+            - status "읽어들이는 중..." [ref=e419]
+            - status "읽어들이는 중..." [ref=e420]
+          - status "읽어들이는 중..." [ref=e421]
+          - status "읽어들이는 중..." [ref=e422]
+      - toolbar "Reels navigation controls" [ref=e424]:
+        - button "이전 릴스로 이동" [ref=e425] [cursor=pointer]:
+          - img [ref=e427]
+        - button "다음 릴스로 이동" [ref=e429] [cursor=pointer]:
+          - img [ref=e431]
+  - button "메시지 메시지" [ref=e434] [cursor=pointer]:
+    - generic [ref=e436]:
+      - img "메시지" [ref=e438]
+      - generic [ref=e441]: 메시지

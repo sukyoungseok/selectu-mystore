@@ -1,0 +1,185 @@
+- generic [ref=e9]:
+  - generic [ref=e11]:
+    - button [ref=e12] [cursor=pointer]:
+      - img [ref=e13]
+    - button [ref=e16] [cursor=pointer]:
+      - img [ref=e17]
+  - generic [ref=e20]:
+    - generic [ref=e22]:
+      - img [ref=e24]
+      - img [ref=e26]
+    - generic [ref=e27]:
+      - heading "재구언" [level=1] [ref=e29]
+      - heading "여행 크리에이터•테마파크 인플루언서" [level=2] [ref=e30]
+  - generic [ref=e32]:
+    - generic [ref=e35]:
+      - link [ref=e36] [cursor=pointer]:
+        - /url: http://instagram.com/jae9un.jpg
+        - img [ref=e39]
+      - link [ref=e41] [cursor=pointer]:
+        - /url: http://www.tiktok.com/@jae9un.jpg
+        - img [ref=e44]
+      - link [ref=e46] [cursor=pointer]:
+        - /url: https://www.youtube.com/@%EC%9E%AC%EA%B5%AC%EC%96%B8
+        - img [ref=e49]
+      - link [ref=e51] [cursor=pointer]:
+        - /url: https://blog.naver.com/jackey0206
+        - img [ref=e54]
+      - link [ref=e59] [cursor=pointer]:
+        - /url: mailto:jackey0206@naver.com
+        - img [ref=e62]
+    - generic [ref=e66]:
+      - heading "🎢 테마파크 특가 할인 모음 🎠" [level=2] [ref=e68]
+      - heading "*해당 배너를 통해 구매 시 일정 비율의 수수료를 지급받습니다." [level=3] [ref=e70]
+    - link "🔥잠실 롯데월드 종일권 특가" [ref=e74] [cursor=pointer]:
+      - /url: https://3ha.in/r/358729
+      - generic [ref=e79]:
+        - img [ref=e80]
+        - heading "🔥잠실 롯데월드 종일권 특가" [level=2] [ref=e82]
+    - link "🔥부산 롯데월드 오후권 특가" [ref=e86] [cursor=pointer]:
+      - /url: https://www.lotteon.com/p/product/LO2581322118?mall_no=1&ch_no=100995&ch_dtl_no=1025316&ch_mem_no=2940355632g4Mt6927c29224&fbclid=PAVERFWAOUofFleHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAachaI79IE4jshYEMlaAV8JQX1FbQJk7gtXPsPJydaN8U1qcH6RVQLozTwy_Cw_aem_LcBPfUTvy4eyW-wrrAHv7w
+      - generic [ref=e91]:
+        - img [ref=e92]
+        - heading "🔥부산 롯데월드 오후권 특가" [level=2] [ref=e94]
+    - link "🔥에버랜드 종일권 특가" [ref=e98] [cursor=pointer]:
+      - /url: https://3ha.in/r/358734
+      - generic [ref=e103]:
+        - img [ref=e104]
+        - heading "🔥에버랜드 종일권 특가" [level=2] [ref=e106]
+    - generic [ref=e112]:
+      - heading "🎢 해외 테마파크 이용권 특별 할인가 🎠" [level=2] [ref=e114]
+      - heading "*해당 배너를 통해 구매 시 일정 비율의 수수료를 지급받습니다." [level=3] [ref=e116]
+    - link "🇯🇵도쿄 디즈니랜드 & 디즈니씨 이용권" [ref=e120] [cursor=pointer]:
+      - /url: https://myrealt.rip/6CKM9e
+      - generic [ref=e122]:
+        - img [ref=e123]
+        - heading "🇯🇵도쿄 디즈니랜드 & 디즈니씨 이용권" [level=2] [ref=e129]
+    - link "🇯🇵유니버설 스튜디오 재팬 이용권" [ref=e133] [cursor=pointer]:
+      - /url: https://3ha.in/r/298090
+      - generic [ref=e135]:
+        - img [ref=e136]
+        - heading "🇯🇵유니버설 스튜디오 재팬 이용권" [level=2] [ref=e142]
+    - link "🇯🇵유니버설 스튜디오 재팬 익스프레스 이용권" [ref=e146] [cursor=pointer]:
+      - /url: https://myrealt.rip/6xX5ea
+      - generic [ref=e148]:
+        - img [ref=e149]
+        - heading "🇯🇵유니버설 스튜디오 재팬 익스프레스 이용권" [level=2] [ref=e155]
+    - link "🇺🇸LA 캘리포니아 디즈니랜드" [ref=e159] [cursor=pointer]:
+      - /url: https://myrealt.rip/78eaac
+      - generic [ref=e161]:
+        - img [ref=e162]
+        - heading "🇺🇸LA 캘리포니아 디즈니랜드" [level=2] [ref=e168]
+    - link "🇺🇸유니버설 스튜디오 할리우드 입장권 1+1" [ref=e172] [cursor=pointer]:
+      - /url: https://myrealt.rip/7H5I25
+      - generic [ref=e174]:
+        - img [ref=e175]
+        - heading "🇺🇸유니버설 스튜디오 할리우드 입장권 1+1" [level=2] [ref=e181]
+    - link "🇸🇬유니버설 스튜디오 싱가포르" [ref=e185] [cursor=pointer]:
+      - /url: https://myrealt.rip/8NTf1e
+      - generic [ref=e187]:
+        - img [ref=e188]
+        - heading "🇸🇬유니버설 스튜디오 싱가포르" [level=2] [ref=e194]
+    - link "🇫🇷파리 디즈니랜드 이용권" [ref=e198] [cursor=pointer]:
+      - /url: https://myrealt.rip/7C8oa0
+      - generic [ref=e200]:
+        - img [ref=e201]
+        - heading "🇫🇷파리 디즈니랜드 이용권" [level=2] [ref=e207]
+    - link "🇭🇰홍콩 디즈니랜드 이용권" [ref=e211] [cursor=pointer]:
+      - /url: https://myrealt.rip/OZ5if1
+      - generic [ref=e213]:
+        - img [ref=e214]
+        - heading "🇭🇰홍콩 디즈니랜드 이용권" [level=2] [ref=e220]
+    - link "🇨🇳상하이 디즈니랜드" [ref=e224] [cursor=pointer]:
+      - /url: https://affiliate.klook.com/redirect?aid=31034&aff_adid=647188&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F2128-disney-resort-shang-hai%2F%3Fspm%3DSearchResult.SearchResult_LIST%26clickId%3D9a444d2ae3
+      - generic [ref=e226]:
+        - img [ref=e227]
+        - heading "🇨🇳상하이 디즈니랜드" [level=2] [ref=e233]
+    - link "🇯🇵도쿄 조이폴리스 이용권" [ref=e237] [cursor=pointer]:
+      - /url: https://api3.myrealtrip.com/partner/v1/marketing/advertising-link/7paWRu
+      - generic [ref=e239]:
+        - img [ref=e240]
+        - heading "🇯🇵도쿄 조이폴리스 이용권" [level=2] [ref=e246]
+    - link "🇯🇵후지큐 하이랜드 이용권 도쿄↔신주쿠역 출발 왕복이동 서비스 포함" [ref=e250] [cursor=pointer]:
+      - /url: https://affiliate.klook.com/redirect?aid=31034&aff_adid=669939&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F51278-one-day-fuji-q-highland-pass%2F%3Fspm%3DSearchResult.SearchResult_LIST%26clickId%3D2bc5eaa567
+      - generic [ref=e252]:
+        - img [ref=e253]
+        - heading "🇯🇵후지큐 하이랜드 이용권 도쿄↔신주쿠역 출발 왕복이동 서비스 포함" [level=2] [ref=e259]
+    - link "🇯🇵도쿄 돔 시티 어트랙션스 이용권" [ref=e263] [cursor=pointer]:
+      - /url: https://affiliate.klook.com/redirect?aid=31034&aff_adid=676799&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F17371-tokyo-dome-attractions-ticket-tokyo%2F%3Fspm%3DSearchResult.SearchResult_LIST%26clickId%3Dd1140d25f0
+      - generic [ref=e265]:
+        - img [ref=e266]
+        - heading "🇯🇵도쿄 돔 시티 어트랙션스 이용권" [level=2] [ref=e272]
+    - link "🇯🇵도쿄 돔 시티 호텔 특가" [ref=e276] [cursor=pointer]:
+      - /url: https://www.klook.com/ko/hotels/detail/275894-tokyo-dome-hotel/?aid=31034&aff_adid=681458&spm=SearchResult.SearchResult_LIST&clickId=42268aae13&aff_label1=&aff_label2=&aff_label3=&aff_pid=&aff_sid=&utm_medium=affiliate-alwayson&utm_source=non-network&utm_
+      - generic [ref=e278]:
+        - img [ref=e279]
+        - heading "🇯🇵도쿄 돔 시티 호텔 특가" [level=2] [ref=e285]
+    - link "🇯🇵레고랜드 재팬 이용권" [ref=e289] [cursor=pointer]:
+      - /url: https://affiliate.klook.com/redirect?aid=31034&aff_adid=718444&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F44688-legoland-japan-nagoya-domestic%2F%3Fspm%3DSearchResult.SearchResult_LIST%26clickId%3Dccaf3c95f3
+      - generic [ref=e291]:
+        - img [ref=e292]
+        - heading "🇯🇵레고랜드 재팬 이용권" [level=2] [ref=e298]
+    - heading "🔥누적 릴스 조회수 +2.5억 view 🍯테마파크 • 여행 전문 매거진 ✈️20년차 테마파크 마니아" [level=3] [ref=e304]
+    - heading "협업/광고 DM or jackey0206@naver.com 📕네이버 블로그 일방문 2.0K 📗인스타그램 팔로워 25.0K 📙셀러비 팔로워 23.0K 📘유튜브 팔로워 14.0.K 📒틱톡 팔로워 12.0K" [level=3] [ref=e308]:
+      - text: 협업/광고 DM or
+      - link "jackey0206@naver.com" [ref=e309] [cursor=pointer]:
+        - /url: mailto:jackey0206@naver.com
+      - text: 📕네이버 블로그 일방문 2.0K 📗인스타그램 팔로워 25.0K 📙셀러비 팔로워 23.0K 📘유튜브 팔로워 14.0.K 📒틱톡 팔로워 12.0K
+    - generic [ref=e313]:
+      - heading "🎢 기타 테마파크 이용권 특별 할인가 🎠" [level=2] [ref=e315]
+      - heading "*해당 배너를 통해 구매 시 일정 비율의 수수료를 지급받습니다." [level=3] [ref=e317]
+    - link "🇰🇷서울 롯데월드 어드벤처 이용권" [ref=e321] [cursor=pointer]:
+      - /url: https://3ha.in/r/230453
+      - generic [ref=e323]:
+        - img [ref=e324]
+        - heading "🇰🇷서울 롯데월드 어드벤처 이용권" [level=2] [ref=e330]
+    - link "🇰🇷부산 롯데월드 어드벤처 이용권" [ref=e334] [cursor=pointer]:
+      - /url: https://api3.myrealtrip.com/partner/v1/marketing/advertising-link/LgOwUM
+      - generic [ref=e336]:
+        - img [ref=e337]
+        - heading "🇰🇷부산 롯데월드 어드벤처 이용권" [level=2] [ref=e343]
+    - link "🇰🇷에버랜드 이용권" [ref=e347] [cursor=pointer]:
+      - /url: https://3ha.in/r/230441
+      - generic [ref=e349]:
+        - img [ref=e350]
+        - heading "🇰🇷에버랜드 이용권" [level=2] [ref=e356]
+    - link "🔥에버랜드 오후권(애프터2) 최저가🔥" [ref=e360] [cursor=pointer]:
+      - /url: https://myrealt.rip/6MKc1c
+      - generic [ref=e362]:
+        - img [ref=e363]
+        - heading "🔥에버랜드 오후권(애프터2) 최저가🔥" [level=2] [ref=e369]
+    - link "🇰🇷이월드 이용권" [ref=e373] [cursor=pointer]:
+      - /url: https://api3.myrealtrip.com/partner/v1/marketing/advertising-link/mooIen
+      - generic [ref=e375]:
+        - img [ref=e376]
+        - heading "🇰🇷이월드 이용권" [level=2] [ref=e382]
+    - link "🇰🇷제주 신화월드 테마파크 이용권" [ref=e386] [cursor=pointer]:
+      - /url: https://myrealt.rip/6DPP49
+      - heading "🇰🇷제주 신화월드 테마파크 이용권" [level=2] [ref=e392]
+    - link "🇰🇷경주월드 이용권" [ref=e396] [cursor=pointer]:
+      - /url: https://affiliate.klook.com/redirect?aid=31034&aff_adid=668337&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F51533-gyeongju-world-gyeongju%2F%3Fspm%3DSearchResult.SearchResult_LIST%26clickId%3De4b060d142
+      - generic [ref=e398]:
+        - img [ref=e399]
+        - heading "🇰🇷경주월드 이용권" [level=2] [ref=e405]
+    - link "🇰🇷춘천 레고랜드 이용권" [ref=e409] [cursor=pointer]:
+      - /url: https://affiliate.klook.com/redirect?aid=31034&aff_adid=668334&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F70318-lego-land-korea-resort-pass%2F%3Fspm%3DSearchResult.SearchResult_LIST%26clickId%3D35f763d374
+      - generic [ref=e411]:
+        - img [ref=e412]
+        - heading "🇰🇷춘천 레고랜드 이용권" [level=2] [ref=e418]
+    - link "🇰🇷서울랜드 이용권" [ref=e422] [cursor=pointer]:
+      - /url: https://affiliate.klook.com/redirect?aid=31034&aff_adid=668337&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F48485-seoul-land-gyeonggido%2F%3Fspm%3DSearchResult.SearchResult_LIST%26clickId%3D59484c68ca
+      - generic [ref=e424]:
+        - img [ref=e425]
+        - heading "🇰🇷서울랜드 이용권" [level=2] [ref=e431]
+    - link "🇰🇷김해 롯데워터파크" [ref=e435] [cursor=pointer]:
+      - /url: https://affiliate.klook.com/redirect?aid=31034&aff_adid=723028&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F88947-lotte-waterpark-pass-gimhae%2F%3Fspm%3DSearchResult.SearchResult_LIST%26clickId%3Dfa178378ba
+      - generic [ref=e437]:
+        - img [ref=e438]
+        - heading "🇰🇷김해 롯데워터파크" [level=2] [ref=e444]
+    - generic [ref=e448]:
+      - heading "🙋🏻‍♂️재구언 수상경력" [level=2] [ref=e450]
+      - heading [level=3] [ref=e452]
+  - button "MY 페이지 무료로 만들기 >" [ref=e455] [cursor=pointer]:
+    - generic [ref=e456]:
+      - img [ref=e457]
+      - generic [ref=e458]: MY 페이지 무료로 만들기 >

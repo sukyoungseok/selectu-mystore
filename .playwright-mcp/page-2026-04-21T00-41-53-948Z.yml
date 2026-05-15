@@ -1,0 +1,233 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: 이 페이지의 링크를 통해 구매 시 수수료를 받아 채널 운영에 도움이 됩니다.
+    - generic [ref=e7]:
+      - generic [ref=e8]: 🌸
+      - generic [ref=e9]:
+        - heading "살란다" [level=2] [ref=e10]
+        - paragraph [ref=e11]: 오사카 입문자 필수 · 785K 조회
+        - generic [ref=e12]: ▶ YouTube 채널
+        - link "▶" [ref=e14] [cursor=pointer]:
+          - /url: https://www.youtube.com/watch?v=7c5cThEY5mw
+    - link "살란다 팔로워 전용 선착순 할인 쿠폰팩 총 99,000 원 3종 구성 받기" [ref=e15] [cursor=pointer]:
+      - /url: https://www.myrealtrip.com/coupons
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - generic [ref=e20]: 살란다 팔로워 전용
+          - generic [ref=e21]: 선착순 할인 쿠폰팩
+          - generic [ref=e23]:
+            - generic [ref=e24]: 총
+            - generic [ref=e25]: 99,000
+            - generic [ref=e26]: 원
+          - generic:
+            - generic: 3종
+            - generic: 구성
+        - generic [ref=e27]:
+          - img [ref=e28]
+          - generic [ref=e30]: 받기
+    - generic [ref=e33]:
+      - generic [ref=e35]:
+        - generic [ref=e36]: 🇯🇵
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - generic [ref=e39]: 2박 3일
+            - generic [ref=e40]: 살란다 강추
+          - generic [ref=e41]: 오사카 끝판왕
+      - generic [ref=e42]:
+        - generic [ref=e43]: 어디부터 볼까요?
+        - generic [ref=e44]:
+          - button "일정표 보기 동선 먼저 ›" [ref=e45] [cursor=pointer]:
+            - generic [ref=e46]:
+              - strong [ref=e47]: 일정표 보기
+              - generic [ref=e48]: 동선 먼저
+            - generic [ref=e49]: ›
+          - button "상세 경비 보기 70 만~ › 🔥 인기 항공·숙소·교통 한 번에" [active] [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]:
+              - strong [ref=e52]: 상세 경비 보기
+              - generic [ref=e53]:
+                - generic [ref=e54]:
+                  - text: "70"
+                  - generic [ref=e55]: 만~
+                - generic [ref=e56]: ›
+            - generic [ref=e57]:
+              - generic [ref=e58]: 🔥 인기
+              - generic [ref=e59]: 항공·숙소·교통 한 번에
+    - generic [ref=e63]:
+      - generic [ref=e64] [cursor=pointer]: 링크
+      - generic [ref=e65] [cursor=pointer]: 필수템
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]: 🌸
+        - generic [ref=e69]:
+          - generic [ref=e70]: 저장하고 바로 떠날까요? 🔥
+          - text: 오사카 2박 3일에 유명한 거 다 때려 넣었어요. USJ · 난바 · 오사카성 · 아베노 하루카스까지. 영상 속 맛집·예약 링크 다 여기 있어요!
+      - generic [ref=e71]:
+        - heading "📹 추천 영상" [level=3] [ref=e72]
+        - link "🎌 🔥 785K 조회 오사카 유명한거 다하는 2박 3일 끝판왕 코스🔥 youtube.com · 살란다" [ref=e73] [cursor=pointer]:
+          - /url: https://www.youtube.com/watch?v=7c5cThEY5mw
+          - generic [ref=e74]: 🎌
+          - generic [ref=e75]:
+            - generic [ref=e77]: 🔥 785K 조회
+            - generic [ref=e78]: 오사카 유명한거 다하는 2박 3일 끝판왕 코스🔥
+            - generic [ref=e79]: youtube.com · 살란다
+        - heading "🛒 영상 속 예약 링크" [level=3] [ref=e80]
+        - link "🎢 영상 속 등장 유니버설 스튜디오 재팬(USJ) 1일 입장권 — 해리포터·미니언·닌텐도 myrealtrip.com" [ref=e81] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/offers/25748
+          - generic [ref=e82]: 🎢
+          - generic [ref=e83]:
+            - generic [ref=e85]: 영상 속 등장
+            - generic [ref=e86]: 유니버설 스튜디오 재팬(USJ) 1일 입장권 — 해리포터·미니언·닌텐도
+            - generic [ref=e87]: myrealtrip.com
+        - link "🌃 영상 속 등장 아베노 하루카스 300 전망대 입장권 — 오사카 최고 야경 명소 myrealtrip.com" [ref=e88] [cursor=pointer]:
+          - /url: https://www.myrealtrip.com/offers/25950
+          - generic [ref=e89]: 🌃
+          - generic [ref=e90]:
+            - generic [ref=e92]: 영상 속 등장
+            - generic [ref=e93]: 아베노 하루카스 300 전망대 입장권 — 오사카 최고 야경 명소
+            - generic [ref=e94]: myrealtrip.com
+        - link "🚄 알뜰 난카이 라피트 편도 E-티켓 — 간사이공항↔난바 40분 myrealtrip.com" [ref=e95] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/5869248
+          - generic [ref=e96]: 🚄
+          - generic [ref=e97]:
+            - generic [ref=e99]: 알뜰
+            - generic [ref=e100]: 난카이 라피트 편도 E-티켓 — 간사이공항↔난바 40분
+            - generic [ref=e101]: myrealtrip.com
+        - link "📱 필수 일본 이심 (4일, 2GB/일) — 도착 즉시 사용, 한국에서 미리 설치 myrealtrip.com" [ref=e102] [cursor=pointer]:
+          - /url: https://experiences.myrealtrip.com/products/3886994
+          - generic [ref=e103]: 📱
+          - generic [ref=e104]:
+            - generic [ref=e106]: 필수
+            - generic [ref=e107]: 일본 이심 (4일, 2GB/일) — 도착 즉시 사용, 한국에서 미리 설치
+            - generic [ref=e108]: myrealtrip.com
+    - generic [ref=e110]:
+      - generic [ref=e111]: COLLABORATION
+      - link "✉ sukyoung.seok@myrealtrip.com" [ref=e112] [cursor=pointer]:
+        - /url: mailto:sukyoung.seok@myrealtrip.com
+      - generic [ref=e113]: © 2026 살란다 · myrealtrip
+  - generic [ref=e114]:
+    - generic [ref=e115]:
+      - generic [ref=e116] [cursor=pointer]: ←
+      - generic [ref=e118]: 오사카 2박 3일 코스
+      - button "링크 복사" [ref=e119] [cursor=pointer]:
+        - img [ref=e120]
+        - text: 링크 복사
+    - generic [ref=e126]:
+      - generic [ref=e128] [cursor=pointer]: DAY 1
+      - generic [ref=e129] [cursor=pointer]: DAY 2
+      - generic [ref=e130] [cursor=pointer]: DAY 3
+    - generic [ref=e127]:
+      - generic [ref=e131]:
+        - generic [ref=e132]: D1 · 오사카 도착
+        - generic [ref=e133]: 💰 약 3~5만원
+      - generic [ref=e138]:
+        - generic [ref=e139]:
+          - generic [ref=e140]: 저녁
+          - generic [ref=e141]: ₩3~5만원
+        - generic [ref=e142]: 난바·신사이바시
+        - generic [ref=e143]: 오사카 최대 번화가. 다코야키·라멘·디저트 맛집 총출동! 포토존·가차뽑기·캐릭터 쇼핑까지.
+      - generic [ref=e147]:
+        - generic [ref=e148]:
+          - generic [ref=e149]: 밤
+          - generic [ref=e150]: ₩13,000
+        - generic [ref=e151]: 아베노 하루카스 300 야경
+        - generic [ref=e152]: 오사카에서 가장 높은 전망대. 60층에서 내려다보는 야경이 진짜 예뻐요 ✨
+        - generic [ref=e153]:
+          - generic [ref=e154]: 🌃
+          - generic [ref=e155]:
+            - generic [ref=e156]: 추천
+            - generic [ref=e157]: 하루카스 300 전망대
+            - generic [ref=e158]: ₩13,000
+          - button "예약하기" [ref=e159] [cursor=pointer]
+  - generic [ref=e162]:
+    - generic [ref=e164]:
+      - generic [ref=e165]: ✈️ 오사카 2박 3일 총경비
+      - button "링크 복사" [ref=e166] [cursor=pointer]:
+        - img [ref=e167]
+        - text: 링크 복사
+    - generic [ref=e173]: 살란다 추천 코스 · 1인 기준
+    - generic [ref=e174]:
+      - generic [ref=e175]: ✈️
+      - generic [ref=e176]:
+        - generic [ref=e177]:
+          - text: 항공
+          - generic [ref=e178]: 최저가
+        - generic [ref=e179]: 인천↔오사카 왕복 · 이코노미
+      - generic [ref=e180]:
+        - generic [ref=e181]: ₩280,000
+        - button "예약 바로가기" [ref=e182] [cursor=pointer]
+    - generic [ref=e183]:
+      - generic [ref=e184]: 🏨
+      - generic [ref=e185]:
+        - generic [ref=e186]:
+          - text: 숙소
+          - generic [ref=e187]: 최저가
+        - generic [ref=e188]: 난바 근처 2박
+      - generic [ref=e189]:
+        - generic [ref=e190]: ₩180,000
+        - button "예약 바로가기" [ref=e191] [cursor=pointer]
+    - generic [ref=e192]:
+      - generic [ref=e193]: 🍜
+      - generic [ref=e194]:
+        - generic [ref=e195]: 식비 · 현지 경비
+        - generic [ref=e196]: 맛집·쇼핑·현지 이동 포함
+      - generic [ref=e198]: ₩200,000
+    - generic [ref=e199]:
+      - generic [ref=e201]: 🎫 투어 · 티켓 추천
+      - generic [ref=e202]:
+        - generic [ref=e203]: 🎢
+        - generic [ref=e204]:
+          - generic [ref=e205]: USJ 1일 입장권
+          - generic [ref=e206]: 미니언·해리포터·닌텐도 월드
+        - generic [ref=e207]:
+          - generic [ref=e208]: ₩89,000
+          - button "예약 바로가기" [ref=e209] [cursor=pointer]
+      - generic [ref=e210]:
+        - generic [ref=e211]: 🌃
+        - generic [ref=e212]:
+          - generic [ref=e213]: 하루카스 300 전망대
+          - generic [ref=e214]: 오사카 야경 명소 · 60층
+        - generic [ref=e215]:
+          - generic [ref=e216]: ₩13,000
+          - button "예약 바로가기" [ref=e217] [cursor=pointer]
+      - generic [ref=e218]:
+        - generic [ref=e219]: 🚄
+        - generic [ref=e220]:
+          - generic [ref=e221]: 난카이 라피트 편도 E-티켓
+          - generic [ref=e222]: 간사이공항↔난바 40분
+        - generic [ref=e223]:
+          - generic [ref=e224]: ₩9,800
+          - button "예약 바로가기" [ref=e225] [cursor=pointer]
+      - generic [ref=e226]:
+        - generic [ref=e227]: 📱
+        - generic [ref=e228]:
+          - generic [ref=e229]: 일본 이심 (4일, 2GB/일)
+          - generic [ref=e230]: 도착 즉시 사용 · 한국서 미리 설치
+        - generic [ref=e231]:
+          - generic [ref=e232]: ₩12,000
+          - button "예약 바로가기" [ref=e233] [cursor=pointer]
+    - generic [ref=e234]:
+      - generic [ref=e235]: 총 경비
+      - generic [ref=e236]: ₩700,000
+    - generic [ref=e237]: ✈️항공·🏨숙소는 최저가 기준 · 식비는 평균값
+  - generic:
+    - generic:
+      - generic: 🎫 파트너 쿠폰
+      - generic: 살란다 통해 예약하면 받을 수 있는 혜택
+      - generic:
+        - generic:
+          - generic: 마이리얼트립 파트너 혜택
+          - generic: 첫 예약 3,000원 할인
+          - generic: 5만원 이상 결제 시 · 1회 사용 가능
+          - generic:
+            - generic: "유효기간: 2026.05.31까지"
+            - generic: 잔여 47장
+        - button "받기"
+      - generic:
+        - generic:
+          - generic: 재방문 감사 쿠폰
+          - generic: 2번째 예약 5% 할인
+          - generic: 최대 1만원 · 살란다 전용
+          - generic:
+            - generic: "유효기간: 2026.06.30까지"
+            - generic: 잔여 23장
+        - button "받기"

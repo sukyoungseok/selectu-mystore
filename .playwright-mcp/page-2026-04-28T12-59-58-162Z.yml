@@ -1,0 +1,200 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - img [ref=e6]
+          - heading "MyTripSignal" [level=1] [ref=e9]
+        - paragraph [ref=e10]: 내 여행의 시세를 확인하세요
+        - paragraph [ref=e11]: 직항 왕복 + 도심 숙소 + 식대 합산 · 총 비용 기준
+        - button "공유" [ref=e13]:
+          - img [ref=e14]
+          - text: 공유
+      - link "💡 예산이 정해져 있다면? 예산 맞춤 추천 →" [ref=e16] [cursor=pointer]:
+        - /url: /recommend?duration=4&adults=2&children=0&infants=0
+        - generic [ref=e17]:
+          - generic [ref=e18]: 💡
+          - generic [ref=e19]: 예산이 정해져 있다면?
+        - generic [ref=e20]: 예산 맞춤 추천 →
+      - button "가격 산정 기준 ›" [ref=e22]:
+        - img [ref=e23]
+        - generic [ref=e25]: 가격 산정 기준
+        - generic [ref=e26]: ›
+      - generic [ref=e28]:
+        - combobox "대륙 선택" [ref=e29] [cursor=pointer]:
+          - option "전체 대륙" [selected]
+          - option "동아시아"
+          - option "동남아시아"
+          - option "유럽"
+          - option "미주/태평양"
+        - combobox "도시 선택" [ref=e30] [cursor=pointer]:
+          - option "도쿄"
+          - option "오사카"
+          - option "후쿠오카"
+          - option "삿포로"
+          - option "오키나와" [selected]
+          - option "나고야"
+          - option "타이베이"
+          - option "홍콩"
+          - option "상하이"
+          - option "베이징"
+          - option "마카오"
+          - option "방콕"
+          - option "치앙마이"
+          - option "다낭"
+          - option "호치민"
+          - option "하노이"
+          - option "나트랑"
+          - option "푸꾸옥"
+          - option "싱가포르"
+          - option "세부"
+          - option "마닐라"
+          - option "발리"
+          - option "쿠알라룸푸르"
+          - option "코타키나발루"
+          - option "파리"
+          - option "런던"
+          - option "로마"
+          - option "밀라노"
+          - option "프랑크푸르트"
+          - option "뮌헨"
+          - option "암스테르담"
+          - option "바르셀로나"
+          - option "이스탄불"
+          - option "괌"
+          - option "호놀룰루"
+          - option "뉴욕"
+          - option "로스앤젤레스"
+          - option "샌프란시스코"
+          - option "시드니"
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: 여정 길이
+            - generic [ref=e35]: 3박 4일
+          - generic [ref=e36]:
+            - generic [ref=e37]: 3일
+            - slider [ref=e38] [cursor=pointer]: "4"
+            - generic [ref=e39]: 10일
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - generic [ref=e43]: 여행자
+            - generic [ref=e44]: 총 2명
+          - generic [ref=e45]:
+            - generic [ref=e46]: 성인12세 이상
+            - generic [ref=e47]:
+              - button "성인 감소" [ref=e48]: −
+              - generic [ref=e49]: "2"
+              - button "성인 증가" [ref=e50]: +
+          - generic [ref=e51]:
+            - generic [ref=e52]: 소아2~11세 · 항공 75%
+            - generic [ref=e53]:
+              - button "소아 감소" [disabled] [ref=e54]: −
+              - generic [ref=e55]: "0"
+              - button "소아 증가" [ref=e56]: +
+          - generic [ref=e57]:
+            - generic [ref=e58]: 유아0~1세 · 항공 10%
+            - generic [ref=e59]:
+              - button "유아 감소" [disabled] [ref=e60]: −
+              - generic [ref=e61]: "0"
+              - button "유아 증가" [ref=e62]: +
+        - generic [ref=e63]:
+          - generic [ref=e64]: 항공 옵션
+          - button "직항만" [ref=e65]
+          - button "경유 포함" [ref=e66]
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - generic [ref=e74]: 총 여행 비용 · 최저가
+            - generic [ref=e75]: 896,340원
+            - generic [ref=e76]: 5/4 (월) 출발
+            - generic [ref=e77]: 1인당 약 448,170원
+            - generic [ref=e78]: 성인 2 기준
+          - generic [ref=e79]:
+            - generic [ref=e80]: 평균
+            - generic [ref=e81]: 1,259,932원
+            - generic [ref=e82]: 363,592원 절약
+        - link "다른 도시와 비교해보기 →" [ref=e83] [cursor=pointer]:
+          - /url: /compare?duration=4&adults=2&children=0&infants=0
+          - generic [ref=e84]: 다른 도시와 비교해보기
+          - generic [ref=e85]: →
+        - link "내 예산으로 추천받기 →" [ref=e86] [cursor=pointer]:
+          - /url: /recommend?duration=4&adults=2&children=0&infants=0
+          - generic [ref=e87]: 내 예산으로 추천받기
+          - generic [ref=e88]: →
+      - generic [ref=e89]:
+        - generic [ref=e90]: 출발일별 총 여행 비용 추이
+        - img "출발일별 총 여행 비용 추이 그래프" [ref=e92]:
+          - generic [ref=e94]: 평균 126만
+          - generic [ref=e97]: 최저 896,340원
+          - generic [ref=e98]: 2월
+          - generic [ref=e99]: 3월
+          - generic [ref=e100]: 4월
+          - generic [ref=e101]: 5월
+          - generic [ref=e102]: 6월
+      - generic [ref=e103]:
+        - generic [ref=e105]: 총 예상 비용 · 4월 28일 수집 · 실제 예약가와 다를 수 있음
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - button "이전 달" [ref=e108]:
+              - img [ref=e109]
+            - heading "2026년 4월30일 데이터" [level=3] [ref=e111]:
+              - text: 2026년 4월
+              - generic [ref=e112]: 30일 데이터
+            - button "다음 달" [ref=e113]:
+              - img [ref=e114]
+          - generic [ref=e116]:
+            - generic [ref=e117]: 일
+            - generic [ref=e118]: 월
+            - generic [ref=e119]: 화
+            - generic [ref=e120]: 수
+            - generic [ref=e121]: 목
+            - generic [ref=e122]: 금
+            - generic [ref=e123]: 토
+          - generic [ref=e124]:
+            - generic [ref=e129]: "1"
+            - generic [ref=e131]: "2"
+            - generic [ref=e133]: "3"
+            - generic [ref=e135]: "4"
+            - generic [ref=e137]: "5"
+            - generic [ref=e139]: "6"
+            - generic [ref=e141]: "7"
+            - generic [ref=e143]: "8"
+            - generic [ref=e145]: "9"
+            - generic [ref=e147]: "10"
+            - generic [ref=e149]: "11"
+            - generic [ref=e151]: "12"
+            - generic [ref=e153]: "13"
+            - generic [ref=e155]: "14"
+            - generic [ref=e157]: "15"
+            - generic [ref=e159]: "16"
+            - generic [ref=e161]: "17"
+            - generic [ref=e163]: "18"
+            - generic [ref=e165]: "19"
+            - generic [ref=e167]: "20"
+            - generic [ref=e169]: "21"
+            - generic [ref=e171]: "22"
+            - generic [ref=e173]: "23"
+            - generic [ref=e175]: "24"
+            - generic [ref=e177]: "25"
+            - generic [ref=e179]: "26"
+            - generic [ref=e181]: "27"
+            - button "2026-04-28 출발, 총 98만" [ref=e182]:
+              - generic [ref=e184]: "28"
+              - generic [ref=e185]: 98만
+            - button "2026-04-29 출발, 총 114만" [ref=e186]:
+              - generic [ref=e187]: "29"
+              - generic [ref=e188]: 114만
+            - button "2026-04-30 출발, 총 181만" [ref=e189]:
+              - generic [ref=e190]: "30"
+              - generic [ref=e191]: 181만
+          - generic [ref=e192]:
+            - button "2026년 2월로 이동" [ref=e193]
+            - button "2026년 3월로 이동" [ref=e194]
+            - button "2026년 4월로 이동" [ref=e195]
+            - button "2026년 5월로 이동" [ref=e196]
+            - button "2026년 6월로 이동" [ref=e197]
+        - generic [ref=e198]:
+          - generic [ref=e199]: 저렴
+          - generic [ref=e206]: 비쌈
+  - alert [ref=e70]
