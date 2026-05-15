@@ -116,6 +116,15 @@ function buildPage(data) {
   let html = fs.readFileSync(path.join(__dirname, 'shell.html'), 'utf8');
   const theme = THEMES[data.theme] || THEMES.ember;
 
+  const cityDays = Object.fromEntries(data.trips.map(t => [t.city, t.days]));
+  const cityExpense = Object.fromEntries(data.trips.map(t => [t.city, t.expense]));
+  const tripKeys = data.trips.map(t => t.city);
+  const creator = {
+    name: data.creator.name,
+    email: data.creator.email,
+    couponUrl: data.coupon.showcaseUrl,
+  };
+
   const repl = {
     '{{NAME}}': data.creator.name,
     '{{TAGLINE}}': data.creator.tagline,
@@ -138,12 +147,36 @@ function buildPage(data) {
     '<!--{{TRIP_DOTS}}-->': renderTripDots(data.trips),
     '<!--{{LINK_SECTIONS}}-->': renderLinkSections(data.linkSections),
     '<!--{{COUPON_CARDS}}-->': renderCouponCards(data.coupon.cards),
+    '{{CREATOR_JSON}}': JSON.stringify(creator),
+    '{{PRODUCTS_JSON}}': JSON.stringify(data.products),
+    '{{CITY_DAYS_JSON}}': JSON.stringify(cityDays),
+    '{{CITY_EXPENSE_JSON}}': JSON.stringify(cityExpense),
+    '{{TRIP_KEYS_JSON}}': JSON.stringify(tripKeys),
   };
 
   for (const [k, v] of Object.entries(repl)) {
     html = html.split(k).join(v);
   }
   return html;
+}
+
+if (require.main === module) {
+  const name = process.argv[2];
+  if (!name) {
+    console.error('사용법: node build.js <크리에이터명>');
+    process.exit(1);
+  }
+  let data;
+  try {
+    data = require(path.join(__dirname, 'data', name + '.js'));
+  } catch (e) {
+    console.error(`데이터 파일을 찾을 수 없습니다: data/${name}.js`);
+    process.exit(1);
+  }
+  const out = buildPage(data);
+  const dest = path.join(__dirname, '..', 'done', name + '.html');
+  fs.writeFileSync(dest, out, 'utf8');
+  console.log('생성 완료:', dest);
 }
 
 module.exports = { buildPage, THEMES };

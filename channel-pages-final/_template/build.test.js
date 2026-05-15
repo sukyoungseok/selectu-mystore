@@ -64,3 +64,23 @@ test('쿠폰 카드: 쿠폰 패널 카드가 생성된다', () => {
   assert.ok(html.includes('<div class="cc-stripe" style="background:var(--amber)"></div>'));
   assert.ok(!html.includes('<!--{{COUPON_CARDS}}-->'));
 });
+
+test('스크립트 데이터: CREATOR·CITY_DAYS·CITY_EXPENSE·TRIP_KEYS가 주입된다', () => {
+  const html = buildPage(data);
+  assert.ok(html.includes('const CREATOR={"name":"부산맛나","email":"ttt0831@naver.com","couponUrl":"https://www.myrealtrip.com/coupons"};'));
+  assert.ok(html.includes('const TRIP_KEYS=["sapporo"];'));
+  assert.ok(html.includes('"sapporo":'));
+  assert.ok(html.includes('"삿포로 3박 4일 총경비"'));
+  assert.ok(!html.includes('{{CREATOR_JSON}}'));
+  assert.ok(!html.includes('{{PRODUCTS_JSON}}'));
+  assert.ok(!html.includes('{{CITY_DAYS_JSON}}'));
+  assert.ok(!html.includes('{{CITY_EXPENSE_JSON}}'));
+  assert.ok(!html.includes('{{TRIP_KEYS_JSON}}'));
+});
+
+test('최종 산출물: 미치환 슬롯이 하나도 없다', () => {
+  const html = buildPage(data);
+  assert.ok(!/\{\{[A-Z_]+\}\}/.test(html), '치환 안 된 {{슬롯}} 발견');
+  assert.ok(!html.includes('<!--{{'), '치환 안 된 <!--{{슬롯}}--> 발견');
+  assert.ok(!html.includes('/*{{'), '치환 안 된 /*{{슬롯}}*/ 발견');
+});
