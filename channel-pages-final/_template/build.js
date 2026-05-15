@@ -14,6 +14,10 @@ function esc(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
+function safeJson(v) {
+  return JSON.stringify(v).replace(/<\//g, '<\\/');
+}
+
 const SNS_ICONS = {
   instagram: '../assets/icons/insta.png',
   youtube:   '../assets/icons/youtube.png',
@@ -147,11 +151,11 @@ function buildPage(data) {
     '<!--{{TRIP_DOTS}}-->': renderTripDots(data.trips),
     '<!--{{LINK_SECTIONS}}-->': renderLinkSections(data.linkSections),
     '<!--{{COUPON_CARDS}}-->': renderCouponCards(data.coupon.cards),
-    '{{CREATOR_JSON}}': JSON.stringify(creator),
-    '{{PRODUCTS_JSON}}': JSON.stringify(data.products),
-    '{{CITY_DAYS_JSON}}': JSON.stringify(cityDays),
-    '{{CITY_EXPENSE_JSON}}': JSON.stringify(cityExpense),
-    '{{TRIP_KEYS_JSON}}': JSON.stringify(tripKeys),
+    '{{CREATOR_JSON}}': safeJson(creator),
+    '{{PRODUCTS_JSON}}': safeJson(data.products),
+    '{{CITY_DAYS_JSON}}': safeJson(cityDays),
+    '{{CITY_EXPENSE_JSON}}': safeJson(cityExpense),
+    '{{TRIP_KEYS_JSON}}': safeJson(tripKeys),
   };
 
   for (const [k, v] of Object.entries(repl)) {
@@ -170,7 +174,11 @@ if (require.main === module) {
   try {
     data = require(path.join(__dirname, 'data', name + '.js'));
   } catch (e) {
-    console.error(`데이터 파일을 찾을 수 없습니다: data/${name}.js`);
+    if (e.code === 'MODULE_NOT_FOUND') {
+      console.error(`데이터 파일을 찾을 수 없습니다: data/${name}.js`);
+    } else {
+      console.error(`데이터 파일 로드 실패: ${e.message}`);
+    }
     process.exit(1);
   }
   const out = buildPage(data);
